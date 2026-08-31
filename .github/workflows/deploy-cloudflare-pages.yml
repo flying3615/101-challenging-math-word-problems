@@ -84,7 +84,8 @@ jobs:
             while IFS= read -r -d '' file; do
               npx --yes wrangler@4.127.1 r2 object put "math-word-problem-resources/${file}" \
                 --file="$file" \
-                --content-type="application/pdf"
+                --content-type="application/pdf" \
+                --remote
             done
 
       - name: Prepare Pages assets

@@ -52,12 +52,11 @@ for (const book of BOOKS) {
 }
 
 // ---- 3. every question must carry a hint written for it, not a template ----
-// Books 1 and 2 shipped 1 and 11 distinct sentences for 101 questions; both have
-// since been written out per question. Books 3 and 6 are still on placeholder
-// templates (10 and 3 distinct sentences for 101 questions) and are therefore
-// absent from this list — that is outstanding work tracked in
+// Books 1, 2 and 3 shipped 1, 11 and 10 distinct sentences for 101 questions;
+// all 3 have since been written out per question. Book 6 is still on placeholder
+// templates (3 distinct sentences for 101 questions) and is therefore absent — that is outstanding work tracked in
 // HINT-REVIEW-ALL-BOOKS.md, not something to assert before it is true.
-for (const book of [1, 2, 4, 5]) {
+for (const book of [1, 2, 3, 4, 5]) {
   const questions = JSON.parse(
     await readFile(new URL(`../practice/book-${book}/question-bank.json`, import.meta.url), 'utf8'),
   ).questions;
@@ -71,4 +70,4 @@ for (const book of [1, 2, 4, 5]) {
   }
 }
 
-console.log('PASS: no hint gives away its answer, and books 1, 2, 4 and 5 keep a hint written for every question.');
+console.log('PASS: no hint gives away its answer, and books 1, 2, 3, 4 and 5 keep a hint written for every question.');

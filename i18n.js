@@ -17,6 +17,18 @@
       modelBar: 'A change story', modelFraction: 'Parts of one whole', modelUnit: 'Equal groups or a ratio', modelMoney: 'Prices and equal sets', modelMass: 'Known and unknown measures', modelGeometry: 'Shape and measurement', modelRelationship: 'Story relationship',
       focusBar: 'Place the known values in order before finding what changes.', focusFraction: 'Keep the whole split into the fraction shown in this question.', focusUnit: 'Compare the values named in this story without changing their units.', focusMoney: 'Connect each equal group to the money information in the story.', focusMass: 'Put the known measure on one side and identify the missing measure.', focusGeometry: 'Mark the known side lengths before choosing a formula.', focusRelationship: 'Use only the information stated in the question.',
       topicAll: 'All',
+      brandName: 'Math Story Lab',
+      loadingMissing: 'The question bank could not be found.', loadingPreparing: 'The question library is being prepared…',
+      mapCaption: 'This map uses the information in the question. Use the small hint if you need help choosing the next operation.',
+      parts: '{{count}} parts', ratioLeft: 'first quantity', ratioRight: 'second quantity',
+      sublineUnit: 'Each block is 1 equal part. Do not calculate the answer yet.',
+      sublineMassLead: 'Use', sublineMassTail: 'to balance the relationship.',
+      sublineGeometry: 'Measurements given in this question: {{values}}. Decide which part of the shape each measurement describes — some of them are a perimeter or an area, not a side.',
+      sublineGeometryNone: 'Read the measurements from the question and mark them on the shape before choosing a formula.',
+      sublineGeometryTail: 'This outline is only a reminder that the question is about a shape. It is not the shape in the question.',
+      sublineGuess: 'Solve this one by listing and testing, not by drawing bars. Write out the numbers that fit 1 condition, then find which of them also fits the other.',
+      modelGuess: 'A number to search for', focusGuess: 'List the numbers that fit 1 condition, then find which of them also fits the other.',
+      numberInStory: 'Number in the story', testCondition: 'use it as a test condition',
     },
     'zh-Hans': {
       language: '语言', english: 'English', chinese: '中文', homeTitle: '101 道挑战数学应用题', practiceTitle: '数学故事实验室 · 第 {{book}} 册练习',
@@ -31,10 +43,32 @@
       modelBar: '增减数量关系', modelFraction: '一个整体的部分', modelUnit: '相等的组或比', modelMoney: '价格与相等的组', modelMass: '已知与未知的量', modelGeometry: '图形与测量', modelRelationship: '题目中的数量关系',
       focusBar: '按顺序放置已知数量，再找出发生变化的数量。', focusFraction: '把整体按题目中的分数分成相等部分。', focusUnit: '比较题目中提到的数量，并保持单位不变。', focusMoney: '把每个相等的组与题目中的金额信息对应起来。', focusMass: '把已知量放在一边，再找出缺少的量。', focusGeometry: '选择公式前，标出已知边长。', focusRelationship: '只使用题目中给出的信息。',
       topicAll: '全部',
+      brandName: '数学故事实验室',
+      loadingMissing: '找不到题库文件。', loadingPreparing: '题库正在准备中…',
+      mapCaption: '这张图只用题目中给出的信息。如果不确定下一步用哪种运算，可以看看小提示。',
+      parts: '{{count}} 份', ratioLeft: '第 1 个数量', ratioRight: '第 2 个数量',
+      sublineUnit: '每一格都是 1 个相等的部分。先不要急着算出答案。',
+      sublineMassLead: '用', sublineMassTail: '来平衡这个数量关系。',
+      sublineGeometry: '本题给出的测量值：{{values}}。请判断每个数值对应图形的哪个部分 —— 其中有些是周长或面积，并不是边长。',
+      sublineGeometryNone: '先从题目中读出各个测量值并标在图形上，再选择公式。',
+      sublineGeometryTail: '这个轮廓只是提醒你本题与图形有关，它并不是题目中的那个图形。',
+      sublineGuess: '这道题要用列举和检验来解，而不是画条形图。先写出满足其中 1 个条件的数，再看哪一个同时满足另一个条件。',
+      modelGuess: '要找的那个数', focusGuess: '先列出满足其中 1 个条件的数，再找出同时满足另一个条件的那个。',
+      numberInStory: '题目中的数字', testCondition: '把它当作一个检验条件',
     }
   };
   const topicText = {
-    'Addition within 100':'100 以内加法','Subtraction within 100':'100 以内减法','Multiplication':'乘法','Division':'除法','Addition and Subtraction within 100':'100 以内加减法','Addition and Multiplication within 100':'加法和乘法','Addition and Division within 100':'加法和除法','Subtraction and Multiplication within 100':'减法和乘法','Subtraction and Division within 100':'减法和除法','Multiplication and Division within 100':'乘法和除法','2-part Word Problems':'两步应用题','Whole Numbers':'整数','Fractions':'分数','Decimals':'小数','Percentages':'百分数','Ratio':'比','Measurement':'测量','Geometry':'几何','Money':'钱币与金额','Time':'时间','Speed':'速度','Area and Perimeter':'面积和周长','Volume':'体积','Average':'平均数'
+    'Addition within 100':'100 以内加法','Subtraction within 100':'100 以内减法','Multiplication':'乘法','Division':'除法','Addition and Subtraction within 100':'100 以内加减法','Addition and Multiplication within 100':'加法和乘法','Addition and Division within 100':'加法和除法','Subtraction and Multiplication within 100':'减法和乘法','Subtraction and Division within 100':'减法和除法','Multiplication and Division within 100':'乘法和除法','2-part Word Problems':'两步应用题','Whole Numbers':'整数','Fractions':'分数','Decimals':'小数','Percentages':'百分数','Ratio':'比','Measurement':'测量','Geometry':'几何','Money':'钱币与金额','Time':'时间','Speed':'速度','Area and Perimeter':'面积和周长','Volume':'体积','Average':'平均数',
+    // the six banks between them use 35 distinct topic strings; these are the
+    // ones the original map missed, so they showed in English in the sidebar,
+    // the topic pill and the breadcrumb even in Chinese
+    'Area & Perimeter':'面积和周长','Length':'长度','Mass':'质量','Percentage':'百分数',
+    'Four Operations':'四则运算','The Four Operations of Whole Numbers':'整数四则运算',
+    'Length and Mass':'长度和质量','Distance, Speed and Time':'路程、速度与时间',
+    '2-part Problems':'两步应用题','2-part: Area':'两步应用题：面积',
+    '2-part: Four Operations':'两步应用题：四则运算','2-part: Measurement':'两步应用题：测量',
+    '2-part: Percentage':'两步应用题：百分数','2-part: Ratio':'两步应用题：比',
+    '2-part: The Four Operations of Whole Numbers':'两步应用题：整数四则运算'
   };
   const replace = (value, variables = {}) => String(value).replace(/{{(\w+)}}/g, (_, key) => variables[key] ?? '');
   const t = (key, variables) => replace((text[language] && text[language][key]) || text.en[key] || key, variables);
@@ -80,7 +114,13 @@
     document.title = t('practiceTitle', { book });
     setNodeText('.collection-back', t('back'));
     const brand = document.querySelector('.brand > div:nth-child(2)');
-    if (brand) brand.innerHTML = `Math Story Lab<small>${t('brandSub', { book })}</small>`;
+    if (brand) brand.innerHTML = `${t('brandName')}<small>${t('brandSub', { book })}</small>`;
+    document.querySelectorAll('.loading').forEach(node => {
+      const current = node.textContent.trim();
+      if (/could not be found/i.test(current) || current === t('loadingMissing')) node.textContent = t('loadingMissing');
+      else if (/being prepared/i.test(current) || current === t('loadingPreparing')) node.textContent = t('loadingPreparing');
+      else node.textContent = t('loading');
+    });
     setNodeText('#parentButton', t('parent'));
     document.querySelector('.summary')?.setAttribute('aria-label', t('overview'));
     setNodeText('.summary .intro b', t('overviewStrong'));
@@ -147,9 +187,10 @@
   function applyStoryMap(question) {
     const map = document.querySelector('#model');
     if (!map) return;
-    const type = map.querySelector('.fraction-map') ? 'fraction' : map.querySelector('.money-map') ? 'money' : map.querySelector('.balance-map') ? 'mass' : map.querySelector('.shape-map') ? 'geometry' : (question.model === 'bar-change' ? 'bar' : question.model === 'unit-bar' ? 'unit' : 'relationship');
-    const titles = { bar:'modelBar', fraction:'modelFraction', unit:'modelUnit', money:'modelMoney', mass:'modelMass', geometry:'modelGeometry', relationship:'modelRelationship' };
-    const focus = { bar:'focusBar', fraction:'focusFraction', unit:'focusUnit', money:'focusMoney', mass:'focusMass', geometry:'focusGeometry', relationship:'focusRelationship' };
+    const type = map.querySelector('.fraction-map') ? 'fraction' : map.querySelector('.money-map') ? 'money' : map.querySelector('.balance-map') ? 'mass' : map.querySelector('.shape-map') ? 'geometry' : (question.model === 'guess-check' ? 'guess' : question.model === 'bar-change' ? 'bar' : question.model === 'unit-bar' ? 'unit' : 'relationship');
+    const titles = { bar:'modelBar', fraction:'modelFraction', unit:'modelUnit', money:'modelMoney', mass:'modelMass', geometry:'modelGeometry', guess:'modelGuess', relationship:'modelRelationship' };
+    const focus = { bar:'focusBar', fraction:'focusFraction', unit:'focusUnit', money:'focusMoney', mass:'focusMass', geometry:'focusGeometry', guess:'focusGuess', relationship:'focusRelationship' };
+    setNodeText('.model-caption', t('mapCaption'));
     setNodeText('.model-kicker', t('storyMap', { id: question.id }));
     setNodeText('.model h3', t('storyMapTitle', { title: t(titles[type]) }));
     setNodeText('.model-note', t(focus[type]));
@@ -160,7 +201,10 @@
     document.querySelectorAll('.money-map .story-card').forEach((card, index) => { const label = card.querySelector('span'); const note = card.querySelector('small'); if (label) label.textContent = t('moneyValue', { index: index + 1 }); if (note) note.textContent = t('fromQuestion'); });
     const target = document.querySelector('.target-card'); if (target) { setNodeText('span', t('nextStep'), target); setNodeText('strong', t('equalSets'), target); setNodeText('small', t('matchGroups'), target); }
     setNodeText('.known-side span', t('knownMeasure')); setNodeText('.unknown-side span', t('find'));
-    document.querySelectorAll('.relation-cards:not(.money-map) .story-card').forEach((card, index) => { const label = card.querySelector('span'); const note = card.querySelector('small'); if (label) label.textContent = [t('knownValue'), t('compareWith'), t('target')][index] || label.textContent; if (note) note.textContent = index === 2 ? t('identify') : t('given'); });
+    document.querySelectorAll('.relation-cards:not(.money-map):not(.guess-map) .story-card').forEach((card, index) => { const label = card.querySelector('span'); const note = card.querySelector('small'); if (label) label.textContent = [t('knownValue'), t('compareWith'), t('target')][index] || label.textContent; if (note) note.textContent = index === 2 ? t('identify') : t('given'); });
+    // a guess-and-check map lists candidate numbers, not a known/compare/target
+    // triple, so it must not be relabelled by the rule above
+    document.querySelectorAll('.guess-map .story-card').forEach(card => { const label = card.querySelector('span'); const note = card.querySelector('small'); if (label) label.textContent = t('numberInStory'); if (note) note.textContent = t('testCondition'); });
   }
   function startPractice(book, bank) {
     prepareBank(bank);

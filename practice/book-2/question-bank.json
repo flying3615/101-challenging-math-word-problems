@@ -7,10 +7,10 @@
       "question": "Jane has 80 apples and 142 oranges. Linda has 92 apples more than Jane. How many apples and oranges do they have altogether?",
       "answer": "394",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 394.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 5,
       "questionZh": "Jane 有 80 个苹果和 142 个橙子。Linda 比 Jane 多 92 个苹果。她们一共有多少个苹果和橙子？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 394。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 2,
@@ -18,10 +18,10 @@
       "question": "A baker uses 80 eggs for cakes and 12 eggs for cookies. If 56 eggs are left, how many eggs were there at first?",
       "answer": "148",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 148.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 5,
       "questionZh": "一名面包师用 80 个鸡蛋做蛋糕，用 12 个鸡蛋做饼干。如果还剩 56 个鸡蛋，原来有多少个鸡蛋？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 148。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 3,
@@ -29,10 +29,10 @@
       "question": "There are 124 red marbles and 135 blue marbles in a box. 218 green marbles are added. How many marbles are in the box now?",
       "answer": "477",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 477.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 5,
       "questionZh": "盒子里有 124 个红色弹珠和 135 个蓝色弹珠。又放入 218 个绿色弹珠。现在盒子里有多少个弹珠？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 477。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 4,
@@ -40,10 +40,10 @@
       "question": "Joan has 54 stickers. She gives 32 stickers to her brother and buys some stickers. She has 58 stickers in the end. How many stickers does she buy?",
       "answer": "36",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 36.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 6,
       "questionZh": "Joan 有 54 张贴纸。她给了弟弟 32 张贴纸，又买了一些贴纸。最后她有 58 张贴纸。她买了多少张贴纸？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 36。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 5,
@@ -51,10 +51,10 @@
       "question": "The difference between 2 numbers is 128. If the bigger number is 174, what is the smaller number?",
       "answer": "46",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 46.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 6,
       "questionZh": "2 个数的差是 128。如果较大的数是 174，较小的数是多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 46。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 6,
@@ -62,10 +62,10 @@
       "question": "There are 156 students in a room. 81 leave and some enter. There are 108 students in the end. How many students enter?",
       "answer": "33",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 33.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 6,
       "questionZh": "房间里有 156 名学生。81 名离开后，又有一些学生进入。最后有 108 名学生。进入了多少名学生？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 33。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 7,
@@ -73,10 +73,10 @@
       "question": "There are 18 apples in bag A. There are 2 times as many apples in bag B as in bag A. How many apples are there altogether?",
       "answer": "54",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 54.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 7,
       "questionZh": "A 袋里有 18 个苹果。B 袋里的苹果数量是 A 袋的 2 倍。一共有多少个苹果？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 54。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 8,
@@ -84,10 +84,10 @@
       "question": "Thomas shares 24 egg tarts equally with 2 friends. He puts his share equally into 2 boxes. How many egg tarts are in each box?",
       "answer": "4",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 4.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 7,
       "questionZh": "Thomas 将 24 个蛋挞平均分给自己和 2 位朋友。他再把自己的那份平均放进 2 个盒子里。每个盒子里有多少个蛋挞？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 4。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 9,
@@ -95,10 +95,10 @@
       "question": "A box contains 7 red rubber bands and 6 yellow rubber bands. How many rubber bands are in 4 such boxes?",
       "answer": "52",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 52.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 7,
       "questionZh": "一个盒子里有 7 条红色橡皮筋和 6 条黄色橡皮筋。4 个这样的盒子里共有多少条橡皮筋？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 52。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 10,
@@ -106,10 +106,10 @@
       "question": "Tom buys 3 packs of balloons with 8 balloons in each pack. If he uses 16 balloons, how many balloons has he left?",
       "answer": "8",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 8.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 8,
       "questionZh": "Tom 买了 3 包气球，每包有 8 个气球。如果他用了 16 个气球，还剩多少个气球？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 8。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 11,
@@ -117,10 +117,10 @@
       "question": "Mr David has 235 oranges. He throws 89 rotten oranges away and buys 82 more. How many oranges does he have in the end?",
       "answer": "228",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 228.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 8,
       "questionZh": "David 先生有 235 个橙子。他扔掉 89 个坏橙子，又买了 82 个。最后他有多少个橙子？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 228。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 12,
@@ -128,10 +128,10 @@
       "question": "Alice sews 4 buttons on a dress. After sewing 8 dresses, she has 19 buttons left. How many buttons does she have at first?",
       "answer": "51",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 51.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 8,
       "questionZh": "Alice 在每条连衣裙上缝 4 颗纽扣。缝完 8 条连衣裙后，她还剩 19 颗纽扣。她原来有多少颗纽扣？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 51。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 13,
@@ -139,10 +139,10 @@
       "question": "Mr Brown sold 320 strawberries on Monday and 456 on Tuesday. He packed the rest equally into 10 punnets of 8 strawberries each. How many strawberries did he have at first?",
       "answer": "856",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 856.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 9,
       "questionZh": "Brown 先生星期一卖了 320 个草莓，星期二卖了 456 个。他把剩下的草莓平均装进 10 盒，每盒 8 个草莓。他原来有多少个草莓？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 856。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 14,
@@ -150,10 +150,10 @@
       "question": "There were 67 oranges in box A. Box B had 92 more than box A. If 164 oranges were sold, how many oranges were left in both boxes?",
       "answer": "62",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 62.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 9,
       "questionZh": "A 箱原有 67 个橙子。B 箱比 A 箱多 92 个橙子。如果卖出了 164 个橙子，两箱一共还剩多少个橙子？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 62。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 15,
@@ -161,10 +161,10 @@
       "question": "There were 784 people at a party. There were 220 men and 176 women. The rest were children. How many children were there?",
       "answer": "388",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 388.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 9,
       "questionZh": "聚会上有 784 人，其中有 220 名男子和 176 名女子，其余是儿童。有多少名儿童？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 388。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 16,
@@ -172,10 +172,10 @@
       "question": "Sharon had 450 stickers. She gave some to her brother and 124 to her sister. She had 120 left. How many stickers did she give her brother?",
       "answer": "206",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 206.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 10,
       "questionZh": "Sharon 原有 450 张贴纸。她给弟弟一些贴纸，又给妹妹 124 张。最后还剩 120 张。她给弟弟多少张贴纸？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 206。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 17,
@@ -183,10 +183,10 @@
       "question": "Mr Rice gave 9 students 4 sweets each and had 14 sweets left. How many sweets did he buy?",
       "answer": "50",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 50.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 10,
       "questionZh": "Rice 先生给 9 名学生每人 4 颗糖，还剩 14 颗糖。他买了多少颗糖？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 50。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 18,
@@ -194,10 +194,10 @@
       "question": "Alice arranged 4 white chairs and 5 black chairs in a row. If she arranged 8 such rows, how many chairs were there altogether?",
       "answer": "72",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 72.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 10,
       "questionZh": "Alice 将 4 把白色椅子和 5 把黑色椅子排成一行。如果她排了 8 行这样的椅子，一共有多少把椅子？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 72。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 19,
@@ -205,10 +205,10 @@
       "question": "Tom had 35 stickers. Jack had 120 more than Tom and Jill had 48 fewer than Jack. How many stickers did they have altogether?",
       "answer": "297",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 297.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 11,
       "questionZh": "Tom 有 35 张贴纸。Jack 比 Tom 多 120 张，Jill 比 Jack 少 48 张。他们一共有多少张贴纸？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 297。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 20,
@@ -216,10 +216,10 @@
       "question": "Jerry bought 3 boxes of balloons with 10 balloons in each. He repacked them into boxes of 5. How many boxes were there?",
       "answer": "6",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 11,
       "questionZh": "Jerry 买了 3 箱气球，每箱有 10 个。他把这些气球重新装进每箱 5 个的盒子里。一共装成多少箱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 6。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 21,
@@ -227,10 +227,10 @@
       "question": "A fruiterer sold pears in bags of 3. For every 4 bags bought, a customer got 1 pear free. If Mr Scott bought 12 bags, how many pears did he have altogether?",
       "answer": "39",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 39.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 11,
       "questionZh": "一名水果商把梨按每袋 3 个出售。顾客每买 4 袋，就免费获赠 1 个梨。如果 Scott 先生买了 12 袋，他一共有多少个梨？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 39。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 22,
@@ -238,10 +238,10 @@
       "question": "Jack had 5 boxes of marbles with 10 marbles in each. Betty had 28 more marbles than Jack. How many marbles did they have altogether?",
       "answer": "128",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 128.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 12,
       "questionZh": "Jack 有 5 盒弹珠，每盒有 10 个。Betty 比 Jack 多 28 个弹珠。他们一共有多少个弹珠？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 128。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 23,
@@ -249,10 +249,10 @@
       "question": "Simon had 248 balloons. Susan had 16 more than him. If she sold 86 balloons, how many balloons had she left?",
       "answer": "178",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 178.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 12,
       "questionZh": "Simon 有 248 个气球。Susan 比他多 16 个。如果她卖了 86 个气球，还剩多少个气球？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 178。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 24,
@@ -260,10 +260,10 @@
       "question": "Jane, Mary and Tom had 215 stickers. Jane had 63. Mary had 12 fewer than Jane. How many stickers did Tom have?",
       "answer": "101",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 101.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 12,
       "questionZh": "Jane、Mary 和 Tom 一共有 215 张贴纸。Jane 有 63 张。Mary 比 Jane 少 12 张。Tom 有多少张贴纸？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 101。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 25,
@@ -271,10 +271,10 @@
       "question": "Mary had 6 packs of sweets with 5 sweets in each. She shared them equally with 2 friends. How many sweets did each person receive?",
       "answer": "10",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 10.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 13,
       "questionZh": "Mary 有 6 包糖，每包有 5 颗。她把糖平均分给自己和 2 位朋友。每人分到多少颗糖？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 10。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 26,
@@ -282,10 +282,10 @@
       "question": "Mr Owen had a square field. He planted 5 trees on each side, with a tree at every corner. How many trees did he plant altogether?",
       "answer": "16",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 16.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 13,
       "questionZh": "Owen 先生有一块正方形田地。他在每条边上种 5 棵树，每个角上都种有树。他一共种了多少棵树？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 16。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 27,
@@ -293,10 +293,10 @@
       "question": "Alice had some buttons. Tom gave her 14 buttons and she used 8. She then had 19 buttons. How many buttons did Alice have at first?",
       "answer": "13",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 13.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 13,
       "questionZh": "Alice 原有一些纽扣。Tom 给了她 14 颗，她用了 8 颗。后来她有 19 颗纽扣。Alice 原来有多少颗纽扣？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 13。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 28,
@@ -304,10 +304,10 @@
       "question": "Sue has 18 stamps and Bob has 12 stamps. How many stamps must Sue give Bob so both have the same number?",
       "answer": "3",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 3.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 14,
       "questionZh": "Sue 有 18 张邮票，Bob 有 12 张邮票。Sue 必须给 Bob 多少张邮票，两人的邮票数量才相同？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 3。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 29,
@@ -315,10 +315,10 @@
       "question": "Joanne had some rubber bands. Ann gave her 24 and Peter gave her 15. Joanne used 32 and had 97 left. How many rubber bands did she have at first?",
       "answer": "90",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 90.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 14,
       "questionZh": "Joanne 原有一些橡皮筋。Ann 给了她 24 条，Peter 给了她 15 条。Joanne 用了 32 条，还剩 97 条。她原来有多少条橡皮筋？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 90。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 30,
@@ -326,10 +326,10 @@
       "question": "A red bus seats 10 students and a blue bus seats 8. A school hired 5 red buses and 4 blue buses. How many students went on the excursion?",
       "answer": "82",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 82.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 14,
       "questionZh": "一辆红色巴士可坐 10 名学生，一辆蓝色巴士可坐 8 名学生。一所学校租了 5 辆红色巴士和 4 辆蓝色巴士。参加郊游的学生有多少名？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 82。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 31,
@@ -337,10 +337,10 @@
       "question": "Mrs Cole sold 3 boxes of 4 apple pies. Mrs Fay sold 8 more apple pies than Mrs Cole. If each had 17 apple pies left, how many apple pies did both have at first?",
       "answer": "66",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 66.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 15,
       "questionZh": "Cole 太太卖了 3 盒苹果派，每盒 4 个。Fay 太太比 Cole 太太多卖 8 个苹果派。如果两人各剩 17 个苹果派，她们原来一共有多少个苹果派？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 66。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 32,
@@ -348,10 +348,10 @@
       "question": "There were 180 green apples and 210 red apples. Mr Smith sold 84 green and 87 red apples, gave some away, and had 120 left. How many apples did he give away?",
       "answer": "99",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 99.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 15,
       "questionZh": "原有 180 个青苹果和 210 个红苹果。Smith 先生卖了 84 个青苹果和 87 个红苹果，又送出一些，最后剩 120 个。他送出了多少个苹果？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 99。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 33,
@@ -359,10 +359,10 @@
       "question": "There were 125 cars in a car park. 36 cars drove out and 74 drove in. How many cars were there in the end?",
       "answer": "163",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 163.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 15,
       "questionZh": "停车场里有 125 辆汽车。36 辆开出去，74 辆开进来。最后有多少辆汽车？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 163。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 34,
@@ -370,10 +370,10 @@
       "question": "There were 867 people in a shopping centre. 45 were children and 120 were women; the rest were men. How many more men than women were there?",
       "answer": "582",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 582.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 16,
       "questionZh": "购物中心里有 867 人，其中 45 人是儿童，120 人是女性，其余是男性。男性比女性多多少人？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 582。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 35,
@@ -381,10 +381,10 @@
       "question": "Mark had some marbles. His mother gave him 12 and he gave his sister 15. He had 80 left. How many marbles did he have at first?",
       "answer": "83",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 83.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 16,
       "questionZh": "Mark 原有一些弹珠。妈妈给了他 12 个，他给了妹妹 15 个。最后他有 80 个。Mark 原来有多少个弹珠？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 83。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 36,
@@ -392,10 +392,10 @@
       "question": "There were 124 passengers on a train. At the 1st stop, 16 boarded and 52 alighted. At the 2nd stop, some alighted and none boarded. There were 26 left. How many alighted at the 2nd stop?",
       "answer": "62",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 62.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 16,
       "questionZh": "火车上有 124 名乘客。第 1 站有 16 人上车，52 人下车。第 2 站有一些人下车，没有人上车。最后剩 26 人。第 2 站有多少人下车？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 62。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 37,
@@ -403,10 +403,10 @@
       "question": "Andrew read 146 pages on Sunday, 12 more than on Monday. If there were 76 unread pages, how many pages were in the book?",
       "answer": "356",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 356.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 17,
       "questionZh": "Andrew 星期日读了 146 页，比星期一多读 12 页。如果还有 76 页没读完，这本书一共有多少页？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 356。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 38,
@@ -414,10 +414,10 @@
       "question": "There were 174 eggs in a carton. 12 rotten eggs were thrown away and some were used to bake 4 similar cakes. 138 eggs were left. How many eggs were needed for each cake?",
       "answer": "6",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 17,
       "questionZh": "一盒鸡蛋有 174 个。扔掉 12 个坏鸡蛋后，又用一些鸡蛋烤了 4 个相同的蛋糕。还剩 138 个鸡蛋。每个蛋糕需要多少个鸡蛋？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 6。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 39,
@@ -425,10 +425,10 @@
       "question": "There were 40 marbles in 3 boxes A, B and C. A and B had equal numbers. C had 3 times as many as B. How many marbles were in C?",
       "answer": "24",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 24.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 17,
       "questionZh": "A、B、C 3 个盒子里共有 40 个弹珠。A 和 B 的弹珠数量相同。C 的弹珠数量是 B 的 3 倍。C 盒里有多少个弹珠？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 24。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 40,
@@ -436,10 +436,10 @@
       "question": "Tina has 10 red buttons, 8 green buttons and 7 more orange buttons than green buttons. If the buttons are put equally in 3 groups, how many are in each group?",
       "answer": "11",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 11.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 18,
       "questionZh": "Tina 有 10 颗红色纽扣、8 颗绿色纽扣，橙色纽扣比绿色纽扣多 7 颗。如果把这些纽扣平均分成 3 组，每组有多少颗？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 11。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 41,
@@ -447,10 +447,10 @@
       "question": "At a restaurant, there are 4 tables of 10 people, 5 tables of 4 people and 7 tables of 2 people. How many people are there altogether?",
       "answer": "74",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 74.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 18,
       "questionZh": "一家餐厅里有 4 桌，每桌 10 人；5 桌，每桌 4 人；还有 7 桌，每桌 2 人。一共有多少人？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 74。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 42,
@@ -458,10 +458,10 @@
       "question": "Sam tied 4 bunches of 7 balloons each. Linda tied 8 bunches of 6 balloons each. How many more balloons did Linda tie than Sam?",
       "answer": "20",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 20.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 18,
       "questionZh": "Sam 扎了 4 束气球，每束 7 个。Linda 扎了 8 束气球，每束 6 个。Linda 比 Sam 多扎了多少个气球？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 20。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 43,
@@ -469,10 +469,10 @@
       "question": "Thomas had 70 stickers. Jane had 94 more than him and Pat had 16 fewer than Jane. How many stickers did they have altogether?",
       "answer": "382",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 382.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 19,
       "questionZh": "Thomas 有 70 张贴纸。Jane 比他多 94 张，Pat 比 Jane 少 16 张。他们一共有多少张贴纸？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 382。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 44,
@@ -480,10 +480,10 @@
       "question": "Sam and Alex had 20 marbles altogether. Sam gave Alex 6 marbles so they had equal numbers. How many marbles did Sam have at first?",
       "answer": "16",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 16.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 19,
       "questionZh": "Sam 和 Alex 一共有 20 个弹珠。Sam 给 Alex 6 个弹珠后，两人的弹珠数量相同。Sam 原来有多少个弹珠？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 16。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 45,
@@ -491,10 +491,10 @@
       "question": "There were 8 apple pies and chocolate pies in a box. An apple pie cost $5 and a chocolate pie cost $4. If $34 was collected, how many of each pie were sold?",
       "answer": "2 apple pies and 6 chocolate pies",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 2 apple pies and 6 chocolate pies.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 19,
       "questionZh": "一个盒子里共有 8 个苹果派和巧克力派。苹果派每个 $5，巧克力派每个 $4。如果共收了 $34，卖出了各多少个苹果派和巧克力派？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 2 个苹果派和 6 个巧克力派。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 46,
@@ -502,10 +502,10 @@
       "question": "There were 9 cars and 10 motorcycles in a car park. How many more car wheels were there than motorcycle wheels?",
       "answer": "16",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 16.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 20,
       "questionZh": "停车场里有 9 辆汽车和 10 辆摩托车。汽车的车轮比摩托车的车轮多多少个？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 16。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 47,
@@ -513,10 +513,10 @@
       "question": "Mrs Jones bought 35 apples and put them equally into 5 boxes. She gave 3 boxes to friends. How many apples had she left?",
       "answer": "14",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 14.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 20,
       "questionZh": "Jones 太太买了 35 个苹果，平均放进 5 个盒子。她把其中 3 个盒子送给朋友。她还剩多少个苹果？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 14。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 48,
@@ -524,10 +524,10 @@
       "question": "A farmer collected 245 eggs. He sold 133 in the morning and 96 in the afternoon. The rest were placed equally on 2 trays. How many eggs were on each tray?",
       "answer": "8",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 8.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 20,
       "questionZh": "一位农民收集了 245 个鸡蛋。他上午卖了 133 个，下午卖了 96 个。剩下的鸡蛋平均放在 2 个托盘上。每个托盘上有多少个鸡蛋？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 8。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 49,
@@ -535,10 +535,10 @@
       "question": "Mrs Cook baked 6 trays of cookies with 9 cookies on each tray. She gave 12 cookies to her children and packed the rest equally into 2 bags. How many cookies were in each bag?",
       "answer": "21",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 21.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 21,
       "questionZh": "Cook 太太烤了 6 盘饼干，每盘有 9 块。她给孩子们 12 块饼干，再把其余的平均装进 2 个袋子。每袋有多少块饼干？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 21。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 50,
@@ -546,10 +546,10 @@
       "question": "Mike and Giggs had 24 apples. Mike ate 4 apples and gave away 6. They then had the same number. How many apples did Giggs have?",
       "answer": "7",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 7.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 21,
       "questionZh": "Mike 和 Giggs 一共有 24 个苹果。Mike 吃了 4 个苹果，又送出 6 个。之后两人的苹果数量相同。Giggs 有多少个苹果？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 7。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 51,
@@ -557,10 +557,10 @@
       "question": "There were 15 children at a party. 6 ate 2 chicken wings each and the rest ate 5 each. How many chicken wings were eaten?",
       "answer": "57",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 57.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 21,
       "questionZh": "聚会上有 15 名儿童。6 人每人吃了 2 个鸡翅，其余的人每人吃了 5 个。一共吃了多少个鸡翅？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 57。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 52,
@@ -568,10 +568,10 @@
       "question": "A box had 50 muffins: 18 strawberry, 24 chocolate and the rest blueberry. How many blueberry muffins were there in 5 such boxes?",
       "answer": "40",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 40.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 22,
       "questionZh": "一个盒子里有 50 个松饼：18 个草莓味、24 个巧克力味，其余是蓝莓味。5 个这样的盒子里有多少个蓝莓松饼？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 40。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 53,
@@ -579,10 +579,10 @@
       "question": "Alvin, Bob and Chris have 109 stickers altogether. Alvin has 25. Chris has 2 times as many as Bob. How many stickers does Chris have?",
       "answer": "56",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 56.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 22,
       "questionZh": "Alvin、Bob 和 Chris 一共有 109 张贴纸。Alvin 有 25 张。Chris 的贴纸数量是 Bob 的 2 倍。Chris 有多少张贴纸？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 56。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 54,
@@ -590,10 +590,10 @@
       "question": "Sally has 7 erasers in a row measuring 28 cm. What is the length of 3 erasers?",
       "answer": "12 cm",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 12 cm.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 22,
       "questionZh": "Sally 将 7 块橡皮排成一行，长度为 28 cm。3 块橡皮的长度是多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 12 cm。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 55,
@@ -601,10 +601,10 @@
       "question": "Tim is 10 cm taller than Jack. Jack is 5 cm taller than Alex. If Alex is 142 cm tall, how tall is Tim?",
       "answer": "157 cm",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 157 cm.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 23,
       "questionZh": "Tim 比 Jack 高 10 cm。Jack 比 Alex 高 5 cm。如果 Alex 身高 142 cm，Tim 身高多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 157 cm。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 56,
@@ -612,10 +612,10 @@
       "question": "Mrs Drew used 13 kg of flour and packed the rest into 4 bags of 3 kg each. How much flour did she have at first?",
       "answer": "25 kg",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 25 kg.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 23,
       "questionZh": "Drew 太太用了 13 kg 面粉，把剩下的面粉装进 4 袋，每袋 3 kg。她原来有多少 kg 面粉？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 25 kg。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 57,
@@ -623,10 +623,10 @@
       "question": "4 bags of flour and 3 bags of sugar have a mass of 39 kg. Each bag of sugar has a mass of 5 kg. What is the mass of each bag of flour?",
       "answer": "6 kg",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 6 kg.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 23,
       "questionZh": "4 袋面粉和 3 袋糖的质量共为 39 kg。每袋糖的质量是 5 kg。每袋面粉的质量是多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 6 kg。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 58,
@@ -634,10 +634,10 @@
       "question": "There was 39 kg of flour in a sack. Mrs Taylor used 13 kg and packed the rest into bags of 2 kg each. How many bags did she have?",
       "answer": "13",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 13.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 24,
       "questionZh": "一个袋子里有 39 kg 面粉。Taylor 太太用了 13 kg，把剩下的面粉按每袋 2 kg 分装。她装了多少袋？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 13。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 59,
@@ -645,10 +645,10 @@
       "question": "A jackfruit is 250 g heavier than a durian. If the jackfruit is 590 g, what is the mass of 2 similar durians?",
       "answer": "680 g",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 680 g.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 24,
       "questionZh": "一个菠萝蜜比一个榴莲重 250 g。如果菠萝蜜重 590 g，2 个相同的榴莲质量是多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 680 g。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 60,
@@ -656,10 +656,10 @@
       "question": "Mrs Blake gave 2/7 of a watermelon to a neighbour and her children ate 3/7. What fraction of the watermelon was left?",
       "answer": "2/7",
       "model": "fraction-of-remainder",
-      "hint": "Write the known quantities, choose the operation signs, then check against 2/7.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 24,
       "questionZh": "Blake 太太把一个西瓜的 2/7 给了邻居，她的孩子们吃了 3/7。还剩这个西瓜的几分之几？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 2/7。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 61,
@@ -667,10 +667,10 @@
       "question": "A shepherd’s pie was cut into equal pieces. Anna ate 2, Aaron ate 4 and Adele ate 3. There were 2 pieces left. What fraction was eaten?",
       "answer": "9/11",
       "model": "fraction-of-remainder",
-      "hint": "Write the known quantities, choose the operation signs, then check against 9/11.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 25,
       "questionZh": "一个牧羊人派被切成大小相等的块。Anna 吃了 2 块，Aaron 吃了 4 块，Adele 吃了 3 块，还剩 2 块。吃掉的部分占这个派的几分之几？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 9/11。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 62,
@@ -678,10 +678,10 @@
       "question": "Andy has some erasers. 4/7 are blue and 1/7 are green. The rest are white. What fraction are white?",
       "answer": "2/7",
       "model": "fraction-of-remainder",
-      "hint": "Write the known quantities, choose the operation signs, then check against 2/7.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 25,
       "questionZh": "Andy 有一些橡皮。其中 4/7 是蓝色，1/7 是绿色，其余是白色。白色橡皮占几分之几？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 2/7。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 63,
@@ -689,10 +689,10 @@
       "question": "Container A has 4 litres more detergent than B. B has 2 litres more than C. If A has 15 litres, how many litres are in the 3 containers?",
       "answer": "35 litres",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 35 litres.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 25,
       "questionZh": "容器 A 中的洗涤剂比容器 B 多 4 升。容器 B 比容器 C 多 2 升。如果容器 A 中有 15 升，3 个容器中一共有多少升？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 35 升。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 64,
@@ -700,10 +700,10 @@
       "question": "Betty collected 8 pails of rainwater with 7 litres in each. She used 12 litres. How many litres were left?",
       "answer": "44 litres",
       "model": "mass-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 44 litres.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 26,
       "questionZh": "Betty 接了 8 桶雨水，每桶有 7 升。她用了 12 升。还剩多少升？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 44 升。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 65,
@@ -711,10 +711,10 @@
       "question": "Pencils are sold at 3 for $2. How many pencils can Tom buy with $12?",
       "answer": "18",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against 18.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 26,
       "questionZh": "铅笔按每 3 支 $2 出售。Tom 用 $12 能买多少支铅笔？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 18。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 66,
@@ -722,10 +722,10 @@
       "question": "A cap cost $9 and sunglasses cost $22. During a sale, both prices were reduced by $3. What was the total sale price?",
       "answer": "$25",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $25.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 26,
       "questionZh": "一顶帽子售价 $9，一副太阳镜售价 $22。促销期间，两件商品的价格都降低了 $3。促销总价是多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $25。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 67,
@@ -733,10 +733,10 @@
       "question": "A pen and a pencil cost $9. 2 similar pens cost $8. How much does the pencil cost?",
       "answer": "$5",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $5.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 27,
       "questionZh": "一支钢笔和一支铅笔共 $9。2 支相同的钢笔共 $8。一支铅笔多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $5。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 68,
@@ -744,10 +744,10 @@
       "question": "A book costs $5, a pencil costs $2 and a pencil box costs $8. Jill needs $3 more to buy all the items. How much money does she have now?",
       "answer": "$12",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 27,
       "questionZh": "一本书售价 $5，一支铅笔售价 $2，一个铅笔盒售价 $8。Jill 还差 $3 才能买下所有物品。她现在有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $12。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 69,
@@ -755,10 +755,10 @@
       "question": "Mary bought 5 mangoes for $10. How much would 9 mangoes cost?",
       "answer": "$18",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $18.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 27,
       "questionZh": "Mary 用 $10 买了 5 个芒果。9 个芒果要多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $18。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 70,
@@ -766,10 +766,10 @@
       "question": "A book cost $8. Betty bought 5 books and paid with $50. Her change was in $2 notes only. How many $2 notes did she receive?",
       "answer": "5",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against 5.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 28,
       "questionZh": "一本书售价 $8。Betty 买了 5 本书，付了 $50。她找回的零钱全是 $2 钞票。她收到了多少张 $2 钞票？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 5。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 71,
@@ -777,10 +777,10 @@
       "question": "Ann bought a $19 pen and paid $50. She received 5 $5 notes and some $2 notes in change. How many $2 notes did she receive?",
       "answer": "3",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against 3.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 28,
       "questionZh": "Ann 买了一支 $19 的钢笔，付了 $50。她找回 5 张 $5 钞票和一些 $2 钞票。她收到了多少张 $2 钞票？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 3。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 72,
@@ -788,10 +788,10 @@
       "question": "A T-shirt cost $12 and shorts cost $16. Lily paid $50 and received a $10 note and some $2 notes in change. How many $2 notes did she receive?",
       "answer": "6",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 28,
       "questionZh": "一件 T 恤售价 $12，一条短裤售价 $16。Lily 付了 $50，找回一张 $10 钞票和一些 $2 钞票。她收到了多少张 $2 钞票？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 6。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 73,
@@ -799,10 +799,10 @@
       "question": "A papaya cost as much as 2 mangoes. Mrs Bell spent $12 on 3 papayas. What was the cost of a mango?",
       "answer": "$2",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $2.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 29,
       "questionZh": "一个木瓜的价格相当于 2 个芒果。Bell 太太买 3 个木瓜花了 $12。一个芒果多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $2。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 74,
@@ -810,10 +810,10 @@
       "question": "Mrs Wood spent $450 at a jewellery store and $120 at a department store. She had $88 left. How much did she have at first?",
       "answer": "$658",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $658.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 29,
       "questionZh": "Wood 太太在珠宝店花了 $450，在百货商店花了 $120。她还剩 $88。她原来有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $658。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 75,
@@ -821,10 +821,10 @@
       "question": "Mary bought a $16 toy and received 2 $2 notes and 2 $5 notes in change. How much did she have at first?",
       "answer": "$30",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $30.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 29,
       "questionZh": "Mary 买了一个 $16 的玩具，找回 2 张 $2 钞票和 2 张 $5 钞票。她原来有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $30。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 76,
@@ -832,10 +832,10 @@
       "question": "A pen cost $5, which was $2 more than a pencil. Mary had $30 and bought 2 pens and 4 pencils. How much had she left?",
       "answer": "$8",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $8.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 30,
       "questionZh": "一支钢笔售价 $5，比一支铅笔贵 $2。Mary 有 $30，买了 2 支钢笔和 4 支铅笔。她还剩多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $8。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 77,
@@ -843,10 +843,10 @@
       "question": "Tim had 6 $2 notes, 3 $5 notes and 1 $1 coin. He spent $18 on a book and $6 on a magazine. How much had he left?",
       "answer": "$4",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 30,
       "questionZh": "Tim 有 6 张 $2 钞票、3 张 $5 钞票和 1 枚 $1 硬币。他花 $18 买了一本书，又花 $6 买了一本杂志。他还剩多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $4。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 78,
@@ -854,10 +854,10 @@
       "question": "After spending $17 on sunglasses and $12 on a wallet, Mr Taylor had $58 left. How much did he have at first?",
       "answer": "$87",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $87.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 30,
       "questionZh": "Taylor 先生买太阳镜花了 $17，买钱包花了 $12 后，还剩 $58。他原来有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $87。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 79,
@@ -865,10 +865,10 @@
       "question": "3 T-shirts cost as much as 2 pairs of shorts. If a T-shirt costs $8, what is the cost of a pair of shorts?",
       "answer": "$12",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 31,
       "questionZh": "3 件 T 恤的价钱相当于 2 条短裤。如果一件 T 恤售价 $8，一条短裤售价多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $12。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 80,
@@ -876,10 +876,10 @@
       "question": "4 watermelons and 3 guavas cost $22. If a guava costs $2, what is the cost of a watermelon?",
       "answer": "$4",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 31,
       "questionZh": "4 个西瓜和 3 个番石榴共 $22。如果一个番石榴售价 $2，一个西瓜售价多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $4。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 81,
@@ -887,10 +887,10 @@
       "question": "Lucy spent $28 on a T-shirt and shorts. The T-shirt cost $6 more than the shorts. How much did the T-shirt cost?",
       "answer": "$17",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $17.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 31,
       "questionZh": "Lucy 买一件 T 恤和一条短裤共花了 $28。T 恤比短裤贵 $6。T 恤售价多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $17。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 82,
@@ -898,10 +898,10 @@
       "question": "Alice used all her money to buy 4 boxes of coloured pencils. A box cost $3 less than a box of crayons. If a box of crayons cost $9, how much money did Alice have at first?",
       "answer": "$24",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $24.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 32,
       "questionZh": "Alice 用全部的钱买了 4 盒彩色铅笔。一盒彩色铅笔比一盒蜡笔便宜 $3。如果一盒蜡笔售价 $9，Alice 原来有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $24。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 83,
@@ -909,10 +909,10 @@
       "question": "A bag of 3 pears costs $2 and a bag of 5 apples costs $3. How much would 9 pears and 15 apples cost?",
       "answer": "$15",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $15.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 32,
       "questionZh": "一袋 3 个梨售价 $2，一袋 5 个苹果售价 $3。9 个梨和 15 个苹果要多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $15。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 84,
@@ -920,10 +920,10 @@
       "question": "2 pairs of socks cost $4. A scarf cost $13 more than 1 pair of socks. If Sally had $10 left after buying 2 pairs of socks and a scarf, how much did she have at first?",
       "answer": "$29",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $29.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 32,
       "questionZh": "2 双袜子售价 $4。一条围巾比 1 双袜子贵 $13。如果 Sally 买了 2 双袜子和一条围巾后还剩 $10，她原来有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $29。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 85,
@@ -931,10 +931,10 @@
       "question": "8 books cost $32. What is the cost of 6 such books?",
       "answer": "$24",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $24.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 33,
       "questionZh": "8 本书售价 $32。6 本这样的书售价多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $24。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 86,
@@ -942,10 +942,10 @@
       "question": "Tom earns $8 for every hour worked. If he works from 1 pm to 10 pm, how much does he earn?",
       "answer": "$72",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $72.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 33,
       "questionZh": "Tom 每工作一小时赚 $8。如果他从下午 1 点工作到晚上 10 点，他赚多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $72。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 87,
@@ -953,10 +953,10 @@
       "question": "An exercise book cost $3. Joanne bought 6 and had $19 left. How much did she have at first?",
       "answer": "$37",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $37.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 33,
       "questionZh": "一本练习簿售价 $3。Joanne 买了 6 本，还剩 $19。她原来有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $37。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 88,
@@ -964,10 +964,10 @@
       "question": "A small dumpling cost $2 and a big dumpling cost $3 more. Mrs Cox bought 5 small and 6 big dumplings. How much did she pay?",
       "answer": "$40",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $40.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 34,
       "questionZh": "一个小饺子售价 $2，一个大饺子比小饺子贵 $3。Cox 太太买了 5 个小饺子和 6 个大饺子。她付了多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $40。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 89,
@@ -975,10 +975,10 @@
       "question": "Peter queued for food. There were 3 children in front of him and 2 behind him. Everyone in the queue had $5. How much money did the children have altogether?",
       "answer": "$30",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $30.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 34,
       "questionZh": "Peter 排队买食物。他前面有 3 名儿童，后面有 2 名儿童。队伍中的每个人都有 $5。这些儿童一共有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $30。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 90,
@@ -986,10 +986,10 @@
       "question": "1 kg of durians cost $4. Ann bought 8 kg and had $80 at first. How much had she left?",
       "answer": "$48",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $48.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 34,
       "questionZh": "1 kg 榴莲售价 $4。Ann 买了 8 kg，她原来有 $80。她还剩多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $48。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 91,
@@ -997,10 +997,10 @@
       "question": "Mrs Brown bought a watch for $86 and a pen for $10. She gave the cashier $100. How much change did she receive?",
       "answer": "$4",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 35,
       "questionZh": "Brown 太太买一块手表花了 $86，买一支钢笔花了 $10。她给收银员 $100。她找回多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $4。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 92,
@@ -1008,10 +1008,10 @@
       "question": "James had $51. He spent $18 on a toy and the rest on 3 similar T-shirts. How much did each T-shirt cost?",
       "answer": "$11",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $11.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 35,
       "questionZh": "James 有 $51。他花 $18 买玩具，剩下的钱买了 3 件相同的 T 恤。每件 T 恤售价多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $11。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 93,
@@ -1019,10 +1019,10 @@
       "question": "Mr Cook bought 2 similar clocks and a watch. Each clock cost $97. He paid $250 and received $12 change. What was the cost of the watch?",
       "answer": "$44",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $44.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 35,
       "questionZh": "Cook 先生买了 2 个相同的时钟和一块手表。每个时钟售价 $97。他付了 $250，找回 $12。手表售价多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $44。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 94,
@@ -1030,10 +1030,10 @@
       "question": "A bag of apples costs $5 and a bag of pears costs $4. Alice had enough for 3 apple bags and 7 pear bags. How much did she have?",
       "answer": "$43",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $43.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 36,
       "questionZh": "一袋苹果售价 $5，一袋梨售价 $4。Alice 的钱刚好够买 3 袋苹果和 7 袋梨。她有多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $43。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 95,
@@ -1041,10 +1041,10 @@
       "question": "Tom and Mary shared the cost of a $21 gift. Tom paid $3 more than Mary. How much did Tom pay?",
       "answer": "$12",
       "model": "money-units",
-      "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 36,
       "questionZh": "Tom 和 Mary 分摊一个 $21 礼物的费用。Tom 比 Mary 多付 $3。Tom 付了多少钱？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $12。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 96,
@@ -1052,10 +1052,10 @@
       "question": "Susan is 28 years old. Her brother is 3 years older. How old will he be in 5 years?",
       "answer": "36",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 36.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 36,
       "questionZh": "Susan 28 岁。她哥哥比她大 3 岁。5 年后她哥哥几岁？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 36。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 97,
@@ -1063,10 +1063,10 @@
       "question": "Mary is 23 years old. Her brother is 2 times as old. How old was her brother 2 years ago?",
       "answer": "44",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 44.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 37,
       "questionZh": "Mary 23 岁。她哥哥的年龄是她的 2 倍。2 年前她哥哥几岁？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 44。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 98,
@@ -1074,10 +1074,10 @@
       "question": "A book has 125 pages. Jack reads 15 pages on day 1 and 20 on day 2, increasing by 5 pages each following day until finished. How many days does he take?",
       "answer": "5",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against 5.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 37,
       "questionZh": "一本书有 125 页。Jack 第 1 天读 15 页，第 2 天读 20 页，以后每天比前一天多读 5 页，直到读完为止。他用了多少天？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 5。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 99,
@@ -1085,10 +1085,10 @@
       "question": "Ann gave Jack 18 stamps and he used 6. Each then had 32 stamps left. How many stamps did Ann and Jack have at first?",
       "answer": "Ann: 50; Jack: 20",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against Ann: 50; Jack: 20.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 37,
       "questionZh": "Ann 给了 Jack 18 张邮票，Jack 用了 6 张。之后两人各剩 32 张邮票。Ann 和 Jack 原来各有多少张邮票？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 Ann：50；Jack：20。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 100,
@@ -1096,10 +1096,10 @@
       "question": "Mrs Jackson packed egg tarts into boxes of 5. She sold 8 boxes and had 6 boxes left. How many egg tarts were left, and how many did she bake?",
       "answer": "30; 70",
       "model": "bar-change",
-      "hint": "Write the known quantities, choose the operation signs, then check against 30; 70.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 38,
       "questionZh": "Jackson 太太把蛋挞按每盒 5 个装盒。她卖了 8 盒，还剩 6 盒。还剩多少个蛋挞？她一共烤了多少个蛋挞？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 30；70。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     },
     {
       "id": 101,
@@ -1107,10 +1107,10 @@
       "question": "James bought 3 packs of French fries and 2 burgers for $14. A burger cost 2 times 1 pack of fries. What is the price of 1 fries pack, and of 4 packs plus 5 burgers?",
       "answer": "$2; $28",
       "model": "unit-bar",
-      "hint": "Write the known quantities, choose the operation signs, then check against $2; $28.",
+      "hint": "Write the known quantities, then choose the operation signs before you calculate.",
       "sourcePage": 38,
       "questionZh": "James 用 $14 买了 3 包薯条和 2 个汉堡。一个汉堡的价格是 1 包薯条的 2 倍。1 包薯条的价格是多少？4 包薯条加 5 个汉堡的价格是多少？",
-      "hintZh": "列出已知数量，选择运算符号，再核对结果是否为 $2；$28。"
+      "hintZh": "列出已知数量，先确定运算符号，再进行计算。"
     }
   ]
 }

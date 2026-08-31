@@ -8,6 +8,11 @@ using the scanned page images in
 
 Date: 2026-08-31
 
+> The follow-up question — *do the other five books have the same problems?* — is
+> answered in [`HINT-REVIEW-ALL-BOOKS.md`](HINT-REVIEW-ALL-BOOKS.md). Short version:
+> they do not, because only Books 4 and 5 have hints written for their questions at
+> all. Book 2's template stated the answer in all 101 of its hints.
+
 ---
 
 ## Summary

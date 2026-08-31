@@ -2,5 +2,11 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "101-challenging-math-word-problems",
   "compatibility_date": "2025-04-01",
-  "pages_build_output_dir": "."
+  "pages_build_output_dir": ".cloudflare-pages",
+  "r2_buckets": [
+    {
+      "binding": "BOOK_RESOURCES",
+      "bucket_name": "math-word-problem-resources"
+    }
+  ]
 }

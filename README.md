@@ -4,9 +4,9 @@ Open `index.html` to choose a book.
 
 ## Deploying to Cloudflare Pages
 
-This repository is configured as a no-build Cloudflare Pages site. The publish directory is the repository root, as defined by `wrangler.jsonc`.
+This repository is configured as a no-build Cloudflare Pages site. The deployment workflow stages the website in `.cloudflare-pages/`, excluding OCR reference images and moving source PDFs above Pages' 25 MiB file limit to the `math-word-problem-resources` R2 bucket. A Pages Function serves those R2 objects through their original `/resources/...` URLs.
 
-1. In Cloudflare, create an API token with **Account > Cloudflare Pages > Edit** permission for the target account.
+1. In Cloudflare, create an API token with **Account > Cloudflare Pages > Edit** and **Account > Workers R2 Storage > Edit** permissions for the target account.
 2. Add these GitHub Actions repository secrets:
    - `CLOUDFLARE_API_TOKEN` — the Pages API token.
    - `CLOUDFLARE_ACCOUNT_ID` — the Cloudflare account ID.
@@ -15,10 +15,10 @@ This repository is configured as a no-build Cloudflare Pages site. The publish d
 For a local or one-off deployment, authenticate with Wrangler and run:
 
 ```sh
-npx wrangler pages deploy . --project-name=101-challenging-math-word-problems
+npx wrangler pages deploy .cloudflare-pages --project-name=101-challenging-math-word-problems
 ```
 
-Cloudflare applies the response headers in `_headers`; all application files are served as static assets and no runtime secrets are required.
+Cloudflare applies the response headers in `_headers`; runtime secrets are not used by the deployed site.
 
 ## Website layout
 

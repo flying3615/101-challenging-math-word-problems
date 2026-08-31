@@ -21,6 +21,19 @@
     if (event.target.matches(selector)) save(event.target);
   });
   document.addEventListener('click', (event) => {
+    const toggle = event.target.closest('[data-scratchpad-toggle]');
+    if (toggle) {
+      const area = toggle.closest('.scratchpad-area');
+      const content = area?.querySelector('.scratchpad-content');
+      const textarea = area?.querySelector(selector);
+      if (!content || !textarea) return;
+      const opening = content.hidden;
+      content.hidden = !opening;
+      toggle.setAttribute('aria-expanded', String(opening));
+      toggle.textContent = opening ? 'Hide working space' : 'Open working space';
+      if (opening) textarea.focus();
+      return;
+    }
     const button = event.target.closest('[data-clear-scratchpad]');
     if (!button) return;
     const textarea = button.closest('.scratchpad-area')?.querySelector(selector);

@@ -10,6 +10,8 @@ for (const [book, key] of Object.entries(storageKeys)) {
   assert.match(page, /<textarea id="scratchpad"/, `Book ${book} needs an accessible typed working-space field.`);
   assert.match(page, /Scratch work stays on this device/, `Book ${book} must explain its local-only storage.`);
   assert.match(page, /id="clearScratchpad"/, `Book ${book} needs a clear-working button.`);
+  assert.match(page, /id="scratchpadToggle"[^>]*aria-expanded="false"/, `Book ${book} must start with its working space collapsed.`);
+  assert.match(page, /class="scratchpad-content"[^>]*hidden/, `Book ${book} must hide the working field until opened.`);
   assert.ok(page.includes(`data-scratch-key="${key}"`), `Book ${book} must use its own scratch-work storage key.`);
   assert.match(page, /<script src="\.\.\/scratchpad\.js" defer><\/script>/, `Book ${book} must load the local scratchpad behavior.`);
 }
@@ -17,4 +19,6 @@ const scratchpadScript = await readFile(new URL('../practice/scratchpad.js', imp
 assert.match(scratchpadScript, /localStorage\.getItem\(key\)/, 'Scratch work must be restored locally.');
 assert.match(scratchpadScript, /localStorage\.setItem\(key/, 'Scratch work must be saved locally.');
 assert.match(scratchpadScript, /addEventListener\('input'/, 'Scratch work must save while the student types.');
+assert.match(scratchpadScript, /data-scratchpad-toggle/, 'The toggle button must control the working space.');
+assert.match(scratchpadScript, /aria-expanded/, 'The toggle must report whether the working space is open.');
 console.log('PASS: every book provides an independent local typed working space.');

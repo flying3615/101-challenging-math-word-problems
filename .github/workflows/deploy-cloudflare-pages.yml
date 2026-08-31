@@ -29,6 +29,7 @@ jobs:
           response_file="$(mktemp)"
           trap 'rm -f "$response_file"' EXIT
           project_url="https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/101-challenging-math-word-problems"
+          projects_url="https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects"
           status="$(curl --silent --show-error --output "$response_file" --write-out '%{http_code}' \
             --header "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
             "$project_url")"
@@ -38,7 +39,7 @@ jobs:
               echo "Cloudflare Pages project already exists."
               ;;
             404)
-              curl --fail-with-body --request POST "$project_url" \
+              curl --fail-with-body --request POST "$projects_url" \
                 --header "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
                 --header "Content-Type: application/json" \
                 --data '{"name":"101-challenging-math-word-problems","production_branch":"main"}'

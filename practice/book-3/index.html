@@ -26,7 +26,7 @@
 <body>
   <main class="app">
     <a class="collection-back" href="../../index.html">Back to all books</a>
-    <header class="top"><div class="brand"><div class="brand-mark">M</div><div>Math Story Lab<small>Book 3 · 101 Challenge Library</small></div></div><div class="top-right"><button class="quiet" id="parentButton">Parent snapshot</button></div></header>
+    <header class="top"><div class="brand"><div class="brand-mark">M</div><div>Math Story Lab<small>Book 3 · 101 Challenge Library</small></div></div><div class="top-right"><div class="language-switch" role="group" aria-label="Language"><button type="button" data-language="en" aria-pressed="true">English</button><button type="button" data-language="zh-Hans" aria-pressed="false">中文</button></div><button class="quiet" id="parentButton">Parent snapshot</button></div></header>
     <section class="summary" aria-label="Learning library overview"><div class="intro"><div><b>Work through each problem step by step.</b><span>Read, choose a visual model, solve, then check.</span></div></div><div class="metric"><b id="totalProblems">101</b><span>problems in the library</span></div><div class="metric"><b id="solvedCount">0</b><span>problems solved</span></div></section>
     <div class="shell"><aside class="library panel"><h2>Choose a topic</h2><p>Pick a number whenever you are ready. Green ticks mean you solved it.</p><nav id="topics" class="topic-list" aria-label="Topics"></nav><div class="divider"></div><div class="picker-head"><span id="pickerName">All problems</span><span id="pickerCount">101</span></div><div id="questionGrid" class="question-grid" aria-label="Problem picker"></div></aside>
       <section class="lesson panel" id="lesson"><div class="loading">Loading the challenge library…</div></section></div>
@@ -34,7 +34,10 @@
   <div class="confetti" id="confetti" aria-hidden="true"></div><div class="toast" role="status" id="toast"></div>
   <div class="sheet" id="parentSheet" role="dialog" aria-modal="true" aria-labelledby="reportTitle"><div class="report"><div class="report-head"><div><div class="breadcrumb">This practice</div><h2 id="reportTitle">Parent snapshot</h2></div><button class="close" id="closeSheet" aria-label="Close">×</button></div><div class="report-stats"><div class="report-stat"><b id="reportSolved">0</b><span>Solved</span></div><div class="report-stat"><b id="reportAttempted">0</b><span>Attempted</span></div><div class="report-stat"><b id="reportHints">0</b><span>Hints used</span></div></div><ul><li>Ask your child to explain the picture before they calculate.</li><li>For a difficult question, use one hint only, then let them try again.</li><li>The library remembers solved questions on this device.</li></ul></div></div>
   <script src="question-bank.js"></script>
+  <script src="../../i18n.js"></script>
   <script>
+    const I18N=window.MATH_I18N;
+    I18N.prepareBank(window.QUESTION_BANK);
     const $=id=>document.getElementById(id);
     const state={activeId:Number(localStorage.getItem('book3MathStoryActive'))||1, topic:'All', solved:new Set(JSON.parse(localStorage.getItem('book3MathStorySolved')||'[]')), attempted:new Set(JSON.parse(localStorage.getItem('book3MathStoryAttempted')||'[]')), hints:Number(localStorage.getItem('book3MathStoryHints')||0), modelOpen:false, hintOpen:false};
     const BANK=Array.isArray(window.QUESTION_BANK)?window.QUESTION_BANK:[];
@@ -61,6 +64,8 @@
     function toast(text){const el=$('toast');el.textContent=text;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2300)}function confetti(){const box=$('confetti'),colors=['#6e54c8','#ffae7e','#5aaeda','#62bd87','#ffda55'];for(let i=0;i<36;i++){const e=document.createElement('i');e.style.left=(30+Math.random()*42)+'vw';e.style.top='-18px';e.style.background=colors[i%colors.length];e.style.setProperty('--x',(-250+Math.random()*500)+'px');e.style.animationDelay=(Math.random()*.22)+'s';box.append(e);setTimeout(()=>e.remove(),2000)}}
     $('parentButton').onclick=()=>{ $('reportSolved').textContent=state.solved.size;$('reportAttempted').textContent=state.attempted.size;$('reportHints').textContent=state.hints;$('parentSheet').classList.add('open')};$('closeSheet').onclick=()=>$('parentSheet').classList.remove('open');$('parentSheet').onclick=e=>{if(e.target===$('parentSheet'))$('parentSheet').classList.remove('open')};
     if(BANK.length){if(!BANK.some(q=>q.id===state.activeId))state.activeId=BANK[0].id;renderTopics();renderGrid();renderLesson();refreshMetrics();}else{$('lesson').innerHTML='<div class="loading">The question library is being prepared…</div>'}
+    document.title=I18N.t('practiceTitle',{book:3});
+    I18N.startPractice(3,BANK);
   </script>
 </body>
 </html>

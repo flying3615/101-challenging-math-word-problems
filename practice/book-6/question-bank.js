@@ -6,7 +6,9 @@ window.QUESTION_BANK = [
     "answer": "11 questions",
     "model": "unit-bar",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 5
+    "sourcePage": 5,
+    "questionZh": "彼得答了15道测验题，共得29分。答对1题得3分，答错1题扣1分。彼得答对了多少题？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@ window.QUESTION_BANK = [
     "answer": "Yellow: 168; orange: 219; black: 93",
     "model": "unit-bar",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 5
+    "sourcePage": 5,
+    "questionZh": "一个盒子里有480颗黄色、橙色和黑色珠子。加入18颗黄色珠子、取走33颗橙色珠子，并把黑色珠子的数量增加到原来的2倍后，3种颜色的珠子数量相等。求每种珠子原来的数量。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@ window.QUESTION_BANK = [
     "answer": "200 beads",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 5
+    "sourcePage": 5,
+    "questionZh": "安琪的珠子中有40%是红色的。她丢失50颗蓝色珠子后，蓝色珠子的数量变为原来的1/2。安琪最后有多少颗珠子？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@ window.QUESTION_BANK = [
     "answer": "3615 buttons",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 6
+    "sourcePage": 6,
+    "questionZh": "有820颗橙色纽扣，比黄色纽扣少160颗，比绿色纽扣多210颗。蓝色纽扣占总数的1/4。纽扣一共有多少颗？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 5,
@@ -42,7 +50,9 @@ window.QUESTION_BANK = [
     "answer": "12 oranges; 14 apples",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 6
+    "sourcePage": 6,
+    "questionZh": "本杰明卖苹果和橙子。他卖的苹果比橙子多2个；橙子每个$3，苹果每个$2，并且每卖出10个水果可获得$1。收款后总销售额为$62。求苹果和橙子各卖了多少个。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 6,
@@ -51,7 +61,9 @@ window.QUESTION_BANK = [
     "answer": "A: 52; B: 48; C: 3; D: 57",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 6
+    "sourcePage": 6,
+    "questionZh": "160个回形针放在A、B、C、D 4个盒子里。将12个从A移到B，将B中1/4的回形针移到C，又将17个从D移到C后，所有盒子里的回形针数量相等。求各盒原来的数量。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 7,
@@ -60,7 +72,9 @@ window.QUESTION_BANK = [
     "answer": "Michael: $1080; Alvin: $600; Vanessa: $360",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 7
+    "sourcePage": 7,
+    "questionZh": "迈克尔的钱比阿尔文多80%；瓦妮莎的钱比阿尔文少40%。迈克尔和阿尔文按3:2的比例给瓦妮莎钱。之后瓦妮莎的钱变为原来的2倍；迈克尔最后比瓦妮莎多$144。求三人原来各有多少钱。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 8,
@@ -69,7 +83,9 @@ window.QUESTION_BANK = [
     "answer": "44 boxes",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 7
+    "sourcePage": 7,
+    "questionZh": "汤姆的玩具车中有4/9是红色的。绿色玩具车比红色的多35辆，黄色玩具车有15辆。若每盒装5辆同色玩具车，红色和绿色玩具车的盒数合计比黄色玩具车的盒数多多少？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 9,
@@ -78,7 +94,9 @@ window.QUESTION_BANK = [
     "answer": "99 cards",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 7
+    "sourcePage": 7,
+    "questionZh": "大卫的卡片数量是克里斯蒂的1/3。大卫送出9张卡片，克里斯蒂买了18张卡片后，两人的卡片数量之比为2:9。最后两人一共有多少张卡片？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 10,
@@ -87,7 +105,9 @@ window.QUESTION_BANK = [
     "answer": "23 girls",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 8
+    "sourcePage": 8,
+    "questionZh": "42名学生中有3/4通过了英语考试。通过考试的学生中有1/4是女生；未通过考试的男生比女生多4人。班上有多少名女生？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 11,
@@ -96,7 +116,9 @@ window.QUESTION_BANK = [
     "answer": "50 more butter cookies",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 8
+    "sourcePage": 8,
+    "questionZh": "德鲁太太卖出120块黄油饼干和巧克力碎片饼干。黄油饼干每块$2，巧克力碎片饼干每块$4，总销售额为$310。黄油饼干比巧克力碎片饼干多卖出多少块？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 12,
@@ -105,7 +127,9 @@ window.QUESTION_BANK = [
     "answer": "Jane: 140; John: 40",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 8
+    "sourcePage": 8,
+    "questionZh": "简和约翰共有180颗弹珠。简给约翰一些弹珠后，约翰的弹珠数量变为原来的3倍，简的弹珠数量是约翰的1/2。求两人原来各有多少颗弹珠。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 13,
@@ -114,7 +138,9 @@ window.QUESTION_BANK = [
     "answer": "360",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 9
+    "sourcePage": 9,
+    "questionZh": "一个数的2/3比它的1/4多12。求这个数与它的4倍之间的差。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 14,
@@ -123,7 +149,9 @@ window.QUESTION_BANK = [
     "answer": "Group 1: 75; Group 2: 5; Group 3: 25",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 9
+    "sourcePage": 9,
+    "questionZh": "105名学生分成3组。第1组的1/4和第3组的20%调到第2组；随后又有15名学生从第1组调到第3组。此时3组人数相等。求各组原来的人数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 15,
@@ -132,7 +160,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 20 years; (b) 78 years",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 9
+    "sourcePage": 9,
+    "questionZh": "1998年，汤姆的年龄是杰克的4倍，彼得的年龄是杰克的2倍。汤姆当时36岁。求彼得在2000年的年龄，以及3人在2003年的年龄总和。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 16,
@@ -141,7 +171,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 108 cars; (b) 90 cars",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 10
+    "sourcePage": 10,
+    "questionZh": "托马斯和扎克各自收到同样数量的玩具车。之后扎克的玩具车数量变为原来的2倍；扎克数量的3/4等于托马斯数量的1/2，并且托马斯比扎克多36辆。求题目所要求的两个数值。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 17,
@@ -150,7 +182,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 60 more; (b) $350",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 10
+    "sourcePage": 10,
+    "questionZh": "乔安妮卖饼干、蛋糕和松饼。饼干比蛋糕多140个；饼干的1/2和蛋糕的1/3是巧克力味的。利用题目给出的口味数量相等关系，求所要求的数量差和销售总额。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 18,
@@ -159,7 +193,9 @@ window.QUESTION_BANK = [
     "answer": "16 more women",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 10
+    "sourcePage": 10,
+    "questionZh": "4656人参加了一场音乐会。1/4的男士和1/3的女士离开后，留下的女士比男士多120人。起初女士比男士多多少人？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 19,
@@ -168,7 +204,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 20 overripe; (b) 20 ripe; (c) 40 more overripe",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 11
+    "sourcePage": 11,
+    "questionZh": "120个橙子中有1/3成熟，其余过熟。取走40个橙子后，过熟橙子占剩余橙子的3/4。求取走的成熟橙子数、取走的过熟橙子数，以及最后两者数量之差。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 20,
@@ -177,7 +215,9 @@ window.QUESTION_BANK = [
     "answer": "$3975",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 11
+    "sourcePage": 11,
+    "questionZh": "克劳福德太太将工资的1/3用于教育，又将余下部分的1/4用于食物。储蓄与交通费之比为2:3；教育支出比交通费多$265。求6个月的教育支出。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 21,
@@ -186,7 +226,9 @@ window.QUESTION_BANK = [
     "answer": "3.4 L",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 11
+    "sourcePage": 11,
+    "questionZh": "水箱A装有2/3满的水。其中1/2的水把原本装有1/4水的水箱B加满。水箱A的尺寸为12 cm × 10 cm × 20 cm。求两个水箱的总容量（以升为单位）。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 22,
@@ -195,7 +237,9 @@ window.QUESTION_BANK = [
     "answer": "$32",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 12
+    "sourcePage": 12,
+    "questionZh": "鲍尔斯太太买了2.5 kg鱼和比鱼多1.5 kg的虾。从$50找回$5.50；虾每kg比鱼贵$3。她买虾花了多少钱？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 23,
@@ -204,7 +248,9 @@ window.QUESTION_BANK = [
     "answer": "100 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 12
+    "sourcePage": 12,
+    "questionZh": "一个60 cm × 40 cm × 25 cm的容器装有4/5满的水；水位下降了5 cm。剩下的水装满一个水箱和一个盆，盆的容量是水箱容量的1/4。求水箱中的水高。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 24,
@@ -213,7 +259,9 @@ window.QUESTION_BANK = [
     "answer": "6020.16 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 12
+    "sourcePage": 12,
+    "questionZh": "ABCD是一个周长为320 cm、长为96 cm的长方形。里面放有2个边长为12 cm的正方形。取π = 3.14，求阴影部分的面积。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 25,
@@ -222,7 +270,9 @@ window.QUESTION_BANK = [
     "answer": "4 pens",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 13
+    "sourcePage": 13,
+    "questionZh": "乔安妮买3支笔和2把尺共花$10.80；爱丽丝买5支笔和4把尺共花$19.20。尼克买2把尺和若干支笔共花$13.20。尼克买了多少支笔？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 26,
@@ -231,7 +281,9 @@ window.QUESTION_BANK = [
     "answer": "$25",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 13
+    "sourcePage": 13,
+    "questionZh": "弗兰基、马丁和杰里米共赚了$120。杰里米赚的钱是弗兰基的1/2；马丁赚的钱是杰里米的3倍，并给了弗兰基自己钱的1/4。杰里米之后赚到的钱是先前的4倍。杰里米的钱增加了多少？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 27,
@@ -240,7 +292,9 @@ window.QUESTION_BANK = [
     "answer": "60 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 13
+    "sourcePage": 13,
+    "questionZh": "一个底面为90 cm × 10 cm的水箱由两个水龙头注水，流量分别为4 L/min和每2 min 10 L。注水1.5 min后，水箱装了1/4满。求水箱的高度。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 28,
@@ -249,7 +303,9 @@ window.QUESTION_BANK = [
     "answer": "105 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 14
+    "sourcePage": 14,
+    "questionZh": "PQRS放大为VWRT后，面积增加226 cm²。PQRS的长是宽的2倍。求PQRS的周长。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 29,
@@ -258,7 +314,9 @@ window.QUESTION_BANK = [
     "answer": "15375 cm³",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 14
+    "sourcePage": 14,
+    "questionZh": "水箱A原来装有30%满的水。其中2/5的水装满了空水箱B的1/2。水箱B的尺寸为15 cm × 12 cm × 25 cm。现在还需要多少水才能装满A？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 30,
@@ -267,7 +325,9 @@ window.QUESTION_BANK = [
     "answer": "$314",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 14
+    "sourcePage": 14,
+    "questionZh": "帕特里克、杰米玛和安吉拉共有$482。安吉拉的钱是杰米玛的3/4；帕特里克用了$125后，他的钱比杰米玛少1/4。求帕特里克和安吉拉起初的钱数总和。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 31,
@@ -276,7 +336,9 @@ window.QUESTION_BANK = [
     "answer": "$113.40",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 15
+    "sourcePage": 15,
+    "questionZh": "红色珠子与黄色珠子的数量之比为10:9。用掉30颗黄色珠子后，数量之比变为5:2。红色珠子每颗$0.90；黄色珠子每颗贵$0.20。求这些珠子原来的总价。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 32,
@@ -285,7 +347,9 @@ window.QUESTION_BANK = [
     "answer": "59.48 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 15
+    "sourcePage": 15,
+    "questionZh": "三角形PQR内有一个半圆和一个小三角形；PQ是半圆的直径。根据图中给出的36 cm，取π = 3.14，求非阴影部分的面积。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 33,
@@ -294,7 +358,9 @@ window.QUESTION_BANK = [
     "answer": "73500 cm³ or 73.5 L",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 15
+    "sourcePage": 15,
+    "questionZh": "一个70 cm × 45 cm × 50 cm的水箱由2个流量均为7 L/min的水龙头注水10 min。将其中30%的水倒入一个浴盆，使浴盆达到3/10满。求将水箱和浴盆都加满还需要多少水。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 34,
@@ -303,7 +369,9 @@ window.QUESTION_BANK = [
     "answer": "5 times",
     "model": "unit-bar",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 16
+    "sourcePage": 16,
+    "questionZh": "3个时钟分别每3 min、每4 min（相差1 min）和每6 min报时。它们在上午10:45同时报时。接下来1 h内还会同时报时多少次？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 35,
@@ -312,7 +380,9 @@ window.QUESTION_BANK = [
     "answer": "Frederick: $240; Justina: $550",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 16
+    "sourcePage": 16,
+    "questionZh": "弗雷德里克和朱斯蒂娜每天分别花$8和$16，朱斯蒂娜剩下$70；若两人交换每天的花费，朱斯蒂娜会剩下$430。求父母分别给了他们多少钱。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 36,
@@ -321,7 +391,9 @@ window.QUESTION_BANK = [
     "answer": "8.4 L",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 16
+    "sourcePage": 16,
+    "questionZh": "水箱A与B中的水量之比为4:3。向A加入0.8 L水后，A中的水量变为B中的2倍。A的容量是B容量的1/4。要把B装满，还要加多少水？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 37,
@@ -330,7 +402,9 @@ window.QUESTION_BANK = [
     "answer": "$354",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 17
+    "sourcePage": 17,
+    "questionZh": "杰曼花掉$70后，剩下的钱是吉尔伯特的2倍。吉尔伯特得到$300后，钱数是杰曼原有钱数的3倍。求两人最后的钱数总和。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 38,
@@ -339,7 +413,9 @@ window.QUESTION_BANK = [
     "answer": "$15",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 17
+    "sourcePage": 17,
+    "questionZh": "3本书和2本杂志共$84；3本漫画书和2本杂志共$54；2本漫画书和2本书共$52。求1本杂志的价格。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 39,
@@ -348,7 +424,9 @@ window.QUESTION_BANK = [
     "answer": "4312 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 17
+    "sourcePage": 17,
+    "questionZh": "2个同心圆的半径分别为7 cm和21 cm。阴影部分与非阴影部分的面积之比为2:7。取π = 22/7，求非阴影部分的面积。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 40,
@@ -357,7 +435,9 @@ window.QUESTION_BANK = [
     "answer": "6.25 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 18
+    "sourcePage": 18,
+    "questionZh": "一个12 cm × 15 cm × 30 cm的容器装到2/3满；倒入其中的浴盆水后，浴盆剩下原来体积的20%。浴盆底面为24 cm × 15 cm。求浴盆原来的水深。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 41,
@@ -366,7 +446,9 @@ window.QUESTION_BANK = [
     "answer": "156 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 18
+    "sourcePage": 18,
+    "questionZh": "6个全等长方形组成图形A，重新排列后形成图形B。图形A的面积为864 cm²。求图形B的周长。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 42,
@@ -375,7 +457,9 @@ window.QUESTION_BANK = [
     "answer": "$386",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 18
+    "sourcePage": 18,
+    "questionZh": "一名水果商卖出的苹果比橙子多30%，比梨多10%；卖出了104个苹果。水果按每袋4个$6、每袋8个$10、每袋2个$3出售。求总销售额。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 43,
@@ -384,7 +468,9 @@ window.QUESTION_BANK = [
     "answer": "Apple: $1.10; Orange: $0.80; Papaya: $4.50",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 19
+    "sourcePage": 19,
+    "questionZh": "4个橙子、3个苹果和2个木瓜共$15.50；2个橙子和6个木瓜共$28.60；3个橙子和4个苹果共$6.80。求每种水果的单价。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 44,
@@ -393,7 +479,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 375 L; (b) 4 minutes",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 19
+    "sourcePage": 19,
+    "questionZh": "一个水龙头以3 L/min注水，一个洞以0.5 L/min漏水。从上午7:00开始，求上午9:30桶中的水量，以及桶中水达到10 L的时间。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 45,
@@ -402,7 +490,9 @@ window.QUESTION_BANK = [
     "answer": "A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 19
+    "sourcePage": 19,
+    "questionZh": "橙汁分装在A、B、C 3个容器中。将20 ml从B移到C，将210 ml从C移到A，再从A取走150 ml。最后A中的橙汁是原来A中的3倍；B和C中的橙汁都等于最后A中的3倍。求各容器原来的橙汁量和纸盒中的橙汁总量。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 46,
@@ -411,7 +501,9 @@ window.QUESTION_BANK = [
     "answer": "(a) Joanne: $1440; Alex: $1080; (b) $1260",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 20
+    "sourcePage": 20,
+    "questionZh": "乔安妮先把钱的1/3给母亲，之后储蓄与花费之比为1:2。亚历克斯把钱的1/4花在衣服上，1/4花在书上；乔安妮给母亲的钱等于亚历克斯买书的钱。乔安妮转给亚历克斯$180后，所转的钱是亚历克斯储蓄的1/4。求题目所要求的数值。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 47,
@@ -420,7 +512,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 250 L; (b) 15 minutes",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 20
+    "sourcePage": 20,
+    "questionZh": "2个水龙头各以6 L/min注水，同时一个洞每4 min漏8 L水。10 min后水箱装了40%满。求水箱容量，以及再过多久能装满。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 48,
@@ -429,7 +523,9 @@ window.QUESTION_BANK = [
     "answer": "(a) $220; (b) $55",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 20
+    "sourcePage": 20,
+    "questionZh": "玛丽有$50，汤姆有$130。他们的母亲每天给两人相同的钱；2天后玛丽的钱是汤姆的2倍。求母亲一共给了多少钱，以及玛丽每天得到多少钱。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 49,
@@ -438,7 +534,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 21
+    "sourcePage": 21,
+    "questionZh": "正方形A与B的周长之比为3:5，阴影长方形的周长与A的周长之比为2:6，两个正方形的周长总和为192 cm。求3个所要求的面积。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 50,
@@ -447,7 +545,9 @@ window.QUESTION_BANK = [
     "answer": "51.12 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 21
+    "sourcePage": 21,
+    "questionZh": "一个长方形内有2个半径分别为12 cm和24 cm的四分之一圆。取π = 3.14，求阴影部分面积之差。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 51,
@@ -456,7 +556,9 @@ window.QUESTION_BANK = [
     "answer": "5/7",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 21
+    "sourcePage": 21,
+    "questionZh": "A、B、C是相同的盆。A装1/4满时质量为3.1 kg，B装3/4满时质量为2.2 kg。C的质量为2.8 kg时，装了几分之几满？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 52,
@@ -465,7 +567,9 @@ window.QUESTION_BANK = [
     "answer": "29/30",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 22
+    "sourcePage": 22,
+    "questionZh": "一个20 cm × 12 cm × 15 cm的水箱中有水。倒出其中的1/10到一个盆里后，盆里的水量增加12 cm³。起初水箱未装满的部分占水箱容量的几分之几？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 53,
@@ -474,7 +578,9 @@ window.QUESTION_BANK = [
     "answer": "36 pens",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 22
+    "sourcePage": 22,
+    "questionZh": "马修第1天卖出笔的1/3，第2天再卖出4支，其余在第3天卖出。第2天比第3天多卖15支笔。求原来有多少支笔。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 54,
@@ -483,7 +589,9 @@ window.QUESTION_BANK = [
     "answer": "Small: 15; Medium: 16; Large: 3",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 22
+    "sourcePage": 22,
+    "questionZh": "埃德蒙买了小、中、大3种装的饼干，价格分别为$4、$6、$8。小包装占总数的1/4；中包装比小包装多4包，总价为$180。求各种包装各买了多少包。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 55,
@@ -492,7 +600,9 @@ window.QUESTION_BANK = [
     "answer": "Ben: 60; Tom: 84",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 23
+    "sourcePage": 23,
+    "questionZh": "本和汤姆共有144颗糖。本给汤姆自己糖的1/4；汤姆给本自己糖的1/3后，两人的糖数相等。求两人原来各有多少颗糖。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 56,
@@ -501,7 +611,9 @@ window.QUESTION_BANK = [
     "answer": "Claudia: 144; Agnes: 96",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 23
+    "sourcePage": 23,
+    "questionZh": "克劳迪娅给阿格尼丝自己咖喱角的1/4；阿格尼丝给克劳迪娅自己咖喱角的1/3后，两人的数量相等，共有240个。求两人原来各有多少个。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 57,
@@ -510,7 +622,9 @@ window.QUESTION_BANK = [
     "answer": "80 orchids and roses",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 23
+    "sourcePage": 23,
+    "questionZh": "一名花商卖出兰花的1/5和玫瑰的1/3后，剩下60朵。又卖出14朵玫瑰后，剩下的玫瑰是原来数量的1/2。求原来花的总数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 58,
@@ -519,7 +633,9 @@ window.QUESTION_BANK = [
     "answer": "Chinese: 35; English: 21; Malay: 84",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 24
+    "sourcePage": 24,
+    "questionZh": "中文书、英文书和马来文书中，中文书占1/4；余下的书中有1/3是英文书。马来文书比英文书多63本。求每种书各有多少本。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 59,
@@ -528,7 +644,9 @@ window.QUESTION_BANK = [
     "answer": "Apples: 252; Pears: 49",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 24
+    "sourcePage": 24,
+    "questionZh": "卖出苹果的1/3和7个梨后，剩下的梨是剩下苹果的1/4。卖出的梨是未卖出梨的1/7。求原来苹果和梨各有多少个。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 60,
@@ -537,7 +655,9 @@ window.QUESTION_BANK = [
     "answer": "15 ten-dollar notes",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 24
+    "sourcePage": 24,
+    "questionZh": "琼斯先生的纸币中有1/4是$2纸币；其余纸币中有2/3是$10纸币，剩下的是$5纸币。总额为$295。有多少张$10纸币？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 61,
@@ -546,7 +666,9 @@ window.QUESTION_BANK = [
     "answer": "Jim: 80; Alice: 60",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 25
+    "sourcePage": 25,
+    "questionZh": "吉姆和爱丽丝有一些弹珠。吉姆弹珠数的1/4等于爱丽丝弹珠数的1/3。吉姆给爱丽丝30颗后，爱丽丝比吉姆多40颗；吉姆还剩原来数量的2/3。求两人原来各有多少颗弹珠。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 62,
@@ -555,7 +677,9 @@ window.QUESTION_BANK = [
     "answer": "Twenty-cent: 16; five-cent: 8",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 25
+    "sourcePage": 25,
+    "questionZh": "弗朗西斯有$3.60，由$0.05和$0.20硬币组成。其中1/4的硬币是$0.20硬币。求两种硬币各有多少枚。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 63,
@@ -564,7 +688,9 @@ window.QUESTION_BANK = [
     "answer": "20 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 25
+    "sourcePage": 25,
+    "questionZh": "上午8:30时，P、Q、R三辆车相距300 km。Q在上午11:30遇到P，30 min后遇到R；P的车速为60 km/h。求Q在两次相遇之间行驶了多远。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 64,
@@ -573,7 +699,9 @@ window.QUESTION_BANK = [
     "answer": "284 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 26
+    "sourcePage": 26,
+    "questionZh": "特伦斯和琳达中午从A开往B。特伦斯的平均车速比琳达快15 km/h；下午4:00特伦斯到达B时，琳达已行驶224 km。求A到B的距离。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 65,
@@ -582,7 +710,9 @@ window.QUESTION_BANK = [
     "answer": "120 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 26
+    "sourcePage": 26,
+    "questionZh": "亚伦从5:30到11:30以80 km/h行驶，仍晚了1 h 36 min。若他在全程最初的1/2以100 km/h行驶，求后半程所需的速度。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 66,
@@ -591,7 +721,9 @@ window.QUESTION_BANK = [
     "answer": "140 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 26
+    "sourcePage": 26,
+    "questionZh": "贾斯珀上午8:30从A出发，车速90 km/h。托尼比他早2 h出发，速度慢10 km/h，并在上午10:30到达B。此时贾斯珀离B还有多远？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 67,
@@ -600,7 +732,9 @@ window.QUESTION_BANK = [
     "answer": "23.25 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 27
+    "sourcePage": 27,
+    "questionZh": "乔治从4:15开始以9 km/h慢跑。凯莱布4:45开始，5:45时他在乔治前面2 km。若凯莱布从4:15开始，他会跑多远？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 68,
@@ -609,7 +743,9 @@ window.QUESTION_BANK = [
     "answer": "40 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 27
+    "sourcePage": 27,
+    "questionZh": "一辆汽车和一辆巴士从A到B分别需5 h和9 h；汽车的速度为90 km/h。巴士走完3/5路程后，速度必须提高多少，才能提前1 h 36 min到达？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 69,
@@ -618,7 +754,9 @@ window.QUESTION_BANK = [
     "answer": "8:10 am",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 27
+    "sourcePage": 27,
+    "questionZh": "科林在布莱恩前方150 m；亚伦在布莱恩后方50 m。上午8:00开始，亚伦2 min后超过布莱恩，3 min后又超过科林。布莱恩的跑速为120 m/min。布莱恩何时超过科林？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 70,
@@ -627,7 +765,9 @@ window.QUESTION_BANK = [
     "answer": "270 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 28
+    "sourcePage": 28,
+    "questionZh": "肖恩从5:30到1:30以90 km/h行驶。玛丽用6 h走完相同的路程。当两人相距150 km时，肖恩离目的地还有多远？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 71,
@@ -636,7 +776,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 360 km; (b) 144 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 28
+    "sourcePage": 28,
+    "questionZh": "马克从10:00开始以75 km/h行驶；简1 h后以120 km/h出发，在全程的2/5处超过马克，并于4:00到达。求所要求的距离和马克的新速度。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 72,
@@ -645,7 +787,9 @@ window.QUESTION_BANK = [
     "answer": "6 minutes",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 28
+    "sourcePage": 28,
+    "questionZh": "一个15 cm × 20 cm × 30 cm的容器装有1/5满的水。两个水龙头的流量分别为120 ml/min和180 ml/min。若每个水龙头的流量均为200 ml/min，注满速度会快多少？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 73,
@@ -654,7 +798,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 270 km; (b) 8 h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 29
+    "sourcePage": 29,
+    "questionZh": "一辆汽车上午9:00从P出发，车速90 km/h，下午1:00到达Q。一辆卡车上午10:00从Q出发，在全程的1/4处与汽车相遇。求相遇时汽车行驶的距离和卡车行驶的时间。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 74,
@@ -663,7 +809,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 34.5 minutes; (b) 120 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 29
+    "sourcePage": 29,
+    "questionZh": "杰克在全程的3/5以80 km/h行驶，剩下的24 km用了12 min。求总用时和第2段的速度。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 75,
@@ -672,7 +820,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 400 km; (b) 75 km/h; (c) 7:05 pm",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 29
+    "sourcePage": 29,
+    "questionZh": "汤姆5:45从A出发；简2 h后以100 km/h出发，在全程的3/5处超过汤姆，并在4 h后到达B。求3个所要求的数值。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 76,
@@ -681,7 +831,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 4:18 pm; (b) 120 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 30
+    "sourcePage": 30,
+    "questionZh": "驾车人A上午9:30从P出发，车速80 km/h，下午3:30到达Q。B在2 h后以100 km/h从P出发。求B到达时间，以及B若在下午3:30到达所需的速度。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 77,
@@ -690,7 +842,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 9:00 am; (b) 4:30 pm",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 30
+    "sourcePage": 30,
+    "questionZh": "火车A以160 km/h从X开往Z。火车B用了6 h；两车都在2:00经过Y，B在4:00到达Z；Y到Z为400 km。求A的出发和到达时间。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 78,
@@ -699,7 +853,9 @@ window.QUESTION_BANK = [
     "answer": "3200 red and white towels",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 30
+    "sourcePage": 30,
+    "questionZh": "一个仓库有4000条毛巾；蓝色与红色毛巾数量之比为2:1，其余为白色。卖出蓝色毛巾的1/4和白色毛巾的1/3后，剩下2400条。求原来红色和白色毛巾的数量总和。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 79,
@@ -708,7 +864,9 @@ window.QUESTION_BANK = [
     "answer": "1053 beads",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 31
+    "sourcePage": 31,
+    "questionZh": "罐子A和B中的珠子数量之比为2:3，B和C中的珠子数量之比为2:1。从B向A和C分别转移相同数量的珠子后，A与B数量相等，C中有297颗。求珠子总数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 80,
@@ -717,7 +875,9 @@ window.QUESTION_BANK = [
     "answer": "4:15",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 31
+    "sourcePage": 31,
+    "questionZh": "聚会上有1/3是男士。1/2的男士和8名女士离开后，在女士离开前，女士比男士多96人。求最后男士与女士人数之比。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 81,
@@ -726,7 +886,9 @@ window.QUESTION_BANK = [
     "answer": "40 marbles",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 31
+    "sourcePage": 31,
+    "questionZh": "辛迪与马克的弹珠数之比为3:2，共80颗。辛迪送出一些弹珠后，她的弹珠数是马克的1/4。辛迪送出了多少颗？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 82,
@@ -735,7 +897,9 @@ window.QUESTION_BANK = [
     "answer": "120 people",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 32
+    "sourcePage": 32,
+    "questionZh": "乡村俱乐部男士与女士人数之比为2:3。1/4的男士和1/3的女士离开后，留下的人数比离开的人数多24。求起初到场人数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 83,
@@ -744,7 +908,9 @@ window.QUESTION_BANK = [
     "answer": "108 sweets",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 32
+    "sourcePage": 32,
+    "questionZh": "曼迪与杰克的糖果数之比为5:7；曼迪给杰克一些糖果后，数量之比变为3:21。杰克起初有168颗糖果。为使两人的糖果数相等，杰克必须还给曼迪多少颗？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 84,
@@ -753,7 +919,9 @@ window.QUESTION_BANK = [
     "answer": "128 sweets",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 32
+    "sourcePage": 32,
+    "questionZh": "A与B的糖果数之比为7:4，B与C的糖果数之比为3:2。从A取走36颗糖果后，C的糖果数是A的1/4。求剩下糖果的总数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 85,
@@ -762,7 +930,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 790 adults; (b) 4:1",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 33
+    "sourcePage": 33,
+    "questionZh": "一艘船上有1580人；其中60%是成年人。部分成年人下船后，成年人占剩余人数的20%。求下船的成年人数，以及最后儿童与成年人的人数之比。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 86,
@@ -771,7 +941,9 @@ window.QUESTION_BANK = [
     "answer": "$212",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 33
+    "sourcePage": 33,
+    "questionZh": "巧克力蛋糕每个$4；草莓蛋糕每个比2个巧克力蛋糕贵$3。两种蛋糕的数量之比为5:3，吉布斯卖出的巧克力蛋糕比草莓蛋糕多8个。求总销售额。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 87,
@@ -780,7 +952,9 @@ window.QUESTION_BANK = [
     "answer": "$172.80",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 33
+    "sourcePage": 33,
+    "questionZh": "苏珊卖出慈善票的1/2；剩余票中马克与简卖出的数量之比为5:3，马克比简多卖18张。每张票$1.20。求总筹款额。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 88,
@@ -789,7 +963,9 @@ window.QUESTION_BANK = [
     "answer": "$784",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 34
+    "sourcePage": 34,
+    "questionZh": "阿尔文、扎卡里和菲利普的钱数之比为2:5:3。扎卡里花掉20%后，剩下的钱比阿尔文和菲利普的钱数总和少$196。阿尔文和扎卡里的钱数总和比菲利普多多少？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 89,
@@ -798,7 +974,9 @@ window.QUESTION_BANK = [
     "answer": "645 women",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 34
+    "sourcePage": 34,
+    "questionZh": "聚会上40%的成年人离开；离开者中有10%是男士。离开的男士与留下的男士人数之比为2:5；起初有105名男士。求起初有多少名女士。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 90,
@@ -807,7 +985,9 @@ window.QUESTION_BANK = [
     "answer": "29%",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 34
+    "sourcePage": 34,
+    "questionZh": "凯特拿走30%的饼干；梅利莎拿走25%；杰克拿走最后80块；安拿走的比梅利莎多20块。安拿走了百分之几的饼干？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 91,
@@ -816,7 +996,9 @@ window.QUESTION_BANK = [
     "answer": "53 cups",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 35
+    "sourcePage": 35,
+    "questionZh": "山姆叔叔从每杯$8的售价中收取20%，并且每卖10杯另收取售价的5%。他共收了$86.80。他卖出了多少杯？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 92,
@@ -825,7 +1007,9 @@ window.QUESTION_BANK = [
     "answer": "24 children",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 35
+    "sourcePage": 35,
+    "questionZh": "一个班级中20%是男生。20%的男生和10%的女生养宠物；144名女生不养宠物。多少名儿童养宠物？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 93,
@@ -834,7 +1018,9 @@ window.QUESTION_BANK = [
     "answer": "48 blue and green marbles",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 35
+    "sourcePage": 35,
+    "questionZh": "弹珠中有2/5是红色的。在其余弹珠中，10%是蓝色的，10%是绿色的。黄色弹珠比红色弹珠多32颗。求蓝色和绿色弹珠的总数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 94,
@@ -843,7 +1029,9 @@ window.QUESTION_BANK = [
     "answer": "Jane: 154; Jeffrey: 110",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 36
+    "sourcePage": 36,
+    "questionZh": "简的弹珠比杰弗里的多40%。简丢失12颗并给杰弗里16颗后，两人的弹珠数相等。求两人原来各有多少颗弹珠。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 95,
@@ -852,7 +1040,9 @@ window.QUESTION_BANK = [
     "answer": "$59580",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 36
+    "sourcePage": 36,
+    "questionZh": "伍德太太第1个月储蓄工资的10%，第2个月储蓄额比第1个月多50%；第2个月的储蓄额比第1个月多$496.50。求6个月的工资总额。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 96,
@@ -861,7 +1051,9 @@ window.QUESTION_BANK = [
     "answer": "96%",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 36
+    "sourcePage": 36,
+    "questionZh": "一个正方形的面积为625 cm²。每条边增加40%。求面积增加的百分比。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 97,
@@ -870,7 +1062,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 30 English books; (b) 75 books",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 37
+    "sourcePage": 37,
+    "questionZh": "书中80%是二手书。新书中有10%是英文书，二手书中有60%是英文书。增加15本英文书后，英文书与中文书之比为3:2。求起初英文书的数量和最后书的总数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 98,
@@ -879,7 +1073,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 8%; (b) $125",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 37
+    "sourcePage": 37,
+    "questionZh": "1月，乔伊斯保留工资的80%，其中1/4给母亲，其余储蓄；2月的食物和衣服支出不变。给母亲的钱在2月增加$150，且等于储蓄额。求题目所要求的数值。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 99,
@@ -888,7 +1084,9 @@ window.QUESTION_BANK = [
     "answer": "(a) 650; (b) 1600; (c) 54 6/11%",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 37
+    "sourcePage": 37,
+    "questionZh": "一个剧院有4500个座位：10%是一等座，30%是二等座，其余是三等座。增加200个一等座和250个二等座后，求最后一等、二等和三等座所占的百分比。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 100,
@@ -897,7 +1095,9 @@ window.QUESTION_BANK = [
     "answer": "(a) $192; (b) $163.20",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 38
+    "sourcePage": 38,
+    "questionZh": "杰里米和艾丽西亚共有$360；杰里米比艾丽西亚多$24。艾丽西亚的花费是杰里米花费的3倍，并且她剩下的钱是杰里米余款的1/2。求杰里米原有的钱和余款。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 101,
@@ -906,6 +1106,8 @@ window.QUESTION_BANK = [
     "answer": "167 fruit",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 38
+    "sourcePage": 38,
+    "questionZh": "箱子A中有207个梨和176个芒果；箱子B中有293个梨和274个芒果。将水果从B移到A后，A中的梨占水果总数的40%，B中的梨占水果总数的70%。求转移了多少个水果。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   }
 ];

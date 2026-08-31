@@ -7,7 +7,9 @@
       "question": "The sum of 3 numbers is 1305. The 1st number is 360. The 2nd number is 2 times the 1st number. What is the 3rd number?",
       "answer": "225",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "3个数的和是1305。第1个数是360。第2个数是第1个数的2倍。第3个数是多少？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 2,
@@ -15,7 +17,9 @@
       "question": "Mary had 129 apples. Tom had 127 more apples than Mary. Linda had 195 more apples than Tom. How many more apples did Linda have than Mary?",
       "answer": "322 apples",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Mary有129个苹果。Tom比Mary多127个苹果。Linda比Tom多195个苹果。Linda比Mary多多少个苹果？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 3,
@@ -23,7 +27,9 @@
       "question": "Jacob had 2 times as many marbles as Jerry. Kenny had 3 times as many marbles as Jacob. They had 846 marbles altogether. How many more marbles did Kenny have than Jerry?",
       "answer": "470 marbles",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Jacob的弹珠数是Jerry的2倍。Kenny的弹珠数是Jacob的3倍。他们一共有846颗弹珠。Kenny比Jerry多多少颗弹珠？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 4,
@@ -31,7 +37,9 @@
       "question": "There were 5 times as many strawberries as blueberries in a container. Joel ate 1/2 of the strawberries and 120 strawberries were left in the container. How many strawberries and blueberries were in the container at 1st?",
       "answer": "288 strawberries and blueberries",
       "model": "bar-change",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一个容器里的草莓数量是蓝莓的5倍。Joel吃掉了草莓的1/2，容器里还剩120个草莓。最初容器里有多少个草莓和蓝莓？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 5,
@@ -39,7 +47,9 @@
       "question": "There were 67 more boys than girls in a field. After 18 children had left the field, there were 373 children left. How many boys were there in the beginning?",
       "answer": "229 boys",
       "model": "bar-change",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一块空地上男孩比女孩多67人。18个孩子离开后，空地上还剩373个孩子。最初有多少个男孩？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 6,
@@ -47,7 +57,9 @@
       "question": "Jessica had 2 times as many sweets as Linda and 25 fewer sweets than Zoe. They had 100 sweets altogether. How many sweets did Zoe have?",
       "answer": "55 sweets",
       "model": "bar-change",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Jessica的糖果数是Linda的2倍，并且比Zoe少25颗糖果。她们一共有100颗糖果。Zoe有多少颗糖果？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 7,
@@ -55,7 +67,9 @@
       "question": "315 children were going to the zoo. Each bus could seat 30 children. What was the least number of buses needed to take all the children to the zoo?",
       "answer": "11 buses",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "315个孩子要去动物园。每辆巴士可坐30个孩子。至少需要多少辆巴士才能把所有孩子送到动物园？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 8,
@@ -63,7 +77,9 @@
       "question": "Mrs Woods bought 12 packs of sweets and gave them to 26 students. When she gave each of them 4 sweets, she had 4 sweets left. How many sweets were there in each pack?",
       "answer": "9 sweets",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Woods太太买了12包糖果，分给26名学生。她给每人4颗糖果后，还剩4颗糖果。每包有多少颗糖果？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 9,
@@ -71,7 +87,9 @@
       "question": "A shopkeeper sold 254 eggs on Monday and 2 times as many eggs on Tuesday. He had 150 eggs left. If he had to sell all the eggs and the same number of eggs over 2 days, how many eggs would he need to sell each day?",
       "answer": "456 eggs",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一位店主星期一卖了254个鸡蛋，星期二卖出的鸡蛋数是星期一的2倍。他还剩150个鸡蛋。如果他要在2天内以每天相同的数量卖完所有鸡蛋，他每天要卖多少个鸡蛋？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 10,
@@ -79,7 +97,9 @@
       "question": "A pack of sweets was shared equally among 30 boys. 4 boys decided to give their sweets to the rest. As a result, the rest of the boys received 2 more sweets each. How many sweets were there in the pack at first?",
       "answer": "390 sweets",
       "model": "bar-change",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一包糖果平均分给30个男孩。4个男孩决定把自己的糖果给其余男孩。结果，其余每个男孩多得2颗糖果。起初这包糖果有多少颗？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 11,
@@ -87,7 +107,9 @@
       "question": "There were 120 black chairs and 3 times as many white chairs in a room. The chairs were arranged in rows of 8. How many rows of chairs were there?",
       "answer": "60 rows",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "房间里有120把黑色椅子，白色椅子的数量是黑色椅子的3倍。椅子每8把排成一行。一共有多少行椅子？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 12,
@@ -95,7 +117,9 @@
       "question": "There were 120 yellow marbles and 2 times as many green marbles. The rest were blue marbles. If there were 74 blue marbles, how many marbles were there altogether?",
       "answer": "434 marbles",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "有120颗黄色弹珠，绿色弹珠的数量是黄色弹珠的2倍，其余的是蓝色弹珠。如果有74颗蓝色弹珠，一共有多少颗弹珠？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 13,
@@ -103,7 +127,9 @@
       "question": "Mr Gibb had 567 eggs. He sold 143 eggs and packed the remaining eggs equally into 8 boxes. How many eggs were there in each box?",
       "answer": "53 eggs",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Gibb先生有567个鸡蛋。他卖了143个鸡蛋后，把剩下的鸡蛋平均装进8个盒子。每个盒子里有多少个鸡蛋？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 14,
@@ -111,7 +137,9 @@
       "question": "There were 720 orange balloons and 2 times as many yellow balloons. The rest were green balloons. If there were 2500 balloons altogether, how many green balloons were there?",
       "answer": "340 green balloons",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "有720个橙色气球，黄色气球的数量是橙色气球的2倍，其余的是绿色气球。如果一共有2500个气球，有多少个绿色气球？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 15,
@@ -119,7 +147,9 @@
       "question": "Samuel had 840 sweets. He had 4 times as many sweets as Cheryl. How many sweets did they have altogether?",
       "answer": "1050 sweets",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Samuel有840颗糖果。他的糖果数是Cheryl的4倍。他们一共有多少颗糖果？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 16,
@@ -127,7 +157,9 @@
       "question": "There were 250 fiction books and 180 non-fiction books on a bookshelf. There were 3 times as many non-fiction books as scientific books. How many books were there altogether?",
       "answer": "490 books",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "书架上有250本小说和180本非小说类书籍。非小说类书籍的数量是科学书籍的3倍。一共有多少本书？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 17,
@@ -135,7 +167,9 @@
       "question": "The sum of 2 numbers is 185. 1 number is 15 more than the other number. What are the 2 numbers?",
       "answer": "85 and 100",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "2个数的和是185。其中1个数比另1个数多15。这2个数分别是多少？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 18,
@@ -143,7 +177,9 @@
       "question": "Mrs Drew baked 104 apple pies and 216 lemon pies. She packed the 2 types of pies separately into boxes of 4 each. How many more boxes of lemon pies than apple pies did she have?",
       "answer": "28 more boxes",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Drew太太烤了104个苹果派和216个柠檬派。她分别把这2种派每4个装一盒。柠檬派的盒数比苹果派的盒数多多少？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 19,
@@ -151,7 +187,9 @@
       "question": "At a dog show, there were 2 times as many brown dogs as white dogs and 3 times as many grey dogs as white dogs. There were 342 dogs altogether. How many grey dogs were there?",
       "answer": "171 grey dogs",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "在一次狗展上，棕色狗的数量是白色狗的2倍，灰色狗的数量是白色狗的3倍。一共有342只狗。有多少只灰色狗？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 20,
@@ -159,7 +197,9 @@
       "question": "A total of 2650 people were on a cruise ship. 1942 of them were adults. If there were 20 more boys than girls, how many girls were there?",
       "answer": "344 girls",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一艘邮轮上共有2650人，其中1942人是成年人。如果男孩比女孩多20人，有多少个女孩？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 21,
@@ -167,7 +207,9 @@
       "question": "When a number is tripled, it is 16 more than 284. What is the number?",
       "answer": "100",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一个数的3倍比284多16。这个数是多少？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 22,
@@ -175,7 +217,9 @@
       "question": "There are 10 balloons in a pack. Christine buys 9 such packs. She blows them and ties them into bunches of 15. How many bunches of balloons does she have?",
       "answer": "6 bunches of balloons",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "每包有10个气球。Christine买了9包这样的气球。她把气球吹起来后，每15个扎成一束。她有多少束气球？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 23,
@@ -183,7 +227,9 @@
       "question": "Andrew and Deon sold a total of 116 charity tickets. Andrew sold 3 times as many charity tickets as Deon. How many charity tickets did Andrew sell?",
       "answer": "87 charity tickets",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Andrew和Deon一共卖了116张慈善票。Andrew卖出的慈善票数是Deon的3倍。Andrew卖了多少张慈善票？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 24,
@@ -191,7 +237,9 @@
       "question": "In a car park, there were 198 cars. There were 54 more cars than vans and 36 more motorcycles than vans. How many vehicles were there altogether?",
       "answer": "522 vehicles",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一个停车场里有198辆汽车。汽车比面包车多54辆，摩托车比面包车多36辆。一共有多少辆交通工具？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 25,
@@ -199,7 +247,9 @@
       "question": "Mrs Campbell baked 7 trays of cookies. There were 48 butter cookies and 21 chocolate chip cookies on each tray. How many more butter cookies than chocolate chip cookies did Mrs Campbell bake?",
       "answer": "189 more butter cookies",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Campbell太太烤了7盘饼干。每盘有48块黄油饼干和21块巧克力豆饼干。Campbell太太烤的黄油饼干比巧克力豆饼干多多少块？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 26,
@@ -207,7 +257,9 @@
       "question": "There were 24 eggs in a carton. Mr Taylor bought 4 cartons and used 18 eggs. He then packed the remaining eggs into boxes of 6. How many boxes of eggs did he have?",
       "answer": "13 boxes of eggs",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "每盒有24个鸡蛋。Taylor先生买了4盒，用掉18个鸡蛋，然后把剩下的鸡蛋每6个装一盒。他有多少盒鸡蛋？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 27,
@@ -215,7 +267,9 @@
       "question": "At a party, there were 8 groups of 55 children. Another 6 boys and 19 girls joined the party. How many children were there altogether?",
       "answer": "465 children",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一次聚会上有8组孩子，每组55人。后来又有6个男孩和19个女孩加入。聚会上一共有多少个孩子？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 28,
@@ -223,7 +277,9 @@
       "question": "Mr Smith sold 152 apples on Monday and 168 apples on Tuesday. He had 2 times as many apples left as the total number of apples sold. How many apples had he left?",
       "answer": "640 apples",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Smith先生星期一卖了152个苹果，星期二卖了168个苹果。他剩下的苹果数是已卖苹果总数的2倍。他还剩多少个苹果？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 29,
@@ -231,7 +287,9 @@
       "question": "Calvin had 148 stamps. There were 3 times as many local stamps as foreign stamps. His mother gave him another 52 local stamps. How many local stamps did Calvin have in the end?",
       "answer": "163 local stamps",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Calvin有148枚邮票。本地邮票的数量是外国邮票的3倍。他的母亲又给了他52枚本地邮票。最后Calvin有多少枚本地邮票？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 30,
@@ -239,7 +297,9 @@
       "question": "Ann gave 5 pencils to each of her friends. She then had 2 pencils left. If she had bought 8 boxes of 9 pencils, how many friends did she give the pencils to?",
       "answer": "14 friends",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Ann给她的每个朋友5支铅笔，之后还剩2支。如果她买了8盒铅笔，每盒9支，她把铅笔送给了多少个朋友？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 31,
@@ -247,7 +307,9 @@
       "question": "There were 8 charity tickets in a booklet. Linda sold 16 booklets and Jill sold 4 times as many booklets as her. Mike sold 1/2 the number of booklets Linda sold. How many charity tickets did they sell altogether?",
       "answer": "704 charity tickets",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "每本慈善票册有8张慈善票。Linda卖了16本，Jill卖出的册数是Linda的4倍。Mike卖出的册数是Linda的1/2。他们一共卖了多少张慈善票？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 32,
@@ -255,7 +317,9 @@
       "question": "There were 15 more boys than girls in a class. 8 boys wore spectacles and 5 more girls than boys wore spectacles. If all the girls in the class wore spectacles, how many children were there in the class?",
       "answer": "41 children",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "班上男孩比女孩多15人。8个男孩戴眼镜，戴眼镜的女孩比男孩多5人。如果班上所有女孩都戴眼镜，班上一共有多少个孩子？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 33,
@@ -263,7 +327,9 @@
       "question": "Mr Donald had 210 apples and 220 pears. He sold 2 times as many apples as pears and had 130 pieces of fruit left. How many apples did he sell?",
       "answer": "200 apples",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Donald先生有210个苹果和220个梨。他卖出的苹果数是梨的2倍，之后还剩130个水果。他卖了多少个苹果？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 34,
@@ -271,7 +337,9 @@
       "question": "Zoe had 6 times as many sweets as Malcolm. They had a total of 56 sweets. How many sweets must Zoe give to Malcolm so that they would have the same number of sweets?",
       "answer": "20 sweets",
       "model": "bar-change",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Zoe的糖果数是Malcolm的6倍。他们一共有56颗糖果。Zoe必须给Malcolm多少颗糖果，他们的糖果数才会相同？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 35,
@@ -279,7 +347,9 @@
       "question": "Box A contained 250 cards and box B contained 1/2 as many cards as box A. Box C contained 3 times as many cards as box B. Find the total number of cards in the 3 boxes.",
       "answer": "750 cards",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "A盒有250张卡片，B盒的卡片数是A盒的1/2。C盒的卡片数是B盒的3倍。求3个盒子里的卡片总数。",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 36,
@@ -287,7 +357,9 @@
       "question": "Max had 120 red balloons and 210 green balloons. Jeslin had 2 times as many balloons as Max, and Dawn had 3 times as many balloons as Max. How many balloons did they have altogether?",
       "answer": "1980 balloons",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Max有120个红色气球和210个绿色气球。Jeslin的气球数是Max的2倍，Dawn的气球数是Max的3倍。他们一共有多少个气球？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 37,
@@ -295,7 +367,9 @@
       "question": "There were 130 marbles in a box. 80 of them were red and the rest were green and yellow. If there were 2 times as many red marbles as green marbles, how many yellow marbles were there?",
       "answer": "10 yellow marbles",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一个盒子里有130颗弹珠，其中80颗是红色，其余是绿色和黄色。如果红色弹珠的数量是绿色弹珠的2倍，有多少颗黄色弹珠？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 38,
@@ -303,7 +377,9 @@
       "question": "There are 5 times as many strawberries in box A than in box B. There are 60 more strawberries in box A than in box B. What is the total number of strawberries in both boxes?",
       "answer": "90 strawberries",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "A盒里的草莓数是B盒的5倍。A盒比B盒多60个草莓。两个盒子里一共有多少个草莓？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 39,
@@ -311,7 +387,9 @@
       "question": "There were 890 pages in a book. Don read 3 times as many pages of the book on Saturday than on Sunday. He then had 6 pages left to read. How many pages did he read on Saturday?",
       "answer": "663 pages",
       "model": "bar-change",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一本书有890页。Don星期六读的页数是星期日的3倍。之后他还剩6页没读。Don星期六读了多少页？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 40,
@@ -319,7 +397,9 @@
       "question": "There are some red balloons and blue balloons in a pack. 1/2 of the blue balloons is 2 times the number of red balloons. There are 60 balloons in the pack. How many blue balloons are there?",
       "answer": "48 blue balloons",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "一包里有一些红气球和蓝气球。蓝气球数量的1/2是红气球数量的2倍。这包里有60个气球。有多少个蓝气球？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 41,
@@ -327,7 +407,9 @@
       "question": "Mrs Morris arranged 25 rows of 7 chairs for a school concert. 157 chairs were occupied during the concert. How many chairs were not occupied?",
       "answer": "18 chairs",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Morris太太为学校音乐会摆了25排椅子，每排7把。音乐会期间有157把椅子被占用。有多少把椅子没有被占用？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 42,
@@ -335,7 +417,9 @@
       "question": "Helen packed 23 boxes of 6 apple pies. She then had 3 apple pies left. How many more boxes of apple pies would she have if she had packed them into boxes of 3 instead?",
       "answer": "24 more boxes",
       "model": "unit-bar",
-      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+      "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount.",
+      "questionZh": "Helen装了23盒苹果派，每盒6个，之后还剩3个苹果派。如果她改为每盒装3个苹果派，她会多装多少盒苹果派？",
+      "hintZh": "将已知量画成线段图。在计算所求数量前，先找出对应的等量单位。"
     },
     {
       "id": 43,
@@ -343,7 +427,9 @@
       "question": "A clock cost $24 and a watch cost $15 more than the clock. Jeffrey bought 2 clocks and 3 watches. How much money did he spend?",
       "answer": "$165",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "一个时钟售价$24，一块手表比这个时钟贵$15。Jeffrey买了2个时钟和3块手表。他一共花了多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 44,
@@ -351,7 +437,9 @@
       "question": "A buffet lunch cost $23.20 for an adult and $7.50 less for a child. Find the total amount of money that 4 adults and 5 children had to pay for the buffet lunch.",
       "answer": "$171.30",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "自助午餐每位成人收费$23.20，每位儿童比成人少$7.50。4位成人和5位儿童吃自助午餐一共要付多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 45,
@@ -359,7 +447,9 @@
       "question": "Joshua had $150 more than Jason and $70 less than George. The 3 boys had a total of $790. How much did George have?",
       "answer": "$360",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Joshua的钱比Jason多$150，比George少$70。这3个男孩一共有$790。George有多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 46,
@@ -367,7 +457,9 @@
       "question": "Mr Robin spent $570.80 on a camera and $155.90 less on a radio. He then had 1/2 as much money left as he had at 1st. How much did he have at 1st?",
       "answer": "$1971.40",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Robin先生买相机花了$570.80，买收音机比买相机少花$155.90。之后他剩下的钱是最初钱数的1/2。他最初有多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 47,
@@ -375,7 +467,9 @@
       "question": "4 apples and 4 oranges cost $3. 1 orange costs 35 cents. How much more does 1 apple cost than 1 orange?",
       "answer": "5 cents",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "4个苹果和4个橙子一共售价$3。1个橙子售价35美分。1个苹果比1个橙子贵多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 48,
@@ -383,7 +477,9 @@
       "question": "Mrs William earned $3500 a month. She spent $1420 on her children and $1200 on transport and food. She then saved 1/2 of her remaining money. How much would she save in 3 months?",
       "answer": "$1320",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "William太太每月赚$3500。她在孩子身上花了$1420，在交通和食物上花了$1200。随后她把剩下的钱的1/2存起来。她3个月能存多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 49,
@@ -391,7 +487,9 @@
       "question": "Adrian had 7 50-cent coins and some 20-cent coins. He spent $3.70 on a pair of socks and had $1.80 left. How many 20-cent coins did he have at 1st?",
       "answer": "10 20-cent coins",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Adrian有7枚50美分硬币和一些20美分硬币。他花$3.70买了一双袜子，还剩$1.80。最初他有多少枚20美分硬币？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 50,
@@ -399,7 +497,9 @@
       "question": "A shirt cost $45.20 and a pair of pants cost $55.90. Sean wanted to buy 2 such shirts and a pair of pants. He was $12.45 short of the total amount. How much money did Sean have?",
       "answer": "$133.85",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "一件衬衫售价$45.20，一条裤子售价$55.90。Sean想买2件这样的衬衫和1条裤子。他的钱比总价少$12.45。Sean有多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 51,
@@ -407,7 +507,9 @@
       "question": "9 packs of chocolates cost $72 and 3 packs of sweets cost $12. Agnes wanted to buy 4 packs of chocolates and 2 packs of sweets. Find the total amount of money that she had to pay for the items.",
       "answer": "$40",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "9包巧克力售价$72，3包糖果售价$12。Agnes想买4包巧克力和2包糖果。她一共要付多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 52,
@@ -415,7 +517,9 @@
       "question": "7 people paid $80 each for a dinner. The amount collected was $70 short of the total bill. What was the amount of money that each of them should pay?",
       "answer": "$90",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "7个人各付$80吃一顿晚餐。收集到的钱比总账单少$70。每个人本应付多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 53,
@@ -423,7 +527,9 @@
       "question": "An adult concert ticket cost $25. A child concert ticket cost $7 less. Mr and Mrs Lynch took some children to the concert. They paid a total of $176. How many children did they take to the concert?",
       "answer": "7 children",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "一张成人音乐会门票售价$25，一张儿童音乐会门票便宜$7。Lynch夫妇带了一些孩子去听音乐会，共付了$176。他们带了多少个孩子去？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 54,
@@ -431,7 +537,9 @@
       "question": "Joanne had $18.95. She bought a book that cost $4.20, a toy that cost $2.90 and a pair of socks. She had $9.05 left. How much did she pay for the pair of socks?",
       "answer": "$2.80",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Joanne有$18.95。她买了一本售价$4.20的书、一个售价$2.90的玩具和一双袜子，最后还剩$9.05。她买这双袜子付了多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 55,
@@ -439,7 +547,9 @@
       "question": "Janet spent 1/2 of her salary on food and transport. She then gave $450 to her brother and saved the remaining amount of $380. What was Janet’s salary?",
       "answer": "$1660",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Janet把工资的1/2花在食物和交通上。随后她给弟弟$450，剩下$380存起来。Janet的工资是多少？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 56,
@@ -447,7 +557,9 @@
       "question": "2 oranges cost 90 cents and a guava cost 80 cents more than 1 orange. Jess bought 5 oranges and a guava. She had $15.75 left. How much did she have at first?",
       "answer": "$19.25",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "2个橙子售价90美分，一个番石榴比1个橙子贵80美分。Jess买了5个橙子和1个番石榴后，还剩$15.75。她最初有多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 57,
@@ -455,7 +567,9 @@
       "question": "Mr Anderson bought 2 similar watches and had $150 left. He spent 3 times the amount of money he had left on the 2 watches. How much did each watch cost?",
       "answer": "$225",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Anderson先生买了2块相同的手表后还剩$150。他买这2块手表花的钱是剩余钱数的3倍。每块手表售价多少？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 58,
@@ -463,7 +577,9 @@
       "question": "3 similar books cost $186. Betty bought 2 books and had $25 left. How much did she have at 1st?",
       "answer": "$149",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "3本相同的书售价$186。Betty买了2本书后还剩$25。她最初有多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 59,
@@ -471,7 +587,9 @@
       "question": "e George earns $4350 every month. He spends $350 on transport and $120 more on food than transport. He then gives $600 to his wife and saves the rest. How much does he save?",
       "answer": "$2930",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "George每月赚$4350。他在交通上花$350，食物上的花费比交通多$120。随后他给妻子$600，其余的钱存起来。他存了多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 60,
@@ -479,15 +597,19 @@
       "question": "7 similar books cost $105. Benny bought 9 such books and had $14 left. How much did he have at 1st?",
       "answer": "$149",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "7本相同的书售价$105。Benny买了9本这样的书后还剩$14。他最初有多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 61,
       "topic": "Money",
-      "question": "se liT-23¢7-) 7) Mr Fox packed 100 oranges equally into boxes of 5 and sold each box for $3. Mr Owen packed 100 oranges equally into boxes of 4 and sold each box for $2. How much more did Mr Fox earn than Mr Owen?",
+      "question": "Mr Fox packed 100 oranges equally into boxes of 5 and sold each box for $3. Mr Owen packed 100 oranges equally into boxes of 4 and sold each box for $2. How much more did Mr Fox earn than Mr Owen?",
       "answer": "$10 more",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Fox先生把100个橙子每5个装一盒，每盒卖$3。Owen先生把100个橙子每4个装一盒，每盒卖$2。Fox先生比Owen先生多赚多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 62,
@@ -495,7 +617,9 @@
       "question": "Mrs Scotts saved $564 every month. After 1/2 a year, she spent some of her savings. If she had $1205 left, how much did she spend?",
       "answer": "$2179",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "Scotts太太每月存$564。1/2年后，她花掉了一部分存款。如果她还剩$1205，她花了多少钱？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 63,
@@ -503,7 +627,9 @@
       "question": "A kettle cost $78. A blender cost $22 more than the kettle and a toaster cost 1/2 as much as the blender. What was the total cost of the 3 electrical items?",
       "answer": "$228",
       "model": "money-units",
-      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+      "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",
+      "questionZh": "一个水壶售价$78。一台搅拌机比水壶贵$22，一台烤面包机的价格是搅拌机的1/2。这3件电器的总价是多少？",
+      "hintZh": "所有金额统一用美元或美分表示。计算前先将每个价格对应到相应的数量组。"
     },
     {
       "id": 64,
@@ -511,7 +637,9 @@
       "question": "Alex and Bryan shared a cake at a party. Alex ate 1/3 of the cake while Bryan ate 1/9 of the cake. What fraction of the cake did they eat altogether?",
       "answer": "4/9",
       "model": "fraction-of-remainder",
-      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting.",
+      "questionZh": "Alex和Bryan在聚会上分吃一个蛋糕。Alex吃了蛋糕的1/3，Bryan吃了蛋糕的1/9。他们一共吃了蛋糕的几分之几？",
+      "hintZh": "画出被等分的1个整体。加减前先通分。"
     },
     {
       "id": 65,
@@ -519,7 +647,9 @@
       "question": "Kate bought 1/2 kg of flour to bake a cake. After baking the cake, she had 1/8 kg of flour left. How much flour did Kate use?",
       "answer": "3/8 kg",
       "model": "fraction-of-remainder",
-      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting.",
+      "questionZh": "Kate买了1/2 kg面粉烤蛋糕。烤完蛋糕后，她还剩1/8 kg面粉。Kate用了多少面粉？",
+      "hintZh": "画出被等分的1个整体。加减前先通分。"
     },
     {
       "id": 66,
@@ -527,7 +657,9 @@
       "question": "Wendy ate 1/5 of a pizza and Amanda ate 1/2 of the same pizza. What fraction of the pizza was left?",
       "answer": "3/10",
       "model": "fraction-of-remainder",
-      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting.",
+      "questionZh": "Wendy吃了一个披萨的1/5，Amanda吃了同一个披萨的1/2。还剩这个披萨的几分之几？",
+      "hintZh": "画出被等分的1个整体。加减前先通分。"
     },
     {
       "id": 67,
@@ -535,7 +667,9 @@
       "question": "George ate 1/4 of a cake and gave 1/2 of the remainder to Amy. What fraction of the cake was left?",
       "answer": "3/8",
       "model": "fraction-of-remainder",
-      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting.",
+      "questionZh": "George吃了一个蛋糕的1/4，并把剩下部分的1/2给了Amy。还剩这个蛋糕的几分之几？",
+      "hintZh": "画出被等分的1个整体。加减前先通分。"
     },
     {
       "id": 68,
@@ -543,7 +677,9 @@
       "question": "Bernice bought some sweets. She gave 1/4 of them to her cousins and 1/8 of them to her siblings. If she had 70 sweets left, how many sweets did she buy?",
       "answer": "112 sweets",
       "model": "fraction-of-remainder",
-      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting.",
+      "questionZh": "Bernice买了一些糖果。她把其中的1/4给了表亲，把其中的1/8给了兄弟姐妹。如果她还剩70颗糖果，她买了多少颗糖果？",
+      "hintZh": "画出被等分的1个整体。加减前先通分。"
     },
     {
       "id": 69,
@@ -551,7 +687,9 @@
       "question": "Alvin, Brenda and Carl shared a cake. Alvin ate 1/3 of the cake and Brenda ate 1/2 of the cake. Carl ate the rest of the cake. What fraction of the cake did Carl eat?",
       "answer": "1/6",
       "model": "fraction-of-remainder",
-      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+      "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting.",
+      "questionZh": "Alvin、Brenda和Carl分吃一个蛋糕。Alvin吃了蛋糕的1/3，Brenda吃了蛋糕的1/2，Carl吃了剩下的部分。Carl吃了蛋糕的几分之几？",
+      "hintZh": "画出被等分的1个整体。加减前先通分。"
     },
     {
       "id": 70,
@@ -559,7 +697,9 @@
       "question": "e David ran 1 km 250 m from his house to his school. After that, he cycled 2 km 960 m to the library. What was the total distance he had travelled? (Express your answer in metres.)",
       "answer": "4210 m",
       "model": "mass-bar",
-      "hint": "Convert each length to the same unit before calculating."
+      "hint": "Convert each length to the same unit before calculating.",
+      "questionZh": "David从家跑步到学校，路程是1 km 250 m。之后，他骑自行车前往图书馆，路程是2 km 960 m。他一共走了多远？（用米作答。）",
+      "hintZh": "计算前先把每个长度换算成相同单位。"
     },
     {
       "id": 71,
@@ -567,7 +707,9 @@
       "question": "Alan bought 3 m 70 cm of string. He used 1 m 90 cm and cut the remaining length into 6 equal strips. He used 4 strips. What was the length of string left in the end?",
       "answer": "60 cm",
       "model": "mass-bar",
-      "hint": "Convert each length to the same unit before calculating."
+      "hint": "Convert each length to the same unit before calculating.",
+      "questionZh": "Alan买了3 m 70 cm长的绳子。他用了1 m 90 cm，并把剩下的剪成6段等长的绳子。他用了其中4段。最后还剩多长的绳子？",
+      "hintZh": "计算前先把每个长度换算成相同单位。"
     },
     {
       "id": 72,
@@ -575,7 +717,9 @@
       "question": "Mrs Cole bought a cloth that was 3 m 50 cm long. She cut it into 5 equal pieces and used 3 such pieces. Find the length of cloth that she had left. (Express your answer in metres and centimetres.)",
       "answer": "1 m 40 cm",
       "model": "mass-bar",
-      "hint": "Convert each length to the same unit before calculating."
+      "hint": "Convert each length to the same unit before calculating.",
+      "questionZh": "Cole太太买了一块长3 m 50 cm的布。她把它剪成5等份，用了其中3份。求她剩下的布长。（用米和厘米作答。）",
+      "hintZh": "计算前先把每个长度换算成相同单位。"
     },
     {
       "id": 73,
@@ -583,7 +727,9 @@
       "question": "Daniel travelled from his home to the beach. He cycled for 2 km 800 m and walked 1 km 950 m less than the distance he cycled. He then took a bus for the rest of the journey. If the distance from his house to the beach was 5 km, what was the distance Daniel travelled by bus? (Express your answer in kilometres and metres.)",
       "answer": "1 km 350 m",
       "model": "mass-bar",
-      "hint": "Convert each length to the same unit before calculating."
+      "hint": "Convert each length to the same unit before calculating.",
+      "questionZh": "Daniel从家前往海滩。他骑自行车走了2 km 800 m，步行的路程比骑车少1 km 950 m，剩余路程乘巴士。如果他家到海滩的距离是5 km，Daniel乘巴士走了多远？（用千米和米作答。）",
+      "hintZh": "计算前先把每个长度换算成相同单位。"
     },
     {
       "id": 74,
@@ -591,7 +737,9 @@
       "question": "There was 450 g of flour in bag A and 120 g less flour in bag B. Mrs Jackson used 670 g of flour for baking after mixing the 2 bags together. How much flour was left?",
       "answer": "110 g",
       "model": "mass-bar",
-      "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+      "hint": "Convert to the same mass unit, then use the change or equal groups in the story.",
+      "questionZh": "A袋里有450 g面粉，B袋里的面粉比A袋少120 g。Jackson太太把2袋面粉混合后，用了670 g来烘焙。还剩多少面粉？",
+      "hintZh": "先统一质量单位，再根据题意中的增减或等量分组计算。"
     },
     {
       "id": 75,
@@ -599,7 +747,9 @@
       "question": "Mr Clement bought 16 sacks of soil. Each sack contained 9 kg of soil. He repacked the soil equally into bags, each weighing 3 kg. How many bags did he pack?",
       "answer": "48 bags",
       "model": "mass-bar",
-      "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+      "hint": "Convert to the same mass unit, then use the change or equal groups in the story.",
+      "questionZh": "Clement先生买了16袋土，每袋有9 kg土。他把土重新平均装进每袋3 kg的袋子里。他装了多少袋？",
+      "hintZh": "先统一质量单位，再根据题意中的增减或等量分组计算。"
     },
     {
       "id": 76,
@@ -607,7 +757,9 @@
       "question": "The mass of a container with a steel ball is 3800 g. When 3 more similar steel balls are added, the mass is 4700 g. What is the mass of the container?",
       "answer": "3500 g",
       "model": "mass-bar",
-      "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+      "hint": "Convert to the same mass unit, then use the change or equal groups in the story.",
+      "questionZh": "一个装有钢球的容器质量为3800 g。再放入3个相同的钢球后，质量为4700 g。这个容器的质量是多少？",
+      "hintZh": "先统一质量单位，再根据题意中的增减或等量分组计算。"
     },
     {
       "id": 77,
@@ -615,7 +767,9 @@
       "question": "Mrs Cox bought 1 kg of flour. She used 480 g and packed the rest equally into 4 bags. How much flour was there in each bag?",
       "answer": "130 g",
       "model": "mass-bar",
-      "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+      "hint": "Convert to the same mass unit, then use the change or equal groups in the story.",
+      "questionZh": "Cox太太买了1 kg面粉。她用了480 g，把剩下的平均装进4个袋子。每个袋子里有多少面粉？",
+      "hintZh": "先统一质量单位，再根据题意中的增减或等量分组计算。"
     },
     {
       "id": 78,
@@ -623,7 +777,9 @@
       "question": "The total mass of Edward and Ben is 93 kg. The total mass of Edward and Philip is 87 kg. Edward’s mass is 36 kg. What is the total mass of Ben and Philip?",
       "answer": "108 kg",
       "model": "mass-bar",
-      "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+      "hint": "Convert to the same mass unit, then use the change or equal groups in the story.",
+      "questionZh": "Edward和Ben的总质量是93 kg。Edward和Philip的总质量是87 kg。Edward的质量是36 kg。Ben和Philip的总质量是多少？",
+      "hintZh": "先统一质量单位，再根据题意中的增减或等量分组计算。"
     },
     {
       "id": 79,
@@ -631,7 +787,9 @@
       "question": "A bottle contained 1 l 250 ml of water. A container had 4 l 180 ml of water. How much more water was there in the container than the bottle? (Express your answer in ml.)",
       "answer": "2930 ml",
       "model": "mass-bar",
-      "hint": "Keep every volume in ml before adding or subtracting."
+      "hint": "Keep every volume in ml before adding or subtracting.",
+      "questionZh": "一个瓶子里有1 l 250 ml水。一个容器里有4 l 180 ml水。容器里的水比瓶子里多多少？（用ml作答。）",
+      "hintZh": "加减前把所有体积统一换算成ml。"
     },
     {
       "id": 80,
@@ -639,7 +797,9 @@
       "question": "A flask contains 600 ml of water. A jug contains 150 ml more water than the flask. If a bottle contains 250 ml of water less than the flask, what is the total volume of water in the flask, jug and the bottle?",
       "answer": "1700 ml",
       "model": "mass-bar",
-      "hint": "Keep every volume in ml before adding or subtracting."
+      "hint": "Keep every volume in ml before adding or subtracting.",
+      "questionZh": "一个保温瓶里有600 ml水。一个水壶里的水比保温瓶多150 ml。如果一个瓶子里的水比保温瓶少250 ml，保温瓶、水壶和瓶子里的水总体积是多少？",
+      "hintZh": "加减前把所有体积统一换算成ml。"
     },
     {
       "id": 81,
@@ -647,7 +807,9 @@
       "question": "Containers A, B and C are each filled to 1/2 their capacity with water. There is 890 ml of water in container A, 120 ml in container B and 345 ml in container C. If the 3 containers are completely filled, what is the total volume that the 3 containers can hold? (Express your answer in litres and millilitres.)",
       "answer": "2 l 710 ml",
       "model": "mass-bar",
-      "hint": "Keep every volume in ml before adding or subtracting."
+      "hint": "Keep every volume in ml before adding or subtracting.",
+      "questionZh": "容器A、B和C都装了各自容量的1/2水。容器A中有890 ml水，容器B中有120 ml水，容器C中有345 ml水。如果3个容器都装满，它们一共能装多少水？（用升和毫升作答。）",
+      "hintZh": "加减前把所有体积统一换算成ml。"
     },
     {
       "id": 82,
@@ -655,7 +817,9 @@
       "question": "An empty container was completely filled with water poured from 3 similar jugs. If 5 such jugs contained 400 ml of water, how much water was there in the container?",
       "answer": "240 ml",
       "model": "mass-bar",
-      "hint": "Keep every volume in ml before adding or subtracting."
+      "hint": "Keep every volume in ml before adding or subtracting.",
+      "questionZh": "用3个相同的水壶倒水，正好装满一个空容器。如果5个这样的水壶装有400 ml水，这个容器里有多少水？",
+      "hintZh": "加减前把所有体积统一换算成ml。"
     },
     {
       "id": 83,
@@ -663,7 +827,9 @@
       "question": "Mabel went for a jog last evening. She started jogging from her home at 6.40 pm and returned home 1 hour and 15 minutes later. What time did she return home?",
       "answer": "7.55 pm",
       "model": "mass-bar",
-      "hint": "Mark the start time and duration, then move forward or backward on a time line."
+      "hint": "Mark the start time and duration, then move forward or backward on a time line.",
+      "questionZh": "Mabel昨晚去慢跑。她在下午6:40从家出发，1小时15分钟后回到家。她几点回到家？",
+      "hintZh": "在时间线上标出开始时间和时长，再向前或向后推算。"
     },
     {
       "id": 84,
@@ -671,7 +837,9 @@
       "question": "Leon works in a fast food restaurant. He is paid $7 an hour. He works 5 hours a day on weekdays and 6 hours a day on weekends. If he works from Monday to Sunday, how much will he earn in a week?",
       "answer": "$259",
       "model": "mass-bar",
-      "hint": "Mark the start time and duration, then move forward or backward on a time line."
+      "hint": "Mark the start time and duration, then move forward or backward on a time line.",
+      "questionZh": "Leon在一家快餐店工作。他每小时收入$7，工作日每天工作5小时，周末每天工作6小时。如果他从星期一工作到星期日，一周能赚多少钱？",
+      "hintZh": "在时间线上标出开始时间和时长，再向前或向后推算。"
     },
     {
       "id": 85,
@@ -679,7 +847,9 @@
       "question": "Mr Watson is 7 times as old as his son this year. His son was 4 years old last year. How old will his son be when Mr Watson is 60 years old?",
       "answer": "30 years old",
       "model": "mass-bar",
-      "hint": "Mark the start time and duration, then move forward or backward on a time line."
+      "hint": "Mark the start time and duration, then move forward or backward on a time line.",
+      "questionZh": "Watson先生今年的年龄是他儿子的7倍。他儿子去年4岁。Watson先生60岁时，他儿子将几岁？",
+      "hintZh": "在时间线上标出开始时间和时长，再向前或向后推算。"
     },
     {
       "id": 86,
@@ -687,7 +857,9 @@
       "question": "Sue is 3 times as old as Cassandra this year. Cassandra will be 20 years old next year. How old was Sue last year?",
       "answer": "56 years old",
       "model": "mass-bar",
-      "hint": "Mark the start time and duration, then move forward or backward on a time line."
+      "hint": "Mark the start time and duration, then move forward or backward on a time line.",
+      "questionZh": "Sue今年的年龄是Cassandra的3倍。Cassandra明年将20岁。Sue去年几岁？",
+      "hintZh": "在时间线上标出开始时间和时长，再向前或向后推算。"
     },
     {
       "id": 87,
@@ -695,7 +867,9 @@
       "question": "The figure below is made up of 3 squares overlapping each other. The square side lengths are 12 cm, 18 cm, and 32 cm. Find the perimeter of the figure.",
       "answer": "188 cm",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "下图由3个相互重叠的正方形组成。正方形的边长分别为12 cm、18 cm和32 cm。求该图形的周长。",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 88,
@@ -703,7 +877,9 @@
       "question": "The figure below is made up of 2 similar squares and 4 similar rectangles. Each square has side length 15 cm, and the figure’s total height is 33 cm. Find the perimeter of the figure.",
       "answer": "146 cm",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "下图由2个相似的正方形和4个相似的长方形组成。每个正方形的边长为15 cm，图形的总高为33 cm。求该图形的周长。",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 89,
@@ -711,7 +887,9 @@
       "question": "The length of a field is 2 times its breadth. The perimeter of the field is 162 m. What is the length of the field?",
       "answer": "54 m",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "一块田地的长是宽的2倍，周长是162 m。这块田地的长是多少？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 90,
@@ -719,7 +897,9 @@
       "question": "The figure below shows a field. The length of the field is 3 times its breadth. The length is 24 m. It costs $8 per metre to put a fence around the field. How much will it cost to fence the entire field?",
       "answer": "$512",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "下图是一块田地。田地的长是宽的3倍，长为24 m。围这块田地的篱笆每米花费$8。围住整块田地要花多少钱？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 91,
@@ -727,7 +907,9 @@
       "question": "What is the most number of squares with sides of 3 cm that can be cut out from a rectangle measuring 16 cm by 9 cm?",
       "answer": "15 squares",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "一块16 cm乘9 cm的长方形，最多能剪出多少个边长为3 cm的正方形？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 92,
@@ -735,7 +917,9 @@
       "question": "The figure below is made up of 2 similar rectangles and a square. The total length is 43 cm and the height is 9 cm. Find the total area of the 2 rectangles.",
       "answer": "306 cm²",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "下图由2个相似的长方形和1个正方形组成。总长为43 cm，高为9 cm。求这2个长方形的总面积。",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 93,
@@ -743,7 +927,9 @@
       "question": "A wire is cut and bent to form 5 similar rectangles. The length of each rectangle is 2 times its breadth. The length of a rectangle is 24 cm. What is the original length of the wire?",
       "answer": "360 cm",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "一根铁丝被剪断并弯成5个相似的长方形。每个长方形的长是宽的2倍，长为24 cm。这根铁丝原来的长度是多少？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 94,
@@ -751,7 +937,9 @@
       "question": "A square with side 15 m and a rectangle measuring 18 m by 5 m are formed by using 1/2 a piece of wire. What is the length of the whole piece of wire?",
       "answer": "212 m",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "用一根铁丝的1/2做成了一个边长为15 m的正方形和一个18 m乘5 m的长方形。这整根铁丝的长度是多少？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 95,
@@ -759,7 +947,9 @@
       "question": "A room measuring 12 m by 9 m is to be tiled. If it costs $6 per square metre to tile the room, what is the total cost of tiling the room?",
       "answer": "$648",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "一个12 m乘9 m的房间要铺瓷砖。如果铺瓷砖每平方米花费$6，铺完这个房间总共要花多少钱？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 96,
@@ -767,7 +957,9 @@
       "question": "After Jeffrey had given 90 sweets to Adeline, she had 270 sweets and he had 140 sweets. (a) How many sweets did Jeffrey have at 1st? (b) How many more sweets did Jeffrey have than Adeline at 1st?",
       "answer": "(a) 230 sweets; (b) 50 sweets",
       "model": "geometry",
-      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+      "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating.",
+      "questionZh": "Jeffrey给了Adeline 90颗糖果后，Adeline有270颗糖果，而Jeffrey有140颗糖果。(a) Jeffrey最初有多少颗糖果？(b) Jeffrey最初比Adeline多多少颗糖果？",
+      "hintZh": "在草图上标出已知长度。计算前先确定求周长还是面积。"
     },
     {
       "id": 97,
@@ -775,7 +967,9 @@
       "question": "Sandra had $45.80. She spent all her money on a photo frame and 2 books. A book cost $3.80 less than the photo frame. (a) How much was a book? (b) How much was the photo frame?",
       "answer": "(a) $14; (b) $17.80",
       "model": "geometry",
-      "hint": "Solve part (a) first and use that result to check part (b)."
+      "hint": "Solve part (a) first and use that result to check part (b).",
+      "questionZh": "Sandra有$45.80。她把所有的钱都花在一个相框和2本书上。一本书比相框便宜$3.80。(a) 一本书多少钱？(b) 相框多少钱？",
+      "hintZh": "先解答(a)，再用结果检验(b)。"
     },
     {
       "id": 98,
@@ -783,7 +977,9 @@
       "question": "210 children were grouped into 3 teams. If there were 4 times as many boys as girls in each team, (a) how many girls were there altogether? (b) how many boys were there altogether?",
       "answer": "(a) 42 girls; (b) 168 boys",
       "model": "geometry",
-      "hint": "Solve part (a) first and use that result to check part (b)."
+      "hint": "Solve part (a) first and use that result to check part (b).",
+      "questionZh": "210个孩子被分成3个小组。如果每个小组中男孩的数量是女孩的4倍，(a) 一共有多少个女孩？(b) 一共有多少个男孩？",
+      "hintZh": "先解答(a)，再用结果检验(b)。"
     },
     {
       "id": 99,
@@ -791,7 +987,9 @@
       "question": "455 cookies are shared equally among 2 girls and 3 boys. Each girl gets 2 times as many cookies as each boy. (a) How many cookies do the girls get altogether? (b) How many cookies do the boys get altogether?",
       "answer": "(a) 260 cookies; (b) 195 cookies",
       "model": "geometry",
-      "hint": "Solve part (a) first and use that result to check part (b)."
+      "hint": "Solve part (a) first and use that result to check part (b).",
+      "questionZh": "455块饼干平均分给2个女孩和3个男孩。每个女孩得到的饼干数是每个男孩的2倍。(a) 女孩一共得到多少块饼干？(b) 男孩一共得到多少块饼干？",
+      "hintZh": "先解答(a)，再用结果检验(b)。"
     },
     {
       "id": 100,
@@ -799,7 +997,9 @@
       "question": "There were 480 apples and oranges in a box. The number of oranges was 2 times the number of apples in the box. (a) How many apples were there? (b) How many oranges were there?",
       "answer": "(a) 160 apples; (b) 320 oranges",
       "model": "geometry",
-      "hint": "Solve part (a) first and use that result to check part (b)."
+      "hint": "Solve part (a) first and use that result to check part (b).",
+      "questionZh": "一个盒子里有480个苹果和橙子。橙子的数量是盒中苹果数量的2倍。(a) 有多少个苹果？(b) 有多少个橙子？",
+      "hintZh": "先解答(a)，再用结果检验(b)。"
     },
     {
       "id": 101,
@@ -807,7 +1007,9 @@
       "question": "A rectangular plot of land measures 45 m by 9 m. A swimming pool with area 250 m² covers a portion of the land. A square grass patch with side 8 m covers another portion. What is the area of the land that is not covered by the swimming pool and grass patch?",
       "answer": "91 m²",
       "model": "geometry",
-      "hint": "Find each covered area, then subtract from the total area."
+      "hint": "Find each covered area, then subtract from the total area.",
+      "questionZh": "一块长方形土地为45 m乘9 m。一个面积为250 m²的游泳池覆盖了其中一部分，一块边长为8 m的正方形草地覆盖了另一部分。没有被游泳池和草地覆盖的土地面积是多少？",
+      "hintZh": "先求出每一部分被覆盖的面积，再从总面积中减去。"
     }
   ]
 }

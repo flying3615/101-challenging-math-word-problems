@@ -482,7 +482,7 @@ window.QUESTION_BANK = [
   {
     "id": 49,
     "topic": "Money",
-    "question": "Adrian had 7 50-cent coins and some 20-cent coins. He spent $3.70 on a pair of socks and had $1.80 left. How many 20-cent coins did he have at 1st?",
+    "question": "Adrian had 7 coins of 50 cents and some 20-cent coins. He spent $3.70 on a pair of socks and had $1.80 left. How many 20-cent coins did he have at 1st?",
     "answer": "10 20-cent coins",
     "model": "money-units",
     "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating.",

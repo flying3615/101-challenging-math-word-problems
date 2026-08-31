@@ -902,7 +902,7 @@ window.QUESTION_BANK = [
   {
     "id": 91,
     "topic": "Subtraction and Division within 100",
-    "question": "Peter has $20. He buys a vase for $11. The cashier gives him 1 5-dollar note and some 2-dollar notes in change. How many 2-dollar notes does the cashier give him?",
+    "question": "Peter has $20. He buys a vase for $11. The cashier gives him a 5-dollar note and some 2-dollar notes in change. How many 2-dollar notes does the cashier give him?",
     "answer": "2",
     "model": "money-units",
     "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for.",
@@ -942,7 +942,7 @@ window.QUESTION_BANK = [
   {
     "id": 95,
     "topic": "Multiplication and Division within 100",
-    "question": "Peter has 90 cents in his wallet. He has 5 10-cent coins and some 20-cent coins. How many 20-cent coins does he have?",
+    "question": "Peter has 90 cents in his wallet. He has 5 coins of 10 cents and some 20-cent coins. How many 20-cent coins does he have?",
     "answer": "2",
     "model": "money-units",
     "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for.",

@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 
 const storageKeys = {
   1: 'book1MathStoryScratchpad', 2: 'book2MathStoryScratchpad', 3: 'book3MathStoryScratchpad',
-  4: 'mathStoryScratchpad', 5: 'book5MathStoryScratchpad', 6: 'book6MathStoryScratchpad'
+  4: 'book4MathStoryScratchpad', 5: 'book5MathStoryScratchpad', 6: 'book6MathStoryScratchpad'
 };
 for (const [book, key] of Object.entries(storageKeys)) {
   const page = await readFile(new URL(`../practice/book-${book}/index.html`, import.meta.url), 'utf8');

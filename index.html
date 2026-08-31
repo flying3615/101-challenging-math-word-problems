@@ -31,7 +31,7 @@
     const palettes={1:{primary:'#2f6ea5',dark:'#20547e',soft:'#e6f1fa'},2:{primary:'#4d7f57',dark:'#355c3d',soft:'#eaf4e9'},3:{primary:'#bd704e',dark:'#8d4d32',soft:'#fbece5'},4:{primary:'#6e54c8',dark:'#4e379c',soft:'#eeeafe'},5:{primary:'#0f7c7c',dark:'#07585a',soft:'#e0f4f1'},6:{primary:'#ad3b55',dark:'#7d253a',soft:'#fae6eb'}};
     const books = [1,2,3,4,5,6].map(number => ({number, practice: true, palette:palettes[number], pdf: `resources/book-${number}/101-Challenging-Math-Word-Problems-Book-${number}.pdf`}));
     let selected = 4;
-    const progressKeys={1:'book1MathStorySolved',2:'book2MathStorySolved',3:'book3MathStorySolved',4:'mathStorySolved',5:'book5MathStorySolved',6:'book6MathStorySolved'};
+    const progressKeys={1:'book1MathStorySolved',2:'book2MathStorySolved',3:'book3MathStorySolved',4:'book4MathStorySolved',5:'book5MathStorySolved',6:'book6MathStorySolved'};
     function getBookProgress(book){if(!book.practice)return {available:false,label:'PDF only'};let saved=[];try{const parsed=JSON.parse(localStorage.getItem(progressKeys[book.number])||'[]');saved=Array.isArray(parsed)?parsed:[]}catch{}const completed=new Set(saved.map(Number).filter(id=>Number.isInteger(id)&&id>=1&&id<=101)).size;return {available:true,completed,percent:Math.round(completed/101*100),label:`${completed} of 101 questions completed`};}
     const grid = document.querySelector('#bookGrid');
     const detail = document.querySelector('#detail');

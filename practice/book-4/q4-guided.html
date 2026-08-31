@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#7857d6" />
+  <title>Math Story Lab · Word Problem Coach</title>
+  <style>
+    :root {
+      --ink:#26263a; --muted:#67697f; --paper:#fffdf8; --canvas:#f6f4ff;
+      --violet:#7657d4; --violet-dark:#5136a2; --violet-soft:#eee9ff;
+      --mint:#dff6e8; --mint-dark:#1f8a5a; --peach:#ffead8; --peach-dark:#c8642f;
+      --sky:#e2f3ff; --blue:#2d82ba; --yellow:#fff2aa; --line:#ded9ed;
+      --shadow:0 16px 42px rgba(59, 41, 116, .12); --radius:22px;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:radial-gradient(circle at 5% 2%,#fff 0 10%,transparent 25%),var(--canvas); font-family: ui-rounded, "SF Pro Rounded", "Avenir Next", "Trebuchet MS", sans-serif; }
+    button, input { font:inherit; }
+    button { cursor:pointer; }
+    .app { max-width:1240px; margin:auto; padding:20px 24px 42px; }
+    .topbar { display:flex; justify-content:space-between; align-items:center; gap:18px; margin-bottom:18px; }
+    .brand { display:flex; gap:12px; align-items:center; font-weight:800; font-size:20px; letter-spacing:-.4px; }
+    .brand-mark { width:42px; height:42px; border-radius:14px; display:grid; place-items:center; background:var(--violet); box-shadow:0 8px 16px #c8bdf3; color:white; font-size:25px; transform:rotate(-5deg); }
+    .top-actions { display:flex; gap:10px; align-items:center; }
+    .icon-button, .quiet-button { border:1px solid var(--line); color:var(--ink); background:white; border-radius:12px; min-height:42px; padding:8px 13px; font-weight:700; }
+    .icon-button:hover,.quiet-button:hover { background:var(--violet-soft); border-color:#bfafea; }
+    .progress-strip { background:white; border:1px solid #e9e4f4; border-radius:17px; padding:13px 16px; display:flex; gap:16px; align-items:center; box-shadow:0 5px 18px rgba(79,56,143,.06); }
+    .progress-label { min-width:130px; font-weight:800; font-size:14px; }
+    .track { height:11px; background:#ece9f5; border-radius:99px; flex:1; overflow:hidden; }
+    .track > span { display:block; height:100%; border-radius:inherit; width:25%; background:linear-gradient(90deg,#8264dc,#af8df2); transition:width .5s cubic-bezier(.2,.9,.3,1); }
+    .steps { display:flex; gap:8px; }
+    .dot { width:11px; height:11px; border-radius:50%; background:#ded8ea; transition:.25s; }
+    .dot.on { background:var(--violet); transform:scale(1.15); }
+    .layout { display:grid; grid-template-columns:minmax(275px,.75fr) minmax(500px,1.7fr); gap:22px; margin-top:20px; }
+    .panel { background:var(--paper); border:1px solid #e8e2f0; border-radius:var(--radius); box-shadow:var(--shadow); }
+    .left { padding:24px; align-self:start; }
+    .eyebrow { color:var(--violet-dark); font-size:13px; font-weight:900; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { font-size:clamp(24px,3vw,34px); margin:7px 0 10px; line-height:1.15; letter-spacing:-1px; }
+    .left p { color:var(--muted); line-height:1.65; margin:0 0 18px; }
+    .tiny-goal { border-radius:15px; background:var(--yellow); padding:14px 15px; font-size:14px; line-height:1.55; }
+    .tiny-goal b { display:block; margin-bottom:2px; }
+    .task-list { padding:0; margin:21px 0; list-style:none; }
+    .task-list li { display:flex; align-items:center; gap:10px; padding:12px 0; color:#565469; font-size:15px; line-height:1.35; border-bottom:1px dashed #e6e1ed; }
+    .task-list li:last-child { border:0; }
+    .check { display:grid; place-items:center; flex:0 0 24px; width:24px; height:24px; border-radius:8px; background:#efecf5; font-weight:900; color:white; transition:.3s; }
+    .task-list li.active { color:var(--ink); font-weight:800; }
+    .task-list li.done .check { background:var(--mint-dark); }
+    .task-list li.active .check { background:var(--violet); animation:pulse 1.8s infinite; }
+    .help-card { padding:16px; background:#f0fbff; border-radius:15px; font-size:15px; color:#294c63; line-height:1.58; }
+    .help-card button { margin-top:9px; color:var(--blue); font-weight:900; padding:0; border:0; background:none; text-decoration:underline; }
+    .workspace { overflow:hidden; min-height:650px; display:flex; flex-direction:column; }
+    .question-head { padding:25px 28px 20px; border-bottom:1px solid #ebe7f1; display:flex; justify-content:space-between; gap:18px; }
+    .qtag { color:white; background:var(--violet); border-radius:12px; display:inline-flex; padding:6px 10px; font-size:13px; font-weight:900; margin-bottom:10px; }
+    .question-copy { max-width:710px; margin:0; font-family: Georgia, "Noto Serif SC", serif; font-size:20px; line-height:1.55; font-weight:600; }
+    .question-copy mark { color:inherit; background:var(--yellow); border-radius:5px; padding:0 2px; }
+    .try-badge { height:max-content; white-space:nowrap; background:#fff5e7; color:#9a5922; padding:8px 11px; border-radius:11px; font-size:13px; font-weight:800; }
+    .stage { padding:24px 28px 16px; flex:1; }
+    .stage-title { display:flex; align-items:center; gap:10px; font-size:18px; margin:0 0 7px; }
+    .stage-num { height:29px; min-width:29px; display:grid; place-items:center; border-radius:50%; background:var(--violet-soft); color:var(--violet-dark); font-size:14px; font-weight:900; }
+    .instruction { color:var(--muted); margin:0 0 18px; line-height:1.5; }
+    .choice-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+    .choice { text-align:left; min-height:94px; border:2px solid #e7e2f0; background:#fff; padding:15px; border-radius:16px; color:var(--ink); font-weight:750; line-height:1.45; transition:.2s; }
+    .choice:hover { transform:translateY(-2px); border-color:#bbaae9; box-shadow:0 8px 20px rgba(91,66,168,.12); }
+    .choice.selected { border-color:var(--violet); background:var(--violet-soft); }
+    .choice.wrong { border-color:#e88b82; background:#fff0ed; animation:shake .35s; }
+    .hint { display:none; margin-top:14px; padding:12px 14px; background:#fff7d0; border-radius:13px; color:#705810; line-height:1.45; font-size:14px; }
+    .hint.show { display:block; }
+    .model-card { background:#fbfaff; border:1px solid #e6e0f1; border-radius:19px; padding:24px; margin-top:14px; overflow:hidden; }
+    .model-top { display:flex; justify-content:space-between; align-items:center; gap:10px; margin-bottom:21px; }
+    .model-label { font-weight:900; font-size:14px; }
+    .model-note { color:var(--muted); font-size:13px; }
+    .person-row { display:grid; grid-template-columns:82px 1fr; gap:13px; align-items:center; margin:18px 0; }
+    .avatar { display:flex; align-items:center; gap:6px; font-weight:800; font-size:14px; }
+    .face { width:27px; height:27px; border-radius:50%; display:grid; place-items:center; font-size:16px; }
+    .linda .face { background:#ffd9c9; } .serene .face { background:#d2edff; }
+    .bar-zone { min-height:53px; position:relative; display:flex; align-items:center; gap:2px; }
+    .bar-piece { height:42px; width:0; border-radius:8px; background:#ffa87d; border:2px solid #ed8559; transition:width .65s cubic-bezier(.2,.9,.28,1), transform .4s; }
+    .serene .bar-piece { background:#86c8ef; border-color:#4b9dc8; }
+    .bar-piece.pop { animation:pop .4s both; }
+    .discard { display:flex; align-items:center; gap:7px; margin:0 0 4px 95px; min-height:30px; color:#bb6036; font-size:13px; font-weight:800; opacity:0; transform:translateY(-10px); transition:.45s; }
+    .discard.show { opacity:1; transform:translateY(0); }
+    .mini-balloons { letter-spacing:-4px; font-size:21px; }
+    .relation { margin:16px 0 2px 95px; min-height:34px; color:#4b5e77; font-size:14px; font-weight:800; opacity:0; transform:translateY(9px); transition:.45s .15s; }
+    .relation.show { opacity:1; transform:translateY(0); }
+    .equation-card { display:none; padding:18px; background:var(--mint); border-radius:17px; margin-top:18px; }
+    .equation-card.show { display:block; animation:rise .45s both; }
+    .equation-card strong { display:block; margin-bottom:8px; }
+    .math { font-family:Georgia,serif; font-weight:700; font-size:19px; letter-spacing:.2px; }
+    .answer-form { display:none; margin-top:18px; align-items:end; gap:10px; flex-wrap:wrap; }
+    .answer-form.show { display:flex; animation:rise .45s both; }
+    .answer-form label { font-weight:850; font-size:15px; }
+    .answer-form input { width:102px; height:47px; border-radius:12px; border:2px solid #cfc6e7; padding:6px 12px; font-size:18px; font-weight:850; outline:none; }
+    .answer-form input:focus { border-color:var(--violet); box-shadow:0 0 0 4px #eeeaff; }
+    .primary { border:0; background:var(--violet); color:white; border-radius:13px; min-height:47px; padding:10px 17px; font-weight:900; box-shadow:0 7px 0 var(--violet-dark); transition:.15s; }
+    .primary:hover { filter:brightness(1.06); } .primary:active { transform:translateY(4px); box-shadow:0 3px 0 var(--violet-dark); }
+    .feedback { display:none; width:100%; border-radius:13px; padding:12px 14px; font-weight:750; line-height:1.45; }
+    .feedback.show { display:block; } .feedback.good { color:#145b3d; background:#e5f8ed; } .feedback.nope { color:#93433e; background:#fff0ee; }
+    .controls { padding:18px 28px 24px; border-top:1px solid #ebe7f1; display:flex; justify-content:space-between; align-items:center; gap:10px; }
+    .controls-right { display:flex; gap:10px; }
+    .nav-button { border:0; border-radius:13px; min-height:45px; padding:10px 15px; background:#eeeaf5; color:#4f4965; font-weight:900; }
+    .nav-button:hover:not(:disabled) { background:#e0d8f3; } .nav-button:disabled { opacity:.45; cursor:not-allowed; }
+    .nav-button.next { background:var(--violet); color:#fff; }
+    .parent-link { color:var(--violet-dark); font-size:13px; font-weight:850; background:none; border:0; text-decoration:underline; }
+    .celebration { position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:5; }
+    .confetti { position:absolute; width:10px; height:16px; border-radius:3px; animation:fall 1.8s ease-in forwards; }
+    .toast { position:fixed; left:50%; bottom:22px; transform:translate(-50%,120px); background:#28243a; color:white; border-radius:14px; padding:13px 17px; box-shadow:0 12px 28px #25203950; font-weight:750; transition:transform .35s; z-index:10; }
+    .toast.show { transform:translate(-50%,0); }
+    .parent-sheet { display:none; position:fixed; z-index:20; inset:0; background:rgba(35,27,60,.42); padding:20px; align-items:center; justify-content:center; }
+    .parent-sheet.open { display:flex; }
+    .report { width:min(540px,100%); padding:25px; background:var(--paper); border-radius:24px; box-shadow:0 20px 60px #241a4880; }
+    .report-head { display:flex; justify-content:space-between; gap:12px; align-items:start; } .report h2 { margin:4px 0 0; }
+    .close { background:none; border:0; font-size:24px; color:var(--muted); }
+    .stat-row { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:20px 0; }
+    .stat { padding:14px 10px; background:#f2effb; border-radius:14px; text-align:center; }
+    .stat b { display:block; color:var(--violet-dark); font-size:23px; }.stat span { font-size:12px; color:var(--muted); }
+    .report ul { padding-left:21px; line-height:1.7; color:#515064; }
+    @keyframes pulse { 50% { box-shadow:0 0 0 6px #e7e0fc; } }
+    @keyframes pop { 0%{transform:scale(.3);opacity:0}100%{transform:scale(1);opacity:1} }
+    @keyframes rise { from { opacity:0; transform:translateY(10px) } to { opacity:1;transform:translateY(0) } }
+    @keyframes shake { 25%{transform:translateX(-6px)}75%{transform:translateX(6px)} }
+    @keyframes fall { to { transform:translate(var(--x),105vh) rotate(720deg); opacity:0; } }
+    @media (max-width:850px) { .layout{grid-template-columns:1fr}.left{display:none}.app{padding:15px}.question-head,.stage,.controls{padding-left:19px;padding-right:19px}.question-copy{font-size:18px}.choice-grid{grid-template-columns:1fr}.topbar{margin-bottom:12px}.progress-label{min-width:auto}.progress-strip{gap:9px}.try-badge{display:none} }
+    @media (max-width:520px) { .top-actions .quiet-button{display:none}.brand{font-size:17px}.question-head{display:block}.person-row{grid-template-columns:69px 1fr;gap:7px}.discard,.relation{margin-left:76px}.bar-piece{height:37px}.model-card{padding:16px}.controls{flex-wrap:wrap}.controls-right{width:100%;justify-content:space-between}.nav-button{flex:1}.math{font-size:17px} }
+    @media (prefers-reduced-motion:reduce) { *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important} }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="brand"><div class="brand-mark" aria-hidden="true">M</div><span>Math Story Lab <small style="color:#858196;font-size:12px">Word Problem Coach</small></span></div>
+      <div class="top-actions"><button id="parentBtn" class="quiet-button">Parent snapshot</button></div>
+    </header>
+
+    <section class="progress-strip" aria-label="Problem progress">
+      <div class="progress-label">Problem 4 · <span id="stepName">Spot the relationship</span></div>
+      <div class="track" aria-hidden="true"><span id="progressBar"></span></div>
+      <div class="steps" aria-label="Four steps"><i class="dot on"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div>
+    </section>
+
+    <div class="layout">
+      <aside class="left panel">
+        <div class="eyebrow">Today’s mission</div><h1>Turn the story into a picture</h1>
+        <p>Don’t rush to calculate. First notice what changed and what stayed the same. Then show it with blocks.</p>
+        <div class="tiny-goal"><b>Your goal</b>Understand: “They started equal. Later, one amount is 3 times the other.”</div>
+        <ol class="task-list">
+          <li class="active" data-side-step="1"><span class="check">1</span>Spot the key relationship</li>
+          <li data-side-step="2"><span class="check">2</span>Build a before-and-after model</li>
+          <li data-side-step="3"><span class="check">3</span>Find the value of one unit</li>
+          <li data-side-step="4"><span class="check">4</span>Give and check your answer</li>
+        </ol>
+        <div class="help-card">Stuck? Think of “Linda used 16 balloons” as this: <b>one part of her bar disappears.</b><br><button id="hintBtn">Show a small hint</button></div>
+      </aside>
+
+      <section class="workspace panel" aria-live="polite">
+        <div class="question-head">
+          <div><div class="qtag">Question 4 · Comparing amounts</div><p class="question-copy">Linda and Serene had an equal number of balloons. After Linda used <mark>16 balloons</mark>, Serene had <mark>3 times as many</mark> balloons as Linda. How many balloons did Serene have?</p></div>
+          <div class="try-badge">Take your time</div>
+        </div>
+
+        <div class="stage" id="stage">
+          <h2 class="stage-title"><span class="stage-num" id="stageNum">1</span><span id="stageTitle">Find the “after” relationship</span></h2>
+          <p class="instruction" id="instruction">Read the question. Which sentence tells you how their amounts compare after Linda used some balloons?</p>
+          <div id="choices" class="choice-grid">
+            <button class="choice" data-answer="a">Linda now has 3 times as many balloons as Serene.</button>
+            <button class="choice" data-answer="b">Serene now has 3 times as many balloons as Linda.</button>
+            <button class="choice" data-answer="c">They still have the same number of balloons.</button>
+            <button class="choice" data-answer="d">Serene has 3 more balloons than Linda.</button>
+          </div>
+          <div id="hint" class="hint">Hint: Read this closely: “<b>Serene</b> had <b>3 times as many</b> balloons as Linda.” Who has the bigger amount?</div>
+
+          <div id="modelWrap" class="model-card" hidden>
+            <div class="model-top"><span class="model-label">Draw the story as a model</span><span class="model-note" id="modelNote">Watch the change</span></div>
+            <div class="person-row linda"><div class="avatar"><span class="face">L</span>Linda</div><div class="bar-zone" id="lindaBar" aria-label="Linda’s balloon bar model"></div></div>
+            <div class="discard" id="discard"><span>16 balloons used</span></div>
+            <div class="person-row serene"><div class="avatar"><span class="face">S</span>Serene</div><div class="bar-zone" id="sereneBar" aria-label="Serene’s balloon bar model"></div></div>
+            <div class="relation" id="relation">Afterwards: Serene = <b>3 equal parts</b>; Linda = 1 part</div>
+          </div>
+
+          <div id="equation" class="equation-card"><strong>You can now find one unit.</strong><div class="math">Extra balloons = 3 units − 1 unit = 2 units<br>16 balloons = 2 units<br>1 unit = 16 ÷ 2 = 8<br>Serene has 3 units. What is 3 × 8?</div></div>
+
+          <div id="answerForm" class="answer-form"><label for="answerInput">Serene had:</label><input id="answerInput" type="number" min="0" inputmode="numeric" aria-label="Enter Serene’s original number of balloons"><span>balloons</span><button id="checkBtn" class="primary">Check my answer</button><div id="feedback" class="feedback"></div></div>
+        </div>
+
+        <div class="controls"><button id="replayBtn" class="parent-link" hidden>↻ Replay the change</button><div class="controls-right"><button id="backBtn" class="nav-button" disabled>← Back</button><button id="nextBtn" class="nav-button next" disabled>Next →</button></div></div>
+      </section>
+    </div>
+  </main>
+  <div class="celebration" id="celebration" aria-hidden="true"></div><div class="toast" id="toast" role="status"></div>
+  <div class="parent-sheet" id="parentSheet" aria-modal="true" role="dialog" aria-labelledby="reportTitle"><div class="report"><div class="report-head"><div><div class="eyebrow">This practice</div><h2 id="reportTitle">Parent snapshot</h2></div><button id="closeReport" class="close" aria-label="Close">×</button></div><div class="stat-row"><div class="stat"><b id="hintCount">0</b><span>Hints used</span></div><div class="stat"><b id="attemptCount">0</b><span>Attempts</span></div><div class="stat"><b id="completionCount">0/4</b><span>Steps complete</span></div></div><ul><li>Look for this: can your child draw “3 times as many” as <b>3 equal units</b>?</li><li>If they make a mistake, ask them to say: “Who has 3 times as many?” before showing the answer.</li><li>Good next practice: bar models with a total and a multiplier.</li></ul></div></div>
+  <script>
+    const S = { step:1, hints:0, attempts:0, selected:false, modelPlayed:false, complete:false };
+    const titles = ['Find the “after” relationship','See how the amounts changed','Find the value of one unit','Give your answer'];
+    const instructions = [
+      'Read the question. Which sentence tells you how their amounts compare after Linda used some balloons?',
+      'The model first shows what happened after the change. Watch where Linda’s 16 balloons go.',
+      'Look at the model: how many equal parts are in the extra amount Serene has?',
+      'Now work it out yourself. How many balloons did Serene have at first?'
+    ];
+    const stepNames = ['Spot the relationship','See the change','Find one unit','Check your answer'];
+    const $ = id => document.getElementById(id);
+    function toast(t){ const el=$('toast'); el.textContent=t; el.classList.add('show'); setTimeout(()=>el.classList.remove('show'),2400); }
+    function renderBars(state='before'){
+      const l=$('lindaBar'), s=$('sereneBar'); l.innerHTML=''; s.innerHTML='';
+      const lp = state==='before' ? 3 : 1; const sp = state==='before' ? 3 : 3;
+      for(let i=0;i<lp;i++){ const e=document.createElement('i');e.className='bar-piece'; l.append(e); requestAnimationFrame(()=>{e.style.width='74px';e.classList.add('pop')}); }
+      for(let i=0;i<sp;i++){ const e=document.createElement('i');e.className='bar-piece'; s.append(e); requestAnimationFrame(()=>{e.style.width='74px';e.classList.add('pop')}); }
+    }
+    function updateProgress(){
+      $('progressBar').style.width=(S.step*25)+'%'; $('stepName').textContent=stepNames[S.step-1];
+      document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('on',i<S.step));
+      document.querySelectorAll('[data-side-step]').forEach((li,i)=>{li.classList.toggle('done',i<S.step-1);li.classList.toggle('active',i===S.step-1);li.querySelector('.check').textContent=i<S.step-1?'•':i+1;});
+      $('stageNum').textContent=S.step; $('stageTitle').textContent=titles[S.step-1]; $('instruction').textContent=instructions[S.step-1];
+      $('backBtn').disabled=S.step===1; $('nextBtn').textContent=S.step===4?'Finish problem':'Next →';
+      $('completionCount').textContent=(S.complete?'4':S.step-1)+'/4';
+    }
+    function clearStageForStep(){
+      $('choices').style.display=S.step===1?'grid':'none'; $('hint').classList.remove('show');
+      $('modelWrap').hidden=S.step===1; $('equation').classList.toggle('show',S.step>=3); $('answerForm').classList.toggle('show',S.step===4); $('replayBtn').hidden=S.step<2;
+      if(S.step>=2){ renderBars(S.modelPlayed?'after':'before'); $('discard').classList.toggle('show',S.modelPlayed); $('relation').classList.toggle('show',S.modelPlayed); $('modelNote').textContent=S.modelPlayed?'Now it is 1 part against 3 parts':'The animation will play shortly'; }
+      $('nextBtn').disabled=(S.step===1&&!S.selected)||(S.step===2&&!S.modelPlayed)||(S.step===4&&!S.complete);
+    }
+    function setStep(n){ S.step=Math.max(1,Math.min(4,n)); updateProgress(); clearStageForStep(); if(S.step===2&&!S.modelPlayed) setTimeout(playModel,350); }
+    function playModel(){ if(S.step<2)return; S.modelPlayed=false; renderBars('before'); $('discard').classList.remove('show');$('relation').classList.remove('show');$('modelNote').textContent='They started with equal amounts…'; setTimeout(()=>{renderBars('after');$('discard').classList.add('show'); $('relation').classList.add('show'); $('modelNote').textContent='Linda has 16 fewer; Serene did not change';S.modelPlayed=true; $('nextBtn').disabled=false;},900); }
+    document.querySelectorAll('.choice').forEach(btn=>btn.addEventListener('click',()=>{
+      S.attempts++; $('attemptCount').textContent=S.attempts;
+      document.querySelectorAll('.choice').forEach(b=>b.classList.remove('selected','wrong'));
+      if(btn.dataset.answer==='b'){btn.classList.add('selected');S.selected=true;$('nextBtn').disabled=false;toast('Great thinking! You found the key relationship.');}
+      else {btn.classList.add('wrong');S.selected=false;$('hint').classList.add('show');}
+    }));
+    $('nextBtn').addEventListener('click',()=>{ if(S.step<4)setStep(S.step+1); });
+    $('backBtn').addEventListener('click',()=>setStep(S.step-1));
+    $('replayBtn').addEventListener('click',playModel);
+    $('hintBtn').addEventListener('click',()=>{$('hint').classList.add('show');S.hints++; $('hintCount').textContent=S.hints;toast('Hint opened: look for who has 3 times as many.');});
+    $('checkBtn').addEventListener('click',()=>{
+      S.attempts++; $('attemptCount').textContent=S.attempts; const f=$('feedback');f.className='feedback show';
+      if(Number($('answerInput').value)===24){ f.classList.add('good');f.innerHTML='Excellent! Serene had <b>24 balloons</b>. You found one unit first, then used 3 equal units.';S.complete=true;$('nextBtn').disabled=false;updateProgress();confetti(); }
+      else { f.classList.add('nope');f.innerHTML='Almost there. Remember: 16 balloons are <b>2 equal units</b>. What is one unit worth?'; }
+    });
+    function confetti(){const c=$('celebration');const colors=['#7657d4','#ffab7b','#5db6e5','#56bc83','#ffd84f'];for(let i=0;i<44;i++){const e=document.createElement('i');e.className='confetti';e.style.left=(35+Math.random()*30)+'vw';e.style.top='-20px';e.style.background=colors[i%colors.length];e.style.setProperty('--x',(-260+Math.random()*520)+'px');e.style.animationDelay=(Math.random()*.25)+'s';c.append(e);setTimeout(()=>e.remove(),2200);}}
+    $('parentBtn').addEventListener('click',()=>$('parentSheet').classList.add('open')); $('closeReport').addEventListener('click',()=>$('parentSheet').classList.remove('open')); $('parentSheet').addEventListener('click',e=>{if(e.target===$('parentSheet'))$('parentSheet').classList.remove('open')});
+    renderBars('before');updateProgress();
+  </script>
+</body>
+</html>

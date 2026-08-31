@@ -1,0 +1,250 @@
+[
+  {
+    "id": 71,
+    "topic": "Money: sale discounts",
+    "question": "During a sale, a computer was sold at a 40% discount and a television set was sold at a 20% discount. Jenny bought 2 computers and a television set during the sale. She paid a total of $5970. If she paid $4980 for the computers, (a) what was the original price of the television set? (b) What was the original price of a computer?",
+    "answer": "(a) $1237.50; (b) $4150",
+    "model": "money-units",
+    "hint": "Subtract the computer payment from the total to find the television's sale price. That is 80% of its original price; then use 60% for 1 computer."
+  },
+  {
+    "id": 72,
+    "topic": "Fractions: boys and girls leaving",
+    "question": "There were 1518 boys and girls in the hall. When 2/3 of the boys and 1/5 of the girls left the hall, there were 2 times as many girls as boys who remained in the hall. (a) How many girls were there at 1st? (b) How many boys were there at 1st?",
+    "answer": "(a) 690 girls; (b) 828 boys",
+    "model": "unit-bar",
+    "hint": "Show the boys' remaining 1/3 and the girls' remaining 4/5 as bars. The remaining girls are 2 times the remaining boys."
+  },
+  {
+    "id": 73,
+    "topic": "Fractions: men and women leaving",
+    "question": "There were 741 men and women in a room. When 5/7 of the men and 1/3 of the women left the room, there were 2 times as many women as men who remained in the room. (a) How many women were there in the room at 1st? (b) How many men were there in the room at 1st?",
+    "answer": "(a) 342 women; (b) 399 men",
+    "model": "unit-bar",
+    "hint": "Represent the men remaining as 2/7 of their original number and the women remaining as 2/3 of theirs. Match those bars in a 2:1 final ratio."
+  },
+  {
+    "id": 74,
+    "topic": "Averages: overlapping groups",
+    "question": "Joel, Zack, Alvin, Linda and Adeline scored an average mark of 87 in a mathematics test. Joel, Zack and Alvin had an average mark of 85. Linda, Adeline and Zack had an average mark of 88. Linda and Adeline had the same mark. (a) How many marks did Zack score? (b) Find the total mark scored by Joel and Alvin.",
+    "answer": "(a) 84 marks; (b) 171 marks",
+    "model": "unit-bar",
+    "hint": "Convert each average to a total. Find Linda and Adeline's combined mark from the 5-person and 3-person totals, then use the other 3-person total."
+  },
+  {
+    "id": 75,
+    "topic": "Electricity: tiered charges",
+    "question": "Electricity charges are: 1st 1000 units or less, $2.20; next 1000 units or less, $2.50; next 1000 units or less, $2.80; next 1000 units or less, $3.00. Tom's household meter showed 1045 units at the beginning of January and 4090 units by the end of January. (a) How much did he have to pay at the end of January? (b) Tom paid $7.50 at the end of February. What was the maximum number of units that could be shown on the household meter at the end of February?",
+    "answer": "(a) $10.50; (b) 7090 units",
+    "model": "money-units",
+    "hint": "1st subtract the January readings. Apply the charge to each complete block of 1000 units and then the final partial block; reverse that process for February."
+  },
+  {
+    "id": 76,
+    "topic": "Fractions: sweets in 2 boxes",
+    "question": "1/2 of the sweets in box A were equivalent to 3/8 of the sweets in box B. 240 sweets from box B were taken out and box A then had 3 times as many sweets as box B. (a) What was the total number of sweets in the 2 boxes at 1st? (b) How many sweets would have to be taken out from box A so that there would be 1/4 as many sweets in box A as in box B?",
+    "answer": "(a) 560 sweets; (b) 220 sweets",
+    "model": "bar-change",
+    "hint": "Use the equivalent fractions to make a 6-unit bar for box A and an 8-unit bar for box B. The 240 removed shows the size of a unit."
+  },
+  {
+    "id": 77,
+    "topic": "Fractions: party guests leaving",
+    "question": "There were 156 men and women at a party. 1/6 of the men and 24 women left the party. There was then an equal number of men and women at the party. (a) How many men were at the party at 1st? (b) How many women were at the party at 1st?",
+    "answer": "(a) 72 men; (b) 84 women",
+    "model": "unit-bar",
+    "hint": "The men remaining are 5/6 of the original men. Make their remaining bar equal to the women's bar after 24 have left."
+  },
+  {
+    "id": 78,
+    "topic": "Production: biscuits, packs and boxes",
+    "question": "Machine A can produce 7500 biscuits a day. This is 240 fewer biscuits than machine B can produce in a day. 20 biscuits are placed in a pack and then 1000 packs of biscuits are placed in a box. (a) If both machines A and B are used, how many packs of biscuits will there be after 1 week? (b) How many complete boxes of biscuits will there be after 1 week?",
+    "answer": "(a) 5334 packs of biscuits; (b) 5 complete boxes of biscuits",
+    "model": "unit-bar",
+    "hint": "Find machine B's daily output, add both daily outputs, and multiply by 7. Convert biscuits to packs before finding complete boxes."
+  },
+  {
+    "id": 79,
+    "topic": "Money: bulk greeting-card pricing",
+    "question": "Greeting-card prices are: 1-5 sets, $15.50 per set; 6-15 sets, $13 per set; 16-25 sets, $12 per set; more than 25 sets, $8 per set. Linda bought 4 sets, Benjamin bought 2 times her number of sets, and Kelly bought 9 more sets than Benjamin. (a) How much did each of them pay? (b) How much could they save if they bought the greeting cards together?",
+    "answer": "(a) Benjamin: $104; Linda: $62; Kelly: $204; (b) $138",
+    "model": "money-units",
+    "hint": "Find the number of sets bought by Benjamin and Kelly, then select the correct price tier for each separate purchase. Compare their total with the combined-purchase tier."
+  },
+  {
+    "id": 80,
+    "topic": "Age: ratios and future ages",
+    "question": "Eugene is 15 years old. His sister is 3/5 his age. The ratio of his sister's age to their mother's age is 3 : 14. (a) How much older is Eugene's mother than him? (b) In how many years' time will Eugene's mother be 2 times his age?",
+    "answer": "(a) 27 years older; (b) 12 years' time",
+    "model": "unit-bar",
+    "hint": "Find the sister's age, then use the 3:14 ratio to find the mother's current age. Their age difference stays constant."
+  },
+  {
+    "id": 81,
+    "topic": "Production: rates and downtime",
+    "question": "Machine A and machine B made pineapple tarts at rates of 120 tarts per minute and 90 tarts per minute respectively. After 3/4 hour, machine A was stopped until machine B made the same number of tarts as machine A. Machine A was then started again. (a) How long was machine A stopped? (b) How many more tarts could machine A produce if it was not stopped?",
+    "answer": "(a) 15 minutes; (b) 1800 tarts",
+    "model": "bar-change",
+    "hint": "Change 3/4 hour to minutes. Find each machine's output by then; machine B must make up that difference at its own rate."
+  },
+  {
+    "id": 82,
+    "topic": "Fraction of remainder: shopping and saving",
+    "question": "Lydia spent 1/3 of her money in a shop, gave 1/6 of the remainder to her mother and saved the rest. She bought 2 handbags costing $74 each and a wallet costing $56. (a) How much more did Lydia save than spend? (b) If Lydia saved another $136, what fraction of her money would she have saved?",
+    "answer": "(a) $136; (b) 7/9 of her money",
+    "model": "fraction-of-remainder",
+    "hint": "The handbags and wallet give the amount spent. Draw bars for the 1/3 spent and then divide the remaining 2/3 into the amount given and saved."
+  },
+  {
+    "id": 83,
+    "topic": "Fraction of remainder: salary sharing",
+    "question": "Samuel spent 1/2 of his salary and gave 1/3 of the remainder to his wife. His daughters Beatrice, Felicia and Joyce shared the rest in the ratio 1 : 3 : 2. If Felicia received $1080, (a) what was Samuel's salary? (b) How many percent more did Samuel spend than give to his wife?",
+    "answer": "(a) $6480; (b) 33 1/3%",
+    "model": "fraction-of-remainder",
+    "hint": "Use Felicia's 3 ratio units to find the daughters' total. That total is the part left after the spending and the amount given to Samuel's wife."
+  },
+  {
+    "id": 84,
+    "topic": "Money: salary increase and savings",
+    "question": "Tom spent $1650 in January, which was 40% of the salary he earned that month. He saved the rest. In February, his salary increased by 20% and he saved $190 more than in January. (a) How much did he save in February? (b) How much did he spend in February?",
+    "answer": "(a) $2665; (b) $2285",
+    "model": "fraction-of-remainder",
+    "hint": "Use the January spending to find the full January salary and its saving. Increase the salary by 20%, then use the stated increase in savings."
+  },
+  {
+    "id": 85,
+    "topic": "Volume: fractional water transfers",
+    "question": "A tank with a square base of sides 10 cm was 3/4 filled with water. 1/2 the water was poured into an empty container, filling it to the brim. 2/3 of the water in the container was poured into a basin that was already 1/5 filled with 700 cm³ of water. The basin then became 1/2 full. (a) What was the original water level in the tank? (b) What was the height of the tank?",
+    "answer": "(a) 31.5 cm; (b) 42 cm",
+    "model": "fraction-of-remainder",
+    "hint": "Work backwards from the basin. Its 1/5-full volume is 700 cm³, so find the transferred water, then the container volume and the original tank volume."
+  },
+  {
+    "id": 86,
+    "topic": "Money: equal-price T-shirts",
+    "question": "Cleo wanted to buy 16 similarly priced T-shirts but was $8 short. If she had bought 7 such T-shirts instead, she would have $19 left. (a) What was the cost of 2 such T-shirts? (b) How much money did Cleo have?",
+    "answer": "(a) $6; (b) $40",
+    "model": "money-units",
+    "hint": "Compare the 16-shirt and 7-shirt situations. The difference of 9 shirts accounts for both the $8 shortage and the $19 left."
+  },
+  {
+    "id": 87,
+    "topic": "Fraction of remainder: food, transport and saving",
+    "question": "Cindy spent 1/7 of her money on food and 1/3 on transport. 6/11 of the remainder was given to her brother and the rest was saved. Her brother spent all the money on a watch and 3 similar books in the ratio 5 : 2. If each book cost $8, (a) how much did Cindy spend on transport? (b) How much did Cindy save?",
+    "answer": "(a) $98; (b) $70",
+    "model": "fraction-of-remainder",
+    "hint": "Use the 5:2 price ratio to find the money Cindy gave her brother. This is 6/11 of the amount left after food and transport."
+  },
+  {
+    "id": 88,
+    "topic": "Volume: filling a container",
+    "question": "A container measures 18 cm by 22 cm by 30 cm. It is 1/2 filled with water. Water from a jug is then poured into it, increasing the volume of water by 1/3 of its original volume. (a) How much more water is needed to fill the container completely? (b) After the jug water is added, a tap flows at 660 cm³ per minute into the container. How long will it take to fill the container to the brim?",
+    "answer": "(a) 3960 cm³; (b) 6 minutes",
+    "model": "fraction-of-remainder",
+    "hint": "Find the container's full volume. The jug increases the initial 1/2-full amount by 1/3 of that initial amount, so find the new fraction full."
+  },
+  {
+    "id": 89,
+    "topic": "Fraction of remainder: charity and spending",
+    "question": "Agnes gave 3/7 of her money to charity and 5/14 to her son. Of the remainder, she spent $20 on a watch and $17 on a book. Her son spent $24 and saved the rest; the amount he spent and saved was in the ratio 3 : 7. (a) How much money had Agnes left in the end? (b) How much money did Agnes have at 1st?",
+    "answer": "(a) $11; (b) $224",
+    "model": "fraction-of-remainder",
+    "hint": "Use the son's $24 as 3 ratio units to find the amount Agnes gave him. Then relate it to 5/14 of her starting money."
+  },
+  {
+    "id": 90,
+    "topic": "Fraction of remainder: shopping and sharing",
+    "question": "Mrs Wise spent 1/3 of her money in a shop. She bought a watch for $180 and a necklace. She then gave 2/5 of the remainder to her son, who spent 1/2 of that money on roller skates costing $150. (a) How much had Mrs Wise left? (b) How much did Mrs Wise spend on the necklace?",
+    "answer": "(a) $450; (b) $195",
+    "model": "fraction-of-remainder",
+    "hint": "The roller skates show the full amount given to her son. That amount is 2/5 of the money left after shopping."
+  },
+  {
+    "id": 91,
+    "topic": "Money sharing: 3 people",
+    "question": "Mark, Andrew and Dick shared a sum of money. Mark had $480 more than Andrew. Dick had 3 times as much as Mark. When Dick used $600, the total amount Dick and Andrew had was $1500. (a) How much did each boy have at 1st? (b) How much did the boys have altogether?",
+    "answer": "(a) Andrew: $165; Mark: $645; Dick: $1935; (b) $2745",
+    "model": "unit-bar",
+    "hint": "1st find Dick and Andrew's original combined amount. Represent Andrew as 1 unit, Mark as 1 unit plus $480, and Dick as 3 Mark units."
+  },
+  {
+    "id": 92,
+    "topic": "Money transfer: 2 people",
+    "question": "Ryan and Sally shared some money. When Ryan gave Sally 1/3 of his money, Sally had 4 times as much money as him. Together they had $297. (a) How much did each have at 1st? (b) How much more did Sally have than Ryan in the end?",
+    "answer": "(a) Ryan: $89.10; Sally: $207.90; (b) $178.20",
+    "model": "bar-change",
+    "hint": "After Ryan gives 1/3 away, show his remaining 2/3 as 1 unit and Sally's final amount as 4 equal units. Their total is unchanged."
+  },
+  {
+    "id": 93,
+    "topic": "Money: blouses and skirts",
+    "question": "Carol spent 30% of her money on 3 blouses and 2 skirts costing $288 altogether. Each blouse cost 2/5 as much as a skirt. (a) How much money did she have at 1st? (b) How much more did a skirt cost than a blouse?",
+    "answer": "(a) $960; (b) $54",
+    "model": "money-units",
+    "hint": "Represent 1 blouse as 2 units and 1 skirt as 5 units. The 3 blouses and 2 skirts form 16 units worth $288."
+  },
+  {
+    "id": 94,
+    "topic": "Geometry: land area and garden perimeter",
+    "question": "Mr Crawford had a piece of land. 60% was used to build a house. 1/4 of the remaining land was used to construct a garden. The garden's perimeter was 96 m and its length was 32 m. (a) Find the area of the original piece of land. (b) How much bigger was the area used to build the house than the garden?",
+    "answer": "(a) 5120 m²; (b) 2560 m²",
+    "model": "geometry",
+    "hint": "Use the rectangle perimeter to find the garden's breadth and area. The garden is 1/4 of the 40% land remaining after the house is built."
+  },
+  {
+    "id": 95,
+    "topic": "Money: pencils and pens",
+    "question": "Joanne has enough money to buy either 15 pencils or 9 pens. She buys 10 pencils for $24 and some pens with the remaining money. (a) How much does a pen cost? (b) How many pens does she buy?",
+    "answer": "(a) $4; (b) 3 pens",
+    "model": "money-units",
+    "hint": "The $24 paid for 10 pencils gives the cost of 1 pencil. Use the total cost of 15 pencils, which equals the cost of 9 pens."
+  },
+  {
+    "id": 96,
+    "topic": "Money: shared dinner cost",
+    "question": "132 people went for dinner. 1/2 paid $40.60 each, and 2/3 of the remaining people paid $50 each. The rest paid $55.20 each. The organisers were still $110 short. (a) What was the total cost of the dinner? (b) If everyone shared the cost equally, how much would each person pay?",
+    "answer": "(a) $6204; (b) $47",
+    "model": "money-units",
+    "hint": "Find how many people are in each of the 3 payment groups. Add their payments and the $110 shortage before dividing by 132."
+  },
+  {
+    "id": 97,
+    "topic": "Money sharing: Shawn, Jeffrey and Tony",
+    "question": "Shawn, Jeffrey and Tony have some money. Shawn and Jeffrey have $150 altogether. If Shawn receives $30 more from his mother, he will have the same amount as Jeffrey, and Tony will have 1/3 of what Shawn has. (a) How much money does Shawn have? (b) How much money does Tony have?",
+    "answer": "(a) $60; (b) $30",
+    "model": "money-units",
+    "hint": "The $30 transfer tells you the difference between Shawn and Jeffrey. Find their 2 original amounts from their $150 total, then use Shawn's new amount for Tony."
+  },
+  {
+    "id": 98,
+    "topic": "Rates: typing notes",
+    "question": "Andrew finished typing 8 similar sets of notes in 3 hours. If his typing speed increased to 60 words per minute, he would finish the same sets 2 hours faster. (a) What was Andrew's original typing speed? (b) If he wanted to finish 10 such sets in 2.5 hours, how fast would he have to type per minute?",
+    "answer": "(a) 20 words per minute; (b) 30 words per minute",
+    "model": "unit-bar",
+    "hint": "At 60 words per minute for 1 hour, find the total words in 8 sets. Divide that total by 3 hours for the original speed, then scale to 10 sets."
+  },
+  {
+    "id": 99,
+    "topic": "Geometry: rectangular tank capacity",
+    "question": "The breadth of a rectangular tank was 1/4 its length. The ratio of the length to its height was 7 : 3. When the tank was 1/4 full, the water level was 9 cm. (a) Find the capacity of the tank. (b) How long does a tap flowing at 7 litres per minute take to fill the tank completely? Round the answer to the nearest minute.",
+    "answer": "(a) 63,504 cm³; (b) 9 minutes",
+    "model": "geometry",
+    "hint": "A 9 cm water level is 1/4 of the tank height. Use the 7:3 length-to-height ratio, then take 1/4 of the length for the breadth."
+  },
+  {
+    "id": 100,
+    "topic": "Fractions: coloured cards",
+    "question": "20% of the cards in a box are red. The number of blue cards is 1/4 the number of red cards. The remaining 150 cards are green and white, with 2/3 as many green cards as white cards. (a) What percentage of the cards are green? (b) How many cards are there altogether?",
+    "answer": "(a) 30%; (b) 200 cards",
+    "model": "fraction-of-remainder",
+    "hint": "Express the blue cards as a percentage of all cards, then split the remaining percentage into green and white in a 2:3 ratio."
+  },
+  {
+    "id": 101,
+    "topic": "Money: discount and remaining money",
+    "question": "The original price of a refrigerator was $1700. Sylvia bought it at a 20% discount and had 4/5 of her money left. She then spent 30% of the money left on a television. (a) How much did the refrigerator cost after the discount? (b) How much did Sylvia spend on the television?",
+    "answer": "(a) $1360; (b) $1632",
+    "model": "fraction-of-remainder",
+    "hint": "Find 80% of $1700 for the discounted price. Since that purchase left 4/5 of Sylvia's money, work backwards to find the amount left before taking 30%."
+  }
+]

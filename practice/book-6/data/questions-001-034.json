@@ -1,0 +1,308 @@
+[
+  {
+    "id": 1,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Peter answered 15 quiz questions for 29 points. A correct answer earns 3 points and a wrong answer loses 1 point. How many were correct?",
+    "answer": "11 questions",
+    "model": "unit-bar",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 5
+  },
+  {
+    "id": 2,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "A box had 480 yellow, orange, and black beads. After 18 yellow beads were added, 33 orange beads were removed, and black beads were doubled, the 3 colours were equal. Find each original count.",
+    "answer": "Yellow: 168; orange: 219; black: 93",
+    "model": "unit-bar",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 5
+  },
+  {
+    "id": 3,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "40% of Angie’s beads were red. After she lost 50 blue beads, blue beads were 1/2 of their original count. How many beads did Angie have in the end?",
+    "answer": "200 beads",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 5
+  },
+  {
+    "id": 4,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "There were 820 orange buttons, 160 fewer than yellow and 210 more than green. Blue buttons were 1/4 of the total. How many buttons were there altogether?",
+    "answer": "3615 buttons",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 6
+  },
+  {
+    "id": 5,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Benjamin sold apples and oranges. He sold 2 more apples; oranges cost $3, apples $2, and he received $1 for every 10 fruit. The sale total after payment was $62. Find each count.",
+    "answer": "12 oranges; 14 apples",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 6
+  },
+  {
+    "id": 6,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "160 paperclips were in boxes A, B, C, D. 12 moved A→B, 1/4 of B moved B→C, and 17 moved D→C. All boxes then matched. Find original counts.",
+    "answer": "A: 52; B: 48; C: 3; D: 57",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 6
+  },
+  {
+    "id": 7,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Michael had 80% more money than Alvin; Vanessa had 40% less. Michael and Alvin gave Vanessa money in a 3:2 ratio. Vanessa then had 2 times her original amount; Michael ended $144 above Vanessa. Find original amounts.",
+    "answer": "Michael: $1080; Alvin: $600; Vanessa: $360",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 7
+  },
+  {
+    "id": 8,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "4/9 of Tom’s toy cars were red. Green exceeded red by 35 and yellow cars numbered 15. Packing 5 same-colour cars per box, how many more red-and-green boxes than yellow boxes were there?",
+    "answer": "44 boxes",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 7
+  },
+  {
+    "id": 9,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "David had 1/3 as many cards as Kristy. David gave away 9; Kristy bought 18; their final ratio was 2:9. How many cards did they have altogether in the end?",
+    "answer": "99 cards",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 7
+  },
+  {
+    "id": 10,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "3/4 of 42 students passed English. 1/4 of those who passed were girls, and 4 more boys than girls failed. How many girls were in the class?",
+    "answer": "23 girls",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 8
+  },
+  {
+    "id": 11,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Mrs Drew sold 120 butter and chocolate-chip cookies. Butter cost $2, chocolate-chip cost $4, and sales were $310. How many more butter cookies were sold?",
+    "answer": "50 more butter cookies",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 8
+  },
+  {
+    "id": 12,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Jane and John had 180 marbles. After Jane gave John marbles, John had 3 times his original count and Jane had 1/2 of John’s count. Find original counts.",
+    "answer": "Jane: 140; John: 40",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 8
+  },
+  {
+    "id": 13,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "2/3 of a number exceeds 1/4 of it by 12. Find the difference between the number and its 4th multiple.",
+    "answer": "360",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 9
+  },
+  {
+    "id": 14,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "105 students were in 3 groups. 1/4 of group 1 and 20% of group 3 moved to group 2; 15 then moved group 1→3. All groups then matched. Find original counts.",
+    "answer": "Group 1: 75; Group 2: 5; Group 3: 25",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 9
+  },
+  {
+    "id": 15,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "In 1998, Tom was 4 times Jack’s age and Peter was 2 times Jack’s age. Tom was 36. Find Peter’s age in 2000 and their total age in 2003.",
+    "answer": "(a) 20 years; (b) 78 years",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 9
+  },
+  {
+    "id": 16,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Thomas and Zack each received equal toy-car amounts. Zack then had 2 times his original count; 3/4 of Zack’s count equalled 1/2 of Thomas’s count, and Thomas was 36 ahead. Find both requested values.",
+    "answer": "(a) 108 cars; (b) 90 cars",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 10
+  },
+  {
+    "id": 17,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Joanne sold cookies, cakes, muffins. Cookies exceeded cakes by 140; 1/2 of cookies and 1/3 of cakes were chocolate. Use the stated equal flavour relationships to find the requested difference and sales total.",
+    "answer": "(a) 60 more; (b) $350",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 10
+  },
+  {
+    "id": 18,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "4656 people attended a concert. After 1/4 of men and 1/3 of women left, 120 more women remained. How many more women than men were there at first?",
+    "answer": "16 more women",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 10
+  },
+  {
+    "id": 19,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "1/3 of 120 oranges were ripe and the rest overripe. After 40 were removed, overripe oranges were 3/4 of the remainder. Find removed ripe, removed overripe, and final difference.",
+    "answer": "(a) 20 overripe; (b) 20 ripe; (c) 40 more overripe",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 11
+  },
+  {
+    "id": 20,
+    "topic": "Measurement",
+    "question": "Mrs Crawford spent 1/3 of salary on education and 1/4 of the remainder on food. Savings:transport was 2:3; education exceeded transport by $265. Find 6 months of education spending.",
+    "answer": "$3975",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 11
+  },
+  {
+    "id": 21,
+    "topic": "Measurement",
+    "question": "Tank A was 2/3 full. 1/2 of its water filled tank B from 1/4 full to full. Tank A measured 12 cm × 10 cm × 20 cm. Find total tank capacity in litres.",
+    "answer": "3.4 L",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 11
+  },
+  {
+    "id": 22,
+    "topic": "Measurement",
+    "question": "Mrs Bowles bought 2.5 kg fish and 1.5 kg more prawns. Change from $50 was $5.50; prawns cost $3/kg more. How much did she spend on prawns?",
+    "answer": "$32",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 12
+  },
+  {
+    "id": 23,
+    "topic": "Measurement",
+    "question": "A 60 cm × 40 cm × 25 cm container was 4/5 full; its water level fell 5 cm. Remaining water filled a tank and basin, whose capacity was 1/4 of the tank. Find tank water height.",
+    "answer": "100 cm",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 12
+  },
+  {
+    "id": 24,
+    "topic": "Measurement",
+    "question": "ABCD is a 320 cm-perimeter rectangle of length 96 cm. 2 squares of side 12 cm are placed inside. Find the shaded area, using π = 3.14.",
+    "answer": "6020.16 cm²",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 12
+  },
+  {
+    "id": 25,
+    "topic": "Measurement",
+    "question": "Joanne bought 3 pens and 2 rulers for $10.80; Alice bought 5 pens and 4 rulers for $19.20. Nick spent $13.20 on 2 rulers and pens. How many pens did Nick buy?",
+    "answer": "4 pens",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 13
+  },
+  {
+    "id": 26,
+    "topic": "Measurement",
+    "question": "Frankie, Martin, and Jeremy earned $120. Jeremy earned 1/2 Frankie; Martin earned 3 times Jeremy and gave Frankie 1/4 of his money. Jeremy then earned 4 times his earlier amount. How much more did Jeremy have?",
+    "answer": "$25",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 13
+  },
+  {
+    "id": 27,
+    "topic": "Measurement",
+    "question": "A 90 cm × 10 cm tank was filled by taps at 4 L/min and 10 L per 2 min. After 1.5 min it was 1/4 full. Find tank height.",
+    "answer": "60 cm",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 13
+  },
+  {
+    "id": 28,
+    "topic": "Measurement",
+    "question": "PQRS is enlarged to VWRT; area increases 226 cm². PQRS length is 2 times breadth. Find PQRS perimeter.",
+    "answer": "105 cm",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 14
+  },
+  {
+    "id": 29,
+    "topic": "Measurement",
+    "question": "Tank A was 30% full. 2/5 of its water filled 1/2 of empty tank B, sized 15 cm × 12 cm × 25 cm. How much water is now needed to fill A?",
+    "answer": "15375 cm³",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 14
+  },
+  {
+    "id": 30,
+    "topic": "Measurement",
+    "question": "Patrick, Jemima, Angela had $482. Angela had 3/4 of Jemima; after Patrick used $125, he had 1/4 less than Jemima. Find initial Patrick-plus-Angela total.",
+    "answer": "$314",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 14
+  },
+  {
+    "id": 31,
+    "topic": "Measurement",
+    "question": "Red:yellow beads were 10:9. After 30 yellow beads were used, the ratio was 5:2. Red cost $0.90 each; yellow cost $0.20 more. Find original cost.",
+    "answer": "$113.40",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 15
+  },
+  {
+    "id": 32,
+    "topic": "Measurement",
+    "question": "A semicircle and small triangle lie in triangle PQR; PQ is the semicircle diameter. Using the given 36 cm figure and π = 3.14, find the unshaded area.",
+    "answer": "59.48 cm²",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 15
+  },
+  {
+    "id": 33,
+    "topic": "Measurement",
+    "question": "A 70 cm × 45 cm × 50 cm tank filled from 2 taps at 7 L/min each for 10 min. 30% was poured into a tub to make it 3/10 full. Find water needed to fill both.",
+    "answer": "73500 cm³ or 73.5 L",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 15
+  },
+  {
+    "id": 34,
+    "topic": "Measurement",
+    "question": "Clocks chime every 3 min, 4 min offset by 1 min, and 6 min. They chime together at 10:45 am. How many more joint chimes occur in the next hour?",
+    "answer": "5 times",
+    "model": "unit-bar",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 16
+  }
+]

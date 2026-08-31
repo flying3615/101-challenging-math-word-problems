@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "topic": "Averages and ratios",
+    "question": "In a game for 24 groups, the average number of children was 16. When 1 more group of children joined the game, the average number of children became 18. The boys and girls who joined were in the ratio 5 : 6. If there were 220 boys at 1st, how many more boys than girls were there in the end?",
+    "answer": "50 more boys",
+    "model": "unit-bar",
+    "hint": "Find the totals for 24 and 25 groups. Split the new group's children into 5 boy-units and 6 girl-units, then compare the final totals."
+  },
+  {
+    "id": 2,
+    "topic": "Fractional comparison",
+    "question": "1/2 of a number is 90 more than 1/5 of the same number. What is the number?",
+    "answer": "300",
+    "model": "unit-bar",
+    "hint": "Represent the whole number using a denominator of 10. The difference between 1/2 and 1/5 is the part worth 90."
+  },
+  {
+    "id": 3,
+    "topic": "Bouquets and money",
+    "question": "A florist arranges some orchids in bouquets of 20 and some roses in bouquets of 10. She sells each orchid bouquet for $25 and each rose bouquet for $30. She earns $390 altogether. If she sells 4 times as many orchid bouquets as rose bouquets, how many flowers does she sell altogether?",
+    "answer": "270 flowers",
+    "model": "money-units",
+    "hint": "Make 1 set from 4 orchid bouquets and 1 rose bouquet. Find the money and number of flowers in each set."
+  },
+  {
+    "id": 4,
+    "topic": "Successive fraction changes",
+    "question": "Ken and Ivan had some sweets. After Ken gave away 5/7 of his sweets, he had 2/3 as many sweets as Ivan. Ivan then gave away 120 sweets and he had 1/4 as many sweets as Ken. How many sweets did each of them have at 1st?",
+    "answer": "Ivan: 144 sweets; Ken: 336 sweets",
+    "model": "bar-change",
+    "hint": "Use the 1st condition to relate Ken's remaining 2 parts to Ivan's 3 parts. Then use Ivan's 120-sweet change and the 1:4 comparison."
+  },
+  {
+    "id": 5,
+    "topic": "Fractional comparison after departures",
+    "question": "Hotel A and Hotel B had 6500 guests altogether. After 3/4 of the guests in Hotel A and 3/5 of the guests in Hotel B checked out, there were 260 more guests in Hotel B than in Hotel A. How many guests did Hotel A have at 1st?",
+    "answer": "3600 guests",
+    "model": "bar-change",
+    "hint": "Model the remaining guests as 1/4 of Hotel A and 2/5 of Hotel B. Use the 260 difference, then the original total."
+  },
+  {
+    "id": 6,
+    "topic": "Transfers among 3 boxes",
+    "question": "There were 900 sweets in 3 boxes, A, B and C. 18 sweets were transferred from A to B and 5 sweets were transferred from B to C. Then 1/3 of the sweets in C were transferred to A. There was an equal number of sweets in all 3 boxes. How many sweets were there in each box at 1st?",
+    "answer": "Box A: 168 sweets; Box B: 287 sweets; Box C: 445 sweets",
+    "model": "bar-change",
+    "hint": "Start with the equal final amount in each box. Reverse the transfer from C to A, then reverse the 2 earlier transfers."
+  },
+  {
+    "id": 7,
+    "topic": "Fractions of groups",
+    "question": "Some boys and girls took part in a competition. 2/5 of the competitors were boys. 1/3 of the boys were disqualified. If there were 135 competitors at 1st, how many more girls than boys were left?",
+    "answer": "45 more girls",
+    "model": "fraction-of-remainder",
+    "hint": "Find the original boys and girls. Only 2/3 of the boys remain; compare that with the unchanged number of girls."
+  },
+  {
+    "id": 8,
+    "topic": "Fractions shared equally",
+    "question": "Mrs Walker had some lemons. She put 1/2 of the lemons equally into 5 bags and the other 1/2 equally into 6 containers. There were 63 lemons in 1 bag and 3 containers altogether. How many lemons did Mrs Walker have?",
+    "answer": "180 lemons",
+    "model": "unit-bar",
+    "hint": "Express the lemons in 1 bag and 3 containers as fractions of the total, then use their combined 63 lemons."
+  },
+  {
+    "id": 9,
+    "topic": "Ratio after an addition",
+    "question": "The ratio of the number of biscuits that Andy and Betty had was 2 : 5. After Andy bought 24 more biscuits, the ratio became 16 : 10. If there were 6 biscuits in a pack, how many packs of biscuits would Betty have to buy so that they would have the same number of biscuits in the end?",
+    "answer": "2 packs of biscuits",
+    "model": "bar-change",
+    "hint": "Compare the 2 ratios using the 24 extra biscuits to find Betty's amount. Then find how many more biscuits Betty needs and convert to packs."
+  },
+  {
+    "id": 10,
+    "topic": "Money after donations",
+    "question": "Megan and Olivia had some money. They made a donation of $100 together. Megan donated 1/5 of her money. After donating $24, Olivia found that she had $32 more than Megan. What was the sum of money both of them had at 1st?",
+    "answer": "$740",
+    "model": "money-units",
+    "hint": "Olivia donated $24, so find Megan's donation from the $100 total. Use Megan's 1/5 donation to model the money she had left."
+  },
+  {
+    "id": 11,
+    "topic": "Ratios after giving away",
+    "question": "Mrs Benjamin baked some butter cookies and chocolate chip cookies in the ratio 7 : 3. After giving away 24 butter cookies, the ratio of butter cookies to chocolate chip cookies was 11 : 6. She then packed the remaining cookies into bags of 4 without mixing them. How many bags of cookies of each type did she have?",
+    "answer": "22 bags of butter cookies; 12 bags of chocolate chip cookies",
+    "model": "bar-change",
+    "hint": "Make the chocolate-chip parts in both ratios equal. The drop in butter-cookie parts represents the 24 cookies given away."
+  },
+  {
+    "id": 12,
+    "topic": "Fractions of a total",
+    "question": "There were some red, yellow and blue toy cars in a box. 3/8 of the toy cars were red and 26 were blue. The rest were yellow. If there were 12 fewer yellow toy cars than blue toy cars, how many red toy cars were there?",
+    "answer": "24 red toy cars",
+    "model": "unit-bar",
+    "hint": "Use the 12-car difference to find the yellow cars. Then combine yellow and blue cars and relate that total to the 5/8 that are not red."
+  },
+  {
+    "id": 13,
+    "topic": "Fractions remaining",
+    "question": "There were 900 oranges and apples in a box. When 7/9 of the oranges and 2/3 of the apples were taken out, there was an equal number of oranges and apples left. How many more oranges than apples were there at 1st?",
+    "answer": "180 more oranges",
+    "model": "fraction-of-remainder",
+    "hint": "The remaining oranges are 2/9 of the original oranges and the remaining apples are 1/3 of the original apples. Make these equal."
+  },
+  {
+    "id": 14,
+    "topic": "Overlapping groups",
+    "question": "There were 48 entries from Primary 1 and Primary 2 in a storytelling competition. The rest were from Primary 3. If 30 entries were not from Primary 1 and 28 entries were not from Primary 2, how many entries were there altogether?",
+    "answer": "53 entries",
+    "model": "unit-bar",
+    "hint": "Let the Primary 3 entries be the unknown group. Add the 2 statements about entries not from Primary 1 and not from Primary 2, then account for the Primary 3 entries counted 2 times."
+  },
+  {
+    "id": 15,
+    "topic": "Percentages of groups",
+    "question": "In a kindergarten, 12% of the students are Malays and the rest are Chinese. 50% of the Chinese and 12.5% of the Malays are boys. There are 912 more Chinese than Malay students. How many girls are there in the kindergarten?",
+    "answer": "654 girls",
+    "model": "unit-bar",
+    "hint": "The Chinese–Malay difference is 76% of the kindergarten. Find each group, then calculate the girls in each group."
+  },
+  {
+    "id": 16,
+    "topic": "Ratios after fractions are removed",
+    "question": "The ratio of oranges to papayas in a basket is 3 : 5. After 1/4 of the oranges and 1/2 of the papayas are eaten, there are 16 more papayas than oranges. How many fruit of each type are there in the basket at 1st?",
+    "answer": "192 oranges; 320 papayas",
+    "model": "fraction-of-remainder",
+    "hint": "Scale the 3:5 ratio so the remaining fractions, 3/4 and 1/2, give whole comparable units. Use the 16-fruit difference."
+  },
+  {
+    "id": 17,
+    "topic": "Ratio after a loss",
+    "question": "Terence and Cynthia had some balloons in the ratio 5 : 9. When 15 of Terence's balloons burst, the ratio of Terence's to Cynthia's balloons was 10 : 27. How many balloons did each of them have at 1st?",
+    "answer": "Terence: 45 balloons; Cynthia: 81 balloons",
+    "model": "bar-change",
+    "hint": "Make Cynthia's 9 parts and 27 parts comparable. The difference in Terence's matching parts is the 15 balloons that burst."
+  },
+  {
+    "id": 18,
+    "topic": "Percentages after sales",
+    "question": "Mr Willis had some oranges and pears. 60% of them were oranges. 70% of the pears and 40% of the oranges were sold. 240 fruit were not sold. How many fruit did Mr Willis have at 1st?",
+    "answer": "500 fruit",
+    "model": "fraction-of-remainder",
+    "hint": "Find what percentage of each fruit type remained, then combine those portions using the 60%:40% original split."
+  },
+  {
+    "id": 19,
+    "topic": "Ratio after a transfer",
+    "question": "Joel and Anson have some marbles in the ratio 7 : 5. If Joel gives Anson 36 marbles, Anson will have 2 times as many marbles as Joel. How many marbles do they have altogether?",
+    "answer": "144 marbles",
+    "model": "bar-change",
+    "hint": "Draw the 7:5 ratio, then move 36 marbles from Joel to Anson. Compare the final 1:2 ratio."
+  },
+  {
+    "id": 20,
+    "topic": "Percentages and comparison",
+    "question": "There were 750 shirts in a box. 20% were pink and 18% were green. The remaining shirts were either yellow or black. If there were 85 more black shirts than yellow shirts, what was the total number of black and green shirts in the box?",
+    "answer": "410 black and green shirts",
+    "model": "unit-bar",
+    "hint": "First remove the pink and green shirts. Split the remaining yellow-and-black total into 2 quantities with a difference of 85."
+  },
+  {
+    "id": 21,
+    "topic": "Linked ratios",
+    "question": "There are some apples in 3 baskets, A, B and C. The ratio of the number of apples in A to B is 5 : 3. There are 112 apples in C. If the ratio of the total number of apples in A and B to the number of apples in C is 6 : 2, how many more apples are there in A than in B?",
+    "answer": "84 more apples",
+    "model": "unit-bar",
+    "hint": "Use Basket C and the 6:2 ratio to find A + B. Then divide that total in the 5:3 ratio and compare the 2 baskets."
+  },
+  {
+    "id": 22,
+    "topic": "Fractional groups and comparison",
+    "question": "There were some red, blue and green rubber bands in a box. 2/5 of the rubber bands were red. There were 40 green rubber bands and 24 more blue rubber bands than red rubber bands. How many rubber bands were there altogether?",
+    "answer": "320 rubber bands",
+    "model": "unit-bar",
+    "hint": "The blue and green rubber bands together make the 3/5 that are not red. Use the 24 difference and 40 green rubber bands to form that total."
+  },
+  {
+    "id": 23,
+    "topic": "Coin values and ratios",
+    "question": "Francis, Philip and Jamie had $0.20, $0.50 and $1 coins respectively. Francis had 5 times as many coins as Jamie. Philip had 1/2 the number of coins that Jamie had. If Philip had 27 fewer coins than Francis, how much money did they have altogether?",
+    "answer": "$13.50",
+    "model": "money-units",
+    "hint": "Express the 3 coin counts in a common ratio. The difference between Francis and Philip is 27 coins; then apply each coin value."
+  },
+  {
+    "id": 24,
+    "topic": "Percentages in 2 boxes",
+    "question": "There were some apple pies and lemon pies in 2 boxes, A and B. Box A had 40% of the total number of pies. Box B had 12 apple pies. If 75% of the pies in Box B were lemon pies, what was the total number of pies in both boxes?",
+    "answer": "80 pies",
+    "model": "unit-bar",
+    "hint": "The apple pies are the 25% of Box B that are not lemon pies. Find Box B, then use its 60% share of the total."
+  },
+  {
+    "id": 25,
+    "topic": "Equalising after transfers",
+    "question": "Juliana and Patrick had some marbles. If Juliana gave Patrick 20 marbles, both would have an equal number of marbles. If Patrick gave Juliana 20 marbles, Juliana would have 3 times as many marbles as Patrick. Find the number of marbles that each had at 1st.",
+    "answer": "Juliana: 100 marbles; Patrick: 60 marbles",
+    "model": "bar-change",
+    "hint": "The 1st transfer shows the original difference. Use the reversed transfer to form the 3:1 comparison, then solve with 20-marble units."
+  },
+  {
+    "id": 26,
+    "topic": "Fractions after removal",
+    "question": "On Sunday, Mrs Campbell baked some cookies and put all of them into a box. She then took out 2/5 of them. Of these, 15 were given away and the remaining 23 were eaten. On Monday, she baked another tray of cookies and put 3/4 of them into the same box. There were then 183 cookies in the box altogether. How many cookies did Mrs Campbell bake on Monday?",
+    "answer": "168 cookies",
+    "model": "fraction-of-remainder",
+    "hint": "The 15 given away and 23 eaten make the 2/5 removed on Sunday. Find what stayed in the box, then find the Monday amount from its 3/4 portion."
+  },
+  {
+    "id": 27,
+    "topic": "Fractional comparisons",
+    "question": "A bag of sweets was shared among Bob, Nancy, Lucy and Nicholas. Bob had 2 times as many sweets as Nancy. Lucy had 1/2 the total number of sweets that Bob and Nancy had. Nicholas had 90 sweets, which was 3 times as many sweets as Lucy had. How many sweets were there in the bag?",
+    "answer": "180 sweets",
+    "model": "unit-bar",
+    "hint": "Use Nicholas's sweets to find Lucy's. Then let Nancy be 1 unit, Bob be 2 units, and match Lucy to 1/2 of their combined amount."
+  },
+  {
+    "id": 28,
+    "topic": "Ratios after transfers",
+    "question": "Sandra, Ted and Justina had 377 coins altogether. Sandra gave Justina 15 coins and Ted received 13 coins from Justina. In the end, the ratio of Sandra's coins to Ted's coins was 4 : 3, and the ratio of Sandra's coins to Justina's coins was 3 : 2. How many coins did each have at 1st?",
+    "answer": "Sandra: 171 coins; Ted: 104 coins; Justina: 102 coins",
+    "model": "bar-change",
+    "hint": "Combine the 4:3 and 3:2 final ratios using a common Sandra value. Use the unchanged total of 377, then reverse both transfers."
+  },
+  {
+    "id": 29,
+    "topic": "Fractions remaining on a farm",
+    "question": "A farm had some cows and goats. 1/5 of the cows and 3/11 of the goats were sold. There was an equal number of cows and goats left. If there were 704 cows and goats left, how many animals were on the farm at 1st?",
+    "answer": "924 animals",
+    "model": "fraction-of-remainder",
+    "hint": "Split the 704 remaining animals equally between cows and goats. Those equal amounts are 4/5 of the cows and 8/11 of the goats."
+  },
+  {
+    "id": 30,
+    "topic": "Fractions after losses",
+    "question": "3/5 of the 60 balloons used at a party were green and the rest were yellow. If 6 green balloons and 3 yellow balloons burst, what fraction of the remaining balloons were green?",
+    "answer": "10/17",
+    "model": "fraction-of-remainder",
+    "hint": "Find the original green and yellow balloon counts separately. Subtract the burst balloons, then write green remaining over total remaining."
+  },
+  {
+    "id": 31,
+    "topic": "Sales with free items",
+    "question": "Peter was given a crate of cups. He sold all the cups. Each cup was sold at $8.90. For every set of 5 cups purchased by a customer, 1 cup was given free. 2/3 of the cups were sold in sets of 5 cups. He collected $1174.80 altogether. How many cups were there in the crate at 1st?",
+    "answer": "156 cups",
+    "model": "money-units",
+    "hint": "A set charges for 5 cups but contains 6 cups. Treat the remaining 1/3 as single cups, and use the total money to find the number of such groups."
+  },
+  {
+    "id": 32,
+    "topic": "Average and fractional scores",
+    "question": "Samantha, Jerry, Mandy and Tim scored an average of 68.75 points for a game. Tim's score was 2/3 of Mandy's score, Mandy's score was 1/2 of Jerry's score, and Samantha's score was 1/4 of Jerry's score. What was the average score of Mandy and Samantha?",
+    "answer": "49.5 points",
+    "model": "unit-bar",
+    "hint": "Convert the average to the 4 players' total score. Express every score as a fraction of Jerry's score, then find Mandy and Samantha."
+  },
+  {
+    "id": 33,
+    "topic": "Equal money remaining",
+    "question": "Jane, Alice and Peter had a sum of money. After Jane spent 1/4 of her money, Alice spent $80 of hers, and Peter spent 1/2 of his money, they had an equal amount of money left. If they had $1008 altogether in the end, how much did each have at 1st?",
+    "answer": "Jane: $448; Alice: $416; Peter: $672",
+    "model": "money-units",
+    "hint": "Divide the final $1008 into 3 equal remainders. Work backwards for each person using the fraction spent or the $80 spent."
+  },
+  {
+    "id": 34,
+    "topic": "Volume and flow rates",
+    "question": "A tank measures 20 cm by 15 cm by 30 cm. Pump A and Pump B release water in the ratio 3 : 2. Together, the pumps fill 1/2 litre of water in 2 minutes. How long will it take Pump B alone to fill the tank completely with water?",
+    "answer": "90 minutes",
+    "model": "geometry",
+    "hint": "Find the tank's volume in cubic centimetres and the combined flow per minute. Split that flow in the 3:2 ratio, then use Pump B's rate."
+  }
+]

@@ -1,0 +1,40 @@
+Solution to Question 9 Solution to Question 90
+Step 1: Draw a model { Step 1: Draw a model
+i 246 + 83
+2 1 (eae RO A
+carton A : { te
+i H 324 i Mr Clement eae
+carton B ars 3] |
+ts ee s: sold i
+; : _ Step 2: Find the number of lemons that Mr Hall
+| sold on both days
+Step 2: Find the number of oranges in carton A i 246 + 83 = 329
+at first i
+9 units — 324 |
+1 unit > 324 +9 = 36 i Step 3: Find the number of lemons Mr Clement
+j Id th d
+7 units + 7 x 36 = 252 i 08 eee
+i 7 units —» 329
+(a) There were 252 oranges in carton A at first. ©
+i 1 unit 329 + 7 = 47
+| 4 units > 4 x 47 = 188
+Step 3: Find the number of oranges in cartonB
+at first i
+2 units > 2 x 36 =72 i Step 4: Find the number of lemons Mr Clement
+i sold on Tuesday
+(b) There were 72 oranges in carton Bat first. |
+i Monday — 246 + 2 = 123
+| Tuesday — 188 - 123 = 65
+i (a) Mr Clement sold 65 lemons on Tuesday.
+| Step 5: Find the number of lemons both men
+i sold altogether
+i 329 + 188 = 517
+' (b) Both men sold 517 lemons altogether on
+i both days.
+i
+Answers: (a) 252 oranges ] Answers: (a) 65 lemons _
+(b) 72 oranges | (b) _517 lemons _
+i
+101 Must-Know Challenging Maths Word Problems Book 4
+© Singapore Asia Publishers Pte Ltd $33
+EE

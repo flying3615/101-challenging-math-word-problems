@@ -1,0 +1,250 @@
+[
+  {
+    "id": 71,
+    "topic": "Geometry: area of a composite square",
+    "question": "9 small squares are used to form a large square. If each side of a small square is 7 cm, what is the area of the large square?",
+    "answer": "441 cm²",
+    "model": "geometry",
+    "hint": "The 9 small squares make a 3-by-3 array. Find the side length of the large square before finding its area."
+  },
+  {
+    "id": 72,
+    "topic": "Geometry: perimeter of an unshaded shape",
+    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion shown in the diagram.",
+    "answer": "32 cm",
+    "model": "geometry",
+    "hint": "1st find the side length of the 81 cm² square, then trace only the outside edges of the unshaded L-shaped portion."
+  },
+  {
+    "id": 73,
+    "topic": "Geometry: rectangle area and perimeter",
+    "question": "The perimeter of a rectangle is 288 cm. The length is 3 times the breadth. Find the area of the rectangle.",
+    "answer": "3888 cm²",
+    "model": "geometry",
+    "hint": "A perimeter has 2 lengths and 2 breadths. Treat 1 breadth as 1 unit and the length as 3 units."
+  },
+  {
+    "id": 74,
+    "topic": "Geometry: wire and fractions",
+    "question": "A wire was cut and 2/3 of it was bent to form a square. The remaining length of the wire was bent to form a rectangle. The area of the square was 36 cm². What was the length of the wire at 1st?",
+    "answer": "36 cm",
+    "model": "geometry",
+    "hint": "Find the square's side from its area, then its perimeter. That perimeter is 2/3 of the original wire."
+  },
+  {
+    "id": 75,
+    "topic": "Geometry: area of a border",
+    "question": "Jenny draws a picture on a piece of paper with a border of 4 cm around the picture. The length of the paper is 24 cm. If the breadth of the picture is 8 cm, find the area of the border.",
+    "answer": "256 cm²",
+    "model": "geometry",
+    "hint": "Find the area of the whole paper and subtract the area of the picture. Remember that the border adds 4 cm on both sides."
+  },
+  {
+    "id": 76,
+    "topic": "Geometry: wire length",
+    "question": "The perimeter of a square is 1/2 the area of a rectangle. A wire is bent to form 3 such squares and 2 such rectangles. 20 cm of wire is left. If the length of the rectangle is 15 cm and its breadth is 12 cm, find the length of the wire.",
+    "answer": "398 cm",
+    "model": "geometry",
+    "hint": "Find the rectangle's area and perimeter. Its area gives the perimeter of 1 square; then add wire for all 5 shapes and the leftover 20 cm."
+  },
+  {
+    "id": 77,
+    "topic": "Geometry: area from a labelled diagram",
+    "question": "The perimeter of rectangle EFGH is 180 cm. YH is 2 times GZ. If EF is 24 cm and YH is 12 cm, what is the area of rectangle ABCD?",
+    "answer": "3738 cm²",
+    "model": "geometry",
+    "hint": "Use the inner rectangle's perimeter to find its height. Use YH = 2 × GZ, then add the labelled horizontal and vertical sections of the diagram."
+  },
+  {
+    "id": 78,
+    "topic": "Geometry: perimeter and fencing cost",
+    "question": "Mr Cox wants to put a fence around his garden. His garden is in the shape of 2 similar rectangles and 3 similar squares. If it costs $23 to fence 2 metres of his garden, how much will Mr Cox have to pay to fence the entire garden?",
+    "answer": "$1564",
+    "model": "geometry",
+    "hint": "Use the 34 m and 6 m labels to fill in all missing side lengths of the diagram. Add the outside edges only, then apply the cost per metre."
+  },
+  {
+    "id": 79,
+    "topic": "Age word problem",
+    "question": "Mr Richard is 5 times as old as his son now. In 8 years’ time, their total ages will be 58 years. (a) What is his son’s present age? (b) How old will Mr Richard be in 8 years’ time?",
+    "answer": "(a) 7 years old; (b) 43 years old",
+    "model": "unit-bar",
+    "hint": "Remove the 8 future years for each person from 58. Split the present total into 5 equal units for Mr Richard and 1 unit for his son."
+  },
+  {
+    "id": 80,
+    "topic": "Money sharing",
+    "question": "Jane and Mark had $240 altogether. When Jane gave Mark 1/2 of her money, Mark had 4 times as much money as Jane. (a) How much did Jane have at 1st? (b) How much did Mark have at 1st?",
+    "answer": "(a) $96; (b) $144",
+    "model": "money-units",
+    "hint": "After Jane gives away 1/2 her money, represent Jane's remaining money as 1 unit and Mark's final money as 4 units."
+  },
+  {
+    "id": 81,
+    "topic": "Fraction of remainder: spending and saving",
+    "question": "Mrs Fleming spent 1/3 of her money on a handbag and 3/4 of the remainder on jewellery. She then saved the rest. If she spent $450 on a bracelet and $90 on a pair of earrings, (a) how much money did she save? (b) how much money did she have at 1st?",
+    "answer": "(a) $180; (b) $1080",
+    "model": "fraction-of-remainder",
+    "hint": "Add the jewellery costs. This is 3/4 of the money remaining after the handbag, so the saved amount is the other 1/4."
+  },
+  {
+    "id": 82,
+    "topic": "Fraction of remainder: spending",
+    "question": "Sean had some money. He used 2/3 of it to buy a watch and spent 3/4 of the remainder on a wallet. If the watch cost $65 more than the wallet, (a) how much money had Sean left? (b) how much money did Sean have at 1st?",
+    "answer": "(a) $13; (b) $156",
+    "model": "fraction-of-remainder",
+    "hint": "Let the total be 12 equal units. The watch and wallet differ by 5 units, which is $65."
+  },
+  {
+    "id": 83,
+    "topic": "Fractions: remainder categories",
+    "question": "1/3 of the books on a shelf are English books. 1/2 of the remainder are Chinese books and the rest are Malay books. 1/4 of the Chinese books are torn. If 54 Chinese books are not torn, (a) how many Malay books are there? (b) how many books are there altogether?",
+    "answer": "(a) 72 Malay books; (b) 216 books",
+    "model": "fraction-of-remainder",
+    "hint": "The 54 untorn Chinese books are 3/4 of all Chinese books. Then work backwards through the shelf fractions."
+  },
+  {
+    "id": 84,
+    "topic": "Fractions: boys and girls",
+    "question": "There were 250 students in a room. 2/5 of the girls and 1/10 of the boys wore spectacles. If the same number of boys and girls did not wear spectacles, (a) how many boys wore spectacles? (b) how many girls wore spectacles?",
+    "answer": "(a) 10 boys; (b) 60 girls",
+    "model": "unit-bar",
+    "hint": "Express the fractions not wearing spectacles: 3/5 of the girls and 9/10 of the boys. Make these equal using common-sized units."
+  },
+  {
+    "id": 85,
+    "topic": "Ratios: people at a football match",
+    "question": "At a football match, there were 3 times as many men as women and 2 times as many men as boys. 1/3 of the children were girls. If there were 120 girls, (a) how many boys were there? (b) how many adults were there?",
+    "answer": "(a) 240 boys; (b) 640 adults",
+    "model": "unit-bar",
+    "hint": "Since girls are 1/3 of the children, 1st find the boys. Then use the stated ratio between men and boys."
+  },
+  {
+    "id": 86,
+    "topic": "Fractions: hats at a fair",
+    "question": "2/3 of the people at a fair wore hats. 1/6 of those who wore hats were men and the rest were women. There were 124 more women than men who wore hats at the fair. (a) How many people did not wear hats? (b) How many people were there at the fair?",
+    "answer": "(a) 93 people; (b) 279 people",
+    "model": "unit-bar",
+    "hint": "Split the hat wearers into 6 equal units. The difference between 5 units of women and 1 unit of men is $124 in people, not dollars."
+  },
+  {
+    "id": 87,
+    "topic": "Fractions: two numbers",
+    "question": "2 numbers are written on a piece of paper. 1/5 of the 1st number is 12 more than 1/2 of the 2nd number. The sum of the 2 numbers is 221. (a) What is the 1st number? (b) What is the 2nd number?",
+    "answer": "(a) 175; (b) 46",
+    "model": "unit-bar",
+    "hint": "Use a common unit for 1/5 of the 1st number and 1/2 of the 2nd number. The 12-unit difference helps split their total."
+  },
+  {
+    "id": 88,
+    "topic": "Fractions: coloured pens",
+    "question": "Gracia had some pens. 2/5 of the pens were blue and 1/6 of the remainder were black. The rest were red and green. There were 12 more red pens than blue pens. If there were 24 green pens, (a) how many red and blue pens did Gracia have? (b) how many pens did Gracia have altogether?",
+    "answer": "(a) 300 red and blue pens; (b) 360 pens",
+    "model": "fraction-of-remainder",
+    "hint": "Represent all pens with 30 equal units so both 2/5 and 1/6 can be shown exactly. Use the 12 difference to find 1 unit."
+  },
+  {
+    "id": 89,
+    "topic": "Fractions: cartons of oranges",
+    "question": "The total number of oranges in cartons A and B was 324. When 3/7 of the oranges in carton A were sold, there were 2 times as many oranges in carton A than in carton B. (a) How many oranges were there in carton A at 1st? (b) How many oranges were there in carton B at 1st?",
+    "answer": "(a) 252 oranges; (b) 72 oranges",
+    "model": "bar-change",
+    "hint": "After the sale, carton A has 4/7 of its original oranges and is 2 times carton B. Turn the final ratio into original units."
+  },
+  {
+    "id": 90,
+    "topic": "Fractions: sales over two days",
+    "question": "On Monday, Mr Hall sold 246 lemons and Mr Clement sold 1/2 as many lemons as Mr Hall. On Tuesday, Mr Hall sold 83 lemons and Mr Clement sold some lemons. The total number of lemons sold by Mr Clement over the 2 days was 4/7 the number that Mr Hall sold. (a) How many lemons did Mr Clement sell on Tuesday? (b) How many lemons did both men sell altogether on both days?",
+    "answer": "(a) 65 lemons; (b) 517 lemons",
+    "model": "unit-bar",
+    "hint": "Find Mr Hall's 2-day total 1st. Use 4/7 of that total for Mr Clement's 2-day sales, then remove his Monday sales."
+  },
+  {
+    "id": 91,
+    "topic": "Fractions: daily spending",
+    "question": "Cleo and Diana were given the same amount of money each day. Cleo spent 4/7 of her money and Diana spent 2/3 of her money every day. They then saved the rest of their money. After a week, Cleo saved $56 more than Diana. (a) How much money did Cleo spend a day? (b) How much money did Diana spend a day?",
+    "answer": "(a) $48; (b) $56",
+    "model": "fraction-of-remainder",
+    "hint": "Convert the weekly saving difference to a 1-day difference. Compare the saving fractions, 3/7 and 1/3, using a common denominator."
+  },
+  {
+    "id": 92,
+    "topic": "Fractions: boxes of fruit",
+    "question": "A box of apples costs 2/7 the price of a box of oranges. There are 1/3 as many apples as oranges in 1 box. If there are 90 oranges in 1 box and an orange costs 70¢, (a) how much does a box of apples cost? (b) how many apples are there in 1 box?",
+    "answer": "(a) $18; (b) 30 apples",
+    "model": "unit-bar",
+    "hint": "1st find the price of a box of oranges from 90 oranges. Then take 2/7 of that price; 1/3 of 90 gives the apple count."
+  },
+  {
+    "id": 93,
+    "topic": "Fractions: sweets transferred and eaten",
+    "question": "Katherine and Leslie had a total of 140 sweets. When Leslie gave Katherine 1/4 of his sweets and Katherine ate 5 of her sweets, Katherine had 2 times as many sweets as Leslie. (a) How many sweets did Leslie have at 1st? (b) How many sweets did Katherine have at 1st?",
+    "answer": "(a) 60 sweets; (b) 80 sweets",
+    "model": "bar-change",
+    "hint": "After the transfer and Katherine's 5 eaten sweets, compare their final amounts as 2 units and 1 unit. Account for the 5 separately."
+  },
+  {
+    "id": 94,
+    "topic": "Fractions: pears and apples",
+    "question": "There were some pears and apples in a box. If 4 pears were taken out from the box, there would be an equal number of pears and apples in the box. If 7 pears were taken out from the box, there would be 4/5 as many pears as apples in the box. (a) How many apples were there in the box at 1st? (b) How many pears were there in the box at 1st?",
+    "answer": "(a) 15 apples; (b) 19 pears",
+    "model": "bar-change",
+    "hint": "The 1st condition says the original number of pears is 4 more than apples. Substitute that relationship into the 2nd condition."
+  },
+  {
+    "id": 95,
+    "topic": "Fractions: tennis spectators",
+    "question": "There were some spectators at a tennis match. 1/3 of them belonged to the tennis club. 1/6 of those who did not belong to the club were adults and the rest were children. If there were 120 more children than adults who did not belong to the club, (a) how many people belonged to the tennis club? (b) how many spectators were there at the tennis match?",
+    "answer": "(a) 90 people; (b) 270 spectators",
+    "model": "unit-bar",
+    "hint": "Among non-members, adults are 1 unit and children are 5 units. Use their 4-unit difference, then relate non-members to the 1/3 club members."
+  },
+  {
+    "id": 96,
+    "topic": "Money: apples and papayas",
+    "question": "5 apples cost as much as 2 papayas. Mrs Lynch could buy 18 papayas. If she had bought 12 papayas, she would have $30 left. (a) How much did each papaya cost? (b) How much would 3 apples and 3 papayas cost?",
+    "answer": "(a) $5; (b) $21",
+    "model": "money-units",
+    "hint": "The $30 left equals the price of 6 papayas. Then use 5 apples = 2 papayas to find the apple price."
+  },
+  {
+    "id": 97,
+    "topic": "Money: coin denominations",
+    "question": "Joey had some 20-cent and 10-cent coins. When she used 1/3 of them, she had $9.60 left. She used 1/2 as many 20-cent coins as 10-cent coins. (a) How many 20-cent coins did she use? (b) How many 10-cent coins did she use?",
+    "answer": "(a) 12 twenty-cent coins; (b) 24 ten-cent coins",
+    "model": "money-units",
+    "hint": "If 1/3 was used, the $9.60 remaining is 2/3 of the total value. Find the amount used, then test the 1:2 coin-count ratio."
+  },
+  {
+    "id": 98,
+    "topic": "Fractions: spending, saving, and sharing",
+    "question": "James spent 1/5 of his money on a pair of shoes and 1/10 on a book. He saved 2/7 of the remaining money and the rest of the money was given to and shared equally among his 8 brothers. If each brother received $5, (a) how much money did James have at 1st? (b) how much money did James spend?",
+    "answer": "(a) $80; (b) $24",
+    "model": "fraction-of-remainder",
+    "hint": "The brothers received $40 altogether. It is 5 equal parts of the money remaining after the 1st 2 purchases; use that to work back."
+  },
+  {
+    "id": 99,
+    "topic": "Fractions: money remaining",
+    "question": "Vivian and her brother had some money. After spending 2/5 of his money, her brother had $78 left. Vivian spent 1/3 of her money and had the same amount of money left as her brother. (a) How much money did Vivian have at 1st? (b) How much money did Vivian’s brother have at 1st?",
+    "answer": "(a) $117; (b) $130",
+    "model": "fraction-of-remainder",
+    "hint": "Vivian's $78 is 2/3 of her starting money, while her brother's $78 is 3/5 of his starting money."
+  },
+  {
+    "id": 100,
+    "topic": "Geometry: wire forming squares and rectangles",
+    "question": "A piece of wire is cut into 2 equal pieces. 1 piece is bent to form 2 similar squares with sides 12 cm. The other piece is bent into 3 similar rectangles, each with a breadth of 6 cm. (a) Find the length of the piece of wire at 1st. (b) Find the area of each rectangle.",
+    "answer": "(a) 192 cm; (b) 60 cm²",
+    "model": "geometry",
+    "hint": "Find the wire needed for 2 12 cm squares. That is 1/2 of the original wire and also the wire used for 3 rectangles."
+  },
+  {
+    "id": 101,
+    "topic": "Geometry: overlapping rectangles",
+    "question": "The figure shows 3 identical rectangles. The shaded areas where the rectangles overlap form squares of 25 cm² each. Each rectangle is 13 cm by 9 cm. (a) Find the perimeter of the whole figure. (b) Find the total area of the unshaded parts.",
+    "answer": "(a) 92 cm; (b) 251 cm²",
+    "model": "geometry",
+    "hint": "Each overlap square has side 5 cm. Mark the exposed lengths around the outside, then subtract the overlap square(s) from each 13 cm by 9 cm rectangle."
+  }
+]

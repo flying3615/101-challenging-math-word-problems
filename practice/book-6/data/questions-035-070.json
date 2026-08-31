@@ -1,0 +1,326 @@
+[
+  {
+    "id": 35,
+    "topic": "Measurement",
+    "question": "Frederick and Justina spend $8/$16 per day, leaving Justina $70; swapping spending gives Justina $430. Find their parent-given amounts.",
+    "answer": "Frederick: $240; Justina: $550",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 16
+  },
+  {
+    "id": 36,
+    "topic": "Measurement",
+    "question": "Tank A:B water was 4:3. Adding 0.8 L filled A, making A 2 times B. A capacity was 1/4 of B capacity. How much more water fills B?",
+    "answer": "8.4 L",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 16
+  },
+  {
+    "id": 37,
+    "topic": "Measurement",
+    "question": "Germaine spent $70 and had 2 times Gilbert. Gilbert received $300 and had 3 times Germaine’s original amount. Find their final total.",
+    "answer": "$354",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 17
+  },
+  {
+    "id": 38,
+    "topic": "Measurement",
+    "question": "3 books + 2 magazines cost $84; 3 comics + 2 magazines cost $54; 2 comics + 2 books cost $52. Find 1 magazine cost.",
+    "answer": "$15",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 17
+  },
+  {
+    "id": 39,
+    "topic": "Measurement",
+    "question": "2 concentric circles have radii 7 cm and 21 cm. Shaded:unshaded area is 2:7. Find unshaded area using π = 22/7.",
+    "answer": "4312 cm²",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 17
+  },
+  {
+    "id": 40,
+    "topic": "Measurement",
+    "question": "A 12 cm × 15 cm × 30 cm container became 2/3 full; added tub water left 20% of tub’s original volume. Tub base was 24 cm × 15 cm. Find original water level.",
+    "answer": "6.25 cm",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 18
+  },
+  {
+    "id": 41,
+    "topic": "Measurement",
+    "question": "6 similar rectangles form figure A and are rearranged to figure B. Figure A area is 864 cm². Find figure B perimeter.",
+    "answer": "156 cm",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 18
+  },
+  {
+    "id": 42,
+    "topic": "Measurement",
+    "question": "A fruiterer sold 30% more apples than oranges and 10% more pears; 104 apples. Bags and prices were 4/$6, 8/$10, 2/$3. Find total sales.",
+    "answer": "$386",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 18
+  },
+  {
+    "id": 43,
+    "topic": "Measurement",
+    "question": "4 oranges, 3 apples, 2 papayas cost $15.50; 2 oranges, 6 papayas $28.60; 3 oranges, 4 apples $6.80. Find each price.",
+    "answer": "Apple: $1.10; Orange: $0.80; Papaya: $4.50",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 19
+  },
+  {
+    "id": 44,
+    "topic": "Measurement",
+    "question": "A tap fills at 3 L/min and a hole drains 0.5 L/min. Starting 7:00 am, find pail water at 9:30 am and time to reach 10 L.",
+    "answer": "(a) 375 L; (b) 4 minutes",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 19
+  },
+  {
+    "id": 45,
+    "topic": "Measurement",
+    "question": "Orange juice was split A/B/C. 20 ml moved B→C, 210 ml C→A, 150 ml removed A. Final A was 3 times initial A; B=C=3 times final A. Find initial amounts and carton total.",
+    "answer": "A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 19
+  },
+  {
+    "id": 46,
+    "topic": "Measurement",
+    "question": "Joanne gave 1/3 to her mother then saved:spent 1:2. Alex spent 1/4 clothes and 1/4 books; Joanne’s gift equalled Alex’s books. Her $180 transfer leaves 1/4 of Alex’s savings. Find requested values.",
+    "answer": "(a) Joanne: $1440; Alex: $1080; (b) $1260",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 20
+  },
+  {
+    "id": 47,
+    "topic": "Measurement",
+    "question": "2 taps add 6 L/min each while a hole drains 8 L per 4 min. A tank is 40% full after 10 min. Find capacity and extra fill time.",
+    "answer": "(a) 250 L; (b) 15 minutes",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 20
+  },
+  {
+    "id": 48,
+    "topic": "Measurement",
+    "question": "Mary had $50, Tom $130. Their mother gave equal daily amounts; after 2 days Mary had 2 times Tom. Find total given and Mary’s daily amount.",
+    "answer": "(a) $220; (b) $55",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 20
+  },
+  {
+    "id": 49,
+    "topic": "Measurement",
+    "question": "Square perimeters A:B were 3:5, shaded-rectangle perimeter:A was 2:6, and square perimeters totalled 192 cm. Find 3 requested areas.",
+    "answer": "(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 21
+  },
+  {
+    "id": 50,
+    "topic": "Measurement",
+    "question": "A rectangle contains 2 quadrants of radii 12 cm and 24 cm. Find the difference in shaded areas using π = 3.14.",
+    "answer": "51.12 cm²",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 21
+  },
+  {
+    "id": 51,
+    "topic": "Fractions",
+    "question": "Basins A, B, C are identical. A has mass 3.1 kg at 1/4 full and B 2.2 kg at 3/4 full. Find C’s filled fraction when it has mass 2.8 kg.",
+    "answer": "5/7",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 21
+  },
+  {
+    "id": 52,
+    "topic": "Fractions",
+    "question": "A 20 cm × 12 cm × 15 cm tank had water. After 1/10 was poured into a tub, tub volume increased 12 cm³. What fraction of tank capacity was unfilled at first?",
+    "answer": "29/30",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 22
+  },
+  {
+    "id": 53,
+    "topic": "Fractions",
+    "question": "Mathew sold 1/3 of pens on day 1, 4 more on day 2, then the rest day 3. Day 2 exceeded day 3 by 15. Find original pens.",
+    "answer": "36 pens",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 22
+  },
+  {
+    "id": 54,
+    "topic": "Fractions",
+    "question": "Edmund bought small $4, medium $6, large $8 cookie packs. 1/4 were small, medium exceeded small by 4, total was $180. Find each pack count.",
+    "answer": "Small: 15; Medium: 16; Large: 3",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 22
+  },
+  {
+    "id": 55,
+    "topic": "Fractions",
+    "question": "Ben and Tom had 144 sweets. Ben gave Tom 1/4 of his; Tom gave Ben 1/3 of his; they then matched. Find original counts.",
+    "answer": "Ben: 60; Tom: 84",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 23
+  },
+  {
+    "id": 56,
+    "topic": "Fractions",
+    "question": "Claudia gave Agnes 1/4 of her curry puffs; Agnes gave Claudia 1/3 of hers. They then matched and had 240 total. Find original counts.",
+    "answer": "Claudia: 144; Agnes: 96",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 23
+  },
+  {
+    "id": 57,
+    "topic": "Fractions",
+    "question": "A florist sold 1/5 of orchids and 1/3 of roses, leaving 60. After 14 more roses sold, 1/2 of original roses remained. Find original fruit total.",
+    "answer": "80 orchids and roses",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 23
+  },
+  {
+    "id": 58,
+    "topic": "Fractions",
+    "question": "Of Chinese, English, Malay books, 1/4 were Chinese and 1/3 of the remainder English. Malay exceeded English by 63. Find each count.",
+    "answer": "Chinese: 35; English: 21; Malay: 84",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 24
+  },
+  {
+    "id": 59,
+    "topic": "Fractions",
+    "question": "After selling 1/3 of apples and 7 pears, pears left were 1/4 apples left. Pears sold were 1/7 pears not sold. Find original fruit counts.",
+    "answer": "Apples: 252; Pears: 49",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 24
+  },
+  {
+    "id": 60,
+    "topic": "Fractions",
+    "question": "1/4 of Mr Jones’s notes were $2; 2/3 of the rest were $10; remaining were $5. Total was $295. How many $10 notes?",
+    "answer": "15 ten-dollar notes",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 24
+  },
+  {
+    "id": 61,
+    "topic": "Fractions",
+    "question": "Jim and Alice had marbles. 1/4 of Jim’s count was 1/3 of Alice’s. Jim gave Alice 30; Alice was then 40 ahead; Jim had 2/3 left. Find original counts.",
+    "answer": "Jim: 80; Alice: 60",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 25
+  },
+  {
+    "id": 62,
+    "topic": "Fractions",
+    "question": "Francis had $3.60 in $0.05 and $0.20 coins. 1/4 of coins were $0.20 coins. Find each coin count.",
+    "answer": "Twenty-cent: 16; five-cent: 8",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 25
+  },
+  {
+    "id": 63,
+    "topic": "Distance, Speed and Time",
+    "question": "Cars P, Q, R were 300 km apart at 8:30 am. Q met P at 11:30 am and R 30 min later; P drove 60 km/h. How far did Q travel between meetings?",
+    "answer": "20 km",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 25
+  },
+  {
+    "id": 64,
+    "topic": "Distance, Speed and Time",
+    "question": "Terence and Linda drove A→B at noon. Terence averaged 15 km/h faster; at 4 pm he arrived while Linda covered 224 km. Find A–B distance.",
+    "answer": "284 km",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 26
+  },
+  {
+    "id": 65,
+    "topic": "Distance, Speed and Time",
+    "question": "Aaron drove 80 km/h from 5:30 to 11:30, 1 h 36 min late. If he travelled the initial 1/2 at 100 km/h, find needed later-part speed.",
+    "answer": "120 km/h",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 26
+  },
+  {
+    "id": 66,
+    "topic": "Distance, Speed and Time",
+    "question": "Jasper left A at 8:30 at 90 km/h. Tony left 2 h earlier, 10 km/h slower, and arrived B at 10:30. How far was Jasper from B then?",
+    "answer": "140 km",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 26
+  },
+  {
+    "id": 67,
+    "topic": "Distance, Speed and Time",
+    "question": "George jogged 9 km/h from 4:15. Caleb began 4:45 and at 5:45 was 2 km ahead. If Caleb had begun at 4:15, how far would he cover?",
+    "answer": "23.25 km",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 27
+  },
+  {
+    "id": 68,
+    "topic": "Distance, Speed and Time",
+    "question": "A car takes 5 h and bus 9 h for A→B; car speed is 90 km/h. After 3/5 journey, how much faster must bus travel to arrive 1 h 36 min early?",
+    "answer": "40 km/h",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 27
+  },
+  {
+    "id": 69,
+    "topic": "Distance, Speed and Time",
+    "question": "Collin was 150 m ahead of Bryan; Aaron was 50 m behind Bryan. At 8:00, Aaron passed Bryan in 2 min and Collin 3 min later. Bryan ran 120 m/min. When did Bryan pass Collin?",
+    "answer": "8:10 am",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 27
+  },
+  {
+    "id": 70,
+    "topic": "Distance, Speed and Time",
+    "question": "Sean drove 90 km/h from 5:30 to 1:30. Mary made the same trip in 6 h. How far was Sean from the destination when they were 150 km apart?",
+    "answer": "270 km",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 28
+  }
+]

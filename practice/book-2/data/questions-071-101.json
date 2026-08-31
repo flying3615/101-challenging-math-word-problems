@@ -1,0 +1,281 @@
+[
+  {
+    "id": 71,
+    "topic": "Money",
+    "question": "Ann bought a $19 pen and paid $50. She received 5 $5 notes and some $2 notes in change. How many $2 notes did she receive?",
+    "answer": "3",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against 3.",
+    "sourcePage": 28
+  },
+  {
+    "id": 72,
+    "topic": "Money",
+    "question": "A T-shirt cost $12 and shorts cost $16. Lily paid $50 and received a $10 note and some $2 notes in change. How many $2 notes did she receive?",
+    "answer": "6",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+    "sourcePage": 28
+  },
+  {
+    "id": 73,
+    "topic": "Money",
+    "question": "A papaya cost as much as 2 mangoes. Mrs Bell spent $12 on 3 papayas. What was the cost of a mango?",
+    "answer": "$2",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $2.",
+    "sourcePage": 29
+  },
+  {
+    "id": 74,
+    "topic": "Money",
+    "question": "Mrs Wood spent $450 at a jewellery store and $120 at a department store. She had $88 left. How much did she have at first?",
+    "answer": "$658",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $658.",
+    "sourcePage": 29
+  },
+  {
+    "id": 75,
+    "topic": "Money",
+    "question": "Mary bought a $16 toy and received 2 $2 notes and 2 $5 notes in change. How much did she have at first?",
+    "answer": "$30",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $30.",
+    "sourcePage": 29
+  },
+  {
+    "id": 76,
+    "topic": "Money",
+    "question": "A pen cost $5, which was $2 more than a pencil. Mary had $30 and bought 2 pens and 4 pencils. How much had she left?",
+    "answer": "$8",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $8.",
+    "sourcePage": 30
+  },
+  {
+    "id": 77,
+    "topic": "Money",
+    "question": "Tim had 6 $2 notes, 3 $5 notes and 1 $1 coin. He spent $18 on a book and $6 on a magazine. How much had he left?",
+    "answer": "$4",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+    "sourcePage": 30
+  },
+  {
+    "id": 78,
+    "topic": "Money",
+    "question": "After spending $17 on sunglasses and $12 on a wallet, Mr Taylor had $58 left. How much did he have at first?",
+    "answer": "$87",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $87.",
+    "sourcePage": 30
+  },
+  {
+    "id": 79,
+    "topic": "Money",
+    "question": "3 T-shirts cost as much as 2 pairs of shorts. If a T-shirt costs $8, what is the cost of a pair of shorts?",
+    "answer": "$12",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+    "sourcePage": 31
+  },
+  {
+    "id": 80,
+    "topic": "Money",
+    "question": "4 watermelons and 3 guavas cost $22. If a guava costs $2, what is the cost of a watermelon?",
+    "answer": "$4",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+    "sourcePage": 31
+  },
+  {
+    "id": 81,
+    "topic": "Money",
+    "question": "Lucy spent $28 on a T-shirt and shorts. The T-shirt cost $6 more than the shorts. How much did the T-shirt cost?",
+    "answer": "$17",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $17.",
+    "sourcePage": 31
+  },
+  {
+    "id": 82,
+    "topic": "Money",
+    "question": "Alice used all her money to buy 4 boxes of coloured pencils. A box cost $3 less than a box of crayons. If a box of crayons cost $9, how much money did Alice have at first?",
+    "answer": "$24",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $24.",
+    "sourcePage": 32
+  },
+  {
+    "id": 83,
+    "topic": "Money",
+    "question": "A bag of 3 pears costs $2 and a bag of 5 apples costs $3. How much would 9 pears and 15 apples cost?",
+    "answer": "$15",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $15.",
+    "sourcePage": 32
+  },
+  {
+    "id": 84,
+    "topic": "Money",
+    "question": "2 pairs of socks cost $4. A scarf cost $13 more than 1 pair of socks. If Sally had $10 left after buying 2 pairs of socks and a scarf, how much did she have at first?",
+    "answer": "$29",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $29.",
+    "sourcePage": 32
+  },
+  {
+    "id": 85,
+    "topic": "Money",
+    "question": "8 books cost $32. What is the cost of 6 such books?",
+    "answer": "$24",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $24.",
+    "sourcePage": 33
+  },
+  {
+    "id": 86,
+    "topic": "Money",
+    "question": "Tom earns $8 for every hour worked. If he works from 1 pm to 10 pm, how much does he earn?",
+    "answer": "$72",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $72.",
+    "sourcePage": 33
+  },
+  {
+    "id": 87,
+    "topic": "Money",
+    "question": "An exercise book cost $3. Joanne bought 6 and had $19 left. How much did she have at first?",
+    "answer": "$37",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $37.",
+    "sourcePage": 33
+  },
+  {
+    "id": 88,
+    "topic": "Money",
+    "question": "A small dumpling cost $2 and a big dumpling cost $3 more. Mrs Cox bought 5 small and 6 big dumplings. How much did she pay?",
+    "answer": "$40",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $40.",
+    "sourcePage": 34
+  },
+  {
+    "id": 89,
+    "topic": "Money",
+    "question": "Peter queued for food. There were 3 children in front of him and 2 behind him. Everyone in the queue had $5. How much money did the children have altogether?",
+    "answer": "$30",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $30.",
+    "sourcePage": 34
+  },
+  {
+    "id": 90,
+    "topic": "Money",
+    "question": "1 kg of durians cost $4. Ann bought 8 kg and had $80 at first. How much had she left?",
+    "answer": "$48",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $48.",
+    "sourcePage": 34
+  },
+  {
+    "id": 91,
+    "topic": "Money",
+    "question": "Mrs Brown bought a watch for $86 and a pen for $10. She gave the cashier $100. How much change did she receive?",
+    "answer": "$4",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+    "sourcePage": 35
+  },
+  {
+    "id": 92,
+    "topic": "Money",
+    "question": "James had $51. He spent $18 on a toy and the rest on 3 similar T-shirts. How much did each T-shirt cost?",
+    "answer": "$11",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $11.",
+    "sourcePage": 35
+  },
+  {
+    "id": 93,
+    "topic": "Money",
+    "question": "Mr Cook bought 2 similar clocks and a watch. Each clock cost $97. He paid $250 and received $12 change. What was the cost of the watch?",
+    "answer": "$44",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $44.",
+    "sourcePage": 35
+  },
+  {
+    "id": 94,
+    "topic": "Money",
+    "question": "A bag of apples costs $5 and a bag of pears costs $4. Alice had enough for 3 apple bags and 7 pear bags. How much did she have?",
+    "answer": "$43",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $43.",
+    "sourcePage": 36
+  },
+  {
+    "id": 95,
+    "topic": "Money",
+    "question": "Tom and Mary shared the cost of a $21 gift. Tom paid $3 more than Mary. How much did Tom pay?",
+    "answer": "$12",
+    "model": "money-units",
+    "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+    "sourcePage": 36
+  },
+  {
+    "id": 96,
+    "topic": "Time",
+    "question": "Susan is 28 years old. Her brother is 3 years older. How old will he be in 5 years?",
+    "answer": "36",
+    "model": "unit-bar",
+    "hint": "Write the known quantities, choose the operation signs, then check against 36.",
+    "sourcePage": 36
+  },
+  {
+    "id": 97,
+    "topic": "Time",
+    "question": "Mary is 23 years old. Her brother is 2 times as old. How old was her brother 2 years ago?",
+    "answer": "44",
+    "model": "unit-bar",
+    "hint": "Write the known quantities, choose the operation signs, then check against 44.",
+    "sourcePage": 37
+  },
+  {
+    "id": 98,
+    "topic": "Time",
+    "question": "A book has 125 pages. Jack reads 15 pages on day 1 and 20 on day 2, increasing by 5 pages each following day until finished. How many days does he take?",
+    "answer": "5",
+    "model": "unit-bar",
+    "hint": "Write the known quantities, choose the operation signs, then check against 5.",
+    "sourcePage": 37
+  },
+  {
+    "id": 99,
+    "topic": "2-part Problems",
+    "question": "Ann gave Jack 18 stamps and he used 6. Each then had 32 stamps left. How many stamps did Ann and Jack have at first?",
+    "answer": "Ann: 50; Jack: 20",
+    "model": "unit-bar",
+    "hint": "Write the known quantities, choose the operation signs, then check against Ann: 50; Jack: 20.",
+    "sourcePage": 37
+  },
+  {
+    "id": 100,
+    "topic": "2-part Problems",
+    "question": "Mrs Jackson packed egg tarts into boxes of 5. She sold 8 boxes and had 6 boxes left. How many egg tarts were left, and how many did she bake?",
+    "answer": "30; 70",
+    "model": "bar-change",
+    "hint": "Write the known quantities, choose the operation signs, then check against 30; 70.",
+    "sourcePage": 38
+  },
+  {
+    "id": 101,
+    "topic": "2-part Problems",
+    "question": "James bought 3 packs of French fries and 2 burgers for $14. A burger cost 2 times 1 pack of fries. What is the price of 1 fries pack, and of 4 packs plus 5 burgers?",
+    "answer": "$2; $28",
+    "model": "unit-bar",
+    "hint": "Write the known quantities, choose the operation signs, then check against $2; $28.",
+    "sourcePage": 38
+  }
+]

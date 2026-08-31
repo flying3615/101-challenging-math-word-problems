@@ -1,0 +1,914 @@
+{
+  "title": "Book 2 Challenge Library",
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Four Operations",
+      "question": "Jane has 80 apples and 142 oranges. Linda has 92 apples more than Jane. How many apples and oranges do they have altogether?",
+      "answer": "394",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 394.",
+      "sourcePage": 5
+    },
+    {
+      "id": 2,
+      "topic": "Four Operations",
+      "question": "A baker uses 80 eggs for cakes and 12 eggs for cookies. If 56 eggs are left, how many eggs were there at first?",
+      "answer": "148",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 148.",
+      "sourcePage": 5
+    },
+    {
+      "id": 3,
+      "topic": "Four Operations",
+      "question": "There are 124 red marbles and 135 blue marbles in a box. 218 green marbles are added. How many marbles are in the box now?",
+      "answer": "477",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 477.",
+      "sourcePage": 5
+    },
+    {
+      "id": 4,
+      "topic": "Four Operations",
+      "question": "Joan has 54 stickers. She gives 32 stickers to her brother and buys some stickers. She has 58 stickers in the end. How many stickers does she buy?",
+      "answer": "36",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 36.",
+      "sourcePage": 6
+    },
+    {
+      "id": 5,
+      "topic": "Four Operations",
+      "question": "The difference between 2 numbers is 128. If the bigger number is 174, what is the smaller number?",
+      "answer": "46",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 46.",
+      "sourcePage": 6
+    },
+    {
+      "id": 6,
+      "topic": "Four Operations",
+      "question": "There are 156 students in a room. 81 leave and some enter. There are 108 students in the end. How many students enter?",
+      "answer": "33",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 33.",
+      "sourcePage": 6
+    },
+    {
+      "id": 7,
+      "topic": "Four Operations",
+      "question": "There are 18 apples in bag A. There are 2 times as many apples in bag B as in bag A. How many apples are there altogether?",
+      "answer": "54",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 54.",
+      "sourcePage": 7
+    },
+    {
+      "id": 8,
+      "topic": "Four Operations",
+      "question": "Thomas shares 24 egg tarts equally with 2 friends. He puts his share equally into 2 boxes. How many egg tarts are in each box?",
+      "answer": "4",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 4.",
+      "sourcePage": 7
+    },
+    {
+      "id": 9,
+      "topic": "Four Operations",
+      "question": "A box contains 7 red rubber bands and 6 yellow rubber bands. How many rubber bands are in 4 such boxes?",
+      "answer": "52",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 52.",
+      "sourcePage": 7
+    },
+    {
+      "id": 10,
+      "topic": "Four Operations",
+      "question": "Tom buys 3 packs of balloons with 8 balloons in each pack. If he uses 16 balloons, how many balloons has he left?",
+      "answer": "8",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 8.",
+      "sourcePage": 8
+    },
+    {
+      "id": 11,
+      "topic": "Four Operations",
+      "question": "Mr David has 235 oranges. He throws 89 rotten oranges away and buys 82 more. How many oranges does he have in the end?",
+      "answer": "228",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 228.",
+      "sourcePage": 8
+    },
+    {
+      "id": 12,
+      "topic": "Four Operations",
+      "question": "Alice sews 4 buttons on a dress. After sewing 8 dresses, she has 19 buttons left. How many buttons does she have at first?",
+      "answer": "51",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 51.",
+      "sourcePage": 8
+    },
+    {
+      "id": 13,
+      "topic": "Four Operations",
+      "question": "Mr Brown sold 320 strawberries on Monday and 456 on Tuesday. He packed the rest equally into 10 punnets of 8 strawberries each. How many strawberries did he have at first?",
+      "answer": "856",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 856.",
+      "sourcePage": 9
+    },
+    {
+      "id": 14,
+      "topic": "Four Operations",
+      "question": "There were 67 oranges in box A. Box B had 92 more than box A. If 164 oranges were sold, how many oranges were left in both boxes?",
+      "answer": "62",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 62.",
+      "sourcePage": 9
+    },
+    {
+      "id": 15,
+      "topic": "Four Operations",
+      "question": "There were 784 people at a party. There were 220 men and 176 women. The rest were children. How many children were there?",
+      "answer": "388",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 388.",
+      "sourcePage": 9
+    },
+    {
+      "id": 16,
+      "topic": "Four Operations",
+      "question": "Sharon had 450 stickers. She gave some to her brother and 124 to her sister. She had 120 left. How many stickers did she give her brother?",
+      "answer": "206",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 206.",
+      "sourcePage": 10
+    },
+    {
+      "id": 17,
+      "topic": "Four Operations",
+      "question": "Mr Rice gave 9 students 4 sweets each and had 14 sweets left. How many sweets did he buy?",
+      "answer": "50",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 50.",
+      "sourcePage": 10
+    },
+    {
+      "id": 18,
+      "topic": "Four Operations",
+      "question": "Alice arranged 4 white chairs and 5 black chairs in a row. If she arranged 8 such rows, how many chairs were there altogether?",
+      "answer": "72",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 72.",
+      "sourcePage": 10
+    },
+    {
+      "id": 19,
+      "topic": "Four Operations",
+      "question": "Tom had 35 stickers. Jack had 120 more than Tom and Jill had 48 fewer than Jack. How many stickers did they have altogether?",
+      "answer": "297",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 297.",
+      "sourcePage": 11
+    },
+    {
+      "id": 20,
+      "topic": "Four Operations",
+      "question": "Jerry bought 3 boxes of balloons with 10 balloons in each. He repacked them into boxes of 5. How many boxes were there?",
+      "answer": "6",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+      "sourcePage": 11
+    },
+    {
+      "id": 21,
+      "topic": "Four Operations",
+      "question": "A fruiterer sold pears in bags of 3. For every 4 bags bought, a customer got 1 pear free. If Mr Scott bought 12 bags, how many pears did he have altogether?",
+      "answer": "39",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 39.",
+      "sourcePage": 11
+    },
+    {
+      "id": 22,
+      "topic": "Four Operations",
+      "question": "Jack had 5 boxes of marbles with 10 marbles in each. Betty had 28 more marbles than Jack. How many marbles did they have altogether?",
+      "answer": "128",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 128.",
+      "sourcePage": 12
+    },
+    {
+      "id": 23,
+      "topic": "Four Operations",
+      "question": "Simon had 248 balloons. Susan had 16 more than him. If she sold 86 balloons, how many balloons had she left?",
+      "answer": "178",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 178.",
+      "sourcePage": 12
+    },
+    {
+      "id": 24,
+      "topic": "Four Operations",
+      "question": "Jane, Mary and Tom had 215 stickers. Jane had 63. Mary had 12 fewer than Jane. How many stickers did Tom have?",
+      "answer": "101",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 101.",
+      "sourcePage": 12
+    },
+    {
+      "id": 25,
+      "topic": "Four Operations",
+      "question": "Mary had 6 packs of sweets with 5 sweets in each. She shared them equally with 2 friends. How many sweets did each person receive?",
+      "answer": "10",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 10.",
+      "sourcePage": 13
+    },
+    {
+      "id": 26,
+      "topic": "Four Operations",
+      "question": "Mr Owen had a square field. He planted 5 trees on each side, with a tree at every corner. How many trees did he plant altogether?",
+      "answer": "16",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 16.",
+      "sourcePage": 13
+    },
+    {
+      "id": 27,
+      "topic": "Four Operations",
+      "question": "Alice had some buttons. Tom gave her 14 buttons and she used 8. She then had 19 buttons. How many buttons did Alice have at first?",
+      "answer": "13",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 13.",
+      "sourcePage": 13
+    },
+    {
+      "id": 28,
+      "topic": "Four Operations",
+      "question": "Sue has 18 stamps and Bob has 12 stamps. How many stamps must Sue give Bob so both have the same number?",
+      "answer": "3",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 3.",
+      "sourcePage": 14
+    },
+    {
+      "id": 29,
+      "topic": "Four Operations",
+      "question": "Joanne had some rubber bands. Ann gave her 24 and Peter gave her 15. Joanne used 32 and had 97 left. How many rubber bands did she have at first?",
+      "answer": "90",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 90.",
+      "sourcePage": 14
+    },
+    {
+      "id": 30,
+      "topic": "Four Operations",
+      "question": "A red bus seats 10 students and a blue bus seats 8. A school hired 5 red buses and 4 blue buses. How many students went on the excursion?",
+      "answer": "82",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 82.",
+      "sourcePage": 14
+    },
+    {
+      "id": 31,
+      "topic": "Four Operations",
+      "question": "Mrs Cole sold 3 boxes of 4 apple pies. Mrs Fay sold 8 more apple pies than Mrs Cole. If each had 17 apple pies left, how many apple pies did both have at first?",
+      "answer": "66",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 66.",
+      "sourcePage": 15
+    },
+    {
+      "id": 32,
+      "topic": "Four Operations",
+      "question": "There were 180 green apples and 210 red apples. Mr Smith sold 84 green and 87 red apples, gave some away, and had 120 left. How many apples did he give away?",
+      "answer": "99",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 99.",
+      "sourcePage": 15
+    },
+    {
+      "id": 33,
+      "topic": "Four Operations",
+      "question": "There were 125 cars in a car park. 36 cars drove out and 74 drove in. How many cars were there in the end?",
+      "answer": "163",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 163.",
+      "sourcePage": 15
+    },
+    {
+      "id": 34,
+      "topic": "Four Operations",
+      "question": "There were 867 people in a shopping centre. 45 were children and 120 were women; the rest were men. How many more men than women were there?",
+      "answer": "582",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 582.",
+      "sourcePage": 16
+    },
+    {
+      "id": 35,
+      "topic": "Four Operations",
+      "question": "Mark had some marbles. His mother gave him 12 and he gave his sister 15. He had 80 left. How many marbles did he have at first?",
+      "answer": "83",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 83.",
+      "sourcePage": 16
+    },
+    {
+      "id": 36,
+      "topic": "Four Operations",
+      "question": "There were 124 passengers on a train. At the 1st stop, 16 boarded and 52 alighted. At the 2nd stop, some alighted and none boarded. There were 26 left. How many alighted at the 2nd stop?",
+      "answer": "62",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 62.",
+      "sourcePage": 16
+    },
+    {
+      "id": 37,
+      "topic": "Four Operations",
+      "question": "Andrew read 146 pages on Sunday, 12 more than on Monday. If there were 76 unread pages, how many pages were in the book?",
+      "answer": "356",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 356.",
+      "sourcePage": 17
+    },
+    {
+      "id": 38,
+      "topic": "Four Operations",
+      "question": "There were 174 eggs in a carton. 12 rotten eggs were thrown away and some were used to bake 4 similar cakes. 138 eggs were left. How many eggs were needed for each cake?",
+      "answer": "6",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+      "sourcePage": 17
+    },
+    {
+      "id": 39,
+      "topic": "Four Operations",
+      "question": "There were 40 marbles in 3 boxes A, B and C. A and B had equal numbers. C had 3 times as many as B. How many marbles were in C?",
+      "answer": "24",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 24.",
+      "sourcePage": 17
+    },
+    {
+      "id": 40,
+      "topic": "Four Operations",
+      "question": "Tina has 10 red buttons, 8 green buttons and 7 more orange buttons than green buttons. If the buttons are put equally in 3 groups, how many are in each group?",
+      "answer": "11",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 11.",
+      "sourcePage": 18
+    },
+    {
+      "id": 41,
+      "topic": "Four Operations",
+      "question": "At a restaurant, there are 4 tables of 10 people, 5 tables of 4 people and 7 tables of 2 people. How many people are there altogether?",
+      "answer": "74",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 74.",
+      "sourcePage": 18
+    },
+    {
+      "id": 42,
+      "topic": "Four Operations",
+      "question": "Sam tied 4 bunches of 7 balloons each. Linda tied 8 bunches of 6 balloons each. How many more balloons did Linda tie than Sam?",
+      "answer": "20",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 20.",
+      "sourcePage": 18
+    },
+    {
+      "id": 43,
+      "topic": "Four Operations",
+      "question": "Thomas had 70 stickers. Jane had 94 more than him and Pat had 16 fewer than Jane. How many stickers did they have altogether?",
+      "answer": "382",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 382.",
+      "sourcePage": 19
+    },
+    {
+      "id": 44,
+      "topic": "Four Operations",
+      "question": "Sam and Alex had 20 marbles altogether. Sam gave Alex 6 marbles so they had equal numbers. How many marbles did Sam have at first?",
+      "answer": "16",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 16.",
+      "sourcePage": 19
+    },
+    {
+      "id": 45,
+      "topic": "Four Operations",
+      "question": "There were 8 apple pies and chocolate pies in a box. An apple pie cost $5 and a chocolate pie cost $4. If $34 was collected, how many of each pie were sold?",
+      "answer": "2 apple pies and 6 chocolate pies",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 2 apple pies and 6 chocolate pies.",
+      "sourcePage": 19
+    },
+    {
+      "id": 46,
+      "topic": "Four Operations",
+      "question": "There were 9 cars and 10 motorcycles in a car park. How many more car wheels were there than motorcycle wheels?",
+      "answer": "16",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 16.",
+      "sourcePage": 20
+    },
+    {
+      "id": 47,
+      "topic": "Four Operations",
+      "question": "Mrs Jones bought 35 apples and put them equally into 5 boxes. She gave 3 boxes to friends. How many apples had she left?",
+      "answer": "14",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 14.",
+      "sourcePage": 20
+    },
+    {
+      "id": 48,
+      "topic": "Four Operations",
+      "question": "A farmer collected 245 eggs. He sold 133 in the morning and 96 in the afternoon. The rest were placed equally on 2 trays. How many eggs were on each tray?",
+      "answer": "8",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 8.",
+      "sourcePage": 20
+    },
+    {
+      "id": 49,
+      "topic": "Four Operations",
+      "question": "Mrs Cook baked 6 trays of cookies with 9 cookies on each tray. She gave 12 cookies to her children and packed the rest equally into 2 bags. How many cookies were in each bag?",
+      "answer": "21",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 21.",
+      "sourcePage": 21
+    },
+    {
+      "id": 50,
+      "topic": "Four Operations",
+      "question": "Mike and Giggs had 24 apples. Mike ate 4 apples and gave away 6. They then had the same number. How many apples did Giggs have?",
+      "answer": "7",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 7.",
+      "sourcePage": 21
+    },
+    {
+      "id": 51,
+      "topic": "Four Operations",
+      "question": "There were 15 children at a party. 6 ate 2 chicken wings each and the rest ate 5 each. How many chicken wings were eaten?",
+      "answer": "57",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 57.",
+      "sourcePage": 21
+    },
+    {
+      "id": 52,
+      "topic": "Four Operations",
+      "question": "A box had 50 muffins: 18 strawberry, 24 chocolate and the rest blueberry. How many blueberry muffins were there in 5 such boxes?",
+      "answer": "40",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 40.",
+      "sourcePage": 22
+    },
+    {
+      "id": 53,
+      "topic": "Four Operations",
+      "question": "Alvin, Bob and Chris have 109 stickers altogether. Alvin has 25. Chris has 2 times as many as Bob. How many stickers does Chris have?",
+      "answer": "56",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 56.",
+      "sourcePage": 22
+    },
+    {
+      "id": 54,
+      "topic": "Length and Mass",
+      "question": "Sally has 7 erasers in a row measuring 28 cm. What is the length of 3 erasers?",
+      "answer": "12 cm",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 12 cm.",
+      "sourcePage": 22
+    },
+    {
+      "id": 55,
+      "topic": "Length and Mass",
+      "question": "Tim is 10 cm taller than Jack. Jack is 5 cm taller than Alex. If Alex is 142 cm tall, how tall is Tim?",
+      "answer": "157 cm",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 157 cm.",
+      "sourcePage": 23
+    },
+    {
+      "id": 56,
+      "topic": "Length and Mass",
+      "question": "Mrs Drew used 13 kg of flour and packed the rest into 4 bags of 3 kg each. How much flour did she have at first?",
+      "answer": "25 kg",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 25 kg.",
+      "sourcePage": 23
+    },
+    {
+      "id": 57,
+      "topic": "Length and Mass",
+      "question": "4 bags of flour and 3 bags of sugar have a mass of 39 kg. Each bag of sugar has a mass of 5 kg. What is the mass of each bag of flour?",
+      "answer": "6 kg",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 6 kg.",
+      "sourcePage": 23
+    },
+    {
+      "id": 58,
+      "topic": "Length and Mass",
+      "question": "There was 39 kg of flour in a sack. Mrs Taylor used 13 kg and packed the rest into bags of 2 kg each. How many bags did she have?",
+      "answer": "13",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 13.",
+      "sourcePage": 24
+    },
+    {
+      "id": 59,
+      "topic": "Length and Mass",
+      "question": "A jackfruit is 250 g heavier than a durian. If the jackfruit is 590 g, what is the mass of 2 similar durians?",
+      "answer": "680 g",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 680 g.",
+      "sourcePage": 24
+    },
+    {
+      "id": 60,
+      "topic": "Fractions",
+      "question": "Mrs Blake gave 2/7 of a watermelon to a neighbour and her children ate 3/7. What fraction of the watermelon was left?",
+      "answer": "2/7",
+      "model": "fraction-of-remainder",
+      "hint": "Write the known quantities, choose the operation signs, then check against 2/7.",
+      "sourcePage": 24
+    },
+    {
+      "id": 61,
+      "topic": "Fractions",
+      "question": "A shepherd’s pie was cut into equal pieces. Anna ate 2, Aaron ate 4 and Adele ate 3. There were 2 pieces left. What fraction was eaten?",
+      "answer": "9/11",
+      "model": "fraction-of-remainder",
+      "hint": "Write the known quantities, choose the operation signs, then check against 9/11.",
+      "sourcePage": 25
+    },
+    {
+      "id": 62,
+      "topic": "Fractions",
+      "question": "Andy has some erasers. 4/7 are blue and 1/7 are green. The rest are white. What fraction are white?",
+      "answer": "2/7",
+      "model": "fraction-of-remainder",
+      "hint": "Write the known quantities, choose the operation signs, then check against 2/7.",
+      "sourcePage": 25
+    },
+    {
+      "id": 63,
+      "topic": "Volume",
+      "question": "Container A has 4 litres more detergent than B. B has 2 litres more than C. If A has 15 litres, how many litres are in the 3 containers?",
+      "answer": "35 litres",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 35 litres.",
+      "sourcePage": 25
+    },
+    {
+      "id": 64,
+      "topic": "Volume",
+      "question": "Betty collected 8 pails of rainwater with 7 litres in each. She used 12 litres. How many litres were left?",
+      "answer": "44 litres",
+      "model": "mass-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 44 litres.",
+      "sourcePage": 26
+    },
+    {
+      "id": 65,
+      "topic": "Money",
+      "question": "Pencils are sold at 3 for $2. How many pencils can Tom buy with $12?",
+      "answer": "18",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against 18.",
+      "sourcePage": 26
+    },
+    {
+      "id": 66,
+      "topic": "Money",
+      "question": "A cap cost $9 and sunglasses cost $22. During a sale, both prices were reduced by $3. What was the total sale price?",
+      "answer": "$25",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $25.",
+      "sourcePage": 26
+    },
+    {
+      "id": 67,
+      "topic": "Money",
+      "question": "A pen and a pencil cost $9. 2 similar pens cost $8. How much does the pencil cost?",
+      "answer": "$5",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $5.",
+      "sourcePage": 27
+    },
+    {
+      "id": 68,
+      "topic": "Money",
+      "question": "A book costs $5, a pencil costs $2 and a pencil box costs $8. Jill needs $3 more to buy all the items. How much money does she have now?",
+      "answer": "$12",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+      "sourcePage": 27
+    },
+    {
+      "id": 69,
+      "topic": "Money",
+      "question": "Mary bought 5 mangoes for $10. How much would 9 mangoes cost?",
+      "answer": "$18",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $18.",
+      "sourcePage": 27
+    },
+    {
+      "id": 70,
+      "topic": "Money",
+      "question": "A book cost $8. Betty bought 5 books and paid with $50. Her change was in $2 notes only. How many $2 notes did she receive?",
+      "answer": "5",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against 5.",
+      "sourcePage": 28
+    },
+    {
+      "id": 71,
+      "topic": "Money",
+      "question": "Ann bought a $19 pen and paid $50. She received 5 $5 notes and some $2 notes in change. How many $2 notes did she receive?",
+      "answer": "3",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against 3.",
+      "sourcePage": 28
+    },
+    {
+      "id": 72,
+      "topic": "Money",
+      "question": "A T-shirt cost $12 and shorts cost $16. Lily paid $50 and received a $10 note and some $2 notes in change. How many $2 notes did she receive?",
+      "answer": "6",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against 6.",
+      "sourcePage": 28
+    },
+    {
+      "id": 73,
+      "topic": "Money",
+      "question": "A papaya cost as much as 2 mangoes. Mrs Bell spent $12 on 3 papayas. What was the cost of a mango?",
+      "answer": "$2",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $2.",
+      "sourcePage": 29
+    },
+    {
+      "id": 74,
+      "topic": "Money",
+      "question": "Mrs Wood spent $450 at a jewellery store and $120 at a department store. She had $88 left. How much did she have at first?",
+      "answer": "$658",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $658.",
+      "sourcePage": 29
+    },
+    {
+      "id": 75,
+      "topic": "Money",
+      "question": "Mary bought a $16 toy and received 2 $2 notes and 2 $5 notes in change. How much did she have at first?",
+      "answer": "$30",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $30.",
+      "sourcePage": 29
+    },
+    {
+      "id": 76,
+      "topic": "Money",
+      "question": "A pen cost $5, which was $2 more than a pencil. Mary had $30 and bought 2 pens and 4 pencils. How much had she left?",
+      "answer": "$8",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $8.",
+      "sourcePage": 30
+    },
+    {
+      "id": 77,
+      "topic": "Money",
+      "question": "Tim had 6 $2 notes, 3 $5 notes and 1 $1 coin. He spent $18 on a book and $6 on a magazine. How much had he left?",
+      "answer": "$4",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+      "sourcePage": 30
+    },
+    {
+      "id": 78,
+      "topic": "Money",
+      "question": "After spending $17 on sunglasses and $12 on a wallet, Mr Taylor had $58 left. How much did he have at first?",
+      "answer": "$87",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $87.",
+      "sourcePage": 30
+    },
+    {
+      "id": 79,
+      "topic": "Money",
+      "question": "3 T-shirts cost as much as 2 pairs of shorts. If a T-shirt costs $8, what is the cost of a pair of shorts?",
+      "answer": "$12",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+      "sourcePage": 31
+    },
+    {
+      "id": 80,
+      "topic": "Money",
+      "question": "4 watermelons and 3 guavas cost $22. If a guava costs $2, what is the cost of a watermelon?",
+      "answer": "$4",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+      "sourcePage": 31
+    },
+    {
+      "id": 81,
+      "topic": "Money",
+      "question": "Lucy spent $28 on a T-shirt and shorts. The T-shirt cost $6 more than the shorts. How much did the T-shirt cost?",
+      "answer": "$17",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $17.",
+      "sourcePage": 31
+    },
+    {
+      "id": 82,
+      "topic": "Money",
+      "question": "Alice used all her money to buy 4 boxes of coloured pencils. A box cost $3 less than a box of crayons. If a box of crayons cost $9, how much money did Alice have at first?",
+      "answer": "$24",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $24.",
+      "sourcePage": 32
+    },
+    {
+      "id": 83,
+      "topic": "Money",
+      "question": "A bag of 3 pears costs $2 and a bag of 5 apples costs $3. How much would 9 pears and 15 apples cost?",
+      "answer": "$15",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $15.",
+      "sourcePage": 32
+    },
+    {
+      "id": 84,
+      "topic": "Money",
+      "question": "2 pairs of socks cost $4. A scarf cost $13 more than 1 pair of socks. If Sally had $10 left after buying 2 pairs of socks and a scarf, how much did she have at first?",
+      "answer": "$29",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $29.",
+      "sourcePage": 32
+    },
+    {
+      "id": 85,
+      "topic": "Money",
+      "question": "8 books cost $32. What is the cost of 6 such books?",
+      "answer": "$24",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $24.",
+      "sourcePage": 33
+    },
+    {
+      "id": 86,
+      "topic": "Money",
+      "question": "Tom earns $8 for every hour worked. If he works from 1 pm to 10 pm, how much does he earn?",
+      "answer": "$72",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $72.",
+      "sourcePage": 33
+    },
+    {
+      "id": 87,
+      "topic": "Money",
+      "question": "An exercise book cost $3. Joanne bought 6 and had $19 left. How much did she have at first?",
+      "answer": "$37",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $37.",
+      "sourcePage": 33
+    },
+    {
+      "id": 88,
+      "topic": "Money",
+      "question": "A small dumpling cost $2 and a big dumpling cost $3 more. Mrs Cox bought 5 small and 6 big dumplings. How much did she pay?",
+      "answer": "$40",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $40.",
+      "sourcePage": 34
+    },
+    {
+      "id": 89,
+      "topic": "Money",
+      "question": "Peter queued for food. There were 3 children in front of him and 2 behind him. Everyone in the queue had $5. How much money did the children have altogether?",
+      "answer": "$30",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $30.",
+      "sourcePage": 34
+    },
+    {
+      "id": 90,
+      "topic": "Money",
+      "question": "1 kg of durians cost $4. Ann bought 8 kg and had $80 at first. How much had she left?",
+      "answer": "$48",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $48.",
+      "sourcePage": 34
+    },
+    {
+      "id": 91,
+      "topic": "Money",
+      "question": "Mrs Brown bought a watch for $86 and a pen for $10. She gave the cashier $100. How much change did she receive?",
+      "answer": "$4",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $4.",
+      "sourcePage": 35
+    },
+    {
+      "id": 92,
+      "topic": "Money",
+      "question": "James had $51. He spent $18 on a toy and the rest on 3 similar T-shirts. How much did each T-shirt cost?",
+      "answer": "$11",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $11.",
+      "sourcePage": 35
+    },
+    {
+      "id": 93,
+      "topic": "Money",
+      "question": "Mr Cook bought 2 similar clocks and a watch. Each clock cost $97. He paid $250 and received $12 change. What was the cost of the watch?",
+      "answer": "$44",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $44.",
+      "sourcePage": 35
+    },
+    {
+      "id": 94,
+      "topic": "Money",
+      "question": "A bag of apples costs $5 and a bag of pears costs $4. Alice had enough for 3 apple bags and 7 pear bags. How much did she have?",
+      "answer": "$43",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $43.",
+      "sourcePage": 36
+    },
+    {
+      "id": 95,
+      "topic": "Money",
+      "question": "Tom and Mary shared the cost of a $21 gift. Tom paid $3 more than Mary. How much did Tom pay?",
+      "answer": "$12",
+      "model": "money-units",
+      "hint": "Write the known quantities, choose the operation signs, then check against $12.",
+      "sourcePage": 36
+    },
+    {
+      "id": 96,
+      "topic": "Time",
+      "question": "Susan is 28 years old. Her brother is 3 years older. How old will he be in 5 years?",
+      "answer": "36",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 36.",
+      "sourcePage": 36
+    },
+    {
+      "id": 97,
+      "topic": "Time",
+      "question": "Mary is 23 years old. Her brother is 2 times as old. How old was her brother 2 years ago?",
+      "answer": "44",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 44.",
+      "sourcePage": 37
+    },
+    {
+      "id": 98,
+      "topic": "Time",
+      "question": "A book has 125 pages. Jack reads 15 pages on day 1 and 20 on day 2, increasing by 5 pages each following day until finished. How many days does he take?",
+      "answer": "5",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against 5.",
+      "sourcePage": 37
+    },
+    {
+      "id": 99,
+      "topic": "2-part Problems",
+      "question": "Ann gave Jack 18 stamps and he used 6. Each then had 32 stamps left. How many stamps did Ann and Jack have at first?",
+      "answer": "Ann: 50; Jack: 20",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against Ann: 50; Jack: 20.",
+      "sourcePage": 37
+    },
+    {
+      "id": 100,
+      "topic": "2-part Problems",
+      "question": "Mrs Jackson packed egg tarts into boxes of 5. She sold 8 boxes and had 6 boxes left. How many egg tarts were left, and how many did she bake?",
+      "answer": "30; 70",
+      "model": "bar-change",
+      "hint": "Write the known quantities, choose the operation signs, then check against 30; 70.",
+      "sourcePage": 38
+    },
+    {
+      "id": 101,
+      "topic": "2-part Problems",
+      "question": "James bought 3 packs of French fries and 2 burgers for $14. A burger cost 2 times 1 pack of fries. What is the price of 1 fries pack, and of 4 packs plus 5 burgers?",
+      "answer": "$2; $28",
+      "model": "unit-bar",
+      "hint": "Write the known quantities, choose the operation signs, then check against $2; $28.",
+      "sourcePage": 38
+    }
+  ]
+}

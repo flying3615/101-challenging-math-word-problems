@@ -1,0 +1,290 @@
+[
+  {
+    "id": 35,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Box A contained 250 cards and box B contained 1/2 as many cards as box A. Box C contained 3 times as many cards as box B. Find the total number of cards in the 3 boxes.",
+    "answer": "750 cards",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 36,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Max had 120 red balloons and 210 green balloons. Jeslin had 2 times as many balloons as Max, and Dawn had 3 times as many balloons as Max. How many balloons did they have altogether?",
+    "answer": "1980 balloons",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 37,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "There were 130 marbles in a box. 80 of them were red and the rest were green and yellow. If there were 2 times as many red marbles as green marbles, how many yellow marbles were there?",
+    "answer": "10 yellow marbles",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 38,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "There are 5 times as many strawberries in box A than in box B. There are 60 more strawberries in box A than in box B. What is the total number of strawberries in both boxes?",
+    "answer": "90 strawberries",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 39,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "There were 890 pages in a book. Don read 3 times as many pages of the book on Saturday than on Sunday. He then had 6 pages left to read. How many pages did he read on Saturday?",
+    "answer": "663 pages",
+    "model": "bar-change",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 40,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "There are some red balloons and blue balloons in a pack. 1/2 of the blue balloons is 2 times the number of red balloons. There are 60 balloons in the pack. How many blue balloons are there?",
+    "answer": "48 blue balloons",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 41,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Mrs Morris arranged 25 rows of 7 chairs for a school concert. 157 chairs were occupied during the concert. How many chairs were not occupied?",
+    "answer": "18 chairs",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 42,
+    "topic": "The Four Operations of Whole Numbers",
+    "question": "Helen packed 23 boxes of 6 apple pies. She then had 3 apple pies left. How many more boxes of apple pies would she have if she had packed them into boxes of 3 instead?",
+    "answer": "24 more boxes",
+    "model": "unit-bar",
+    "hint": "Write the known quantities in a bar model. Find the equal unit before calculating the requested amount."
+  },
+  {
+    "id": 43,
+    "topic": "Money",
+    "question": "A clock cost $24 and a watch cost $15 more than the clock. Jeffrey bought 2 clocks and 3 watches. How much money did he spend?",
+    "answer": "$165",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 44,
+    "topic": "Money",
+    "question": "A buffet lunch cost $23.20 for an adult and $7.50 less for a child. Find the total amount of money that 4 adults and 5 children had to pay for the buffet lunch.",
+    "answer": "$171.30",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 45,
+    "topic": "Money",
+    "question": "Joshua had $150 more than Jason and $70 less than George. The 3 boys had a total of $790. How much did George have?",
+    "answer": "$360",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 46,
+    "topic": "Money",
+    "question": "Mr Robin spent $570.80 on a camera and $155.90 less on a radio. He then had 1/2 as much money left as he had at 1st. How much did he have at 1st?",
+    "answer": "$1971.40",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 47,
+    "topic": "Money",
+    "question": "4 apples and 4 oranges cost $3. 1 orange costs 35 cents. How much more does 1 apple cost than 1 orange?",
+    "answer": "5 cents",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 48,
+    "topic": "Money",
+    "question": "Mrs William earned $3500 a month. She spent $1420 on her children and $1200 on transport and food. She then saved 1/2 of her remaining money. How much would she save in 3 months?",
+    "answer": "$1320",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 49,
+    "topic": "Money",
+    "question": "Adrian had 7 50-cent coins and some 20-cent coins. He spent $3.70 on a pair of socks and had $1.80 left. How many 20-cent coins did he have at 1st?",
+    "answer": "10 20-cent coins",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 50,
+    "topic": "Money",
+    "question": "A shirt cost $45.20 and a pair of pants cost $55.90. Sean wanted to buy 2 such shirts and a pair of pants. He was $12.45 short of the total amount. How much money did Sean have?",
+    "answer": "$133.85",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 51,
+    "topic": "Money",
+    "question": "9 packs of chocolates cost $72 and 3 packs of sweets cost $12. Agnes wanted to buy 4 packs of chocolates and 2 packs of sweets. Find the total amount of money that she had to pay for the items.",
+    "answer": "$40",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 52,
+    "topic": "Money",
+    "question": "7 people paid $80 each for a dinner. The amount collected was $70 short of the total bill. What was the amount of money that each of them should pay?",
+    "answer": "$90",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 53,
+    "topic": "Money",
+    "question": "An adult concert ticket cost $25. A child concert ticket cost $7 less. Mr and Mrs Lynch took some children to the concert. They paid a total of $176. How many children did they take to the concert?",
+    "answer": "7 children",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 54,
+    "topic": "Money",
+    "question": "Joanne had $18.95. She bought a book that cost $4.20, a toy that cost $2.90 and a pair of socks. She had $9.05 left. How much did she pay for the pair of socks?",
+    "answer": "$2.80",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 55,
+    "topic": "Money",
+    "question": "Janet spent 1/2 of her salary on food and transport. She then gave $450 to her brother and saved the remaining amount of $380. What was Janet’s salary?",
+    "answer": "$1660",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 56,
+    "topic": "Money",
+    "question": "2 oranges cost 90 cents and a guava cost 80 cents more than 1 orange. Jess bought 5 oranges and a guava. She had $15.75 left. How much did she have at first?",
+    "answer": "$19.25",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 57,
+    "topic": "Money",
+    "question": "Mr Anderson bought 2 similar watches and had $150 left. He spent 3 times the amount of money he had left on the 2 watches. How much did each watch cost?",
+    "answer": "$225",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 58,
+    "topic": "Money",
+    "question": "3 similar books cost $186. Betty bought 2 books and had $25 left. How much did she have at 1st?",
+    "answer": "$149",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 59,
+    "topic": "Money",
+    "question": "e George earns $4350 every month. He spends $350 on transport and $120 more on food than transport. He then gives $600 to his wife and saves the rest. How much does he save?",
+    "answer": "$2930",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 60,
+    "topic": "Money",
+    "question": "7 similar books cost $105. Benny bought 9 such books and had $14 left. How much did he have at 1st?",
+    "answer": "$149",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 61,
+    "topic": "Money",
+    "question": "se liT-23¢7-) 7) Mr Fox packed 100 oranges equally into boxes of 5 and sold each box for $3. Mr Owen packed 100 oranges equally into boxes of 4 and sold each box for $2. How much more did Mr Fox earn than Mr Owen?",
+    "answer": "$10 more",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 62,
+    "topic": "Money",
+    "question": "Mrs Scotts saved $564 every month. After 1/2 a year, she spent some of her savings. If she had $1205 left, how much did she spend?",
+    "answer": "$2179",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 63,
+    "topic": "Money",
+    "question": "A kettle cost $78. A blender cost $22 more than the kettle and a toaster cost 1/2 as much as the blender. What was the total cost of the 3 electrical items?",
+    "answer": "$228",
+    "model": "money-units",
+    "hint": "Keep all money values in dollars or cents. Match each price to its group before calculating."
+  },
+  {
+    "id": 64,
+    "topic": "Fractions",
+    "question": "Alex and Bryan shared a cake at a party. Alex ate 1/3 of the cake while Bryan ate 1/9 of the cake. What fraction of the cake did they eat altogether?",
+    "answer": "4/9",
+    "model": "fraction-of-remainder",
+    "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+  },
+  {
+    "id": 65,
+    "topic": "Fractions",
+    "question": "Kate bought 1/2 kg of flour to bake a cake. After baking the cake, she had 1/8 kg of flour left. How much flour did Kate use?",
+    "answer": "3/8 kg",
+    "model": "fraction-of-remainder",
+    "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+  },
+  {
+    "id": 66,
+    "topic": "Fractions",
+    "question": "Wendy ate 1/5 of a pizza and Amanda ate 1/2 of the same pizza. What fraction of the pizza was left?",
+    "answer": "3/10",
+    "model": "fraction-of-remainder",
+    "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+  },
+  {
+    "id": 67,
+    "topic": "Fractions",
+    "question": "George ate 1/4 of a cake and gave 1/2 of the remainder to Amy. What fraction of the cake was left?",
+    "answer": "3/8",
+    "model": "fraction-of-remainder",
+    "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+  },
+  {
+    "id": 68,
+    "topic": "Fractions",
+    "question": "Bernice bought some sweets. She gave 1/4 of them to her cousins and 1/8 of them to her siblings. If she had 70 sweets left, how many sweets did she buy?",
+    "answer": "112 sweets",
+    "model": "fraction-of-remainder",
+    "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+  },
+  {
+    "id": 69,
+    "topic": "Fractions",
+    "question": "Alvin, Brenda and Carl shared a cake. Alvin ate 1/3 of the cake and Brenda ate 1/2 of the cake. Carl ate the rest of the cake. What fraction of the cake did Carl eat?",
+    "answer": "1/6",
+    "model": "fraction-of-remainder",
+    "hint": "Draw 1 whole split into equal parts. Use a common denominator before adding or subtracting."
+  },
+  {
+    "id": 70,
+    "topic": "Length",
+    "question": "e David ran 1 km 250 m from his house to his school. After that, he cycled 2 km 960 m to the library. What was the total distance he had travelled? (Express your answer in metres.)",
+    "answer": "4210 m",
+    "model": "mass-bar",
+    "hint": "Convert each length to the same unit before calculating."
+  }
+]

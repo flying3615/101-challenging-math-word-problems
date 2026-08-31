@@ -1,0 +1,281 @@
+[
+  {
+    "id": 71,
+    "topic": "Distance, Speed and Time",
+    "question": "Mark drove 75 km/h from 10:00; Jane left 1 h later at 120 km/h, passed Mark after 2/5 journey, and arrived 4:00. Find requested distance and Mark’s new speed.",
+    "answer": "(a) 360 km; (b) 144 km/h",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 28
+  },
+  {
+    "id": 72,
+    "topic": "Distance, Speed and Time",
+    "question": "A 15 cm × 20 cm × 30 cm container was 1/5 full. Taps at 120 and 180 ml/min fill it. How much faster is filling if each tap flows 200 ml/min?",
+    "answer": "6 minutes",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 28
+  },
+  {
+    "id": 73,
+    "topic": "Distance, Speed and Time",
+    "question": "A car left P at 9:00 at 90 km/h, reached Q 1:00. A lorry left Q at 10:00 and met it after 1/4 distance. Find car distance at meeting and lorry travel time.",
+    "answer": "(a) 270 km; (b) 8 h",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 29
+  },
+  {
+    "id": 74,
+    "topic": "Distance, Speed and Time",
+    "question": "Jack drove 80 km/h for 3/5 of a journey, then the remaining 24 km in 12 min. Find total time and second-part speed.",
+    "answer": "(a) 34.5 minutes; (b) 120 km/h",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 29
+  },
+  {
+    "id": 75,
+    "topic": "Distance, Speed and Time",
+    "question": "Tom left A 5:45; Jane left 2 h later at 100 km/h, passed him after 3/5 journey and arrived B 4 h later. Find 3 requested values.",
+    "answer": "(a) 400 km; (b) 75 km/h; (c) 7:05 pm",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 29
+  },
+  {
+    "id": 76,
+    "topic": "Distance, Speed and Time",
+    "question": "Motorist A left P 9:30 at 80 km/h and arrived Q 3:30. B left 2 h later at 100 km/h. Find B arrival and speed needed to arrive 3:30.",
+    "answer": "(a) 4:18 pm; (b) 120 km/h",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 30
+  },
+  {
+    "id": 77,
+    "topic": "Distance, Speed and Time",
+    "question": "Train A ran X→Z at 160 km/h. Train B took 6 h; both passed Y 2:00 and B reached Z 4:00; Y–Z was 400 km. Find A departure and arrival.",
+    "answer": "(a) 9:00 am; (b) 4:30 pm",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 30
+  },
+  {
+    "id": 78,
+    "topic": "Ratio",
+    "question": "A warehouse held 4000 towels; blue:red was 2:1, remaining white. After 1/4 blue and 1/3 white were sold, 2400 remained. Find initial red-plus-white count.",
+    "answer": "3200 red and white towels",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 30
+  },
+  {
+    "id": 79,
+    "topic": "Ratio",
+    "question": "Jar A:B beads were 2:3 and B:C were 2:1. Equal transfers B→A/C make A=B and C=297. Find total beads.",
+    "answer": "1053 beads",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 31
+  },
+  {
+    "id": 80,
+    "topic": "Ratio",
+    "question": "1/3 of party people were men. After 1/2 men and 8 women left, women exceeded men by 96 before the women left. Find final men:women ratio.",
+    "answer": "4:15",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 31
+  },
+  {
+    "id": 81,
+    "topic": "Ratio",
+    "question": "Cindy:Mark marbles were 3:2 of total 80. After Cindy gave away some, she had 1/4 as many as Mark. How many did Cindy give away?",
+    "answer": "40 marbles",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 31
+  },
+  {
+    "id": 82,
+    "topic": "Ratio",
+    "question": "Country-club men:women was 2:3. 1/4 men and 1/3 women left; remaining people exceeded leavers by 24. Find initial attendance.",
+    "answer": "120 people",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 32
+  },
+  {
+    "id": 83,
+    "topic": "Ratio",
+    "question": "Mandy:Jack sweets were 5:7; after Mandy gave Jack sweets, ratio became 3:21. Jack initially had 168. How many must Jack return to equalise?",
+    "answer": "108 sweets",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 32
+  },
+  {
+    "id": 84,
+    "topic": "Ratio",
+    "question": "A:B sweets were 7:4 and B:C 3:2. After 36 were removed from A, C was 1/4 of A. Find total sweets left.",
+    "answer": "128 sweets",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 32
+  },
+  {
+    "id": 85,
+    "topic": "Ratio",
+    "question": "1580 people were on a ship; 60% adults. Adults alighted until adults were 20% of remaining. Find adults alighting and final children:adults ratio.",
+    "answer": "(a) 790 adults; (b) 4:1",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 33
+  },
+  {
+    "id": 86,
+    "topic": "Ratio",
+    "question": "Chocolate cakes cost $4; strawberry cost $3 more than 2 chocolate cakes. Cake counts were 5:3 and Gibbs sold 8 more. Find total sales.",
+    "answer": "$212",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 33
+  },
+  {
+    "id": 87,
+    "topic": "Ratio",
+    "question": "Susan sold 1/2 charity tickets; Mark:Jane sold rest 5:3 and Mark exceeded Jane by 18. Tickets cost $1.20. Find total collection.",
+    "answer": "$172.80",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 33
+  },
+  {
+    "id": 88,
+    "topic": "Ratio",
+    "question": "Alvin:Zachary:Philip money was 2:5:3. Zachary spent 20%; his remainder was $196 below Alvin-plus-Philip. How much more did Alvin-plus-Zachary have than Philip?",
+    "answer": "$784",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 34
+  },
+  {
+    "id": 89,
+    "topic": "Percentage",
+    "question": "40% of adults left a party; 10% of leavers were men. Men leaving:remaining was 2:5; 105 men were initially present. Find initial women.",
+    "answer": "645 women",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 34
+  },
+  {
+    "id": 90,
+    "topic": "Percentage",
+    "question": "Kate took 30% biscuits; Melissa 25%; Jack took final 80; Ann took 20 more than Melissa. What percentage did Ann take?",
+    "answer": "29%",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 34
+  },
+  {
+    "id": 91,
+    "topic": "Percentage",
+    "question": "Uncle Sam receives 20% of each $8 cup price plus 5% price for every 10 cups. He collected $86.80. How many cups did he sell?",
+    "answer": "53 cups",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 35
+  },
+  {
+    "id": 92,
+    "topic": "Percentage",
+    "question": "20% of a class are boys. 20% boys and 10% girls keep pets; 144 girls do not. How many children keep pets?",
+    "answer": "24 children",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 35
+  },
+  {
+    "id": 93,
+    "topic": "Percentage",
+    "question": "2/5 marbles were red. Of the remainder, 10% were blue and 10% green. Yellow exceeded red by 32. Find blue-plus-green count.",
+    "answer": "48 blue and green marbles",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 35
+  },
+  {
+    "id": 94,
+    "topic": "Percentage",
+    "question": "Jane had 40% more marbles than Jeffrey. Jane lost 12 and gave Jeffrey 16, then they matched. Find original counts.",
+    "answer": "Jane: 154; Jeffrey: 110",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 36
+  },
+  {
+    "id": 95,
+    "topic": "Percentage",
+    "question": "Mrs Wood saved 10% salary in month 1 and 50% more in month 2; month-2 saving exceeded month-1 by $496.50. Find 6-month salary.",
+    "answer": "$59580",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 36
+  },
+  {
+    "id": 96,
+    "topic": "Percentage",
+    "question": "A square had area 625 cm². Each side increased 40%. Find percentage area increase.",
+    "answer": "96%",
+    "model": "geometry",
+    "hint": "Label the given measures. Draw a model, then calculate the requested value.",
+    "sourcePage": 36
+  },
+  {
+    "id": 97,
+    "topic": "Percentage",
+    "question": "80% of books were second-hand. 10% new and 60% second-hand were English. Adding 15 English gave English:Chinese 3:2. Find initial English and final total.",
+    "answer": "(a) 30 English books; (b) 75 books",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 37
+  },
+  {
+    "id": 98,
+    "topic": "Percentage",
+    "question": "In January Joyce kept 80% salary, gave 1/4 of it to mother, saved rest; food/clothing was unchanged in February. Mother’s February amount rose $150 and equalled savings. Find requested values.",
+    "answer": "(a) 8%; (b) $125",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 37
+  },
+  {
+    "id": 99,
+    "topic": "Percentage",
+    "question": "A theatre had 4500 seats: 10% first-class, 30% second-class, rest third-class. Add 200 first and 250 second. Find final first, second, and third percentage.",
+    "answer": "(a) 650; (b) 1600; (c) 54 6/11%",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 37
+  },
+  {
+    "id": 100,
+    "topic": "Percentage",
+    "question": "Jeremy and Alicia had $360; Jeremy had $24 more. Alicia spent 3 times Jeremy’s spending and retained 1/2 Jeremy’s remainder. Find Jeremy initial and remainder.",
+    "answer": "(a) $192; (b) $163.20",
+    "model": "money-units",
+    "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
+    "sourcePage": 38
+  },
+  {
+    "id": 101,
+    "topic": "Percentage",
+    "question": "Crate A had 207 pears, 176 mangoes; B had 293 pears, 274 mangoes. Moving fruit B→A made pears 40% A and 70% B. Find fruit moved.",
+    "answer": "167 fruit",
+    "model": "fraction-of-remainder",
+    "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
+    "sourcePage": 38
+  }
+]

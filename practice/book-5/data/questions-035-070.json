@@ -1,0 +1,290 @@
+[
+  {
+    "id": 35,
+    "topic": "Money ratios and averages",
+    "question": "The costs of a book, toy and hat are in the ratio 5 : 2 : 9. Their average cost is $32. When a belt is added, the average cost of the 4 items is $30. What is the difference between the cost of the book and the belt?",
+    "answer": "$6",
+    "model": "money-units",
+    "hint": "Use the 1st average to find the total cost of the 3 items. Split that total into 16 ratio units, then use the 2nd average to find the belt's cost."
+  },
+  {
+    "id": 36,
+    "topic": "Area of shaded regions",
+    "question": "ACEH is a rectangle. Its length is 5 times its breadth, and its length is 30 cm. BC is 12 cm. D is the midpoint of CE and G is the midpoint of HF. In the diagram, segments BD and BG form 2 unshaded triangles, BCD and BFG. Find the total area of the shaded portions.",
+    "answer": "135 cm2",
+    "model": "geometry",
+    "hint": "Find the rectangle's breadth from its length-to-breadth relationship. Find the area of the whole rectangle, then subtract the areas of triangles BCD and BFG."
+  },
+  {
+    "id": 37,
+    "topic": "Fractions of a quantity",
+    "question": "Mrs Baker bought some flour. She used 1/4 of it to bake 6 cherry pies and packed the rest equally into 9 bags. There was 250 g more flour in 2 similar bags than in 1 cherry pie. If all the flour were packed into 25 bags instead, how much flour would there be in each bag?",
+    "answer": "80 g",
+    "model": "fraction-of-remainder",
+    "hint": "Express the flour for 1 pie and for 2 bags as fractions of the original amount. Their difference represents 250 g."
+  },
+  {
+    "id": 38,
+    "topic": "Mass and ratios",
+    "question": "The average mass of 3 full bags, A, B and C, is 38 kg. When all the items from bag A are taken out, the average mass of the 3 bags is 30 kg. The masses of the items in bags B and C are in the ratio 7 : 3. If the items in bag B are 20 kg heavier than the items in bag C, what is the total mass of the 3 empty bags?",
+    "answer": "40 kg",
+    "model": "mass-bar",
+    "hint": "Compare the 2 averages to find the mass of the items from bag A. Use the 7 : 3 ratio and the 20 kg difference to find the masses in bags B and C."
+  },
+  {
+    "id": 39,
+    "topic": "Volume of a rectangular container",
+    "question": "A tank contains 2520 cm3 of sand. 1/5 of the sand is poured into a rectangular container that already contains 7112 cm3 of sand. The container has a base of 16 cm by 28 cm. What is the final height of sand in the container?",
+    "answer": "17 cm",
+    "model": "unit-bar",
+    "hint": "Find the volume poured in, add it to the sand already in the container, then divide by the base area."
+  },
+  {
+    "id": 40,
+    "topic": "Areas in a composite figure",
+    "question": "In rectangle ABEG, the ratio of the shaded area to the unshaded area is 5 : 3, and the rectangle's area is 152 cm2. The area of triangle BCE is to the area of triangle AGF as 3 : 2. Triangle CDE has area 1/4 of the area of rectangle ABEG. Find the difference between the total shaded area and the total unshaded area of the figure.",
+    "answer": "85.5 cm2",
+    "model": "geometry",
+    "hint": "Use the 5 : 3 split to find the shaded and unshaded areas inside the rectangle. Then use the triangle-area ratio and add the appropriate outside triangles."
+  },
+  {
+    "id": 41,
+    "topic": "Cost of books and rulers",
+    "question": "Aaron bought 2 similar books and 3 similar rulers for $40.30. Sharon bought 3 such books and 5 such rulers for $61. What was the combined cost of 1 book and 1 ruler?",
+    "answer": "$19.60",
+    "model": "money-units",
+    "hint": "Subtract Aaron's purchase from Sharon's to get the cost of 1 book and 2 rulers. Compare that result with Aaron's total."
+  },
+  {
+    "id": 42,
+    "topic": "Capacity and fractions",
+    "question": "A tank measuring 12 cm by 16 cm by 24 cm is 2/3 filled with water. 1/2 of that water fills 2/5 of a basin. What is the capacity of the basin?",
+    "answer": "3840 cm3",
+    "model": "unit-bar",
+    "hint": "Find the tank's water volume first. The transferred water is 2/5 of the basin, so scale it from 2 units to 5 units."
+  },
+  {
+    "id": 43,
+    "topic": "Area of a shaded rectangle",
+    "question": "A rectangle has length-to-breadth ratio 7 : 3 and perimeter 280 cm. A diagonal is drawn from the top-left corner to the midpoint of the bottom side, leaving 1 unshaded triangle. What is the area of the shaded portion?",
+    "answer": "3087 cm2",
+    "model": "geometry",
+    "hint": "Use the perimeter to find the value of 1 ratio unit and hence both rectangle dimensions. Then subtract the midpoint triangle from the rectangle."
+  },
+  {
+    "id": 44,
+    "topic": "Area of shaded regions",
+    "question": "In the figure, GF is 2/5 of BG, JG is 2/5 of AF, GF is 3/5 of HF, EC is 1/2 of FC, and FC = AF. AFC is a straight line. AF = 18 cm, BG = 12 cm, and ED = 10 cm. Find the total area of the shaded portions.",
+    "answer": "225 cm2",
+    "model": "geometry",
+    "hint": "Use the fractional relationships to find GF, JG, HF and EC. Work out the areas of the component triangles before combining shaded and unshaded parts."
+  },
+  {
+    "id": 45,
+    "topic": "Volume and capacity",
+    "question": "A tank measures 25 cm by 18 cm by 30 cm. It is filled to 3/5 of its capacity. Some water is then poured into 2 similar containers, filling them to the brim. Then 950 cm3 of water is added to the tank until it is 1/2 full. What is the capacity of each container?",
+    "answer": "1150 cm3",
+    "model": "unit-bar",
+    "hint": "Find the tank's capacity and compare the amount at 3/5 full with the amount that must have been in it before the final 950 cm3 was added."
+  },
+  {
+    "id": 46,
+    "topic": "Money transfer",
+    "question": "Josephine had $80 more than Alex. If Alex gave Josephine $16, Josephine would have 3 times as much money as Alex. How much did each have at first?",
+    "answer": "Josephine: $152; Alex: $72",
+    "model": "bar-change",
+    "hint": "After the $16 transfer, preserve the original $80 difference while accounting for the $16 lost by Alex and the $16 gained by Josephine."
+  },
+  {
+    "id": 47,
+    "topic": "Cost comparison",
+    "question": "A bag costs $24.50 more than a wallet. The total cost of 2 bags and 1 wallet is $85. What is the total cost of 3 wallets and 3 bags?",
+    "answer": "$145.50",
+    "model": "money-units",
+    "hint": "Remove the 2 bag-to-wallet price differences from the $85 total. The remainder represents 3 wallets."
+  },
+  {
+    "id": 48,
+    "topic": "Savings and salary",
+    "question": "Clarence withdrew 25% of his savings on Monday. He spent $720 on a television set, $163 on a radio and the remaining $37 on a clock. The following day, he deposited 2/5 of his salary into the bank. His bank balance then became $4680. Find Clarence's salary.",
+    "answer": "$4800",
+    "model": "fraction-of-remainder",
+    "hint": "Add the 3 purchases to find 25% of the original savings. Find the balance after withdrawal, then the amount deposited from the salary."
+  },
+  {
+    "id": 49,
+    "topic": "Age relationships",
+    "question": "James is 8 years old. Last year, his father was 4 times James's age. In how many years' time will their combined age be 51?",
+    "answer": "7 years' time",
+    "model": "bar-change",
+    "hint": "Find the father's age last year, then their current combined age. Their combined age increases by 2 each year."
+  },
+  {
+    "id": 50,
+    "topic": "Discounts and instalments",
+    "question": "Anna made full payment for a refrigerator at a 20% discount during a sale. Joan paid a down payment of $399 and 12 monthly instalments of $250. Joan's total was 10% more than Anna's sale price. What was the refrigerator's price before the sale?",
+    "answer": "$3862.50",
+    "model": "money-units",
+    "hint": "Find Joan's total payment. Work backward through the 10% increase to get Anna's sale price, then reverse the 20% discount."
+  },
+  {
+    "id": 51,
+    "topic": "Fractional spending",
+    "question": "Jessica spent 2/3 of her money on a book and a toy. Don spent 1/5 of his money on the same items. The book cost $18 and the toy cost $6 less. How much more money did Don have than Jessica at first?",
+    "answer": "$105",
+    "model": "fraction-of-remainder",
+    "hint": "First find the cost of the book and toy together. Treat that same cost as 2/3 of Jessica's money and 1/5 of Don's money."
+  },
+  {
+    "id": 52,
+    "topic": "Simple bank interest",
+    "question": "Sean deposited $1500 in a bank at 3% interest per year. After 2 years, he took out 1/3 of the money. The interest rate remained 3% each year. How much did he have left in the bank?",
+    "answer": "$1060.90",
+    "model": "money-units",
+    "hint": "Add 3% interest after the 1st year, then calculate 3% of that new balance for the 2nd year. Finally keep 2/3 of the amount."
+  },
+  {
+    "id": 53,
+    "topic": "Equal daily spending",
+    "question": "Jason had a sum of money and spent an equal amount each day. After 6 days, he had 3/5 of his money left. After 3 more days, he had $360 left. What was the sum of money he had at first?",
+    "answer": "$900",
+    "model": "bar-change",
+    "hint": "The 3 extra days account for the drop from 3/5 to the final amount. Relate those days to equal parts of the original sum."
+  },
+  {
+    "id": 54,
+    "topic": "Volume and percentages",
+    "question": "A tank measuring 15 cm by 24 cm by 28 cm is 3/4 filled with water. When 45% of the water is poured into an empty container, the container becomes 2/5 full. What is the base area of the container if its height is 30 cm?",
+    "answer": "283.5 cm2",
+    "model": "unit-bar",
+    "hint": "Find the water volume in the tank and then 45% of it. That transferred amount is 2/5 of the container's capacity."
+  },
+  {
+    "id": 55,
+    "topic": "Painting cost and area",
+    "question": "ABCD is a rectangular room measuring 24 m by 13 m. The unshaded areas AEH, JCF and GDH are in the ratio 6 : 7 : 5. Mr Lee paints the remaining shaded area at $10 per square metre. If painting GDH costs $125, how much will it cost to paint the shaded area?",
+    "answer": "$2670",
+    "model": "geometry",
+    "hint": "Convert the cost of painting GDH into its area. Use the 6 : 7 : 5 ratio to find all unshaded area, then subtract it from the room."
+  },
+  {
+    "id": 56,
+    "topic": "Ratios after selling",
+    "question": "There were 980 pears and oranges in a basket. After 1/3 of the pears and 230 oranges were sold, the ratio of pears to oranges left was 2 : 3. What was the ratio of pears to oranges at first?",
+    "answer": "75 : 121",
+    "model": "fraction-of-remainder",
+    "hint": "Represent the remaining pears and oranges with a 2 : 3 bar. Restore the 1/3 of pears and the 230 oranges that were sold."
+  },
+  {
+    "id": 57,
+    "topic": "Changing ratios",
+    "question": "The ratio of Harry's cards to William's cards was 3 : 4. After Harry bought 12 cards and William lost 24 cards, the ratio became 3 : 2. Find the total number of cards Harry and William had at first.",
+    "answer": "112 cards",
+    "model": "bar-change",
+    "hint": "Draw before-and-after bars with the 2 ratios. Compare the change in the gap between their amounts, including both the 12 gained and 24 lost."
+  },
+  {
+    "id": 58,
+    "topic": "Ratios after removal",
+    "question": "A fruit seller had 2520 apples and oranges. There were 2/3 as many apples as oranges. After some rotten apples were thrown away, the ratio of apples to oranges became 1 : 4. How many rotten apples were thrown away?",
+    "answer": "630 apples",
+    "model": "fraction-of-remainder",
+    "hint": "Rewrite the before and after apple-to-orange ratios with the same number of orange units. The missing apple units are the rotten apples."
+  },
+  {
+    "id": 59,
+    "topic": "Ratios after transfers",
+    "question": "Jake, Mandy and Ann had 360 sweets in the ratio 4 : 3 : 5. Jake gave 1/3 of his sweets to Mandy, and Ann gave 40% of her sweets to Jake. What was the ratio of Jake's sweets to Ann's sweets in the end?",
+    "answer": "14 : 9",
+    "model": "bar-change",
+    "hint": "Use the initial ratio to find each person's number of sweets. Apply both transfers, then simplify Jake's final amount to Ann's final amount."
+  },
+  {
+    "id": 60,
+    "topic": "Area ratio in a figure",
+    "question": "A figure is made of 2 rectangles and 3 similar triangles. The outer rectangle is 26 m by 19 m. The small rectangle is 4 m from each vertical side and 2 m from each horizontal side of the outer rectangle. PQ : BC = 5 : 3. Express the area of the shaded portion as a ratio of the area of the small rectangle.",
+    "answer": "4 : 5",
+    "model": "geometry",
+    "hint": "Find the dimensions of the small rectangle. Use PQ : BC to find the height of each of the 3 similar triangles, then compare their total area with the rectangle."
+  },
+  {
+    "id": 61,
+    "topic": "Percentages and ratios",
+    "question": "There were 350 marbles in a box. 40% were red. There were 10% more red marbles than green marbles. The rest were white and orange marbles. There were 2 times as many white marbles as orange marbles. How many more red marbles than white marbles were there?",
+    "answer": "70",
+    "model": "unit-bar",
+    "hint": "Find the green percentage from the red percentage, then split the remaining percentage between white and orange in a 2 : 1 ratio."
+  },
+  {
+    "id": 62,
+    "topic": "Percentages and packing",
+    "question": "Wilson gave 20% of his flour to Mike and 25% to Mary. Together they received 72 kg. He packed the rest into 2-kg and 3-kg bags, with 2 times as many 3-kg bags as 2-kg bags. How many bags of each type were there?",
+    "answer": "3-kg bags: 22; 2-kg bags: 11",
+    "model": "unit-bar",
+    "hint": "Find the total remaining flour from the 45% given away. Group the bags as 2 bags of 3 kg with 1 bag of 2 kg."
+  },
+  {
+    "id": 63,
+    "topic": "Sale prices and instalments",
+    "question": "During a sale, a television set fell by 20% of its original price. After the sale, its price increased by 5% of its original price. Jane bought it during the sale, paying $300 down and 16 interest-free monthly instalments of $120. How much was the television set after the sale?",
+    "answer": "$2913.75",
+    "model": "money-units",
+    "hint": "Find Jane's sale payment first. Treat it as 80% of the original price, then add the 5% increase to express the after-sale price."
+  },
+  {
+    "id": 64,
+    "topic": "Percentages and book ratios",
+    "question": "A box contained English, Chinese and Malay books. 20% were English. The ratio of Chinese books to Malay books was 4 : 3. After 10% of the Chinese books were sold, 72 Chinese books remained. How many English, Chinese and Malay books were there at first?",
+    "answer": "English: 35; Chinese: 80; Malay: 60",
+    "model": "unit-bar",
+    "hint": "If 90% of the Chinese books is 72, find the original Chinese number. Use 4 : 3 for Malay, then use the 20% English share."
+  },
+  {
+    "id": 65,
+    "topic": "Successive percentages",
+    "question": "40% of the students in a class joined the Art Club. 20% of the remaining students joined the Dance Society, and the rest joined the choir. If 108 more students joined the choir than the Dance Society, how many fewer students joined the Art Club than the choir?",
+    "answer": "24 students",
+    "model": "fraction-of-remainder",
+    "hint": "Find the Dance Society percentage of the whole class, then the choir percentage. Use their 108-student difference to find the class total."
+  },
+  {
+    "id": 66,
+    "topic": "Weekly salary allocation",
+    "question": "Peter spent 20% of his weekly salary on food. Of the remainder, the amounts he saved and gave his mother were in the ratio 5 : 2. He saved $210 more than he gave his mother. How much did he spend on food each week?",
+    "answer": "$122.50",
+    "model": "fraction-of-remainder",
+    "hint": "Use the 5 : 2 difference to find the 80% remaining after food. Then find 20% of the whole salary."
+  },
+  {
+    "id": 67,
+    "topic": "Percentage increase",
+    "question": "60% of the people at a swimming complex were women. When 72 more women entered, the number of women increased by 1/3 of the number of women who were there at first. How many men were there at first?",
+    "answer": "144 men",
+    "model": "bar-change",
+    "hint": "The 72 entrants equal 1/3 of the original number of women. Find the original women count, then use the 60% share."
+  },
+  {
+    "id": 68,
+    "topic": "Angles in quadrilaterals",
+    "question": "In the diagram, ABCD is a parallelogram and CDEF is a trapezium. DA = AC = CB. DC is parallel to AB and EF. Angle EDF is 37\u00b0, angle FDC is 32\u00b0, and angle ACB is 44\u00b0. Find angle x, angle y and angle z.",
+    "answer": "x = 68\u00b0; y = 68\u00b0; z = 111\u00b0",
+    "model": "geometry",
+    "hint": "Use the equal sides to identify isosceles triangles and use alternate angles on the parallel lines. Then apply the 180\u00b0 angle sum in a triangle."
+  },
+  {
+    "id": 69,
+    "topic": "Angles in an isosceles triangle",
+    "question": "ABCD is a square. Point E lies on AD, and angle AEB is 50\u00b0. In isosceles triangle BPQ, BP = BQ. Angle EBP is 42\u00b0 and angle PBQ is 54\u00b0. Find angle BPQ.",
+    "answer": "59\u00b0",
+    "model": "geometry",
+    "hint": "First find angle ABE in triangle ABE. Use the square's right angle at B to find angle PBC, then find the vertex angle of isosceles triangle BPQ."
+  },
+  {
+    "id": 70,
+    "topic": "Percentages of remaining muffins",
+    "question": "Mrs Cox made some muffins. She kept 15%, gave 20% to charity and 10% to her neighbour. She sold 3/5 of the remaining muffins and gave the rest to her children. Her children received 66 muffins. (a) How many muffins did Mrs Cox make? (b) If each muffin sold cost $1.40, how much money did she collect?",
+    "answer": "(a) 300 muffins; (b) $138.60",
+    "model": "fraction-of-remainder",
+    "hint": "Find the percentage remaining after the 3 gifts. Of that remainder, the children receive 2/5; use their 66 muffins to find the original total."
+  }
+]

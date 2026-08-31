@@ -1,0 +1,250 @@
+[
+  {
+    "id": 71,
+    "topic": "Length",
+    "question": "Alan bought 3 m 70 cm of string. He used 1 m 90 cm and cut the remaining length into 6 equal strips. He used 4 strips. What was the length of string left in the end?",
+    "answer": "60 cm",
+    "model": "mass-bar",
+    "hint": "Convert each length to the same unit before calculating."
+  },
+  {
+    "id": 72,
+    "topic": "Length",
+    "question": "Mrs Cole bought a cloth that was 3 m 50 cm long. She cut it into 5 equal pieces and used 3 such pieces. Find the length of cloth that she had left. (Express your answer in metres and centimetres.)",
+    "answer": "1 m 40 cm",
+    "model": "mass-bar",
+    "hint": "Convert each length to the same unit before calculating."
+  },
+  {
+    "id": 73,
+    "topic": "Length",
+    "question": "Daniel travelled from his home to the beach. He cycled for 2 km 800 m and walked 1 km 950 m less than the distance he cycled. He then took a bus for the rest of the journey. If the distance from his house to the beach was 5 km, what was the distance Daniel travelled by bus? (Express your answer in kilometres and metres.)",
+    "answer": "1 km 350 m",
+    "model": "mass-bar",
+    "hint": "Convert each length to the same unit before calculating."
+  },
+  {
+    "id": 74,
+    "topic": "Mass",
+    "question": "There was 450 g of flour in bag A and 120 g less flour in bag B. Mrs Jackson used 670 g of flour for baking after mixing the 2 bags together. How much flour was left?",
+    "answer": "110 g",
+    "model": "mass-bar",
+    "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+  },
+  {
+    "id": 75,
+    "topic": "Mass",
+    "question": "Mr Clement bought 16 sacks of soil. Each sack contained 9 kg of soil. He repacked the soil equally into bags, each weighing 3 kg. How many bags did he pack?",
+    "answer": "48 bags",
+    "model": "mass-bar",
+    "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+  },
+  {
+    "id": 76,
+    "topic": "Mass",
+    "question": "The mass of a container with a steel ball is 3800 g. When 3 more similar steel balls are added, the mass is 4700 g. What is the mass of the container?",
+    "answer": "3500 g",
+    "model": "mass-bar",
+    "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+  },
+  {
+    "id": 77,
+    "topic": "Mass",
+    "question": "Mrs Cox bought 1 kg of flour. She used 480 g and packed the rest equally into 4 bags. How much flour was there in each bag?",
+    "answer": "130 g",
+    "model": "mass-bar",
+    "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+  },
+  {
+    "id": 78,
+    "topic": "Mass",
+    "question": "The total mass of Edward and Ben is 93 kg. The total mass of Edward and Philip is 87 kg. Edward’s mass is 36 kg. What is the total mass of Ben and Philip?",
+    "answer": "108 kg",
+    "model": "mass-bar",
+    "hint": "Convert to the same mass unit, then use the change or equal groups in the story."
+  },
+  {
+    "id": 79,
+    "topic": "Volume",
+    "question": "A bottle contained 1 l 250 ml of water. A container had 4 l 180 ml of water. How much more water was there in the container than the bottle? (Express your answer in ml.)",
+    "answer": "2930 ml",
+    "model": "mass-bar",
+    "hint": "Keep every volume in ml before adding or subtracting."
+  },
+  {
+    "id": 80,
+    "topic": "Volume",
+    "question": "A flask contains 600 ml of water. A jug contains 150 ml more water than the flask. If a bottle contains 250 ml of water less than the flask, what is the total volume of water in the flask, jug and the bottle?",
+    "answer": "1700 ml",
+    "model": "mass-bar",
+    "hint": "Keep every volume in ml before adding or subtracting."
+  },
+  {
+    "id": 81,
+    "topic": "Volume",
+    "question": "Containers A, B and C are each filled to 1/2 their capacity with water. There is 890 ml of water in container A, 120 ml in container B and 345 ml in container C. If the 3 containers are completely filled, what is the total volume that the 3 containers can hold? (Express your answer in litres and millilitres.)",
+    "answer": "2 l 710 ml",
+    "model": "mass-bar",
+    "hint": "Keep every volume in ml before adding or subtracting."
+  },
+  {
+    "id": 82,
+    "topic": "Volume",
+    "question": "An empty container was completely filled with water poured from 3 similar jugs. If 5 such jugs contained 400 ml of water, how much water was there in the container?",
+    "answer": "240 ml",
+    "model": "mass-bar",
+    "hint": "Keep every volume in ml before adding or subtracting."
+  },
+  {
+    "id": 83,
+    "topic": "Time",
+    "question": "Mabel went for a jog last evening. She started jogging from her home at 6.40 pm and returned home 1 hour and 15 minutes later. What time did she return home?",
+    "answer": "7.55 pm",
+    "model": "mass-bar",
+    "hint": "Mark the start time and duration, then move forward or backward on a time line."
+  },
+  {
+    "id": 84,
+    "topic": "Time",
+    "question": "Leon works in a fast food restaurant. He is paid $7 an hour. He works 5 hours a day on weekdays and 6 hours a day on weekends. If he works from Monday to Sunday, how much will he earn in a week?",
+    "answer": "$259",
+    "model": "mass-bar",
+    "hint": "Mark the start time and duration, then move forward or backward on a time line."
+  },
+  {
+    "id": 85,
+    "topic": "Time",
+    "question": "Mr Watson is 7 times as old as his son this year. His son was 4 years old last year. How old will his son be when Mr Watson is 60 years old?",
+    "answer": "30 years old",
+    "model": "mass-bar",
+    "hint": "Mark the start time and duration, then move forward or backward on a time line."
+  },
+  {
+    "id": 86,
+    "topic": "Time",
+    "question": "Sue is 3 times as old as Cassandra this year. Cassandra will be 20 years old next year. How old was Sue last year?",
+    "answer": "56 years old",
+    "model": "mass-bar",
+    "hint": "Mark the start time and duration, then move forward or backward on a time line."
+  },
+  {
+    "id": 87,
+    "topic": "Area and Perimeter",
+    "question": "The figure below is made up of 3 squares overlapping each other. The square side lengths are 12 cm, 18 cm, and 32 cm. Find the perimeter of the figure.",
+    "answer": "188 cm",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 88,
+    "topic": "Area and Perimeter",
+    "question": "The figure below is made up of 2 similar squares and 4 similar rectangles. Each square has side length 15 cm, and the figure’s total height is 33 cm. Find the perimeter of the figure.",
+    "answer": "146 cm",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 89,
+    "topic": "Area and Perimeter",
+    "question": "The length of a field is 2 times its breadth. The perimeter of the field is 162 m. What is the length of the field?",
+    "answer": "54 m",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 90,
+    "topic": "Area and Perimeter",
+    "question": "The figure below shows a field. The length of the field is 3 times its breadth. The length is 24 m. It costs $8 per metre to put a fence around the field. How much will it cost to fence the entire field?",
+    "answer": "$512",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 91,
+    "topic": "Area and Perimeter",
+    "question": "What is the most number of squares with sides of 3 cm that can be cut out from a rectangle measuring 16 cm by 9 cm?",
+    "answer": "15 squares",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 92,
+    "topic": "Area and Perimeter",
+    "question": "The figure below is made up of 2 similar rectangles and a square. The total length is 43 cm and the height is 9 cm. Find the total area of the 2 rectangles.",
+    "answer": "306 cm²",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 93,
+    "topic": "Area and Perimeter",
+    "question": "A wire is cut and bent to form 5 similar rectangles. The length of each rectangle is 2 times its breadth. The length of a rectangle is 24 cm. What is the original length of the wire?",
+    "answer": "360 cm",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 94,
+    "topic": "Area and Perimeter",
+    "question": "A square with side 15 m and a rectangle measuring 18 m by 5 m are formed by using 1/2 a piece of wire. What is the length of the whole piece of wire?",
+    "answer": "212 m",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 95,
+    "topic": "Area and Perimeter",
+    "question": "A room measuring 12 m by 9 m is to be tiled. If it costs $6 per square metre to tile the room, what is the total cost of tiling the room?",
+    "answer": "$648",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 96,
+    "topic": "Area and Perimeter",
+    "question": "After Jeffrey had given 90 sweets to Adeline, she had 270 sweets and he had 140 sweets. (a) How many sweets did Jeffrey have at 1st? (b) How many more sweets did Jeffrey have than Adeline at 1st?",
+    "answer": "(a) 230 sweets; (b) 50 sweets",
+    "model": "geometry",
+    "hint": "Label the known lengths on a sketch. Choose perimeter or area before calculating."
+  },
+  {
+    "id": 97,
+    "topic": "2-part: The Four Operations of Whole Numbers",
+    "question": "Sandra had $45.80. She spent all her money on a photo frame and 2 books. A book cost $3.80 less than the photo frame. (a) How much was a book? (b) How much was the photo frame?",
+    "answer": "(a) $14; (b) $17.80",
+    "model": "geometry",
+    "hint": "Solve part (a) first and use that result to check part (b)."
+  },
+  {
+    "id": 98,
+    "topic": "2-part: The Four Operations of Whole Numbers",
+    "question": "210 children were grouped into 3 teams. If there were 4 times as many boys as girls in each team, (a) how many girls were there altogether? (b) how many boys were there altogether?",
+    "answer": "(a) 42 girls; (b) 168 boys",
+    "model": "geometry",
+    "hint": "Solve part (a) first and use that result to check part (b)."
+  },
+  {
+    "id": 99,
+    "topic": "2-part: The Four Operations of Whole Numbers",
+    "question": "455 cookies are shared equally among 2 girls and 3 boys. Each girl gets 2 times as many cookies as each boy. (a) How many cookies do the girls get altogether? (b) How many cookies do the boys get altogether?",
+    "answer": "(a) 260 cookies; (b) 195 cookies",
+    "model": "geometry",
+    "hint": "Solve part (a) first and use that result to check part (b)."
+  },
+  {
+    "id": 100,
+    "topic": "2-part: The Four Operations of Whole Numbers",
+    "question": "There were 480 apples and oranges in a box. The number of oranges was 2 times the number of apples in the box. (a) How many apples were there? (b) How many oranges were there?",
+    "answer": "(a) 160 apples; (b) 320 oranges",
+    "model": "geometry",
+    "hint": "Solve part (a) first and use that result to check part (b)."
+  },
+  {
+    "id": 101,
+    "topic": "2-part: Area",
+    "question": "A rectangular plot of land measures 45 m by 9 m. A swimming pool with area 250 m² covers a portion of the land. A square grass patch with side 8 m covers another portion. What is the area of the land that is not covered by the swimming pool and grass patch?",
+    "answer": "91 m²",
+    "model": "geometry",
+    "hint": "Find each covered area, then subtract from the total area."
+  }
+]

@@ -1,0 +1,810 @@
+window.QUESTION_BANK = [
+  {
+    "id": 1,
+    "topic": "Whole Numbers",
+    "question": "On the 1st day of a school camp, there were 396 children. 27 boys left the camp on the 2nd day. If there were 2 times as many boys as girls who remained at the camp, how many boys were there on the 1st day of the camp?",
+    "answer": "273 boys",
+    "model": "bar-change",
+    "hint": "1st find how many children remained. Split that total into 2 equal units for boys and 1 equal unit for girls, then restore the boys who left."
+  },
+  {
+    "id": 2,
+    "topic": "Whole Numbers",
+    "question": "On Monday, Farmer Tom collected 3 times as many eggs as Farmer Jack. On Tuesday, Farmer Tom sold 160 eggs. Farmer Jack then had 2 times as many eggs as Farmer Tom. How many eggs did Farmer Jack have?",
+    "answer": "64 eggs",
+    "model": "bar-change",
+    "hint": "Draw Tom as 3 units and Jack as 1 unit before the sale. After the sale, Jack is 2 units more than Tom; use the 160-egg difference."
+  },
+  {
+    "id": 3,
+    "topic": "Whole Numbers",
+    "question": "When George is 15 years old, his sister is 8 years old and his father is 45 years old. How old will George's sister be when George is 1/2 his father's age?",
+    "answer": "23 years old",
+    "model": "bar-change",
+    "hint": "The father is always 30 years older than George. Find George's age when he is 1/2 his father's age, then add the same number of years to his sister's age."
+  },
+  {
+    "id": 4,
+    "topic": "Whole Numbers",
+    "question": "Linda and Serene had an equal number of balloons. After Linda used 16 balloons, Serene had 3 times as many balloons as Linda. How many balloons did Serene have?",
+    "answer": "24 balloons",
+    "model": "bar-change",
+    "hint": "After Linda uses balloons, Serene's unchanged amount is 3 equal units while Linda has 1. The 2-unit difference is 16."
+  },
+  {
+    "id": 5,
+    "topic": "Whole Numbers",
+    "question": "Jennifer had a party. She wanted to give an equal number of balloons to her 6 friends. If 1 of her friends did not turn up for the party, the rest would be able to receive another 2 balloons each. How many balloons did Jennifer have?",
+    "answer": "60 balloons",
+    "model": "unit-bar",
+    "hint": "With 1 friend absent, 5 friends each receive 2 more balloons. That extra distribution accounts for 10 balloons; use it to find each original share."
+  },
+  {
+    "id": 6,
+    "topic": "Whole Numbers",
+    "question": "Anna had 3 times as many beads as Zoe. They had 480 beads altogether. Mrs Taylor gave an equal number of beads to each of them. Zoe then had 1/2 the number of beads that Anna had. How many beads did Mrs Taylor give them?",
+    "answer": "240 beads each",
+    "model": "bar-change",
+    "hint": "At 1st, Anna and Zoe are 3 units and 1 unit. Equal additions do not change their difference; after the gifts, Anna is 2 units more than Zoe."
+  },
+  {
+    "id": 7,
+    "topic": "Whole Numbers",
+    "question": "Helen had to arrange some chairs in a fixed number of rows. She estimated that there were more than 30 but fewer than 70 chairs. If she put 8 chairs in 1 row, she would be 7 chairs short. If she put 7 chairs in 1 row, she would have 2 chairs left. How many chairs were there?",
+    "answer": "65 chairs",
+    "model": "unit-bar",
+    "hint": "Look for a number between 31 and 69 that is 2 more than a multiple of 7 and 7 less than a multiple of 8."
+  },
+  {
+    "id": 8,
+    "topic": "Whole Numbers",
+    "question": "Zack and Mandy shared 120 sweets. After Zack gave Mandy 10 sweets, he had 2 times as many sweets as Mandy. How many sweets did each of them have at 1st?",
+    "answer": "Mandy: 30 sweets; Zack: 90 sweets",
+    "model": "bar-change",
+    "hint": "After the transfer, Zack and Mandy are in a 2:1 ratio. Use the total of 120 to find their after-transfer amounts, then reverse the 10-sweet transfer."
+  },
+  {
+    "id": 9,
+    "topic": "Whole Numbers",
+    "question": "A basket contained 4 times as many blue balls as red balls. After 21 blue balls were taken away, there were 2 times as many red balls as blue balls. How many balls were there in the basket at 1st?",
+    "answer": "30 balls",
+    "model": "bar-change",
+    "hint": "Represent the original blue balls as 4 units and red balls as 1 unit. After 21 blue balls are removed, compare the new blue amount with 2 times the red amount."
+  },
+  {
+    "id": 10,
+    "topic": "Fractions",
+    "question": "Nancy had 1/3 as much money as Ben. Lucy had $20 more than Ben. They had $132 altogether. How much did each of them have?",
+    "answer": "Nancy: $16; Ben: $48; Lucy: $68",
+    "model": "money-units",
+    "hint": "Let Nancy be 1 unit and Ben be 3 units. Remove Lucy's extra $20 from the total before dividing the remaining 7 units."
+  },
+  {
+    "id": 11,
+    "topic": "Fractions",
+    "question": "There were 3 parcels, A, B and C. The mass of Parcel B was 3/4 kg less than the mass of Parcel A. The mass of Parcel C was 2/3 kg more than the mass of Parcel B. If the mass of Parcel A was 4 1/2 kg, what was the mass of Parcel C?",
+    "answer": "4 5/12 kg",
+    "model": "mass-bar",
+    "hint": "Subtract 3/4 kg from 4 1/2 kg to find Parcel B, then add 2/3 kg. Use a common denominator when adding or subtracting fractions."
+  },
+  {
+    "id": 12,
+    "topic": "Fractions",
+    "question": "Mr Rice spent 1/5 of his salary on food and 2/3 on clothing. 1/2 of the remaining amount was given to his wife and he saved the rest. If he had saved $520, what was Mr Rice's salary?",
+    "answer": "$7800",
+    "model": "fraction-of-remainder",
+    "hint": "Express 1/5 and 2/3 in fifteenths. After food and clothing, split the remaining fraction equally between his wife and his savings."
+  },
+  {
+    "id": 13,
+    "topic": "Fractions",
+    "question": "Sam had some marbles. He gave 1/7 of them to his brother. 2/3 of the remaining marbles were given to his cousin. The rest were kept in a box. If 48 marbles were kept in the box, how many more marbles did Sam give to his cousin than to his brother?",
+    "answer": "72 marbles",
+    "model": "fraction-of-remainder",
+    "hint": "After giving 1/7 away, the remaining 6/7 is split into 2/3 for the cousin and 1/3 kept. Work backwards from the 48 kept marbles."
+  },
+  {
+    "id": 14,
+    "topic": "Fractions",
+    "question": "Mrs Anderson bought 60 eggs. She used 2/5 of them to bake cakes. She used some eggs to bake cookies. She had 12 eggs left. How many eggs did she use for baking cookies?",
+    "answer": "24 eggs",
+    "model": "fraction-of-remainder",
+    "hint": "Find 2/5 of 60 for the cakes, then subtract both the cake eggs and the eggs left from 60."
+  },
+  {
+    "id": 15,
+    "topic": "Fractions",
+    "question": "2/7 of the members in a country club are men. There are 1050 women below 50 years old. If there are 960 more women than men in the country club, how many women are above 50 years old?",
+    "answer": "550 women",
+    "model": "unit-bar",
+    "hint": "If men are 2/7 of the club, women are 5/7. The difference between women and men is 3 equal units, which is 960."
+  },
+  {
+    "id": 16,
+    "topic": "Fractions",
+    "question": "Stephanie had a total of 80 pieces of $2 and $10 notes. After spending 2/5 of her $2 notes and 8 pieces of her $10 notes, she had an equal number of $2 and $10 notes left. How much money did Stephanie have at 1st?",
+    "answer": "$440",
+    "model": "money-units",
+    "hint": "The 2 kinds of notes left are equal. Since 8 $10 notes were spent, use the total note count to find each original count before calculating the money."
+  },
+  {
+    "id": 17,
+    "topic": "Fractions",
+    "question": "3/5 of the animals on a farm are ducks and the rest are chickens. 1/5 of the chickens are brown and the rest are white. If there are 24 white chickens, how many more ducks than chickens are there on the farm?",
+    "answer": "15 more ducks",
+    "model": "fraction-of-remainder",
+    "hint": "White chickens are 4/5 of all chickens. Find the total chickens 1st, then use the 3:2 ratio of ducks to chickens."
+  },
+  {
+    "id": 18,
+    "topic": "Fractions",
+    "question": "Susan earns $2450 a month. She spends 2/5 of it and saves the rest. Andy earns $800 less than Susan. He spends $180 more than Susan each month and saves the rest. How much more can Susan save than Andy in 1/2 a year?",
+    "answer": "$5880",
+    "model": "money-units",
+    "hint": "Find Susan's monthly saving, then subtract Andy's lower income and extra spending to get his monthly saving. Multiply the monthly difference by 6."
+  },
+  {
+    "id": 19,
+    "topic": "Fractions",
+    "question": "On Monday, a shopkeeper sold 12 1/2 kg of flour. He sold 5/6 kg more flour on Tuesday than on Monday. On Wednesday, he sold 1 1/3 kg less flour than on Tuesday. He then had 1/3 kg of flour left in his shop. How much flour did he have at 1st?",
+    "answer": "38 1/6 kg",
+    "model": "mass-bar",
+    "hint": "Calculate Tuesday from Monday, then Wednesday from Tuesday. Add the 3 daily sales and the flour left, using sixths as a common denominator."
+  },
+  {
+    "id": 20,
+    "topic": "Fractions",
+    "question": "2/7 of the toy cars in a box are silver. 1/10 of the remainder are yellow and the rest are black. If there are 28 silver toy cars, how many black toy cars are there in the box?",
+    "answer": "63 black toy cars",
+    "model": "fraction-of-remainder",
+    "hint": "Use the silver cars to find the total. Yellow cars are 1/10 of the 5/7 remainder; subtract silver and yellow from the total."
+  },
+  {
+    "id": 21,
+    "topic": "Fractions",
+    "question": "Andrew and Ryan shared some chocolates. Andrew gave away 1/4 of his chocolates. 1/4 of the given chocolates were taken by Ryan. Ryan then had the same number of chocolates as Andrew. If Andrew gave away 12 chocolates, how many chocolates did each of them have at 1st?",
+    "answer": "Andrew: 48 chocolates; Ryan: 33 chocolates",
+    "model": "fraction-of-remainder",
+    "hint": "The 12 chocolates given away are 1/4 of Andrew's original amount. Ryan receives 1/4 of those 12; use the equal final amounts to work backwards."
+  },
+  {
+    "id": 22,
+    "topic": "Fractions",
+    "question": "Boxes A and B contained 112 pencils. When 1/5 of the pencils in box A were transferred to box B, both boxes contained the same number of pencils. How many more pencils were there in box A than in box B at 1st?",
+    "answer": "28 pencils",
+    "model": "bar-change",
+    "hint": "After transferring 1/5 of Box A, both boxes are equal. Draw Box A as 5 units and compare the before-and-after total of 112."
+  },
+  {
+    "id": 23,
+    "topic": "Fractions",
+    "question": "Andrea spent 1/5 of her salary on food and 1/10 on transport. She gave the remaining amount to her 3 brothers equally. 1 of her brothers spent all his money on a radio and a watch that cost $86 and $145 respectively. What was Andrea's salary?",
+    "answer": "$990",
+    "model": "fraction-of-remainder",
+    "hint": "1 brother received $86 + $145. Multiply by 3 for the total remainder, then recognise that this remainder is 7/10 of Andrea's salary."
+  },
+  {
+    "id": 24,
+    "topic": "Fractions",
+    "question": "Ann and James had some stickers. After Ann gave James 1/4 of her stickers, James had 2 times as many stickers as Ann. If they had a total of 117 stickers, how many stickers did each of them have in the beginning?",
+    "answer": "James: 65 stickers; Ann: 52 stickers",
+    "model": "bar-change",
+    "hint": "Treat Ann's original amount as 4 equal parts. After 1 part moves to James, the final ratio is 2:1; use the unchanged total of 117."
+  },
+  {
+    "id": 25,
+    "topic": "Fractions",
+    "question": "Mrs Brown gave 4/7 of her money to her son. He spent 2/5 of the money on a pair of shoes and the rest on 2 books that cost $18 each. How much did Mrs Brown have at 1st?",
+    "answer": "$105",
+    "model": "fraction-of-remainder",
+    "hint": "The books cost $36, which is the 3/5 of the son's money left after shoes. Find the son's amount, then scale from 4/7 to all of Mrs Brown's money."
+  },
+  {
+    "id": 26,
+    "topic": "Fractions",
+    "question": "Ray sold 2/3 of the charity tickets that Cindy sold. Cindy sold 3/4 of the charity tickets that Gina sold. Each charity ticket cost $2. The children collected a total of $648. How many charity tickets did Gina sell?",
+    "answer": "144 charity tickets",
+    "model": "unit-bar",
+    "hint": "1st convert $648 to a total number of tickets. Use a common unit bar: Gina, Cindy, and Ray can be represented by 4, 3, and 2 units."
+  },
+  {
+    "id": 27,
+    "topic": "Fractions",
+    "question": "There were 3/4 as many sweets in box A as in box B. 1/2 of the sweets in box A and 3/8 of the sweets in box B were removed. There were then 152 sweets left in both boxes altogether. How many sweets were there in each box at 1st?",
+    "answer": "Box A: 114 sweets; Box B: 152 sweets",
+    "model": "fraction-of-remainder",
+    "hint": "Change 3/4 to 6/8 and model Box A and Box B in eighths. Then keep 1/2 of A and 5/8 of B to represent the 152 remaining sweets."
+  },
+  {
+    "id": 28,
+    "topic": "Fractions",
+    "question": "After their shopping trip, Mike spent 3/5 of his money, Evon spent 1/2 of hers and Sue spent $50. They then had the same amount of money left. If the total amount of money left was $54, what was the total amount of money Mike and Sue had at 1st?",
+    "answer": "$113",
+    "model": "money-units",
+    "hint": "The 3 equal amounts left total $54. Express Mike's original money as 5 units and Sue's as her equal leftover plus the $50 she spent."
+  },
+  {
+    "id": 29,
+    "topic": "Fractions",
+    "question": "A baker sold 2 times as many buns on Sunday than on Saturday. On Monday, he sold 1/4 of the buns he sold on Sunday. If he sold a total of 1260 buns during the 3 days, how many buns did he sell on Sunday?",
+    "answer": "720 buns",
+    "model": "unit-bar",
+    "hint": "If Saturday is 1 unit, Sunday is 2 units and Monday is 1/2 unit. Use a common denominator so all 3 days form whole equal units."
+  },
+  {
+    "id": 30,
+    "topic": "Fractions",
+    "question": "Joan and Alan had some money. 2/3 of Joan's money was 1/2 of what Alan had. If Alan spent all his money on a book that cost $45 and a wallet that cost $98, how much did Joan and Alan have altogether?",
+    "answer": "$250.25",
+    "model": "money-units",
+    "hint": "Find Alan's money from the book and wallet. If 2/3 of Joan equals 1/2 of Alan, make both amounts use the same 6-part bar."
+  },
+  {
+    "id": 31,
+    "topic": "Fractions",
+    "question": "Boxes A and B contained 150 marbles altogether. When 1/3 of the marbles in box A were transferred to box B and 12 marbles were taken out from box B, there were 2 times as many marbles in box B than in box A. How many marbles were there in box B in the beginning?",
+    "answer": "81 marbles",
+    "model": "bar-change",
+    "hint": "After the 12 marbles are removed, 138 remain and the final boxes are in a 1:2 ratio. Reverse the transfer of 1/3 of Box A to recover Box B's starting amount."
+  },
+  {
+    "id": 32,
+    "topic": "Fractions",
+    "question": "During a sale, Betty bought a watch at 3/5 of its normal price. She then had $220 left. If she had bought the watch at its normal price, she would be $10 short. What was the normal price of the watch?",
+    "answer": "$575",
+    "model": "money-units",
+    "hint": "The difference between paying 3/5 of the price and the full price is $220 + $10. That difference is 2/5 of the normal price."
+  },
+  {
+    "id": 33,
+    "topic": "Fractions",
+    "question": "Mr Smith sold 1/4 of his eggs on Monday and 1/4 of the remainder on Tuesday. The rest were sold on Wednesday. If he sold 144 eggs on Wednesday, how many eggs did he have in the beginning?",
+    "answer": "256 eggs",
+    "model": "fraction-of-remainder",
+    "hint": "After Monday, 3/4 remains. Wednesday is 3/4 of that remainder, so it is 9/16 of the original number of eggs."
+  },
+  {
+    "id": 34,
+    "topic": "Fractions",
+    "question": "Sam could buy 4 magazines and 3 books with all his money. He decided to buy 2 magazines and a book. He then had $84 left. If a magazine cost 1/3 the price of a book, how much did Sam have at 1st?",
+    "answer": "$136.50",
+    "model": "money-units",
+    "hint": "Represent 1 magazine as 1 unit and 1 book as 3 units. The unspent items are 2 magazines and 2 books, worth 8 units and equal to $84."
+  },
+  {
+    "id": 35,
+    "topic": "Fractions",
+    "question": "There were 2 times as many oranges as apples in a box and 3 times as many pears as apples. When 1/4 of the oranges were eaten, there were 21 oranges left in the box. How many pieces of fruit were there in the box at 1st?",
+    "answer": "84 pieces of fruit",
+    "model": "unit-bar",
+    "hint": "Use the 21 remaining oranges to find the original number of oranges, then express apples and pears in terms of apples."
+  },
+  {
+    "id": 36,
+    "topic": "Fractions",
+    "question": "Elaine had some sweets. When she ate 2/7 of them and gave 36 sweets to her brother, she had 2/7 of the sweets left. How many sweets did she have at 1st?",
+    "answer": "84 sweets",
+    "model": "bar-change",
+    "hint": "Compare the fraction after eating with the fraction finally left. The difference is the 36 sweets given away."
+  },
+  {
+    "id": 37,
+    "topic": "Fractions",
+    "question": "Jug A contained 3 5/12 L of water. Jug A contained 1 2/3 L less water than jug B. Jug C contained 5/6 L less water than jug B. The water in the 3 jugs was poured into a container. How much water was there in the container in the end?",
+    "answer": "12 3/4 L",
+    "model": "unit-bar",
+    "hint": "1st find jug B by adding its difference to jug A; then find jug C by subtracting from jug B."
+  },
+  {
+    "id": 38,
+    "topic": "Fractions",
+    "question": "Mrs Crawford baked some pies. She gave 1/3 of them to her neighbour. She then gave 5/12 of the remainder to a children's home. The rest of the pies were packed into 25 boxes with 14 pies in each box. How many pies did Mrs Crawford bake altogether?",
+    "answer": "900 pies",
+    "model": "fraction-of-remainder",
+    "hint": "The packed pies are 25 × 14. Work backwards: after giving 1/3 away, 2/3 remains, and then 7/12 of that remainder is packed."
+  },
+  {
+    "id": 39,
+    "topic": "Fractions",
+    "question": "Sandy spent 3/5 of her money in a toy shop on a teddy bear for $38 and a toy train for $46. The remaining money was then spent on 5 similar books. How much did each book cost?",
+    "answer": "$11.20",
+    "model": "money-units",
+    "hint": "The teddy bear and train together represent 3/5 of Sandy's money. Find the remaining 2/5, then share it equally among 5 books."
+  },
+  {
+    "id": 40,
+    "topic": "Fractions",
+    "question": "Jeff sold 120 oranges on Friday. He sold 100 fewer oranges on Friday than on Saturday. The number of oranges he sold on Sunday was 3 times the number he sold on Friday. If he had 2/7 of the oranges left, how many oranges did he have at 1st?",
+    "answer": "980 oranges",
+    "model": "fraction-of-remainder",
+    "hint": "Find sales for Friday, Saturday, and Sunday 1st. These sales make up 5/7 of the original number."
+  },
+  {
+    "id": 41,
+    "topic": "Fractions",
+    "question": "There were 120 more eggs in box A than in box B. There were 2/3 as many eggs in box C as in box B. When 1/2 of the eggs in box B were sold, there were 222 eggs left in box B. How many eggs were there altogether?",
+    "answer": "1304 eggs",
+    "model": "unit-bar",
+    "hint": "Double the 222 eggs to find box B before any were sold. Use that to calculate boxes A and C."
+  },
+  {
+    "id": 42,
+    "topic": "Fractions",
+    "question": "Alfred had 72 mugs. He sold some of them for $144. He then had 7/8 of the mugs left. How much would he get if he had sold all the mugs?",
+    "answer": "$1152",
+    "model": "fraction-of-remainder",
+    "hint": "Find how many mugs were sold from the 1/8 part. That gives the selling price of 1 mug."
+  },
+  {
+    "id": 43,
+    "topic": "Fractions",
+    "question": "There were some chicken wings and fishballs in a pack. After 2/7 of the chicken wings were taken out from the pack, there were 3/10 as many chicken wings as fishballs in the pack. If there were 50 fishballs, how many chicken wings were there in the pack at 1st?",
+    "answer": "21 chicken wings",
+    "model": "fraction-of-remainder",
+    "hint": "Use 3/10 of 50 to find the wings left after removal. That is 5/7 of the original number of wings."
+  },
+  {
+    "id": 44,
+    "topic": "Fractions",
+    "question": "There were 1/2 as many yellow T-shirts as blue T-shirts in a box and 15 more green T-shirts than blue T-shirts. There were 27 yellow T-shirts. How many T-shirts were left in the box when 4/5 of the T-shirts were taken out?",
+    "answer": "30 T-shirts",
+    "model": "fraction-of-remainder",
+    "hint": "Find blue and green T-shirts from the 27 yellow T-shirts. Then take the remaining 1/5 of the total."
+  },
+  {
+    "id": 45,
+    "topic": "Fractions",
+    "question": "There were some pears in boxes A and B. When 1/3 of the pears were taken out from box A and 5/9 of the pears were taken out from box B, there was an equal number of pears in both boxes. If 84 pears were taken out, how many pears were there in both boxes at 1st?",
+    "answer": "180 pears",
+    "model": "bar-change",
+    "hint": "Draw bars for the original quantities so that their remaining parts are equal. The removed parts total 84."
+  },
+  {
+    "id": 46,
+    "topic": "Fractions",
+    "question": "Agnes had a total of 135 balloons. There were 3 times as many red balloons as green balloons, 2 times as many blue balloons as green balloons and some purple balloons. When 12 green balloons burst, there were 1/3 as many green as purple balloons left. Find the total number of purple and green balloons Agnes had at 1st.",
+    "answer": "40 purple and green balloons",
+    "model": "bar-change",
+    "hint": "Let green balloons be 1 unit. After 12 burst, use the 1:3 relation between remaining green and purple."
+  },
+  {
+    "id": 47,
+    "topic": "Fractions",
+    "question": "Michael paid $14 for 3 similar mangoes and a durian. The durian cost $2 more than each mango. What was the total cost of 5 mangoes and 4 durians?",
+    "answer": "$35",
+    "model": "money-units",
+    "hint": "Replace the durian with the cost of a mango plus $2, then find the price of 1 mango."
+  },
+  {
+    "id": 48,
+    "topic": "Fractions",
+    "question": "A blouse costs 1/2 as much as a shirt. If the total cost of 3 similar blouses and a shirt is $200, what is the cost of 7 blouses and 4 shirts?",
+    "answer": "$600",
+    "model": "money-units",
+    "hint": "Use 1 blouse as 1 unit and 1 shirt as 2 units. Convert both purchases into units."
+  },
+  {
+    "id": 49,
+    "topic": "Money",
+    "question": "Colin paid $12 for 4 buns and 4 cakes. 3 buns cost as much as 2 cakes. What was the total cost of 6 buns and 9 cakes?",
+    "answer": "$23.40",
+    "model": "money-units",
+    "hint": "Represent a bun and cake with equal units using 3 buns = 2 cakes, then use the $12 total."
+  },
+  {
+    "id": 50,
+    "topic": "Money",
+    "question": "The total cost of a radio, a clock and a blender is $215. The radio costs $35 more than the blender. The blender costs $45 more than the clock. What is the cost of the radio?",
+    "answer": "$110",
+    "model": "money-units",
+    "hint": "Treat the clock as a base amount. Write the blender and radio as that amount plus their stated differences."
+  },
+  {
+    "id": 51,
+    "topic": "Money",
+    "question": "Betty had 2 times as much money as Johnson. After Betty spent $350, she had $25 less than Johnson. Find the total amount of money they had at 1st.",
+    "answer": "$975",
+    "model": "bar-change",
+    "hint": "After Betty spends $350, compare her amount with Johnson's unchanged amount to find Johnson's money."
+  },
+  {
+    "id": 52,
+    "topic": "Money",
+    "question": "Connie and Alice had an equal amount of money at 1st. Connie gave Alice $126 and Alice had 4 times as much money as Connie in the end. How much money did Connie have at 1st?",
+    "answer": "$210",
+    "model": "bar-change",
+    "hint": "The $126 transfer creates a difference between the final amounts. Model the final 4:1 ratio."
+  },
+  {
+    "id": 53,
+    "topic": "Money",
+    "question": "Terence and Winnie had a total of 27 coins. When Terence gave Winnie 1/4 of his coins, she had 2 times as many coins as him. Winnie then found out that she had 2 times as many 20-cent coins as 10-cent coins. How much money did she have in the end?",
+    "answer": "$3",
+    "model": "bar-change",
+    "hint": "1st find Winnie's final number of coins using the transfer and total of 27. Then split them in the 2:1 ratio of 20-cent to 10-cent coins."
+  },
+  {
+    "id": 54,
+    "topic": "Money",
+    "question": "Hazel had enough money to buy 25 chocolate cookies. Each chocolate cookie cost as much as 2 butter cookies. Hazel borrowed another $6 from her mother to buy 20 chocolate cookies and 20 butter cookies. How much money did Hazel have at 1st?",
+    "answer": "$30",
+    "model": "money-units",
+    "hint": "Convert 20 butter cookies into an equivalent number of chocolate cookies and compare the 2 purchases."
+  },
+  {
+    "id": 55,
+    "topic": "Money",
+    "question": "A book costs 3 times as much as a pen. 5 similar pens cost as much as a photo frame. If 3 similar photo frames cost $74.25, what is the total cost of a book, a pen and a photo frame?",
+    "answer": "$44.55",
+    "model": "money-units",
+    "hint": "Express a pen, book, and photo frame in 1 common unit before using the cost of 3 photo frames."
+  },
+  {
+    "id": 56,
+    "topic": "Money",
+    "question": "For every T-shirt that Joel sells, he will receive $12. He will receive another $5 for every set of 10 T-shirts he sells. If he sells 100 T-shirts, he will receive an additional $50 bonus. How many T-shirts does Joel have to sell to receive $1372 in total?",
+    "answer": "106 T-shirts",
+    "model": "money-units",
+    "hint": "1st calculate Joel's earnings for 100 T-shirts, including the 10 set bonuses and the $50 bonus."
+  },
+  {
+    "id": 57,
+    "topic": "Money",
+    "question": "4 boxes of coloured pencils cost as much as 3 boxes of paint. Natalie had just enough money to buy 7 boxes of paint and 2 boxes of coloured pencils. If a box of paint cost $5.40, how much would Natalie have left if she only bought 5 boxes of paint?",
+    "answer": "$18.90",
+    "model": "money-units",
+    "hint": "Use 3 paint boxes = 4 coloured-pencil boxes to price 2 coloured-pencil boxes, then find Natalie's original money."
+  },
+  {
+    "id": 58,
+    "topic": "Money",
+    "question": "Jeffrey had 4 times as many 20-cent coins as 10-cent coins and 1/3 as many 50-cent coins as 10-cent coins. If he had 2 50-cent coins, how much money would he have left if he spent $2.75 on a pair of socks?",
+    "answer": "$3.65",
+    "model": "money-units",
+    "hint": "Use the 2 50-cent coins to find the number of 10-cent coins, then find the number and total value of all coins."
+  },
+  {
+    "id": 59,
+    "topic": "Money",
+    "question": "Michael had some flowers. He sold 2/3 of them at 90¢ each and the rest at 50¢ each. Fanny sold the same number of flowers at 80¢ each, collecting a total of $7.20. How much did Michael collect?",
+    "answer": "$6.90",
+    "model": "fraction-of-remainder",
+    "hint": "Use Fanny's $7.20 at 80¢ each to find the number of flowers. Then split Michael's flowers into 2/3 and 1/3."
+  },
+  {
+    "id": 60,
+    "topic": "Money",
+    "question": "When Nelly bought 5 pencils, she spent the same amount as Benjamin who bought 3 pens. If Benjamin spent 2/7 of his money buying the pens and he had $45 left, what was the total cost of a pencil and a pen?",
+    "answer": "$9.60",
+    "model": "money-units",
+    "hint": "The $45 left is 5/7 of Benjamin's money. Find the cost of his 3 pens, which is also the cost of 5 pencils."
+  },
+  {
+    "id": 61,
+    "topic": "Money",
+    "question": "Ron earns $12 an hour on weekdays and 2 times as much on weekends. Ron works 8 hours a day on weekdays and 5 hours a day on Saturdays and Sundays. How much will he earn in 2 weeks if he works every day?",
+    "answer": "$1440",
+    "model": "money-units",
+    "hint": "Count weekday and weekend hours separately over 2 weeks, because the hourly rates differ."
+  },
+  {
+    "id": 62,
+    "topic": "Money",
+    "question": "The cost of a magazine and 2 books is $34. The cost of 3 magazines and 4 books is $76. If Tasha buys 13 magazines and 9 books, how much money does she spend?",
+    "answer": "$221",
+    "model": "money-units",
+    "hint": "Double the 1st purchase, then compare it with the 2nd purchase to isolate the cost of 1 magazine."
+  },
+  {
+    "id": 63,
+    "topic": "Money",
+    "question": "An apple and 2 oranges cost $2.30. 2 apples and an orange cost $2.50. What is the cost of 4 apples and 6 oranges?",
+    "answer": "$7.80",
+    "model": "money-units",
+    "hint": "Double the 1st equation and compare it with the 2nd equation to find the cost of an orange."
+  },
+  {
+    "id": 64,
+    "topic": "Money",
+    "question": "Mrs Bellamont sold 2 times as many butter cookies as chocolate chip cookies and 2 times as many chocolate chip cookies as coconut cookies. Each box of 4 cookies was sold for $4.50. 80 chocolate chip cookies were sold. How much would Mrs Bellamont collect from the sale of all the cookies?",
+    "answer": "$315",
+    "model": "unit-bar",
+    "hint": "Use chocolate chip cookies as 2 units. Find the total cookies, then the number of boxes of 4."
+  },
+  {
+    "id": 65,
+    "topic": "Money",
+    "question": "The total mass of Gilbert and Sean was 124 kg. If Sean lost 1/4 of his mass, he would be 45 kg. How much heavier was Gilbert compared to Sean?",
+    "answer": "4 kg",
+    "model": "mass-bar",
+    "hint": "After losing 1/4, Sean has 3/4 of his original mass. Use 45 kg to recover his original mass."
+  },
+  {
+    "id": 66,
+    "topic": "Money",
+    "question": "4 parcels, A, B, C and D have a total mass of 100.75 kg. Parcel A weighs 12.45 kg more than parcel B. Parcel B weighs 8.4 kg less than parcel C. Parcel C weighs 24.2 kg. How much heavier is parcel D than parcel C?",
+    "answer": "8.3 kg",
+    "model": "mass-bar",
+    "hint": "Find B from C, then A from B. Subtract A, B, and C from the total to find D."
+  },
+  {
+    "id": 67,
+    "topic": "Mass",
+    "question": "Box A was 3.45 kg heavier than box B. When 1.2 kg of items in box A was removed, box A became 4 times as heavy as box B. What was the mass of box A in the beginning?",
+    "answer": "4.2 kg",
+    "model": "mass-bar",
+    "hint": "After removal, use the 4:1 mass ratio. The original difference is 3.45 kg, so the new difference is 3.45 − 1.2 kg."
+  },
+  {
+    "id": 68,
+    "topic": "Mass",
+    "question": "The mass of a box is 45 kg when it is full. When 1/2 of the items in the box are taken out, the mass of the remaining items and the box is 33 kg. What is the mass of 6 empty boxes?",
+    "answer": "126 kg",
+    "model": "mass-bar",
+    "hint": "The difference between 45 kg and 33 kg is the mass of 1/2 the items. Use it to find the empty box's mass."
+  },
+  {
+    "id": 69,
+    "topic": "Mass",
+    "question": "9 small squares are used to form a large square. If each side of a small square is 7 cm, what is the area of the large square?",
+    "answer": "441 cm²",
+    "model": "geometry",
+    "hint": "The 9 small squares form a 3 by 3 array, so each side of the large square has 3 7 cm lengths."
+  },
+  {
+    "id": 70,
+    "topic": "Mass",
+    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion.",
+    "answer": "32 cm",
+    "model": "geometry",
+    "hint": "Find the side length of the square 1st. Then use the 7 cm marked side and matching tick marks to label every edge of the unshaded boundary."
+  },
+  {
+    "id": 71,
+    "topic": "Area & Perimeter",
+    "question": "9 small squares are used to form a large square. If each side of a small square is 7 cm, what is the area of the large square?",
+    "answer": "441 cm²",
+    "model": "geometry",
+    "hint": "The 9 small squares make a 3-by-3 array. Find the side length of the large square before finding its area."
+  },
+  {
+    "id": 72,
+    "topic": "Area & Perimeter",
+    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion shown in the diagram.",
+    "answer": "32 cm",
+    "model": "geometry",
+    "hint": "1st find the side length of the 81 cm² square, then trace only the outside edges of the unshaded L-shaped portion."
+  },
+  {
+    "id": 73,
+    "topic": "Area & Perimeter",
+    "question": "The perimeter of a rectangle is 288 cm. The length is 3 times the breadth. Find the area of the rectangle.",
+    "answer": "3888 cm²",
+    "model": "geometry",
+    "hint": "A perimeter has 2 lengths and 2 breadths. Treat 1 breadth as 1 unit and the length as 3 units."
+  },
+  {
+    "id": 74,
+    "topic": "Area & Perimeter",
+    "question": "A wire was cut and 2/3 of it was bent to form a square. The remaining length of the wire was bent to form a rectangle. The area of the square was 36 cm². What was the length of the wire at 1st?",
+    "answer": "36 cm",
+    "model": "geometry",
+    "hint": "Find the square's side from its area, then its perimeter. That perimeter is 2/3 of the original wire."
+  },
+  {
+    "id": 75,
+    "topic": "Area & Perimeter",
+    "question": "Jenny draws a picture on a piece of paper with a border of 4 cm around the picture. The length of the paper is 24 cm. If the breadth of the picture is 8 cm, find the area of the border.",
+    "answer": "256 cm²",
+    "model": "geometry",
+    "hint": "Find the area of the whole paper and subtract the area of the picture. Remember that the border adds 4 cm on both sides."
+  },
+  {
+    "id": 76,
+    "topic": "Area & Perimeter",
+    "question": "The perimeter of a square is 1/2 the area of a rectangle. A wire is bent to form 3 such squares and 2 such rectangles. 20 cm of wire is left. If the length of the rectangle is 15 cm and its breadth is 12 cm, find the length of the wire.",
+    "answer": "398 cm",
+    "model": "geometry",
+    "hint": "Find the rectangle's area and perimeter. Its area gives the perimeter of 1 square; then add wire for all 5 shapes and the leftover 20 cm."
+  },
+  {
+    "id": 77,
+    "topic": "Area & Perimeter",
+    "question": "The perimeter of rectangle EFGH is 180 cm. YH is 2 times GZ. If EF is 24 cm and YH is 12 cm, what is the area of rectangle ABCD?",
+    "answer": "3738 cm²",
+    "model": "geometry",
+    "hint": "Use the inner rectangle's perimeter to find its height. Use YH = 2 × GZ, then add the labelled horizontal and vertical sections of the diagram."
+  },
+  {
+    "id": 78,
+    "topic": "Area & Perimeter",
+    "question": "Mr Cox wants to put a fence around his garden. His garden is in the shape of 2 similar rectangles and 3 similar squares. If it costs $23 to fence 2 metres of his garden, how much will Mr Cox have to pay to fence the entire garden?",
+    "answer": "$1564",
+    "model": "geometry",
+    "hint": "Use the 34 m and 6 m labels to fill in all missing side lengths of the diagram. Add the outside edges only, then apply the cost per metre."
+  },
+  {
+    "id": 79,
+    "topic": "2-part Word Problems",
+    "question": "Mr Richard is 5 times as old as his son now. In 8 years’ time, their total ages will be 58 years. (a) What is his son’s present age? (b) How old will Mr Richard be in 8 years’ time?",
+    "answer": "(a) 7 years old; (b) 43 years old",
+    "model": "unit-bar",
+    "hint": "Remove the 8 future years for each person from 58. Split the present total into 5 equal units for Mr Richard and 1 unit for his son."
+  },
+  {
+    "id": 80,
+    "topic": "2-part Word Problems",
+    "question": "Jane and Mark had $240 altogether. When Jane gave Mark 1/2 of her money, Mark had 4 times as much money as Jane. (a) How much did Jane have at 1st? (b) How much did Mark have at 1st?",
+    "answer": "(a) $96; (b) $144",
+    "model": "money-units",
+    "hint": "After Jane gives away 1/2 her money, represent Jane's remaining money as 1 unit and Mark's final money as 4 units."
+  },
+  {
+    "id": 81,
+    "topic": "2-part Word Problems",
+    "question": "Mrs Fleming spent 1/3 of her money on a handbag and 3/4 of the remainder on jewellery. She then saved the rest. If she spent $450 on a bracelet and $90 on a pair of earrings, (a) how much money did she save? (b) how much money did she have at 1st?",
+    "answer": "(a) $180; (b) $1080",
+    "model": "fraction-of-remainder",
+    "hint": "Add the jewellery costs. This is 3/4 of the money remaining after the handbag, so the saved amount is the other 1/4."
+  },
+  {
+    "id": 82,
+    "topic": "2-part Word Problems",
+    "question": "Sean had some money. He used 2/3 of it to buy a watch and spent 3/4 of the remainder on a wallet. If the watch cost $65 more than the wallet, (a) how much money had Sean left? (b) how much money did Sean have at 1st?",
+    "answer": "(a) $13; (b) $156",
+    "model": "fraction-of-remainder",
+    "hint": "Let the total be 12 equal units. The watch and wallet differ by 5 units, which is $65."
+  },
+  {
+    "id": 83,
+    "topic": "2-part Word Problems",
+    "question": "1/3 of the books on a shelf are English books. 1/2 of the remainder are Chinese books and the rest are Malay books. 1/4 of the Chinese books are torn. If 54 Chinese books are not torn, (a) how many Malay books are there? (b) how many books are there altogether?",
+    "answer": "(a) 72 Malay books; (b) 216 books",
+    "model": "fraction-of-remainder",
+    "hint": "The 54 untorn Chinese books are 3/4 of all Chinese books. Then work backwards through the shelf fractions."
+  },
+  {
+    "id": 84,
+    "topic": "2-part Word Problems",
+    "question": "There were 250 students in a room. 2/5 of the girls and 1/10 of the boys wore spectacles. If the same number of boys and girls did not wear spectacles, (a) how many boys wore spectacles? (b) how many girls wore spectacles?",
+    "answer": "(a) 10 boys; (b) 60 girls",
+    "model": "unit-bar",
+    "hint": "Express the fractions not wearing spectacles: 3/5 of the girls and 9/10 of the boys. Make these equal using common-sized units."
+  },
+  {
+    "id": 85,
+    "topic": "2-part Word Problems",
+    "question": "At a football match, there were 3 times as many men as women and 2 times as many men as boys. 1/3 of the children were girls. If there were 120 girls, (a) how many boys were there? (b) how many adults were there?",
+    "answer": "(a) 240 boys; (b) 640 adults",
+    "model": "unit-bar",
+    "hint": "Since girls are 1/3 of the children, 1st find the boys. Then use the stated ratio between men and boys."
+  },
+  {
+    "id": 86,
+    "topic": "2-part Word Problems",
+    "question": "2/3 of the people at a fair wore hats. 1/6 of those who wore hats were men and the rest were women. There were 124 more women than men who wore hats at the fair. (a) How many people did not wear hats? (b) How many people were there at the fair?",
+    "answer": "(a) 93 people; (b) 279 people",
+    "model": "unit-bar",
+    "hint": "Split the hat wearers into 6 equal units. The difference between 5 units of women and 1 unit of men is $124 in people, not dollars."
+  },
+  {
+    "id": 87,
+    "topic": "2-part Word Problems",
+    "question": "2 numbers are written on a piece of paper. 1/5 of the 1st number is 12 more than 1/2 of the 2nd number. The sum of the 2 numbers is 221. (a) What is the 1st number? (b) What is the 2nd number?",
+    "answer": "(a) 175; (b) 46",
+    "model": "unit-bar",
+    "hint": "Use a common unit for 1/5 of the 1st number and 1/2 of the 2nd number. The 12-unit difference helps split their total."
+  },
+  {
+    "id": 88,
+    "topic": "2-part Word Problems",
+    "question": "Gracia had some pens. 2/5 of the pens were blue and 1/6 of the remainder were black. The rest were red and green. There were 12 more red pens than blue pens. If there were 24 green pens, (a) how many red and blue pens did Gracia have? (b) how many pens did Gracia have altogether?",
+    "answer": "(a) 300 red and blue pens; (b) 360 pens",
+    "model": "fraction-of-remainder",
+    "hint": "Represent all pens with 30 equal units so both 2/5 and 1/6 can be shown exactly. Use the 12 difference to find 1 unit."
+  },
+  {
+    "id": 89,
+    "topic": "2-part Word Problems",
+    "question": "The total number of oranges in cartons A and B was 324. When 3/7 of the oranges in carton A were sold, there were 2 times as many oranges in carton A than in carton B. (a) How many oranges were there in carton A at 1st? (b) How many oranges were there in carton B at 1st?",
+    "answer": "(a) 252 oranges; (b) 72 oranges",
+    "model": "bar-change",
+    "hint": "After the sale, carton A has 4/7 of its original oranges and is 2 times carton B. Turn the final ratio into original units."
+  },
+  {
+    "id": 90,
+    "topic": "2-part Word Problems",
+    "question": "On Monday, Mr Hall sold 246 lemons and Mr Clement sold 1/2 as many lemons as Mr Hall. On Tuesday, Mr Hall sold 83 lemons and Mr Clement sold some lemons. The total number of lemons sold by Mr Clement over the 2 days was 4/7 the number that Mr Hall sold. (a) How many lemons did Mr Clement sell on Tuesday? (b) How many lemons did both men sell altogether on both days?",
+    "answer": "(a) 65 lemons; (b) 517 lemons",
+    "model": "unit-bar",
+    "hint": "Find Mr Hall's 2-day total 1st. Use 4/7 of that total for Mr Clement's 2-day sales, then remove his Monday sales."
+  },
+  {
+    "id": 91,
+    "topic": "2-part Word Problems",
+    "question": "Cleo and Diana were given the same amount of money each day. Cleo spent 4/7 of her money and Diana spent 2/3 of her money every day. They then saved the rest of their money. After a week, Cleo saved $56 more than Diana. (a) How much money did Cleo spend a day? (b) How much money did Diana spend a day?",
+    "answer": "(a) $48; (b) $56",
+    "model": "fraction-of-remainder",
+    "hint": "Convert the weekly saving difference to a 1-day difference. Compare the saving fractions, 3/7 and 1/3, using a common denominator."
+  },
+  {
+    "id": 92,
+    "topic": "2-part Word Problems",
+    "question": "A box of apples costs 2/7 the price of a box of oranges. There are 1/3 as many apples as oranges in 1 box. If there are 90 oranges in 1 box and an orange costs 70¢, (a) how much does a box of apples cost? (b) how many apples are there in 1 box?",
+    "answer": "(a) $18; (b) 30 apples",
+    "model": "unit-bar",
+    "hint": "1st find the price of a box of oranges from 90 oranges. Then take 2/7 of that price; 1/3 of 90 gives the apple count."
+  },
+  {
+    "id": 93,
+    "topic": "2-part Word Problems",
+    "question": "Katherine and Leslie had a total of 140 sweets. When Leslie gave Katherine 1/4 of his sweets and Katherine ate 5 of her sweets, Katherine had 2 times as many sweets as Leslie. (a) How many sweets did Leslie have at 1st? (b) How many sweets did Katherine have at 1st?",
+    "answer": "(a) 60 sweets; (b) 80 sweets",
+    "model": "bar-change",
+    "hint": "After the transfer and Katherine's 5 eaten sweets, compare their final amounts as 2 units and 1 unit. Account for the 5 separately."
+  },
+  {
+    "id": 94,
+    "topic": "2-part Word Problems",
+    "question": "There were some pears and apples in a box. If 4 pears were taken out from the box, there would be an equal number of pears and apples in the box. If 7 pears were taken out from the box, there would be 4/5 as many pears as apples in the box. (a) How many apples were there in the box at 1st? (b) How many pears were there in the box at 1st?",
+    "answer": "(a) 15 apples; (b) 19 pears",
+    "model": "bar-change",
+    "hint": "The 1st condition says the original number of pears is 4 more than apples. Substitute that relationship into the 2nd condition."
+  },
+  {
+    "id": 95,
+    "topic": "2-part Word Problems",
+    "question": "There were some spectators at a tennis match. 1/3 of them belonged to the tennis club. 1/6 of those who did not belong to the club were adults and the rest were children. If there were 120 more children than adults who did not belong to the club, (a) how many people belonged to the tennis club? (b) how many spectators were there at the tennis match?",
+    "answer": "(a) 90 people; (b) 270 spectators",
+    "model": "unit-bar",
+    "hint": "Among non-members, adults are 1 unit and children are 5 units. Use their 4-unit difference, then relate non-members to the 1/3 club members."
+  },
+  {
+    "id": 96,
+    "topic": "2-part Word Problems",
+    "question": "5 apples cost as much as 2 papayas. Mrs Lynch could buy 18 papayas. If she had bought 12 papayas, she would have $30 left. (a) How much did each papaya cost? (b) How much would 3 apples and 3 papayas cost?",
+    "answer": "(a) $5; (b) $21",
+    "model": "money-units",
+    "hint": "The $30 left equals the price of 6 papayas. Then use 5 apples = 2 papayas to find the apple price."
+  },
+  {
+    "id": 97,
+    "topic": "2-part Word Problems",
+    "question": "Joey had some 20-cent and 10-cent coins. When she used 1/3 of them, she had $9.60 left. She used 1/2 as many 20-cent coins as 10-cent coins. (a) How many 20-cent coins did she use? (b) How many 10-cent coins did she use?",
+    "answer": "(a) 12 twenty-cent coins; (b) 24 ten-cent coins",
+    "model": "money-units",
+    "hint": "If 1/3 was used, the $9.60 remaining is 2/3 of the total value. Find the amount used, then test the 1:2 coin-count ratio."
+  },
+  {
+    "id": 98,
+    "topic": "2-part Word Problems",
+    "question": "James spent 1/5 of his money on a pair of shoes and 1/10 on a book. He saved 2/7 of the remaining money and the rest of the money was given to and shared equally among his 8 brothers. If each brother received $5, (a) how much money did James have at 1st? (b) how much money did James spend?",
+    "answer": "(a) $80; (b) $24",
+    "model": "fraction-of-remainder",
+    "hint": "The brothers received $40 altogether. It is 5 equal parts of the money remaining after the 1st 2 purchases; use that to work back."
+  },
+  {
+    "id": 99,
+    "topic": "2-part Word Problems",
+    "question": "Vivian and her brother had some money. After spending 2/5 of his money, her brother had $78 left. Vivian spent 1/3 of her money and had the same amount of money left as her brother. (a) How much money did Vivian have at 1st? (b) How much money did Vivian’s brother have at 1st?",
+    "answer": "(a) $117; (b) $130",
+    "model": "fraction-of-remainder",
+    "hint": "Vivian's $78 is 2/3 of her starting money, while her brother's $78 is 3/5 of his starting money."
+  },
+  {
+    "id": 100,
+    "topic": "2-part Word Problems",
+    "question": "A piece of wire is cut into 2 equal pieces. 1 piece is bent to form 2 similar squares with sides 12 cm. The other piece is bent into 3 similar rectangles, each with a breadth of 6 cm. (a) Find the length of the piece of wire at 1st. (b) Find the area of each rectangle.",
+    "answer": "(a) 192 cm; (b) 60 cm²",
+    "model": "geometry",
+    "hint": "Find the wire needed for 2 12 cm squares. That is 1/2 of the original wire and also the wire used for 3 rectangles."
+  },
+  {
+    "id": 101,
+    "topic": "2-part Word Problems",
+    "question": "The figure shows 3 identical rectangles. The shaded areas where the rectangles overlap form squares of 25 cm² each. Each rectangle is 13 cm by 9 cm. (a) Find the perimeter of the whole figure. (b) Find the total area of the unshaded parts.",
+    "answer": "(a) 92 cm; (b) 251 cm²",
+    "model": "geometry",
+    "hint": "Each overlap square has side 5 cm. Mark the exposed lengths around the outside, then subtract the overlap square(s) from each 13 cm by 9 cm rectangle."
+  }
+];

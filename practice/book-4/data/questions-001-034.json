@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "topic": "Comparison after a change",
+    "question": "On the 1st day of a school camp, there were 396 children. 27 boys left the camp on the 2nd day. If there were 2 times as many boys as girls who remained at the camp, how many boys were there on the 1st day of the camp?",
+    "answer": "273 boys",
+    "model": "bar-change",
+    "hint": "1st find how many children remained. Split that total into 2 equal units for boys and 1 equal unit for girls, then restore the boys who left."
+  },
+  {
+    "id": 2,
+    "topic": "Comparison after a change",
+    "question": "On Monday, Farmer Tom collected 3 times as many eggs as Farmer Jack. On Tuesday, Farmer Tom sold 160 eggs. Farmer Jack then had 2 times as many eggs as Farmer Tom. How many eggs did Farmer Jack have?",
+    "answer": "64 eggs",
+    "model": "bar-change",
+    "hint": "Draw Tom as 3 units and Jack as 1 unit before the sale. After the sale, Jack is 2 units more than Tom; use the 160-egg difference."
+  },
+  {
+    "id": 3,
+    "topic": "Age comparison",
+    "question": "When George is 15 years old, his sister is 8 years old and his father is 45 years old. How old will George's sister be when George is 1/2 his father's age?",
+    "answer": "23 years old",
+    "model": "bar-change",
+    "hint": "The father is always 30 years older than George. Find George's age when he is 1/2 his father's age, then add the same number of years to his sister's age."
+  },
+  {
+    "id": 4,
+    "topic": "Comparison after a change",
+    "question": "Linda and Serene had an equal number of balloons. After Linda used 16 balloons, Serene had 3 times as many balloons as Linda. How many balloons did Serene have?",
+    "answer": "24 balloons",
+    "model": "bar-change",
+    "hint": "After Linda uses balloons, Serene's unchanged amount is 3 equal units while Linda has 1. The 2-unit difference is 16."
+  },
+  {
+    "id": 5,
+    "topic": "Equal sharing",
+    "question": "Jennifer had a party. She wanted to give an equal number of balloons to her 6 friends. If 1 of her friends did not turn up for the party, the rest would be able to receive another 2 balloons each. How many balloons did Jennifer have?",
+    "answer": "60 balloons",
+    "model": "unit-bar",
+    "hint": "With 1 friend absent, 5 friends each receive 2 more balloons. That extra distribution accounts for 10 balloons; use it to find each original share."
+  },
+  {
+    "id": 6,
+    "topic": "Equal additions and ratios",
+    "question": "Anna had 3 times as many beads as Zoe. They had 480 beads altogether. Mrs Taylor gave an equal number of beads to each of them. Zoe then had 1/2 the number of beads that Anna had. How many beads did Mrs Taylor give them?",
+    "answer": "240 beads each",
+    "model": "bar-change",
+    "hint": "At 1st, Anna and Zoe are 3 units and 1 unit. Equal additions do not change their difference; after the gifts, Anna is 2 units more than Zoe."
+  },
+  {
+    "id": 7,
+    "topic": "Remainders and arrangements",
+    "question": "Helen had to arrange some chairs in a fixed number of rows. She estimated that there were more than 30 but fewer than 70 chairs. If she put 8 chairs in 1 row, she would be 7 chairs short. If she put 7 chairs in 1 row, she would have 2 chairs left. How many chairs were there?",
+    "answer": "65 chairs",
+    "model": "unit-bar",
+    "hint": "Look for a number between 31 and 69 that is 2 more than a multiple of 7 and 7 less than a multiple of 8."
+  },
+  {
+    "id": 8,
+    "topic": "Comparison after a transfer",
+    "question": "Zack and Mandy shared 120 sweets. After Zack gave Mandy 10 sweets, he had 2 times as many sweets as Mandy. How many sweets did each of them have at 1st?",
+    "answer": "Mandy: 30 sweets; Zack: 90 sweets",
+    "model": "bar-change",
+    "hint": "After the transfer, Zack and Mandy are in a 2:1 ratio. Use the total of 120 to find their after-transfer amounts, then reverse the 10-sweet transfer."
+  },
+  {
+    "id": 9,
+    "topic": "Comparison after removal",
+    "question": "A basket contained 4 times as many blue balls as red balls. After 21 blue balls were taken away, there were 2 times as many red balls as blue balls. How many balls were there in the basket at 1st?",
+    "answer": "30 balls",
+    "model": "bar-change",
+    "hint": "Represent the original blue balls as 4 units and red balls as 1 unit. After 21 blue balls are removed, compare the new blue amount with 2 times the red amount."
+  },
+  {
+    "id": 10,
+    "topic": "Money comparison",
+    "question": "Nancy had 1/3 as much money as Ben. Lucy had $20 more than Ben. They had $132 altogether. How much did each of them have?",
+    "answer": "Nancy: $16; Ben: $48; Lucy: $68",
+    "model": "money-units",
+    "hint": "Let Nancy be 1 unit and Ben be 3 units. Remove Lucy's extra $20 from the total before dividing the remaining 7 units."
+  },
+  {
+    "id": 11,
+    "topic": "Mass with fractions",
+    "question": "There were 3 parcels, A, B and C. The mass of Parcel B was 3/4 kg less than the mass of Parcel A. The mass of Parcel C was 2/3 kg more than the mass of Parcel B. If the mass of Parcel A was 4 1/2 kg, what was the mass of Parcel C?",
+    "answer": "4 5/12 kg",
+    "model": "mass-bar",
+    "hint": "Subtract 3/4 kg from 4 1/2 kg to find Parcel B, then add 2/3 kg. Use a common denominator when adding or subtracting fractions."
+  },
+  {
+    "id": 12,
+    "topic": "Fractions of salary",
+    "question": "Mr Rice spent 1/5 of his salary on food and 2/3 on clothing. 1/2 of the remaining amount was given to his wife and he saved the rest. If he had saved $520, what was Mr Rice's salary?",
+    "answer": "$7800",
+    "model": "fraction-of-remainder",
+    "hint": "Express 1/5 and 2/3 in fifteenths. After food and clothing, split the remaining fraction equally between his wife and his savings."
+  },
+  {
+    "id": 13,
+    "topic": "Fractions of a remainder",
+    "question": "Sam had some marbles. He gave 1/7 of them to his brother. 2/3 of the remaining marbles were given to his cousin. The rest were kept in a box. If 48 marbles were kept in the box, how many more marbles did Sam give to his cousin than to his brother?",
+    "answer": "72 marbles",
+    "model": "fraction-of-remainder",
+    "hint": "After giving 1/7 away, the remaining 6/7 is split into 2/3 for the cousin and 1/3 kept. Work backwards from the 48 kept marbles."
+  },
+  {
+    "id": 14,
+    "topic": "Fractions and subtraction",
+    "question": "Mrs Anderson bought 60 eggs. She used 2/5 of them to bake cakes. She used some eggs to bake cookies. She had 12 eggs left. How many eggs did she use for baking cookies?",
+    "answer": "24 eggs",
+    "model": "fraction-of-remainder",
+    "hint": "Find 2/5 of 60 for the cakes, then subtract both the cake eggs and the eggs left from 60."
+  },
+  {
+    "id": 15,
+    "topic": "Fractional groups",
+    "question": "2/7 of the members in a country club are men. There are 1050 women below 50 years old. If there are 960 more women than men in the country club, how many women are above 50 years old?",
+    "answer": "550 women",
+    "model": "unit-bar",
+    "hint": "If men are 2/7 of the club, women are 5/7. The difference between women and men is 3 equal units, which is 960."
+  },
+  {
+    "id": 16,
+    "topic": "Money and note counts",
+    "question": "Stephanie had a total of 80 pieces of $2 and $10 notes. After spending 2/5 of her $2 notes and 8 pieces of her $10 notes, she had an equal number of $2 and $10 notes left. How much money did Stephanie have at 1st?",
+    "answer": "$440",
+    "model": "money-units",
+    "hint": "The 2 kinds of notes left are equal. Since 8 $10 notes were spent, use the total note count to find each original count before calculating the money."
+  },
+  {
+    "id": 17,
+    "topic": "Fractions of groups",
+    "question": "3/5 of the animals on a farm are ducks and the rest are chickens. 1/5 of the chickens are brown and the rest are white. If there are 24 white chickens, how many more ducks than chickens are there on the farm?",
+    "answer": "15 more ducks",
+    "model": "fraction-of-remainder",
+    "hint": "White chickens are 4/5 of all chickens. Find the total chickens 1st, then use the 3:2 ratio of ducks to chickens."
+  },
+  {
+    "id": 18,
+    "topic": "Monthly savings",
+    "question": "Susan earns $2450 a month. She spends 2/5 of it and saves the rest. Andy earns $800 less than Susan. He spends $180 more than Susan each month and saves the rest. How much more can Susan save than Andy in 1/2 a year?",
+    "answer": "$5880",
+    "model": "money-units",
+    "hint": "Find Susan's monthly saving, then subtract Andy's lower income and extra spending to get his monthly saving. Multiply the monthly difference by 6."
+  },
+  {
+    "id": 19,
+    "topic": "Mass with mixed numbers",
+    "question": "On Monday, a shopkeeper sold 12 1/2 kg of flour. He sold 5/6 kg more flour on Tuesday than on Monday. On Wednesday, he sold 1 1/3 kg less flour than on Tuesday. He then had 1/3 kg of flour left in his shop. How much flour did he have at 1st?",
+    "answer": "38 1/6 kg",
+    "model": "mass-bar",
+    "hint": "Calculate Tuesday from Monday, then Wednesday from Tuesday. Add the 3 daily sales and the flour left, using sixths as a common denominator."
+  },
+  {
+    "id": 20,
+    "topic": "Fractions of a remainder",
+    "question": "2/7 of the toy cars in a box are silver. 1/10 of the remainder are yellow and the rest are black. If there are 28 silver toy cars, how many black toy cars are there in the box?",
+    "answer": "63 black toy cars",
+    "model": "fraction-of-remainder",
+    "hint": "Use the silver cars to find the total. Yellow cars are 1/10 of the 5/7 remainder; subtract silver and yellow from the total."
+  },
+  {
+    "id": 21,
+    "topic": "Fractions after giving",
+    "question": "Andrew and Ryan shared some chocolates. Andrew gave away 1/4 of his chocolates. 1/4 of the given chocolates were taken by Ryan. Ryan then had the same number of chocolates as Andrew. If Andrew gave away 12 chocolates, how many chocolates did each of them have at 1st?",
+    "answer": "Andrew: 48 chocolates; Ryan: 33 chocolates",
+    "model": "fraction-of-remainder",
+    "hint": "The 12 chocolates given away are 1/4 of Andrew's original amount. Ryan receives 1/4 of those 12; use the equal final amounts to work backwards."
+  },
+  {
+    "id": 22,
+    "topic": "Equalising two quantities",
+    "question": "Boxes A and B contained 112 pencils. When 1/5 of the pencils in box A were transferred to box B, both boxes contained the same number of pencils. How many more pencils were there in box A than in box B at 1st?",
+    "answer": "28 pencils",
+    "model": "bar-change",
+    "hint": "After transferring 1/5 of Box A, both boxes are equal. Draw Box A as 5 units and compare the before-and-after total of 112."
+  },
+  {
+    "id": 23,
+    "topic": "Fractions of salary",
+    "question": "Andrea spent 1/5 of her salary on food and 1/10 on transport. She gave the remaining amount to her 3 brothers equally. 1 of her brothers spent all his money on a radio and a watch that cost $86 and $145 respectively. What was Andrea's salary?",
+    "answer": "$990",
+    "model": "fraction-of-remainder",
+    "hint": "1 brother received $86 + $145. Multiply by 3 for the total remainder, then recognise that this remainder is 7/10 of Andrea's salary."
+  },
+  {
+    "id": 24,
+    "topic": "Comparison after a transfer",
+    "question": "Ann and James had some stickers. After Ann gave James 1/4 of her stickers, James had 2 times as many stickers as Ann. If they had a total of 117 stickers, how many stickers did each of them have in the beginning?",
+    "answer": "James: 65 stickers; Ann: 52 stickers",
+    "model": "bar-change",
+    "hint": "Treat Ann's original amount as 4 equal parts. After 1 part moves to James, the final ratio is 2:1; use the unchanged total of 117."
+  },
+  {
+    "id": 25,
+    "topic": "Nested fractions of money",
+    "question": "Mrs Brown gave 4/7 of her money to her son. He spent 2/5 of the money on a pair of shoes and the rest on 2 books that cost $18 each. How much did Mrs Brown have at 1st?",
+    "answer": "$105",
+    "model": "fraction-of-remainder",
+    "hint": "The books cost $36, which is the 3/5 of the son's money left after shoes. Find the son's amount, then scale from 4/7 to all of Mrs Brown's money."
+  },
+  {
+    "id": 26,
+    "topic": "Fractional comparisons",
+    "question": "Ray sold 2/3 of the charity tickets that Cindy sold. Cindy sold 3/4 of the charity tickets that Gina sold. Each charity ticket cost $2. The children collected a total of $648. How many charity tickets did Gina sell?",
+    "answer": "144 charity tickets",
+    "model": "unit-bar",
+    "hint": "1st convert $648 to a total number of tickets. Use a common unit bar: Gina, Cindy, and Ray can be represented by 4, 3, and 2 units."
+  },
+  {
+    "id": 27,
+    "topic": "Fractions of two groups",
+    "question": "There were 3/4 as many sweets in box A as in box B. 1/2 of the sweets in box A and 3/8 of the sweets in box B were removed. There were then 152 sweets left in both boxes altogether. How many sweets were there in each box at 1st?",
+    "answer": "Box A: 114 sweets; Box B: 152 sweets",
+    "model": "fraction-of-remainder",
+    "hint": "Change 3/4 to 6/8 and model Box A and Box B in eighths. Then keep 1/2 of A and 5/8 of B to represent the 152 remaining sweets."
+  },
+  {
+    "id": 28,
+    "topic": "Money after spending",
+    "question": "After their shopping trip, Mike spent 3/5 of his money, Evon spent 1/2 of hers and Sue spent $50. They then had the same amount of money left. If the total amount of money left was $54, what was the total amount of money Mike and Sue had at 1st?",
+    "answer": "$113",
+    "model": "money-units",
+    "hint": "The 3 equal amounts left total $54. Express Mike's original money as 5 units and Sue's as her equal leftover plus the $50 she spent."
+  },
+  {
+    "id": 29,
+    "topic": "Multiplicative comparison",
+    "question": "A baker sold 2 times as many buns on Sunday than on Saturday. On Monday, he sold 1/4 of the buns he sold on Sunday. If he sold a total of 1260 buns during the 3 days, how many buns did he sell on Sunday?",
+    "answer": "720 buns",
+    "model": "unit-bar",
+    "hint": "If Saturday is 1 unit, Sunday is 2 units and Monday is 1/2 unit. Use a common denominator so all 3 days form whole equal units."
+  },
+  {
+    "id": 30,
+    "topic": "Money comparison with fractions",
+    "question": "Joan and Alan had some money. 2/3 of Joan's money was 1/2 of what Alan had. If Alan spent all his money on a book that cost $45 and a wallet that cost $98, how much did Joan and Alan have altogether?",
+    "answer": "$250.25",
+    "model": "money-units",
+    "hint": "Find Alan's money from the book and wallet. If 2/3 of Joan equals 1/2 of Alan, make both amounts use the same 6-part bar."
+  },
+  {
+    "id": 31,
+    "topic": "Transfers and removal",
+    "question": "Boxes A and B contained 150 marbles altogether. When 1/3 of the marbles in box A were transferred to box B and 12 marbles were taken out from box B, there were 2 times as many marbles in box B than in box A. How many marbles were there in box B in the beginning?",
+    "answer": "81 marbles",
+    "model": "bar-change",
+    "hint": "After the 12 marbles are removed, 138 remain and the final boxes are in a 1:2 ratio. Reverse the transfer of 1/3 of Box A to recover Box B's starting amount."
+  },
+  {
+    "id": 32,
+    "topic": "Sale price fractions",
+    "question": "During a sale, Betty bought a watch at 3/5 of its normal price. She then had $220 left. If she had bought the watch at its normal price, she would be $10 short. What was the normal price of the watch?",
+    "answer": "$575",
+    "model": "money-units",
+    "hint": "The difference between paying 3/5 of the price and the full price is $220 + $10. That difference is 2/5 of the normal price."
+  },
+  {
+    "id": 33,
+    "topic": "Successive fractions of a remainder",
+    "question": "Mr Smith sold 1/4 of his eggs on Monday and 1/4 of the remainder on Tuesday. The rest were sold on Wednesday. If he sold 144 eggs on Wednesday, how many eggs did he have in the beginning?",
+    "answer": "256 eggs",
+    "model": "fraction-of-remainder",
+    "hint": "After Monday, 3/4 remains. Wednesday is 3/4 of that remainder, so it is 9/16 of the original number of eggs."
+  },
+  {
+    "id": 34,
+    "topic": "Money and price comparison",
+    "question": "Sam could buy 4 magazines and 3 books with all his money. He decided to buy 2 magazines and a book. He then had $84 left. If a magazine cost 1/3 the price of a book, how much did Sam have at 1st?",
+    "answer": "$136.50",
+    "model": "money-units",
+    "hint": "Represent 1 magazine as 1 unit and 1 book as 3 units. The unspent items are 2 magazines and 2 books, worth 8 units and equal to $84."
+  }
+]

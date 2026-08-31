@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "topic": "Addition within 100",
+    "question": "Tom has 18 oranges. Mary has 17 oranges. How many oranges do they have altogether?",
+    "answer": "35",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 2,
+    "topic": "Addition within 100",
+    "question": "Peter has 24 stickers. Jane has 9 stickers more than him. How many stickers do they have altogether?",
+    "answer": "57",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 3,
+    "topic": "Addition within 100",
+    "question": "Mr Adam has some eggs. He sells 24 eggs in the morning and 10 eggs in the afternoon. He has 25 eggs left. How many eggs does he have at first?",
+    "answer": "59",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 4,
+    "topic": "Addition within 100",
+    "question": "There are 8 boys and 6 girls in class A and 12 students in class B. How many students are there in the 2 classes?",
+    "answer": "26",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 5,
+    "topic": "Addition within 100",
+    "question": "Peter has some paperclips. He uses 15 of them and gives 6 paperclips to his sister. He has 17 paperclips left. How many paperclips does he have at first?",
+    "answer": "38",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 6,
+    "topic": "Addition within 100",
+    "question": "Tom has 28 balloons. Jim has 23 balloons more than him. How many balloons do they have altogether?",
+    "answer": "79",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 7,
+    "topic": "Addition within 100",
+    "question": "Ann has some apples. She sells 28 apples and has 15 apples left. How many apples does she have at first?",
+    "answer": "43",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 8,
+    "topic": "Addition within 100",
+    "question": "John buys 21 yellow paperclips and 10 more green paperclips than yellow paperclips. Sean buys 15 paperclips more than John. How many paperclips does Sean buy?",
+    "answer": "67",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 9,
+    "topic": "Addition within 100",
+    "question": "There are 11 green balls in a basket. Peter puts 15 orange balls and 21 purple balls into the basket. How many balls are there in the basket altogether?",
+    "answer": "47",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 10,
+    "topic": "Addition within 100",
+    "question": "A florist sells 26 orchids, 32 carnations and 18 roses. How many flowers does she sell altogether?",
+    "answer": "76",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 11,
+    "topic": "Addition within 100",
+    "question": "There are 9 apples in a basket. Another 12 red apples and 16 green apples are put into the basket. How many apples are there altogether?",
+    "answer": "37",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 12,
+    "topic": "Addition within 100",
+    "question": "Jack sells 24 charity tickets. He sells 17 charity tickets fewer than Mary. How many charity tickets do they sell altogether?",
+    "answer": "65",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 13,
+    "topic": "Addition within 100",
+    "question": "A shirt costs $41. 1 pair of pants costs $12 more than the shirt. How much do the shirt and the pair of pants cost altogether?",
+    "answer": "94",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 14,
+    "topic": "Addition within 100",
+    "question": "1 magazine costs $5 more than 1 book. The magazine costs $9. What is the cost of 3 such books?",
+    "answer": "12",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 15,
+    "topic": "Subtraction within 100",
+    "question": "Jack has 26 balloons. Linda has 55 balloons. How many more balloons must Jack buy so that he will have the same number of balloons as Linda?",
+    "answer": "29",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 16,
+    "topic": "Subtraction within 100",
+    "question": "When a number is subtracted from another, the answer is 12. If the bigger number is 17, what is the smaller number?",
+    "answer": "5",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 17,
+    "topic": "Subtraction within 100",
+    "question": "Mr Cook buys 17 tickets for a concert. He gives 5 tickets to his friends and uses the rest of the tickets to take his family to the concert. How many people are there in Mr Cook's family?",
+    "answer": "12",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 18,
+    "topic": "Subtraction within 100",
+    "question": "Alice has 23 stamps. She gives her mother 15 stamps. How many stamps does she have in the end?",
+    "answer": "8",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 19,
+    "topic": "Subtraction within 100",
+    "question": "13 more than a number is 38. What is the number?",
+    "answer": "25",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 20,
+    "topic": "Subtraction within 100",
+    "question": "There are 72 people at a party. 20 of them are children and the rest are adults. How many more adults than children are there?",
+    "answer": "32",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 21,
+    "topic": "Subtraction within 100",
+    "question": "There are 38 soldiers in a field. 15 of them wear green uniforms and the rest wear brown uniforms. How many more soldiers wear brown uniforms than green uniforms?",
+    "answer": "8",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 22,
+    "topic": "Subtraction within 100",
+    "question": "When 2 numbers are added together, the answer is 30. If 1 of the numbers is 12, what is the other number?",
+    "answer": "18",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 23,
+    "topic": "Subtraction within 100",
+    "question": "A watch and a clock cost $68 at a sale. The watch costs $39. How much more does the watch cost than the clock?",
+    "answer": "10",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 24,
+    "topic": "Subtraction within 100",
+    "question": "Jim has $80. Linda has $36. How much more money does Jim have than Linda?",
+    "answer": "44",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 25,
+    "topic": "Subtraction within 100",
+    "question": "Mary buys a toaster for $38. She gives the cashier $50. How much change does she get?",
+    "answer": "12",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 26,
+    "topic": "Subtraction within 100",
+    "question": "Tim has $95. He spends $26 and saves the rest of his money. How much does he save?",
+    "answer": "69",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 27,
+    "topic": "Multiplication",
+    "question": "There are 8 boy scouts in a group. Each boy scout has 3 badges. How many badges do they have altogether?",
+    "answer": "24",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 28,
+    "topic": "Multiplication",
+    "question": "Peter drinks 2 glasses of milk each day. How many glasses of milk does he drink in 1 week?",
+    "answer": "14",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 29,
+    "topic": "Multiplication",
+    "question": "Alice puts 8 stamps on every page of her stamp album. There are 5 pages in her album. How many stamps does she have altogether?",
+    "answer": "40",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 30,
+    "topic": "Multiplication",
+    "question": "There are 6 flowers in a bouquet. Betty buys 3 such bouquets. How many flowers does she buy altogether?",
+    "answer": "18",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 31,
+    "topic": "Division",
+    "question": "Mrs Wood bakes 18 cakes. She puts them equally into 3 boxes. How many cakes are there in each box?",
+    "answer": "6",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 32,
+    "topic": "Division",
+    "question": "Andrew reads 4 pages of a book each day. How many days will he take to finish reading a 32-page book?",
+    "answer": "8",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 33,
+    "topic": "Division",
+    "question": "Mr Cook buys 12 eggs. He puts them equally into 4 bags. How many eggs are there in each bag?",
+    "answer": "3",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 34,
+    "topic": "Division",
+    "question": "1 packet of tomatoes costs $2. Mrs Fay has $10. How many packets of tomatoes can she buy with all her money?",
+    "answer": "5",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  }
+]

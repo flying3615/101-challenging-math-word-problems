@@ -1,0 +1,813 @@
+{
+  "title": "Book 5 Challenge Library",
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Four Operations",
+      "question": "In a game for 24 groups, the average number of children was 16. When 1 more group of children joined the game, the average number of children became 18. The boys and girls who joined were in the ratio 5 : 6. If there were 220 boys at 1st, how many more boys than girls were there in the end?",
+      "answer": "50 more boys",
+      "model": "unit-bar",
+      "hint": "Find the totals for 24 and 25 groups. Split the new group's children into 5 boy-units and 6 girl-units, then compare the final totals."
+    },
+    {
+      "id": 2,
+      "topic": "Four Operations",
+      "question": "1/2 of a number is 90 more than 1/5 of the same number. What is the number?",
+      "answer": "300",
+      "model": "unit-bar",
+      "hint": "Represent the whole number using a denominator of 10. The difference between 1/2 and 1/5 is the part worth 90."
+    },
+    {
+      "id": 3,
+      "topic": "Four Operations",
+      "question": "A florist arranges some orchids in bouquets of 20 and some roses in bouquets of 10. She sells each orchid bouquet for $25 and each rose bouquet for $30. She earns $390 altogether. If she sells 4 times as many orchid bouquets as rose bouquets, how many flowers does she sell altogether?",
+      "answer": "270 flowers",
+      "model": "money-units",
+      "hint": "Make 1 set from 4 orchid bouquets and 1 rose bouquet. Find the money and number of flowers in each set."
+    },
+    {
+      "id": 4,
+      "topic": "Four Operations",
+      "question": "Ken and Ivan had some sweets. After Ken gave away 5/7 of his sweets, he had 2/3 as many sweets as Ivan. Ivan then gave away 120 sweets and he had 1/4 as many sweets as Ken. How many sweets did each of them have at 1st?",
+      "answer": "Ivan: 144 sweets; Ken: 336 sweets",
+      "model": "bar-change",
+      "hint": "Use the 1st condition to relate Ken's remaining 2 parts to Ivan's 3 parts. Then use Ivan's 120-sweet change and the 1:4 comparison."
+    },
+    {
+      "id": 5,
+      "topic": "Four Operations",
+      "question": "Hotel A and Hotel B had 6500 guests altogether. After 3/4 of the guests in Hotel A and 3/5 of the guests in Hotel B checked out, there were 260 more guests in Hotel B than in Hotel A. How many guests did Hotel A have at 1st?",
+      "answer": "3600 guests",
+      "model": "bar-change",
+      "hint": "Model the remaining guests as 1/4 of Hotel A and 2/5 of Hotel B. Use the 260 difference, then the original total."
+    },
+    {
+      "id": 6,
+      "topic": "Four Operations",
+      "question": "There were 900 sweets in 3 boxes, A, B and C. 18 sweets were transferred from A to B and 5 sweets were transferred from B to C. Then 1/3 of the sweets in C were transferred to A. There was an equal number of sweets in all 3 boxes. How many sweets were there in each box at 1st?",
+      "answer": "Box A: 168 sweets; Box B: 287 sweets; Box C: 445 sweets",
+      "model": "bar-change",
+      "hint": "Start with the equal final amount in each box. Reverse the transfer from C to A, then reverse the 2 earlier transfers."
+    },
+    {
+      "id": 7,
+      "topic": "Four Operations",
+      "question": "Some boys and girls took part in a competition. 2/5 of the competitors were boys. 1/3 of the boys were disqualified. If there were 135 competitors at 1st, how many more girls than boys were left?",
+      "answer": "45 more girls",
+      "model": "fraction-of-remainder",
+      "hint": "Find the original boys and girls. Only 2/3 of the boys remain; compare that with the unchanged number of girls."
+    },
+    {
+      "id": 8,
+      "topic": "Four Operations",
+      "question": "Mrs Walker had some lemons. She put 1/2 of the lemons equally into 5 bags and the other 1/2 equally into 6 containers. There were 63 lemons in 1 bag and 3 containers altogether. How many lemons did Mrs Walker have?",
+      "answer": "180 lemons",
+      "model": "unit-bar",
+      "hint": "Express the lemons in 1 bag and 3 containers as fractions of the total, then use their combined 63 lemons."
+    },
+    {
+      "id": 9,
+      "topic": "Four Operations",
+      "question": "The ratio of the number of biscuits that Andy and Betty had was 2 : 5. After Andy bought 24 more biscuits, the ratio became 16 : 10. If there were 6 biscuits in a pack, how many packs of biscuits would Betty have to buy so that they would have the same number of biscuits in the end?",
+      "answer": "2 packs of biscuits",
+      "model": "bar-change",
+      "hint": "Compare the 2 ratios using the 24 extra biscuits to find Betty's amount. Then find how many more biscuits Betty needs and convert to packs."
+    },
+    {
+      "id": 10,
+      "topic": "Four Operations",
+      "question": "Megan and Olivia had some money. They made a donation of $100 together. Megan donated 1/5 of her money. After donating $24, Olivia found that she had $32 more than Megan. What was the sum of money both of them had at 1st?",
+      "answer": "$740",
+      "model": "money-units",
+      "hint": "Olivia donated $24, so find Megan's donation from the $100 total. Use Megan's 1/5 donation to model the money she had left."
+    },
+    {
+      "id": 11,
+      "topic": "Four Operations",
+      "question": "Mrs Benjamin baked some butter cookies and chocolate chip cookies in the ratio 7 : 3. After giving away 24 butter cookies, the ratio of butter cookies to chocolate chip cookies was 11 : 6. She then packed the remaining cookies into bags of 4 without mixing them. How many bags of cookies of each type did she have?",
+      "answer": "22 bags of butter cookies; 12 bags of chocolate chip cookies",
+      "model": "bar-change",
+      "hint": "Make the chocolate-chip parts in both ratios equal. The drop in butter-cookie parts represents the 24 cookies given away."
+    },
+    {
+      "id": 12,
+      "topic": "Four Operations",
+      "question": "There were some red, yellow and blue toy cars in a box. 3/8 of the toy cars were red and 26 were blue. The rest were yellow. If there were 12 fewer yellow toy cars than blue toy cars, how many red toy cars were there?",
+      "answer": "24 red toy cars",
+      "model": "unit-bar",
+      "hint": "Use the 12-car difference to find the yellow cars. Then combine yellow and blue cars and relate that total to the 5/8 that are not red."
+    },
+    {
+      "id": 13,
+      "topic": "Four Operations",
+      "question": "There were 900 oranges and apples in a box. When 7/9 of the oranges and 2/3 of the apples were taken out, there was an equal number of oranges and apples left. How many more oranges than apples were there at 1st?",
+      "answer": "180 more oranges",
+      "model": "fraction-of-remainder",
+      "hint": "The remaining oranges are 2/9 of the original oranges and the remaining apples are 1/3 of the original apples. Make these equal."
+    },
+    {
+      "id": 14,
+      "topic": "Four Operations",
+      "question": "There were 48 entries from Primary 1 and Primary 2 in a storytelling competition. The rest were from Primary 3. If 30 entries were not from Primary 1 and 28 entries were not from Primary 2, how many entries were there altogether?",
+      "answer": "53 entries",
+      "model": "unit-bar",
+      "hint": "Let the Primary 3 entries be the unknown group. Add the 2 statements about entries not from Primary 1 and not from Primary 2, then account for the Primary 3 entries counted 2 times."
+    },
+    {
+      "id": 15,
+      "topic": "Four Operations",
+      "question": "In a kindergarten, 12% of the students are Malays and the rest are Chinese. 50% of the Chinese and 12.5% of the Malays are boys. There are 912 more Chinese than Malay students. How many girls are there in the kindergarten?",
+      "answer": "654 girls",
+      "model": "unit-bar",
+      "hint": "The Chinese–Malay difference is 76% of the kindergarten. Find each group, then calculate the girls in each group."
+    },
+    {
+      "id": 16,
+      "topic": "Four Operations",
+      "question": "The ratio of oranges to papayas in a basket is 3 : 5. After 1/4 of the oranges and 1/2 of the papayas are eaten, there are 16 more papayas than oranges. How many fruit of each type are there in the basket at 1st?",
+      "answer": "192 oranges; 320 papayas",
+      "model": "fraction-of-remainder",
+      "hint": "Scale the 3:5 ratio so the remaining fractions, 3/4 and 1/2, give whole comparable units. Use the 16-fruit difference."
+    },
+    {
+      "id": 17,
+      "topic": "Four Operations",
+      "question": "Terence and Cynthia had some balloons in the ratio 5 : 9. When 15 of Terence's balloons burst, the ratio of Terence's to Cynthia's balloons was 10 : 27. How many balloons did each of them have at 1st?",
+      "answer": "Terence: 45 balloons; Cynthia: 81 balloons",
+      "model": "bar-change",
+      "hint": "Make Cynthia's 9 parts and 27 parts comparable. The difference in Terence's matching parts is the 15 balloons that burst."
+    },
+    {
+      "id": 18,
+      "topic": "Four Operations",
+      "question": "Mr Willis had some oranges and pears. 60% of them were oranges. 70% of the pears and 40% of the oranges were sold. 240 fruit were not sold. How many fruit did Mr Willis have at 1st?",
+      "answer": "500 fruit",
+      "model": "fraction-of-remainder",
+      "hint": "Find what percentage of each fruit type remained, then combine those portions using the 60%:40% original split."
+    },
+    {
+      "id": 19,
+      "topic": "Four Operations",
+      "question": "Joel and Anson have some marbles in the ratio 7 : 5. If Joel gives Anson 36 marbles, Anson will have 2 times as many marbles as Joel. How many marbles do they have altogether?",
+      "answer": "144 marbles",
+      "model": "bar-change",
+      "hint": "Draw the 7:5 ratio, then move 36 marbles from Joel to Anson. Compare the final 1:2 ratio."
+    },
+    {
+      "id": 20,
+      "topic": "Four Operations",
+      "question": "There were 750 shirts in a box. 20% were pink and 18% were green. The remaining shirts were either yellow or black. If there were 85 more black shirts than yellow shirts, what was the total number of black and green shirts in the box?",
+      "answer": "410 black and green shirts",
+      "model": "unit-bar",
+      "hint": "First remove the pink and green shirts. Split the remaining yellow-and-black total into 2 quantities with a difference of 85."
+    },
+    {
+      "id": 21,
+      "topic": "Four Operations",
+      "question": "There are some apples in 3 baskets, A, B and C. The ratio of the number of apples in A to B is 5 : 3. There are 112 apples in C. If the ratio of the total number of apples in A and B to the number of apples in C is 6 : 2, how many more apples are there in A than in B?",
+      "answer": "84 more apples",
+      "model": "unit-bar",
+      "hint": "Use Basket C and the 6:2 ratio to find A + B. Then divide that total in the 5:3 ratio and compare the 2 baskets."
+    },
+    {
+      "id": 22,
+      "topic": "Four Operations",
+      "question": "There were some red, blue and green rubber bands in a box. 2/5 of the rubber bands were red. There were 40 green rubber bands and 24 more blue rubber bands than red rubber bands. How many rubber bands were there altogether?",
+      "answer": "320 rubber bands",
+      "model": "unit-bar",
+      "hint": "The blue and green rubber bands together make the 3/5 that are not red. Use the 24 difference and 40 green rubber bands to form that total."
+    },
+    {
+      "id": 23,
+      "topic": "Four Operations",
+      "question": "Francis, Philip and Jamie had $0.20, $0.50 and $1 coins respectively. Francis had 5 times as many coins as Jamie. Philip had 1/2 the number of coins that Jamie had. If Philip had 27 fewer coins than Francis, how much money did they have altogether?",
+      "answer": "$13.50",
+      "model": "money-units",
+      "hint": "Express the 3 coin counts in a common ratio. The difference between Francis and Philip is 27 coins; then apply each coin value."
+    },
+    {
+      "id": 24,
+      "topic": "Four Operations",
+      "question": "There were some apple pies and lemon pies in 2 boxes, A and B. Box A had 40% of the total number of pies. Box B had 12 apple pies. If 75% of the pies in Box B were lemon pies, what was the total number of pies in both boxes?",
+      "answer": "80 pies",
+      "model": "unit-bar",
+      "hint": "The apple pies are the 25% of Box B that are not lemon pies. Find Box B, then use its 60% share of the total."
+    },
+    {
+      "id": 25,
+      "topic": "Four Operations",
+      "question": "Juliana and Patrick had some marbles. If Juliana gave Patrick 20 marbles, both would have an equal number of marbles. If Patrick gave Juliana 20 marbles, Juliana would have 3 times as many marbles as Patrick. Find the number of marbles that each had at 1st.",
+      "answer": "Juliana: 100 marbles; Patrick: 60 marbles",
+      "model": "bar-change",
+      "hint": "The 1st transfer shows the original difference. Use the reversed transfer to form the 3:1 comparison, then solve with 20-marble units."
+    },
+    {
+      "id": 26,
+      "topic": "Four Operations",
+      "question": "On Sunday, Mrs Campbell baked some cookies and put all of them into a box. She then took out 2/5 of them. Of these, 15 were given away and the remaining 23 were eaten. On Monday, she baked another tray of cookies and put 3/4 of them into the same box. There were then 183 cookies in the box altogether. How many cookies did Mrs Campbell bake on Monday?",
+      "answer": "168 cookies",
+      "model": "fraction-of-remainder",
+      "hint": "The 15 given away and 23 eaten make the 2/5 removed on Sunday. Find what stayed in the box, then find the Monday amount from its 3/4 portion."
+    },
+    {
+      "id": 27,
+      "topic": "Four Operations",
+      "question": "A bag of sweets was shared among Bob, Nancy, Lucy and Nicholas. Bob had 2 times as many sweets as Nancy. Lucy had 1/2 the total number of sweets that Bob and Nancy had. Nicholas had 90 sweets, which was 3 times as many sweets as Lucy had. How many sweets were there in the bag?",
+      "answer": "180 sweets",
+      "model": "unit-bar",
+      "hint": "Use Nicholas's sweets to find Lucy's. Then let Nancy be 1 unit, Bob be 2 units, and match Lucy to 1/2 of their combined amount."
+    },
+    {
+      "id": 28,
+      "topic": "Four Operations",
+      "question": "Sandra, Ted and Justina had 377 coins altogether. Sandra gave Justina 15 coins and Ted received 13 coins from Justina. In the end, the ratio of Sandra's coins to Ted's coins was 4 : 3, and the ratio of Sandra's coins to Justina's coins was 3 : 2. How many coins did each have at 1st?",
+      "answer": "Sandra: 171 coins; Ted: 104 coins; Justina: 102 coins",
+      "model": "bar-change",
+      "hint": "Combine the 4:3 and 3:2 final ratios using a common Sandra value. Use the unchanged total of 377, then reverse both transfers."
+    },
+    {
+      "id": 29,
+      "topic": "Four Operations",
+      "question": "A farm had some cows and goats. 1/5 of the cows and 3/11 of the goats were sold. There was an equal number of cows and goats left. If there were 704 cows and goats left, how many animals were on the farm at 1st?",
+      "answer": "924 animals",
+      "model": "fraction-of-remainder",
+      "hint": "Split the 704 remaining animals equally between cows and goats. Those equal amounts are 4/5 of the cows and 8/11 of the goats."
+    },
+    {
+      "id": 30,
+      "topic": "Four Operations",
+      "question": "3/5 of the 60 balloons used at a party were green and the rest were yellow. If 6 green balloons and 3 yellow balloons burst, what fraction of the remaining balloons were green?",
+      "answer": "10/17",
+      "model": "fraction-of-remainder",
+      "hint": "Find the original green and yellow balloon counts separately. Subtract the burst balloons, then write green remaining over total remaining."
+    },
+    {
+      "id": 31,
+      "topic": "Four Operations",
+      "question": "Peter was given a crate of cups. He sold all the cups. Each cup was sold at $8.90. For every set of 5 cups purchased by a customer, 1 cup was given free. 2/3 of the cups were sold in sets of 5 cups. He collected $1174.80 altogether. How many cups were there in the crate at 1st?",
+      "answer": "156 cups",
+      "model": "money-units",
+      "hint": "A set charges for 5 cups but contains 6 cups. Treat the remaining 1/3 as single cups, and use the total money to find the number of such groups."
+    },
+    {
+      "id": 32,
+      "topic": "Four Operations",
+      "question": "Samantha, Jerry, Mandy and Tim scored an average of 68.75 points for a game. Tim's score was 2/3 of Mandy's score, Mandy's score was 1/2 of Jerry's score, and Samantha's score was 1/4 of Jerry's score. What was the average score of Mandy and Samantha?",
+      "answer": "49.5 points",
+      "model": "unit-bar",
+      "hint": "Convert the average to the 4 players' total score. Express every score as a fraction of Jerry's score, then find Mandy and Samantha."
+    },
+    {
+      "id": 33,
+      "topic": "Four Operations",
+      "question": "Jane, Alice and Peter had a sum of money. After Jane spent 1/4 of her money, Alice spent $80 of hers, and Peter spent 1/2 of his money, they had an equal amount of money left. If they had $1008 altogether in the end, how much did each have at 1st?",
+      "answer": "Jane: $448; Alice: $416; Peter: $672",
+      "model": "money-units",
+      "hint": "Divide the final $1008 into 3 equal remainders. Work backwards for each person using the fraction spent or the $80 spent."
+    },
+    {
+      "id": 34,
+      "topic": "Measurement",
+      "question": "A tank measures 20 cm by 15 cm by 30 cm. Pump A and Pump B release water in the ratio 3 : 2. Together, the pumps fill 1/2 litre of water in 2 minutes. How long will it take Pump B alone to fill the tank completely with water?",
+      "answer": "90 minutes",
+      "model": "geometry",
+      "hint": "Find the tank's volume in cubic centimetres and the combined flow per minute. Split that flow in the 3:2 ratio, then use Pump B's rate."
+    },
+    {
+      "id": 35,
+      "topic": "Measurement",
+      "question": "The costs of a book, toy and hat are in the ratio 5 : 2 : 9. Their average cost is $32. When a belt is added, the average cost of the 4 items is $30. What is the difference between the cost of the book and the belt?",
+      "answer": "$6",
+      "model": "money-units",
+      "hint": "Use the 1st average to find the total cost of the 3 items. Split that total into 16 ratio units, then use the 2nd average to find the belt's cost."
+    },
+    {
+      "id": 36,
+      "topic": "Measurement",
+      "question": "ACEH is a rectangle. Its length is 5 times its breadth, and its length is 30 cm. BC is 12 cm. D is the midpoint of CE and G is the midpoint of HF. In the diagram, segments BD and BG form 2 unshaded triangles, BCD and BFG. Find the total area of the shaded portions.",
+      "answer": "135 cm2",
+      "model": "geometry",
+      "hint": "Find the rectangle's breadth from its length-to-breadth relationship. Find the area of the whole rectangle, then subtract the areas of triangles BCD and BFG."
+    },
+    {
+      "id": 37,
+      "topic": "Measurement",
+      "question": "Mrs Baker bought some flour. She used 1/4 of it to bake 6 cherry pies and packed the rest equally into 9 bags. There was 250 g more flour in 2 similar bags than in 1 cherry pie. If all the flour were packed into 25 bags instead, how much flour would there be in each bag?",
+      "answer": "80 g",
+      "model": "fraction-of-remainder",
+      "hint": "Express the flour for 1 pie and for 2 bags as fractions of the original amount. Their difference represents 250 g."
+    },
+    {
+      "id": 38,
+      "topic": "Measurement",
+      "question": "The average mass of 3 full bags, A, B and C, is 38 kg. When all the items from bag A are taken out, the average mass of the 3 bags is 30 kg. The masses of the items in bags B and C are in the ratio 7 : 3. If the items in bag B are 20 kg heavier than the items in bag C, what is the total mass of the 3 empty bags?",
+      "answer": "40 kg",
+      "model": "mass-bar",
+      "hint": "Compare the 2 averages to find the mass of the items from bag A. Use the 7 : 3 ratio and the 20 kg difference to find the masses in bags B and C."
+    },
+    {
+      "id": 39,
+      "topic": "Measurement",
+      "question": "A tank contains 2520 cm3 of sand. 1/5 of the sand is poured into a rectangular container that already contains 7112 cm3 of sand. The container has a base of 16 cm by 28 cm. What is the final height of sand in the container?",
+      "answer": "17 cm",
+      "model": "unit-bar",
+      "hint": "Find the volume poured in, add it to the sand already in the container, then divide by the base area."
+    },
+    {
+      "id": 40,
+      "topic": "Measurement",
+      "question": "In rectangle ABEG, the ratio of the shaded area to the unshaded area is 5 : 3, and the rectangle's area is 152 cm2. The area of triangle BCE is to the area of triangle AGF as 3 : 2. Triangle CDE has area 1/4 of the area of rectangle ABEG. Find the difference between the total shaded area and the total unshaded area of the figure.",
+      "answer": "85.5 cm2",
+      "model": "geometry",
+      "hint": "Use the 5 : 3 split to find the shaded and unshaded areas inside the rectangle. Then use the triangle-area ratio and add the appropriate outside triangles."
+    },
+    {
+      "id": 41,
+      "topic": "Measurement",
+      "question": "Aaron bought 2 similar books and 3 similar rulers for $40.30. Sharon bought 3 such books and 5 such rulers for $61. What was the combined cost of 1 book and 1 ruler?",
+      "answer": "$19.60",
+      "model": "money-units",
+      "hint": "Subtract Aaron's purchase from Sharon's to get the cost of 1 book and 2 rulers. Compare that result with Aaron's total."
+    },
+    {
+      "id": 42,
+      "topic": "Measurement",
+      "question": "A tank measuring 12 cm by 16 cm by 24 cm is 2/3 filled with water. 1/2 of that water fills 2/5 of a basin. What is the capacity of the basin?",
+      "answer": "3840 cm3",
+      "model": "unit-bar",
+      "hint": "Find the tank's water volume first. The transferred water is 2/5 of the basin, so scale it from 2 units to 5 units."
+    },
+    {
+      "id": 43,
+      "topic": "Measurement",
+      "question": "A rectangle has length-to-breadth ratio 7 : 3 and perimeter 280 cm. A diagonal is drawn from the top-left corner to the midpoint of the bottom side, leaving 1 unshaded triangle. What is the area of the shaded portion?",
+      "answer": "3087 cm2",
+      "model": "geometry",
+      "hint": "Use the perimeter to find the value of 1 ratio unit and hence both rectangle dimensions. Then subtract the midpoint triangle from the rectangle."
+    },
+    {
+      "id": 44,
+      "topic": "Measurement",
+      "question": "In the figure, GF is 2/5 of BG, JG is 2/5 of AF, GF is 3/5 of HF, EC is 1/2 of FC, and FC = AF. AFC is a straight line. AF = 18 cm, BG = 12 cm, and ED = 10 cm. Find the total area of the shaded portions.",
+      "answer": "225 cm2",
+      "model": "geometry",
+      "hint": "Use the fractional relationships to find GF, JG, HF and EC. Work out the areas of the component triangles before combining shaded and unshaded parts."
+    },
+    {
+      "id": 45,
+      "topic": "Measurement",
+      "question": "A tank measures 25 cm by 18 cm by 30 cm. It is filled to 3/5 of its capacity. Some water is then poured into 2 similar containers, filling them to the brim. Then 950 cm3 of water is added to the tank until it is 1/2 full. What is the capacity of each container?",
+      "answer": "1150 cm3",
+      "model": "unit-bar",
+      "hint": "Find the tank's capacity and compare the amount at 3/5 full with the amount that must have been in it before the final 950 cm3 was added."
+    },
+    {
+      "id": 46,
+      "topic": "Measurement",
+      "question": "Josephine had $80 more than Alex. If Alex gave Josephine $16, Josephine would have 3 times as much money as Alex. How much did each have at first?",
+      "answer": "Josephine: $152; Alex: $72",
+      "model": "bar-change",
+      "hint": "After the $16 transfer, preserve the original $80 difference while accounting for the $16 lost by Alex and the $16 gained by Josephine."
+    },
+    {
+      "id": 47,
+      "topic": "Measurement",
+      "question": "A bag costs $24.50 more than a wallet. The total cost of 2 bags and 1 wallet is $85. What is the total cost of 3 wallets and 3 bags?",
+      "answer": "$145.50",
+      "model": "money-units",
+      "hint": "Remove the 2 bag-to-wallet price differences from the $85 total. The remainder represents 3 wallets."
+    },
+    {
+      "id": 48,
+      "topic": "Measurement",
+      "question": "Clarence withdrew 25% of his savings on Monday. He spent $720 on a television set, $163 on a radio and the remaining $37 on a clock. The following day, he deposited 2/5 of his salary into the bank. His bank balance then became $4680. Find Clarence's salary.",
+      "answer": "$4800",
+      "model": "fraction-of-remainder",
+      "hint": "Add the 3 purchases to find 25% of the original savings. Find the balance after withdrawal, then the amount deposited from the salary."
+    },
+    {
+      "id": 49,
+      "topic": "Measurement",
+      "question": "James is 8 years old. Last year, his father was 4 times James's age. In how many years' time will their combined age be 51?",
+      "answer": "7 years' time",
+      "model": "bar-change",
+      "hint": "Find the father's age last year, then their current combined age. Their combined age increases by 2 each year."
+    },
+    {
+      "id": 50,
+      "topic": "Measurement",
+      "question": "Anna made full payment for a refrigerator at a 20% discount during a sale. Joan paid a down payment of $399 and 12 monthly instalments of $250. Joan's total was 10% more than Anna's sale price. What was the refrigerator's price before the sale?",
+      "answer": "$3862.50",
+      "model": "money-units",
+      "hint": "Find Joan's total payment. Work backward through the 10% increase to get Anna's sale price, then reverse the 20% discount."
+    },
+    {
+      "id": 51,
+      "topic": "Measurement",
+      "question": "Jessica spent 2/3 of her money on a book and a toy. Don spent 1/5 of his money on the same items. The book cost $18 and the toy cost $6 less. How much more money did Don have than Jessica at first?",
+      "answer": "$105",
+      "model": "fraction-of-remainder",
+      "hint": "First find the cost of the book and toy together. Treat that same cost as 2/3 of Jessica's money and 1/5 of Don's money."
+    },
+    {
+      "id": 52,
+      "topic": "Measurement",
+      "question": "Sean deposited $1500 in a bank at 3% interest per year. After 2 years, he took out 1/3 of the money. The interest rate remained 3% each year. How much did he have left in the bank?",
+      "answer": "$1060.90",
+      "model": "money-units",
+      "hint": "Add 3% interest after the 1st year, then calculate 3% of that new balance for the 2nd year. Finally keep 2/3 of the amount."
+    },
+    {
+      "id": 53,
+      "topic": "Measurement",
+      "question": "Jason had a sum of money and spent an equal amount each day. After 6 days, he had 3/5 of his money left. After 3 more days, he had $360 left. What was the sum of money he had at first?",
+      "answer": "$900",
+      "model": "bar-change",
+      "hint": "The 3 extra days account for the drop from 3/5 to the final amount. Relate those days to equal parts of the original sum."
+    },
+    {
+      "id": 54,
+      "topic": "Measurement",
+      "question": "A tank measuring 15 cm by 24 cm by 28 cm is 3/4 filled with water. When 45% of the water is poured into an empty container, the container becomes 2/5 full. What is the base area of the container if its height is 30 cm?",
+      "answer": "283.5 cm2",
+      "model": "unit-bar",
+      "hint": "Find the water volume in the tank and then 45% of it. That transferred amount is 2/5 of the container's capacity."
+    },
+    {
+      "id": 55,
+      "topic": "Measurement",
+      "question": "ABCD is a rectangular room measuring 24 m by 13 m. The unshaded areas AEH, JCF and GDH are in the ratio 6 : 7 : 5. Mr Lee paints the remaining shaded area at $10 per square metre. If painting GDH costs $125, how much will it cost to paint the shaded area?",
+      "answer": "$2670",
+      "model": "geometry",
+      "hint": "Convert the cost of painting GDH into its area. Use the 6 : 7 : 5 ratio to find all unshaded area, then subtract it from the room."
+    },
+    {
+      "id": 56,
+      "topic": "Ratio",
+      "question": "There were 980 pears and oranges in a basket. After 1/3 of the pears and 230 oranges were sold, the ratio of pears to oranges left was 2 : 3. What was the ratio of pears to oranges at first?",
+      "answer": "75 : 121",
+      "model": "fraction-of-remainder",
+      "hint": "Represent the remaining pears and oranges with a 2 : 3 bar. Restore the 1/3 of pears and the 230 oranges that were sold."
+    },
+    {
+      "id": 57,
+      "topic": "Ratio",
+      "question": "The ratio of Harry's cards to William's cards was 3 : 4. After Harry bought 12 cards and William lost 24 cards, the ratio became 3 : 2. Find the total number of cards Harry and William had at first.",
+      "answer": "112 cards",
+      "model": "bar-change",
+      "hint": "Draw before-and-after bars with the 2 ratios. Compare the change in the gap between their amounts, including both the 12 gained and 24 lost."
+    },
+    {
+      "id": 58,
+      "topic": "Ratio",
+      "question": "A fruit seller had 2520 apples and oranges. There were 2/3 as many apples as oranges. After some rotten apples were thrown away, the ratio of apples to oranges became 1 : 4. How many rotten apples were thrown away?",
+      "answer": "630 apples",
+      "model": "fraction-of-remainder",
+      "hint": "Rewrite the before and after apple-to-orange ratios with the same number of orange units. The missing apple units are the rotten apples."
+    },
+    {
+      "id": 59,
+      "topic": "Ratio",
+      "question": "Jake, Mandy and Ann had 360 sweets in the ratio 4 : 3 : 5. Jake gave 1/3 of his sweets to Mandy, and Ann gave 40% of her sweets to Jake. What was the ratio of Jake's sweets to Ann's sweets in the end?",
+      "answer": "14 : 9",
+      "model": "bar-change",
+      "hint": "Use the initial ratio to find each person's number of sweets. Apply both transfers, then simplify Jake's final amount to Ann's final amount."
+    },
+    {
+      "id": 60,
+      "topic": "Ratio",
+      "question": "A figure is made of 2 rectangles and 3 similar triangles. The outer rectangle is 26 m by 19 m. The small rectangle is 4 m from each vertical side and 2 m from each horizontal side of the outer rectangle. PQ : BC = 5 : 3. Express the area of the shaded portion as a ratio of the area of the small rectangle.",
+      "answer": "4 : 5",
+      "model": "geometry",
+      "hint": "Find the dimensions of the small rectangle. Use PQ : BC to find the height of each of the 3 similar triangles, then compare their total area with the rectangle."
+    },
+    {
+      "id": 61,
+      "topic": "Percentage",
+      "question": "There were 350 marbles in a box. 40% were red. There were 10% more red marbles than green marbles. The rest were white and orange marbles. There were 2 times as many white marbles as orange marbles. How many more red marbles than white marbles were there?",
+      "answer": "70",
+      "model": "unit-bar",
+      "hint": "Find the green percentage from the red percentage, then split the remaining percentage between white and orange in a 2 : 1 ratio."
+    },
+    {
+      "id": 62,
+      "topic": "Percentage",
+      "question": "Wilson gave 20% of his flour to Mike and 25% to Mary. Together they received 72 kg. He packed the rest into 2-kg and 3-kg bags, with 2 times as many 3-kg bags as 2-kg bags. How many bags of each type were there?",
+      "answer": "3-kg bags: 22; 2-kg bags: 11",
+      "model": "unit-bar",
+      "hint": "Find the total remaining flour from the 45% given away. Group the bags as 2 bags of 3 kg with 1 bag of 2 kg."
+    },
+    {
+      "id": 63,
+      "topic": "Percentage",
+      "question": "During a sale, a television set fell by 20% of its original price. After the sale, its price increased by 5% of its original price. Jane bought it during the sale, paying $300 down and 16 interest-free monthly instalments of $120. How much was the television set after the sale?",
+      "answer": "$2913.75",
+      "model": "money-units",
+      "hint": "Find Jane's sale payment first. Treat it as 80% of the original price, then add the 5% increase to express the after-sale price."
+    },
+    {
+      "id": 64,
+      "topic": "Percentage",
+      "question": "A box contained English, Chinese and Malay books. 20% were English. The ratio of Chinese books to Malay books was 4 : 3. After 10% of the Chinese books were sold, 72 Chinese books remained. How many English, Chinese and Malay books were there at first?",
+      "answer": "English: 35; Chinese: 80; Malay: 60",
+      "model": "unit-bar",
+      "hint": "If 90% of the Chinese books is 72, find the original Chinese number. Use 4 : 3 for Malay, then use the 20% English share."
+    },
+    {
+      "id": 65,
+      "topic": "Percentage",
+      "question": "40% of the students in a class joined the Art Club. 20% of the remaining students joined the Dance Society, and the rest joined the choir. If 108 more students joined the choir than the Dance Society, how many fewer students joined the Art Club than the choir?",
+      "answer": "24 students",
+      "model": "fraction-of-remainder",
+      "hint": "Find the Dance Society percentage of the whole class, then the choir percentage. Use their 108-student difference to find the class total."
+    },
+    {
+      "id": 66,
+      "topic": "Percentage",
+      "question": "Peter spent 20% of his weekly salary on food. Of the remainder, the amounts he saved and gave his mother were in the ratio 5 : 2. He saved $210 more than he gave his mother. How much did he spend on food each week?",
+      "answer": "$122.50",
+      "model": "fraction-of-remainder",
+      "hint": "Use the 5 : 2 difference to find the 80% remaining after food. Then find 20% of the whole salary."
+    },
+    {
+      "id": 67,
+      "topic": "Percentage",
+      "question": "60% of the people at a swimming complex were women. When 72 more women entered, the number of women increased by 1/3 of the number of women who were there at first. How many men were there at first?",
+      "answer": "144 men",
+      "model": "bar-change",
+      "hint": "The 72 entrants equal 1/3 of the original number of women. Find the original women count, then use the 60% share."
+    },
+    {
+      "id": 68,
+      "topic": "Geometry",
+      "question": "In the diagram, ABCD is a parallelogram and CDEF is a trapezium. DA = AC = CB. DC is parallel to AB and EF. Angle EDF is 37°, angle FDC is 32°, and angle ACB is 44°. Find angle x, angle y and angle z.",
+      "answer": "x = 68°; y = 68°; z = 111°",
+      "model": "geometry",
+      "hint": "Use the equal sides to identify isosceles triangles and use alternate angles on the parallel lines. Then apply the 180° angle sum in a triangle."
+    },
+    {
+      "id": 69,
+      "topic": "Geometry",
+      "question": "ABCD is a square. Point E lies on AD, and angle AEB is 50°. In isosceles triangle BPQ, BP = BQ. Angle EBP is 42° and angle PBQ is 54°. Find angle BPQ.",
+      "answer": "59°",
+      "model": "geometry",
+      "hint": "First find angle ABE in triangle ABE. Use the square's right angle at B to find angle PBC, then find the vertex angle of isosceles triangle BPQ."
+    },
+    {
+      "id": 70,
+      "topic": "2-part: Four Operations",
+      "question": "Mrs Cox made some muffins. She kept 15%, gave 20% to charity and 10% to her neighbour. She sold 3/5 of the remaining muffins and gave the rest to her children. Her children received 66 muffins. (a) How many muffins did Mrs Cox make? (b) If each muffin sold cost $1.40, how much money did she collect?",
+      "answer": "(a) 300 muffins; (b) $138.60",
+      "model": "fraction-of-remainder",
+      "hint": "Find the percentage remaining after the 3 gifts. Of that remainder, the children receive 2/5; use their 66 muffins to find the original total."
+    },
+    {
+      "id": 71,
+      "topic": "2-part: Four Operations",
+      "question": "During a sale, a computer was sold at a 40% discount and a television set was sold at a 20% discount. Jenny bought 2 computers and a television set during the sale. She paid a total of $5970. If she paid $4980 for the computers, (a) what was the original price of the television set? (b) What was the original price of a computer?",
+      "answer": "(a) $1237.50; (b) $4150",
+      "model": "money-units",
+      "hint": "Subtract the computer payment from the total to find the television's sale price. That is 80% of its original price; then use 60% for 1 computer."
+    },
+    {
+      "id": 72,
+      "topic": "2-part: Four Operations",
+      "question": "There were 1518 boys and girls in the hall. When 2/3 of the boys and 1/5 of the girls left the hall, there were 2 times as many girls as boys who remained in the hall. (a) How many girls were there at 1st? (b) How many boys were there at 1st?",
+      "answer": "(a) 690 girls; (b) 828 boys",
+      "model": "unit-bar",
+      "hint": "Show the boys' remaining 1/3 and the girls' remaining 4/5 as bars. The remaining girls are 2 times the remaining boys."
+    },
+    {
+      "id": 73,
+      "topic": "2-part: Four Operations",
+      "question": "There were 741 men and women in a room. When 5/7 of the men and 1/3 of the women left the room, there were 2 times as many women as men who remained in the room. (a) How many women were there in the room at 1st? (b) How many men were there in the room at 1st?",
+      "answer": "(a) 342 women; (b) 399 men",
+      "model": "unit-bar",
+      "hint": "Represent the men remaining as 2/7 of their original number and the women remaining as 2/3 of theirs. Match those bars in a 2:1 final ratio."
+    },
+    {
+      "id": 74,
+      "topic": "2-part: Four Operations",
+      "question": "Joel, Zack, Alvin, Linda and Adeline scored an average mark of 87 in a mathematics test. Joel, Zack and Alvin had an average mark of 85. Linda, Adeline and Zack had an average mark of 88. Linda and Adeline had the same mark. (a) How many marks did Zack score? (b) Find the total mark scored by Joel and Alvin.",
+      "answer": "(a) 84 marks; (b) 171 marks",
+      "model": "unit-bar",
+      "hint": "Convert each average to a total. Find Linda and Adeline's combined mark from the 5-person and 3-person totals, then use the other 3-person total."
+    },
+    {
+      "id": 75,
+      "topic": "2-part: Four Operations",
+      "question": "Electricity charges are: 1st 1000 units or less, $2.20; next 1000 units or less, $2.50; next 1000 units or less, $2.80; next 1000 units or less, $3.00. Tom's household meter showed 1045 units at the beginning of January and 4090 units by the end of January. (a) How much did he have to pay at the end of January? (b) Tom paid $7.50 at the end of February. What was the maximum number of units that could be shown on the household meter at the end of February?",
+      "answer": "(a) $10.50; (b) 7090 units",
+      "model": "money-units",
+      "hint": "1st subtract the January readings. Apply the charge to each complete block of 1000 units and then the final partial block; reverse that process for February."
+    },
+    {
+      "id": 76,
+      "topic": "2-part: Four Operations",
+      "question": "1/2 of the sweets in box A were equivalent to 3/8 of the sweets in box B. 240 sweets from box B were taken out and box A then had 3 times as many sweets as box B. (a) What was the total number of sweets in the 2 boxes at 1st? (b) How many sweets would have to be taken out from box A so that there would be 1/4 as many sweets in box A as in box B?",
+      "answer": "(a) 560 sweets; (b) 220 sweets",
+      "model": "bar-change",
+      "hint": "Use the equivalent fractions to make a 6-unit bar for box A and an 8-unit bar for box B. The 240 removed shows the size of a unit."
+    },
+    {
+      "id": 77,
+      "topic": "2-part: Four Operations",
+      "question": "There were 156 men and women at a party. 1/6 of the men and 24 women left the party. There was then an equal number of men and women at the party. (a) How many men were at the party at 1st? (b) How many women were at the party at 1st?",
+      "answer": "(a) 72 men; (b) 84 women",
+      "model": "unit-bar",
+      "hint": "The men remaining are 5/6 of the original men. Make their remaining bar equal to the women's bar after 24 have left."
+    },
+    {
+      "id": 78,
+      "topic": "2-part: Four Operations",
+      "question": "Machine A can produce 7500 biscuits a day. This is 240 fewer biscuits than machine B can produce in a day. 20 biscuits are placed in a pack and then 1000 packs of biscuits are placed in a box. (a) If both machines A and B are used, how many packs of biscuits will there be after 1 week? (b) How many complete boxes of biscuits will there be after 1 week?",
+      "answer": "(a) 5334 packs of biscuits; (b) 5 complete boxes of biscuits",
+      "model": "unit-bar",
+      "hint": "Find machine B's daily output, add both daily outputs, and multiply by 7. Convert biscuits to packs before finding complete boxes."
+    },
+    {
+      "id": 79,
+      "topic": "2-part: Four Operations",
+      "question": "Greeting-card prices are: 1-5 sets, $15.50 per set; 6-15 sets, $13 per set; 16-25 sets, $12 per set; more than 25 sets, $8 per set. Linda bought 4 sets, Benjamin bought 2 times her number of sets, and Kelly bought 9 more sets than Benjamin. (a) How much did each of them pay? (b) How much could they save if they bought the greeting cards together?",
+      "answer": "(a) Benjamin: $104; Linda: $62; Kelly: $204; (b) $138",
+      "model": "money-units",
+      "hint": "Find the number of sets bought by Benjamin and Kelly, then select the correct price tier for each separate purchase. Compare their total with the combined-purchase tier."
+    },
+    {
+      "id": 80,
+      "topic": "2-part: Four Operations",
+      "question": "Eugene is 15 years old. His sister is 3/5 his age. The ratio of his sister's age to their mother's age is 3 : 14. (a) How much older is Eugene's mother than him? (b) In how many years' time will Eugene's mother be 2 times his age?",
+      "answer": "(a) 27 years older; (b) 12 years' time",
+      "model": "unit-bar",
+      "hint": "Find the sister's age, then use the 3:14 ratio to find the mother's current age. Their age difference stays constant."
+    },
+    {
+      "id": 81,
+      "topic": "2-part: Measurement",
+      "question": "Machine A and machine B made pineapple tarts at rates of 120 tarts per minute and 90 tarts per minute respectively. After 3/4 hour, machine A was stopped until machine B made the same number of tarts as machine A. Machine A was then started again. (a) How long was machine A stopped? (b) How many more tarts could machine A produce if it was not stopped?",
+      "answer": "(a) 15 minutes; (b) 1800 tarts",
+      "model": "bar-change",
+      "hint": "Change 3/4 hour to minutes. Find each machine's output by then; machine B must make up that difference at its own rate."
+    },
+    {
+      "id": 82,
+      "topic": "2-part: Measurement",
+      "question": "Lydia spent 1/3 of her money in a shop, gave 1/6 of the remainder to her mother and saved the rest. She bought 2 handbags costing $74 each and a wallet costing $56. (a) How much more did Lydia save than spend? (b) If Lydia saved another $136, what fraction of her money would she have saved?",
+      "answer": "(a) $136; (b) 7/9 of her money",
+      "model": "fraction-of-remainder",
+      "hint": "The handbags and wallet give the amount spent. Draw bars for the 1/3 spent and then divide the remaining 2/3 into the amount given and saved."
+    },
+    {
+      "id": 83,
+      "topic": "2-part: Measurement",
+      "question": "Samuel spent 1/2 of his salary and gave 1/3 of the remainder to his wife. His daughters Beatrice, Felicia and Joyce shared the rest in the ratio 1 : 3 : 2. If Felicia received $1080, (a) what was Samuel's salary? (b) How many percent more did Samuel spend than give to his wife?",
+      "answer": "(a) $6480; (b) 33 1/3%",
+      "model": "fraction-of-remainder",
+      "hint": "Use Felicia's 3 ratio units to find the daughters' total. That total is the part left after the spending and the amount given to Samuel's wife."
+    },
+    {
+      "id": 84,
+      "topic": "2-part: Measurement",
+      "question": "Tom spent $1650 in January, which was 40% of the salary he earned that month. He saved the rest. In February, his salary increased by 20% and he saved $190 more than in January. (a) How much did he save in February? (b) How much did he spend in February?",
+      "answer": "(a) $2665; (b) $2285",
+      "model": "fraction-of-remainder",
+      "hint": "Use the January spending to find the full January salary and its saving. Increase the salary by 20%, then use the stated increase in savings."
+    },
+    {
+      "id": 85,
+      "topic": "2-part: Measurement",
+      "question": "A tank with a square base of sides 10 cm was 3/4 filled with water. 1/2 the water was poured into an empty container, filling it to the brim. 2/3 of the water in the container was poured into a basin that was already 1/5 filled with 700 cm³ of water. The basin then became 1/2 full. (a) What was the original water level in the tank? (b) What was the height of the tank?",
+      "answer": "(a) 31.5 cm; (b) 42 cm",
+      "model": "fraction-of-remainder",
+      "hint": "Work backwards from the basin. Its 1/5-full volume is 700 cm³, so find the transferred water, then the container volume and the original tank volume."
+    },
+    {
+      "id": 86,
+      "topic": "2-part: Measurement",
+      "question": "Cleo wanted to buy 16 similarly priced T-shirts but was $8 short. If she had bought 7 such T-shirts instead, she would have $19 left. (a) What was the cost of 2 such T-shirts? (b) How much money did Cleo have?",
+      "answer": "(a) $6; (b) $40",
+      "model": "money-units",
+      "hint": "Compare the 16-shirt and 7-shirt situations. The difference of 9 shirts accounts for both the $8 shortage and the $19 left."
+    },
+    {
+      "id": 87,
+      "topic": "2-part: Measurement",
+      "question": "Cindy spent 1/7 of her money on food and 1/3 on transport. 6/11 of the remainder was given to her brother and the rest was saved. Her brother spent all the money on a watch and 3 similar books in the ratio 5 : 2. If each book cost $8, (a) how much did Cindy spend on transport? (b) How much did Cindy save?",
+      "answer": "(a) $98; (b) $70",
+      "model": "fraction-of-remainder",
+      "hint": "Use the 5:2 price ratio to find the money Cindy gave her brother. This is 6/11 of the amount left after food and transport."
+    },
+    {
+      "id": 88,
+      "topic": "2-part: Measurement",
+      "question": "A container measures 18 cm by 22 cm by 30 cm. It is 1/2 filled with water. Water from a jug is then poured into it, increasing the volume of water by 1/3 of its original volume. (a) How much more water is needed to fill the container completely? (b) After the jug water is added, a tap flows at 660 cm³ per minute into the container. How long will it take to fill the container to the brim?",
+      "answer": "(a) 3960 cm³; (b) 6 minutes",
+      "model": "fraction-of-remainder",
+      "hint": "Find the container's full volume. The jug increases the initial 1/2-full amount by 1/3 of that initial amount, so find the new fraction full."
+    },
+    {
+      "id": 89,
+      "topic": "2-part: Measurement",
+      "question": "Agnes gave 3/7 of her money to charity and 5/14 to her son. Of the remainder, she spent $20 on a watch and $17 on a book. Her son spent $24 and saved the rest; the amount he spent and saved was in the ratio 3 : 7. (a) How much money had Agnes left in the end? (b) How much money did Agnes have at 1st?",
+      "answer": "(a) $11; (b) $224",
+      "model": "fraction-of-remainder",
+      "hint": "Use the son's $24 as 3 ratio units to find the amount Agnes gave him. Then relate it to 5/14 of her starting money."
+    },
+    {
+      "id": 90,
+      "topic": "2-part: Measurement",
+      "question": "Mrs Wise spent 1/3 of her money in a shop. She bought a watch for $180 and a necklace. She then gave 2/5 of the remainder to her son, who spent 1/2 of that money on roller skates costing $150. (a) How much had Mrs Wise left? (b) How much did Mrs Wise spend on the necklace?",
+      "answer": "(a) $450; (b) $195",
+      "model": "fraction-of-remainder",
+      "hint": "The roller skates show the full amount given to her son. That amount is 2/5 of the money left after shopping."
+    },
+    {
+      "id": 91,
+      "topic": "2-part: Measurement",
+      "question": "Mark, Andrew and Dick shared a sum of money. Mark had $480 more than Andrew. Dick had 3 times as much as Mark. When Dick used $600, the total amount Dick and Andrew had was $1500. (a) How much did each boy have at 1st? (b) How much did the boys have altogether?",
+      "answer": "(a) Andrew: $165; Mark: $645; Dick: $1935; (b) $2745",
+      "model": "unit-bar",
+      "hint": "1st find Dick and Andrew's original combined amount. Represent Andrew as 1 unit, Mark as 1 unit plus $480, and Dick as 3 Mark units."
+    },
+    {
+      "id": 92,
+      "topic": "2-part: Measurement",
+      "question": "Ryan and Sally shared some money. When Ryan gave Sally 1/3 of his money, Sally had 4 times as much money as him. Together they had $297. (a) How much did each have at 1st? (b) How much more did Sally have than Ryan in the end?",
+      "answer": "(a) Ryan: $89.10; Sally: $207.90; (b) $178.20",
+      "model": "bar-change",
+      "hint": "After Ryan gives 1/3 away, show his remaining 2/3 as 1 unit and Sally's final amount as 4 equal units. Their total is unchanged."
+    },
+    {
+      "id": 93,
+      "topic": "2-part: Measurement",
+      "question": "Carol spent 30% of her money on 3 blouses and 2 skirts costing $288 altogether. Each blouse cost 2/5 as much as a skirt. (a) How much money did she have at 1st? (b) How much more did a skirt cost than a blouse?",
+      "answer": "(a) $960; (b) $54",
+      "model": "money-units",
+      "hint": "Represent 1 blouse as 2 units and 1 skirt as 5 units. The 3 blouses and 2 skirts form 16 units worth $288."
+    },
+    {
+      "id": 94,
+      "topic": "2-part: Measurement",
+      "question": "Mr Crawford had a piece of land. 60% was used to build a house. 1/4 of the remaining land was used to construct a garden. The garden's perimeter was 96 m and its length was 32 m. (a) Find the area of the original piece of land. (b) How much bigger was the area used to build the house than the garden?",
+      "answer": "(a) 5120 m²; (b) 2560 m²",
+      "model": "geometry",
+      "hint": "Use the rectangle perimeter to find the garden's breadth and area. The garden is 1/4 of the 40% land remaining after the house is built."
+    },
+    {
+      "id": 95,
+      "topic": "2-part: Measurement",
+      "question": "Joanne has enough money to buy either 15 pencils or 9 pens. She buys 10 pencils for $24 and some pens with the remaining money. (a) How much does a pen cost? (b) How many pens does she buy?",
+      "answer": "(a) $4; (b) 3 pens",
+      "model": "money-units",
+      "hint": "The $24 paid for 10 pencils gives the cost of 1 pencil. Use the total cost of 15 pencils, which equals the cost of 9 pens."
+    },
+    {
+      "id": 96,
+      "topic": "2-part: Measurement",
+      "question": "132 people went for dinner. 1/2 paid $40.60 each, and 2/3 of the remaining people paid $50 each. The rest paid $55.20 each. The organisers were still $110 short. (a) What was the total cost of the dinner? (b) If everyone shared the cost equally, how much would each person pay?",
+      "answer": "(a) $6204; (b) $47",
+      "model": "money-units",
+      "hint": "Find how many people are in each of the 3 payment groups. Add their payments and the $110 shortage before dividing by 132."
+    },
+    {
+      "id": 97,
+      "topic": "2-part: Measurement",
+      "question": "Shawn, Jeffrey and Tony have some money. Shawn and Jeffrey have $150 altogether. If Shawn receives $30 more from his mother, he will have the same amount as Jeffrey, and Tony will have 1/3 of what Shawn has. (a) How much money does Shawn have? (b) How much money does Tony have?",
+      "answer": "(a) $60; (b) $30",
+      "model": "money-units",
+      "hint": "The $30 transfer tells you the difference between Shawn and Jeffrey. Find their 2 original amounts from their $150 total, then use Shawn's new amount for Tony."
+    },
+    {
+      "id": 98,
+      "topic": "2-part: Ratio",
+      "question": "Andrew finished typing 8 similar sets of notes in 3 hours. If his typing speed increased to 60 words per minute, he would finish the same sets 2 hours faster. (a) What was Andrew's original typing speed? (b) If he wanted to finish 10 such sets in 2.5 hours, how fast would he have to type per minute?",
+      "answer": "(a) 20 words per minute; (b) 30 words per minute",
+      "model": "unit-bar",
+      "hint": "At 60 words per minute for 1 hour, find the total words in 8 sets. Divide that total by 3 hours for the original speed, then scale to 10 sets."
+    },
+    {
+      "id": 99,
+      "topic": "2-part: Ratio",
+      "question": "The breadth of a rectangular tank was 1/4 its length. The ratio of the length to its height was 7 : 3. When the tank was 1/4 full, the water level was 9 cm. (a) Find the capacity of the tank. (b) How long does a tap flowing at 7 litres per minute take to fill the tank completely? Round the answer to the nearest minute.",
+      "answer": "(a) 63,504 cm³; (b) 9 minutes",
+      "model": "geometry",
+      "hint": "A 9 cm water level is 1/4 of the tank height. Use the 7:3 length-to-height ratio, then take 1/4 of the length for the breadth."
+    },
+    {
+      "id": 100,
+      "topic": "2-part: Percentage",
+      "question": "20% of the cards in a box are red. The number of blue cards is 1/4 the number of red cards. The remaining 150 cards are green and white, with 2/3 as many green cards as white cards. (a) What percentage of the cards are green? (b) How many cards are there altogether?",
+      "answer": "(a) 30%; (b) 200 cards",
+      "model": "fraction-of-remainder",
+      "hint": "Express the blue cards as a percentage of all cards, then split the remaining percentage into green and white in a 2:3 ratio."
+    },
+    {
+      "id": 101,
+      "topic": "2-part: Percentage",
+      "question": "The original price of a refrigerator was $1700. Sylvia bought it at a 20% discount and had 4/5 of her money left. She then spent 30% of the money left on a television. (a) How much did the refrigerator cost after the discount? (b) How much did Sylvia spend on the television?",
+      "answer": "(a) $1360; (b) $1632",
+      "model": "fraction-of-remainder",
+      "hint": "Find 80% of $1700 for the discounted price. Since that purchase left 4/5 of Sylvia's money, work backwards to find the amount left before taking 30%."
+    }
+  ]
+}

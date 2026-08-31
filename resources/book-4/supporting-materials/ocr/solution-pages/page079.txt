@@ -1,0 +1,32 @@
+Solution to Question 10
+Step 1 : Find the length of each square
+Area = Length x Breadth
+25 cm?+ 5 ;
+Sm x 5 cm = 25 cm?
+5
+Step 2: Fill in the missing measurements and name the unshaded areas in the diagram
+13cm
+4cm
+8 cm
+: Scm 8cm
+4cm
+13 cm
+Step 3 : Find the perimeter of the whole figure
+13can+9cm+8an+4an+8an+4cm+ 13cn+9an+8om+4cm+8an+4an=92an
+(a) The perimeter of the whole figure is 92 cm.
+Step 4: Find the area of each rectangle
+Area = Length x Breadth
+=13cmx9cm
+=417-cm?
+Unshaded area A = 117 cm? - 25 cm?
+= 92 cm?
+Unshaded area B = 117 cm? - 25 cm? - 25 cm?
+= 67 cm?
+Unshaded area C = 117 cm?— 25 cm?
+= 92 cm?
+Total unshaded area = 92 cm? + 67 cm? + 92 cm?
+= 251 cm?
+(b) The total area of the unshaded parts is 251 cm?,
+Answers: (a) 92. cm __
+(b) 251 cm?
+© Singapore Asia Publishers Pte Ltd

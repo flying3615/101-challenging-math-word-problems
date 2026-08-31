@@ -1,0 +1,26 @@
+Solution to Question 2D Solution to Question ar
+Step 1: Label the different lengths of the square | Step 1: Draw a model
+‘ i | ength
+i i breadth ere
+D . j
+Step 2: Find the length of each side | Step 2 : Find the breadth of the rectangle
+9cmx9cm=8lom’ >> | 288 cm + 8 = 36 cm
+= _ Step 3: Find the length of the rectangle
+Length of AB = 9 cm i Step d thi gth of th gl
+= i
+Length of BF : Pyne mh nig 3 ideale Tos Gn
+Length of EH = 7 cm-2cm=5cm ;
+| Step 4: Find the area of the rectangle
+GH + EF=9cm i
+i 36 cm x 108 cm = 3888 cm?
+Step 3: Find the perimeter of the unshaded i
+portion :
+| The area of the rectangle is 3888 cm?,
+Perimeter of the unshaded portion i
+= AB+ BF + (GH + EF) + EH+GA |
+=9cm+2cem+9cm+5cm+7 cm |
+= 32cm j
+The perimeter of the unshaded portion is 32 cm. i
+Answer: 32 cm_ | Answer: 3888 cm?
+101 Must-Know Challenging Maths Word Problems Book 4 $26,
+© Singapore Asia Publishers Pte Ltd

@@ -1,0 +1,290 @@
+[
+  {
+    "id": 35,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Mrs Drew buys 30 sweets. She gives 12 sweets to her daughter and 15 sweets to her son. How many sweets has she left?",
+    "answer": "3",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 36,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 22 flowers in a vase. 9 of them are red, 6 are yellow and the rest are pink. How many pink flowers are there in the vase?",
+    "answer": "7",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 37,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Mrs Jones bakes 35 cookies. There are 8 butter cookies, some chocolate chip cookies and 12 coconut cookies. How many chocolate chip cookies does she bake?",
+    "answer": "15",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 38,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Mrs Drew bakes 16 apple pies and 28 lemon pies on Monday. On Tuesday, she bakes 12 lemon pies. How many more lemon pies than apple pies does she bake in the end?",
+    "answer": "24",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 39,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 20 boys and 10 girls in class A. There are 18 boys and 24 girls in class B. How many fewer girls than boys are there in both classes altogether?",
+    "answer": "8",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 40,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 34 peanuts and 12 walnuts on a plate. After Tom has eaten some of the nuts, there are 17 nuts left. How many nuts does Tom eat?",
+    "answer": "29",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 41,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Joe has some marbles. He receives 18 marbles from his father and 13 marbles from his brother. He has 40 marbles in the end. How many marbles does he have at first?",
+    "answer": "9",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 42,
+    "topic": "Addition and Subtraction within 100",
+    "question": "When 12 is added to a number, the result is 2 more than 31. What is the number?",
+    "answer": "21",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 43,
+    "topic": "Addition and Subtraction within 100",
+    "question": "A farmer has 34 eggs. He throws away 8 rotten eggs and sells 7 eggs. He keeps the rest. How many more eggs does he keep than sell?",
+    "answer": "12",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 44,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 54 pages in a book. Mary reads 13 pages on Monday and 8 pages on Tuesday. How many pages are not read yet?",
+    "answer": "33",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 45,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 18 boys and 21 girls in a field. A teacher has 31 balls. She gives each of them a ball. How many children will not have a ball?",
+    "answer": "8",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 46,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Peter scores 45 points in a game. Alex scores 6 points fewer than him. How many points do they score altogether?",
+    "answer": "84",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 47,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 26 batteries in a box. Thomas uses 7 batteries for his toy car and 12 batteries for a torch. How many batteries are left in the box?",
+    "answer": "7",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 48,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Jack, Anna and Tom have 70 marbles. Jack has 24 marbles. Anna has 12 marbles more than him. How many marbles does Tom have?",
+    "answer": "10",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 49,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 38 roses in a vase. 12 of them are red, 10 are pink and the rest are white. How many white roses are there?",
+    "answer": "16",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 50,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Mr Smith wants to buy 60 pieces of fruit. He buys 18 apples and 19 bananas at the market. How many more pieces of fruit does he need to buy?",
+    "answer": "23",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 51,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 26 boys and 15 girls in a class. 17 children wear spectacles. How many children do not wear spectacles?",
+    "answer": "24",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 52,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Mrs Owen has 20 cookies. She gives 7 cookies each to her 2 friends. How many cookies has she left?",
+    "answer": "6",
+    "model": "unit-bar",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 53,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Jane has 35 stickers. She gives 12 stickers to Sam. William gives Jane 13 stickers. How many stickers does Jane have in the end?",
+    "answer": "36",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 54,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 45 books on a shelf. 12 of them are English books, 7 are science books and the rest are mathematics books. How many mathematics books are there?",
+    "answer": "26",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 55,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 54 pink ribbons in a box. There are 15 fewer red ribbons than pink ribbons in the box. How many ribbons are there altogether?",
+    "answer": "93",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 56,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 40 fish in a tank. 16 of them are orange, 11 are red and the rest are white. How many white fish are there?",
+    "answer": "13",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 57,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 26 red apples and 12 green apples in box A. There are 20 red apples and 10 green apples in box B. How many more apples are there in box A than in box B?",
+    "answer": "8",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 58,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Joel has some toy cars. His mother gives him 18 toy cars and his father gives him another 8 toy cars. He has 41 toy cars altogether. How many toy cars does he have at first?",
+    "answer": "15",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 59,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Peter has $20. He spends $4 on Monday and $8 on Tuesday. How much has he left?",
+    "answer": "8",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 60,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Tom has 28 toy aeroplanes. 12 of them are red, 5 are green and the rest are blue. How many more blue toy aeroplanes than green toy aeroplanes does he have?",
+    "answer": "6",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 61,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 35 adults and 28 children at a party. After 3 men and 17 girls leave the party, how many people are left at the party?",
+    "answer": "43",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 62,
+    "topic": "Addition and Subtraction within 100",
+    "question": "A dinner costs $100. Mr William pays $35, Mr Jackson pays $40 and Mr Lee pays the rest. How much does Mr Lee pay?",
+    "answer": "25",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 63,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 80 students in an art competition. 15 of them are in Primary 1, 12 are in Primary 2 and the rest are in Primary 3. What is the total number of Primary 1 and Primary 3 students in the competition?",
+    "answer": "68",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 64,
+    "topic": "Addition and Subtraction within 100",
+    "question": "Ben has $30. He spends $5 on food, $9 on books and some on stationery. He has $8 left. How much does he spend on stationery?",
+    "answer": "8",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 65,
+    "topic": "Addition and Subtraction within 100",
+    "question": "John has $7. Betty has $2 more than John. Peter has $6 less than Betty. How much do they have altogether?",
+    "answer": "19",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 66,
+    "topic": "Addition and Subtraction within 100",
+    "question": "An apple costs 60 cents. An orange costs 20 cents less than the apple. A pear costs 40 cents more than the orange. How much does the pear cost?",
+    "answer": "80",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 67,
+    "topic": "Addition and Subtraction within 100",
+    "question": "A dress costs $24. It costs $16 more than a blouse. What is the total cost of the dress and the blouse?",
+    "answer": "32",
+    "model": "money-units",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 68,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 46 orchids in a vase. There are 28 more orchids than roses in the vase. How many flowers are there altogether?",
+    "answer": "64",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 69,
+    "topic": "Addition and Subtraction within 100",
+    "question": "A photo album contains 24 photographs. Jack takes out 8 photographs and puts in 15 new ones. How many photographs are in the photo album in the end?",
+    "answer": "31",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  },
+  {
+    "id": 70,
+    "topic": "Addition and Subtraction within 100",
+    "question": "There are 14 pink flowers and 12 red flowers in a shop. 7 flowers are sold. How many flowers are left?",
+    "answer": "19",
+    "model": "bar-change",
+    "hint": "Write an equation using the Arabic numerals in the story. Then check the quantity the question asks for."
+  }
+]

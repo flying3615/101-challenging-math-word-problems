@@ -64,7 +64,7 @@ window.QUESTION_BANK = [
     "topic": "Whole Numbers",
     "question": "Helen had to arrange some chairs in a fixed number of rows. She estimated that there were more than 30 but fewer than 70 chairs. If she put 8 chairs in 1 row, she would be 7 chairs short. If she put 7 chairs in 1 row, she would have 2 chairs left. How many chairs were there?",
     "answer": "65 chairs",
-    "model": "unit-bar",
+    "model": "guess-check",
     "hint": "Look for a number between 31 and 69 that is 2 more than a multiple of 7 and 7 less than a multiple of 8.",
     "questionZh": "海伦要把一些椅子排成固定行数。她估计椅子超过30把但少于70把。如果每1行放8把，还差7把；如果每1行放7把，则剩2把。共有多少把椅子？",
     "hintZh": "寻找31到69之间的一个数：它比7的倍数多2，又比8的倍数少7。"
@@ -85,9 +85,9 @@ window.QUESTION_BANK = [
     "question": "A basket contained 4 times as many blue balls as red balls. After 21 blue balls were taken away, there were 2 times as many red balls as blue balls. How many balls were there in the basket at 1st?",
     "answer": "30 balls",
     "model": "bar-change",
-    "hint": "Represent the original blue balls as 4 units and red balls as 1 unit. After 21 blue balls are removed, compare the new blue amount with 2 times the red amount.",
+    "hint": "Draw the blue balls as 8 units and the red balls as 2 units, so that after the removal the new blue amount is exactly 1 unit. The 21 balls taken away are then 7 units.",
     "questionZh": "一个篮子里的蓝球数量是红球的4倍。拿走21个蓝球后，红球数量是蓝球数量的2倍。篮子里开始时共有多少个球？",
-    "hintZh": "把原来的蓝球表示为4份、红球表示为1份。拿走21个蓝球后，将新的蓝球数量与红球数量的2倍比较。"
+    "hintZh": "把蓝球画成8份、红球画成2份，这样拿走之后新的蓝球正好是1份。拿走的21个球就是7份。"
   },
   {
     "id": 10,
@@ -105,9 +105,9 @@ window.QUESTION_BANK = [
     "question": "There were 3 parcels, A, B and C. The mass of Parcel B was 3/4 kg less than the mass of Parcel A. The mass of Parcel C was 2/3 kg more than the mass of Parcel B. If the mass of Parcel A was 4 1/2 kg, what was the mass of Parcel C?",
     "answer": "4 5/12 kg",
     "model": "mass-bar",
-    "hint": "Subtract 3/4 kg from 4 1/2 kg to find Parcel B, then add 2/3 kg. Use a common denominator when adding or subtracting fractions.",
+    "hint": "Parcel A is 4 1/2 kg. Subtract 3/4 kg to find Parcel B, then add 2/3 kg to find Parcel C. Change to a common denominator before adding or subtracting.",
     "questionZh": "有3个包裹A、B和C。B包裹的质量比A包裹少3/4 kg。C包裹的质量比B包裹多2/3 kg。若A包裹质量为4 1/2 kg，C包裹质量是多少？",
-    "hintZh": "从4 1/2 kg减去3/4 kg求B包裹，再加上2/3 kg。分数加减时使用公分母。"
+    "hintZh": "A包裹是4 1/2 kg。减去3/4 kg求B包裹，再加上2/3 kg求C包裹。加减之前先化成公分母。"
   },
   {
     "id": 12,
@@ -285,9 +285,9 @@ window.QUESTION_BANK = [
     "question": "A baker sold 2 times as many buns on Sunday than on Saturday. On Monday, he sold 1/4 of the buns he sold on Sunday. If he sold a total of 1260 buns during the 3 days, how many buns did he sell on Sunday?",
     "answer": "720 buns",
     "model": "unit-bar",
-    "hint": "If Saturday is 1 unit, Sunday is 2 units and Monday is 1/2 unit. Use a common denominator so all 3 days form whole equal units.",
+    "hint": "Draw Saturday as 2 units, Sunday as 4 units and Monday as 1 unit, so every day is a whole number of units. All 7 units together are 1260.",
     "questionZh": "一位面包师星期日卖的面包数量是星期六的2倍。星期一卖出的数量是星期日的1/4。若3天共卖出1260个面包，他星期日卖出多少个？",
-    "hintZh": "若星期六是1份，星期日是2份，星期一是1/2份。使用公分母，使3天都表示成整数等份。"
+    "hintZh": "把星期六画成2份、星期日画成4份、星期一画成1份，这样每一天都是整数份。7份合起来是1260。"
   },
   {
     "id": 30,
@@ -342,6 +342,26 @@ window.QUESTION_BANK = [
   {
     "id": 35,
     "topic": "Fractions",
+    "question": "A farmer sold some eggs in the morning. He then packed the remaining eggs into 15 cartons with 25 eggs in each carton. If the number of eggs he sold was 3/5 of the number of eggs he packed, how many eggs did the farmer have at 1st?",
+    "answer": "600 eggs",
+    "model": "fraction-of-remainder",
+    "hint": "The packed eggs are 15 × 25. Let the packed eggs be 5 units, so the eggs he sold are 3 units. Find 1 unit, then add both parts.",
+    "questionZh": "一位农夫上午卖出了一些鸡蛋。他把剩下的鸡蛋装进15个纸箱，每箱25个。若他卖出的鸡蛋数量是他装箱数量的3/5，农夫开始时有多少个鸡蛋？",
+    "hintZh": "装箱的鸡蛋是15 × 25个。把装箱的鸡蛋看作5份，那么卖出的鸡蛋是3份。先求1份，再把两部分相加。"
+  },
+  {
+    "id": 36,
+    "topic": "Fractions",
+    "question": "There were some candles in a box. 1/3 of the candles were green. There were 2 times as many blue candles as red candles and 1/4 as many yellow candles as red candles. If there were 24 red candles, how many candles were there in the box altogether?",
+    "answer": "117 candles",
+    "model": "unit-bar",
+    "hint": "Find the yellow and blue candles from the 24 red candles. Those 3 colours together are the 2/3 that is not green, so they make 2 units of the whole box.",
+    "questionZh": "一个盒子里有一些蜡烛。其中1/3是绿色的。蓝色蜡烛的数量是红色的2倍，黄色蜡烛的数量是红色的1/4。若红色蜡烛有24支，盒子里一共有多少支蜡烛？",
+    "hintZh": "由24支红色蜡烛求出黄色和蓝色的数量。这3种颜色合起来就是不含绿色的2/3，也就是整盒的2份。"
+  },
+  {
+    "id": 37,
+    "topic": "Fractions",
     "question": "There were 2 times as many oranges as apples in a box and 3 times as many pears as apples. When 1/4 of the oranges were eaten, there were 21 oranges left in the box. How many pieces of fruit were there in the box at 1st?",
     "answer": "84 pieces of fruit",
     "model": "unit-bar",
@@ -350,7 +370,7 @@ window.QUESTION_BANK = [
     "hintZh": "由剩下的21个橙子求原来的橙子数，再用苹果表示苹果和梨的数量。"
   },
   {
-    "id": 36,
+    "id": 38,
     "topic": "Fractions",
     "question": "Elaine had some sweets. When she ate 2/7 of them and gave 36 sweets to her brother, she had 2/7 of the sweets left. How many sweets did she have at 1st?",
     "answer": "84 sweets",
@@ -360,7 +380,7 @@ window.QUESTION_BANK = [
     "hintZh": "比较吃掉后的分数和最后剩下的分数，两者的差就是送出的36颗糖。"
   },
   {
-    "id": 37,
+    "id": 39,
     "topic": "Fractions",
     "question": "Jug A contained 3 5/12 L of water. Jug A contained 1 2/3 L less water than jug B. Jug C contained 5/6 L less water than jug B. The water in the 3 jugs was poured into a container. How much water was there in the container in the end?",
     "answer": "12 3/4 L",
@@ -370,7 +390,7 @@ window.QUESTION_BANK = [
     "hintZh": "先把A壶与B壶的差加到A壶，求出B壶；再从B壶减去相差的量，求出C壶。"
   },
   {
-    "id": 38,
+    "id": 40,
     "topic": "Fractions",
     "question": "Mrs Crawford baked some pies. She gave 1/3 of them to her neighbour. She then gave 5/12 of the remainder to a children's home. The rest of the pies were packed into 25 boxes with 14 pies in each box. How many pies did Mrs Crawford bake altogether?",
     "answer": "900 pies",
@@ -380,7 +400,7 @@ window.QUESTION_BANK = [
     "hintZh": "装盒的派有25 × 14个。倒推：送出1/3后剩下2/3，再送出5/12后，剩余部分的7/12被装盒。"
   },
   {
-    "id": 39,
+    "id": 41,
     "topic": "Fractions",
     "question": "Sandy spent 3/5 of her money in a toy shop on a teddy bear for $38 and a toy train for $46. The remaining money was then spent on 5 similar books. How much did each book cost?",
     "answer": "$11.20",
@@ -390,7 +410,7 @@ window.QUESTION_BANK = [
     "hintZh": "泰迪熊和玩具火车的总价代表桑迪钱的3/5。先求剩余的2/5，再平均分给5本书。"
   },
   {
-    "id": 40,
+    "id": 42,
     "topic": "Fractions",
     "question": "Jeff sold 120 oranges on Friday. He sold 100 fewer oranges on Friday than on Saturday. The number of oranges he sold on Sunday was 3 times the number he sold on Friday. If he had 2/7 of the oranges left, how many oranges did he have at 1st?",
     "answer": "980 oranges",
@@ -400,7 +420,7 @@ window.QUESTION_BANK = [
     "hintZh": "先求星期五、星期六和星期日各卖出的数量。这些卖出的橙子占原来总数的5/7。"
   },
   {
-    "id": 41,
+    "id": 43,
     "topic": "Fractions",
     "question": "There were 120 more eggs in box A than in box B. There were 2/3 as many eggs in box C as in box B. When 1/2 of the eggs in box B were sold, there were 222 eggs left in box B. How many eggs were there altogether?",
     "answer": "1304 eggs",
@@ -410,7 +430,7 @@ window.QUESTION_BANK = [
     "hintZh": "把222个鸡蛋乘以2，求出卖出前B盒的数量。再利用它计算A盒和C盒。"
   },
   {
-    "id": 42,
+    "id": 44,
     "topic": "Fractions",
     "question": "Alfred had 72 mugs. He sold some of them for $144. He then had 7/8 of the mugs left. How much would he get if he had sold all the mugs?",
     "answer": "$1152",
@@ -420,7 +440,7 @@ window.QUESTION_BANK = [
     "hintZh": "由1/8求出卖出的杯子数，从而得到1个杯子的售价。"
   },
   {
-    "id": 43,
+    "id": 45,
     "topic": "Fractions",
     "question": "There were some chicken wings and fishballs in a pack. After 2/7 of the chicken wings were taken out from the pack, there were 3/10 as many chicken wings as fishballs in the pack. If there were 50 fishballs, how many chicken wings were there in the pack at 1st?",
     "answer": "21 chicken wings",
@@ -430,7 +450,7 @@ window.QUESTION_BANK = [
     "hintZh": "用50的3/10求取出后剩下的鸡翅数。这是原来鸡翅数的5/7。"
   },
   {
-    "id": 44,
+    "id": 46,
     "topic": "Fractions",
     "question": "There were 1/2 as many yellow T-shirts as blue T-shirts in a box and 15 more green T-shirts than blue T-shirts. There were 27 yellow T-shirts. How many T-shirts were left in the box when 4/5 of the T-shirts were taken out?",
     "answer": "30 T-shirts",
@@ -440,7 +460,7 @@ window.QUESTION_BANK = [
     "hintZh": "由27件黄色T恤求蓝色和绿色T恤的数量，再求总数的剩余1/5。"
   },
   {
-    "id": 45,
+    "id": 47,
     "topic": "Fractions",
     "question": "There were some pears in boxes A and B. When 1/3 of the pears were taken out from box A and 5/9 of the pears were taken out from box B, there was an equal number of pears in both boxes. If 84 pears were taken out, how many pears were there in both boxes at 1st?",
     "answer": "180 pears",
@@ -450,7 +470,7 @@ window.QUESTION_BANK = [
     "hintZh": "画出原有数量的条形图，使两盒剩余部分相等。取出的部分合计84个。"
   },
   {
-    "id": 46,
+    "id": 48,
     "topic": "Fractions",
     "question": "Agnes had a total of 135 balloons. There were 3 times as many red balloons as green balloons, 2 times as many blue balloons as green balloons and some purple balloons. When 12 green balloons burst, there were 1/3 as many green as purple balloons left. Find the total number of purple and green balloons Agnes had at 1st.",
     "answer": "40 purple and green balloons",
@@ -460,8 +480,8 @@ window.QUESTION_BANK = [
     "hintZh": "把绿气球设为1份。12个爆掉后，利用剩下绿气球与紫气球的1:3关系。"
   },
   {
-    "id": 47,
-    "topic": "Fractions",
+    "id": 49,
+    "topic": "Money",
     "question": "Michael paid $14 for 3 similar mangoes and a durian. The durian cost $2 more than each mango. What was the total cost of 5 mangoes and 4 durians?",
     "answer": "$35",
     "model": "money-units",
@@ -470,8 +490,8 @@ window.QUESTION_BANK = [
     "hintZh": "把榴莲的价格替换为1个芒果的价格加$2，再求1个芒果的价格。"
   },
   {
-    "id": 48,
-    "topic": "Fractions",
+    "id": 50,
+    "topic": "Money",
     "question": "A blouse costs 1/2 as much as a shirt. If the total cost of 3 similar blouses and a shirt is $200, what is the cost of 7 blouses and 4 shirts?",
     "answer": "$600",
     "model": "money-units",
@@ -480,7 +500,7 @@ window.QUESTION_BANK = [
     "hintZh": "把1件女式上衣设为1份，1件衬衫设为2份。把两次购买都换算成份数。"
   },
   {
-    "id": 49,
+    "id": 51,
     "topic": "Money",
     "question": "Colin paid $12 for 4 buns and 4 cakes. 3 buns cost as much as 2 cakes. What was the total cost of 6 buns and 9 cakes?",
     "answer": "$23.40",
@@ -490,7 +510,7 @@ window.QUESTION_BANK = [
     "hintZh": "利用3个面包 = 2块蛋糕，把面包和蛋糕用相同的份数表示，再利用总价$12。"
   },
   {
-    "id": 50,
+    "id": 52,
     "topic": "Money",
     "question": "The total cost of a radio, a clock and a blender is $215. The radio costs $35 more than the blender. The blender costs $45 more than the clock. What is the cost of the radio?",
     "answer": "$110",
@@ -500,7 +520,7 @@ window.QUESTION_BANK = [
     "hintZh": "把时钟的价格看作基准金额，把搅拌机和收音机写成这个金额加上题中给出的差额。"
   },
   {
-    "id": 51,
+    "id": 53,
     "topic": "Money",
     "question": "Betty had 2 times as much money as Johnson. After Betty spent $350, she had $25 less than Johnson. Find the total amount of money they had at 1st.",
     "answer": "$975",
@@ -510,7 +530,7 @@ window.QUESTION_BANK = [
     "hintZh": "贝蒂花掉$350后，将她的钱与约翰逊未变的钱比较，求出约翰逊的钱。"
   },
   {
-    "id": 52,
+    "id": 54,
     "topic": "Money",
     "question": "Connie and Alice had an equal amount of money at 1st. Connie gave Alice $126 and Alice had 4 times as much money as Connie in the end. How much money did Connie have at 1st?",
     "answer": "$210",
@@ -520,7 +540,7 @@ window.QUESTION_BANK = [
     "hintZh": "转移$126使最后金额产生差距。把最后的金额按4:1比例表示。"
   },
   {
-    "id": 53,
+    "id": 55,
     "topic": "Money",
     "question": "Terence and Winnie had a total of 27 coins. When Terence gave Winnie 1/4 of his coins, she had 2 times as many coins as him. Winnie then found out that she had 2 times as many 20-cent coins as 10-cent coins. How much money did she have in the end?",
     "answer": "$3",
@@ -530,7 +550,7 @@ window.QUESTION_BANK = [
     "hintZh": "先利用转移和总数27求温妮最后的硬币数，再按20分硬币与10分硬币2:1的比例分配。"
   },
   {
-    "id": 54,
+    "id": 56,
     "topic": "Money",
     "question": "Hazel had enough money to buy 25 chocolate cookies. Each chocolate cookie cost as much as 2 butter cookies. Hazel borrowed another $6 from her mother to buy 20 chocolate cookies and 20 butter cookies. How much money did Hazel have at 1st?",
     "answer": "$30",
@@ -540,7 +560,7 @@ window.QUESTION_BANK = [
     "hintZh": "每1块巧克力饼干相当于2块黄油饼干。把20块黄油饼干换算成等价数量的巧克力饼干，比较2次购买。"
   },
   {
-    "id": 55,
+    "id": 57,
     "topic": "Money",
     "question": "A book costs 3 times as much as a pen. 5 similar pens cost as much as a photo frame. If 3 similar photo frames cost $74.25, what is the total cost of a book, a pen and a photo frame?",
     "answer": "$44.55",
@@ -550,7 +570,7 @@ window.QUESTION_BANK = [
     "hintZh": "先把一支笔、一本书和一个相框都用1个共同单位表示，再利用3个相框的价钱。"
   },
   {
-    "id": 56,
+    "id": 58,
     "topic": "Money",
     "question": "For every T-shirt that Joel sells, he will receive $12. He will receive another $5 for every set of 10 T-shirts he sells. If he sells 100 T-shirts, he will receive an additional $50 bonus. How many T-shirts does Joel have to sell to receive $1372 in total?",
     "answer": "106 T-shirts",
@@ -560,7 +580,7 @@ window.QUESTION_BANK = [
     "hintZh": "先计算乔尔卖出100件T恤的收入，包括10次每组奖金和$50奖金。"
   },
   {
-    "id": 57,
+    "id": 59,
     "topic": "Money",
     "question": "4 boxes of coloured pencils cost as much as 3 boxes of paint. Natalie had just enough money to buy 7 boxes of paint and 2 boxes of coloured pencils. If a box of paint cost $5.40, how much would Natalie have left if she only bought 5 boxes of paint?",
     "answer": "$18.90",
@@ -570,17 +590,17 @@ window.QUESTION_BANK = [
     "hintZh": "利用3盒颜料 = 4盒彩色铅笔，求2盒彩色铅笔的价钱，再求娜塔莉原有的钱。"
   },
   {
-    "id": 58,
+    "id": 60,
     "topic": "Money",
-    "question": "Jeffrey had 4 times as many 20-cent coins as 10-cent coins and 1/3 as many 50-cent coins as 10-cent coins. If he had 2 50-cent coins, how much money would he have left if he spent $2.75 on a pair of socks?",
+    "question": "Jeffrey had 4 times as many 20-cent coins as 10-cent coins and 1/3 as many 50-cent coins as 10-cent coins. If he had 2 of the 50-cent coins, how much money would he have left if he spent $2.75 on a pair of socks?",
     "answer": "$3.65",
     "model": "money-units",
-    "hint": "Use the 2 50-cent coins to find the number of 10-cent coins, then find the number and total value of all coins.",
+    "hint": "The 50-cent coins are 1/3 of the 10-cent coins, so use the 2 of them to find how many 10-cent coins there are. Then find the number and the total value of all the coins.",
     "questionZh": "杰弗里20分硬币的数量是10分硬币的4倍，50分硬币的数量是10分硬币的1/3。若他有2枚50分硬币，买一双袜子花$2.75后还剩多少钱？",
-    "hintZh": "利用2枚50分硬币求10分硬币的数量，再求所有硬币的数量和总价值。"
+    "hintZh": "50分硬币的数量是10分硬币的1/3，所以用这2枚求出10分硬币有多少枚。再求所有硬币的数量和总价值。"
   },
   {
-    "id": 59,
+    "id": 61,
     "topic": "Money",
     "question": "Michael had some flowers. He sold 2/3 of them at 90¢ each and the rest at 50¢ each. Fanny sold the same number of flowers at 80¢ each, collecting a total of $7.20. How much did Michael collect?",
     "answer": "$6.90",
@@ -590,7 +610,7 @@ window.QUESTION_BANK = [
     "hintZh": "由范妮每朵80¢、共$7.20求花的数量。再把迈克尔的花按2/3和1/3分开。"
   },
   {
-    "id": 60,
+    "id": 62,
     "topic": "Money",
     "question": "When Nelly bought 5 pencils, she spent the same amount as Benjamin who bought 3 pens. If Benjamin spent 2/7 of his money buying the pens and he had $45 left, what was the total cost of a pencil and a pen?",
     "answer": "$9.60",
@@ -600,7 +620,7 @@ window.QUESTION_BANK = [
     "hintZh": "剩下的$45是本杰明的钱的5/7。求他买3支钢笔的价钱，这也等于5支铅笔的价钱。"
   },
   {
-    "id": 61,
+    "id": 63,
     "topic": "Money",
     "question": "Ron earns $12 an hour on weekdays and 2 times as much on weekends. Ron works 8 hours a day on weekdays and 5 hours a day on Saturdays and Sundays. How much will he earn in 2 weeks if he works every day?",
     "answer": "$1440",
@@ -610,7 +630,7 @@ window.QUESTION_BANK = [
     "hintZh": "平日和周末的时薪不同，因此分别计算2周内的平日与周末工作时数。"
   },
   {
-    "id": 62,
+    "id": 64,
     "topic": "Money",
     "question": "The cost of a magazine and 2 books is $34. The cost of 3 magazines and 4 books is $76. If Tasha buys 13 magazines and 9 books, how much money does she spend?",
     "answer": "$221",
@@ -620,7 +640,7 @@ window.QUESTION_BANK = [
     "hintZh": "把第1次购买乘以2，再与第2次购买比较，求出1本杂志的价钱。"
   },
   {
-    "id": 63,
+    "id": 65,
     "topic": "Money",
     "question": "An apple and 2 oranges cost $2.30. 2 apples and an orange cost $2.50. What is the cost of 4 apples and 6 oranges?",
     "answer": "$7.80",
@@ -630,7 +650,7 @@ window.QUESTION_BANK = [
     "hintZh": "把第1个等式乘以2，再与第2个等式比较，求出1个橙子的价钱。"
   },
   {
-    "id": 64,
+    "id": 66,
     "topic": "Money",
     "question": "Mrs Bellamont sold 2 times as many butter cookies as chocolate chip cookies and 2 times as many chocolate chip cookies as coconut cookies. Each box of 4 cookies was sold for $4.50. 80 chocolate chip cookies were sold. How much would Mrs Bellamont collect from the sale of all the cookies?",
     "answer": "$315",
@@ -640,8 +660,8 @@ window.QUESTION_BANK = [
     "hintZh": "把巧克力碎片饼干表示为2份。求饼干总数，再求4块一盒的盒数。"
   },
   {
-    "id": 65,
-    "topic": "Money",
+    "id": 67,
+    "topic": "Mass",
     "question": "The total mass of Gilbert and Sean was 124 kg. If Sean lost 1/4 of his mass, he would be 45 kg. How much heavier was Gilbert compared to Sean?",
     "answer": "4 kg",
     "model": "mass-bar",
@@ -650,8 +670,8 @@ window.QUESTION_BANK = [
     "hintZh": "肖恩减去1/4后，剩下原来质量的3/4。利用45 kg求出他原来的质量。"
   },
   {
-    "id": 66,
-    "topic": "Money",
+    "id": 68,
+    "topic": "Mass",
     "question": "4 parcels, A, B, C and D have a total mass of 100.75 kg. Parcel A weighs 12.45 kg more than parcel B. Parcel B weighs 8.4 kg less than parcel C. Parcel C weighs 24.2 kg. How much heavier is parcel D than parcel C?",
     "answer": "8.3 kg",
     "model": "mass-bar",
@@ -660,7 +680,7 @@ window.QUESTION_BANK = [
     "hintZh": "由C求B，再由B求A。从总质量中减去A、B和C的质量，求出D。"
   },
   {
-    "id": 67,
+    "id": 69,
     "topic": "Mass",
     "question": "Box A was 3.45 kg heavier than box B. When 1.2 kg of items in box A was removed, box A became 4 times as heavy as box B. What was the mass of box A in the beginning?",
     "answer": "4.2 kg",
@@ -670,7 +690,7 @@ window.QUESTION_BANK = [
     "hintZh": "取出后，利用4:1的质量比。原来的差是3.45 kg，因此新的差是3.45 − 1.2 kg。"
   },
   {
-    "id": 68,
+    "id": 70,
     "topic": "Mass",
     "question": "The mass of a box is 45 kg when it is full. When 1/2 of the items in the box are taken out, the mass of the remaining items and the box is 33 kg. What is the mass of 6 empty boxes?",
     "answer": "126 kg",
@@ -678,26 +698,6 @@ window.QUESTION_BANK = [
     "hint": "The difference between 45 kg and 33 kg is the mass of 1/2 the items. Use it to find the empty box's mass.",
     "questionZh": "一个盒子装满时质量为45 kg。取出盒中物品的1/2后，剩余物品和盒子的质量为33 kg。6个空盒子的质量是多少？",
     "hintZh": "45 kg与33 kg的差是物品的1/2的质量。利用它求出1个空盒子的质量。"
-  },
-  {
-    "id": 69,
-    "topic": "Mass",
-    "question": "9 small squares are used to form a large square. If each side of a small square is 7 cm, what is the area of the large square?",
-    "answer": "441 cm²",
-    "model": "geometry",
-    "hint": "The 9 small squares form a 3 by 3 array, so each side of the large square has 3 7 cm lengths.",
-    "questionZh": "用9个小正方形拼成一个大正方形。若每个小正方形的边长是7 cm，大正方形的面积是多少？",
-    "hintZh": "9个小正方形排成3乘3的方阵，所以大正方形的每条边由3段7 cm组成。"
-  },
-  {
-    "id": 70,
-    "topic": "Mass",
-    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion.",
-    "answer": "32 cm",
-    "model": "geometry",
-    "hint": "Find the side length of the square 1st. Then use the 7 cm marked side and matching tick marks to label every edge of the unshaded boundary.",
-    "questionZh": "一个正方形的面积是81 cm²。求未阴影部分的周长。",
-    "hintZh": "先求正方形的边长。再利用标出的7 cm边和相同的刻度标记，标出未阴影边界的每一条边。"
   },
   {
     "id": 71,
@@ -712,12 +712,12 @@ window.QUESTION_BANK = [
   {
     "id": 72,
     "topic": "Area & Perimeter",
-    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion shown in the diagram.",
+    "question": "The diagram shows a square ABCD with an area of 81 cm². A is the top left corner, B the top right, C the bottom right and D the bottom left. A step-shaped line runs from G on side AD horizontally to H, then vertically up to E, then horizontally to F on side BC, so E is level with F and the unshaded portion is ABFEHG. AG is 7 cm, and BF is the same length as GD. Find the perimeter of the unshaded portion.",
     "answer": "32 cm",
     "model": "geometry",
-    "hint": "1st find the side length of the 81 cm² square, then trace only the outside edges of the unshaded L-shaped portion.",
-    "questionZh": "一个正方形的面积是81 cm²。求图中未阴影部分的周长。",
-    "hintZh": "先求面积为81 cm²的正方形的边长，再只沿未阴影L形部分的外边界计算。"
+    "hint": "The square's side is 9 cm, so BF = GD = 9 − 7 = 2 cm and EH = 7 − 2 = 5 cm. GH and EF together span the full 9 cm. Remember that the 2 step edges are part of the perimeter.",
+    "questionZh": "图中正方形ABCD的面积是81 cm²。A是左上角，B是右上角，C是右下角，D是左下角。一条阶梯形的线从AD边上的G点水平向右到H点，再竖直向上到E点，然后水平向右到BC边上的F点，因此E与F等高，未阴影部分是ABFEHG。AG是7 cm，BF与GD等长。求未阴影部分的周长。",
+    "hintZh": "正方形的边长是9 cm，所以BF = GD = 9 − 7 = 2 cm，EH = 7 − 2 = 5 cm。GH与EF合起来正好是整条边9 cm。注意2段阶梯边也属于周长。"
   },
   {
     "id": 73,
@@ -745,9 +745,9 @@ window.QUESTION_BANK = [
     "question": "Jenny draws a picture on a piece of paper with a border of 4 cm around the picture. The length of the paper is 24 cm. If the breadth of the picture is 8 cm, find the area of the border.",
     "answer": "256 cm²",
     "model": "geometry",
-    "hint": "Find the area of the whole paper and subtract the area of the picture. Remember that the border adds 4 cm on both sides.",
+    "hint": "The border adds 4 cm at each end, so the paper is 8 + 4 + 4 cm wide, while the picture is 24 − 4 − 4 cm long. Then subtract the picture's area from the paper's area.",
     "questionZh": "珍妮在一张纸上画画，画的四周有宽4 cm的边框。纸的长是24 cm。若画的宽是8 cm，求边框的面积。",
-    "hintZh": "求整张纸的面积，再减去画的面积。注意边框在两侧各增加4 cm。"
+    "hintZh": "边框在两端各增加4 cm，所以纸宽是8 + 4 + 4 cm，而画长是24 − 4 − 4 cm。再用纸的面积减去画的面积。"
   },
   {
     "id": 76,
@@ -755,29 +755,29 @@ window.QUESTION_BANK = [
     "question": "The perimeter of a square is 1/2 the area of a rectangle. A wire is bent to form 3 such squares and 2 such rectangles. 20 cm of wire is left. If the length of the rectangle is 15 cm and its breadth is 12 cm, find the length of the wire.",
     "answer": "398 cm",
     "model": "geometry",
-    "hint": "Find the rectangle's area and perimeter. Its area gives the perimeter of 1 square; then add wire for all 5 shapes and the leftover 20 cm.",
+    "hint": "The rectangle's area is 180 cm², so 1 square's perimeter is 1/2 of it, that is 90 cm. Add 3 square perimeters, 2 rectangle perimeters and the 20 cm left over.",
     "questionZh": "一个正方形的周长是一个长方形面积的1/2。一根铁丝弯成3个这样的正方形和2个这样的长方形，剩下20 cm铁丝。若长方形长15 cm、宽12 cm，求铁丝的长度。",
-    "hintZh": "求长方形的面积和周长。它的面积给出1个正方形的周长；再加上全部5个图形及剩下的20 cm所需铁丝。"
+    "hintZh": "长方形的面积是180 cm²，所以1个正方形的周长是它的1/2，即90 cm。把3个正方形的周长、2个长方形的周长和剩下的20 cm相加。"
   },
   {
     "id": 77,
     "topic": "Area & Perimeter",
-    "question": "The perimeter of rectangle EFGH is 180 cm. YH is 2 times GZ. If EF is 24 cm and YH is 12 cm, what is the area of rectangle ABCD?",
+    "question": "The diagram shows rectangle EFGH inside rectangle ABCD. The perimeter of EFGH is 180 cm and EF is 24 cm. The gap between AB and EF is 10 cm, and the gap between HG and DC is 13 cm. Y lies on AD and Z lies on BC, and YH is 2 times GZ. If YH is 12 cm, what is the area of rectangle ABCD?",
     "answer": "3738 cm²",
     "model": "geometry",
-    "hint": "Use the inner rectangle's perimeter to find its height. Use YH = 2 × GZ, then add the labelled horizontal and vertical sections of the diagram.",
-    "questionZh": "长方形EFGH的周长是180 cm。YH是GZ的2倍。若EF是24 cm，YH是12 cm，长方形ABCD的面积是多少？",
-    "hintZh": "利用内长方形的周长求其高。利用YH = 2 × GZ，再把图中标出的水平和竖直线段相加。"
+    "hint": "Use the perimeter of EFGH with EF = 24 cm to find EH. GZ is 1/2 of YH. Each side of ABCD is then the sum of 3 pieces: 10 + EH + 13 across, and YH + EF + GZ down.",
+    "questionZh": "图中长方形EFGH在长方形ABCD的内部。EFGH的周长是180 cm，EF是24 cm。AB与EF之间的距离是10 cm，HG与DC之间的距离是13 cm。Y在AD上，Z在BC上，YH是GZ的2倍。若YH是12 cm，长方形ABCD的面积是多少？",
+    "hintZh": "利用EFGH的周长和EF = 24 cm求EH。GZ是YH的1/2。于是ABCD的每条边都是3段之和：一个方向是10 + EH + 13，另一个方向是YH + EF + GZ。"
   },
   {
     "id": 78,
     "topic": "Area & Perimeter",
-    "question": "Mr Cox wants to put a fence around his garden. His garden is in the shape of 2 similar rectangles and 3 similar squares. If it costs $23 to fence 2 metres of his garden, how much will Mr Cox have to pay to fence the entire garden?",
+    "question": "Mr Cox wants to put a fence around his garden. The garden is a strip 6 m wide shaped like a corner: it runs 34 m along the top, then turns and runs down the right-hand side, so the garden measures 34 m from top to bottom. It is made up of 2 similar rectangles and 3 similar squares. If it costs $23 to fence 2 m of his garden, how much will Mr Cox have to pay to fence the entire garden?",
     "answer": "$1564",
     "model": "geometry",
-    "hint": "Use the 34 m and 6 m labels to fill in all missing side lengths of the diagram. Add the outside edges only, then apply the cost per metre.",
-    "questionZh": "考克斯先生想在花园周围围篱笆。他的花园由2个相同的长方形和3个相同的正方形组成。若给花园2 metres围篱笆的费用是$23，考克斯先生给整个花园围篱笆要付多少钱？",
-    "hintZh": "利用图中34 m和6 m的标注填出所有缺失边长。只把外边相加，再按每米费用计算。"
+    "hint": "The strip is 6 m wide, so each square has a side of 6 m. The outline has 6 edges: 2 of 34 m, 2 of 28 m and 2 of 6 m. Find the cost of 1 m before multiplying.",
+    "questionZh": "考克斯先生想在花园周围围篱笆。花园是一条宽6 m的地带，形状像一个拐角：先沿上边延伸34 m，然后转向沿右边向下，因此花园从上到下也是34 m。它由2个相同的长方形和3个相同的正方形组成。若给花园2 m围篱笆的费用是$23，考克斯先生给整个花园围篱笆要付多少钱？",
+    "hintZh": "地带宽6 m，所以每个正方形的边长是6 m。外轮廓有6条边：2条34 m、2条28 m、2条6 m。先算出1 m的费用，再相乘。"
   },
   {
     "id": 79,
@@ -855,9 +855,9 @@ window.QUESTION_BANK = [
     "question": "2/3 of the people at a fair wore hats. 1/6 of those who wore hats were men and the rest were women. There were 124 more women than men who wore hats at the fair. (a) How many people did not wear hats? (b) How many people were there at the fair?",
     "answer": "(a) 93 people; (b) 279 people",
     "model": "unit-bar",
-    "hint": "Split the hat wearers into 6 equal units. The difference between 5 units of women and 1 unit of men is $124 in people, not dollars.",
+    "hint": "Split the hat wearers into 6 equal units — 1 unit of men and 5 units of women. Their difference is 4 units, which equals 124 people.",
     "questionZh": "集市上2/3的人戴帽子。戴帽子的人中1/6是男性，其余是女性。集市中戴帽子的女性比男性多124人。 (a) 有多少人没戴帽子？ (b) 集市上一共有多少人？",
-    "hintZh": "把戴帽子的人分成6等份。女性的5份与男性的1份相差124人，而不是$124。"
+    "hintZh": "把戴帽子的人分成6等份 —— 男性1份，女性5份。它们的差是4份，等于124人。"
   },
   {
     "id": 87,
@@ -995,18 +995,18 @@ window.QUESTION_BANK = [
     "question": "A piece of wire is cut into 2 equal pieces. 1 piece is bent to form 2 similar squares with sides 12 cm. The other piece is bent into 3 similar rectangles, each with a breadth of 6 cm. (a) Find the length of the piece of wire at 1st. (b) Find the area of each rectangle.",
     "answer": "(a) 192 cm; (b) 60 cm²",
     "model": "geometry",
-    "hint": "Find the wire needed for 2 12 cm squares. That is 1/2 of the original wire and also the wire used for 3 rectangles.",
+    "hint": "2 squares with sides of 12 cm use 96 cm of wire. That is 1/2 of the original wire, and it is also the wire used for the 3 rectangles.",
     "questionZh": "一根铁丝被剪成2段相等的长度。其中1段弯成2个边长12 cm的相同正方形；另一段弯成3个相同长方形，每个长方形的宽是6 cm。 (a) 求这根铁丝开始时的长度。 (b) 求每个长方形的面积。",
-    "hintZh": "求2个边长12 cm正方形所需的铁丝长度。这是原来铁丝的1/2，也等于3个长方形所用的铁丝长度。"
+    "hintZh": "2个边长12 cm的正方形用去96 cm铁丝。这是原来铁丝的1/2，也等于3个长方形所用的铁丝。"
   },
   {
     "id": 101,
     "topic": "2-part Word Problems",
-    "question": "The figure shows 3 identical rectangles. The shaded areas where the rectangles overlap form squares of 25 cm² each. Each rectangle is 13 cm by 9 cm. (a) Find the perimeter of the whole figure. (b) Find the total area of the unshaded parts.",
+    "question": "The figure shows 3 identical rectangles arranged in a step pattern, so each rectangle overlaps the next rectangle in a corner square. The shaded areas where the rectangles overlap are squares of 25 cm² each. Each rectangle is 13 cm by 9 cm. (a) Find the perimeter of the whole figure. (b) Find the total area of the unshaded parts.",
     "answer": "(a) 92 cm; (b) 251 cm²",
     "model": "geometry",
-    "hint": "Each overlap square has side 5 cm. Mark the exposed lengths around the outside, then subtract the overlap square(s) from each 13 cm by 9 cm rectangle.",
-    "questionZh": "图中有3个完全相同的长方形。长方形重叠部分的阴影区域各为面积25 cm²的正方形。每个长方形是13 cm × 9 cm。 (a) 求整个图形的周长。 (b) 求未阴影部分的总面积。",
-    "hintZh": "每个重叠正方形的边长是5 cm。标出外边界上露出的长度，再从每个13 cm × 9 cm长方形中减去重叠正方形。"
+    "hint": "Each overlap square is 5 cm by 5 cm. For (a), the 3 rectangles have 132 cm of edge in total and each overlap hides 20 cm of it. For (b), the middle rectangle loses 2 overlap squares, each end rectangle only 1.",
+    "questionZh": "图中3个完全相同的长方形排成阶梯状，每个长方形与下一个长方形在一个角上的正方形处重叠。长方形重叠的阴影区域各是面积25 cm²的正方形。每个长方形是13 cm × 9 cm。 (a) 求整个图形的周长。 (b) 求未阴影部分的总面积。",
+    "hintZh": "每个重叠正方形是5 cm × 5 cm。第(a)问：3个长方形的边长共132 cm，每处重叠会遮住其中20 cm。第(b)问：中间的长方形减去2个重叠正方形，两端的长方形各只减1个。"
   }
 ];

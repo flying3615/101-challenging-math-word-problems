@@ -383,11 +383,11 @@ window.QUESTION_BANK = [
     "id": 39,
     "topic": "Addition and Subtraction within 100",
     "question": "There are 20 boys and 10 girls in class A. There are 18 boys and 24 girls in class B. How many fewer girls than boys are there in both classes altogether?",
-    "answer": "8",
+    "answer": "4",
     "model": "bar-change",
-    "hint": "Pool the boys from both classes into a single count, and pool the girls into another. The question wants the gap between those 2 pooled counts.",
+    "hint": "Pool the boys from both classes, then pool the girls, before you compare. The 2 classes lean opposite ways, so 1 gap cancels part of the other.",
     "questionZh": "A班有20名男生和10名女生。B班有18名男生和24名女生。两个班合起来，女生比男生少多少名？",
-    "hintZh": "把两个班的男生合成一个总数，把女生合成另一个总数，题目要的是这两个总数之间的差。"
+    "hintZh": "先把 2 个班的男生合起来，再把女生合起来，然后才比较。2 个班的偏向相反，所以 1 边的差会抵消另一边的一部分。"
   },
   {
     "id": 40,

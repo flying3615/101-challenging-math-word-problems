@@ -153,7 +153,7 @@
     setNodeText('.work > h2', t('lessonTitle'));
     setNodeText('.work > .lead', t('lessonLead'));
     const modelButton = document.querySelector('#modelButton');
-    if (modelButton) modelButton.textContent = document.querySelector('#model')?.classList.contains('show') ? t('replayModel') : t('showModel');
+    if (modelButton) modelButton.textContent = document.querySelector('#model')?.classList.contains('show') ? (isChinese() ? '隐藏图示' : 'Hide visual model') : t('showModel');
     const hintButton = document.querySelector('#hintButton');
     if (hintButton) hintButton.textContent = document.querySelector('#hintBox')?.classList.contains('show') ? t('hideHint') : t('showHint');
     const hint = document.querySelector('#hintBox');

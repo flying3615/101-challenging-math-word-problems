@@ -41,6 +41,7 @@
     const $=id=>document.getElementById(id);
     const state={activeId:Number(localStorage.getItem('book1MathStoryActive'))||1, topic:'All', solved:new Set(JSON.parse(localStorage.getItem('book1MathStorySolved')||'[]')), attempted:new Set(JSON.parse(localStorage.getItem('book1MathStoryAttempted')||'[]')), hints:Number(localStorage.getItem('book1MathStoryHints')||0), modelOpen:false, hintOpen:false};
     const BANK=Array.isArray(window.QUESTION_BANK)?window.QUESTION_BANK:[];
+    document.addEventListener('click',event=>{if(event.target.id==='modelButton'&&state.modelOpen){event.stopImmediatePropagation();state.modelOpen=false;renderLesson();}},true);
     const topicOrder=['All','Addition within 100','Subtraction within 100','Multiplication','Division','Addition and Subtraction within 100','Addition and Multiplication within 100','Addition and Division within 100','Subtraction and Multiplication within 100','Subtraction and Division within 100','Multiplication and Division within 100','2-part Word Problems'];
     function persist(){localStorage.setItem('book1MathStoryActive',state.activeId);localStorage.setItem('book1MathStorySolved',JSON.stringify([...state.solved]));localStorage.setItem('book1MathStoryAttempted',JSON.stringify([...state.attempted]));localStorage.setItem('book1MathStoryHints',String(state.hints));}
     function norm(s){return String(s).toLowerCase().replace(/[^a-z0-9.]/g,'');}

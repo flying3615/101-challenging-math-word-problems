@@ -864,22 +864,22 @@
     {
       "id": 87,
       "topic": "Area and Perimeter",
-      "question": "The figure below is made up of 3 squares overlapping each other. The square side lengths are 12 cm, 18 cm, and 32 cm. Find the perimeter of the figure.",
+      "question": "The figure is made up of 3 overlapping squares with sides 12 cm, 18 cm and 32 cm. Each smaller square overlaps the largest so that a corner of the 32 cm square sits at the centre of that smaller square. Find the perimeter of the figure.",
       "answer": "188 cm",
       "model": "geometry",
-      "hint": "The big square's corners land on the centre of each smaller square, so the outline picks up all 4 sides of the 32 cm square plus 2 sides' worth of each smaller square.",
-      "questionZh": "下图由3个相互重叠的正方形组成。正方形的边长分别为12 cm、18 cm和32 cm。求该图形的周长。",
-      "hintZh": "大正方形的角正好落在每个小正方形的中心，所以外框走过 32 cm 正方形的 4 条边，再加上每个小正方形 2 条边的长度。"
+      "hint": "A corner at the centre hides a quarter of each smaller square, so only 2 of its sides stay on the outline. The 32 cm square keeps all 4 of its sides.",
+      "questionZh": "下图由 3 个相互重叠的正方形组成，边长分别为 12 cm、18 cm 和 32 cm。每个较小的正方形都与最大的正方形重叠，且 32 cm 正方形的一个角正好落在该较小正方形的中心。求该图形的周长。",
+      "hintZh": "角落在中心，会遮住每个较小正方形的四分之一，所以它只有 2 条边留在外框上。32 cm 的正方形则 4 条边都保留。"
     },
     {
       "id": 88,
       "topic": "Area and Perimeter",
-      "question": "The figure below is made up of 2 similar squares and 4 similar rectangles. Each square has side length 15 cm, and the figure’s total height is 33 cm. Find the perimeter of the figure.",
+      "question": "The figure is made up of 4 similar rectangles in a row with 2 similar squares resting on top of them. Each square has a side of 15 cm, the 2 squares together span exactly 3 of the rectangles, and the figure is 33 cm tall. Find the perimeter of the figure.",
       "answer": "146 cm",
       "model": "geometry",
-      "hint": "The 2 squares sit above exactly 3 of the rectangles, so share 15 + 15 cm among 3 to get a rectangle's width; its height is 33 − 15 cm.",
-      "questionZh": "下图由2个相似的正方形和4个相似的长方形组成。每个正方形的边长为15 cm，图形的总高为33 cm。求该图形的周长。",
-      "hintZh": "2 个正方形正好压在其中 3 个长方形的上方，所以把 15 + 15 cm 平均分成 3 份就是长方形的宽，长方形的高是 33 − 15 cm。"
+      "hint": "Share the 2 square sides across the 3 rectangles they cover to get a rectangle's width. A rectangle's height is whatever the squares leave of the 33 cm.",
+      "questionZh": "下图由排成一行的 4 个相同长方形和压在它们上面的 2 个相同正方形组成。每个正方形边长 15 cm，2 个正方形合起来正好盖住其中 3 个长方形，图形总高 33 cm。求该图形的周长。",
+      "hintZh": "把 2 个正方形的边长分摊到它们盖住的 3 个长方形上，就得到长方形的宽。长方形的高是 33 cm 里正方形之外剩下的部分。"
     },
     {
       "id": 89,

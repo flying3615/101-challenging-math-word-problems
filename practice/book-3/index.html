@@ -41,6 +41,7 @@
     const $=id=>document.getElementById(id);
     const state={activeId:Number(localStorage.getItem('book3MathStoryActive'))||1, topic:'All', solved:new Set(JSON.parse(localStorage.getItem('book3MathStorySolved')||'[]')), attempted:new Set(JSON.parse(localStorage.getItem('book3MathStoryAttempted')||'[]')), hints:Number(localStorage.getItem('book3MathStoryHints')||0), modelOpen:false, hintOpen:false};
     const BANK=Array.isArray(window.QUESTION_BANK)?window.QUESTION_BANK:[];
+    document.addEventListener('click',event=>{if(event.target.id==='modelButton'&&state.modelOpen){event.stopImmediatePropagation();state.modelOpen=false;renderLesson();}},true);
     const topicOrder=['All','The Four Operations of Whole Numbers','Money','Fractions','Length','Mass','Volume','Time','Area and Perimeter','2-part: The Four Operations of Whole Numbers','2-part: Area'];
     function persist(){localStorage.setItem('book3MathStoryActive',state.activeId);localStorage.setItem('book3MathStorySolved',JSON.stringify([...state.solved]));localStorage.setItem('book3MathStoryAttempted',JSON.stringify([...state.attempted]));localStorage.setItem('book3MathStoryHints',String(state.hints));}
     function norm(s){return String(s).toLowerCase().replace(/²/g,'2').replace(/³/g,'3').replace(/[^a-z0-9.]/g,'');}

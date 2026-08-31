@@ -41,6 +41,7 @@
     const $=id=>document.getElementById(id);
     const state={activeId:Number(localStorage.getItem('book2MathStoryActive'))||1, topic:'All', solved:new Set(JSON.parse(localStorage.getItem('book2MathStorySolved')||'[]')), attempted:new Set(JSON.parse(localStorage.getItem('book2MathStoryAttempted')||'[]')), hints:Number(localStorage.getItem('book2MathStoryHints')||0), modelOpen:false, hintOpen:false};
     const BANK=Array.isArray(window.QUESTION_BANK)?window.QUESTION_BANK:[];
+    document.addEventListener('click',event=>{if(event.target.id==='modelButton'&&state.modelOpen){event.stopImmediatePropagation();state.modelOpen=false;renderLesson();}},true);
     const topicOrder=['All','Four Operations','Length and Mass','Fractions','Volume','Money','Time','2-part Problems'];
     function persist(){localStorage.setItem('book2MathStoryActive',state.activeId);localStorage.setItem('book2MathStorySolved',JSON.stringify([...state.solved]));localStorage.setItem('book2MathStoryAttempted',JSON.stringify([...state.attempted]));localStorage.setItem('book2MathStoryHints',String(state.hints));}
     function norm(s){return String(s).toLowerCase().replace(/[^a-z0-9.]/g,'');}

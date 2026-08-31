@@ -41,6 +41,7 @@
     const $=id=>document.getElementById(id);
     const state={activeId:Number(localStorage.getItem('book5MathStoryActive'))||1, topic:'All', solved:new Set(JSON.parse(localStorage.getItem('book5MathStorySolved')||'[]')), attempted:new Set(JSON.parse(localStorage.getItem('book5MathStoryAttempted')||'[]')), hints:Number(localStorage.getItem('book5MathStoryHints')||0), modelOpen:false, hintOpen:false};
     const BANK=Array.isArray(window.QUESTION_BANK)?window.QUESTION_BANK:[];
+    document.addEventListener('click',event=>{if(event.target.id==='modelButton'&&state.modelOpen){event.stopImmediatePropagation();state.modelOpen=false;renderLesson();}},true);
     const topicOrder=['All','Four Operations','Measurement','Ratio','Percentage','Geometry','2-part: Four Operations','2-part: Measurement','2-part: Ratio','2-part: Percentage'];
     function persist(){localStorage.setItem('book5MathStoryActive',state.activeId);localStorage.setItem('book5MathStorySolved',JSON.stringify([...state.solved]));localStorage.setItem('book5MathStoryAttempted',JSON.stringify([...state.attempted]));localStorage.setItem('book5MathStoryHints',String(state.hints));}
     function norm(s){return String(s).toLowerCase().replace(/[^a-z0-9.]/g,'');}

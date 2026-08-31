@@ -1,6 +1,7 @@
 export async function onRequest(context) {
   const path = context.params.path;
-  const key = `resources/${Array.isArray(path) ? path.join("/") : path}`;
+  const resourcePath = Array.isArray(path) ? path.join("/") : path;
+  const key = resourcePath.startsWith("resources/") ? resourcePath : `resources/${resourcePath}`;
   const object = await context.env.BOOK_RESOURCES.get(key);
 
   if (object === null) {

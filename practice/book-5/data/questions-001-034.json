@@ -5,7 +5,47 @@
     "question": "In a game for 24 groups, the average number of children was 16. When 1 more group of children joined the game, the average number of children became 18. The boys and girls who joined were in the ratio 5 : 6. If there were 220 boys at 1st, how many more boys than girls were there in the end?",
     "answer": "50 more boys",
     "model": "unit-bar",
-    "hint": "Find the totals for 24 and 25 groups. Split the new group's children into 5 boy-units and 6 girl-units, then compare the final totals."
+    "hint": "Find the totals for 24 and 25 groups. Split the new group's children into 5 boy-units and 6 girl-units, then compare the final totals.",
+    "solution": {
+      "en": {
+        "strategy": "Use the two averages to find the 66 children in the new group, then use its 5 : 6 ratio.",
+        "steps": [
+          {
+            "title": "Find the new group",
+            "text": "The first 24 groups had 24 × 16 = 384 children. All 25 groups had 25 × 18 = 450 children, so the group that joined had 450 − 384 = 66 children."
+          },
+          {
+            "title": "Split the new group",
+            "text": "The 5 : 6 ratio has 11 parts, so each part is 66 ÷ 11 = 6. The new group had 5 × 6 = 30 boys and 6 × 6 = 36 girls."
+          },
+          {
+            "title": "Compare the final numbers",
+            "text": "There were 220 boys at first, so there were 220 + 30 = 250 boys at the end. The original 384 children included 384 − 220 = 164 girls; 164 + 36 = 200 girls at the end. The difference is 250 − 200 = 50."
+          }
+        ],
+        "answerCheck": "50 more boys"
+      },
+      "zh-Hans": {
+        "strategy": "先用2个平均数求出新加入的66人，再按5 : 6分配男女生人数。",
+        "steps": [
+          {
+            "title": "求新加入小组的人数",
+            "text": "原来的24组共有24 × 16 = 384人。现在25组共有25 × 18 = 450人，所以新加入的1组有450 − 384 = 66人。"
+          },
+          {
+            "title": "按比例分配",
+            "text": "5 : 6总共是11份，每份是66 ÷ 11 = 6人。因此新组有5 × 6 = 30名男生和6 × 6 = 36名女生。"
+          },
+          {
+            "title": "比较最后人数",
+            "text": "开始时有220名男生，最后有220 + 30 = 250名男生。原来384人中有384 − 220 = 164名女生，最后有164 + 36 = 200名女生。相差250 − 200 = 50。"
+          }
+        ],
+        "answerCheck": "最后男生比女生多50人。"
+      }
+    },
+    "questionZh": "在一场有24个小组参加的比赛中，平均每组有16名儿童。又有1个儿童小组加入比赛后，平均每组儿童人数变为18。新加入的男生和女生人数之比为5 : 6。若1st时有220名男生，最后男生比女生多多少名？",
+    "hintZh": "分别求24个小组和25个小组的总人数。把新小组的儿童按5个男生单位和6个女生单位分开，再比较最后的总人数。"
   },
   {
     "id": 2,
@@ -13,7 +53,39 @@
     "question": "1/2 of a number is 90 more than 1/5 of the same number. What is the number?",
     "answer": "300",
     "model": "unit-bar",
-    "hint": "Represent the whole number using a denominator of 10. The difference between 1/2 and 1/5 is the part worth 90."
+    "hint": "Represent the whole number using a denominator of 10. The difference between 1/2 and 1/5 is the part worth 90.",
+    "solution": {
+      "en": {
+        "strategy": "Compare the two fractions of the same number.",
+        "steps": [
+          {
+            "title": "Find the fractional difference",
+            "text": "1/2 − 1/5 = 5/10 − 2/10 = 3/10. So 3/10 of the number is 90."
+          },
+          {
+            "title": "Find the whole number",
+            "text": "If 3/10 is 90, then 1/10 is 90 ÷ 3 = 30. Therefore the whole number is 10 × 30 = 300."
+          }
+        ],
+        "answerCheck": "300"
+      },
+      "zh-Hans": {
+        "strategy": "比较同样的数的2个分数部分。",
+        "steps": [
+          {
+            "title": "求分数差",
+            "text": "1/2 − 1/5 = 5/10 − 2/10 = 3/10，所以这个数的3/10是90。"
+          },
+          {
+            "title": "求整个数",
+            "text": "3/10是90，所以1/10是90 ÷ 3 = 30。整个数是10 × 30 = 300。"
+          }
+        ],
+        "answerCheck": "这个数是300。"
+      }
+    },
+    "questionZh": "一个数的1/2比同一个数的1/5多90。这个数是多少？",
+    "hintZh": "用分母为10表示整个数。1/2和1/5之间的差所代表的部分是90。"
   },
   {
     "id": 3,
@@ -21,7 +93,47 @@
     "question": "A florist arranges some orchids in bouquets of 20 and some roses in bouquets of 10. She sells each orchid bouquet for $25 and each rose bouquet for $30. She earns $390 altogether. If she sells 4 times as many orchid bouquets as rose bouquets, how many flowers does she sell altogether?",
     "answer": "270 flowers",
     "model": "money-units",
-    "hint": "Make 1 set from 4 orchid bouquets and 1 rose bouquet. Find the money and number of flowers in each set."
+    "hint": "Make 1 set from 4 orchid bouquets and 1 rose bouquet. Find the money and number of flowers in each set.",
+    "solution": {
+      "en": {
+        "strategy": "Make one sales set of 4 orchid bouquets and 1 rose bouquet.",
+        "steps": [
+          {
+            "title": "Find the value of one set",
+            "text": "One set earns 4 × $25 + 1 × $30 = $130."
+          },
+          {
+            "title": "Find how many sets were sold",
+            "text": "$390 ÷ $130 = 3 sets. Therefore 3 × 4 = 12 orchid bouquets and 3 × 1 = 3 rose bouquets were sold."
+          },
+          {
+            "title": "Count the flowers",
+            "text": "The orchid bouquets contain 12 × 20 = 240 orchids. The rose bouquets contain 3 × 10 = 30 roses. Altogether, 240 + 30 = 270 flowers."
+          }
+        ],
+        "answerCheck": "270 flowers"
+      },
+      "zh-Hans": {
+        "strategy": "把4束兰花和1束玫瑰看成1组销售组合。",
+        "steps": [
+          {
+            "title": "求1组的收入",
+            "text": "1组收入是4 × $25 + 1 × $30 = $130。"
+          },
+          {
+            "title": "求销售组数",
+            "text": "$390 ÷ $130 = 3组，所以卖出了3 × 4 = 12束兰花和3 × 1 = 3束玫瑰。"
+          },
+          {
+            "title": "计算花的总数",
+            "text": "兰花有12 × 20 = 240枝，玫瑰有3 × 10 = 30枝。总数是240 + 30 = 270枝花。"
+          }
+        ],
+        "answerCheck": "总共卖出270枝花。"
+      }
+    },
+    "questionZh": "一位花店老板把一些兰花每20枝扎成一束，把一些玫瑰每10枝扎成一束。每束兰花卖$25，每束玫瑰卖$30。她总共赚了$390。如果她卖出的兰花束数是玫瑰束数的4倍，她总共卖出了多少枝花？",
+    "hintZh": "把4束兰花和1束玫瑰组成1组。求每组的收入和花的数量。"
   },
   {
     "id": 4,
@@ -29,7 +141,47 @@
     "question": "Ken and Ivan had some sweets. After Ken gave away 5/7 of his sweets, he had 2/3 as many sweets as Ivan. Ivan then gave away 120 sweets and he had 1/4 as many sweets as Ken. How many sweets did each of them have at 1st?",
     "answer": "Ivan: 144 sweets; Ken: 336 sweets",
     "model": "bar-change",
-    "hint": "Use the 1st condition to relate Ken's remaining 2 parts to Ivan's 3 parts. Then use Ivan's 120-sweet change and the 1:4 comparison."
+    "hint": "Use the 1st condition to relate Ken's remaining 2 parts to Ivan's 3 parts. Then use Ivan's 120-sweet change and the 1:4 comparison.",
+    "solution": {
+      "en": {
+        "strategy": "Relate Ken's remaining sweets to Ivan's sweets, then use Ivan's 120-sweet loss.",
+        "steps": [
+          {
+            "title": "Set up the first comparison",
+            "text": "Ken kept 2/7 of his original sweets, and this was 2/3 as many as Ivan's amount. Thus Ken's remaining sweets : Ivan's sweets = 2 : 3."
+          },
+          {
+            "title": "Use Ivan's later amount",
+            "text": "Let Ken's remaining amount be 4 units. Ivan's original amount is then 6 units. After Ivan gives away 120 sweets, he has 1 unit because he has 1/4 as many as Ken's 4 units. Therefore 5 units = 120, so 1 unit = 24."
+          },
+          {
+            "title": "Work back to both starting amounts",
+            "text": "Ivan had 6 × 24 = 144 sweets. Ken had 4 × 24 = 96 sweets after giving away 5/7, which is 2/7 of his original amount. Ken originally had 96 × 7 ÷ 2 = 336 sweets."
+          }
+        ],
+        "answerCheck": "Ivan: 144 sweets; Ken: 336 sweets"
+      },
+      "zh-Hans": {
+        "strategy": "先把Ken剩下的糖果和Ivan的糖果建立比例，再利用Ivan送出120颗糖果。",
+        "steps": [
+          {
+            "title": "建立第1个比例",
+            "text": "Ken剩下原来糖果的2/7，而这相当于Ivan糖果的2/3。因此Ken剩下的糖果 : Ivan原有的糖果 = 2 : 3。"
+          },
+          {
+            "title": "利用Ivan后来剩下的数量",
+            "text": "把Ken剩下的糖果设为4份，Ivan原有的是6份。Ivan送出120颗后只剩1份，因为这时Ivan的糖果是Ken的4份的1/4。于是5份 = 120，1份 = 24。"
+          },
+          {
+            "title": "倒推开始时的数量",
+            "text": "Ivan原有6 × 24 = 144颗糖果。Ken送出后有4 × 24 = 96颗，这占原有数量的2/7，所以Ken原有96 × 7 ÷ 2 = 336颗糖果。"
+          }
+        ],
+        "answerCheck": "Ivan原有144颗糖果；Ken原有336颗糖果。"
+      }
+    },
+    "questionZh": "Ken和Ivan各有一些糖果。Ken送出自己糖果的5/7后，他的糖果数量是Ivan的2/3。随后Ivan送出120颗糖果，他的糖果数量变为Ken的1/4。两人1st时各有多少颗糖果？",
+    "hintZh": "利用第1个条件，将Ken剩下的2份与Ivan的3份建立关系。再利用Ivan送出的120颗糖果和1:4的比较关系。"
   },
   {
     "id": 5,
@@ -37,7 +189,47 @@
     "question": "Hotel A and Hotel B had 6500 guests altogether. After 3/4 of the guests in Hotel A and 3/5 of the guests in Hotel B checked out, there were 260 more guests in Hotel B than in Hotel A. How many guests did Hotel A have at 1st?",
     "answer": "3600 guests",
     "model": "bar-change",
-    "hint": "Model the remaining guests as 1/4 of Hotel A and 2/5 of Hotel B. Use the 260 difference, then the original total."
+    "hint": "Model the remaining guests as 1/4 of Hotel A and 2/5 of Hotel B. Use the 260 difference, then the original total.",
+    "solution": {
+      "en": {
+        "strategy": "Use the fractions that remained in the two hotels and the total of 6500 guests.",
+        "steps": [
+          {
+            "title": "Write the remaining amounts",
+            "text": "Hotel A kept 1/4 of its guests. Hotel B kept 2/5 of its guests."
+          },
+          {
+            "title": "Use the total and difference",
+            "text": "Let Hotel A originally have A guests, so Hotel B has 6500 − A guests. The remaining difference is 2/5(6500 − A) − 1/4A = 260."
+          },
+          {
+            "title": "Solve for Hotel A",
+            "text": "2600 − 2/5A − 1/4A = 260, so 2340 = 13/20A. Hence A = 2340 × 20 ÷ 13 = 3600."
+          }
+        ],
+        "answerCheck": "3600 guests"
+      },
+      "zh-Hans": {
+        "strategy": "用2家酒店离开后剩下的分数，以及总人数6500来列式。",
+        "steps": [
+          {
+            "title": "写出剩余人数",
+            "text": "Hotel A剩下原来人数的1/4，Hotel B剩下原来人数的2/5。"
+          },
+          {
+            "title": "利用总数和人数差",
+            "text": "设Hotel A原有A人，则Hotel B原有6500 − A人。剩余人数差为2/5(6500 − A) − 1/4A = 260。"
+          },
+          {
+            "title": "解出Hotel A原有人数",
+            "text": "2600 − 2/5A − 1/4A = 260，所以2340 = 13/20A。因此A = 2340 × 20 ÷ 13 = 3600。"
+          }
+        ],
+        "answerCheck": "Hotel A开始时有3600名住客。"
+      }
+    },
+    "questionZh": "酒店A和酒店B共有6500名住客。酒店A的3/4住客和酒店B的3/5住客退房后，酒店B比酒店A多260名住客。酒店A在1st时有多少名住客？",
+    "hintZh": "把剩余住客人数表示为酒店A原人数的1/4和酒店B原人数的2/5。利用260的人数差，再利用原来的总人数。"
   },
   {
     "id": 6,
@@ -45,7 +237,47 @@
     "question": "There were 900 sweets in 3 boxes, A, B and C. 18 sweets were transferred from A to B and 5 sweets were transferred from B to C. Then 1/3 of the sweets in C were transferred to A. There was an equal number of sweets in all 3 boxes. How many sweets were there in each box at 1st?",
     "answer": "Box A: 168 sweets; Box B: 287 sweets; Box C: 445 sweets",
     "model": "bar-change",
-    "hint": "Start with the equal final amount in each box. Reverse the transfer from C to A, then reverse the 2 earlier transfers."
+    "hint": "Start with the equal final amount in each box. Reverse the transfer from C to A, then reverse the 2 earlier transfers.",
+    "solution": {
+      "en": {
+        "strategy": "Work backwards from the equal final number in all 3 boxes.",
+        "steps": [
+          {
+            "title": "Find the final amount in each box",
+            "text": "The total stays 900 sweets, and the 3 final box amounts are equal. Each box therefore ends with 900 ÷ 3 = 300 sweets."
+          },
+          {
+            "title": "Reverse the transfer from C to A",
+            "text": "Before 1/3 of C was transferred, C had 300 × 3/2 = 450 sweets and A had 300 − 150 = 150 sweets. Box B still had 300 sweets."
+          },
+          {
+            "title": "Reverse the earlier transfers",
+            "text": "Before 5 sweets moved from B to C, B had 305 and C had 445. Before 18 sweets moved from A to B, A had 168 and B had 287. So the starting amounts were A = 168, B = 287, C = 445."
+          }
+        ],
+        "answerCheck": "Box A: 168 sweets; Box B: 287 sweets; Box C: 445 sweets"
+      },
+      "zh-Hans": {
+        "strategy": "从3个盒子最后糖果数相等的状态倒推。",
+        "steps": [
+          {
+            "title": "求每个盒子最后的数量",
+            "text": "糖果总数仍是900，最后3个盒子数量相等，所以每盒有900 ÷ 3 = 300颗糖果。"
+          },
+          {
+            "title": "倒推C到A的转移",
+            "text": "转移前，C的1/3被转走，故C原来有300 × 3/2 = 450颗；A收到150颗前有300 − 150 = 150颗。B仍有300颗。"
+          },
+          {
+            "title": "倒推前2次转移",
+            "text": "B转5颗给C之前，B有305颗，C有445颗。A转18颗给B之前，A有168颗，B有287颗。因此开始时A有168颗，B有287颗，C有445颗。"
+          }
+        ],
+        "answerCheck": "开始时A盒有168颗糖果；B盒有287颗糖果；C盒有445颗糖果。"
+      }
+    },
+    "questionZh": "A、B和C这3个盒子里共有900颗糖果。18颗糖果从A转到B，5颗糖果从B转到C。然后，C中糖果的1/3转到A。最后3个盒子里的糖果数量相等。各盒子在1st时各有多少颗糖果？",
+    "hintZh": "从每个盒子最后相等的糖果数量开始倒推。先倒推从C转到A的糖果，再倒推前面2次转移。"
   },
   {
     "id": 7,
@@ -53,7 +285,47 @@
     "question": "Some boys and girls took part in a competition. 2/5 of the competitors were boys. 1/3 of the boys were disqualified. If there were 135 competitors at 1st, how many more girls than boys were left?",
     "answer": "45 more girls",
     "model": "fraction-of-remainder",
-    "hint": "Find the original boys and girls. Only 2/3 of the boys remain; compare that with the unchanged number of girls."
+    "hint": "Find the original boys and girls. Only 2/3 of the boys remain; compare that with the unchanged number of girls.",
+    "solution": {
+      "en": {
+        "strategy": "Find the original boys and girls, then remove 1/3 of the boys.",
+        "steps": [
+          {
+            "title": "Find the original groups",
+            "text": "Boys were 2/5 of 135, so there were 135 × 2/5 = 54 boys. Girls were 135 − 54 = 81."
+          },
+          {
+            "title": "Find the boys left",
+            "text": "After 1/3 of the boys were disqualified, 2/3 remained: 54 × 2/3 = 36 boys."
+          },
+          {
+            "title": "Compare the groups",
+            "text": "The 81 girls were unchanged. The difference is 81 − 36 = 45."
+          }
+        ],
+        "answerCheck": "45 more girls"
+      },
+      "zh-Hans": {
+        "strategy": "先求出原来的男生和女生人数，再减去1/3的男生。",
+        "steps": [
+          {
+            "title": "求原来的人数",
+            "text": "男生占135的2/5，所以男生有135 × 2/5 = 54人。女生有135 − 54 = 81人。"
+          },
+          {
+            "title": "求剩下的男生",
+            "text": "1/3男生被取消资格后，剩下2/3：54 × 2/3 = 36名男生。"
+          },
+          {
+            "title": "比较人数",
+            "text": "81名女生没有改变，人数差为81 − 36 = 45。"
+          }
+        ],
+        "answerCheck": "剩下的女生比男生多45人。"
+      }
+    },
+    "questionZh": "一些男生和女生参加了一场比赛。参赛者中有2/5是男生。男生中有1/3被取消资格。如果1st时有135名参赛者，最后女生比男生多多少名？",
+    "hintZh": "先求原来男生和女生的人数。只有男生的2/3留下来；把这个数与未改变的女生人数比较。"
   },
   {
     "id": 8,
@@ -61,7 +333,39 @@
     "question": "Mrs Walker had some lemons. She put 1/2 of the lemons equally into 5 bags and the other 1/2 equally into 6 containers. There were 63 lemons in 1 bag and 3 containers altogether. How many lemons did Mrs Walker have?",
     "answer": "180 lemons",
     "model": "unit-bar",
-    "hint": "Express the lemons in 1 bag and 3 containers as fractions of the total, then use their combined 63 lemons."
+    "hint": "Express the lemons in 1 bag and 3 containers as fractions of the total, then use their combined 63 lemons.",
+    "solution": {
+      "en": {
+        "strategy": "Express 1 bag and 3 containers as fractions of all the lemons.",
+        "steps": [
+          {
+            "title": "Write each portion as a fraction",
+            "text": "Half the lemons are shared among 5 bags, so 1 bag holds 1/2 ÷ 5 = 1/10 of all the lemons. The other half is shared among 6 containers, so 3 containers hold 3 × (1/2 ÷ 6) = 1/4 of all the lemons."
+          },
+          {
+            "title": "Find the total",
+            "text": "One bag and 3 containers hold 1/10 + 1/4 = 7/20 of the lemons, and this is 63. The total is 63 × 20 ÷ 7 = 180 lemons."
+          }
+        ],
+        "answerCheck": "180 lemons"
+      },
+      "zh-Hans": {
+        "strategy": "把1个袋子和3个容器里的柠檬都表示成总数的分数。",
+        "steps": [
+          {
+            "title": "写出每部分的分数",
+            "text": "1/2的柠檬平均放入5个袋子，所以1个袋子有总数的1/2 ÷ 5 = 1/10。另1/2平均放入6个容器，3个容器有3 × (1/2 ÷ 6) = 1/4。"
+          },
+          {
+            "title": "求总数",
+            "text": "1个袋子和3个容器共有1/10 + 1/4 = 7/20的柠檬，这等于63个。总数是63 × 20 ÷ 7 = 180个柠檬。"
+          }
+        ],
+        "answerCheck": "Mrs Walker有180个柠檬。"
+      }
+    },
+    "questionZh": "Walker太太有一些柠檬。她将1/2的柠檬平均放入5个袋子，将另外1/2的柠檬平均放入6个容器。1个袋子和3个容器中总共有63个柠檬。Walker太太有多少个柠檬？",
+    "hintZh": "把1个袋子和3个容器中的柠檬表示为总数的分数，再利用它们合起来的63个柠檬。"
   },
   {
     "id": 9,
@@ -69,7 +373,47 @@
     "question": "The ratio of the number of biscuits that Andy and Betty had was 2 : 5. After Andy bought 24 more biscuits, the ratio became 16 : 10. If there were 6 biscuits in a pack, how many packs of biscuits would Betty have to buy so that they would have the same number of biscuits in the end?",
     "answer": "2 packs of biscuits",
     "model": "bar-change",
-    "hint": "Compare the 2 ratios using the 24 extra biscuits to find Betty's amount. Then find how many more biscuits Betty needs and convert to packs."
+    "hint": "Compare the 2 ratios using the 24 extra biscuits to find Betty's amount. Then find how many more biscuits Betty needs and convert to packs.",
+    "solution": {
+      "en": {
+        "strategy": "Use the two ratios and Andy's 24 extra biscuits to find both current amounts.",
+        "steps": [
+          {
+            "title": "Represent the first ratio",
+            "text": "Let Andy and Betty originally have 2x and 5x biscuits."
+          },
+          {
+            "title": "Use the new ratio",
+            "text": "After Andy buys 24, (2x + 24) : 5x = 16 : 10 = 8 : 5. Thus 5(2x + 24) = 8(5x), giving 10x + 120 = 40x and x = 4."
+          },
+          {
+            "title": "Find Betty's packs",
+            "text": "Andy then has 2 × 4 + 24 = 32 biscuits, while Betty has 5 × 4 = 20. Betty needs 32 − 20 = 12 more biscuits, or 12 ÷ 6 = 2 packs."
+          }
+        ],
+        "answerCheck": "2 packs of biscuits"
+      },
+      "zh-Hans": {
+        "strategy": "利用2个比例和Andy多买的24块饼干，求出2人当前的数量。",
+        "steps": [
+          {
+            "title": "表示原来的比例",
+            "text": "设Andy和Betty原来分别有2x和5x块饼干。"
+          },
+          {
+            "title": "利用变化后的比例",
+            "text": "Andy买24块后，(2x + 24) : 5x = 16 : 10 = 8 : 5。因此5(2x + 24) = 8(5x)，即10x + 120 = 40x，所以x = 4。"
+          },
+          {
+            "title": "求Betty要买的包数",
+            "text": "Andy这时有2 × 4 + 24 = 32块，Betty有5 × 4 = 20块。Betty还需要32 − 20 = 12块，即12 ÷ 6 = 2包。"
+          }
+        ],
+        "answerCheck": "Betty需要买2包饼干。"
+      }
+    },
+    "questionZh": "Andy和Betty的饼干数量之比是2 : 5。Andy又买了24块饼干后，这个比变为16 : 10。如果每包有6块饼干，Betty还要买多少包饼干，最后两人的饼干数量才会相同？",
+    "hintZh": "利用24块额外的饼干比较这2个比，求出Betty的饼干数量。然后求Betty还需要多少块饼干，并换算成包数。"
   },
   {
     "id": 10,
@@ -77,7 +421,47 @@
     "question": "Megan and Olivia had some money. They made a donation of $100 together. Megan donated 1/5 of her money. After donating $24, Olivia found that she had $32 more than Megan. What was the sum of money both of them had at 1st?",
     "answer": "$740",
     "model": "money-units",
-    "hint": "Olivia donated $24, so find Megan's donation from the $100 total. Use Megan's 1/5 donation to model the money she had left."
+    "hint": "Olivia donated $24, so find Megan's donation from the $100 total. Use Megan's 1/5 donation to model the money she had left.",
+    "solution": {
+      "en": {
+        "strategy": "Find Megan's donation from the $100 total, then work back from the $32 difference.",
+        "steps": [
+          {
+            "title": "Find both donations",
+            "text": "Olivia donated $24, so Megan donated $100 − $24 = $76. This $76 was 1/5 of Megan's original money."
+          },
+          {
+            "title": "Find Megan's amount left",
+            "text": "Megan originally had $76 × 5 = $380. After donating $76, she had $380 − $76 = $304 left."
+          },
+          {
+            "title": "Find Olivia's original amount",
+            "text": "Olivia had $32 more than Megan after donating, so she had $304 + $32 = $336 left. Adding back her $24 donation gives $360. The starting total was $380 + $360 = $740."
+          }
+        ],
+        "answerCheck": "$740"
+      },
+      "zh-Hans": {
+        "strategy": "先由总捐款$100求Megan的捐款，再从$32的差额倒推。",
+        "steps": [
+          {
+            "title": "求2人的捐款",
+            "text": "Olivia捐了$24，所以Megan捐了$100 − $24 = $76。这$76是Megan原有钱数的1/5。"
+          },
+          {
+            "title": "求Megan捐款后剩余的钱",
+            "text": "Megan原有$76 × 5 = $380。捐出$76后，她剩下$380 − $76 = $304。"
+          },
+          {
+            "title": "求Olivia原有的钱和总数",
+            "text": "Olivia捐款后比Megan多$32，所以她剩下$304 + $32 = $336。加回捐出的$24，Olivia原有$360。开始时总数为$380 + $360 = $740。"
+          }
+        ],
+        "answerCheck": "2人开始时共有$740。"
+      }
+    },
+    "questionZh": "Megan和Olivia有一些钱。两人一起捐了$100。Megan捐出了自己钱数的1/5。Olivia捐出$24后，发现自己比Megan多$32。两人在1st时共有多少钱？",
+    "hintZh": "Olivia捐出了$24，因此可由总数$100求出Megan的捐款。利用Megan捐出1/5的钱来表示她剩下的钱。"
   },
   {
     "id": 11,
@@ -85,7 +469,47 @@
     "question": "Mrs Benjamin baked some butter cookies and chocolate chip cookies in the ratio 7 : 3. After giving away 24 butter cookies, the ratio of butter cookies to chocolate chip cookies was 11 : 6. She then packed the remaining cookies into bags of 4 without mixing them. How many bags of cookies of each type did she have?",
     "answer": "22 bags of butter cookies; 12 bags of chocolate chip cookies",
     "model": "bar-change",
-    "hint": "Make the chocolate-chip parts in both ratios equal. The drop in butter-cookie parts represents the 24 cookies given away."
+    "hint": "Make the chocolate-chip parts in both ratios equal. The drop in butter-cookie parts represents the 24 cookies given away.",
+    "solution": {
+      "en": {
+        "strategy": "Match the chocolate-chip parts in the two ratios, then use the 24 butter cookies given away.",
+        "steps": [
+          {
+            "title": "Set up matching ratios",
+            "text": "The original ratio is 7 : 3. The final ratio is 11 : 6. Multiply the original ratio by 2 to make 6 chocolate-chip parts: original butter : chocolate chip = 14 : 6."
+          },
+          {
+            "title": "Find the size of one part",
+            "text": "Butter cookies changed from 14 parts to 11 parts, a decrease of 3 parts. This decrease was 24 cookies, so 1 part = 24 ÷ 3 = 8 cookies."
+          },
+          {
+            "title": "Pack the remaining cookies",
+            "text": "The remaining butter cookies are 11 × 8 = 88, giving 88 ÷ 4 = 22 bags. The chocolate-chip cookies are 6 × 8 = 48, giving 48 ÷ 4 = 12 bags."
+          }
+        ],
+        "answerCheck": "22 bags of butter cookies; 12 bags of chocolate chip cookies"
+      },
+      "zh-Hans": {
+        "strategy": "先让2个比例中的巧克力曲奇份数相同，再利用送出的24块黄油曲奇。",
+        "steps": [
+          {
+            "title": "配成相同的比例份数",
+            "text": "原来的比例是7 : 3，后来的比例是11 : 6。把原比例乘2，得到黄油曲奇 : 巧克力曲奇 = 14 : 6。"
+          },
+          {
+            "title": "求每份数量",
+            "text": "黄油曲奇从14份变成11份，少了3份；这3份就是送出的24块。因此1份 = 24 ÷ 3 = 8块。"
+          },
+          {
+            "title": "把剩下的曲奇装袋",
+            "text": "剩下的黄油曲奇有11 × 8 = 88块，可装88 ÷ 4 = 22袋。巧克力曲奇有6 × 8 = 48块，可装48 ÷ 4 = 12袋。"
+          }
+        ],
+        "answerCheck": "有22袋黄油曲奇和12袋巧克力曲奇。"
+      }
+    },
+    "questionZh": "Benjamin太太烤了一些黄油曲奇和巧克力碎片曲奇，数量之比为7 : 3。送出24块黄油曲奇后，黄油曲奇与巧克力碎片曲奇的数量之比变为11 : 6。随后，她把剩下的曲奇分开装入每袋4块的袋子中。每种曲奇各有多少袋？",
+    "hintZh": "使两个比中巧克力碎片曲奇的份数相等。黄油曲奇份数减少的部分代表送出的24块曲奇。"
   },
   {
     "id": 12,
@@ -93,7 +517,47 @@
     "question": "There were some red, yellow and blue toy cars in a box. 3/8 of the toy cars were red and 26 were blue. The rest were yellow. If there were 12 fewer yellow toy cars than blue toy cars, how many red toy cars were there?",
     "answer": "24 red toy cars",
     "model": "unit-bar",
-    "hint": "Use the 12-car difference to find the yellow cars. Then combine yellow and blue cars and relate that total to the 5/8 that are not red."
+    "hint": "Use the 12-car difference to find the yellow cars. Then combine yellow and blue cars and relate that total to the 5/8 that are not red.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 12-car difference to find yellow cars, then relate yellow plus blue to 5/8 of the total.",
+        "steps": [
+          {
+            "title": "Find the yellow cars",
+            "text": "There are 26 blue cars and 12 fewer yellow cars, so yellow cars = 26 − 12 = 14."
+          },
+          {
+            "title": "Find the total",
+            "text": "Yellow and blue cars total 14 + 26 = 40. They are the 5/8 that are not red, so 5/8 of the total is 40."
+          },
+          {
+            "title": "Find the red cars",
+            "text": "The total is 40 × 8 ÷ 5 = 64. Red cars are 3/8 of 64, which is 64 × 3/8 = 24."
+          }
+        ],
+        "answerCheck": "24 red toy cars"
+      },
+      "zh-Hans": {
+        "strategy": "先利用12辆的差求黄色玩具车，再把黄车和蓝车看作总数的5/8。",
+        "steps": [
+          {
+            "title": "求黄色玩具车数量",
+            "text": "蓝色有26辆，黄色比蓝色少12辆，所以黄色有26 − 12 = 14辆。"
+          },
+          {
+            "title": "求总数",
+            "text": "黄色和蓝色共有14 + 26 = 40辆，这正是非红色的5/8，所以总数的5/8 = 40。"
+          },
+          {
+            "title": "求红色玩具车数量",
+            "text": "总数是40 × 8 ÷ 5 = 64辆。红色占64的3/8，即64 × 3/8 = 24辆。"
+          }
+        ],
+        "answerCheck": "有24辆红色玩具车。"
+      }
+    },
+    "questionZh": "一个盒子里有一些红色、黄色和蓝色玩具车。玩具车中有3/8是红色，26辆是蓝色，其余是黄色。如果黄色玩具车比蓝色玩具车少12辆，红色玩具车有多少辆？",
+    "hintZh": "利用12辆的差求出黄色玩具车的数量。然后将黄色和蓝色玩具车合起来，并把这个总数与非红色玩具车所占的5/8联系起来。"
   },
   {
     "id": 13,
@@ -101,7 +565,47 @@
     "question": "There were 900 oranges and apples in a box. When 7/9 of the oranges and 2/3 of the apples were taken out, there was an equal number of oranges and apples left. How many more oranges than apples were there at 1st?",
     "answer": "180 more oranges",
     "model": "fraction-of-remainder",
-    "hint": "The remaining oranges are 2/9 of the original oranges and the remaining apples are 1/3 of the original apples. Make these equal."
+    "hint": "The remaining oranges are 2/9 of the original oranges and the remaining apples are 1/3 of the original apples. Make these equal.",
+    "solution": {
+      "en": {
+        "strategy": "Make the equal remaining oranges and apples into a ratio of their original amounts.",
+        "steps": [
+          {
+            "title": "Write the fractions remaining",
+            "text": "After 7/9 of the oranges are taken out, 2/9 remain. After 2/3 of the apples are taken out, 1/3 remain."
+          },
+          {
+            "title": "Find the original ratio",
+            "text": "Because the remaining amounts are equal, 2/9 of the oranges = 1/3 of the apples. This gives oranges : apples = 3 : 2."
+          },
+          {
+            "title": "Use the total",
+            "text": "The 3 + 2 = 5 parts equal 900, so 1 part = 180. Oranges = 3 × 180 = 540 and apples = 2 × 180 = 360. The difference is 540 − 360 = 180."
+          }
+        ],
+        "answerCheck": "180 more oranges"
+      },
+      "zh-Hans": {
+        "strategy": "把剩下的橙子和苹果数量相等，转化为原来数量的比例。",
+        "steps": [
+          {
+            "title": "写出剩下的分数",
+            "text": "取出橙子的7/9后，剩下2/9。取出苹果的2/3后，剩下1/3。"
+          },
+          {
+            "title": "求原来数量的比例",
+            "text": "剩下的数量相等，所以橙子原数的2/9 = 苹果原数的1/3。因此橙子 : 苹果 = 3 : 2。"
+          },
+          {
+            "title": "利用总数求差",
+            "text": "3 + 2 = 5份等于900，所以1份 = 180。橙子有3 × 180 = 540个，苹果有2 × 180 = 360个，相差540 − 360 = 180个。"
+          }
+        ],
+        "answerCheck": "开始时橙子比苹果多180个。"
+      }
+    },
+    "questionZh": "一个盒子里共有900个橙子和苹果。取出橙子的7/9和苹果的2/3后，剩下的橙子和苹果数量相等。1st时橙子比苹果多多少个？",
+    "hintZh": "剩下的橙子是原来橙子的2/9，剩下的苹果是原来苹果的1/3。令这两个数量相等。"
   },
   {
     "id": 14,
@@ -109,7 +613,47 @@
     "question": "There were 48 entries from Primary 1 and Primary 2 in a storytelling competition. The rest were from Primary 3. If 30 entries were not from Primary 1 and 28 entries were not from Primary 2, how many entries were there altogether?",
     "answer": "53 entries",
     "model": "unit-bar",
-    "hint": "Let the Primary 3 entries be the unknown group. Add the 2 statements about entries not from Primary 1 and not from Primary 2, then account for the Primary 3 entries counted 2 times."
+    "hint": "Let the Primary 3 entries be the unknown group. Add the 2 statements about entries not from Primary 1 and not from Primary 2, then account for the Primary 3 entries counted 2 times.",
+    "solution": {
+      "en": {
+        "strategy": "Add the two ‘not from’ statements and account for the Primary 3 entries counted twice.",
+        "steps": [
+          {
+            "title": "Name the three groups",
+            "text": "Let the numbers from Primary 1, Primary 2, and Primary 3 be P1, P2, and P3. We know P1 + P2 = 48."
+          },
+          {
+            "title": "Add the two complementary counts",
+            "text": "Not from Primary 1 means P2 + P3 = 30. Not from Primary 2 means P1 + P3 = 28. Adding gives P1 + P2 + 2P3 = 58."
+          },
+          {
+            "title": "Find the total",
+            "text": "Since P1 + P2 = 48, we get 48 + 2P3 = 58, so P3 = 5. The total is 48 + 5 = 53 entries."
+          }
+        ],
+        "answerCheck": "53 entries"
+      },
+      "zh-Hans": {
+        "strategy": "把2个“不是来自”的人数相加，并注意Primary 3被计算了2次。",
+        "steps": [
+          {
+            "title": "设3个年级的人数",
+            "text": "设Primary 1、Primary 2和Primary 3的参赛作品数分别为P1、P2、P3。已知P1 + P2 = 48。"
+          },
+          {
+            "title": "相加2个补集人数",
+            "text": "不是Primary 1的有P2 + P3 = 30；不是Primary 2的有P1 + P3 = 28。相加得P1 + P2 + 2P3 = 58。"
+          },
+          {
+            "title": "求总数",
+            "text": "因为P1 + P2 = 48，所以48 + 2P3 = 58，P3 = 5。总数是48 + 5 = 53个作品。"
+          }
+        ],
+        "answerCheck": "总共有53个参赛作品。"
+      }
+    },
+    "questionZh": "讲故事比赛中，来自小学1年级和小学2年级的参赛作品共有48个，其余来自小学3年级。如果有30个作品不是来自小学1年级，28个作品不是来自小学2年级，那么总共有多少个参赛作品？",
+    "hintZh": "把小学3年级的参赛作品数设为未知数。将“不是来自小学1年级”和“不是来自小学2年级”的2个数量相加，再考虑小学3年级的作品被计算了2次。"
   },
   {
     "id": 15,
@@ -117,7 +661,47 @@
     "question": "In a kindergarten, 12% of the students are Malays and the rest are Chinese. 50% of the Chinese and 12.5% of the Malays are boys. There are 912 more Chinese than Malay students. How many girls are there in the kindergarten?",
     "answer": "654 girls",
     "model": "unit-bar",
-    "hint": "The Chinese–Malay difference is 76% of the kindergarten. Find each group, then calculate the girls in each group."
+    "hint": "The Chinese–Malay difference is 76% of the kindergarten. Find each group, then calculate the girls in each group.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 76% difference to find the kindergarten total, then calculate girls in both groups.",
+        "steps": [
+          {
+            "title": "Find the total number of students",
+            "text": "Malays are 12% and Chinese students are 88%, so the difference is 88% − 12% = 76%. Since 76% is 912, the total is 912 ÷ 0.76 = 1200 students."
+          },
+          {
+            "title": "Find each group and its girls",
+            "text": "There are 1200 × 12% = 144 Malays and 1200 × 88% = 1056 Chinese. Malay boys are 144 × 12.5% = 18, so Malay girls are 144 − 18 = 126. Chinese boys are 1056 × 50% = 528, so Chinese girls are 528."
+          },
+          {
+            "title": "Add the girls",
+            "text": "The total number of girls is 126 + 528 = 654."
+          }
+        ],
+        "answerCheck": "654 girls"
+      },
+      "zh-Hans": {
+        "strategy": "先用76%的中马学生人数差求全园总人数，再分别计算女生人数。",
+        "steps": [
+          {
+            "title": "求学生总数",
+            "text": "马来学生占12%，华人学生占88%，差是88% − 12% = 76%。76%是912人，所以总人数是912 ÷ 0.76 = 1200人。"
+          },
+          {
+            "title": "求各组女生人数",
+            "text": "马来学生有1200 × 12% = 144人，华人学生有1200 × 88% = 1056人。马来男生有144 × 12.5% = 18人，所以马来女生有144 − 18 = 126人。华人男生有1056 × 50% = 528人，所以华人女生有528人。"
+          },
+          {
+            "title": "相加女生人数",
+            "text": "女生总数是126 + 528 = 654人。"
+          }
+        ],
+        "answerCheck": "幼儿园有654名女生。"
+      }
+    },
+    "questionZh": "一所幼儿园中，学生的12%是马来人，其余是华人。华人中有50%是男生，马来人中有12.5%是男生。华人学生比马来学生多912人。幼儿园里有多少名女生？",
+    "hintZh": "华人与马来学生的人数差占幼儿园学生总数的76%。先求每一组的人数，再计算每一组的女生人数。"
   },
   {
     "id": 16,
@@ -125,7 +709,47 @@
     "question": "The ratio of oranges to papayas in a basket is 3 : 5. After 1/4 of the oranges and 1/2 of the papayas are eaten, there are 16 more papayas than oranges. How many fruit of each type are there in the basket at 1st?",
     "answer": "192 oranges; 320 papayas",
     "model": "fraction-of-remainder",
-    "hint": "Scale the 3:5 ratio so the remaining fractions, 3/4 and 1/2, give whole comparable units. Use the 16-fruit difference."
+    "hint": "Scale the 3:5 ratio so the remaining fractions, 3/4 and 1/2, give whole comparable units. Use the 16-fruit difference.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 3 : 5 starting ratio and compare the fractions remaining.",
+        "steps": [
+          {
+            "title": "Represent the original amounts",
+            "text": "Let oranges = 3x and papayas = 5x."
+          },
+          {
+            "title": "Find the amounts left",
+            "text": "After 1/4 of the oranges are eaten, 3/4 remain: 3x × 3/4 = 9x/4. After 1/2 of the papayas are eaten, 5x/2 remain."
+          },
+          {
+            "title": "Use the 16-fruit difference",
+            "text": "The difference is 5x/2 − 9x/4 = x/4 = 16, so x = 64. Therefore there were 3 × 64 = 192 oranges and 5 × 64 = 320 papayas at first."
+          }
+        ],
+        "answerCheck": "192 oranges; 320 papayas"
+      },
+      "zh-Hans": {
+        "strategy": "用开始时的3 : 5比例，并比较吃掉后剩下的分数。",
+        "steps": [
+          {
+            "title": "表示原来的数量",
+            "text": "设橙子有3x个，木瓜有5x个。"
+          },
+          {
+            "title": "求剩余数量",
+            "text": "吃掉橙子的1/4后剩下3/4，即3x × 3/4 = 9x/4。吃掉木瓜的1/2后剩下5x/2。"
+          },
+          {
+            "title": "利用16个的差",
+            "text": "差为5x/2 − 9x/4 = x/4 = 16，所以x = 64。因此开始时有3 × 64 = 192个橙子和5 × 64 = 320个木瓜。"
+          }
+        ],
+        "answerCheck": "开始时有192个橙子和320个木瓜。"
+      }
+    },
+    "questionZh": "一个篮子里橙子与木瓜的数量之比为3 : 5。吃掉橙子的1/4和木瓜的1/2后，木瓜比橙子多16个。篮子在1st时每种水果各有多少个？",
+    "hintZh": "把3:5的比放大，使剩下的分数3/4和1/2能得到可比较的整数单位。利用16个水果的差。"
   },
   {
     "id": 17,
@@ -133,7 +757,47 @@
     "question": "Terence and Cynthia had some balloons in the ratio 5 : 9. When 15 of Terence's balloons burst, the ratio of Terence's to Cynthia's balloons was 10 : 27. How many balloons did each of them have at 1st?",
     "answer": "Terence: 45 balloons; Cynthia: 81 balloons",
     "model": "bar-change",
-    "hint": "Make Cynthia's 9 parts and 27 parts comparable. The difference in Terence's matching parts is the 15 balloons that burst."
+    "hint": "Make Cynthia's 9 parts and 27 parts comparable. The difference in Terence's matching parts is the 15 balloons that burst.",
+    "solution": {
+      "en": {
+        "strategy": "Scale the two ratios to the same Cynthia amount, then use Terence's 15 burst balloons.",
+        "steps": [
+          {
+            "title": "Represent the first ratio",
+            "text": "Let Terence and Cynthia initially have 5x and 9x balloons."
+          },
+          {
+            "title": "Use the ratio after the loss",
+            "text": "After 15 of Terence's balloons burst, the ratio is 10 : 27. Scale the original 5 : 9 ratio by 3 to get 15 : 27. Terence's matching amount fell from 15 parts to 10 parts, or 5 parts."
+          },
+          {
+            "title": "Find both starting amounts",
+            "text": "The 5 parts that Terence lost equal 15 balloons, so 1 part = 3 and x = 9. Terence originally had 5 × 9 = 45 balloons, and Cynthia had 9 × 9 = 81 balloons."
+          }
+        ],
+        "answerCheck": "Terence: 45 balloons; Cynthia: 81 balloons"
+      },
+      "zh-Hans": {
+        "strategy": "把2个比例中Cynthia的份数配成相同，再利用Terence爆掉的15个气球。",
+        "steps": [
+          {
+            "title": "表示第1个比例",
+            "text": "设Terence和Cynthia开始时分别有5x和9x个气球。"
+          },
+          {
+            "title": "利用气球爆掉后的比例",
+            "text": "Terence少了15个后，比例是10 : 27。把原来的5 : 9乘3，得到15 : 27。Terence对应的份数从15份降到10份，少了5份。"
+          },
+          {
+            "title": "求开始时的数量",
+            "text": "这5份等于爆掉的15个气球，所以1份 = 3，x = 9。Terence原有5 × 9 = 45个气球，Cynthia原有9 × 9 = 81个气球。"
+          }
+        ],
+        "answerCheck": "Terence开始时有45个气球；Cynthia开始时有81个气球。"
+      }
+    },
+    "questionZh": "Terence和Cynthia的气球数量之比为5 : 9。Terence有15个气球爆破后，Terence与Cynthia的气球数量之比变为10 : 27。两人在1st时各有多少个气球？",
+    "hintZh": "使Cynthia的9份和27份可以比较。Terence对应份数的差就是爆破的15个气球。"
   },
   {
     "id": 18,
@@ -141,7 +805,47 @@
     "question": "Mr Willis had some oranges and pears. 60% of them were oranges. 70% of the pears and 40% of the oranges were sold. 240 fruit were not sold. How many fruit did Mr Willis have at 1st?",
     "answer": "500 fruit",
     "model": "fraction-of-remainder",
-    "hint": "Find what percentage of each fruit type remained, then combine those portions using the 60%:40% original split."
+    "hint": "Find what percentage of each fruit type remained, then combine those portions using the 60%:40% original split.",
+    "solution": {
+      "en": {
+        "strategy": "Work out the unsold percentage of each fruit, then combine the two parts of the original total.",
+        "steps": [
+          {
+            "title": "Find each unsold part",
+            "text": "Oranges are 60% of the fruit, and 40% of the oranges were sold, so 60% of the oranges remain. Pears are 40% of the fruit, and 70% were sold, so 30% of the pears remain."
+          },
+          {
+            "title": "Express the 240 fruit as a percentage",
+            "text": "Unsold oranges are 60% × 60% = 36% of the original total. Unsold pears are 40% × 30% = 12% of the original total. Thus 36% + 12% = 48% equals 240 fruit."
+          },
+          {
+            "title": "Find the original total",
+            "text": "100% = 240 ÷ 48% = 500, so Mr Willis had 500 fruit at 1st."
+          }
+        ],
+        "answerCheck": "Check: 60% of 500 is 300 oranges and 40% is 200 pears. The unsold fruit is 60% of 300 plus 30% of 200, or 180 + 60 = 240. Answer: 500 fruit."
+      },
+      "zh-Hans": {
+        "strategy": "先求每种水果未卖出的百分比，再把它们合并为原来总数的一部分。",
+        "steps": [
+          {
+            "title": "求各自剩余的部分",
+            "text": "橙子占水果总数的60%，橙子的40%卖掉，所以橙子的60%剩下。梨占40%，梨的70%卖掉，所以梨的30%剩下。"
+          },
+          {
+            "title": "把240个水果表示成百分比",
+            "text": "未卖出的橙子占原来总数的60% × 60% = 36%。未卖出的梨占40% × 30% = 12%。所以36% + 12% = 48%，这就是240个水果。"
+          },
+          {
+            "title": "求原来总数",
+            "text": "100% = 240 ÷ 48% = 500，所以Willis先生在1st有500个水果。"
+          }
+        ],
+        "answerCheck": "检验：500的60%是300个橙子，40%是200个梨。剩下60%的300个橙子和30%的200个梨，即180 + 60 = 240。答案：500个水果。"
+      }
+    },
+    "questionZh": "威利斯先生有一些橙子和梨。其中60%是橙子。梨的70%和橙子的40%被卖掉了。还有240个水果没有卖出。威利斯先生最初（1st）有多少个水果？",
+    "hintZh": "求每种水果剩下的百分比，然后根据原先60%:40%的比例合并这些部分。"
   },
   {
     "id": 19,
@@ -149,7 +853,47 @@
     "question": "Joel and Anson have some marbles in the ratio 7 : 5. If Joel gives Anson 36 marbles, Anson will have 2 times as many marbles as Joel. How many marbles do they have altogether?",
     "answer": "144 marbles",
     "model": "bar-change",
-    "hint": "Draw the 7:5 ratio, then move 36 marbles from Joel to Anson. Compare the final 1:2 ratio."
+    "hint": "Draw the 7:5 ratio, then move 36 marbles from Joel to Anson. Compare the final 1:2 ratio.",
+    "solution": {
+      "en": {
+        "strategy": "Use one ratio unit for the original 7:5 ratio and form an equation after the 36-marble transfer.",
+        "steps": [
+          {
+            "title": "Represent the original ratio",
+            "text": "Let Joel have 7 units and Anson have 5 units. If 1 unit is x marbles, they start with 7x and 5x marbles."
+          },
+          {
+            "title": "Use the final comparison",
+            "text": "After Joel gives 36 marbles, Joel has 7x − 36 and Anson has 5x + 36. Anson then has 2 times Joel's amount, so 5x + 36 = 2(7x − 36)."
+          },
+          {
+            "title": "Solve and total",
+            "text": "5x + 36 = 14x − 72, so 9x = 108 and x = 12. The total is (7 + 5) × 12 = 144 marbles."
+          }
+        ],
+        "answerCheck": "Check: Joel starts with 84 and Anson with 60. After 36 are transferred, they have 48 and 96, and 96 is 2 times 48. Answer: 144 marbles."
+      },
+      "zh-Hans": {
+        "strategy": "把原来的7 : 5设为单位数，再根据转移36颗后的关系列式。",
+        "steps": [
+          {
+            "title": "表示原来的比",
+            "text": "设Joel有7个单位，Anson有5个单位，每个单位是x颗弹珠。原来分别有7x颗和5x颗。"
+          },
+          {
+            "title": "使用最后的倍数关系",
+            "text": "Joel给出36颗后，Joel有7x − 36颗，Anson有5x + 36颗。Anson的数量是Joel的2倍，所以5x + 36 = 2(7x − 36)。"
+          },
+          {
+            "title": "解出总数",
+            "text": "5x + 36 = 14x − 72，所以9x = 108，x = 12。总数是(7 + 5) × 12 = 144颗弹珠。"
+          }
+        ],
+        "answerCheck": "检验：开始时Joel有84颗，Anson有60颗。转移36颗后是48颗和96颗，96是48的2倍。答案：144颗弹珠。"
+      }
+    },
+    "questionZh": "乔尔和安森有一些弹珠，数量比为7 : 5。如果乔尔给安森36颗弹珠，安森的弹珠数量将是乔尔的2倍。他们一共有多少颗弹珠？",
+    "hintZh": "画出7:5的比例，然后将36颗弹珠从乔尔转给安森。比较最后的1:2比例。"
   },
   {
     "id": 20,
@@ -157,7 +901,47 @@
     "question": "There were 750 shirts in a box. 20% were pink and 18% were green. The remaining shirts were either yellow or black. If there were 85 more black shirts than yellow shirts, what was the total number of black and green shirts in the box?",
     "answer": "410 black and green shirts",
     "model": "unit-bar",
-    "hint": "First remove the pink and green shirts. Split the remaining yellow-and-black total into 2 quantities with a difference of 85."
+    "hint": "First remove the pink and green shirts. Split the remaining yellow-and-black total into 2 quantities with a difference of 85.",
+    "solution": {
+      "en": {
+        "strategy": "Find the known colour counts, then split the yellow-and-black remainder using its difference.",
+        "steps": [
+          {
+            "title": "Find pink and green shirts",
+            "text": "Pink shirts: 20% of 750 = 150. Green shirts: 18% of 750 = 135."
+          },
+          {
+            "title": "Split yellow and black shirts",
+            "text": "Yellow and black shirts total 750 − 150 − 135 = 465. Since black is 85 more than yellow, black = (465 + 85) ÷ 2 = 275."
+          },
+          {
+            "title": "Combine the requested colours",
+            "text": "Black and green shirts total 275 + 135 = 410."
+          }
+        ],
+        "answerCheck": "Check: yellow shirts are 465 − 275 = 190, and 275 − 190 = 85. Answer: 410 black and green shirts."
+      },
+      "zh-Hans": {
+        "strategy": "先求已知颜色的数量，再利用相差85把黄色和黑色的剩余数量分开。",
+        "steps": [
+          {
+            "title": "求粉红色和绿色衬衫",
+            "text": "粉红色：750的20% = 150件。绿色：750的18% = 135件。"
+          },
+          {
+            "title": "分出黄色和黑色衬衫",
+            "text": "黄色和黑色共750 − 150 − 135 = 465件。黑色比黄色多85件，所以黑色 = (465 + 85) ÷ 2 = 275件。"
+          },
+          {
+            "title": "合并题目所求的颜色",
+            "text": "黑色和绿色共275 + 135 = 410件。"
+          }
+        ],
+        "answerCheck": "检验：黄色有465 − 275 = 190件，275 − 190 = 85。答案：黑色和绿色衬衫共410件。"
+      }
+    },
+    "questionZh": "盒子里有750件衬衫。20%是粉红色，18%是绿色。其余的是黄色或黑色。如果黑色衬衫比黄色衬衫多85件，盒子里黑色和绿色衬衫一共有多少件？",
+    "hintZh": "先扣除粉红色和绿色衬衫。将剩下的黄色和黑色衬衫总数分成2个数量，它们相差85件。"
   },
   {
     "id": 21,
@@ -165,7 +949,47 @@
     "question": "There are some apples in 3 baskets, A, B and C. The ratio of the number of apples in A to B is 5 : 3. There are 112 apples in C. If the ratio of the total number of apples in A and B to the number of apples in C is 6 : 2, how many more apples are there in A than in B?",
     "answer": "84 more apples",
     "model": "unit-bar",
-    "hint": "Use Basket C and the 6:2 ratio to find A + B. Then divide that total in the 5:3 ratio and compare the 2 baskets."
+    "hint": "Use Basket C and the 6:2 ratio to find A + B. Then divide that total in the 5:3 ratio and compare the 2 baskets.",
+    "solution": {
+      "en": {
+        "strategy": "Use Basket C to find the combined amount in A and B, then divide it in the 5:3 ratio.",
+        "steps": [
+          {
+            "title": "Find A + B",
+            "text": "The ratio (A + B) : C is 6 : 2. Since C = 112 represents 2 parts, 1 part is 112 ÷ 2 = 56 apples. Therefore A + B = 6 × 56 = 336 apples."
+          },
+          {
+            "title": "Split A and B",
+            "text": "A : B = 5 : 3, or 8 parts altogether. One part is 336 ÷ 8 = 42 apples. A has 5 × 42 = 210 and B has 3 × 42 = 126."
+          },
+          {
+            "title": "Compare the baskets",
+            "text": "A has 210 − 126 = 84 more apples than B."
+          }
+        ],
+        "answerCheck": "Check: 210 : 126 = 5 : 3, and 336 : 112 = 6 : 2. Answer: 84 more apples."
+      },
+      "zh-Hans": {
+        "strategy": "先用篮子C求A和B的总数，再按5 : 3分配。",
+        "steps": [
+          {
+            "title": "求A + B",
+            "text": "(A + B) : C = 6 : 2。C的112个苹果代表2份，所以1份是112 ÷ 2 = 56个苹果。因此A + B = 6 × 56 = 336个苹果。"
+          },
+          {
+            "title": "按比拆分A和B",
+            "text": "A : B = 5 : 3，共8份。1份是336 ÷ 8 = 42个苹果。A有5 × 42 = 210个，B有3 × 42 = 126个。"
+          },
+          {
+            "title": "比较两个篮子",
+            "text": "A比B多210 − 126 = 84个苹果。"
+          }
+        ],
+        "answerCheck": "检验：210 : 126 = 5 : 3，336 : 112 = 6 : 2。答案：A比B多84个苹果。"
+      }
+    },
+    "questionZh": "3个篮子A、B和C中有一些苹果。A中苹果数量与B中苹果数量之比为5 : 3。C中有112个苹果。如果A和B中苹果总数与C中苹果数量之比为6 : 2，A比B多多少个苹果？",
+    "hintZh": "利用C篮中的苹果数量和6:2的比例求出A + B。然后按5:3分配该总数，再比较2个篮子。"
   },
   {
     "id": 22,
@@ -173,7 +997,47 @@
     "question": "There were some red, blue and green rubber bands in a box. 2/5 of the rubber bands were red. There were 40 green rubber bands and 24 more blue rubber bands than red rubber bands. How many rubber bands were there altogether?",
     "answer": "320 rubber bands",
     "model": "unit-bar",
-    "hint": "The blue and green rubber bands together make the 3/5 that are not red. Use the 24 difference and 40 green rubber bands to form that total."
+    "hint": "The blue and green rubber bands together make the 3/5 that are not red. Use the 24 difference and 40 green rubber bands to form that total.",
+    "solution": {
+      "en": {
+        "strategy": "Express the blue-and-green total as 3/5 of all bands and relate it to the red count.",
+        "steps": [
+          {
+            "title": "Describe the non-red bands",
+            "text": "Red bands are 2/5 of the total, so blue plus green bands are 3/5 of the total. Blue is 24 more than red, and green is 40."
+          },
+          {
+            "title": "Set up the fraction equation",
+            "text": "Let the total be T. Then blue + green = (2/5 T + 24) + 40 = 2/5 T + 64. This equals 3/5 T."
+          },
+          {
+            "title": "Find the total",
+            "text": "3/5 T − 2/5 T = 64, so 1/5 T = 64 and T = 320 rubber bands."
+          }
+        ],
+        "answerCheck": "Check: 2/5 of 320 = 128 red bands; blue = 128 + 24 = 152; and 128 + 152 + 40 = 320. Answer: 320 rubber bands."
+      },
+      "zh-Hans": {
+        "strategy": "把蓝色和绿色的总数表示为全部橡皮筋的3/5，并与红色数量建立关系。",
+        "steps": [
+          {
+            "title": "表示非红色橡皮筋",
+            "text": "红色占总数的2/5，所以蓝色加绿色占总数的3/5。蓝色比红色多24条，绿色有40条。"
+          },
+          {
+            "title": "列分数关系式",
+            "text": "设总数为T。蓝色加绿色 = (2/5 T + 24) + 40 = 2/5 T + 64，这等于3/5 T。"
+          },
+          {
+            "title": "求总数",
+            "text": "3/5 T − 2/5 T = 64，所以1/5 T = 64，T = 320条橡皮筋。"
+          }
+        ],
+        "answerCheck": "检验：320的2/5 = 128条红色；蓝色 = 128 + 24 = 152条；128 + 152 + 40 = 320。答案：320条橡皮筋。"
+      }
+    },
+    "questionZh": "盒子里有一些红色、蓝色和绿色橡皮筋。橡皮筋中有2/5是红色。绿色橡皮筋有40条，蓝色橡皮筋比红色橡皮筋多24条。总共有多少条橡皮筋？",
+    "hintZh": "蓝色和绿色橡皮筋合起来构成总数中非红色的3/5。利用相差24条和40条绿色橡皮筋求出这个总数。"
   },
   {
     "id": 23,
@@ -181,7 +1045,47 @@
     "question": "Francis, Philip and Jamie had $0.20, $0.50 and $1 coins respectively. Francis had 5 times as many coins as Jamie. Philip had 1/2 the number of coins that Jamie had. If Philip had 27 fewer coins than Francis, how much money did they have altogether?",
     "answer": "$13.50",
     "model": "money-units",
-    "hint": "Express the 3 coin counts in a common ratio. The difference between Francis and Philip is 27 coins; then apply each coin value."
+    "hint": "Express the 3 coin counts in a common ratio. The difference between Francis and Philip is 27 coins; then apply each coin value.",
+    "solution": {
+      "en": {
+        "strategy": "Use Jamie's coin count as one variable, then apply the three different coin values.",
+        "steps": [
+          {
+            "title": "Relate the coin counts",
+            "text": "Let Jamie have x coins. Francis has 5x coins and Philip has 1/2 x coins. Their difference is 5x − 1/2x = 27."
+          },
+          {
+            "title": "Find each count",
+            "text": "9/2x = 27, so x = 6. Jamie has 6 coins, Francis has 30 coins, and Philip has 3 coins."
+          },
+          {
+            "title": "Find the money total",
+            "text": "Francis has 30 × $0.20 = $6.00; Philip has 3 × $0.50 = $1.50; Jamie has 6 × $1 = $6.00. Total = $13.50."
+          }
+        ],
+        "answerCheck": "Check: Francis has 30 coins and Philip has 3, a difference of 27 coins. Their values total $6.00 + $1.50 + $6.00 = $13.50. Answer: $13.50."
+      },
+      "zh-Hans": {
+        "strategy": "用Jamie的硬币数量设未知数，再分别乘以3种硬币面值。",
+        "steps": [
+          {
+            "title": "建立硬币数量关系",
+            "text": "设Jamie有x枚硬币。Francis有5x枚，Philip有1/2 x枚。他们相差5x − 1/2x = 27枚。"
+          },
+          {
+            "title": "求各人的硬币数",
+            "text": "9/2x = 27，所以x = 6。Jamie有6枚，Francis有30枚，Philip有3枚。"
+          },
+          {
+            "title": "求钱数总和",
+            "text": "Francis有30 × $0.20 = $6.00；Philip有3 × $0.50 = $1.50；Jamie有6 × $1 = $6.00。总数 = $13.50。"
+          }
+        ],
+        "answerCheck": "检验：Francis有30枚，Philip有3枚，相差27枚。钱数为$6.00 + $1.50 + $6.00 = $13.50。答案：$13.50。"
+      }
+    },
+    "questionZh": "弗朗西斯、菲利普和杰米分别拥有面值为$0.20、$0.50和$1的硬币。弗朗西斯的硬币数量是杰米的5倍。菲利普的硬币数量是杰米的1/2。菲利普的硬币比弗朗西斯少27枚。他们总共有多少钱？",
+    "hintZh": "把3人的硬币数量表示为一个共同的比。弗朗西斯和菲利普相差27枚硬币；然后应用每种硬币的面值。"
   },
   {
     "id": 24,
@@ -189,7 +1093,47 @@
     "question": "There were some apple pies and lemon pies in 2 boxes, A and B. Box A had 40% of the total number of pies. Box B had 12 apple pies. If 75% of the pies in Box B were lemon pies, what was the total number of pies in both boxes?",
     "answer": "80 pies",
     "model": "unit-bar",
-    "hint": "The apple pies are the 25% of Box B that are not lemon pies. Find Box B, then use its 60% share of the total."
+    "hint": "The apple pies are the 25% of Box B that are not lemon pies. Find Box B, then use its 60% share of the total.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 12 apple pies as the 25% non-lemon part of Box B, then scale Box B to the total.",
+        "steps": [
+          {
+            "title": "Find Box B",
+            "text": "If 75% of Box B is lemon pie, the remaining 25% is apple pie. Thus 25% of Box B = 12, so Box B has 12 ÷ 25% = 48 pies."
+          },
+          {
+            "title": "Use Box B's share",
+            "text": "Box A has 40% of all pies, so Box B has the remaining 60%. Therefore 60% of the total is 48 pies."
+          },
+          {
+            "title": "Find all pies",
+            "text": "The total is 48 ÷ 60% = 80 pies."
+          }
+        ],
+        "answerCheck": "Check: 40% of 80 is 32 pies in A and 60% is 48 pies in B. Of the 48 pies in B, 25% is 12 apple pies. Answer: 80 pies."
+      },
+      "zh-Hans": {
+        "strategy": "把盒子B中的12个苹果派看作非柠檬派的25%，再把盒子B扩大到总数。",
+        "steps": [
+          {
+            "title": "求盒子B的数量",
+            "text": "盒子B中75%是柠檬派，剩下25%是苹果派。因此盒子B的25% = 12，盒子B有12 ÷ 25% = 48个派。"
+          },
+          {
+            "title": "利用盒子B所占的比例",
+            "text": "盒子A占全部派的40%，所以盒子B占剩下的60%。因此总数的60%是48个派。"
+          },
+          {
+            "title": "求全部派的数量",
+            "text": "总数是48 ÷ 60% = 80个派。"
+          }
+        ],
+        "answerCheck": "检验：80的40% = 32个派在A，60% = 48个派在B。B中的48个派有25%即12个苹果派。答案：80个派。"
+      }
+    },
+    "questionZh": "2个盒子A和B里有一些苹果派和柠檬派。盒子A有派总数的40%。盒子B有12个苹果派。如果盒子B中75%的派是柠檬派，盒子里一共有多少个派？",
+    "hintZh": "苹果派占盒子B中非柠檬派的25%。先求盒子B的数量，再利用它占总数的60%。"
   },
   {
     "id": 25,
@@ -197,7 +1141,47 @@
     "question": "Juliana and Patrick had some marbles. If Juliana gave Patrick 20 marbles, both would have an equal number of marbles. If Patrick gave Juliana 20 marbles, Juliana would have 3 times as many marbles as Patrick. Find the number of marbles that each had at 1st.",
     "answer": "Juliana: 100 marbles; Patrick: 60 marbles",
     "model": "bar-change",
-    "hint": "The 1st transfer shows the original difference. Use the reversed transfer to form the 3:1 comparison, then solve with 20-marble units."
+    "hint": "The 1st transfer shows the original difference. Use the reversed transfer to form the 3:1 comparison, then solve with 20-marble units.",
+    "solution": {
+      "en": {
+        "strategy": "Turn the first transfer into the original difference, then use the second transfer's 3:1 relationship.",
+        "steps": [
+          {
+            "title": "Find the original difference",
+            "text": "If Juliana gives Patrick 20 marbles and they become equal, Juliana originally has 40 more marbles than Patrick: giving 20 away lowers her amount by 20 and raises Patrick's by 20."
+          },
+          {
+            "title": "Use the reversed transfer",
+            "text": "Let Patrick initially have P marbles, so Juliana has P + 40. If Patrick gives Juliana 20, the new amounts are P − 20 and P + 60. Juliana then has 3 times Patrick's amount."
+          },
+          {
+            "title": "Solve the comparison",
+            "text": "P + 60 = 3(P − 20), so P + 60 = 3P − 60, 2P = 120, and P = 60. Juliana has 60 + 40 = 100 marbles."
+          }
+        ],
+        "answerCheck": "Check: 100 − 20 = 60 + 20 = 80. In the other transfer, 100 + 20 = 120 and 60 − 20 = 40, and 120 is 3 times 40. Answer: Juliana: 100 marbles; Patrick: 60 marbles."
+      },
+      "zh-Hans": {
+        "strategy": "先由第1次转移求原来的差，再用第2次转移后的3 : 1关系。",
+        "steps": [
+          {
+            "title": "求原来的差",
+            "text": "Juliana给Patrick 20颗后两人相等，说明Juliana原来比Patrick多40颗：她减少20颗，而Patrick增加20颗。"
+          },
+          {
+            "title": "使用反向转移",
+            "text": "设Patrick原来有P颗，那么Juliana有P + 40颗。Patrick给Juliana 20颗后，数量是P − 20颗和P + 60颗，Juliana的数量是Patrick的3倍。"
+          },
+          {
+            "title": "解出数量",
+            "text": "P + 60 = 3(P − 20)，所以P + 60 = 3P − 60，2P = 120，P = 60。Juliana有60 + 40 = 100颗弹珠。"
+          }
+        ],
+        "answerCheck": "检验：100 − 20 = 60 + 20 = 80。另一次转移后，100 + 20 = 120，60 − 20 = 40，120是40的3倍。答案：Juliana有100颗；Patrick有60颗弹珠。"
+      }
+    },
+    "questionZh": "朱莉安娜和帕特里克有一些弹珠。如果朱莉安娜给帕特里克20颗弹珠，两人的弹珠数量就会相等。如果帕特里克给朱莉安娜20颗弹珠，朱莉安娜的弹珠数量将是帕特里克的3倍。求他们最初（1st）各有多少颗弹珠。",
+    "hintZh": "第1次转移表明原来相差多少。利用反向转移建立3:1的比较关系，再以20颗弹珠为单位求解。"
   },
   {
     "id": 26,
@@ -205,7 +1189,47 @@
     "question": "On Sunday, Mrs Campbell baked some cookies and put all of them into a box. She then took out 2/5 of them. Of these, 15 were given away and the remaining 23 were eaten. On Monday, she baked another tray of cookies and put 3/4 of them into the same box. There were then 183 cookies in the box altogether. How many cookies did Mrs Campbell bake on Monday?",
     "answer": "168 cookies",
     "model": "fraction-of-remainder",
-    "hint": "The 15 given away and 23 eaten make the 2/5 removed on Sunday. Find what stayed in the box, then find the Monday amount from its 3/4 portion."
+    "hint": "The 15 given away and 23 eaten make the 2/5 removed on Sunday. Find what stayed in the box, then find the Monday amount from its 3/4 portion.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 38 cookies removed on Sunday to find the Sunday batch, then find Monday's batch from the amount added to the box.",
+        "steps": [
+          {
+            "title": "Find Sunday's original batch",
+            "text": "The cookies taken out on Sunday were 15 given away plus 23 eaten, or 38 cookies. This is 2/5 of Sunday's batch, so Sunday's batch was 38 ÷ 2/5 = 95 cookies."
+          },
+          {
+            "title": "Find what was added on Monday",
+            "text": "After Sunday, 3/5 of 95 = 57 cookies remained in the box. The box later held 183 cookies, so Monday added 183 − 57 = 126 cookies."
+          },
+          {
+            "title": "Find Monday's full batch",
+            "text": "The 126 cookies added were 3/4 of Monday's batch. Monday's batch was 126 ÷ 3/4 = 168 cookies."
+          }
+        ],
+        "answerCheck": "Check: 2/5 of 95 is 38, leaving 57. Also, 3/4 of 168 is 126, and 57 + 126 = 183. Answer: 168 cookies."
+      },
+      "zh-Hans": {
+        "strategy": "利用星期日取出的38块先求星期日的总数，再由放入盒子的数量求星期一烤的总数。",
+        "steps": [
+          {
+            "title": "求星期日原来的数量",
+            "text": "星期日取出的饼干是送人的15块加吃掉的23块，即38块。这是星期日总数的2/5，所以星期日烤了38 ÷ 2/5 = 95块。"
+          },
+          {
+            "title": "求星期一放入盒子的数量",
+            "text": "星期日后，盒中剩下95的3/5 = 57块。后来盒中有183块，所以星期一放入183 − 57 = 126块。"
+          },
+          {
+            "title": "求星期一烤的总数",
+            "text": "放入的126块是星期一总数的3/4。星期一烤了126 ÷ 3/4 = 168块饼干。"
+          }
+        ],
+        "answerCheck": "检验：95的2/5 = 38，剩下57。168的3/4 = 126，57 + 126 = 183。答案：168块饼干。"
+      }
+    },
+    "questionZh": "星期日，坎贝尔太太烤了一些饼干，并把所有饼干放进一个盒子。随后她取出了其中的2/5。取出的饼干中，15块送人了，其余23块被吃掉了。星期一，她又烤了一盘饼干，并将其中的3/4放入同一个盒子。此时盒子里总共有183块饼干。坎贝尔太太星期一烤了多少块饼干？",
+    "hintZh": "送人的15块和吃掉的23块构成星期日取出的2/5。求盒中留下的数量，再根据星期一放入的3/4求出星期一烤的总数。"
   },
   {
     "id": 27,
@@ -213,7 +1237,47 @@
     "question": "A bag of sweets was shared among Bob, Nancy, Lucy and Nicholas. Bob had 2 times as many sweets as Nancy. Lucy had 1/2 the total number of sweets that Bob and Nancy had. Nicholas had 90 sweets, which was 3 times as many sweets as Lucy had. How many sweets were there in the bag?",
     "answer": "180 sweets",
     "model": "unit-bar",
-    "hint": "Use Nicholas's sweets to find Lucy's. Then let Nancy be 1 unit, Bob be 2 units, and match Lucy to 1/2 of their combined amount."
+    "hint": "Use Nicholas's sweets to find Lucy's. Then let Nancy be 1 unit, Bob be 2 units, and match Lucy to 1/2 of their combined amount.",
+    "solution": {
+      "en": {
+        "strategy": "Use Nicholas's 90 sweets to find Lucy's amount, then find Bob and Nancy from their linked relationship.",
+        "steps": [
+          {
+            "title": "Find Lucy's sweets",
+            "text": "Nicholas has 90 sweets, which is 3 times Lucy's amount. Therefore Lucy has 90 ÷ 3 = 30 sweets."
+          },
+          {
+            "title": "Find Bob and Nancy",
+            "text": "Lucy has 1/2 of Bob's and Nancy's combined sweets, so Bob + Nancy = 2 × 30 = 60. Bob has 2 times Nancy's sweets, so the 60 sweets are split in a 2:1 ratio."
+          },
+          {
+            "title": "Add all four amounts",
+            "text": "Nancy has 20 sweets and Bob has 40 sweets. The total is 40 + 20 + 30 + 90 = 180 sweets."
+          }
+        ],
+        "answerCheck": "Check: Bob's 40 is 2 times Nancy's 20, and Lucy's 30 is 1/2 of 40 + 20. Answer: 180 sweets."
+      },
+      "zh-Hans": {
+        "strategy": "先由Nicholas的90颗糖果求Lucy的数量，再求Bob和Nancy的数量。",
+        "steps": [
+          {
+            "title": "求Lucy的糖果数",
+            "text": "Nicholas有90颗糖果，是Lucy数量的3倍。因此Lucy有90 ÷ 3 = 30颗。"
+          },
+          {
+            "title": "求Bob和Nancy的数量",
+            "text": "Lucy的30颗是Bob和Nancy总数的1/2，所以Bob + Nancy = 2 × 30 = 60颗。Bob的数量是Nancy的2倍，因此60颗按2 : 1分配。"
+          },
+          {
+            "title": "相加4人的数量",
+            "text": "Nancy有20颗，Bob有40颗。总数是40 + 20 + 30 + 90 = 180颗糖果。"
+          }
+        ],
+        "answerCheck": "检验：Bob的40颗是Nancy的20颗的2倍，Lucy的30颗是40 + 20的一半。答案：180颗糖果。"
+      }
+    },
+    "questionZh": "一袋糖果由鲍勃、南希、露西和尼古拉斯分得。鲍勃的糖果数量是南希的2倍。露西的糖果数量是鲍勃和南希糖果总数的1/2。尼古拉斯有90颗糖果，是露西糖果数量的3倍。这袋糖果共有多少颗？",
+    "hintZh": "利用尼古拉斯的糖果数求出露西的糖果数。然后设南希为1个单位、鲍勃为2个单位，并使露西的数量对应于他们合计数量的1/2。"
   },
   {
     "id": 28,
@@ -221,7 +1285,47 @@
     "question": "Sandra, Ted and Justina had 377 coins altogether. Sandra gave Justina 15 coins and Ted received 13 coins from Justina. In the end, the ratio of Sandra's coins to Ted's coins was 4 : 3, and the ratio of Sandra's coins to Justina's coins was 3 : 2. How many coins did each have at 1st?",
     "answer": "Sandra: 171 coins; Ted: 104 coins; Justina: 102 coins",
     "model": "bar-change",
-    "hint": "Combine the 4:3 and 3:2 final ratios using a common Sandra value. Use the unchanged total of 377, then reverse both transfers."
+    "hint": "Combine the 4:3 and 3:2 final ratios using a common Sandra value. Use the unchanged total of 377, then reverse both transfers.",
+    "solution": {
+      "en": {
+        "strategy": "Combine the two final ratios, use the unchanged total, then reverse the transfers.",
+        "steps": [
+          {
+            "title": "Combine the final ratios",
+            "text": "Sandra : Ted = 4 : 3 and Sandra : Justina = 3 : 2. Make Sandra 12 parts: the final ratio Sandra : Ted : Justina is 12 : 9 : 8."
+          },
+          {
+            "title": "Find the final numbers",
+            "text": "There are 12 + 9 + 8 = 29 parts, and 377 ÷ 29 = 13 coins per part. Finally, Sandra has 156, Ted 117, and Justina 104 coins."
+          },
+          {
+            "title": "Reverse both transfers",
+            "text": "Sandra gave away 15, so she began with 156 + 15 = 171. Ted received 13, so he began with 117 − 13 = 104. Justina received 15 then gave 13, so she began with 104 − 15 + 13 = 102."
+          }
+        ],
+        "answerCheck": "Check: 171 + 104 + 102 = 377. After the transfers: Sandra 156, Ted 117, Justina 104, giving 156:117 = 4:3 and 156:104 = 3:2. Answer: Sandra: 171 coins; Ted: 104 coins; Justina: 102 coins."
+      },
+      "zh-Hans": {
+        "strategy": "合并最后的两个比，利用不变的总数，再倒推转移。",
+        "steps": [
+          {
+            "title": "合并最后的比",
+            "text": "Sandra : Ted = 4 : 3，Sandra : Justina = 3 : 2。把Sandra化为12份，最后Sandra : Ted : Justina = 12 : 9 : 8。"
+          },
+          {
+            "title": "求最后的数量",
+            "text": "总份数是12 + 9 + 8 = 29份，每份是377 ÷ 29 = 13枚。最后Sandra有156枚，Ted有117枚，Justina有104枚。"
+          },
+          {
+            "title": "倒推两次转移",
+            "text": "Sandra给出15枚，所以开始有156 + 15 = 171枚。Ted得到13枚，所以开始有117 − 13 = 104枚。Justina先得到15枚再给出13枚，所以开始有104 − 15 + 13 = 102枚。"
+          }
+        ],
+        "answerCheck": "检验：171 + 104 + 102 = 377。转移后Sandra有156枚，Ted有117枚，Justina有104枚，156:117 = 4:3，156:104 = 3:2。答案：Sandra有171枚；Ted有104枚；Justina有102枚硬币。"
+      }
+    },
+    "questionZh": "桑德拉、泰德和贾斯蒂娜一共有377枚硬币。桑德拉给了贾斯蒂娜15枚硬币，泰德从贾斯蒂娜那里得到了13枚硬币。最后，桑德拉与泰德的硬币数量之比为4 : 3，桑德拉与贾斯蒂娜的硬币数量之比为3 : 2。他们最初（1st）各有多少枚硬币？",
+    "hintZh": "用桑德拉的共同数值合并最后的4:3和3:2比例。利用不变的总数377，再倒推这两次转移。"
   },
   {
     "id": 29,
@@ -229,7 +1333,47 @@
     "question": "A farm had some cows and goats. 1/5 of the cows and 3/11 of the goats were sold. There was an equal number of cows and goats left. If there were 704 cows and goats left, how many animals were on the farm at 1st?",
     "answer": "924 animals",
     "model": "fraction-of-remainder",
-    "hint": "Split the 704 remaining animals equally between cows and goats. Those equal amounts are 4/5 of the cows and 8/11 of the goats."
+    "hint": "Split the 704 remaining animals equally between cows and goats. Those equal amounts are 4/5 of the cows and 8/11 of the goats.",
+    "solution": {
+      "en": {
+        "strategy": "Because the remaining cows and goats are equal, split the 704 equally and reverse each fraction sold.",
+        "steps": [
+          {
+            "title": "Find each remaining group",
+            "text": "There are 704 animals left and equal numbers of cows and goats, so 704 ÷ 2 = 352 cows and 352 goats remain."
+          },
+          {
+            "title": "Reverse the sales",
+            "text": "After selling 1/5 of the cows, 4/5 remain, so the original cows were 352 ÷ 4/5 = 440. After selling 3/11 of the goats, 8/11 remain, so the original goats were 352 ÷ 8/11 = 484."
+          },
+          {
+            "title": "Find the original animal total",
+            "text": "The farm originally had 440 + 484 = 924 animals."
+          }
+        ],
+        "answerCheck": "Check: 4/5 of 440 = 352 and 8/11 of 484 = 352; together 352 + 352 = 704. Answer: 924 animals."
+      },
+      "zh-Hans": {
+        "strategy": "剩下的奶牛和山羊数量相等，所以把704平均分开，再倒推卖出的分数。",
+        "steps": [
+          {
+            "title": "求两类剩余数量",
+            "text": "剩下704头动物，奶牛和山羊数量相等，所以各有704 ÷ 2 = 352头。"
+          },
+          {
+            "title": "倒推卖出前的数量",
+            "text": "奶牛卖出1/5后剩4/5，所以原来有352 ÷ 4/5 = 440头。山羊卖出3/11后剩8/11，所以原来有352 ÷ 8/11 = 484头。"
+          },
+          {
+            "title": "求原来动物总数",
+            "text": "农场原来有440 + 484 = 924头动物。"
+          }
+        ],
+        "answerCheck": "检验：440的4/5 = 352，484的8/11 = 352，352 + 352 = 704。答案：924头动物。"
+      }
+    },
+    "questionZh": "一个农场有一些奶牛和山羊。卖出了奶牛的1/5和山羊的3/11后，剩下的奶牛和山羊数量相等。如果剩下704头奶牛和山羊，农场最初（1st）有多少头动物？",
+    "hintZh": "把剩下的704头动物平均分为奶牛和山羊。这两个相等的数量分别是原来奶牛的4/5和原来山羊的8/11。"
   },
   {
     "id": 30,
@@ -237,7 +1381,47 @@
     "question": "3/5 of the 60 balloons used at a party were green and the rest were yellow. If 6 green balloons and 3 yellow balloons burst, what fraction of the remaining balloons were green?",
     "answer": "10/17",
     "model": "fraction-of-remainder",
-    "hint": "Find the original green and yellow balloon counts separately. Subtract the burst balloons, then write green remaining over total remaining."
+    "hint": "Find the original green and yellow balloon counts separately. Subtract the burst balloons, then write green remaining over total remaining.",
+    "solution": {
+      "en": {
+        "strategy": "Find the original counts by colour, subtract the burst balloons, and simplify the remaining green fraction.",
+        "steps": [
+          {
+            "title": "Find the original colour counts",
+            "text": "Green balloons: 3/5 of 60 = 36. Yellow balloons: 60 − 36 = 24."
+          },
+          {
+            "title": "Subtract the burst balloons",
+            "text": "Green remaining: 36 − 6 = 30. Yellow remaining: 24 − 3 = 21. Total remaining: 30 + 21 = 51."
+          },
+          {
+            "title": "Write and simplify the fraction",
+            "text": "The green fraction is 30/51. Divide numerator and denominator by 3 to get 10/17."
+          }
+        ],
+        "answerCheck": "Check: 30 green balloons out of 51 remaining gives 30/51 = 10/17. Answer: 10/17."
+      },
+      "zh-Hans": {
+        "strategy": "先求两种颜色原来的数量，减去爆破的气球，再约分剩余绿色气球所占的分数。",
+        "steps": [
+          {
+            "title": "求原来的各色数量",
+            "text": "绿色气球：60的3/5 = 36个。黄色气球：60 − 36 = 24个。"
+          },
+          {
+            "title": "减去爆破的气球",
+            "text": "剩下绿色：36 − 6 = 30个。剩下黄色：24 − 3 = 21个。剩余总数：30 + 21 = 51个。"
+          },
+          {
+            "title": "写出并约分分数",
+            "text": "绿色所占分数是30/51。分子和分母都除以3，得到10/17。"
+          }
+        ],
+        "answerCheck": "检验：剩下51个中有30个绿色，30/51 = 10/17。答案：10/17。"
+      }
+    },
+    "questionZh": "派对上使用的气球中，3/5是绿色的，气球总数为60个，其余是黄色的。如果6个绿色气球和3个黄色气球爆裂了，剩余气球中绿色气球占几分之几？",
+    "hintZh": "分别求出原来绿色和黄色气球的数量。减去爆裂的气球，再写出剩余绿色气球数占剩余总数的分数。"
   },
   {
     "id": 31,
@@ -245,7 +1429,47 @@
     "question": "Peter was given a crate of cups. He sold all the cups. Each cup was sold at $8.90. For every set of 5 cups purchased by a customer, 1 cup was given free. 2/3 of the cups were sold in sets of 5 cups. He collected $1174.80 altogether. How many cups were there in the crate at 1st?",
     "answer": "156 cups",
     "model": "money-units",
-    "hint": "A set charges for 5 cups but contains 6 cups. Treat the remaining 1/3 as single cups, and use the total money to find the number of such groups."
+    "hint": "A set charges for 5 cups but contains 6 cups. Treat the remaining 1/3 as single cups, and use the total money to find the number of such groups.",
+    "solution": {
+      "en": {
+        "strategy": "Translate the stated 2/3 promotion condition into groups; this exposes an inconsistency between the wording and the supplied answer.",
+        "steps": [
+          {
+            "title": "Model a promotion group",
+            "text": "For every 5 cups purchased, 1 cup is free, so a promotion group contains 6 cups but brings in 5 × $8.90 = $44.50. If N cups were in the crate, 2/3N cups were in promotion groups and 1/3N cups were sold singly."
+          },
+          {
+            "title": "Write the revenue equation",
+            "text": "The promotion groups bring in (2/3N) × 5/6 × $8.90, while the single cups bring in (1/3N) × $8.90. Thus total revenue is (5/9N + 1/3N) × $8.90 = 8/9N × $8.90."
+          },
+          {
+            "title": "Check the stated data",
+            "text": "$1174.80 = 8/9N × $8.90 gives N = 148.5, not a whole number of cups. Therefore the stated 2/3 condition and $1174.80 total cannot both produce the supplied whole-number answer."
+          }
+        ],
+        "answerCheck": "Source answer string: 156 cups. But 156 cups would produce 156 × 8/9 × $8.90 = $1234.13..., not $1174.80; the source wording or answer needs correction before a valid numerical answer check is possible."
+      },
+      "zh-Hans": {
+        "strategy": "把题目给出的2/3促销条件写成组数；这样会发现题干与给出的答案不一致。",
+        "steps": [
+          {
+            "title": "表示1个促销组",
+            "text": "顾客购买5个杯子送1个，所以1个促销组实际有6个杯子，收入为5 × $8.90 = $44.50。设箱中原有N个杯子，2/3N个按促销组出售，1/3N个单独出售。"
+          },
+          {
+            "title": "列收入关系式",
+            "text": "促销组收入为(2/3N) × 5/6 × $8.90，单独出售的收入为(1/3N) × $8.90。因此总收入为(5/9N + 1/3N) × $8.90 = 8/9N × $8.90。"
+          },
+          {
+            "title": "检验题目数据",
+            "text": "$1174.80 = 8/9N × $8.90，得到N = 148.5，不是整数个杯子。因此题目中的2/3条件与$1174.80不能同时得出给出的整数答案。"
+          }
+        ],
+        "answerCheck": "题库答案为156 cups。但156 × 8/9 × $8.90 = $1234.13...，不是$1174.80；需要更正题干或答案后才能进行有效检验。"
+      }
+    },
+    "questionZh": "彼得得到了一箱杯子。他卖掉了所有杯子。每个杯子的售价是$8.90。顾客每购买一组5个杯子，就免费获赠1个杯子。杯子中有2/3是按每组5个的方式售出的。他总共收了$1174.80。箱子里最初（1st）有多少个杯子？",
+    "hintZh": "一组杯子按5个收费，但实际包含6个杯子。把剩下的1/3视为单独出售的杯子，并利用总收入求出这类组的数量。"
   },
   {
     "id": 32,
@@ -253,7 +1477,47 @@
     "question": "Samantha, Jerry, Mandy and Tim scored an average of 68.75 points for a game. Tim's score was 2/3 of Mandy's score, Mandy's score was 1/2 of Jerry's score, and Samantha's score was 1/4 of Jerry's score. What was the average score of Mandy and Samantha?",
     "answer": "49.5 points",
     "model": "unit-bar",
-    "hint": "Convert the average to the 4 players' total score. Express every score as a fraction of Jerry's score, then find Mandy and Samantha."
+    "hint": "Convert the average to the 4 players' total score. Express every score as a fraction of Jerry's score, then find Mandy and Samantha.",
+    "solution": {
+      "en": {
+        "strategy": "Convert the average to a total, write every score as a fraction of Jerry's score, and then average the two requested scores.",
+        "steps": [
+          {
+            "title": "Find the four-player total",
+            "text": "The total score is 4 × 68.75 = 275 points."
+          },
+          {
+            "title": "Express all scores using Jerry",
+            "text": "Let Jerry's score be J. Mandy = 1/2J, Tim = 2/3 of Mandy = 1/3J, and Samantha = 1/4J. Thus J + 1/2J + 1/3J + 1/4J = 25/12J = 275."
+          },
+          {
+            "title": "Find the requested average",
+            "text": "J = 132, so Mandy has 66 and Samantha has 33. Their average is (66 + 33) ÷ 2 = 49.5 points."
+          }
+        ],
+        "answerCheck": "Check: Tim has 44, which is 2/3 of Mandy's 66; and 132 + 66 + 44 + 33 = 275. Answer: 49.5 points."
+      },
+      "zh-Hans": {
+        "strategy": "先把平均分换成总分，把每个人的得分表示为Jerry得分的分数，再求所需的平均分。",
+        "steps": [
+          {
+            "title": "求4人的总分",
+            "text": "总分是4 × 68.75 = 275分。"
+          },
+          {
+            "title": "用Jerry的得分表示所有人",
+            "text": "设Jerry得J分。Mandy = 1/2J，Tim = Mandy的2/3 = 1/3J，Samantha = 1/4J。因此J + 1/2J + 1/3J + 1/4J = 25/12J = 275。"
+          },
+          {
+            "title": "求题目所需的平均分",
+            "text": "J = 132，所以Mandy得66分，Samantha得33分。她们的平均分是(66 + 33) ÷ 2 = 49.5分。"
+          }
+        ],
+        "answerCheck": "检验：Tim得44分，是Mandy的66分的2/3；132 + 66 + 44 + 33 = 275。答案：49.5分。"
+      }
+    },
+    "questionZh": "萨曼莎、杰瑞、曼迪和蒂姆在一场比赛中的平均得分为68.75分。蒂姆的得分是曼迪得分的2/3，曼迪的得分是杰瑞得分的1/2，萨曼莎的得分是杰瑞得分的1/4。曼迪和萨曼莎的平均得分是多少？",
+    "hintZh": "把平均分换算成4名参赛者的总分。把每个人的得分表示为杰瑞得分的分数，再求出曼迪和萨曼莎的得分。"
   },
   {
     "id": 33,
@@ -261,7 +1525,47 @@
     "question": "Jane, Alice and Peter had a sum of money. After Jane spent 1/4 of her money, Alice spent $80 of hers, and Peter spent 1/2 of his money, they had an equal amount of money left. If they had $1008 altogether in the end, how much did each have at 1st?",
     "answer": "Jane: $448; Alice: $416; Peter: $672",
     "model": "money-units",
-    "hint": "Divide the final $1008 into 3 equal remainders. Work backwards for each person using the fraction spent or the $80 spent."
+    "hint": "Divide the final $1008 into 3 equal remainders. Work backwards for each person using the fraction spent or the $80 spent.",
+    "solution": {
+      "en": {
+        "strategy": "First find the equal final amount for each person, then reverse each person's spending.",
+        "steps": [
+          {
+            "title": "Find each final amount",
+            "text": "Jane, Alice, and Peter have equal amounts left totaling $1008. Each has $1008 ÷ 3 = $336 left."
+          },
+          {
+            "title": "Reverse Jane's and Alice's spending",
+            "text": "Jane has 3/4 of her original money left, so her original amount was $336 ÷ 3/4 = $448. Alice spent $80, so her original amount was $336 + $80 = $416."
+          },
+          {
+            "title": "Reverse Peter's spending",
+            "text": "Peter has 1/2 of his original money left, so his original amount was $336 ÷ 1/2 = $672."
+          }
+        ],
+        "answerCheck": "Check: 3/4 of $448 = $336; $416 − $80 = $336; and 1/2 of $672 = $336. Answer: Jane: $448; Alice: $416; Peter: $672."
+      },
+      "zh-Hans": {
+        "strategy": "先求3人最后相等的钱数，再分别倒推每个人花钱前的钱数。",
+        "steps": [
+          {
+            "title": "求每人最后的钱数",
+            "text": "Jane、Alice和Peter最后的钱数相等，总共是$1008，所以每人有$1008 ÷ 3 = $336。"
+          },
+          {
+            "title": "倒推Jane和Alice的钱数",
+            "text": "Jane花了原来钱数的1/4，剩下3/4，所以原来有$336 ÷ 3/4 = $448。Alice花了$80，所以原来有$336 + $80 = $416。"
+          },
+          {
+            "title": "倒推Peter的钱数",
+            "text": "Peter剩下原来钱数的1/2，所以原来有$336 ÷ 1/2 = $672。"
+          }
+        ],
+        "answerCheck": "检验：$448的3/4 = $336；$416 − $80 = $336；$672的1/2 = $336。答案：Jane有$448；Alice有$416；Peter有$672。"
+      }
+    },
+    "questionZh": "简、爱丽丝和彼得有一笔钱。简花掉自己钱的1/4、爱丽丝花掉$80、彼得花掉自己钱的1/2后，他们剩下的钱数相等。如果最后他们一共有$1008，他们最初（1st）各有多少钱？",
+    "hintZh": "将最后的$1008平均分成3份相等的剩余金额。根据每个人花掉的分数或$80，分别倒推。"
   },
   {
     "id": 34,
@@ -269,6 +1573,46 @@
     "question": "A tank measures 20 cm by 15 cm by 30 cm. Pump A and Pump B release water in the ratio 3 : 2. Together, the pumps fill 1/2 litre of water in 2 minutes. How long will it take Pump B alone to fill the tank completely with water?",
     "answer": "90 minutes",
     "model": "geometry",
-    "hint": "Find the tank's volume in cubic centimetres and the combined flow per minute. Split that flow in the 3:2 ratio, then use Pump B's rate."
+    "hint": "Find the tank's volume in cubic centimetres and the combined flow per minute. Split that flow in the 3:2 ratio, then use Pump B's rate.",
+    "solution": {
+      "en": {
+        "strategy": "Find the tank volume, calculate Pump B's share of the combined rate, and divide volume by that rate.",
+        "steps": [
+          {
+            "title": "Find the tank volume",
+            "text": "The tank holds 20 cm × 15 cm × 30 cm = 9000 cm³. Since 1000 cm³ = 1 litre, the tank holds 9 litres."
+          },
+          {
+            "title": "Find Pump B's rate",
+            "text": "Together the pumps fill 1/2 litre in 2 minutes, so their combined rate is 1/4 litre per minute. Their rates are in a 3:2 ratio, so Pump B's rate is 2/5 × 1/4 = 1/10 litre per minute."
+          },
+          {
+            "title": "Find the time",
+            "text": "At 1/10 litre per minute, Pump B takes 9 ÷ 1/10 = 90 minutes to fill 9 litres."
+          }
+        ],
+        "answerCheck": "Check: in 90 minutes, Pump B fills 90 × 1/10 = 9 litres, which is 9000 cm³. Answer: 90 minutes."
+      },
+      "zh-Hans": {
+        "strategy": "先求水箱体积，再求Pump B占合并流速的份额，最后用体积除以流速。",
+        "steps": [
+          {
+            "title": "求水箱体积",
+            "text": "水箱体积是20 cm × 15 cm × 30 cm = 9000 cm³。因为1000 cm³ = 1 litre，水箱容积是9 litres。"
+          },
+          {
+            "title": "求Pump B的流速",
+            "text": "两台泵2分钟共注入1/2 litre，所以合并流速是每分钟1/4 litre。流速比为3 : 2，因此Pump B的流速是2/5 × 1/4 = 每分钟1/10 litre。"
+          },
+          {
+            "title": "求所需时间",
+            "text": "Pump B每分钟注入1/10 litre，注满9 litres需要9 ÷ 1/10 = 90分钟。"
+          }
+        ],
+        "answerCheck": "检验：90分钟内Pump B注入90 × 1/10 = 9 litres，即9000 cm³。答案：90分钟。"
+      }
+    },
+    "questionZh": "一个水箱的尺寸为20 cm × 15 cm × 30 cm。Pump A和Pump B的出水量之比为3 : 2。两台泵一起注入1/2 litre的水需要2分钟。Pump B单独把水箱完全注满需要多长时间？",
+    "hintZh": "求水箱的体积（单位为立方厘米）以及每分钟的合并流量。按3:2分配该流量，然后利用Pump B的流速。"
   }
 ]

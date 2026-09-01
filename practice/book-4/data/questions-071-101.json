@@ -1,250 +1,1474 @@
 [
   {
     "id": 71,
-    "topic": "Geometry: area of a composite square",
+    "topic": "Area & Perimeter",
     "question": "9 small squares are used to form a large square. If each side of a small square is 7 cm, what is the area of the large square?",
     "answer": "441 cm²",
     "model": "geometry",
-    "hint": "The 9 small squares make a 3-by-3 array. Find the side length of the large square before finding its area."
+    "hint": "The 9 small squares make a 3-by-3 array. Find the side length of the large square before finding its area.",
+    "questionZh": "用9个小正方形拼成一个大正方形。若每个小正方形的边长是7 cm，大正方形的面积是多少？",
+    "hintZh": "9个小正方形组成一个3×3方阵。先求大正方形的边长，再求面积。",
+    "solution": {
+      "en": {
+        "strategy": "Arrange the 9 equal squares in a 3-by-3 large square.",
+        "steps": [
+          {
+            "title": "Find the large side",
+            "text": "Since 9 squares make 3 rows of 3, the large square’s side is 3 × 7 = 21 cm."
+          },
+          {
+            "title": "Find the area",
+            "text": "Its area is 21 × 21 = 441 cm²."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 441 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "把9个相同的小正方形看成3×3的排列。",
+        "steps": [
+          {
+            "title": "求大正方形边长",
+            "text": "9个小正方形排成3行3列，所以大正方形边长是3 × 7 = 21 cm。"
+          },
+          {
+            "title": "求面积",
+            "text": "大正方形面积是21 × 21 = 441 cm²。"
+          }
+        ],
+        "answerCheck": "所以答案是441 cm²。"
+      }
+    }
   },
   {
     "id": 72,
-    "topic": "Geometry: perimeter of an unshaded shape",
-    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion shown in the diagram.",
+    "topic": "Area & Perimeter",
+    "question": "The diagram shows a square ABCD with an area of 81 cm². A is the top left corner, B the top right, C the bottom right and D the bottom left. A step-shaped line runs from G on side AD horizontally to H, then vertically up to E, then horizontally to F on side BC, so E is level with F and the unshaded portion is ABFEHG. AG is 7 cm, and BF is the same length as GD. Find the perimeter of the unshaded portion.",
     "answer": "32 cm",
     "model": "geometry",
-    "hint": "1st find the side length of the 81 cm² square, then trace only the outside edges of the unshaded L-shaped portion."
+    "hint": "The square's side is 9 cm, so BF = GD = 9 − 7 = 2 cm and EH = 7 − 2 = 5 cm. GH and EF together span the full 9 cm. Remember that the 2 step edges are part of the perimeter.",
+    "questionZh": "图中正方形ABCD的面积是81 cm²。A是左上角，B是右上角，C是右下角，D是左下角。一条阶梯形的线从AD边上的G点水平向右到H点，再竖直向上到E点，然后水平向右到BC边上的F点，因此E与F等高，未阴影部分是ABFEHG。AG是7 cm，BF与GD等长。求未阴影部分的周长。",
+    "hintZh": "正方形的边长是9 cm，所以BF = GD = 9 − 7 = 2 cm，EH = 7 − 2 = 5 cm。GH与EF合起来正好是整条边9 cm。注意2段阶梯边也属于周长。",
+    "solution": {
+      "en": {
+        "strategy": "Use the square’s side and combine the two horizontal step segments.",
+        "steps": [
+          {
+            "title": "Find the needed side lengths",
+            "text": "The square side is √81 = 9 cm. GD = 9 − 7 = 2 cm, so BF = 2 cm. Also EH = AG − BF = 7 − 2 = 5 cm."
+          },
+          {
+            "title": "Combine the horizontal segments",
+            "text": "GH and EF together span the square’s full width, so GH + EF = 9 cm."
+          },
+          {
+            "title": "Add the boundary",
+            "text": "Perimeter ABFEHG = AB + BF + EF + EH + HG + GA = 9 + 2 + 9 + 5 + 7 = 32 cm."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 32 cm."
+      },
+      "zh-Hans": {
+        "strategy": "先求正方形边长，再把两段水平阶梯边合并。",
+        "steps": [
+          {
+            "title": "求各边长度",
+            "text": "正方形边长是√81 = 9 cm。GD = 9 − 7 = 2 cm，所以BF = 2 cm；EH = AG − BF = 7 − 2 = 5 cm。"
+          },
+          {
+            "title": "合并水平边",
+            "text": "GH与EF合起来正好横跨正方形的宽，因此GH + EF = 9 cm。"
+          },
+          {
+            "title": "相加求周长",
+            "text": "ABFEHG的周长 = AB + BF + EF + EH + GH + GA = 9 + 2 + 9 + 5 + 7 = 32 cm。"
+          }
+        ],
+        "answerCheck": "所以答案是32 cm。"
+      }
+    }
   },
   {
     "id": 73,
-    "topic": "Geometry: rectangle area and perimeter",
+    "topic": "Area & Perimeter",
     "question": "The perimeter of a rectangle is 288 cm. The length is 3 times the breadth. Find the area of the rectangle.",
     "answer": "3888 cm²",
     "model": "geometry",
-    "hint": "A perimeter has 2 lengths and 2 breadths. Treat 1 breadth as 1 unit and the length as 3 units."
+    "hint": "A perimeter has 2 lengths and 2 breadths. Treat 1 breadth as 1 unit and the length as 3 units.",
+    "questionZh": "一个长方形的周长是288 cm。长是宽的3倍。求这个长方形的面积。",
+    "hintZh": "周长包含2条长和2条宽。把1条宽设为1份，长设为3份。",
+    "solution": {
+      "en": {
+        "strategy": "Use the 3:1 length-to-breadth ratio in the perimeter.",
+        "steps": [
+          {
+            "title": "Split the perimeter into units",
+            "text": "Two lengths and two breadths make 2 × 3 + 2 × 1 = 8 equal units. Each unit is 288 ÷ 8 = 36 cm."
+          },
+          {
+            "title": "Find the dimensions",
+            "text": "Breadth = 36 cm and length = 3 × 36 = 108 cm."
+          },
+          {
+            "title": "Find the area",
+            "text": "Area = 108 × 36 = 3888 cm²."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 3888 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "把长与宽按3:1分份，并利用周长。",
+        "steps": [
+          {
+            "title": "把周长分成等份",
+            "text": "两条长和两条宽共有2 × 3 + 2 × 1 = 8份。每份为288 ÷ 8 = 36 cm。"
+          },
+          {
+            "title": "求长和宽",
+            "text": "宽为36 cm，长为3 × 36 = 108 cm。"
+          },
+          {
+            "title": "求面积",
+            "text": "面积 = 108 × 36 = 3888 cm²。"
+          }
+        ],
+        "answerCheck": "所以答案是3888 cm²。"
+      }
+    }
   },
   {
     "id": 74,
-    "topic": "Geometry: wire and fractions",
+    "topic": "Area & Perimeter",
     "question": "A wire was cut and 2/3 of it was bent to form a square. The remaining length of the wire was bent to form a rectangle. The area of the square was 36 cm². What was the length of the wire at 1st?",
     "answer": "36 cm",
     "model": "geometry",
-    "hint": "Find the square's side from its area, then its perimeter. That perimeter is 2/3 of the original wire."
+    "hint": "Find the square's side from its area, then its perimeter. That perimeter is 2/3 of the original wire.",
+    "questionZh": "一根铁丝被剪开，其中的2/3弯成一个正方形，剩下的铁丝弯成一个长方形。正方形的面积是36 cm²。这根铁丝开始时长多少？",
+    "hintZh": "由面积求正方形边长，再求周长。这个周长是原来铁丝的2/3。",
+    "solution": {
+      "en": {
+        "strategy": "The square’s perimeter is two-thirds of the original wire.",
+        "steps": [
+          {
+            "title": "Find the square side",
+            "text": "A square with area 36 cm² has side √36 = 6 cm."
+          },
+          {
+            "title": "Find the used wire",
+            "text": "Its perimeter is 4 × 6 = 24 cm. This is 2/3 of the original wire."
+          },
+          {
+            "title": "Find the original length",
+            "text": "Original length = 24 ÷ 2 × 3 = 36 cm."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 36 cm."
+      },
+      "zh-Hans": {
+        "strategy": "正方形的周长就是原来铁丝的2/3。",
+        "steps": [
+          {
+            "title": "求正方形边长",
+            "text": "正方形面积为36 cm²，所以边长是√36 = 6 cm。"
+          },
+          {
+            "title": "求弯成正方形的铁丝长度",
+            "text": "正方形周长为4 × 6 = 24 cm，这占原来铁丝的2/3。"
+          },
+          {
+            "title": "求原来长度",
+            "text": "原来铁丝长度 = 24 ÷ 2 × 3 = 36 cm。"
+          }
+        ],
+        "answerCheck": "所以答案是36 cm。"
+      }
+    }
   },
   {
     "id": 75,
-    "topic": "Geometry: area of a border",
+    "topic": "Area & Perimeter",
     "question": "Jenny draws a picture on a piece of paper with a border of 4 cm around the picture. The length of the paper is 24 cm. If the breadth of the picture is 8 cm, find the area of the border.",
     "answer": "256 cm²",
     "model": "geometry",
-    "hint": "Find the area of the whole paper and subtract the area of the picture. Remember that the border adds 4 cm on both sides."
+    "hint": "The border adds 4 cm at each end, so the paper is 8 + 4 + 4 cm wide, while the picture is 24 − 4 − 4 cm long. Then subtract the picture's area from the paper's area.",
+    "questionZh": "珍妮在一张纸上画画，画的四周有宽4 cm的边框。纸的长是24 cm。若画的宽是8 cm，求边框的面积。",
+    "hintZh": "边框在两端各增加4 cm，所以纸宽是8 + 4 + 4 cm，而画长是24 − 4 − 4 cm。再用纸的面积减去画的面积。",
+    "solution": {
+      "en": {
+        "strategy": "Find the paper and picture areas, then subtract.",
+        "steps": [
+          {
+            "title": "Find the two dimensions",
+            "text": "The paper breadth is 8 + 4 + 4 = 16 cm. The picture length is 24 − 4 − 4 = 16 cm."
+          },
+          {
+            "title": "Find both areas",
+            "text": "Paper area = 24 × 16 = 384 cm². Picture area = 16 × 8 = 128 cm²."
+          },
+          {
+            "title": "Find the border area",
+            "text": "Border area = 384 − 128 = 256 cm²."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 256 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "先求纸和画的面积，再用两者相减。",
+        "steps": [
+          {
+            "title": "求两个尺寸",
+            "text": "纸的宽是8 + 4 + 4 = 16 cm。画的长是24 − 4 − 4 = 16 cm。"
+          },
+          {
+            "title": "求两个面积",
+            "text": "纸的面积 = 24 × 16 = 384 cm²。画的面积 = 16 × 8 = 128 cm²。"
+          },
+          {
+            "title": "求边框面积",
+            "text": "边框面积 = 384 − 128 = 256 cm²。"
+          }
+        ],
+        "answerCheck": "所以答案是256 cm²。"
+      }
+    }
   },
   {
     "id": 76,
-    "topic": "Geometry: wire length",
+    "topic": "Area & Perimeter",
     "question": "The perimeter of a square is 1/2 the area of a rectangle. A wire is bent to form 3 such squares and 2 such rectangles. 20 cm of wire is left. If the length of the rectangle is 15 cm and its breadth is 12 cm, find the length of the wire.",
     "answer": "398 cm",
     "model": "geometry",
-    "hint": "Find the rectangle's area and perimeter. Its area gives the perimeter of 1 square; then add wire for all 5 shapes and the leftover 20 cm."
+    "hint": "The rectangle's area is 180 cm², so 1 square's perimeter is 1/2 of it, that is 90 cm. Add 3 square perimeters, 2 rectangle perimeters and the 20 cm left over.",
+    "questionZh": "一个正方形的周长是一个长方形面积的1/2。一根铁丝弯成3个这样的正方形和2个这样的长方形，剩下20 cm铁丝。若长方形长15 cm、宽12 cm，求铁丝的长度。",
+    "hintZh": "长方形的面积是180 cm²，所以1个正方形的周长是它的1/2，即90 cm。把3个正方形的周长、2个长方形的周长和剩下的20 cm相加。",
+    "solution": {
+      "en": {
+        "strategy": "Find the square perimeter from half the rectangle area, then total all wire pieces.",
+        "steps": [
+          {
+            "title": "Find one square perimeter",
+            "text": "Rectangle area = 15 × 12 = 180 cm². One square perimeter is 1/2 × 180 = 90 cm."
+          },
+          {
+            "title": "Find wire used for the shapes",
+            "text": "Three squares use 3 × 90 = 270 cm. One rectangle perimeter is 2 × (15 + 12) = 54 cm, so two rectangles use 2 × 54 = 108 cm."
+          },
+          {
+            "title": "Add the leftover wire",
+            "text": "Total wire = 270 + 108 + 20 = 398 cm."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 398 cm."
+      },
+      "zh-Hans": {
+        "strategy": "先由长方形面积求正方形周长，再把所有铁丝相加。",
+        "steps": [
+          {
+            "title": "求1个正方形周长",
+            "text": "长方形面积 = 15 × 12 = 180 cm²。1个正方形周长是180的1/2，即90 cm。"
+          },
+          {
+            "title": "求图形使用的铁丝",
+            "text": "3个正方形用3 × 90 = 270 cm。1个长方形周长 = 2 × (15 + 12) = 54 cm，2个长方形用2 × 54 = 108 cm。"
+          },
+          {
+            "title": "加上剩余铁丝",
+            "text": "铁丝总长 = 270 + 108 + 20 = 398 cm。"
+          }
+        ],
+        "answerCheck": "所以答案是398 cm。"
+      }
+    }
   },
   {
     "id": 77,
-    "topic": "Geometry: area from a labelled diagram",
-    "question": "The perimeter of rectangle EFGH is 180 cm. YH is 2 times GZ. If EF is 24 cm and YH is 12 cm, what is the area of rectangle ABCD?",
+    "topic": "Area & Perimeter",
+    "question": "The diagram shows rectangle EFGH inside rectangle ABCD. The perimeter of EFGH is 180 cm and EF is 24 cm. The gap between AB and EF is 10 cm, and the gap between HG and DC is 13 cm. Y lies on AD and Z lies on BC, and YH is 2 times GZ. If YH is 12 cm, what is the area of rectangle ABCD?",
     "answer": "3738 cm²",
     "model": "geometry",
-    "hint": "Use the inner rectangle's perimeter to find its height. Use YH = 2 × GZ, then add the labelled horizontal and vertical sections of the diagram."
+    "hint": "Use the perimeter of EFGH with EF = 24 cm to find EH. GZ is 1/2 of YH. Each side of ABCD is then the sum of 3 pieces: 10 + EH + 13 across, and YH + EF + GZ down.",
+    "questionZh": "图中长方形EFGH在长方形ABCD的内部。EFGH的周长是180 cm，EF是24 cm。AB与EF之间的距离是10 cm，HG与DC之间的距离是13 cm。Y在AD上，Z在BC上，YH是GZ的2倍。若YH是12 cm，长方形ABCD的面积是多少？",
+    "hintZh": "利用EFGH的周长和EF = 24 cm求EH。GZ是YH的1/2。于是ABCD的每条边都是3段之和：一个方向是10 + EH + 13，另一个方向是YH + EF + GZ。",
+    "solution": {
+      "en": {
+        "strategy": "Use the inner rectangle’s perimeter, then add the surrounding gaps.",
+        "steps": [
+          {
+            "title": "Find EH",
+            "text": "For EFGH, 2 × (EF + EH) = 180. Thus EF + EH = 90 and EH = 90 − 24 = 66 cm."
+          },
+          {
+            "title": "Find the outer dimensions",
+            "text": "GZ = 12 ÷ 2 = 6 cm. One outer side is 10 + 66 + 13 = 89 cm; the other is 12 + 24 + 6 = 42 cm."
+          },
+          {
+            "title": "Find the outer area",
+            "text": "Area of ABCD = 89 × 42 = 3738 cm²."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 3738 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "先由内长方形周长求EH，再把周围的间隔加上。",
+        "steps": [
+          {
+            "title": "求EH",
+            "text": "EFGH的周长满足2 × (EF + EH) = 180，所以EF + EH = 90，EH = 90 − 24 = 66 cm。"
+          },
+          {
+            "title": "求外长方形的长和宽",
+            "text": "GZ = 12 ÷ 2 = 6 cm。一个方向为10 + 66 + 13 = 89 cm，另一个方向为12 + 24 + 6 = 42 cm。"
+          },
+          {
+            "title": "求外长方形面积",
+            "text": "ABCD的面积 = 89 × 42 = 3738 cm²。"
+          }
+        ],
+        "answerCheck": "所以答案是3738 cm²。"
+      }
+    }
   },
   {
     "id": 78,
-    "topic": "Geometry: perimeter and fencing cost",
-    "question": "Mr Cox wants to put a fence around his garden. His garden is in the shape of 2 similar rectangles and 3 similar squares. If it costs $23 to fence 2 metres of his garden, how much will Mr Cox have to pay to fence the entire garden?",
+    "topic": "Area & Perimeter",
+    "question": "Mr Cox wants to put a fence around his garden. The garden is a strip 6 m wide shaped like a corner: it runs 34 m along the top, then turns and runs down the right-hand side, so the garden measures 34 m from top to bottom. It is made up of 2 similar rectangles and 3 similar squares. If it costs $23 to fence 2 m of his garden, how much will Mr Cox have to pay to fence the entire garden?",
     "answer": "$1564",
     "model": "geometry",
-    "hint": "Use the 34 m and 6 m labels to fill in all missing side lengths of the diagram. Add the outside edges only, then apply the cost per metre."
+    "hint": "The strip is 6 m wide, so each square has a side of 6 m. The outline has 6 edges: 2 of 34 m, 2 of 28 m and 2 of 6 m. Find the cost of 1 m before multiplying.",
+    "questionZh": "考克斯先生想在花园周围围篱笆。花园是一条宽6 m的地带，形状像一个拐角：先沿上边延伸34 m，然后转向沿右边向下，因此花园从上到下也是34 m。它由2个相同的长方形和3个相同的正方形组成。若给花园2 m围篱笆的费用是$23，考克斯先生给整个花园围篱笆要付多少钱？",
+    "hintZh": "地带宽6 m，所以每个正方形的边长是6 m。外轮廓有6条边：2条34 m、2条28 m、2条6 m。先算出1 m的费用，再相乘。",
+    "solution": {
+      "en": {
+        "strategy": "Find the corner strip’s perimeter from its six outer edges, then apply the fence rate.",
+        "steps": [
+          {
+            "title": "Find the missing edge length",
+            "text": "The strip is 6 m wide, so each 28 m edge is 34 − 6 = 28 m."
+          },
+          {
+            "title": "Find the perimeter",
+            "text": "The perimeter is 2 × 34 + 2 × 28 + 2 × 6 = 136 m."
+          },
+          {
+            "title": "Find the fencing cost",
+            "text": "The cost per metre is $23 ÷ 2 = $11.50. Thus the cost is 136 × $11.50 = $1564."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is $1564."
+      },
+      "zh-Hans": {
+        "strategy": "由外轮廓的6条边求周长，再按篱笆单价计算。",
+        "steps": [
+          {
+            "title": "求较短边",
+            "text": "地带宽为6 m，所以每条28 m的边长为34 − 6 = 28 m。"
+          },
+          {
+            "title": "求周长",
+            "text": "周长 = 2 × 34 + 2 × 28 + 2 × 6 = 136 m。"
+          },
+          {
+            "title": "求围篱笆费用",
+            "text": "每米费用 = $23 ÷ 2 = $11.50。因此费用 = 136 × $11.50 = $1564。"
+          }
+        ],
+        "answerCheck": "所以答案是$1564。"
+      }
+    }
   },
   {
     "id": 79,
-    "topic": "Age word problem",
+    "topic": "2-part Word Problems",
     "question": "Mr Richard is 5 times as old as his son now. In 8 years’ time, their total ages will be 58 years. (a) What is his son’s present age? (b) How old will Mr Richard be in 8 years’ time?",
     "answer": "(a) 7 years old; (b) 43 years old",
     "model": "unit-bar",
-    "hint": "Remove the 8 future years for each person from 58. Split the present total into 5 equal units for Mr Richard and 1 unit for his son."
+    "hint": "Remove the 8 future years for each person from 58. Split the present total into 5 equal units for Mr Richard and 1 unit for his son.",
+    "questionZh": "理查德先生现在的年龄是儿子的5倍。8年后，他们的年龄总和将是58岁。 (a) 儿子现在几岁？ (b) 8年后理查德先生几岁？",
+    "hintZh": "从58中减去两人各自未来的8年。把现在年龄总和按理查德先生5等份、儿子1等份分配。",
+    "solution": {
+      "en": {
+        "strategy": "First convert the future total age to the present total, then use the 5:1 ratio.",
+        "steps": [
+          {
+            "title": "Find their present total",
+            "text": "In 8 years, each person is 8 years older, so their present total is 58 − 8 − 8 = 42 years."
+          },
+          {
+            "title": "Find the son’s age",
+            "text": "The present ages are 5 + 1 = 6 equal parts. One part is 42 ÷ 6 = 7, so the son is 7 years old now."
+          },
+          {
+            "title": "Find Mr Richard’s future age",
+            "text": "Mr Richard is 5 × 7 = 35 years old now. In 8 years he will be 35 + 8 = 43 years old."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) 7 years old; (b) 43 years old."
+      },
+      "zh-Hans": {
+        "strategy": "先把8年后的年龄和还原为现在的年龄和，再按5:1分配。",
+        "steps": [
+          {
+            "title": "求现在的年龄和",
+            "text": "8年后两人各增加8岁，所以现在的年龄和是58 − 8 − 8 = 42岁。"
+          },
+          {
+            "title": "求儿子现在的年龄",
+            "text": "现在的年龄比为5 + 1 = 6份。每份是42 ÷ 6 = 7，所以儿子现在7岁。"
+          },
+          {
+            "title": "求理查德先生8年后的年龄",
+            "text": "理查德先生现在是5 × 7 = 35岁。8年后是35 + 8 = 43岁。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) 7岁；(b) 43岁。"
+      }
+    }
   },
   {
     "id": 80,
-    "topic": "Money sharing",
+    "topic": "2-part Word Problems",
     "question": "Jane and Mark had $240 altogether. When Jane gave Mark 1/2 of her money, Mark had 4 times as much money as Jane. (a) How much did Jane have at 1st? (b) How much did Mark have at 1st?",
     "answer": "(a) $96; (b) $144",
     "model": "money-units",
-    "hint": "After Jane gives away 1/2 her money, represent Jane's remaining money as 1 unit and Mark's final money as 4 units."
+    "hint": "After Jane gives away 1/2 her money, represent Jane's remaining money as 1 unit and Mark's final money as 4 units.",
+    "questionZh": "简和马克共有$240。简给马克自己钱的1/2后，马克的钱是简的4倍。 (a) 简开始时有多少钱？ (b) 马克开始时有多少钱？",
+    "hintZh": "简给出自己钱的1/2后，把简剩下的钱表示为1份，马克最后的钱表示为4份。",
+    "solution": {
+      "en": {
+        "strategy": "Use the 1:4 final-money ratio and the unchanged total.",
+        "steps": [
+          {
+            "title": "Represent the final amounts",
+            "text": "After giving away half her money, let Jane’s remaining amount be 1 unit. Mark then has 4 units, so together they have 5 units."
+          },
+          {
+            "title": "Find the unit and Jane’s original money",
+            "text": "Since the total remains $240, 1 unit = $240 ÷ 5 = $48. Jane’s remaining $48 is half her original money, so she had 2 × $48 = $96."
+          },
+          {
+            "title": "Find Mark’s original money",
+            "text": "Mark originally had $240 − $96 = $144."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) $96; (b) $144."
+      },
+      "zh-Hans": {
+        "strategy": "利用转钱后1:4的金额比，以及总钱数不变。",
+        "steps": [
+          {
+            "title": "表示转钱后的金额",
+            "text": "简给出一半钱后，设简剩下的钱为1份。马克此时有4份，所以总共有5份。"
+          },
+          {
+            "title": "求每份和简原有的钱",
+            "text": "总钱数仍是$240，所以1份 = $240 ÷ 5 = $48。简剩下的$48是她原来钱的一半，因此她原来有2 × $48 = $96。"
+          },
+          {
+            "title": "求马克原有的钱",
+            "text": "马克原来有$240 − $96 = $144。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) $96；(b) $144。"
+      }
+    }
   },
   {
     "id": 81,
-    "topic": "Fraction of remainder: spending and saving",
+    "topic": "2-part Word Problems",
     "question": "Mrs Fleming spent 1/3 of her money on a handbag and 3/4 of the remainder on jewellery. She then saved the rest. If she spent $450 on a bracelet and $90 on a pair of earrings, (a) how much money did she save? (b) how much money did she have at 1st?",
     "answer": "(a) $180; (b) $1080",
     "model": "fraction-of-remainder",
-    "hint": "Add the jewellery costs. This is 3/4 of the money remaining after the handbag, so the saved amount is the other 1/4."
+    "hint": "Add the jewellery costs. This is 3/4 of the money remaining after the handbag, so the saved amount is the other 1/4.",
+    "questionZh": "弗莱明太太把自己钱的1/3花在手提包上，又把剩余钱的3/4花在珠宝上，其余存起来。若她买一只手镯花$450，买一对耳环花$90，(a) 她存了多少钱？ (b) 她开始时有多少钱？",
+    "hintZh": "把珠宝费用相加。这是买手提包后剩余钱的3/4，所以存款是另外的1/4。",
+    "solution": {
+      "en": {
+        "strategy": "The jewellery cost is three quarters of the remainder; the saved money is the other quarter.",
+        "steps": [
+          {
+            "title": "Find the jewellery total",
+            "text": "Jewellery cost = $450 + $90 = $540."
+          },
+          {
+            "title": "Find the saved money",
+            "text": "$540 is 3/4 of the money left after the handbag. Thus 1/4, the saved amount, is $540 ÷ 3 = $180."
+          },
+          {
+            "title": "Find the original money",
+            "text": "The remainder after the handbag was 4 × $180 = $720, which is 2/3 of the original money. Original money = $720 ÷ 2 × 3 = $1080."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) $180; (b) $1080."
+      },
+      "zh-Hans": {
+        "strategy": "珠宝费用是买手提包后余款的3/4，存款就是另外的1/4。",
+        "steps": [
+          {
+            "title": "求珠宝总价",
+            "text": "珠宝费用 = $450 + $90 = $540。"
+          },
+          {
+            "title": "求存款",
+            "text": "$540是买手提包后余款的3/4。因此另外的1/4，即存款，为$540 ÷ 3 = $180。"
+          },
+          {
+            "title": "求开始时的钱",
+            "text": "买手提包后的余款 = 4 × $180 = $720，这占原来钱的2/3。原来钱 = $720 ÷ 2 × 3 = $1080。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) $180；(b) $1080。"
+      }
+    }
   },
   {
     "id": 82,
-    "topic": "Fraction of remainder: spending",
+    "topic": "2-part Word Problems",
     "question": "Sean had some money. He used 2/3 of it to buy a watch and spent 3/4 of the remainder on a wallet. If the watch cost $65 more than the wallet, (a) how much money had Sean left? (b) how much money did Sean have at 1st?",
     "answer": "(a) $13; (b) $156",
     "model": "fraction-of-remainder",
-    "hint": "Let the total be 12 equal units. The watch and wallet differ by 5 units, which is $65."
+    "hint": "Let the total be 12 equal units. The watch and wallet differ by 5 units, which is $65.",
+    "questionZh": "肖恩有一些钱。他用其中的2/3买手表，又把剩余钱的3/4花在钱包上。若手表比钱包贵$65，(a) 肖恩还剩多少钱？ (b) 肖恩开始时有多少钱？",
+    "hintZh": "把总数设为12等份。手表和钱包相差5份，即$65。",
+    "solution": {
+      "en": {
+        "strategy": "Express the original money as 12 equal units.",
+        "steps": [
+          {
+            "title": "Divide the money into units",
+            "text": "If the total is 12 units, the watch costs 2/3 × 12 = 8 units. The remainder is 4 units, and the wallet costs 3/4 × 4 = 3 units."
+          },
+          {
+            "title": "Find one unit",
+            "text": "The watch costs 8 − 3 = 5 units more than the wallet. Since this is $65, one unit is $65 ÷ 5 = $13."
+          },
+          {
+            "title": "Find the requested amounts",
+            "text": "Sean has 1 unit left, or $13. His original money was 12 × $13 = $156."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) $13; (b) $156."
+      },
+      "zh-Hans": {
+        "strategy": "把开始时的钱设为12等份，方便表示各个分数。",
+        "steps": [
+          {
+            "title": "按等份表示花费",
+            "text": "总数为12份时，手表花2/3 × 12 = 8份。余下4份，钱包花3/4 × 4 = 3份。"
+          },
+          {
+            "title": "求每一份",
+            "text": "手表比钱包多花8 − 3 = 5份，这等于$65，所以1份 = $65 ÷ 5 = $13。"
+          },
+          {
+            "title": "求所问金额",
+            "text": "肖恩剩下1份，即$13。开始时的钱为12 × $13 = $156。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) $13；(b) $156。"
+      }
+    }
   },
   {
     "id": 83,
-    "topic": "Fractions: remainder categories",
+    "topic": "2-part Word Problems",
     "question": "1/3 of the books on a shelf are English books. 1/2 of the remainder are Chinese books and the rest are Malay books. 1/4 of the Chinese books are torn. If 54 Chinese books are not torn, (a) how many Malay books are there? (b) how many books are there altogether?",
     "answer": "(a) 72 Malay books; (b) 216 books",
     "model": "fraction-of-remainder",
-    "hint": "The 54 untorn Chinese books are 3/4 of all Chinese books. Then work backwards through the shelf fractions."
+    "hint": "The 54 untorn Chinese books are 3/4 of all Chinese books. Then work backwards through the shelf fractions.",
+    "questionZh": "书架上1/3的书是英文书。剩余书的1/2是中文书，其余是马来文书。中文书中1/4破损。若未破损的中文书有54本，(a) 有多少本马来文书？ (b) 书架上共有多少本书？",
+    "hintZh": "未破损的54本中文书占所有中文书的3/4。再根据书架上各部分的分数倒推。",
+    "solution": {
+      "en": {
+        "strategy": "Work backward from the untorn Chinese books, then use the shelf fractions.",
+        "steps": [
+          {
+            "title": "Find all Chinese books",
+            "text": "Untorn Chinese books are 3/4 of all Chinese books. So Chinese books = 54 ÷ 3 × 4 = 72."
+          },
+          {
+            "title": "Find Malay books",
+            "text": "Chinese books are 1/2 of the books remaining after English books, so that remainder is 2 × 72 = 144. The other half is 72 Malay books."
+          },
+          {
+            "title": "Find the total",
+            "text": "The 144 non-English books are 2/3 of all books. Total books = 144 ÷ 2 × 3 = 216."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) 72 Malay books; (b) 216 books."
+      },
+      "zh-Hans": {
+        "strategy": "从未破损的中文书倒推，再利用书架上的分数关系。",
+        "steps": [
+          {
+            "title": "求中文书总数",
+            "text": "未破损中文书占中文书的3/4，所以中文书总数 = 54 ÷ 3 × 4 = 72本。"
+          },
+          {
+            "title": "求马来文书数",
+            "text": "中文书占非英文书的1/2，因此非英文书有2 × 72 = 144本。另一半是72本马来文书。"
+          },
+          {
+            "title": "求书的总数",
+            "text": "144本非英文书占全部书的2/3。总数 = 144 ÷ 2 × 3 = 216本。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) 72本马来文书；(b) 216本书。"
+      }
+    }
   },
   {
     "id": 84,
-    "topic": "Fractions: boys and girls",
+    "topic": "2-part Word Problems",
     "question": "There were 250 students in a room. 2/5 of the girls and 1/10 of the boys wore spectacles. If the same number of boys and girls did not wear spectacles, (a) how many boys wore spectacles? (b) how many girls wore spectacles?",
     "answer": "(a) 10 boys; (b) 60 girls",
     "model": "unit-bar",
-    "hint": "Express the fractions not wearing spectacles: 3/5 of the girls and 9/10 of the boys. Make these equal using common-sized units."
+    "hint": "Express the fractions not wearing spectacles: 3/5 of the girls and 9/10 of the boys. Make these equal using common-sized units.",
+    "questionZh": "一个房间里有250名学生。女生中2/5和男生中1/10戴眼镜。若不戴眼镜的男生和女生人数相同，(a) 有多少名男生戴眼镜？ (b) 有多少名女生戴眼镜？",
+    "hintZh": "把不戴眼镜的分数表示出来：女生的3/5和男生的9/10。用大小相同的单位使两者相等。",
+    "solution": {
+      "en": {
+        "strategy": "Set the equal numbers not wearing spectacles equal and use the total.",
+        "steps": [
+          {
+            "title": "Write the equality",
+            "text": "3/5 of the girls and 9/10 of the boys do not wear spectacles, so 3/5 G = 9/10 B."
+          },
+          {
+            "title": "Find the numbers of boys and girls",
+            "text": "Multiplying by 10 gives 6G = 9B, so 2G = 3B and G = 3/2 B. Since G + B = 250, 3/2 B + B = 250, so B = 100 and G = 150."
+          },
+          {
+            "title": "Find spectacle wearers",
+            "text": "Boys wearing spectacles = 1/10 × 100 = 10. Girls wearing spectacles = 2/5 × 150 = 60."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) 10 boys; (b) 60 girls."
+      },
+      "zh-Hans": {
+        "strategy": "令不戴眼镜的男生和女生人数相等，再利用总人数。",
+        "steps": [
+          {
+            "title": "列出相等关系",
+            "text": "女生中3/5不戴眼镜，男生中9/10不戴眼镜，所以3/5 G = 9/10 B。"
+          },
+          {
+            "title": "求男生和女生人数",
+            "text": "两边乘10得6G = 9B，所以2G = 3B，即G = 3/2 B。又G + B = 250，故3/2 B + B = 250，B = 100，G = 150。"
+          },
+          {
+            "title": "求戴眼镜的人数",
+            "text": "戴眼镜的男生 = 1/10 × 100 = 10人。戴眼镜的女生 = 2/5 × 150 = 60人。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) 10名男生；(b) 60名女生。"
+      }
+    }
   },
   {
     "id": 85,
-    "topic": "Ratios: people at a football match",
+    "topic": "2-part Word Problems",
     "question": "At a football match, there were 3 times as many men as women and 2 times as many men as boys. 1/3 of the children were girls. If there were 120 girls, (a) how many boys were there? (b) how many adults were there?",
     "answer": "(a) 240 boys; (b) 640 adults",
     "model": "unit-bar",
-    "hint": "Since girls are 1/3 of the children, 1st find the boys. Then use the stated ratio between men and boys."
+    "hint": "Since girls are 1/3 of the children, 1st find the boys. Then use the stated ratio between men and boys.",
+    "questionZh": "一场足球比赛中，男性人数是女性的3倍，男性人数是男孩的2倍。儿童中1/3是女孩。若有120名女孩，(a) 有多少名男孩？ (b) 有多少名成人？",
+    "hintZh": "女孩占儿童的1/3，所以先求男孩人数。再利用男性和男孩之间给定的比例。",
+    "solution": {
+      "en": {
+        "strategy": "Use girls as one third of all children, then use the men-to-boys and men-to-women ratios.",
+        "steps": [
+          {
+            "title": "Find the number of boys",
+            "text": "Girls are 1/3 of the children. With 120 girls, total children = 120 × 3 = 360, so boys = 360 − 120 = 240."
+          },
+          {
+            "title": "Find men and women",
+            "text": "Men are 2 times the boys, so men = 2 × 240 = 480. Men are 3 times the women, so women = 480 ÷ 3 = 160."
+          },
+          {
+            "title": "Find adults",
+            "text": "Adults = men + women = 480 + 160 = 640."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is (a) 240 boys; (b) 640 adults."
+      },
+      "zh-Hans": {
+        "strategy": "先由女孩占儿童的1/3求男孩人数，再使用男性与男孩、女性的倍数关系。",
+        "steps": [
+          {
+            "title": "求男孩人数",
+            "text": "女孩占儿童的1/3。女孩有120人，所以儿童总数 = 120 × 3 = 360人，男孩 = 360 − 120 = 240人。"
+          },
+          {
+            "title": "求男性和女性人数",
+            "text": "男性人数是男孩的2倍，所以男性 = 2 × 240 = 480人。男性人数是女性的3倍，所以女性 = 480 ÷ 3 = 160人。"
+          },
+          {
+            "title": "求成人总数",
+            "text": "成人 = 男性 + 女性 = 480 + 160 = 640人。"
+          }
+        ],
+        "answerCheck": "所以答案是(a) 240名男孩；(b) 640名成人。"
+      }
+    }
   },
   {
     "id": 86,
-    "topic": "Fractions: hats at a fair",
+    "topic": "2-part Word Problems",
     "question": "2/3 of the people at a fair wore hats. 1/6 of those who wore hats were men and the rest were women. There were 124 more women than men who wore hats at the fair. (a) How many people did not wear hats? (b) How many people were there at the fair?",
     "answer": "(a) 93 people; (b) 279 people",
     "model": "unit-bar",
-    "hint": "Split the hat wearers into 6 equal units. The difference between 5 units of women and 1 unit of men is $124 in people, not dollars."
+    "hint": "Split the hat wearers into 6 equal units — 1 unit of men and 5 units of women. Their difference is 4 units, which equals 124 people.",
+    "questionZh": "集市上2/3的人戴帽子。戴帽子的人中1/6是男性，其余是女性。集市中戴帽子的女性比男性多124人。 (a) 有多少人没戴帽子？ (b) 集市上一共有多少人？",
+    "hintZh": "把戴帽子的人分成6等份 —— 男性1份，女性5份。它们的差是4份，等于124人。",
+    "solution": {
+      "en": {
+        "strategy": "Use sixths to compare the men and women who wore hats, then use the hat-wearers' fraction of all the people.",
+        "steps": [
+          {
+            "title": "Find the number wearing hats",
+            "text": "Among the hat wearers, men are 1/6 and women are 5/6. Their difference is 4/6, and this equals 124 people. So 1/6 = 124 ÷ 4 = 31 people, and the number wearing hats is 6 × 31 = 186 people."
+          },
+          {
+            "title": "Find the whole fair",
+            "text": "The 186 hat wearers are 2/3 of all the people. Therefore the total is 186 ÷ 2 × 3 = 279 people."
+          },
+          {
+            "title": "Find those without hats",
+            "text": "People who did not wear hats = 279 − 186 = 93 people."
+          }
+        ],
+        "answerCheck": "(a) 93 people; (b) 279 people"
+      },
+      "zh-Hans": {
+        "strategy": "先把戴帽子的男性和女性按6等份比较，再利用戴帽子的人占总人数的2/3求总人数。",
+        "steps": [
+          {
+            "title": "求戴帽子的人数",
+            "text": "戴帽子的人中，男性占1/6，女性占5/6，相差4/6，等于124人。所以1/6 = 124 ÷ 4 = 31人，戴帽子的人数是6 × 31 = 186人。"
+          },
+          {
+            "title": "求集市总人数",
+            "text": "186个戴帽子的人是总人数的2/3。因此总人数 = 186 ÷ 2 × 3 = 279人。"
+          },
+          {
+            "title": "求没戴帽子的人数",
+            "text": "没戴帽子的人数 = 279 − 186 = 93人。"
+          }
+        ],
+        "answerCheck": "所以(a)有93人没戴帽子；(b)集市上共有279人。"
+      }
+    }
   },
   {
     "id": 87,
-    "topic": "Fractions: two numbers",
+    "topic": "2-part Word Problems",
     "question": "2 numbers are written on a piece of paper. 1/5 of the 1st number is 12 more than 1/2 of the 2nd number. The sum of the 2 numbers is 221. (a) What is the 1st number? (b) What is the 2nd number?",
     "answer": "(a) 175; (b) 46",
     "model": "unit-bar",
-    "hint": "Use a common unit for 1/5 of the 1st number and 1/2 of the 2nd number. The 12-unit difference helps split their total."
+    "hint": "Use a common unit for 1/5 of the 1st number and 1/2 of the 2nd number. The 12-unit difference helps split their total.",
+    "questionZh": "一张纸上写着2个数。第1个数的1/5比第2个数的1/2多12。两个数的和是221。 (a) 第1个数是多少？ (b) 第2个数是多少？",
+    "hintZh": "把第1个数的1/5和第2个数的1/2用同一单位表示。相差的12个单位有助于把总数分开。",
+    "solution": {
+      "en": {
+        "strategy": "Write an equation for the fractional comparison and combine it with the given total.",
+        "steps": [
+          {
+            "title": "Set up the relationship",
+            "text": "Let the 1st number be x and the 2nd number be y. Since 1/5 of the 1st is 12 more than 1/2 of the 2nd, x/5 = y/2 + 12. Multiplying by 10 gives 2x − 5y = 120."
+          },
+          {
+            "title": "Use the sum",
+            "text": "The two numbers total 221, so x + y = 221 and x = 221 − y. Substitute: 2(221 − y) − 5y = 120."
+          },
+          {
+            "title": "Solve for both numbers",
+            "text": "442 − 7y = 120, so 7y = 322 and y = 46. Then x = 221 − 46 = 175."
+          }
+        ],
+        "answerCheck": "(a) 175; (b) 46"
+      },
+      "zh-Hans": {
+        "strategy": "把分数比较写成方程，并与两个数的和联立求解。",
+        "steps": [
+          {
+            "title": "列出数量关系",
+            "text": "设第1个数为x，第2个数为y。因为第1个数的1/5比第2个数的1/2多12，所以x/5 = y/2 + 12。两边乘10，得2x − 5y = 120。"
+          },
+          {
+            "title": "利用总和",
+            "text": "两个数的和为221，所以x + y = 221，即x = 221 − y。代入得2(221 − y) − 5y = 120。"
+          },
+          {
+            "title": "求两个数",
+            "text": "442 − 7y = 120，所以7y = 322，y = 46。于是x = 221 − 46 = 175。"
+          }
+        ],
+        "answerCheck": "所以(a)第1个数是175；(b)第2个数是46。"
+      }
+    }
   },
   {
     "id": 88,
-    "topic": "Fractions: coloured pens",
+    "topic": "2-part Word Problems",
     "question": "Gracia had some pens. 2/5 of the pens were blue and 1/6 of the remainder were black. The rest were red and green. There were 12 more red pens than blue pens. If there were 24 green pens, (a) how many red and blue pens did Gracia have? (b) how many pens did Gracia have altogether?",
     "answer": "(a) 300 red and blue pens; (b) 360 pens",
     "model": "fraction-of-remainder",
-    "hint": "Represent all pens with 30 equal units so both 2/5 and 1/6 can be shown exactly. Use the 12 difference to find 1 unit."
+    "hint": "Represent all pens with 30 equal units so both 2/5 and 1/6 can be shown exactly. Use the 12 difference to find 1 unit.",
+    "questionZh": "格拉西亚有一些笔。其中2/5是蓝色的，剩余笔的1/6是黑色的，其余是红色和绿色的。红笔比蓝笔多12支。若有24支绿笔，(a) 格拉西亚有多少支红笔和蓝笔？ (b) 格拉西亚一共有多少支笔？",
+    "hintZh": "把所有笔表示为30等份，便能准确表示2/5和1/6。利用相差的12支笔求1份。",
+    "solution": {
+      "en": {
+        "strategy": "Represent all the pens by 30 equal units so that both fractions can be used exactly.",
+        "steps": [
+          {
+            "title": "Express each colour in units",
+            "text": "Let all the pens be 30 units. Blue pens are 2/5 × 30 = 12 units. Of the 18 units left, black pens are 1/6 × 18 = 3 units. Thus red and green pens together are 30 − 12 − 3 = 15 units."
+          },
+          {
+            "title": "Use the red-blue difference",
+            "text": "Red pens are 12 more than blue pens. Since blue is 12 units, red is 12 units plus 12 pens. Green is 24 pens, so red and green total 12 units + 12 + 24 = 15 units. Hence 3 units = 36 pens and 1 unit = 12 pens."
+          },
+          {
+            "title": "Find the requested totals",
+            "text": "Blue = 12 × 12 = 144 pens and red = 144 + 12 = 156 pens, so red and blue total 300 pens. All pens = 30 × 12 = 360 pens."
+          }
+        ],
+        "answerCheck": "(a) 300 red and blue pens; (b) 360 pens"
+      },
+      "zh-Hans": {
+        "strategy": "把全部笔看成30等份，这样2/5和剩余部分的1/6都能准确表示。",
+        "steps": [
+          {
+            "title": "用份数表示各种颜色",
+            "text": "设全部笔有30份。蓝笔占2/5 × 30 = 12份。剩下18份，其中黑笔占1/6 × 18 = 3份。所以红笔和绿笔合起来有30 − 12 − 3 = 15份。"
+          },
+          {
+            "title": "利用红蓝笔相差12支",
+            "text": "蓝笔是12份，红笔比蓝笔多12支，所以红笔是12份加12支。绿笔有24支，因此红笔和绿笔共12份 + 12支 + 24支 = 15份。由此3份 = 36支，1份 = 12支。"
+          },
+          {
+            "title": "求所需数量",
+            "text": "蓝笔 = 12 × 12 = 144支，红笔 = 144 + 12 = 156支，所以红笔和蓝笔共300支。全部笔 = 30 × 12 = 360支。"
+          }
+        ],
+        "answerCheck": "所以(a)红笔和蓝笔共有300支；(b)一共有360支笔。"
+      }
+    }
   },
   {
     "id": 89,
-    "topic": "Fractions: cartons of oranges",
+    "topic": "2-part Word Problems",
     "question": "The total number of oranges in cartons A and B was 324. When 3/7 of the oranges in carton A were sold, there were 2 times as many oranges in carton A than in carton B. (a) How many oranges were there in carton A at 1st? (b) How many oranges were there in carton B at 1st?",
     "answer": "(a) 252 oranges; (b) 72 oranges",
     "model": "bar-change",
-    "hint": "After the sale, carton A has 4/7 of its original oranges and is 2 times carton B. Turn the final ratio into original units."
+    "hint": "After the sale, carton A has 4/7 of its original oranges and is 2 times carton B. Turn the final ratio into original units.",
+    "questionZh": "A箱和B箱的橙子总数是324个。卖出A箱橙子的3/7后，A箱橙子数量是B箱的2倍。 (a) A箱开始时有多少个橙子？ (b) B箱开始时有多少个橙子？",
+    "hintZh": "卖出后，A箱剩原来橙子的4/7，且数量是B箱的2倍。把最后的比例转换为原来的份数。",
+    "solution": {
+      "en": {
+        "strategy": "Convert the after-sale ratio into original fractional units for carton A and carton B.",
+        "steps": [
+          {
+            "title": "Form the original ratio",
+            "text": "After 3/7 of carton A is sold, 4/7 of A remains. This remaining amount is twice carton B, so 4/7 of A : B = 2 : 1. Therefore A : B = 7 : 2."
+          },
+          {
+            "title": "Find one ratio unit",
+            "text": "The total 324 oranges represents 7 + 2 = 9 equal units. One unit is 324 ÷ 9 = 36 oranges."
+          },
+          {
+            "title": "Find each carton",
+            "text": "Carton A had 7 × 36 = 252 oranges at first. Carton B had 2 × 36 = 72 oranges at first."
+          }
+        ],
+        "answerCheck": "(a) 252 oranges; (b) 72 oranges"
+      },
+      "zh-Hans": {
+        "strategy": "把卖出后的比例换成A箱和B箱原来数量的比例。",
+        "steps": [
+          {
+            "title": "建立原来的比例",
+            "text": "A箱卖出3/7后，剩下原来的4/7。剩下的A箱橙子是B箱的2倍，所以4/7的A箱 : B箱 = 2 : 1。因此A箱 : B箱 = 7 : 2。"
+          },
+          {
+            "title": "求每一份",
+            "text": "324个橙子共有7 + 2 = 9份。每份 = 324 ÷ 9 = 36个。"
+          },
+          {
+            "title": "求两箱开始时的数量",
+            "text": "A箱开始时有7 × 36 = 252个橙子。B箱开始时有2 × 36 = 72个橙子。"
+          }
+        ],
+        "answerCheck": "所以(a)A箱开始时有252个橙子；(b)B箱开始时有72个橙子。"
+      }
+    }
   },
   {
     "id": 90,
-    "topic": "Fractions: sales over two days",
+    "topic": "2-part Word Problems",
     "question": "On Monday, Mr Hall sold 246 lemons and Mr Clement sold 1/2 as many lemons as Mr Hall. On Tuesday, Mr Hall sold 83 lemons and Mr Clement sold some lemons. The total number of lemons sold by Mr Clement over the 2 days was 4/7 the number that Mr Hall sold. (a) How many lemons did Mr Clement sell on Tuesday? (b) How many lemons did both men sell altogether on both days?",
     "answer": "(a) 65 lemons; (b) 517 lemons",
     "model": "unit-bar",
-    "hint": "Find Mr Hall's 2-day total 1st. Use 4/7 of that total for Mr Clement's 2-day sales, then remove his Monday sales."
+    "hint": "Find Mr Hall's 2-day total 1st. Use 4/7 of that total for Mr Clement's 2-day sales, then remove his Monday sales.",
+    "questionZh": "星期一，霍尔先生卖出246个柠檬，克莱门特先生卖出的柠檬数是霍尔先生的1/2。星期二，霍尔先生卖出83个柠檬，克莱门特先生卖出一些柠檬。2天内克莱门特先生卖出的柠檬总数是霍尔先生卖出总数的4/7。 (a) 克莱门特先生星期二卖出多少个柠檬？ (b) 两人2天共卖出多少个柠檬？",
+    "hintZh": "先求霍尔先生2天的总数。用该总数的4/7求克莱门特先生2天的销量，再减去他星期一卖出的数量。",
+    "solution": {
+      "en": {
+        "strategy": "Find Mr Hall's two-day total first, then use the 4/7 relationship to find Mr Clement's total.",
+        "steps": [
+          {
+            "title": "Find Mr Hall's total",
+            "text": "Mr Hall sold 246 + 83 = 329 lemons over the two days."
+          },
+          {
+            "title": "Find Mr Clement's two-day total",
+            "text": "Mr Clement sold 4/7 of Mr Hall's total: 4/7 × 329 = 188 lemons. On Monday he sold 1/2 × 246 = 123 lemons."
+          },
+          {
+            "title": "Find Tuesday and the combined sales",
+            "text": "Mr Clement's Tuesday sales were 188 − 123 = 65 lemons. Together, both men sold 329 + 188 = 517 lemons."
+          }
+        ],
+        "answerCheck": "(a) 65 lemons; (b) 517 lemons"
+      },
+      "zh-Hans": {
+        "strategy": "先求霍尔先生两天的销量，再按4/7的关系求克莱门特先生两天的销量。",
+        "steps": [
+          {
+            "title": "求霍尔先生两天的总数",
+            "text": "霍尔先生两天共卖出246 + 83 = 329个柠檬。"
+          },
+          {
+            "title": "求克莱门特先生两天的总数",
+            "text": "克莱门特先生两天卖出霍尔先生总数的4/7，即4/7 × 329 = 188个柠檬。星期一他卖出1/2 × 246 = 123个。"
+          },
+          {
+            "title": "求星期二和合计",
+            "text": "克莱门特先生星期二卖出188 − 123 = 65个柠檬。两人两天共卖出329 + 188 = 517个柠檬。"
+          }
+        ],
+        "answerCheck": "所以(a)克莱门特先生星期二卖出65个柠檬；(b)两人两天共卖出517个柠檬。"
+      }
+    }
   },
   {
     "id": 91,
-    "topic": "Fractions: daily spending",
+    "topic": "2-part Word Problems",
     "question": "Cleo and Diana were given the same amount of money each day. Cleo spent 4/7 of her money and Diana spent 2/3 of her money every day. They then saved the rest of their money. After a week, Cleo saved $56 more than Diana. (a) How much money did Cleo spend a day? (b) How much money did Diana spend a day?",
     "answer": "(a) $48; (b) $56",
     "model": "fraction-of-remainder",
-    "hint": "Convert the weekly saving difference to a 1-day difference. Compare the saving fractions, 3/7 and 1/3, using a common denominator."
+    "hint": "Convert the weekly saving difference to a 1-day difference. Compare the saving fractions, 3/7 and 1/3, using a common denominator.",
+    "questionZh": "克莱奥和戴安娜每天得到同样多的钱。克莱奥每天花掉自己钱的4/7，戴安娜每天花掉自己钱的2/3，然后存下其余的钱。一周后，克莱奥比戴安娜多存$56。 (a) 克莱奥每天花多少钱？ (b) 戴安娜每天花多少钱？",
+    "hintZh": "把每周储蓄差额换算为1天的差额。用公分母比较3/7和1/3这两个储蓄分数。",
+    "solution": {
+      "en": {
+        "strategy": "Turn the weekly saving difference into a daily difference, then compare the daily saving fractions.",
+        "steps": [
+          {
+            "title": "Find the daily saving difference",
+            "text": "Over 7 days, Cleo saved $56 more. Therefore she saved $56 ÷ 7 = $8 more per day."
+          },
+          {
+            "title": "Find the daily allowance",
+            "text": "Cleo saved 1 − 4/7 = 3/7 of her daily money. Diana saved 1 − 2/3 = 1/3. Their saving difference is 3/7 − 1/3 = 2/21 of the daily amount. Thus 2/21 of the daily amount is $8, so the daily amount is $8 × 21 ÷ 2 = $84."
+          },
+          {
+            "title": "Find each daily spending amount",
+            "text": "Cleo spent 4/7 × $84 = $48 per day. Diana spent 2/3 × $84 = $56 per day."
+          }
+        ],
+        "answerCheck": "(a) $48; (b) $56"
+      },
+      "zh-Hans": {
+        "strategy": "先把一周的储蓄差换算成每天的差，再比较每天的储蓄分数。",
+        "steps": [
+          {
+            "title": "求每天储蓄相差多少",
+            "text": "7天后克莱奥多存$56，所以她每天多存$56 ÷ 7 = $8。"
+          },
+          {
+            "title": "求每天得到的钱",
+            "text": "克莱奥每天存下1 − 4/7 = 3/7，戴安娜每天存下1 − 2/3 = 1/3。两人的储蓄差为3/7 − 1/3 = 2/21。故每天钱数的2/21是$8，每天得到的钱 = $8 × 21 ÷ 2 = $84。"
+          },
+          {
+            "title": "求每天花的钱",
+            "text": "克莱奥每天花4/7 × $84 = $48。戴安娜每天花2/3 × $84 = $56。"
+          }
+        ],
+        "answerCheck": "所以(a)克莱奥每天花$48；(b)戴安娜每天花$56。"
+      }
+    }
   },
   {
     "id": 92,
-    "topic": "Fractions: boxes of fruit",
+    "topic": "2-part Word Problems",
     "question": "A box of apples costs 2/7 the price of a box of oranges. There are 1/3 as many apples as oranges in 1 box. If there are 90 oranges in 1 box and an orange costs 70¢, (a) how much does a box of apples cost? (b) how many apples are there in 1 box?",
     "answer": "(a) $18; (b) 30 apples",
     "model": "unit-bar",
-    "hint": "1st find the price of a box of oranges from 90 oranges. Then take 2/7 of that price; 1/3 of 90 gives the apple count."
+    "hint": "1st find the price of a box of oranges from 90 oranges. Then take 2/7 of that price; 1/3 of 90 gives the apple count.",
+    "questionZh": "一箱苹果的价钱是一箱橙子价钱的2/7。1箱苹果中苹果的数量是1箱橙子中橙子数量的1/3。若1箱橙子有90个橙子，每个橙子70¢，(a) 一箱苹果多少钱？ (b) 1箱苹果有多少个苹果？",
+    "hintZh": "先由90个橙子求一箱橙子的价格，再取该价格的2/7；90的1/3就是苹果数量。",
+    "solution": {
+      "en": {
+        "strategy": "Find the orange-box price from the unit price, then apply the given price and quantity fractions.",
+        "steps": [
+          {
+            "title": "Find the orange-box price",
+            "text": "A box contains 90 oranges at 70¢ each, so its price is 90 × 70¢ = 6300¢ = $63."
+          },
+          {
+            "title": "Find the apple-box price",
+            "text": "A box of apples costs 2/7 of $63: 2/7 × $63 = $18."
+          },
+          {
+            "title": "Find the number of apples",
+            "text": "The apple count is 1/3 of 90 oranges: 1/3 × 90 = 30 apples."
+          }
+        ],
+        "answerCheck": "(a) $18; (b) 30 apples"
+      },
+      "zh-Hans": {
+        "strategy": "先由每个橙子的价钱求一箱橙子的价钱，再用题目给出的价钱和数量分数。",
+        "steps": [
+          {
+            "title": "求一箱橙子的价钱",
+            "text": "一箱有90个橙子，每个70¢，所以一箱橙子的价钱 = 90 × 70¢ = 6300¢ = $63。"
+          },
+          {
+            "title": "求一箱苹果的价钱",
+            "text": "一箱苹果的价钱是一箱橙子的2/7，即2/7 × $63 = $18。"
+          },
+          {
+            "title": "求一箱苹果的数量",
+            "text": "苹果数量是90的1/3，即1/3 × 90 = 30个苹果。"
+          }
+        ],
+        "answerCheck": "所以(a)一箱苹果价钱是$18；(b)一箱有30个苹果。"
+      }
+    }
   },
   {
     "id": 93,
-    "topic": "Fractions: sweets transferred and eaten",
+    "topic": "2-part Word Problems",
     "question": "Katherine and Leslie had a total of 140 sweets. When Leslie gave Katherine 1/4 of his sweets and Katherine ate 5 of her sweets, Katherine had 2 times as many sweets as Leslie. (a) How many sweets did Leslie have at 1st? (b) How many sweets did Katherine have at 1st?",
     "answer": "(a) 60 sweets; (b) 80 sweets",
     "model": "bar-change",
-    "hint": "After the transfer and Katherine's 5 eaten sweets, compare their final amounts as 2 units and 1 unit. Account for the 5 separately."
+    "hint": "After the transfer and Katherine's 5 eaten sweets, compare their final amounts as 2 units and 1 unit. Account for the 5 separately.",
+    "questionZh": "凯瑟琳和莱斯利共有140颗糖。莱斯利把自己糖的1/4给凯瑟琳，凯瑟琳又吃掉5颗糖后，凯瑟琳的糖是莱斯利的2倍。 (a) 莱斯利开始时有多少颗糖？ (b) 凯瑟琳开始时有多少颗糖？",
+    "hintZh": "转移以及凯瑟琳吃掉5颗糖后，把两人最后的数量比较为2份和1份。5颗糖要另行考虑。",
+    "solution": {
+      "en": {
+        "strategy": "Use the final 2:1 ratio after the transfer and Katherine's 5 sweets were eaten, then work backward.",
+        "steps": [
+          {
+            "title": "Find the final amounts",
+            "text": "After Katherine ate 5 sweets, the two people had 140 − 5 = 135 sweets altogether. Katherine then had twice Leslie's amount, so the final ratio is 2 : 1. Leslie had 135 ÷ 3 = 45 sweets and Katherine had 2 × 45 = 90 sweets."
+          },
+          {
+            "title": "Work back to Leslie's starting amount",
+            "text": "Leslie gave away 1/4 of his sweets, so his 45 sweets left were 3/4 of his starting amount. His starting amount was 45 ÷ 3 × 4 = 60 sweets."
+          },
+          {
+            "title": "Find Katherine's starting amount",
+            "text": "Katherine started with 140 − 60 = 80 sweets. Check: she received 15, then ate 5, leaving 80 + 15 − 5 = 90 sweets."
+          }
+        ],
+        "answerCheck": "(a) 60 sweets; (b) 80 sweets"
+      },
+      "zh-Hans": {
+        "strategy": "利用转移糖果和凯瑟琳吃掉5颗糖后形成的2:1比例，再倒推原来的数量。",
+        "steps": [
+          {
+            "title": "求最后两人的糖果数",
+            "text": "凯瑟琳吃掉5颗糖后，两人共有140 − 5 = 135颗糖。此时凯瑟琳的糖是莱斯利的2倍，比例为2:1。莱斯利有135 ÷ 3 = 45颗，凯瑟琳有2 × 45 = 90颗。"
+          },
+          {
+            "title": "倒推莱斯利原有的糖",
+            "text": "莱斯利给出自己糖的1/4后，剩下的45颗是原来的3/4。因此他开始时有45 ÷ 3 × 4 = 60颗糖。"
+          },
+          {
+            "title": "求凯瑟琳原有的糖",
+            "text": "凯瑟琳开始时有140 − 60 = 80颗糖。验算：她收到15颗后吃掉5颗，剩80 + 15 − 5 = 90颗。"
+          }
+        ],
+        "answerCheck": "所以(a)莱斯利开始时有60颗糖；(b)凯瑟琳开始时有80颗糖。"
+      }
+    }
   },
   {
     "id": 94,
-    "topic": "Fractions: pears and apples",
+    "topic": "2-part Word Problems",
     "question": "There were some pears and apples in a box. If 4 pears were taken out from the box, there would be an equal number of pears and apples in the box. If 7 pears were taken out from the box, there would be 4/5 as many pears as apples in the box. (a) How many apples were there in the box at 1st? (b) How many pears were there in the box at 1st?",
     "answer": "(a) 15 apples; (b) 19 pears",
     "model": "bar-change",
-    "hint": "The 1st condition says the original number of pears is 4 more than apples. Substitute that relationship into the 2nd condition."
+    "hint": "The 1st condition says the original number of pears is 4 more than apples. Substitute that relationship into the 2nd condition.",
+    "questionZh": "一个盒子里有一些梨和苹果。若从盒子中取出4个梨，盒中梨和苹果数量相等。若取出7个梨，盒中梨的数量是苹果的4/5。 (a) 开始时有多少个苹果？ (b) 开始时有多少个梨？",
+    "hintZh": "第1个条件表明原来梨的数量比苹果多4。把这个关系代入第2个条件。",
+    "solution": {
+      "en": {
+        "strategy": "Use the first condition to express pears in terms of apples, then substitute into the second condition.",
+        "steps": [
+          {
+            "title": "Relate the original amounts",
+            "text": "Taking out 4 pears leaves the same number of pears as apples. Therefore the original number of pears was 4 more than the number of apples."
+          },
+          {
+            "title": "Use the second condition",
+            "text": "Let the original number of apples be A. Then the original number of pears is A + 4. After 7 pears are taken out, there are A − 3 pears, and this is 4/5 as many as the apples: A − 3 = 4/5A."
+          },
+          {
+            "title": "Solve for both fruits",
+            "text": "A − 4/5A = 3, so 1/5A = 3 and A = 15. The number of pears was 15 + 4 = 19."
+          }
+        ],
+        "answerCheck": "(a) 15 apples; (b) 19 pears"
+      },
+      "zh-Hans": {
+        "strategy": "先由第一个条件把梨的数量表示成苹果的数量，再代入第二个条件。",
+        "steps": [
+          {
+            "title": "建立原来数量的关系",
+            "text": "取出4个梨后，梨和苹果一样多。因此原来梨的数量比苹果多4个。"
+          },
+          {
+            "title": "使用第二个条件",
+            "text": "设原来有A个苹果，则原来有A + 4个梨。取出7个梨后剩A − 3个梨，它是苹果数量的4/5，所以A − 3 = 4/5A。"
+          },
+          {
+            "title": "求两种水果的数量",
+            "text": "A − 4/5A = 3，所以1/5A = 3，A = 15。梨的数量为15 + 4 = 19。"
+          }
+        ],
+        "answerCheck": "所以(a)开始时有15个苹果；(b)开始时有19个梨。"
+      }
+    }
   },
   {
     "id": 95,
-    "topic": "Fractions: tennis spectators",
+    "topic": "2-part Word Problems",
     "question": "There were some spectators at a tennis match. 1/3 of them belonged to the tennis club. 1/6 of those who did not belong to the club were adults and the rest were children. If there were 120 more children than adults who did not belong to the club, (a) how many people belonged to the tennis club? (b) how many spectators were there at the tennis match?",
     "answer": "(a) 90 people; (b) 270 spectators",
     "model": "unit-bar",
-    "hint": "Among non-members, adults are 1 unit and children are 5 units. Use their 4-unit difference, then relate non-members to the 1/3 club members."
+    "hint": "Among non-members, adults are 1 unit and children are 5 units. Use their 4-unit difference, then relate non-members to the 1/3 club members.",
+    "questionZh": "一场网球比赛有一些观众。其中1/3属于网球俱乐部。不属于俱乐部的人中，1/6是成人，其余是儿童。若不属于俱乐部的儿童比成人多120人，(a) 有多少人属于网球俱乐部？ (b) 网球比赛有多少名观众？",
+    "hintZh": "在非会员中，成人是1份，儿童是5份。利用相差的4份，再把非会员与占1/3的俱乐部会员联系起来。",
+    "solution": {
+      "en": {
+        "strategy": "Split the non-members into sixths, then use the fact that non-members are 2/3 of all spectators.",
+        "steps": [
+          {
+            "title": "Find the number of non-members",
+            "text": "Among the non-members, adults are 1/6 and children are 5/6. Their difference is 4/6 and equals 120 people. Thus 1/6 = 120 ÷ 4 = 30 people, so there are 6 × 30 = 180 non-members."
+          },
+          {
+            "title": "Find the total number of spectators",
+            "text": "Since 1/3 belong to the club, 2/3 do not belong. The 180 non-members are 2/3 of the spectators, so the total is 180 ÷ 2 × 3 = 270 spectators."
+          },
+          {
+            "title": "Find club members",
+            "text": "The number belonging to the club is 1/3 × 270 = 90 people."
+          }
+        ],
+        "answerCheck": "(a) 90 people; (b) 270 spectators"
+      },
+      "zh-Hans": {
+        "strategy": "把非会员按6等份分开，再利用非会员占总观众人数的2/3。",
+        "steps": [
+          {
+            "title": "求非会员人数",
+            "text": "在非会员中，成人占1/6，儿童占5/6，相差4/6，等于120人。所以1/6 = 120 ÷ 4 = 30人，非会员共有6 × 30 = 180人。"
+          },
+          {
+            "title": "求观众总人数",
+            "text": "俱乐部会员占1/3，因此非会员占2/3。180名非会员是观众的2/3，所以观众总数 = 180 ÷ 2 × 3 = 270名。"
+          },
+          {
+            "title": "求俱乐部会员人数",
+            "text": "属于俱乐部的人数 = 1/3 × 270 = 90人。"
+          }
+        ],
+        "answerCheck": "所以(a)有90人属于网球俱乐部；(b)共有270名观众。"
+      }
+    }
   },
   {
     "id": 96,
-    "topic": "Money: apples and papayas",
+    "topic": "2-part Word Problems",
     "question": "5 apples cost as much as 2 papayas. Mrs Lynch could buy 18 papayas. If she had bought 12 papayas, she would have $30 left. (a) How much did each papaya cost? (b) How much would 3 apples and 3 papayas cost?",
     "answer": "(a) $5; (b) $21",
     "model": "money-units",
-    "hint": "The $30 left equals the price of 6 papayas. Then use 5 apples = 2 papayas to find the apple price."
+    "hint": "The $30 left equals the price of 6 papayas. Then use 5 apples = 2 papayas to find the apple price.",
+    "questionZh": "5个苹果的价钱等于2个木瓜的价钱。林奇太太的钱可以买18个木瓜。若她买12个木瓜，会剩$30。 (a) 每个木瓜多少钱？ (b) 3个苹果和3个木瓜共多少钱？",
+    "hintZh": "剩下的$30等于6个木瓜的价钱。再利用5个苹果 = 2个木瓜，求苹果的价钱。",
+    "solution": {
+      "en": {
+        "strategy": "Use the $30 left as the cost of the 6 papayas not bought, then use the apple-papaya cost relationship.",
+        "steps": [
+          {
+            "title": "Find the papaya price",
+            "text": "Mrs Lynch could buy 18 papayas, but buying 12 would leave $30. The $30 is the cost of 18 − 12 = 6 papayas. Each papaya costs $30 ÷ 6 = $5."
+          },
+          {
+            "title": "Find the apple price",
+            "text": "Two papayas cost 2 × $5 = $10. Since 5 apples cost as much as 2 papayas, one apple costs $10 ÷ 5 = $2."
+          },
+          {
+            "title": "Find the combined cost",
+            "text": "Three apples and three papayas cost 3 × $2 + 3 × $5 = $6 + $15 = $21."
+          }
+        ],
+        "answerCheck": "(a) $5; (b) $21"
+      },
+      "zh-Hans": {
+        "strategy": "把剩下的$30看作没有买的6个木瓜的价钱，再利用苹果和木瓜的价钱关系。",
+        "steps": [
+          {
+            "title": "求每个木瓜的价钱",
+            "text": "林奇太太本可买18个木瓜；买12个会剩$30。这$30是18 − 12 = 6个木瓜的价钱，所以每个木瓜 = $30 ÷ 6 = $5。"
+          },
+          {
+            "title": "求每个苹果的价钱",
+            "text": "2个木瓜值2 × $5 = $10。5个苹果和2个木瓜一样贵，所以每个苹果 = $10 ÷ 5 = $2。"
+          },
+          {
+            "title": "求3个苹果和3个木瓜的总价",
+            "text": "3个苹果和3个木瓜的价钱 = 3 × $2 + 3 × $5 = $6 + $15 = $21。"
+          }
+        ],
+        "answerCheck": "所以(a)每个木瓜是$5；(b)3个苹果和3个木瓜共$21。"
+      }
+    }
   },
   {
     "id": 97,
-    "topic": "Money: coin denominations",
+    "topic": "2-part Word Problems",
     "question": "Joey had some 20-cent and 10-cent coins. When she used 1/3 of them, she had $9.60 left. She used 1/2 as many 20-cent coins as 10-cent coins. (a) How many 20-cent coins did she use? (b) How many 10-cent coins did she use?",
     "answer": "(a) 12 twenty-cent coins; (b) 24 ten-cent coins",
     "model": "money-units",
-    "hint": "If 1/3 was used, the $9.60 remaining is 2/3 of the total value. Find the amount used, then test the 1:2 coin-count ratio."
+    "hint": "If 1/3 was used, the $9.60 remaining is 2/3 of the total value. Find the amount used, then test the 1:2 coin-count ratio.",
+    "questionZh": "乔伊有一些20分和10分硬币。她用掉其中的1/3后，还剩$9.60。她用掉的20分硬币数量是10分硬币数量的1/2。 (a) 她用了多少枚20分硬币？ (b) 她用了多少枚10分硬币？",
+    "hintZh": "若用掉1/3，剩下的$9.60就是总价值的2/3。先求用掉的金额，再检验硬币枚数的1:2比例。",
+    "solution": {
+      "en": {
+        "strategy": "Find the value of the coins used, then apply the 1:2 ratio of 20-cent to 10-cent coins used.",
+        "steps": [
+          {
+            "title": "Find the value used",
+            "text": "The $9.60 left is 2/3 of the original value because 1/3 was used. The original value was $9.60 ÷ 2 × 3 = $14.40, so the value used was $14.40 − $9.60 = $4.80."
+          },
+          {
+            "title": "Use the coin-count ratio",
+            "text": "Let the number of 20-cent coins used be x. She used twice as many 10-cent coins, or 2x. Their value is 20x cents + 10(2x) cents = 40x cents."
+          },
+          {
+            "title": "Solve for the coin counts",
+            "text": "$4.80 = 480 cents, so 40x = 480 and x = 12. Thus she used 12 twenty-cent coins and 2 × 12 = 24 ten-cent coins."
+          }
+        ],
+        "answerCheck": "(a) 12 twenty-cent coins; (b) 24 ten-cent coins"
+      },
+      "zh-Hans": {
+        "strategy": "先求用掉的硬币总值，再利用用掉的20分硬币和10分硬币的1:2数量比。",
+        "steps": [
+          {
+            "title": "求用掉的金额",
+            "text": "剩下的$9.60是原来总值的2/3，因为用掉了1/3。原来总值 = $9.60 ÷ 2 × 3 = $14.40，所以用掉的金额 = $14.40 − $9.60 = $4.80。"
+          },
+          {
+            "title": "利用硬币数量比",
+            "text": "设用掉x枚20分硬币，则用掉2x枚10分硬币。它们的总值为20x分 + 10(2x)分 = 40x分。"
+          },
+          {
+            "title": "求硬币枚数",
+            "text": "$4.80 = 480分，所以40x = 480，x = 12。因此用掉12枚20分硬币和2 × 12 = 24枚10分硬币。"
+          }
+        ],
+        "answerCheck": "所以(a)用了12枚20分硬币；(b)用了24枚10分硬币。"
+      }
+    }
   },
   {
     "id": 98,
-    "topic": "Fractions: spending, saving, and sharing",
+    "topic": "2-part Word Problems",
     "question": "James spent 1/5 of his money on a pair of shoes and 1/10 on a book. He saved 2/7 of the remaining money and the rest of the money was given to and shared equally among his 8 brothers. If each brother received $5, (a) how much money did James have at 1st? (b) how much money did James spend?",
     "answer": "(a) $80; (b) $24",
     "model": "fraction-of-remainder",
-    "hint": "The brothers received $40 altogether. It is 5 equal parts of the money remaining after the 1st 2 purchases; use that to work back."
+    "hint": "The brothers received $40 altogether. It is 5 equal parts of the money remaining after the 1st 2 purchases; use that to work back.",
+    "questionZh": "詹姆斯把自己钱的1/5花在一双鞋上，1/10花在一本书上。他把剩余钱的2/7存起来，其余的钱给了8个兄弟并由他们平均分。若每个兄弟得到$5，(a) 詹姆斯开始时有多少钱？ (b) 詹姆斯花了多少钱？",
+    "hintZh": "兄弟们一共得到$40。这是前2次购买后剩余钱的5等份；利用这一点倒推。",
+    "solution": {
+      "en": {
+        "strategy": "Find the brothers' combined share, then work backward through the fraction saved from the money remaining after spending.",
+        "steps": [
+          {
+            "title": "Find the amount given to the brothers",
+            "text": "The 8 brothers received 8 × $5 = $40 altogether."
+          },
+          {
+            "title": "Relate this to James's original money",
+            "text": "James spent 1/5 + 1/10 = 3/10 of his money, leaving 7/10. He saved 2/7 of this remainder, so he gave the brothers the other 5/7. Thus the $40 given is 5/7 × 7/10 = 1/2 of his original money."
+          },
+          {
+            "title": "Find the original amount and spending",
+            "text": "If 1/2 is $40, the original amount was $80. He spent 3/10 × $80 = $24."
+          }
+        ],
+        "answerCheck": "(a) $80; (b) $24"
+      },
+      "zh-Hans": {
+        "strategy": "先求8个兄弟一共得到的钱，再从前两次花钱后剩余的钱中存下的分数倒推。",
+        "steps": [
+          {
+            "title": "求给兄弟们的钱",
+            "text": "8个兄弟每人得到$5，共得到8 × $5 = $40。"
+          },
+          {
+            "title": "把这笔钱和原有的钱联系起来",
+            "text": "詹姆斯花了原有钱的1/5 + 1/10 = 3/10，剩下7/10。他把剩余钱的2/7存起来，给兄弟们的是其余的5/7。因此给出的$40 = 5/7 × 7/10 = 原有钱的1/2。"
+          },
+          {
+            "title": "求原有的钱和花掉的钱",
+            "text": "原有钱的1/2是$40，所以开始时有$80。他花了3/10 × $80 = $24。"
+          }
+        ],
+        "answerCheck": "所以(a)詹姆斯开始时有$80；(b)他花了$24。"
+      }
+    }
   },
   {
     "id": 99,
-    "topic": "Fractions: money remaining",
+    "topic": "2-part Word Problems",
     "question": "Vivian and her brother had some money. After spending 2/5 of his money, her brother had $78 left. Vivian spent 1/3 of her money and had the same amount of money left as her brother. (a) How much money did Vivian have at 1st? (b) How much money did Vivian’s brother have at 1st?",
     "answer": "(a) $117; (b) $130",
     "model": "fraction-of-remainder",
-    "hint": "Vivian's $78 is 2/3 of her starting money, while her brother's $78 is 3/5 of his starting money."
+    "hint": "Vivian's $78 is 2/3 of her starting money, while her brother's $78 is 3/5 of his starting money.",
+    "questionZh": "薇薇安和哥哥有一些钱。哥哥花掉自己钱的2/5后，还剩$78。薇薇安花掉自己钱的1/3后，剩下的钱与哥哥相同。 (a) 薇薇安开始时有多少钱？ (b) 薇薇安的哥哥开始时有多少钱？",
+    "hintZh": "薇薇安的$78是她开始时钱的2/3，而哥哥的$78是他开始时钱的3/5。",
+    "solution": {
+      "en": {
+        "strategy": "Use the common $78 left by both people and reverse each person's spending fraction.",
+        "steps": [
+          {
+            "title": "Find Vivian's starting amount",
+            "text": "After spending 1/3, Vivian had 2/3 of her money left. Since this was $78, her starting amount was $78 ÷ 2 × 3 = $117."
+          },
+          {
+            "title": "Find her brother's starting amount",
+            "text": "After spending 2/5, Vivian's brother had 3/5 of his money left. Since this was $78, his starting amount was $78 ÷ 3 × 5 = $130."
+          }
+        ],
+        "answerCheck": "(a) $117; (b) $130"
+      },
+      "zh-Hans": {
+        "strategy": "利用两人最后都剩下的$78，分别按各自花掉的分数倒推。",
+        "steps": [
+          {
+            "title": "求薇薇安开始时的钱",
+            "text": "薇薇安花掉1/3后，剩下原有钱的2/3。这个数是$78，所以她开始时有$78 ÷ 2 × 3 = $117。"
+          },
+          {
+            "title": "求哥哥开始时的钱",
+            "text": "哥哥花掉2/5后，剩下原有钱的3/5。这个数是$78，所以他开始时有$78 ÷ 3 × 5 = $130。"
+          }
+        ],
+        "answerCheck": "所以(a)薇薇安开始时有$117；(b)她哥哥开始时有$130。"
+      }
+    }
   },
   {
     "id": 100,
-    "topic": "Geometry: wire forming squares and rectangles",
+    "topic": "2-part Word Problems",
     "question": "A piece of wire is cut into 2 equal pieces. 1 piece is bent to form 2 similar squares with sides 12 cm. The other piece is bent into 3 similar rectangles, each with a breadth of 6 cm. (a) Find the length of the piece of wire at 1st. (b) Find the area of each rectangle.",
     "answer": "(a) 192 cm; (b) 60 cm²",
     "model": "geometry",
-    "hint": "Find the wire needed for 2 12 cm squares. That is 1/2 of the original wire and also the wire used for 3 rectangles."
+    "hint": "2 squares with sides of 12 cm use 96 cm of wire. That is 1/2 of the original wire, and it is also the wire used for the 3 rectangles.",
+    "questionZh": "一根铁丝被剪成2段相等的长度。其中1段弯成2个边长12 cm的相同正方形；另一段弯成3个相同长方形，每个长方形的宽是6 cm。 (a) 求这根铁丝开始时的长度。 (b) 求每个长方形的面积。",
+    "hintZh": "2个边长12 cm的正方形用去96 cm铁丝。这是原来铁丝的1/2，也等于3个长方形所用的铁丝。",
+    "solution": {
+      "en": {
+        "strategy": "Use the wire around the two squares to find each half of the original wire, then use the other half for the three rectangles.",
+        "steps": [
+          {
+            "title": "Find the original wire length",
+            "text": "Each square has perimeter 4 × 12 = 48 cm. The two squares use 2 × 48 = 96 cm. This is one of the two equal wire pieces, so the original wire length was 2 × 96 = 192 cm."
+          },
+          {
+            "title": "Find each rectangle's perimeter",
+            "text": "The other 96 cm of wire forms 3 identical rectangles. Each rectangle therefore has perimeter 96 ÷ 3 = 32 cm."
+          },
+          {
+            "title": "Find each rectangle's area",
+            "text": "For a rectangle, 2(length + breadth) = 32, so length + breadth = 16 cm. Its breadth is 6 cm, hence its length is 16 − 6 = 10 cm. Area = 10 × 6 = 60 cm²."
+          }
+        ],
+        "answerCheck": "(a) 192 cm; (b) 60 cm²"
+      },
+      "zh-Hans": {
+        "strategy": "先利用围成两个正方形的铁丝长度求原铁丝的一半，再把另一半用于3个长方形。",
+        "steps": [
+          {
+            "title": "求原铁丝的长度",
+            "text": "每个正方形的周长 = 4 × 12 = 48 cm。两个正方形用去2 × 48 = 96 cm。这是两段等长铁丝中的一段，所以原铁丝长度 = 2 × 96 = 192 cm。"
+          },
+          {
+            "title": "求每个长方形的周长",
+            "text": "另一段96 cm铁丝围成3个相同长方形，所以每个长方形的周长 = 96 ÷ 3 = 32 cm。"
+          },
+          {
+            "title": "求每个长方形的面积",
+            "text": "长方形满足2(长 + 宽) = 32，所以长 + 宽 = 16 cm。宽是6 cm，因此长 = 16 − 6 = 10 cm。面积 = 10 × 6 = 60 cm²。"
+          }
+        ],
+        "answerCheck": "所以(a)原铁丝长192 cm；(b)每个长方形的面积是60 cm²。"
+      }
+    }
   },
   {
     "id": 101,
-    "topic": "Geometry: overlapping rectangles",
-    "question": "The figure shows 3 identical rectangles. The shaded areas where the rectangles overlap form squares of 25 cm² each. Each rectangle is 13 cm by 9 cm. (a) Find the perimeter of the whole figure. (b) Find the total area of the unshaded parts.",
+    "topic": "2-part Word Problems",
+    "question": "The figure shows 3 identical rectangles arranged in a step pattern, so each rectangle overlaps the next rectangle in a corner square. The shaded areas where the rectangles overlap are squares of 25 cm² each. Each rectangle is 13 cm by 9 cm. (a) Find the perimeter of the whole figure. (b) Find the total area of the unshaded parts.",
     "answer": "(a) 92 cm; (b) 251 cm²",
     "model": "geometry",
-    "hint": "Each overlap square has side 5 cm. Mark the exposed lengths around the outside, then subtract the overlap square(s) from each 13 cm by 9 cm rectangle."
+    "hint": "Each overlap square is 5 cm by 5 cm. For (a), the 3 rectangles have 132 cm of edge in total and each overlap hides 20 cm of it. For (b), the middle rectangle loses 2 overlap squares, each end rectangle only 1.",
+    "questionZh": "图中3个完全相同的长方形排成阶梯状，每个长方形与下一个长方形在一个角上的正方形处重叠。长方形重叠的阴影区域各是面积25 cm²的正方形。每个长方形是13 cm × 9 cm。 (a) 求整个图形的周长。 (b) 求未阴影部分的总面积。",
+    "hintZh": "每个重叠正方形是5 cm × 5 cm。第(a)问：3个长方形的边长共132 cm，每处重叠会遮住其中20 cm。第(b)问：中间的长方形减去2个重叠正方形，两端的长方形各只减1个。",
+    "solution": {
+      "en": {
+        "strategy": "Find the side of each overlap square, then subtract the edges and areas hidden by the two overlaps.",
+        "steps": [
+          {
+            "title": "Find the overlap dimensions",
+            "text": "Each shaded overlap square has area 25 cm², so its side length is 5 cm."
+          },
+          {
+            "title": "Find the perimeter",
+            "text": "One 13 cm by 9 cm rectangle has perimeter 2(13 + 9) = 44 cm. Three rectangles have 3 × 44 = 132 cm of perimeter before overlapping. At each of the 2 overlaps, 20 cm of edge is hidden, so the whole perimeter is 132 − 2 × 20 = 92 cm."
+          },
+          {
+            "title": "Find the total unshaded area",
+            "text": "Each rectangle has area 13 × 9 = 117 cm², so their areas total 3 × 117 = 351 cm². The middle rectangle has 2 shaded 25 cm² squares and each end rectangle has 1, giving 4 × 25 = 100 cm² of shaded rectangle area. Unshaded area = 351 − 100 = 251 cm²."
+          }
+        ],
+        "answerCheck": "(a) 92 cm; (b) 251 cm²"
+      },
+      "zh-Hans": {
+        "strategy": "先求每个重叠正方形的边长，再扣除两个重叠处被遮住的边和阴影面积。",
+        "steps": [
+          {
+            "title": "求重叠正方形的边长",
+            "text": "每个阴影重叠正方形的面积是25 cm²，所以边长是5 cm。"
+          },
+          {
+            "title": "求整个图形的周长",
+            "text": "一个13 cm × 9 cm长方形的周长是2(13 + 9) = 44 cm。3个长方形未重叠时周长合计3 × 44 = 132 cm。2个重叠处各遮住20 cm的边，所以整个图形的周长 = 132 − 2 × 20 = 92 cm。"
+          },
+          {
+            "title": "求未阴影部分总面积",
+            "text": "每个长方形面积 = 13 × 9 = 117 cm²，3个合计3 × 117 = 351 cm²。中间长方形有2个面积为25 cm²的阴影正方形，两端长方形各有1个，共4 × 25 = 100 cm²。因此未阴影部分总面积 = 351 − 100 = 251 cm²。"
+          }
+        ],
+        "answerCheck": "所以(a)整个图形的周长是92 cm；(b)未阴影部分总面积是251 cm²。"
+      }
+    }
   }
 ]

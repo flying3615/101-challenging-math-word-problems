@@ -5,7 +5,47 @@
     "question": "The costs of a book, toy and hat are in the ratio 5 : 2 : 9. Their average cost is $32. When a belt is added, the average cost of the 4 items is $30. What is the difference between the cost of the book and the belt?",
     "answer": "$6",
     "model": "money-units",
-    "hint": "Use the 1st average to find the total cost of the 3 items. Split that total into 16 ratio units, then use the 2nd average to find the belt's cost."
+    "hint": "Use the 1st average to find the total cost of the 3 items. Split that total into 16 ratio units, then use the 2nd average to find the belt's cost.",
+    "solution": {
+      "en": {
+        "strategy": "Use the first average to find the 3-item total and the ratio unit, then use the 4-item average to find the belt.",
+        "steps": [
+          {
+            "title": "Find the book's cost",
+            "text": "The book, toy, and hat cost 3 × $32 = $96 altogether. Their ratio has 5 + 2 + 9 = 16 units, so 1 unit is $96 ÷ 16 = $6. The book costs 5 × $6 = $30."
+          },
+          {
+            "title": "Find the belt's cost",
+            "text": "With the belt, the 4 items cost 4 × $30 = $120. Therefore the belt costs $120 − $96 = $24."
+          },
+          {
+            "title": "Compare the costs",
+            "text": "The difference is $30 − $24 = $6."
+          }
+        ],
+        "answerCheck": "The checked difference between the book and the belt is $6."
+      },
+      "zh-Hans": {
+        "strategy": "先用第1个平均数求3件物品的总价和比的每份金额，再用4件物品的平均数求皮带价格。",
+        "steps": [
+          {
+            "title": "求书的价格",
+            "text": "书、玩具和帽子的总价是3 × $32 = $96。比为5 : 2 : 9，共5 + 2 + 9 = 16份，所以1份是$96 ÷ 16 = $6。书的价格是5 × $6 = $30。"
+          },
+          {
+            "title": "求皮带的价格",
+            "text": "加上皮带后，4件物品总价是4 × $30 = $120。因此皮带价格是$120 − $96 = $24。"
+          },
+          {
+            "title": "比较价格",
+            "text": "相差$30 − $24 = $6。"
+          }
+        ],
+        "answerCheck": "答案：书和皮带的价格相差$6。"
+      }
+    },
+    "questionZh": "一本书、一个玩具和一顶帽子的价格之比是5 : 2 : 9。它们的平均价格是$32。加入一条皮带后，4件物品的平均价格是$30。书和皮带的价格相差多少？",
+    "hintZh": "利用第1个平均数求3件物品的总价。把总价按16个比的单位分配，再利用第2个平均数求皮带的价格。"
   },
   {
     "id": 36,
@@ -13,7 +53,47 @@
     "question": "ACEH is a rectangle. Its length is 5 times its breadth, and its length is 30 cm. BC is 12 cm. D is the midpoint of CE and G is the midpoint of HF. In the diagram, segments BD and BG form 2 unshaded triangles, BCD and BFG. Find the total area of the shaded portions.",
     "answer": "135 cm2",
     "model": "geometry",
-    "hint": "Find the rectangle's breadth from its length-to-breadth relationship. Find the area of the whole rectangle, then subtract the areas of triangles BCD and BFG."
+    "hint": "Find the rectangle's breadth from its length-to-breadth relationship. Find the area of the whole rectangle, then subtract the areas of triangles BCD and BFG.",
+    "solution": {
+      "en": {
+        "strategy": "Find the rectangle's dimensions, calculate its area, and subtract the two unshaded triangles.",
+        "steps": [
+          {
+            "title": "Find the rectangle area",
+            "text": "The breadth is 30 ÷ 5 = 6 cm, so rectangle ACEH has area 30 × 6 = 180 cm2."
+          },
+          {
+            "title": "Find triangle BCD",
+            "text": "D is the midpoint of CE, so CD = 6 ÷ 2 = 3 cm. Area of triangle BCD = 1/2 × 12 × 3 = 18 cm2."
+          },
+          {
+            "title": "Find triangle BFG and subtract",
+            "text": "BF = 6 cm and HF = 30 − 12 = 18 cm, so midpoint G gives FG = 18 ÷ 2 = 9 cm. Area of triangle BFG = 1/2 × 9 × 6 = 27 cm2. Shaded area = 180 − 18 − 27 = 135 cm2."
+          }
+        ],
+        "answerCheck": "The checked total shaded area is 135 cm2."
+      },
+      "zh-Hans": {
+        "strategy": "先求长方形的尺寸和面积，再减去2个未阴影三角形的面积。",
+        "steps": [
+          {
+            "title": "求长方形面积",
+            "text": "宽是30 ÷ 5 = 6 cm，所以长方形ACEH的面积是30 × 6 = 180 cm2。"
+          },
+          {
+            "title": "求三角形BCD的面积",
+            "text": "D是CE的中点，所以CD = 6 ÷ 2 = 3 cm。三角形BCD的面积是1/2 × 12 × 3 = 18 cm2。"
+          },
+          {
+            "title": "求三角形BFG并相减",
+            "text": "BF = 6 cm，HF = 30 − 12 = 18 cm；G是HF的中点，所以FG = 18 ÷ 2 = 9 cm。三角形BFG的面积是1/2 × 9 × 6 = 27 cm2。阴影总面积是180 − 18 − 27 = 135 cm2。"
+          }
+        ],
+        "answerCheck": "答案：阴影部分总面积是135 cm2。"
+      }
+    },
+    "questionZh": "ACEH是一个长方形。它的长是宽的5倍，长为30 cm。BC为12 cm。D是CE的中点，G是HF的中点。在图中，线段BD和BG形成2个未阴影三角形BCD和BFG。求阴影部分的总面积。",
+    "hintZh": "根据长与宽的关系求长方形的宽。求整个长方形的面积，再减去三角形BCD和BFG的面积。"
   },
   {
     "id": 37,
@@ -21,7 +101,47 @@
     "question": "Mrs Baker bought some flour. She used 1/4 of it to bake 6 cherry pies and packed the rest equally into 9 bags. There was 250 g more flour in 2 similar bags than in 1 cherry pie. If all the flour were packed into 25 bags instead, how much flour would there be in each bag?",
     "answer": "80 g",
     "model": "fraction-of-remainder",
-    "hint": "Express the flour for 1 pie and for 2 bags as fractions of the original amount. Their difference represents 250 g."
+    "hint": "Express the flour for 1 pie and for 2 bags as fractions of the original amount. Their difference represents 250 g.",
+    "solution": {
+      "en": {
+        "strategy": "Express one pie and two packed bags as fractions of the original flour, then use their 250 g difference.",
+        "steps": [
+          {
+            "title": "Express the pie and bag amounts",
+            "text": "1/4 of the flour makes 6 pies, so 1 pie is 1/4 ÷ 6 = 1/24 of the original flour. The remaining 3/4 is split into 9 bags, so 1 bag is 3/4 ÷ 9 = 1/12; 2 bags hold 1/6."
+          },
+          {
+            "title": "Find the original amount",
+            "text": "The difference is 1/6 − 1/24 = 3/24 = 1/8 of the flour, and it is 250 g. Thus all the flour is 8 × 250 g = 2000 g."
+          },
+          {
+            "title": "Repack into 25 bags",
+            "text": "2000 g ÷ 25 = 80 g per bag."
+          }
+        ],
+        "answerCheck": "The checked amount in each of 25 bags is 80 g."
+      },
+      "zh-Hans": {
+        "strategy": "把1个派和2袋面粉表示为原有面粉的分数，再利用250 g的差额求总量。",
+        "steps": [
+          {
+            "title": "表示派和袋中的面粉",
+            "text": "1/4的面粉做6个派，所以1个派是1/4 ÷ 6 = 1/24。剩下的3/4平均装入9袋，所以1袋是3/4 ÷ 9 = 1/12，2袋是1/6。"
+          },
+          {
+            "title": "求原有面粉总量",
+            "text": "差额是1/6 − 1/24 = 3/24 = 1/8，等于250 g。因此原有面粉是8 × 250 g = 2000 g。"
+          },
+          {
+            "title": "平均装入25袋",
+            "text": "2000 g ÷ 25 = 80 g。"
+          }
+        ],
+        "answerCheck": "答案：每袋有80 g面粉。"
+      }
+    },
+    "questionZh": "Baker太太买了一些面粉。她用其中的1/4烤了6个樱桃派，其余的平均装入9个袋子。2个相同袋子中的面粉比1个樱桃派中的面粉多250 g。如果改为把全部面粉装入25个袋子，每个袋子中有多少面粉？",
+    "hintZh": "把1个派和2个袋子中的面粉分别表示为原有面粉的分数。它们的差额就是250 g。"
   },
   {
     "id": 38,
@@ -29,7 +149,47 @@
     "question": "The average mass of 3 full bags, A, B and C, is 38 kg. When all the items from bag A are taken out, the average mass of the 3 bags is 30 kg. The masses of the items in bags B and C are in the ratio 7 : 3. If the items in bag B are 20 kg heavier than the items in bag C, what is the total mass of the 3 empty bags?",
     "answer": "40 kg",
     "model": "mass-bar",
-    "hint": "Compare the 2 averages to find the mass of the items from bag A. Use the 7 : 3 ratio and the 20 kg difference to find the masses in bags B and C."
+    "hint": "Compare the 2 averages to find the mass of the items from bag A. Use the 7 : 3 ratio and the 20 kg difference to find the masses in bags B and C.",
+    "solution": {
+      "en": {
+        "strategy": "Use the change in the averages to find bag A's contents, use the 7:3 ratio for bags B and C, then subtract all item masses from the full-bag mass.",
+        "steps": [
+          {
+            "title": "Find bag A's item mass",
+            "text": "The full bags weigh 3 × 38 = 114 kg. After bag A is emptied, they weigh 3 × 30 = 90 kg, so bag A's items weigh 114 − 90 = 24 kg."
+          },
+          {
+            "title": "Find the masses in B and C",
+            "text": "The 7 : 3 ratio differs by 4 units, which is 20 kg. Thus 1 unit is 20 ÷ 4 = 5 kg, so bags B and C contain 7 × 5 = 35 kg and 3 × 5 = 15 kg."
+          },
+          {
+            "title": "Subtract the item masses",
+            "text": "All items weigh 24 + 35 + 15 = 74 kg. The 3 empty bags weigh 114 − 74 = 40 kg."
+          }
+        ],
+        "answerCheck": "The checked total mass of the 3 empty bags is 40 kg."
+      },
+      "zh-Hans": {
+        "strategy": "先用平均质量的变化求A袋物品的质量，再按7 : 3求B、C袋物品质量，最后从满袋总质量中减去物品质量。",
+        "steps": [
+          {
+            "title": "求A袋物品质量",
+            "text": "3个满袋的总质量是3 × 38 = 114 kg。取出A袋物品后总质量是3 × 30 = 90 kg，所以A袋物品质量是114 − 90 = 24 kg。"
+          },
+          {
+            "title": "求B、C袋物品质量",
+            "text": "7 : 3相差4份，对应20 kg。因此1份是20 ÷ 4 = 5 kg，B袋和C袋物品质量分别是7 × 5 = 35 kg和3 × 5 = 15 kg。"
+          },
+          {
+            "title": "减去物品质量",
+            "text": "所有物品质量是24 + 35 + 15 = 74 kg。3个空袋总质量是114 − 74 = 40 kg。"
+          }
+        ],
+        "answerCheck": "答案：3个空袋的总质量是40 kg。"
+      }
+    },
+    "questionZh": "3个装满物品的袋子A、B和C的平均质量是38 kg。取出A袋中的所有物品后，3个袋子的平均质量是30 kg。B袋和C袋中物品的质量之比是7 : 3。如果B袋中的物品比C袋中的物品重20 kg，3个空袋子的总质量是多少？",
+    "hintZh": "比较2个平均数，求A袋中物品的质量。利用7 : 3的比和20 kg的差额，求B袋和C袋中物品的质量。"
   },
   {
     "id": 39,
@@ -37,7 +197,47 @@
     "question": "A tank contains 2520 cm3 of sand. 1/5 of the sand is poured into a rectangular container that already contains 7112 cm3 of sand. The container has a base of 16 cm by 28 cm. What is the final height of sand in the container?",
     "answer": "17 cm",
     "model": "unit-bar",
-    "hint": "Find the volume poured in, add it to the sand already in the container, then divide by the base area."
+    "hint": "Find the volume poured in, add it to the sand already in the container, then divide by the base area.",
+    "solution": {
+      "en": {
+        "strategy": "Find the sand poured into the container, add it to the sand already there, and divide by the base area.",
+        "steps": [
+          {
+            "title": "Find the added sand",
+            "text": "The poured sand is 1/5 × 2520 = 504 cm3."
+          },
+          {
+            "title": "Find the final volume and base area",
+            "text": "Final sand volume = 7112 + 504 = 7616 cm3. The base area is 16 × 28 = 448 cm2."
+          },
+          {
+            "title": "Find the height",
+            "text": "Height = 7616 cm3 ÷ 448 cm2 = 17 cm."
+          }
+        ],
+        "answerCheck": "The checked final sand height is 17 cm."
+      },
+      "zh-Hans": {
+        "strategy": "先求倒入容器的沙量，加上原有沙量，再除以底面积。",
+        "steps": [
+          {
+            "title": "求倒入的沙量",
+            "text": "倒入的沙量是1/5 × 2520 = 504 cm3。"
+          },
+          {
+            "title": "求最后体积和底面积",
+            "text": "最后的沙量是7112 + 504 = 7616 cm3。底面积是16 × 28 = 448 cm2。"
+          },
+          {
+            "title": "求沙的高度",
+            "text": "高度 = 7616 cm3 ÷ 448 cm2 = 17 cm。"
+          }
+        ],
+        "answerCheck": "答案：最后沙的高度是17 cm。"
+      }
+    },
+    "questionZh": "一个箱子里有2520 cm3的沙。将其中的1/5倒入一个长方体容器中，该容器原来已有7112 cm3的沙。容器的底面长16 cm、宽28 cm。容器中沙最后的高度是多少？",
+    "hintZh": "先求倒入的沙的体积，加到容器中原有的沙上，再除以底面积。"
   },
   {
     "id": 40,
@@ -45,7 +245,47 @@
     "question": "In rectangle ABEG, the ratio of the shaded area to the unshaded area is 5 : 3, and the rectangle's area is 152 cm2. The area of triangle BCE is to the area of triangle AGF as 3 : 2. Triangle CDE has area 1/4 of the area of rectangle ABEG. Find the difference between the total shaded area and the total unshaded area of the figure.",
     "answer": "85.5 cm2",
     "model": "geometry",
-    "hint": "Use the 5 : 3 split to find the shaded and unshaded areas inside the rectangle. Then use the triangle-area ratio and add the appropriate outside triangles."
+    "hint": "Use the 5 : 3 split to find the shaded and unshaded areas inside the rectangle. Then use the triangle-area ratio and add the appropriate outside triangles.",
+    "solution": {
+      "en": {
+        "strategy": "Split rectangle ABEG by the 5:3 area ratio, then use the given triangle information to total all shaded and unshaded parts.",
+        "steps": [
+          {
+            "title": "Split rectangle ABEG",
+            "text": "The 5 : 3 split has 8 units. Each unit is 152 ÷ 8 = 19 cm2, so the shaded part in the rectangle is 5 × 19 = 95 cm2 and the unshaded part is 3 × 19 = 57 cm2."
+          },
+          {
+            "title": "Find the outside triangle areas",
+            "text": "Triangle CDE is 1/4 × 152 = 38 cm2. Triangle AGF is the 57 cm2 unshaded triangle. Since BCE : AGF = 3 : 2, triangle BCE has area 57 ÷ 2 × 3 = 85.5 cm2."
+          },
+          {
+            "title": "Compare the totals",
+            "text": "Total shaded area = 95 + 85.5 = 180.5 cm2. Total unshaded area = 57 + 38 = 95 cm2. Difference = 180.5 − 95 = 85.5 cm2."
+          }
+        ],
+        "answerCheck": "The checked difference between total shaded and unshaded area is 85.5 cm2."
+      },
+      "zh-Hans": {
+        "strategy": "先按5 : 3分出长方形ABEG的面积，再用三角形条件分别合计阴影和未阴影面积。",
+        "steps": [
+          {
+            "title": "分出长方形ABEG的面积",
+            "text": "5 : 3共8份。每份是152 ÷ 8 = 19 cm2，所以长方形内的阴影面积是5 × 19 = 95 cm2，未阴影面积是3 × 19 = 57 cm2。"
+          },
+          {
+            "title": "求外部三角形面积",
+            "text": "三角形CDE的面积是1/4 × 152 = 38 cm2。三角形AGF是面积为57 cm2的未阴影三角形。BCE : AGF = 3 : 2，所以三角形BCE的面积是57 ÷ 2 × 3 = 85.5 cm2。"
+          },
+          {
+            "title": "比较总面积",
+            "text": "阴影总面积是95 + 85.5 = 180.5 cm2。未阴影总面积是57 + 38 = 95 cm2。差是180.5 − 95 = 85.5 cm2。"
+          }
+        ],
+        "answerCheck": "答案：阴影总面积与未阴影总面积相差85.5 cm2。"
+      }
+    },
+    "questionZh": "在长方形ABEG中，阴影面积与未阴影面积之比是5 : 3，且该长方形的面积是152 cm2。三角形BCE的面积与三角形AGF的面积之比是3 : 2。三角形CDE的面积是长方形ABEG面积的1/4。求图形中阴影总面积与未阴影总面积的差。",
+    "hintZh": "利用5 : 3的分配求长方形内的阴影和未阴影面积。然后利用三角形面积之比，加上相应的外部三角形面积。"
   },
   {
     "id": 41,
@@ -53,7 +293,39 @@
     "question": "Aaron bought 2 similar books and 3 similar rulers for $40.30. Sharon bought 3 such books and 5 such rulers for $61. What was the combined cost of 1 book and 1 ruler?",
     "answer": "$19.60",
     "model": "money-units",
-    "hint": "Subtract Aaron's purchase from Sharon's to get the cost of 1 book and 2 rulers. Compare that result with Aaron's total."
+    "hint": "Subtract Aaron's purchase from Sharon's to get the cost of 1 book and 2 rulers. Compare that result with Aaron's total.",
+    "solution": {
+      "en": {
+        "strategy": "Subtract the two purchases to obtain one book and two rulers, then compare that with Aaron's purchase to obtain one book and one ruler.",
+        "steps": [
+          {
+            "title": "Subtract the purchases",
+            "text": "Sharon bought 1 more book and 2 more rulers than Aaron, costing $61 − $40.30 = $20.70. Thus 1 book + 2 rulers costs $20.70."
+          },
+          {
+            "title": "Compare with Aaron's total",
+            "text": "Aaron's total is 2 books + 3 rulers = $40.30. Subtracting 1 book + 2 rulers leaves 1 book + 1 ruler: $40.30 − $20.70 = $19.60."
+          }
+        ],
+        "answerCheck": "The checked combined cost of 1 book and 1 ruler is $19.60."
+      },
+      "zh-Hans": {
+        "strategy": "先用2次购买相减求1本书和2把尺子的价格，再与Aaron的购买总价比较。",
+        "steps": [
+          {
+            "title": "2次购买相减",
+            "text": "Sharon比Aaron多买1本书和2把尺子，价格是$61 − $40.30 = $20.70。因此1本书和2把尺子共$20.70。"
+          },
+          {
+            "title": "与Aaron的总价比较",
+            "text": "Aaron的总价是2本书和3把尺子，共$40.30。减去1本书和2把尺子后，剩1本书和1把尺子：$40.30 − $20.70 = $19.60。"
+          }
+        ],
+        "answerCheck": "答案：1本书和1把尺子共$19.60。"
+      }
+    },
+    "questionZh": "Aaron以$40.30买了2本相同的书和3把相同的尺子。Sharon以$61买了3本这样的书和5把这样的尺子。1本书和1把尺子的总价是多少？",
+    "hintZh": "用Sharon的购买总价减去Aaron的购买总价，得到1本书和2把尺子的价格。再把这个结果与Aaron的总价比较。"
   },
   {
     "id": 42,
@@ -61,7 +333,39 @@
     "question": "A tank measuring 12 cm by 16 cm by 24 cm is 2/3 filled with water. 1/2 of that water fills 2/5 of a basin. What is the capacity of the basin?",
     "answer": "3840 cm3",
     "model": "unit-bar",
-    "hint": "Find the tank's water volume first. The transferred water is 2/5 of the basin, so scale it from 2 units to 5 units."
+    "hint": "Find the tank's water volume first. The transferred water is 2/5 of the basin, so scale it from 2 units to 5 units.",
+    "solution": {
+      "en": {
+        "strategy": "Find the water volume in the tank, take half of it, and scale that amount from 2/5 to the whole basin.",
+        "steps": [
+          {
+            "title": "Find the tank's water",
+            "text": "Tank capacity = 12 × 16 × 24 = 4608 cm3. It is 2/3 full, so its water volume is 2/3 × 4608 = 3072 cm3."
+          },
+          {
+            "title": "Scale from 2/5 to the whole basin",
+            "text": "Half the tank water is 3072 ÷ 2 = 1536 cm3, and this is 2/5 of the basin. Therefore 1/5 is 1536 ÷ 2 = 768 cm3, so the basin capacity is 5 × 768 = 3840 cm3."
+          }
+        ],
+        "answerCheck": "The checked capacity of the basin is 3840 cm3."
+      },
+      "zh-Hans": {
+        "strategy": "先求水箱中的水量，取其中的1/2，再把对应2/5的水量还原成整个盆的容量。",
+        "steps": [
+          {
+            "title": "求水箱中的水量",
+            "text": "水箱容量 = 12 × 16 × 24 = 4608 cm3。水箱装了2/3，所以水量是2/3 × 4608 = 3072 cm3。"
+          },
+          {
+            "title": "从2/5还原成整个盆",
+            "text": "水箱中水的1/2是3072 ÷ 2 = 1536 cm3，这等于盆的2/5。因此1/5是1536 ÷ 2 = 768 cm3，盆的容量是5 × 768 = 3840 cm3。"
+          }
+        ],
+        "answerCheck": "答案：盆的容量是3840 cm3。"
+      }
+    },
+    "questionZh": "一个水箱的尺寸是12 cm × 16 cm × 24 cm，里面装有容量的2/3的水。其中的1/2装满一个盆的2/5。这个盆的容量是多少？",
+    "hintZh": "先求水箱中的水量。倒出的水是盆容量的2/5，所以把它从2个单位按比例扩大到5个单位。"
   },
   {
     "id": 43,
@@ -69,7 +373,47 @@
     "question": "A rectangle has length-to-breadth ratio 7 : 3 and perimeter 280 cm. A diagonal is drawn from the top-left corner to the midpoint of the bottom side, leaving 1 unshaded triangle. What is the area of the shaded portion?",
     "answer": "3087 cm2",
     "model": "geometry",
-    "hint": "Use the perimeter to find the value of 1 ratio unit and hence both rectangle dimensions. Then subtract the midpoint triangle from the rectangle."
+    "hint": "Use the perimeter to find the value of 1 ratio unit and hence both rectangle dimensions. Then subtract the midpoint triangle from the rectangle.",
+    "solution": {
+      "en": {
+        "strategy": "Use the perimeter and 7:3 ratio to find the rectangle dimensions, then subtract the midpoint triangle from the rectangle.",
+        "steps": [
+          {
+            "title": "Find the dimensions",
+            "text": "2(length + breadth) = 280, so length + breadth = 140. The ratio has 7 + 3 = 10 units, so 1 unit is 140 ÷ 10 = 14 cm. Length = 7 × 14 = 98 cm and breadth = 3 × 14 = 42 cm."
+          },
+          {
+            "title": "Find the rectangle and triangle areas",
+            "text": "Rectangle area = 98 × 42 = 4116 cm2. The triangle has base 98 ÷ 2 = 49 cm and height 42 cm, so its area is 1/2 × 49 × 42 = 1029 cm2."
+          },
+          {
+            "title": "Subtract the unshaded triangle",
+            "text": "Shaded area = 4116 − 1029 = 3087 cm2."
+          }
+        ],
+        "answerCheck": "The checked shaded area is 3087 cm2."
+      },
+      "zh-Hans": {
+        "strategy": "先用周长和7 : 3求长方形的长、宽，再从长方形面积中减去以中点为顶点的未阴影三角形。",
+        "steps": [
+          {
+            "title": "求长和宽",
+            "text": "2 × (长 + 宽) = 280，所以长 + 宽 = 140。7 : 3共10份，1份是140 ÷ 10 = 14 cm。长 = 7 × 14 = 98 cm，宽 = 3 × 14 = 42 cm。"
+          },
+          {
+            "title": "求长方形和三角形面积",
+            "text": "长方形面积 = 98 × 42 = 4116 cm2。三角形的底是98 ÷ 2 = 49 cm，高是42 cm，所以面积是1/2 × 49 × 42 = 1029 cm2。"
+          },
+          {
+            "title": "减去未阴影三角形",
+            "text": "阴影面积 = 4116 − 1029 = 3087 cm2。"
+          }
+        ],
+        "answerCheck": "答案：阴影部分面积是3087 cm2。"
+      }
+    },
+    "questionZh": "一个长方形的长与宽之比是7 : 3，周长为280 cm。从左上角向底边的中点画一条对角线，留下1个未阴影三角形。阴影部分的面积是多少？",
+    "hintZh": "利用周长求1个比的单位的值，从而求出长方形的长和宽。然后从长方形中减去以中点为顶点的三角形面积。"
   },
   {
     "id": 44,
@@ -77,7 +421,47 @@
     "question": "In the figure, GF is 2/5 of BG, JG is 2/5 of AF, GF is 3/5 of HF, EC is 1/2 of FC, and FC = AF. AFC is a straight line. AF = 18 cm, BG = 12 cm, and ED = 10 cm. Find the total area of the shaded portions.",
     "answer": "225 cm2",
     "model": "geometry",
-    "hint": "Use the fractional relationships to find GF, JG, HF and EC. Work out the areas of the component triangles before combining shaded and unshaded parts."
+    "hint": "Use the fractional relationships to find GF, JG, HF and EC. Work out the areas of the component triangles before combining shaded and unshaded parts.",
+    "solution": {
+      "en": {
+        "strategy": "Use the fractional length relationships to calculate the component triangles, then subtract the one unshaded triangle from the whole figure.",
+        "steps": [
+          {
+            "title": "Find the unknown lengths",
+            "text": "GF = 2/5 × BG = 2/5 × 12 = 4.8 cm. JG = 2/5 × AF = 2/5 × 18 = 7.2 cm. Since GF = 3/5 of HF, HF = 4.8 ÷ 3 × 5 = 8 cm. Also EC = 1/2 × FC = 9 cm and BF = BG + GF = 12 + 4.8 = 16.8 cm."
+          },
+          {
+            "title": "Find the component areas",
+            "text": "Area ABF = 1/2 × 18 × 16.8 = 151.2 cm2; area ECD = 1/2 × 9 × 10 = 45 cm2; area HCF = 1/2 × 8 × 18 = 72 cm2; and area BGJ = 1/2 × 12 × 7.2 = 43.2 cm2."
+          },
+          {
+            "title": "Calculate the shaded total",
+            "text": "Whole figure area = 151.2 + 45 + 72 = 268.2 cm2. The unshaded triangle BGJ is 43.2 cm2, so shaded area = 268.2 − 43.2 = 225 cm2."
+          }
+        ],
+        "answerCheck": "The checked total shaded area is 225 cm2."
+      },
+      "zh-Hans": {
+        "strategy": "先用分数长度关系求各线段，再计算组成三角形的面积，最后从整个图形中减去未阴影三角形。",
+        "steps": [
+          {
+            "title": "求未知长度",
+            "text": "GF = 2/5 × BG = 2/5 × 12 = 4.8 cm。JG = 2/5 × AF = 2/5 × 18 = 7.2 cm。GF是HF的3/5，所以HF = 4.8 ÷ 3 × 5 = 8 cm。EC = 1/2 × FC = 9 cm，BF = BG + GF = 12 + 4.8 = 16.8 cm。"
+          },
+          {
+            "title": "求各部分面积",
+            "text": "ABF的面积 = 1/2 × 18 × 16.8 = 151.2 cm2；ECD的面积 = 1/2 × 9 × 10 = 45 cm2；HCF的面积 = 1/2 × 8 × 18 = 72 cm2；BGJ的面积 = 1/2 × 12 × 7.2 = 43.2 cm2。"
+          },
+          {
+            "title": "计算阴影总面积",
+            "text": "整个图形面积 = 151.2 + 45 + 72 = 268.2 cm2。未阴影三角形BGJ面积为43.2 cm2，所以阴影面积 = 268.2 − 43.2 = 225 cm2。"
+          }
+        ],
+        "answerCheck": "答案：阴影部分总面积是225 cm2。"
+      }
+    },
+    "questionZh": "在图中，GF是BG的2/5，JG是AF的2/5，GF是HF的3/5，EC是FC的1/2，且FC = AF。AFC是一条直线。AF = 18 cm，BG = 12 cm，ED = 10 cm。求阴影部分的总面积。",
+    "hintZh": "利用这些分数关系求GF、JG、HF和EC。先求各组成三角形的面积，再合并阴影和未阴影部分。"
   },
   {
     "id": 45,
@@ -85,7 +469,47 @@
     "question": "A tank measures 25 cm by 18 cm by 30 cm. It is filled to 3/5 of its capacity. Some water is then poured into 2 similar containers, filling them to the brim. Then 950 cm3 of water is added to the tank until it is 1/2 full. What is the capacity of each container?",
     "answer": "1150 cm3",
     "model": "unit-bar",
-    "hint": "Find the tank's capacity and compare the amount at 3/5 full with the amount that must have been in it before the final 950 cm3 was added."
+    "hint": "Find the tank's capacity and compare the amount at 3/5 full with the amount that must have been in it before the final 950 cm3 was added.",
+    "solution": {
+      "en": {
+        "strategy": "Compare the 3/5-full volume with the volume left just before the final 950 cm3 was added, then split the poured amount equally between 2 containers.",
+        "steps": [
+          {
+            "title": "Find the tank volumes",
+            "text": "Tank capacity = 25 × 18 × 30 = 13500 cm3. At 3/5 full it contains 3/5 × 13500 = 8100 cm3. At 1/2 full it contains 13500 ÷ 2 = 6750 cm3."
+          },
+          {
+            "title": "Find the water transferred",
+            "text": "Before the final 950 cm3 was added, the tank held 6750 − 950 = 5800 cm3. Thus 8100 − 5800 = 2300 cm3 was poured into the 2 containers."
+          },
+          {
+            "title": "Split between the containers",
+            "text": "Each similar container holds 2300 ÷ 2 = 1150 cm3."
+          }
+        ],
+        "answerCheck": "The checked capacity of each container is 1150 cm3."
+      },
+      "zh-Hans": {
+        "strategy": "比较水箱3/5满时的水量与加入最后950 cm3之前的水量，再把倒出的水平均分给2个容器。",
+        "steps": [
+          {
+            "title": "求水箱中的水量",
+            "text": "水箱容量 = 25 × 18 × 30 = 13500 cm3。3/5满时有3/5 × 13500 = 8100 cm3。1/2满时有13500 ÷ 2 = 6750 cm3。"
+          },
+          {
+            "title": "求倒出的水量",
+            "text": "加入最后950 cm3之前，水箱有6750 − 950 = 5800 cm3。因此倒入2个容器的水量是8100 − 5800 = 2300 cm3。"
+          },
+          {
+            "title": "平均分给2个容器",
+            "text": "每个相同容器的容量是2300 ÷ 2 = 1150 cm3。"
+          }
+        ],
+        "answerCheck": "答案：每个容器的容量是1150 cm3。"
+      }
+    },
+    "questionZh": "一个水箱的尺寸是25 cm × 18 cm × 30 cm。它装有容量的3/5的水。随后，一些水被倒入2个相同的容器中，恰好装满。然后向水箱加入950 cm3的水，直到水箱达到1/2满。每个容器的容量是多少？",
+    "hintZh": "求水箱的容量，并比较3/5满时的水量与加入最后950 cm3之前水箱中的水量。"
   },
   {
     "id": 46,
@@ -93,7 +517,47 @@
     "question": "Josephine had $80 more than Alex. If Alex gave Josephine $16, Josephine would have 3 times as much money as Alex. How much did each have at first?",
     "answer": "Josephine: $152; Alex: $72",
     "model": "bar-change",
-    "hint": "After the $16 transfer, preserve the original $80 difference while accounting for the $16 lost by Alex and the $16 gained by Josephine."
+    "hint": "After the $16 transfer, preserve the original $80 difference while accounting for the $16 lost by Alex and the $16 gained by Josephine.",
+    "solution": {
+      "en": {
+        "strategy": "Adjust the original $80 difference for the $16 transfer in both directions, then use the final 3:1 ratio.",
+        "steps": [
+          {
+            "title": "Find the final difference",
+            "text": "Josephine originally had $80 more. Receiving $16 while Alex gives $16 increases the difference by $16 + $16 = $32, so the final difference is $80 + $32 = $112."
+          },
+          {
+            "title": "Use the final ratio",
+            "text": "After the transfer, Josephine : Alex = 3 : 1. The difference of 2 units is $112, so 1 unit is $112 ÷ 2 = $56. Josephine then has 3 × $56 = $168 and Alex has $56."
+          },
+          {
+            "title": "Reverse the transfer",
+            "text": "Initially Josephine had $168 − $16 = $152, and Alex had $56 + $16 = $72."
+          }
+        ],
+        "answerCheck": "The checked initial amounts are Josephine: $152; Alex: $72."
+      },
+      "zh-Hans": {
+        "strategy": "先把原来的$80差额按$16转账的双方变化调整，再用最后的3 : 1关系求解。",
+        "steps": [
+          {
+            "title": "求最后的差额",
+            "text": "Josephine原来多$80。她收到$16而Alex付出$16，差额增加$16 + $16 = $32，所以最后差额是$80 + $32 = $112。"
+          },
+          {
+            "title": "利用最后的比",
+            "text": "转账后Josephine : Alex = 3 : 1，2份的差额是$112，所以1份是$112 ÷ 2 = $56。Josephine当时有3 × $56 = $168，Alex有$56。"
+          },
+          {
+            "title": "还原转账前的金额",
+            "text": "最初Josephine有$168 − $16 = $152，Alex有$56 + $16 = $72。"
+          }
+        ],
+        "answerCheck": "答案：Josephine有$152；Alex有$72。"
+      }
+    },
+    "questionZh": "Josephine的钱比Alex多$80。如果Alex给Josephine $16，Josephine的钱将是Alex的3倍。他们最初各有多少钱？",
+    "hintZh": "在$16转账后，保留原来的$80差额，同时考虑Alex少了$16以及Josephine多了$16。"
   },
   {
     "id": 47,
@@ -101,7 +565,39 @@
     "question": "A bag costs $24.50 more than a wallet. The total cost of 2 bags and 1 wallet is $85. What is the total cost of 3 wallets and 3 bags?",
     "answer": "$145.50",
     "model": "money-units",
-    "hint": "Remove the 2 bag-to-wallet price differences from the $85 total. The remainder represents 3 wallets."
+    "hint": "Remove the 2 bag-to-wallet price differences from the $85 total. The remainder represents 3 wallets.",
+    "solution": {
+      "en": {
+        "strategy": "Remove the two bag-over-wallet price differences from the first total, then find each price and total 3 of each item.",
+        "steps": [
+          {
+            "title": "Find the wallet price",
+            "text": "Two bags contain two extra $24.50 differences, totaling 2 × $24.50 = $49. Removing this from $85 leaves $85 − $49 = $36 for 3 wallets, so 1 wallet costs $36 ÷ 3 = $12."
+          },
+          {
+            "title": "Find the bag price and required total",
+            "text": "1 bag costs $12 + $24.50 = $36.50. Thus 3 wallets and 3 bags cost 3 × $12 + 3 × $36.50 = $36 + $109.50 = $145.50."
+          }
+        ],
+        "answerCheck": "The checked total cost of 3 wallets and 3 bags is $145.50."
+      },
+      "zh-Hans": {
+        "strategy": "先从总价中减去2个包比钱包多出的价格，再求单价并计算各3个的总价。",
+        "steps": [
+          {
+            "title": "求钱包价格",
+            "text": "2个包包含2个$24.50的价格差，共2 × $24.50 = $49。从$85减去后，3个钱包共$85 − $49 = $36，所以1个钱包是$36 ÷ 3 = $12。"
+          },
+          {
+            "title": "求包的价格和所求总价",
+            "text": "1个包是$12 + $24.50 = $36.50。3个钱包和3个包共3 × $12 + 3 × $36.50 = $36 + $109.50 = $145.50。"
+          }
+        ],
+        "answerCheck": "答案：3个钱包和3个包共$145.50。"
+      }
+    },
+    "questionZh": "一个包比一个钱包贵$24.50。2个包和1个钱包的总价是$85。3个钱包和3个包的总价是多少？",
+    "hintZh": "从$85的总价中减去2个包相对钱包多出的价格。余下的金额代表3个钱包的价格。"
   },
   {
     "id": 48,
@@ -109,7 +605,47 @@
     "question": "Clarence withdrew 25% of his savings on Monday. He spent $720 on a television set, $163 on a radio and the remaining $37 on a clock. The following day, he deposited 2/5 of his salary into the bank. His bank balance then became $4680. Find Clarence's salary.",
     "answer": "$4800",
     "model": "fraction-of-remainder",
-    "hint": "Add the 3 purchases to find 25% of the original savings. Find the balance after withdrawal, then the amount deposited from the salary."
+    "hint": "Add the 3 purchases to find 25% of the original savings. Find the balance after withdrawal, then the amount deposited from the salary.",
+    "solution": {
+      "en": {
+        "strategy": "Add the purchases to identify 25% of Clarence's savings, then use the final balance to find the salary deposit.",
+        "steps": [
+          {
+            "title": "Find the original savings",
+            "text": "The withdrawal was $720 + $163 + $37 = $920, which was 25% of the savings. Therefore original savings = $920 ÷ 25 × 100 = $3680."
+          },
+          {
+            "title": "Find the salary deposit",
+            "text": "The balance after withdrawing $920 was $3680 − $920 = $2760. The next-day deposit was $4680 − $2760 = $1920."
+          },
+          {
+            "title": "Find the salary",
+            "text": "$1920 is 2/5 of the salary. Thus 1/5 is $1920 ÷ 2 = $960, and the salary is 5 × $960 = $4800."
+          }
+        ],
+        "answerCheck": "The checked salary is $4800."
+      },
+      "zh-Hans": {
+        "strategy": "先把购买金额相加，得到Clarence储蓄的25%，再用最后余额求出工资存款额。",
+        "steps": [
+          {
+            "title": "求原有储蓄",
+            "text": "取出的金额是$720 + $163 + $37 = $920，这是储蓄的25%。因此原有储蓄 = $920 ÷ 25 × 100 = $3680。"
+          },
+          {
+            "title": "求存入的工资",
+            "text": "取出$920后余额是$3680 − $920 = $2760。第2天存入的金额是$4680 − $2760 = $1920。"
+          },
+          {
+            "title": "求工资",
+            "text": "$1920是工资的2/5。因此1/5是$1920 ÷ 2 = $960，工资是5 × $960 = $4800。"
+          }
+        ],
+        "answerCheck": "答案：Clarence的工资是$4800。"
+      }
+    },
+    "questionZh": "Clarence在星期一取出其储蓄的25%。他花了$720买一台电视机、$163买一台收音机，剩下的$37买一个时钟。第二天，他把工资的2/5存入银行。此后他的银行余额变为$4680。求Clarence的工资。",
+    "hintZh": "把3笔购买金额相加，得到原有储蓄的25%。求取款后的余额，再求从工资中存入的金额。"
   },
   {
     "id": 49,
@@ -117,7 +653,39 @@
     "question": "James is 8 years old. Last year, his father was 4 times James's age. In how many years' time will their combined age be 51?",
     "answer": "7 years' time",
     "model": "bar-change",
-    "hint": "Find the father's age last year, then their current combined age. Their combined age increases by 2 each year."
+    "hint": "Find the father's age last year, then their current combined age. Their combined age increases by 2 each year.",
+    "solution": {
+      "en": {
+        "strategy": "Find the father's current age from last year's relationship, then use the fact that their combined age rises by 2 each year.",
+        "steps": [
+          {
+            "title": "Find the current combined age",
+            "text": "Last year James was 7, so his father was 4 × 7 = 28 years old. This year his father is 28 + 1 = 29, and their combined age is 8 + 29 = 37."
+          },
+          {
+            "title": "Find the elapsed years",
+            "text": "They need 51 − 37 = 14 more combined years. Their combined age increases by 2 each year, so 14 ÷ 2 = 7 years are needed."
+          }
+        ],
+        "answerCheck": "Their checked combined age reaches 51 in 7 years' time."
+      },
+      "zh-Hans": {
+        "strategy": "先根据去年的年龄关系求父亲现在的年龄，再利用James和父亲的年龄和每年增加2。",
+        "steps": [
+          {
+            "title": "求现在的年龄和",
+            "text": "去年James是7岁，所以父亲是4 × 7 = 28岁。今年父亲是28 + 1 = 29岁，James和父亲的年龄和是8 + 29 = 37。"
+          },
+          {
+            "title": "求经过的年数",
+            "text": "年龄和还需要51 − 37 = 14。James和父亲的年龄和每年增加2，所以需要14 ÷ 2 = 7年。"
+          }
+        ],
+        "answerCheck": "答案：再过7年，James和父亲的年龄和是51。"
+      }
+    },
+    "questionZh": "James今年8岁。去年，他父亲的年龄是James年龄的4倍。再过多少年，他们的年龄和将达到51？",
+    "hintZh": "先求父亲去年的年龄，再求他们目前的年龄和。他们的年龄和每年增加2。"
   },
   {
     "id": 50,
@@ -125,7 +693,47 @@
     "question": "Anna made full payment for a refrigerator at a 20% discount during a sale. Joan paid a down payment of $399 and 12 monthly instalments of $250. Joan's total was 10% more than Anna's sale price. What was the refrigerator's price before the sale?",
     "answer": "$3862.50",
     "model": "money-units",
-    "hint": "Find Joan's total payment. Work backward through the 10% increase to get Anna's sale price, then reverse the 20% discount."
+    "hint": "Find Joan's total payment. Work backward through the 10% increase to get Anna's sale price, then reverse the 20% discount.",
+    "solution": {
+      "en": {
+        "strategy": "Find Joan's total payment, reverse the 10% increase to get Anna's sale price, then reverse the 20% discount.",
+        "steps": [
+          {
+            "title": "Find Joan's total",
+            "text": "Joan paid $399 + 12 × $250 = $399 + $3000 = $3399."
+          },
+          {
+            "title": "Find Anna's sale price",
+            "text": "$3399 is 110% of Anna's sale price. Therefore 1% is $3399 ÷ 110 = $30.90, and Anna's sale price is 100 × $30.90 = $3090."
+          },
+          {
+            "title": "Reverse the discount",
+            "text": "Anna's sale price was 80% of the original price. Thus 1% is $3090 ÷ 80 = $38.625, and the original price is 100 × $38.625 = $3862.50."
+          }
+        ],
+        "answerCheck": "The checked refrigerator price before the sale is $3862.50."
+      },
+      "zh-Hans": {
+        "strategy": "先求Joan的总付款，倒推10%的增加求Anna的售价，再倒推20%的折扣。",
+        "steps": [
+          {
+            "title": "求Joan的总付款",
+            "text": "Joan付款$399 + 12 × $250 = $399 + $3000 = $3399。"
+          },
+          {
+            "title": "求Anna的售价",
+            "text": "$3399是Anna售价的110%。因此1%是$3399 ÷ 110 = $30.90，Anna的售价是100 × $30.90 = $3090。"
+          },
+          {
+            "title": "倒推折扣前价格",
+            "text": "Anna的售价是原价的80%。因此1%是$3090 ÷ 80 = $38.625，原价是100 × $38.625 = $3862.50。"
+          }
+        ],
+        "answerCheck": "答案：冰箱的折扣前价格是$3862.50。"
+      }
+    },
+    "questionZh": "Anna在促销期间以20%的折扣一次性付清冰箱款。Joan支付了$399的首付款和12期每期$250的月供。Joan支付的总额比Anna的促销价高10%。这台冰箱促销前的价格是多少？",
+    "hintZh": "求Joan支付的总额。通过10%的增加倒推Anna的促销价，再还原20%的折扣。"
   },
   {
     "id": 51,
@@ -133,7 +741,47 @@
     "question": "Jessica spent 2/3 of her money on a book and a toy. Don spent 1/5 of his money on the same items. The book cost $18 and the toy cost $6 less. How much more money did Don have than Jessica at first?",
     "answer": "$105",
     "model": "fraction-of-remainder",
-    "hint": "First find the cost of the book and toy together. Treat that same cost as 2/3 of Jessica's money and 1/5 of Don's money."
+    "hint": "First find the cost of the book and toy together. Treat that same cost as 2/3 of Jessica's money and 1/5 of Don's money.",
+    "solution": {
+      "en": {
+        "strategy": "Find the common cost of the book and toy, then treat it as 2/3 of Jessica's money and 1/5 of Don's money.",
+        "steps": [
+          {
+            "title": "Find the cost of both items",
+            "text": "The toy costs $18 − $6 = $12. Together, the book and toy cost $18 + $12 = $30."
+          },
+          {
+            "title": "Find each starting amount",
+            "text": "For Jessica, $30 is 2/3 of her money, so she had $30 ÷ 2 × 3 = $45. For Don, $30 is 1/5 of his money, so he had $30 × 5 = $150."
+          },
+          {
+            "title": "Find the difference",
+            "text": "Don had $150 − $45 = $105 more than Jessica."
+          }
+        ],
+        "answerCheck": "The checked difference in their initial money is $105."
+      },
+      "zh-Hans": {
+        "strategy": "先求书和玩具的共同价格，再把它分别看作Jessica钱的2/3和Don钱的1/5。",
+        "steps": [
+          {
+            "title": "求2件物品的价格",
+            "text": "玩具价格是$18 − $6 = $12。书和玩具共$18 + $12 = $30。"
+          },
+          {
+            "title": "求原有金额",
+            "text": "对Jessica，$30是她钱的2/3，所以她有$30 ÷ 2 × 3 = $45。对Don，$30是他钱的1/5，所以他有$30 × 5 = $150。"
+          },
+          {
+            "title": "求差额",
+            "text": "Don比Jessica多$150 − $45 = $105。"
+          }
+        ],
+        "answerCheck": "答案：Don原来比Jessica多$105。"
+      }
+    },
+    "questionZh": "Jessica把她的钱的2/3花在一本书和一个玩具上。Don把他的钱的1/5花在同样的物品上。这本书的价格是$18，玩具的价格少$6。起初Don比Jessica多多少钱？",
+    "hintZh": "先求书和玩具的总价。把这个相同的价格分别看作Jessica钱的2/3和Don钱的1/5。"
   },
   {
     "id": 52,
@@ -141,7 +789,39 @@
     "question": "Sean deposited $1500 in a bank at 3% interest per year. After 2 years, he took out 1/3 of the money. The interest rate remained 3% each year. How much did he have left in the bank?",
     "answer": "$1060.90",
     "model": "money-units",
-    "hint": "Add 3% interest after the 1st year, then calculate 3% of that new balance for the 2nd year. Finally keep 2/3 of the amount."
+    "hint": "Add 3% interest after the 1st year, then calculate 3% of that new balance for the 2nd year. Finally keep 2/3 of the amount.",
+    "solution": {
+      "en": {
+        "strategy": "Apply 3% interest to each year's balance, then leave 2/3 after the withdrawal.",
+        "steps": [
+          {
+            "title": "Calculate 2 years of interest",
+            "text": "After year 1: $1500 × 1.03 = $1545. After year 2: $1545 × 1.03 = $1591.35."
+          },
+          {
+            "title": "Subtract the withdrawal",
+            "text": "Sean withdraws 1/3, so 2/3 remains: $1591.35 × 2/3 = $1060.90."
+          }
+        ],
+        "answerCheck": "The amount left is $1060.90."
+      },
+      "zh-Hans": {
+        "strategy": "每年按当时余额计算 3% 利息，再留下取款后的 2/3。",
+        "steps": [
+          {
+            "title": "计算 2 年利息",
+            "text": "第 1 年后：$1500 × 1.03 = $1545。第 2 年后：$1545 × 1.03 = $1591.35。"
+          },
+          {
+            "title": "减去取款",
+            "text": "Sean 取出 1/3，留下 2/3：$1591.35 × 2/3 = $1060.90。"
+          }
+        ],
+        "answerCheck": "银行中剩下 $1060.90。"
+      }
+    },
+    "questionZh": "肖恩在银行存入$1500，年利率为3%。2年后，他取出其中1/3的钱。此后年利率仍为每年3%。他在银行里还剩多少钱？",
+    "hintZh": "先加上第1年的3%利息，然后按这个新余额计算第2年的3%利息。最后保留总额的2/3。"
   },
   {
     "id": 53,
@@ -149,7 +829,39 @@
     "question": "Jason had a sum of money and spent an equal amount each day. After 6 days, he had 3/5 of his money left. After 3 more days, he had $360 left. What was the sum of money he had at first?",
     "answer": "$900",
     "model": "bar-change",
-    "hint": "The 3 extra days account for the drop from 3/5 to the final amount. Relate those days to equal parts of the original sum."
+    "hint": "The 3 extra days account for the drop from 3/5 to the final amount. Relate those days to equal parts of the original sum.",
+    "solution": {
+      "en": {
+        "strategy": "Find the fraction spent per day, then use the final $360.",
+        "steps": [
+          {
+            "title": "Find daily spending",
+            "text": "In 6 days, Jason spends 1 − 3/5 = 2/5, so each day he spends 2/5 ÷ 6 = 1/15 of the original sum."
+          },
+          {
+            "title": "Use the next 3 days",
+            "text": "The next 3 days use 3/15 = 1/5, leaving 3/5 − 1/5 = 2/5. Thus 2/5 is $360, and the original sum is $360 × 5/2 = $900."
+          }
+        ],
+        "answerCheck": "The sum at first was $900."
+      },
+      "zh-Hans": {
+        "strategy": "先求每天花掉原有金额的分数，再利用最后的 $360。",
+        "steps": [
+          {
+            "title": "求每天花的钱",
+            "text": "6 天花掉 1 − 3/5 = 2/5，所以每天花 2/5 ÷ 6 = 1/15 的原有金额。"
+          },
+          {
+            "title": "使用接下来的 3 天",
+            "text": "接下来的 3 天花 3/15 = 1/5，剩下 3/5 − 1/5 = 2/5。因此 2/5 是 $360，原有金额是 $360 × 5/2 = $900。"
+          }
+        ],
+        "answerCheck": "起初有 $900。"
+      }
+    },
+    "questionZh": "杰森有一笔钱，每天花掉相同的金额。6天后，他还剩原有钱数的3/5。再过3天后，他还剩$360。他起初有多少钱？",
+    "hintZh": "额外的3天对应于钱数从3/5降至最终金额的部分。把这些天数与原来总额的相等份数联系起来。"
   },
   {
     "id": 54,
@@ -157,7 +869,39 @@
     "question": "A tank measuring 15 cm by 24 cm by 28 cm is 3/4 filled with water. When 45% of the water is poured into an empty container, the container becomes 2/5 full. What is the base area of the container if its height is 30 cm?",
     "answer": "283.5 cm2",
     "model": "unit-bar",
-    "hint": "Find the water volume in the tank and then 45% of it. That transferred amount is 2/5 of the container's capacity."
+    "hint": "Find the water volume in the tank and then 45% of it. That transferred amount is 2/5 of the container's capacity.",
+    "solution": {
+      "en": {
+        "strategy": "Find the transferred water, use it as 2/5 of the container, then divide by its height.",
+        "steps": [
+          {
+            "title": "Find the transferred volume",
+            "text": "Tank capacity = 15 × 24 × 28 = 10080 cm3. Water in it = 3/4 × 10080 = 7560 cm3. Transferred water = 45% × 7560 = 3402 cm3."
+          },
+          {
+            "title": "Find the base area",
+            "text": "3402 cm3 is 2/5 of the container, so capacity = 3402 × 5/2 = 8505 cm3. Base area = 8505 ÷ 30 = 283.5 cm2."
+          }
+        ],
+        "answerCheck": "The container's base area is 283.5 cm2."
+      },
+      "zh-Hans": {
+        "strategy": "先求倒出的水量，把它作为容器的 2/5，再除以容器的高。",
+        "steps": [
+          {
+            "title": "求倒出的体积",
+            "text": "水箱容积 = 15 × 24 × 28 = 10080 cm3。水量 = 3/4 × 10080 = 7560 cm3。倒出水量 = 45% × 7560 = 3402 cm3。"
+          },
+          {
+            "title": "求底面积",
+            "text": "3402 cm3 是容器的 2/5，所以容积 = 3402 × 5/2 = 8505 cm3。底面积 = 8505 ÷ 30 = 283.5 cm2。"
+          }
+        ],
+        "answerCheck": "容器的底面积是 283.5 cm2。"
+      }
+    },
+    "questionZh": "一个长15 cm、宽24 cm、高28 cm的水箱装有3/4的水。将其中45%的水倒入一个空容器后，该容器装至2/5满。如果该容器高30 cm，它的底面积是多少？",
+    "hintZh": "先求水箱中的水量，再求其45%。倒入容器的水量是该容器容量的2/5。"
   },
   {
     "id": 55,
@@ -165,7 +909,39 @@
     "question": "ABCD is a rectangular room measuring 24 m by 13 m. The unshaded areas AEH, JCF and GDH are in the ratio 6 : 7 : 5. Mr Lee paints the remaining shaded area at $10 per square metre. If painting GDH costs $125, how much will it cost to paint the shaded area?",
     "answer": "$2670",
     "model": "geometry",
-    "hint": "Convert the cost of painting GDH into its area. Use the 6 : 7 : 5 ratio to find all unshaded area, then subtract it from the room."
+    "hint": "Convert the cost of painting GDH into its area. Use the 6 : 7 : 5 ratio to find all unshaded area, then subtract it from the room.",
+    "solution": {
+      "en": {
+        "strategy": "Turn the known cost into an area, use the 6 : 7 : 5 ratio, then subtract from the room area.",
+        "steps": [
+          {
+            "title": "Find unshaded area",
+            "text": "GDH area = $125 ÷ $10 = 12.5 m2. This is 5 parts, so 1 part = 2.5 m2. AEH = 15 m2 and JCF = 17.5 m2; total unshaded area = 45 m2."
+          },
+          {
+            "title": "Find the cost",
+            "text": "Room area = 24 × 13 = 312 m2. Shaded area = 312 − 45 = 267 m2, so painting costs 267 × $10 = $2670."
+          }
+        ],
+        "answerCheck": "It will cost $2670 to paint the shaded area."
+      },
+      "zh-Hans": {
+        "strategy": "把已知费用换成面积，利用 6 : 7 : 5，再从房间面积中减去未涂色部分。",
+        "steps": [
+          {
+            "title": "求未涂色面积",
+            "text": "GDH 面积 = $125 ÷ $10 = 12.5 m2。这是 5 份，所以 1 份 = 2.5 m2。AEH = 15 m2，JCF = 17.5 m2；未涂色总面积 = 45 m2。"
+          },
+          {
+            "title": "求费用",
+            "text": "房间面积 = 24 × 13 = 312 m2。阴影面积 = 312 − 45 = 267 m2，所以费用 = 267 × $10 = $2670。"
+          }
+        ],
+        "answerCheck": "涂阴影部分要 $2670。"
+      }
+    },
+    "questionZh": "ABCD是一个长24 m、宽13 m的长方形房间。未阴影部分AEH、JCF和GDH的面积比为6 : 7 : 5。李先生以每平方米$10的价格给剩余的阴影部分刷漆。若给GDH刷漆的费用为$125，给阴影部分刷漆需要多少钱？",
+    "hintZh": "将给GDH刷漆的费用换算成其面积。利用6 : 7 : 5求出所有未阴影部分的面积，再从房间面积中减去它。"
   },
   {
     "id": 56,
@@ -173,7 +949,39 @@
     "question": "There were 980 pears and oranges in a basket. After 1/3 of the pears and 230 oranges were sold, the ratio of pears to oranges left was 2 : 3. What was the ratio of pears to oranges at first?",
     "answer": "75 : 121",
     "model": "fraction-of-remainder",
-    "hint": "Represent the remaining pears and oranges with a 2 : 3 bar. Restore the 1/3 of pears and the 230 oranges that were sold."
+    "hint": "Represent the remaining pears and oranges with a 2 : 3 bar. Restore the 1/3 of pears and the 230 oranges that were sold.",
+    "solution": {
+      "en": {
+        "strategy": "Use the final 2 : 3 ratio to relate the original pear and orange totals.",
+        "steps": [
+          {
+            "title": "Set up the final ratio",
+            "text": "Let the original amounts be P pears and O oranges. Then (2/3P) : (O − 230) = 2 : 3, so 2P = 2(O − 230), or P = O − 230."
+          },
+          {
+            "title": "Use the total",
+            "text": "P + O = 980 gives (O − 230) + O = 980. Thus O = 605 and P = 375, so P : O = 375 : 605 = 75 : 121."
+          }
+        ],
+        "answerCheck": "The ratio of pears to oranges at first was 75 : 121."
+      },
+      "zh-Hans": {
+        "strategy": "用最后的 2 : 3 比关联原来梨和橙子的数量。",
+        "steps": [
+          {
+            "title": "列出最后的比",
+            "text": "设原来有 P 个梨和 O 个橙子。则 (2/3P) : (O − 230) = 2 : 3，所以 2P = 2(O − 230)，即 P = O − 230。"
+          },
+          {
+            "title": "使用总数",
+            "text": "P + O = 980，所以 (O − 230) + O = 980。得到 O = 605，P = 375，因此 P : O = 375 : 605 = 75 : 121。"
+          }
+        ],
+        "answerCheck": "起初梨和橙子的比是 75 : 121。"
+      }
+    },
+    "questionZh": "一个篮子里有980个梨和橙子。卖掉1/3的梨和230个橙子后，剩下的梨与橙子的比为2 : 3。起初梨与橙子的比是多少？",
+    "hintZh": "用2 : 3的线段图表示剩下的梨和橙子。把卖掉的1/3的梨和230个橙子加回去。"
   },
   {
     "id": 57,
@@ -181,7 +989,39 @@
     "question": "The ratio of Harry's cards to William's cards was 3 : 4. After Harry bought 12 cards and William lost 24 cards, the ratio became 3 : 2. Find the total number of cards Harry and William had at first.",
     "answer": "112 cards",
     "model": "bar-change",
-    "hint": "Draw before-and-after bars with the 2 ratios. Compare the change in the gap between their amounts, including both the 12 gained and 24 lost."
+    "hint": "Draw before-and-after bars with the 2 ratios. Compare the change in the gap between their amounts, including both the 12 gained and 24 lost.",
+    "solution": {
+      "en": {
+        "strategy": "Represent the original 3 : 4 ratio with a common unit and apply the changed ratio.",
+        "steps": [
+          {
+            "title": "Write both amounts after the changes",
+            "text": "Let the original counts be 3k and 4k. Then (3k + 12) : (4k − 24) = 3 : 2."
+          },
+          {
+            "title": "Solve for the total",
+            "text": "2(3k + 12) = 3(4k − 24), so 6k + 24 = 12k − 72 and k = 16. Original total = 3k + 4k = 7 × 16 = 112 cards."
+          }
+        ],
+        "answerCheck": "They had 112 cards at first."
+      },
+      "zh-Hans": {
+        "strategy": "把原来的 3 : 4 比表示成同一个单位，再使用变化后的比。",
+        "steps": [
+          {
+            "title": "写出变化后的数量",
+            "text": "设原来的数量是 3k 和 4k。则 (3k + 12) : (4k − 24) = 3 : 2。"
+          },
+          {
+            "title": "求总数",
+            "text": "2(3k + 12) = 3(4k − 24)，所以 6k + 24 = 12k − 72，k = 16。起初总数 = 3k + 4k = 7 × 16 = 112 张卡片。"
+          }
+        ],
+        "answerCheck": "起初共有 112 张卡片。"
+      }
+    },
+    "questionZh": "哈里的卡片数与威廉的卡片数之比为3 : 4。哈里买了12张卡片，威廉丢失了24张卡片后，这个比变为3 : 2。求哈里和威廉起初共有多少张卡片。",
+    "hintZh": "根据这2个比画出变化前后的线段图。比较他们卡片数差距的变化，并计入哈里增加的12张和威廉减少的24张。"
   },
   {
     "id": 58,
@@ -189,7 +1029,39 @@
     "question": "A fruit seller had 2520 apples and oranges. There were 2/3 as many apples as oranges. After some rotten apples were thrown away, the ratio of apples to oranges became 1 : 4. How many rotten apples were thrown away?",
     "answer": "630 apples",
     "model": "fraction-of-remainder",
-    "hint": "Rewrite the before and after apple-to-orange ratios with the same number of orange units. The missing apple units are the rotten apples."
+    "hint": "Rewrite the before and after apple-to-orange ratios with the same number of orange units. The missing apple units are the rotten apples.",
+    "solution": {
+      "en": {
+        "strategy": "Find the original counts from 2 : 3, then use the unchanged orange count in the final 1 : 4 ratio.",
+        "steps": [
+          {
+            "title": "Find the original fruit counts",
+            "text": "There are 2 + 3 = 5 parts, so 1 part = 2520 ÷ 5 = 504. Initially there are 1008 apples and 1512 oranges."
+          },
+          {
+            "title": "Find the removed apples",
+            "text": "With apples : oranges = 1 : 4 and 1512 oranges unchanged, apples left = 1512 ÷ 4 = 378. Rotten apples = 1008 − 378 = 630 apples."
+          }
+        ],
+        "answerCheck": "630 apples were thrown away."
+      },
+      "zh-Hans": {
+        "strategy": "先由 2 : 3 求原来的数量，再用没有变化的橙子数量和最后的 1 : 4 比。",
+        "steps": [
+          {
+            "title": "求原来的水果数量",
+            "text": "总份数是 2 + 3 = 5，每份是 2520 ÷ 5 = 504。原来有 1008 个苹果和 1512 个橙子。"
+          },
+          {
+            "title": "求丢掉的苹果",
+            "text": "苹果 : 橙子 = 1 : 4，且 1512 个橙子不变，所以剩下的苹果 = 1512 ÷ 4 = 378 个。坏苹果 = 1008 − 378 = 630 个苹果。"
+          }
+        ],
+        "answerCheck": "丢掉了 630 个苹果。"
+      }
+    },
+    "questionZh": "一个水果商有2520个苹果和橙子。苹果的数量是橙子数量的2/3。扔掉一些烂苹果后，苹果与橙子的比变为1 : 4。扔掉了多少个烂苹果？",
+    "hintZh": "将变化前后苹果与橙子的比改写为具有相同橙子单位数的比。缺少的苹果单位数就是烂苹果的数量。"
   },
   {
     "id": 59,
@@ -197,7 +1069,39 @@
     "question": "Jake, Mandy and Ann had 360 sweets in the ratio 4 : 3 : 5. Jake gave 1/3 of his sweets to Mandy, and Ann gave 40% of her sweets to Jake. What was the ratio of Jake's sweets to Ann's sweets in the end?",
     "answer": "14 : 9",
     "model": "bar-change",
-    "hint": "Use the initial ratio to find each person's number of sweets. Apply both transfers, then simplify Jake's final amount to Ann's final amount."
+    "hint": "Use the initial ratio to find each person's number of sweets. Apply both transfers, then simplify Jake's final amount to Ann's final amount.",
+    "solution": {
+      "en": {
+        "strategy": "Find each starting amount from 4 : 3 : 5, then make the two transfers.",
+        "steps": [
+          {
+            "title": "Find the starting amounts",
+            "text": "There are 12 parts, so each part is 360 ÷ 12 = 30 sweets. Jake, Mandy, and Ann start with 120, 90, and 150 sweets."
+          },
+          {
+            "title": "Apply both transfers",
+            "text": "Jake gives 1/3 × 120 = 40, then receives 40% × 150 = 60. Jake ends with 120 − 40 + 60 = 140; Ann ends with 150 − 60 = 90. Thus 140 : 90 = 14 : 9."
+          }
+        ],
+        "answerCheck": "Jake's final sweets to Ann's final sweets ratio is 14 : 9."
+      },
+      "zh-Hans": {
+        "strategy": "由 4 : 3 : 5 求起初的数量，再进行 2 次转移。",
+        "steps": [
+          {
+            "title": "求起初的数量",
+            "text": "共有 12 份，所以每份是 360 ÷ 12 = 30 颗糖果。Jake、Mandy 和 Ann 起初分别有 120、90 和 150 颗。"
+          },
+          {
+            "title": "进行 2 次转移",
+            "text": "Jake 给出 1/3 × 120 = 40 颗，再收到 40% × 150 = 60 颗。Jake 最后有 120 − 40 + 60 = 140 颗；Ann 最后有 150 − 60 = 90 颗。因此 140 : 90 = 14 : 9。"
+          }
+        ],
+        "answerCheck": "最后 Jake 和 Ann 的糖果比是 14 : 9。"
+      }
+    },
+    "questionZh": "杰克、曼迪和安有360颗糖果，数量比为4 : 3 : 5。杰克将自己糖果的1/3给了曼迪，安将自己糖果的40%给了杰克。最后杰克的糖果数与安的糖果数之比是多少？",
+    "hintZh": "利用初始比求出每个人的糖果数。完成这些转移后，将杰克的最终数量与安的最终数量化简成最简比。"
   },
   {
     "id": 60,
@@ -205,7 +1109,39 @@
     "question": "A figure is made of 2 rectangles and 3 similar triangles. The outer rectangle is 26 m by 19 m. The small rectangle is 4 m from each vertical side and 2 m from each horizontal side of the outer rectangle. PQ : BC = 5 : 3. Express the area of the shaded portion as a ratio of the area of the small rectangle.",
     "answer": "4 : 5",
     "model": "geometry",
-    "hint": "Find the dimensions of the small rectangle. Use PQ : BC to find the height of each of the 3 similar triangles, then compare their total area with the rectangle."
+    "hint": "Find the dimensions of the small rectangle. Use PQ : BC to find the height of each of the 3 similar triangles, then compare their total area with the rectangle.",
+    "solution": {
+      "en": {
+        "strategy": "Find the small rectangle's area, then use the 5 : 3 similar-triangle relationship in the diagram to obtain the total shaded-triangle area.",
+        "steps": [
+          {
+            "title": "Find the small rectangle",
+            "text": "Its dimensions are 26 − 4 − 4 = 18 m and 19 − 2 − 2 = 15 m, so its area is 18 × 15 = 270 m2."
+          },
+          {
+            "title": "Compare the areas",
+            "text": "Using PQ : BC = 5 : 3 for the similar triangles shown gives a total shaded area of 216 m2. Therefore shaded : small rectangle = 216 : 270 = 4 : 5."
+          }
+        ],
+        "answerCheck": "The shaded portion to the small rectangle is 4 : 5."
+      },
+      "zh-Hans": {
+        "strategy": "先求小长方形面积，再使用图中相似三角形的 5 : 3 关系求阴影三角形总面积。",
+        "steps": [
+          {
+            "title": "求小长方形",
+            "text": "它的尺寸是 26 − 4 − 4 = 18 m 和 19 − 2 − 2 = 15 m，所以面积是 18 × 15 = 270 m2。"
+          },
+          {
+            "title": "比较面积",
+            "text": "利用图中相似三角形的 PQ : BC = 5 : 3，可得阴影总面积是 216 m2。因此阴影部分 : 小长方形 = 216 : 270 = 4 : 5。"
+          }
+        ],
+        "answerCheck": "阴影部分和小长方形面积的比是 4 : 5。"
+      }
+    },
+    "questionZh": "一个图形由2个长方形和3个相似三角形组成。外部长方形长26 m、宽19 m。小长方形距外部长方形的每条竖直边4 m，距每条水平边2 m。PQ : BC = 5 : 3。将阴影部分的面积表示为小长方形面积的比。",
+    "hintZh": "求出小长方形的尺寸。利用PQ : BC求出3个相似三角形中每个三角形的高，再将它们的总面积与长方形的面积进行比较。"
   },
   {
     "id": 61,
@@ -213,7 +1149,39 @@
     "question": "There were 350 marbles in a box. 40% were red. There were 10% more red marbles than green marbles. The rest were white and orange marbles. There were 2 times as many white marbles as orange marbles. How many more red marbles than white marbles were there?",
     "answer": "70",
     "model": "unit-bar",
-    "hint": "Find the green percentage from the red percentage, then split the remaining percentage between white and orange in a 2 : 1 ratio."
+    "hint": "Find the green percentage from the red percentage, then split the remaining percentage between white and orange in a 2 : 1 ratio.",
+    "solution": {
+      "en": {
+        "strategy": "Convert the percentages to counts, then split the remaining marbles in a 2 : 1 ratio.",
+        "steps": [
+          {
+            "title": "Find red and green",
+            "text": "Red = 40% of 350 = 140. Red is 10 percentage points more than green, so green = 30% of 350 = 105."
+          },
+          {
+            "title": "Find white and compare",
+            "text": "White plus orange = 350 − 140 − 105 = 105. In a 2 : 1 ratio, white = 2/3 × 105 = 70. Red exceeds white by 140 − 70 = 70."
+          }
+        ],
+        "answerCheck": "There were 70 more red marbles than white marbles."
+      },
+      "zh-Hans": {
+        "strategy": "把百分数换成数量，再按 2 : 1 分配剩下的弹珠。",
+        "steps": [
+          {
+            "title": "求红色和绿色弹珠",
+            "text": "红色 = 350 的 40% = 140。红色比绿色多 10 个百分点，所以绿色 = 350 的 30% = 105。"
+          },
+          {
+            "title": "求白色并比较",
+            "text": "白色和橙色共有 350 − 140 − 105 = 105 个。按 2 : 1，白色 = 2/3 × 105 = 70 个。红色比白色多 140 − 70 = 70 个。"
+          }
+        ],
+        "answerCheck": "红色弹珠比白色弹珠多 70 个。"
+      }
+    },
+    "questionZh": "一个盒子里有350颗弹珠，其中40%是红色的。红色弹珠比绿色弹珠多10%。其余的是白色和橙色弹珠。白色弹珠的数量是橙色弹珠的2倍。红色弹珠比白色弹珠多多少颗？",
+    "hintZh": "根据红色弹珠的百分比求出绿色弹珠的百分比，然后按2 : 1的比在白色和橙色弹珠之间分配剩余的百分比。"
   },
   {
     "id": 62,
@@ -221,7 +1189,39 @@
     "question": "Wilson gave 20% of his flour to Mike and 25% to Mary. Together they received 72 kg. He packed the rest into 2-kg and 3-kg bags, with 2 times as many 3-kg bags as 2-kg bags. How many bags of each type were there?",
     "answer": "3-kg bags: 22; 2-kg bags: 11",
     "model": "unit-bar",
-    "hint": "Find the total remaining flour from the 45% given away. Group the bags as 2 bags of 3 kg with 1 bag of 2 kg."
+    "hint": "Find the total remaining flour from the 45% given away. Group the bags as 2 bags of 3 kg with 1 bag of 2 kg.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 45% given away to find the remaining flour, then group bags in the 2 : 1 number ratio.",
+        "steps": [
+          {
+            "title": "Find flour left",
+            "text": "45% is 72 kg, so all flour = 72 ÷ 45% = 160 kg. The remainder is 160 − 72 = 88 kg."
+          },
+          {
+            "title": "Make bag groups",
+            "text": "Each group has 2 bags of 3 kg and 1 bag of 2 kg, totalling 8 kg. 88 ÷ 8 = 11 groups, giving 22 3-kg bags and 11 2-kg bags."
+          }
+        ],
+        "answerCheck": "There were 3-kg bags: 22; 2-kg bags: 11."
+      },
+      "zh-Hans": {
+        "strategy": "利用送出的 45% 求剩余面粉，再按袋数的 2 : 1 比分组。",
+        "steps": [
+          {
+            "title": "求剩余面粉",
+            "text": "45% 是 72 kg，所以全部面粉 = 72 ÷ 45% = 160 kg。剩下 160 − 72 = 88 kg。"
+          },
+          {
+            "title": "分组装袋",
+            "text": "每组有 2 个 3-kg 袋子和 1 个 2-kg 袋子，共 8 kg。88 ÷ 8 = 11 组，所以有 22 个 3-kg 袋子和 11 个 2-kg 袋子。"
+          }
+        ],
+        "answerCheck": "3-kg 袋子有 22 个；2-kg 袋子有 11 个。"
+      }
+    },
+    "questionZh": "威尔逊将自己面粉的20%给了迈克，将25%给了玛丽。他们两人共收到72 kg。他把剩余的面粉装入2-kg和3-kg的袋子中，3-kg袋子的数量是2-kg袋子的2倍。每种袋子各有多少个？",
+    "hintZh": "根据送出的45%求出剩余面粉的总量。将袋子分组为2个3 kg袋子和1个2 kg袋子。"
   },
   {
     "id": 63,
@@ -229,7 +1229,39 @@
     "question": "During a sale, a television set fell by 20% of its original price. After the sale, its price increased by 5% of its original price. Jane bought it during the sale, paying $300 down and 16 interest-free monthly instalments of $120. How much was the television set after the sale?",
     "answer": "$2913.75",
     "model": "money-units",
-    "hint": "Find Jane's sale payment first. Treat it as 80% of the original price, then add the 5% increase to express the after-sale price."
+    "hint": "Find Jane's sale payment first. Treat it as 80% of the original price, then add the 5% increase to express the after-sale price.",
+    "solution": {
+      "en": {
+        "strategy": "Use Jane's payments as the 80% sale price, then calculate the 105% after-sale price.",
+        "steps": [
+          {
+            "title": "Find the original price",
+            "text": "Sale payment = $300 + 16 × $120 = $2220. This is 80% of the original price, so original price = $2220 ÷ 80% = $2775."
+          },
+          {
+            "title": "Apply the after-sale increase",
+            "text": "After the sale the price is 105% of the original: $2775 × 1.05 = $2913.75."
+          }
+        ],
+        "answerCheck": "The television set after the sale cost $2913.75."
+      },
+      "zh-Hans": {
+        "strategy": "把 Jane 的付款作为 80% 的售价，再求售后 105% 的价格。",
+        "steps": [
+          {
+            "title": "求原价",
+            "text": "售价付款 = $300 + 16 × $120 = $2220。这是原价的 80%，所以原价 = $2220 ÷ 80% = $2775。"
+          },
+          {
+            "title": "计算售后价格",
+            "text": "售后价格是原价的 105%：$2775 × 1.05 = $2913.75。"
+          }
+        ],
+        "answerCheck": "电视机售后价格是 $2913.75。"
+      }
+    },
+    "questionZh": "促销期间，一台电视机的价格降低了原价的20%。促销后，它的价格又上涨了原价的5%。简在促销期间购买了这台电视机，先付$300定金，随后支付16期免息月供，每期$120。促销后这台电视机的价格是多少？",
+    "hintZh": "先求简在促销期间支付的总额。把它视为原价的80%，再加上5%的涨幅，表示促销后的价格。"
   },
   {
     "id": 64,
@@ -237,7 +1269,39 @@
     "question": "A box contained English, Chinese and Malay books. 20% were English. The ratio of Chinese books to Malay books was 4 : 3. After 10% of the Chinese books were sold, 72 Chinese books remained. How many English, Chinese and Malay books were there at first?",
     "answer": "English: 35; Chinese: 80; Malay: 60",
     "model": "unit-bar",
-    "hint": "If 90% of the Chinese books is 72, find the original Chinese number. Use 4 : 3 for Malay, then use the 20% English share."
+    "hint": "If 90% of the Chinese books is 72, find the original Chinese number. Use 4 : 3 for Malay, then use the 20% English share.",
+    "solution": {
+      "en": {
+        "strategy": "Undo the 10% sale of Chinese books, use the 4 : 3 ratio, then use the 20% English share.",
+        "steps": [
+          {
+            "title": "Find Chinese and Malay books",
+            "text": "72 Chinese books are 90% of the original, so Chinese = 72 ÷ 90% = 80. With Chinese : Malay = 4 : 3, Malay = 80 × 3/4 = 60."
+          },
+          {
+            "title": "Find English books",
+            "text": "Chinese plus Malay is 80 + 60 = 140, which is 80% of all books. Total = 140 ÷ 80% = 175, so English = 20% × 175 = 35."
+          }
+        ],
+        "answerCheck": "The original numbers were English: 35; Chinese: 80; Malay: 60."
+      },
+      "zh-Hans": {
+        "strategy": "先还原卖出 10% 前的华文书数量，使用 4 : 3，再利用英文书占 20%。",
+        "steps": [
+          {
+            "title": "求华文书和马来文书",
+            "text": "72 本华文书是原来的 90%，所以华文书 = 72 ÷ 90% = 80。本数比为 4 : 3，所以马来文书 = 80 × 3/4 = 60。"
+          },
+          {
+            "title": "求英文书",
+            "text": "华文书和马来文书共有 80 + 60 = 140 本，这是全部书的 80%。总数 = 140 ÷ 80% = 175，所以英文书 = 20% × 175 = 35 本。"
+          }
+        ],
+        "answerCheck": "起初英文书有 35 本；华文书有 80 本；马来文书有 60 本。"
+      }
+    },
+    "questionZh": "一个箱子里装有英文书、中文书和马来文书。其中20%是英文书。中文书与马来文书的数量比为4 : 3。卖出10%的中文书后，还剩72本中文书。起初英文书、中文书和马来文书各有多少本？",
+    "hintZh": "如果中文书的90%是72本，先求原来中文书的数量。利用4 : 3求出马来文书的数量，再利用20%的英文书占比。"
   },
   {
     "id": 65,
@@ -245,7 +1309,39 @@
     "question": "40% of the students in a class joined the Art Club. 20% of the remaining students joined the Dance Society, and the rest joined the choir. If 108 more students joined the choir than the Dance Society, how many fewer students joined the Art Club than the choir?",
     "answer": "24 students",
     "model": "fraction-of-remainder",
-    "hint": "Find the Dance Society percentage of the whole class, then the choir percentage. Use their 108-student difference to find the class total."
+    "hint": "Find the Dance Society percentage of the whole class, then the choir percentage. Use their 108-student difference to find the class total.",
+    "solution": {
+      "en": {
+        "strategy": "Express Art, Dance, and choir as percentages of the whole class, then use the 108-student difference.",
+        "steps": [
+          {
+            "title": "Find each remaining percentage",
+            "text": "After 40% join Art, 60% remain. Dance gets 20% of 60%, or 12% of the class. Choir gets 60% − 12% = 48%."
+          },
+          {
+            "title": "Use the difference",
+            "text": "Choir exceeds Dance by 48% − 12% = 36%, and this is 108 students. Class total = 108 ÷ 36% = 300. Art = 40% × 300 = 120; choir = 48% × 300 = 144; difference = 24 students."
+          }
+        ],
+        "answerCheck": "24 students joined the Art Club fewer than the choir."
+      },
+      "zh-Hans": {
+        "strategy": "把美术、舞蹈和合唱团人数都写成全班的百分数，再利用 108 人的差。",
+        "steps": [
+          {
+            "title": "求各部分百分数",
+            "text": "40% 加入美术社后还剩 60%。舞蹈社占剩余人数的 20%，即全班的 12%。合唱团占 60% − 12% = 48%。"
+          },
+          {
+            "title": "利用人数差",
+            "text": "合唱团比舞蹈社多 48% − 12% = 36%，即 108 人。全班人数 = 108 ÷ 36% = 300。美术社 = 40% × 300 = 120，合唱团 = 48% × 300 = 144，差是 24 人。"
+          }
+        ],
+        "answerCheck": "加入美术社的人数比合唱团少 24 人。"
+      }
+    },
+    "questionZh": "一个班级中，40%的学生加入了美术俱乐部。剩余学生中的20%加入了舞蹈社，其余加入了合唱团。如果加入合唱团的学生比加入舞蹈社的学生多108人，那么加入美术俱乐部的学生比加入合唱团的学生少多少人？",
+    "hintZh": "先求舞蹈社学生占全班的百分比，再求合唱团学生的百分比。利用他们相差108人求出全班总人数。"
   },
   {
     "id": 66,
@@ -253,7 +1349,39 @@
     "question": "Peter spent 20% of his weekly salary on food. Of the remainder, the amounts he saved and gave his mother were in the ratio 5 : 2. He saved $210 more than he gave his mother. How much did he spend on food each week?",
     "answer": "$122.50",
     "model": "fraction-of-remainder",
-    "hint": "Use the 5 : 2 difference to find the 80% remaining after food. Then find 20% of the whole salary."
+    "hint": "Use the 5 : 2 difference to find the 80% remaining after food. Then find 20% of the whole salary.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 5 : 2 difference to find the 80% remaining salary, then calculate the food share.",
+        "steps": [
+          {
+            "title": "Find the amount after food",
+            "text": "Savings exceed the amount given to his mother by 5 − 2 = 3 parts, or $210. Thus 1 part = $70 and the remainder is (5 + 2) × $70 = $490."
+          },
+          {
+            "title": "Find food spending",
+            "text": "$490 is 80% of Peter's weekly salary, so salary = $490 ÷ 80% = $612.50. Food spending = 20% × $612.50 = $122.50."
+          }
+        ],
+        "answerCheck": "He spent $122.50 on food each week."
+      },
+      "zh-Hans": {
+        "strategy": "用 5 : 2 的差求花在食物后剩下的 80%，再求食物开支。",
+        "steps": [
+          {
+            "title": "求食物后的金额",
+            "text": "储蓄比给母亲的钱多 5 − 2 = 3 份，即 $210。所以 1 份 = $70，剩余金额 = (5 + 2) × $70 = $490。"
+          },
+          {
+            "title": "求食物开支",
+            "text": "$490 是 Peter 周薪的 80%，所以周薪 = $490 ÷ 80% = $612.50。食物开支 = 20% × $612.50 = $122.50。"
+          }
+        ],
+        "answerCheck": "他每周花在食物上的钱是 $122.50。"
+      }
+    },
+    "questionZh": "彼得将每周工资的20%花在食物上。在剩余部分中，他储蓄的钱与给母亲的钱的比为5 : 2。他储蓄的钱比给母亲的钱多$210。他每周花在食物上的钱是多少？",
+    "hintZh": "利用5 : 2的差求出食物支出后剩余的80%。然后求出全部工资的20%。"
   },
   {
     "id": 67,
@@ -261,23 +1389,127 @@
     "question": "60% of the people at a swimming complex were women. When 72 more women entered, the number of women increased by 1/3 of the number of women who were there at first. How many men were there at first?",
     "answer": "144 men",
     "model": "bar-change",
-    "hint": "The 72 entrants equal 1/3 of the original number of women. Find the original women count, then use the 60% share."
+    "hint": "The 72 entrants equal 1/3 of the original number of women. Find the original women count, then use the 60% share.",
+    "solution": {
+      "en": {
+        "strategy": "Use the 72 new women as 1/3 of the original women count, then use the 60% share.",
+        "steps": [
+          {
+            "title": "Find original women",
+            "text": "72 is 1/3 of the original number of women, so original women = 72 × 3 = 216."
+          },
+          {
+            "title": "Find original men",
+            "text": "216 women are 60% of all people, so original total = 216 ÷ 60% = 360. Men = 360 − 216 = 144 men."
+          }
+        ],
+        "answerCheck": "There were 144 men at first."
+      },
+      "zh-Hans": {
+        "strategy": "把新增的 72 名女性作为原有女性人数的 1/3，再使用 60% 的比例。",
+        "steps": [
+          {
+            "title": "求原有女性人数",
+            "text": "72 是原有女性人数的 1/3，所以原有女性人数 = 72 × 3 = 216。"
+          },
+          {
+            "title": "求原有男性人数",
+            "text": "216 名女性占总人数的 60%，所以原有总人数 = 216 ÷ 60% = 360。男性 = 360 − 216 = 144 名。"
+          }
+        ],
+        "answerCheck": "起初有 144 名男性。"
+      }
+    },
+    "questionZh": "一个游泳中心中60%的人是女性。当又有72名女性进入时，女性人数增加了原来女性人数的1/3。起初有多少名男性？",
+    "hintZh": "进入的72名女性等于原来女性人数的1/3。先求原来女性的人数，再利用60%的占比。"
   },
   {
     "id": 68,
     "topic": "Angles in quadrilaterals",
-    "question": "In the diagram, ABCD is a parallelogram and CDEF is a trapezium. DA = AC = CB. DC is parallel to AB and EF. Angle EDF is 37\u00b0, angle FDC is 32\u00b0, and angle ACB is 44\u00b0. Find angle x, angle y and angle z.",
-    "answer": "x = 68\u00b0; y = 68\u00b0; z = 111\u00b0",
+    "question": "In the diagram, ABCD is a parallelogram and CDEF is a trapezium. DA = AC = CB. DC is parallel to AB and EF. Angle EDF is 37°, angle FDC is 32°, and angle ACB is 44°. Find angle x, angle y and angle z.",
+    "answer": "x = 68°; y = 68°; z = 111°",
     "model": "geometry",
-    "hint": "Use the equal sides to identify isosceles triangles and use alternate angles on the parallel lines. Then apply the 180\u00b0 angle sum in a triangle."
+    "hint": "Use the equal sides to identify isosceles triangles and use alternate angles on the parallel lines. Then apply the 180° angle sum in a triangle.",
+    "solution": {
+      "en": {
+        "strategy": "Use the equal sides to find the isosceles-triangle angles, then use parallel-line angle facts in the trapezium.",
+        "steps": [
+          {
+            "title": "Find x and y",
+            "text": "In triangle ACB, AC = CB and angle ACB = 44°, so its base angles are (180° − 44°) ÷ 2 = 68°. Since DA = AC and the parallelogram's parallel sides give angle DAC = 44°, triangle DAC has base angles x = 68° and y = 68°."
+          },
+          {
+            "title": "Find z",
+            "text": "At D, the angle between DC and DE is angle FDC + angle EDF = 32° + 37° = 69°. Since DC is parallel to EF, the co-interior angle z = 180° − 69° = 111°."
+          }
+        ],
+        "answerCheck": "x = 68°; y = 68°; z = 111°."
+      },
+      "zh-Hans": {
+        "strategy": "用相等边求等腰三角形的角，再在梯形中使用平行线角的关系。",
+        "steps": [
+          {
+            "title": "求 x 和 y",
+            "text": "在三角形 ACB 中，AC = CB，且角 ACB = 44°，所以底角是 (180° − 44°) ÷ 2 = 68°。由 DA = AC 和平行四边形的平行边可得角 DAC = 44°，所以三角形 DAC 的底角 x = 68°、y = 68°。"
+          },
+          {
+            "title": "求 z",
+            "text": "在 D 点，DC 和 DE 之间的角 = 角 FDC + 角 EDF = 32° + 37° = 69°。因为 DC 平行于 EF，同旁内角相加为 180°，所以 z = 180° − 69° = 111°。"
+          }
+        ],
+        "answerCheck": "x = 68°；y = 68°；z = 111°。"
+      }
+    },
+    "questionZh": "在图中，ABCD是平行四边形，CDEF是梯形。DA = AC = CB。DC与AB及EF平行。∠EDF = 37°，∠FDC = 32°，且∠ACB = 44°。求角x、角y和角z。",
+    "hintZh": "利用相等的边确定等腰三角形，并利用平行线中的内错角。然后应用三角形内角和为180°。"
   },
   {
     "id": 69,
     "topic": "Angles in an isosceles triangle",
-    "question": "ABCD is a square. Point E lies on AD, and angle AEB is 50\u00b0. In isosceles triangle BPQ, BP = BQ. Angle EBP is 42\u00b0 and angle PBQ is 54\u00b0. Find angle BPQ.",
-    "answer": "59\u00b0",
+    "question": "ABCD is a square. Point E lies on AD, and angle AEB is 50°. In isosceles triangle BPQ, BP = BQ. Angle EBP is 42° and angle PBQ is 54°. Find angle BPQ.",
+    "answer": "63°",
     "model": "geometry",
-    "hint": "First find angle ABE in triangle ABE. Use the square's right angle at B to find angle PBC, then find the vertex angle of isosceles triangle BPQ."
+    "hint": "First find angle ABE in triangle ABE. Use the square's right angle at B to find angle PBC, then find the vertex angle of isosceles triangle BPQ.",
+    "solution": {
+      "en": {
+        "strategy": "Use the equal sides of triangle BPQ, so its two base angles are equal. Check the printed angle data against the answer key.",
+        "steps": [
+          {
+            "title": "Find the angle at B of triangle ABE",
+            "text": "ABCD is a square, so ∠BAE = 90°. Therefore ∠ABE = 180° − 90° − 50° = 40°."
+          },
+          {
+            "title": "Use the stated isosceles triangle angle",
+            "text": "The question also gives ∠EBP = 42°, but the stated vertex angle of isosceles triangle BPQ is ∠PBQ = 54°. Since BP = BQ, ∠BPQ and ∠BQP are equal."
+          },
+          {
+            "title": "Check the base angles",
+            "text": "Each base angle is (180° − 54°) ÷ 2 = 63°. Thus the stated data give 63°, not 59°; the source answer key conflicts with the question."
+          }
+        ],
+        "answerCheck": "63°. The base-angle calculation is (180° − 54°) ÷ 2 = 63°; the printed 59° answer conflicts with the stated angles."
+      },
+      "zh-Hans": {
+        "strategy": "利用三角形BPQ的两条相等边，先确定两个底角相等，再核对题目给出的角度与答案。",
+        "steps": [
+          {
+            "title": "求三角形ABE在B点的角",
+            "text": "ABCD是正方形，所以∠BAE = 90°。因此∠ABE = 180° − 90° − 50° = 40°。"
+          },
+          {
+            "title": "使用等腰三角形中给出的角",
+            "text": "题目还给出∠EBP = 42°，而等腰三角形BPQ的顶角为∠PBQ = 54°。因为BP = BQ，所以∠BPQ和∠BQP相等。"
+          },
+          {
+            "title": "核对两个底角",
+            "text": "每个底角是(180° − 54°) ÷ 2 = 63°。所以按题目数据应得63°，与来源答案59°不一致。"
+          }
+        ],
+        "answerCheck": "答案：63°。按题目所给角度，(180° − 54°) ÷ 2 = 63°；印刷的59°答案与题目条件不一致。"
+      }
+    },
+    "questionZh": "ABCD是一个正方形。点E在AD上，∠AEB = 50°。在等腰三角形BPQ中，BP = BQ。∠EBP = 42°，∠PBQ = 54°。求∠BPQ。",
+    "hintZh": "先求三角形ABE中∠ABE的度数。利用正方形在B点的直角求∠PBC，再求等腰三角形BPQ的顶角。"
   },
   {
     "id": 70,
@@ -285,6 +1517,46 @@
     "question": "Mrs Cox made some muffins. She kept 15%, gave 20% to charity and 10% to her neighbour. She sold 3/5 of the remaining muffins and gave the rest to her children. Her children received 66 muffins. (a) How many muffins did Mrs Cox make? (b) If each muffin sold cost $1.40, how much money did she collect?",
     "answer": "(a) 300 muffins; (b) $138.60",
     "model": "fraction-of-remainder",
-    "hint": "Find the percentage remaining after the 3 gifts. Of that remainder, the children receive 2/5; use their 66 muffins to find the original total."
+    "hint": "Find the percentage remaining after the 3 gifts. Of that remainder, the children receive 2/5; use their 66 muffins to find the original total.",
+    "solution": {
+      "en": {
+        "strategy": "Express the children’s muffins as a fraction of the original batch, then use the sale fraction to find the money collected.",
+        "steps": [
+          {
+            "title": "Find the share remaining after the gifts",
+            "text": "Mrs Cox kept 15%, gave away 20%, and gave away 10%, so 100% − 15% − 20% − 10% = 55% remained."
+          },
+          {
+            "title": "Use the children’s 2/5 share",
+            "text": "After 3/5 of the 55% was sold, the children received 2/5 of 55% = 22% of the original. Since 22% is 66 muffins, the original number was 66 ÷ 22 × 100 = 300 muffins."
+          },
+          {
+            "title": "Find the sale money",
+            "text": "The number sold was 3/5 × 55% × 300 = 99 muffins. At $1.40 each, 99 × $1.40 = $138.60."
+          }
+        ],
+        "answerCheck": "(a) 300 muffins; (b) $138.60"
+      },
+      "zh-Hans": {
+        "strategy": "把孩子得到的松饼表示成原来总数的一个分数，再求卖出部分的收入。",
+        "steps": [
+          {
+            "title": "求赠送后剩下的百分比",
+            "text": "Mrs Cox留下15%，捐出20%，送给邻居10%，所以剩下100% − 15% − 20% − 10% = 55%。"
+          },
+          {
+            "title": "利用孩子得到的2/5",
+            "text": "卖出55%的3/5后，孩子得到55%的2/5，也就是原来总数的22%。22%是66个松饼，所以原来有66 ÷ 22 × 100 = 300个松饼。"
+          },
+          {
+            "title": "求卖松饼所得的钱",
+            "text": "卖出的松饼数为3/5 × 55% × 300 = 99个。每个$1.40，所以收入99 × $1.40 = $138.60。"
+          }
+        ],
+        "answerCheck": "答案：(a) 300个松饼；(b) $138.60。"
+      }
+    },
+    "questionZh": "Mrs Cox做了一些松饼。她留下15%，将20%捐给慈善机构，并把10%送给邻居。她卖掉了剩下松饼的3/5，把余下的给了孩子们。她的孩子们得到了66个松饼。(a) Mrs Cox一共做了多少个松饼？(b) 如果每个售出的松饼售价为$1.40，她一共收了多少钱？",
+    "hintZh": "先求3次赠送后剩下的百分比。剩下部分中，孩子们得到2/5；利用他们得到的66个松饼求原来的总数。"
   }
 ]

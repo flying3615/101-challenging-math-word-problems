@@ -9,7 +9,45 @@
       "model": "bar-change",
       "hint": "1st find how many children remained. Split that total into 2 equal units for boys and 1 equal unit for girls, then restore the boys who left.",
       "questionZh": "学校营地第1天有396名儿童。第2天有27名男孩离开营地。若留在营地的男孩人数是女孩人数的2倍，营地第1天有多少名男孩？",
-      "hintZh": "先求出留在营地的儿童总数。把这个总数按男孩2等份、女孩1等份分配，再加回离开的男孩。"
+      "hintZh": "先求出留在营地的儿童总数。把这个总数按男孩2等份、女孩1等份分配，再加回离开的男孩。",
+      "solution": {
+        "en": {
+          "strategy": "First remove the boys who left, then use the 2:1 ratio of the children who remained.",
+          "steps": [
+            {
+              "title": "Find the number remaining",
+              "text": "396 − 27 = 369 children remained at the camp."
+            },
+            {
+              "title": "Split the remaining children by the ratio",
+              "text": "Boys : girls = 2 : 1, so 369 ÷ 3 = 123 in 1 unit. The remaining boys filled 2 units, or 2 × 123 = 246."
+            },
+            {
+              "title": "Restore the boys who left",
+              "text": "The 27 boys who left were part of the original number of boys, so add them back."
+            }
+          ],
+          "answerCheck": "246 + 27 = 273, so there were 273 boys on the 1st day."
+        },
+        "zh-Hans": {
+          "strategy": "先扣除离开的男孩，再按留下儿童的2:1人数比来分配。",
+          "steps": [
+            {
+              "title": "求留下的儿童人数",
+              "text": "396 − 27 = 369，营地里留下369名儿童。"
+            },
+            {
+              "title": "按人数比分配",
+              "text": "男孩 : 女孩 = 2 : 1，所以369 ÷ 3 = 123，每1份是123人。留下的男孩有2份，即2 × 123 = 246。"
+            },
+            {
+              "title": "加回离开的男孩",
+              "text": "离开的27名男孩本来属于第1天的男孩人数，所以要加回。"
+            }
+          ],
+          "answerCheck": "246 + 27 = 273，所以第1天有273名男孩。"
+        }
+      }
     },
     {
       "id": 2,
@@ -79,7 +117,45 @@
       "model": "bar-change",
       "hint": "After the transfer, Zack and Mandy are in a 2:1 ratio. Use the total of 120 to find their after-transfer amounts, then reverse the 10-sweet transfer.",
       "questionZh": "扎克和曼迪分120颗糖。扎克给曼迪10颗糖后，扎克的糖数是曼迪的2倍。他们开始时各有多少颗糖？",
-      "hintZh": "转移后，扎克和曼迪的数量比是2:1。利用总数120求出转移后的数量，再倒推回转移前的10颗糖。"
+      "hintZh": "转移后，扎克和曼迪的数量比是2:1。利用总数120求出转移后的数量，再倒推回转移前的10颗糖。",
+      "solution": {
+        "en": {
+          "strategy": "The total stays 120 after the transfer, so find the 2:1 amounts first and then reverse the 10-sweet transfer.",
+          "steps": [
+            {
+              "title": "Use the after-transfer ratio",
+              "text": "After Zack gives sweets away, Zack : Mandy = 2 : 1. The 3 equal units total 120, so 1 unit is 120 ÷ 3 = 40 sweets."
+            },
+            {
+              "title": "Find the after-transfer amounts",
+              "text": "Zack then had 2 × 40 = 80 sweets and Mandy had 1 × 40 = 40 sweets."
+            },
+            {
+              "title": "Reverse the transfer",
+              "text": "Before the transfer, put the 10 sweets back with Zack and take the same 10 sweets away from Mandy."
+            }
+          ],
+          "answerCheck": "Zack: 80 + 10 = 90 sweets; Mandy: 40 − 10 = 30 sweets. These total 120, and after transferring 10, 80 is 2 times 40."
+        },
+        "zh-Hans": {
+          "strategy": "转移糖果后总数仍是120，先按2:1求转移后的数量，再倒推回去。",
+          "steps": [
+            {
+              "title": "使用转移后的人数比",
+              "text": "转移后，扎克 : 曼迪 = 2 : 1。3份共120颗糖，所以1份是120 ÷ 3 = 40颗。"
+            },
+            {
+              "title": "求转移后的数量",
+              "text": "扎克有2 × 40 = 80颗糖，曼迪有1 × 40 = 40颗糖。"
+            },
+            {
+              "title": "倒推转移前的数量",
+              "text": "转移前，把10颗糖加回扎克，并从曼迪的数量中减去同样的10颗糖。"
+            }
+          ],
+          "answerCheck": "扎克：80 + 10 = 90颗糖；曼迪：40 − 10 = 30颗糖。2人共120颗糖，转移10颗后80正好是40的2倍。"
+        }
+      }
     },
     {
       "id": 9,
@@ -109,7 +185,37 @@
       "model": "mass-bar",
       "hint": "Parcel A is 4 1/2 kg. Subtract 3/4 kg to find Parcel B, then add 2/3 kg to find Parcel C. Change to a common denominator before adding or subtracting.",
       "questionZh": "有3个包裹A、B和C。B包裹的质量比A包裹少3/4 kg。C包裹的质量比B包裹多2/3 kg。若A包裹质量为4 1/2 kg，C包裹质量是多少？",
-      "hintZh": "A包裹是4 1/2 kg。减去3/4 kg求B包裹，再加上2/3 kg求C包裹。加减之前先化成公分母。"
+      "hintZh": "A包裹是4 1/2 kg。减去3/4 kg求B包裹，再加上2/3 kg求C包裹。加减之前先化成公分母。",
+      "solution": {
+        "en": {
+          "strategy": "Follow the parcel changes in order: subtract from Parcel A to get B, then add to B to get C.",
+          "steps": [
+            {
+              "title": "Find Parcel B",
+              "text": "Parcel A is 4 1/2 kg. Using twelfths, 4 1/2 − 3/4 = 4 6/12 − 9/12 = 3 9/12 kg."
+            },
+            {
+              "title": "Add the extra mass for Parcel C",
+              "text": "Parcel C is 2/3 kg heavier than B. Change 2/3 to 8/12 and add it to 3 9/12 kg."
+            }
+          ],
+          "answerCheck": "3 9/12 + 8/12 = 4 5/12, so Parcel C has a mass of 4 5/12 kg."
+        },
+        "zh-Hans": {
+          "strategy": "按包裹质量变化的顺序计算：先由A减去3/4 kg求B，再由B加上2/3 kg求C。",
+          "steps": [
+            {
+              "title": "求B包裹的质量",
+              "text": "A包裹是4 1/2 kg。化成以12为分母：4 1/2 − 3/4 = 4 6/12 − 9/12 = 3 9/12 kg。"
+            },
+            {
+              "title": "加上C包裹多出的质量",
+              "text": "C包裹比B包裹重2/3 kg。把2/3化成8/12，再加到3 9/12 kg。"
+            }
+          ],
+          "answerCheck": "3 9/12 + 8/12 = 4 5/12，所以C包裹的质量是4 5/12 kg。"
+        }
+      }
     },
     {
       "id": 12,
@@ -189,7 +295,45 @@
       "model": "mass-bar",
       "hint": "Calculate Tuesday from Monday, then Wednesday from Tuesday. Add the 3 daily sales and the flour left, using sixths as a common denominator.",
       "questionZh": "星期一，一位店主卖出12 1/2 kg面粉。星期二比星期一多卖5/6 kg。星期三比星期二少卖1 1/3 kg。之后店里还剩1/3 kg面粉。他开始时有多少面粉？",
-      "hintZh": "由星期一求星期二，再由星期二求星期三。把3天卖出的面粉和剩下的面粉相加，并以6为公分母。"
+      "hintZh": "由星期一求星期二，再由星期二求星期三。把3天卖出的面粉和剩下的面粉相加，并以6为公分母。",
+      "solution": {
+        "en": {
+          "strategy": "Work through Monday, Tuesday, and Wednesday, then add the flour sold and the flour left over.",
+          "steps": [
+            {
+              "title": "Find Tuesday’s sale",
+              "text": "Tuesday was 5/6 kg more than Monday: 12 1/2 + 5/6 = 12 3/6 + 5/6 = 13 2/6 kg."
+            },
+            {
+              "title": "Find Wednesday’s sale",
+              "text": "Wednesday was 1 1/3 kg less than Tuesday: 13 2/6 − 1 2/6 = 12 kg."
+            },
+            {
+              "title": "Put every amount in sixths",
+              "text": "Monday, Tuesday, Wednesday, and the amount left are 75/6 kg, 80/6 kg, 72/6 kg, and 2/6 kg respectively."
+            }
+          ],
+          "answerCheck": "(75 + 80 + 72 + 2) ÷ 6 = 229/6 = 38 1/6, so the shopkeeper had 38 1/6 kg of flour at 1st."
+        },
+        "zh-Hans": {
+          "strategy": "依次求出第1天、第2天和第3天卖出的面粉，再加上剩余的面粉。",
+          "steps": [
+            {
+              "title": "求第2天卖出的面粉",
+              "text": "第2天比第1天多卖5/6 kg：12 1/2 + 5/6 = 12 3/6 + 5/6 = 13 2/6 kg。"
+            },
+            {
+              "title": "求第3天卖出的面粉",
+              "text": "第3天比第2天少卖1 1/3 kg：13 2/6 − 1 2/6 = 12 kg。"
+            },
+            {
+              "title": "把所有数量化成以6为分母",
+              "text": "第1天、第2天、第3天和剩下的面粉分别是75/6 kg、80/6 kg、72/6 kg和2/6 kg。"
+            }
+          ],
+          "answerCheck": "(75 + 80 + 72 + 2) ÷ 6 = 229/6 = 38 1/6，所以店主开始时有38 1/6 kg面粉。"
+        }
+      }
     },
     {
       "id": 20,
@@ -249,7 +393,45 @@
       "model": "fraction-of-remainder",
       "hint": "The books cost $36, which is the 3/5 of the son's money left after shoes. Find the son's amount, then scale from 4/7 to all of Mrs Brown's money.",
       "questionZh": "布朗太太把自己钱的4/7给了儿子。儿子用其中的2/5买了一双鞋，剩余的钱买了2本书，每本$18。布朗太太开始时有多少钱？",
-      "hintZh": "书共花$36，这是儿子买鞋后剩余钱的3/5。先求儿子得到的钱，再由4/7求布朗太太全部的钱。"
+      "hintZh": "书共花$36，这是儿子买鞋后剩余钱的3/5。先求儿子得到的钱，再由4/7求布朗太太全部的钱。",
+      "solution": {
+        "en": {
+          "strategy": "The cost of the 2 books tells us the fraction of the son’s money left after buying shoes; then scale from his share to all of Mrs Brown’s money.",
+          "steps": [
+            {
+              "title": "Find the money left for books",
+              "text": "The 2 books cost 2 × $18 = $36. This is the 3/5 of the son’s money not spent on shoes."
+            },
+            {
+              "title": "Find the son’s share",
+              "text": "If 3/5 is $36, then 1/5 is $36 ÷ 3 = $12. His whole share is 5 × $12 = $60."
+            },
+            {
+              "title": "Scale from 4/7 to the whole amount",
+              "text": "The $60 is 4/7 of Mrs Brown’s original money, so divide by 4 and multiply by 7."
+            }
+          ],
+          "answerCheck": "$60 ÷ 4 × 7 = $105, so Mrs Brown had $105 at 1st."
+        },
+        "zh-Hans": {
+          "strategy": "2本书的价钱表示儿子买鞋后剩下的钱，先求儿子得到的钱，再由他的4/7求布朗太太全部的钱。",
+          "steps": [
+            {
+              "title": "求买书的钱",
+              "text": "2本书的价钱是2 × $18 = $36。这是儿子买鞋后剩下的3/5。"
+            },
+            {
+              "title": "求儿子得到的钱",
+              "text": "3/5是$36，所以1/5是$36 ÷ 3 = $12。儿子得到的全部钱是5 × $12 = $60。"
+            },
+            {
+              "title": "从4/7还原成全部钱",
+              "text": "$60是布朗太太开始时钱的4/7，所以先除以4，再乘以7。"
+            }
+          ],
+          "answerCheck": "$60 ÷ 4 × 7 = $105，所以布朗太太开始时有$105。"
+        }
+      }
     },
     {
       "id": 26,
@@ -469,7 +651,45 @@
       "model": "bar-change",
       "hint": "Draw bars for the original quantities so that their remaining parts are equal. The removed parts total 84.",
       "questionZh": "A盒和B盒中有一些梨。从A盒取出梨的1/3，从B盒取出梨的5/9后，两盒的梨数相等。若共取出84个梨，开始时两盒共有多少个梨？",
-      "hintZh": "画出原有数量的条形图，使两盒剩余部分相等。取出的部分合计84个。"
+      "hintZh": "画出原有数量的条形图，使两盒剩余部分相等。取出的部分合计84个。",
+      "solution": {
+        "en": {
+          "strategy": "Use equal-size bar units for the equal numbers of pears left in the 2 boxes.",
+          "steps": [
+            {
+              "title": "Make the remaining parts equal",
+              "text": "Let the equal remaining amount be 4 units. In box A, 2/3 remains, so A started with 6 units and 2 units were taken. In box B, 4/9 remains, so B started with 9 units and 5 units were taken."
+            },
+            {
+              "title": "Find 1 unit",
+              "text": "The pears taken out were 2 + 5 = 7 units. Since 7 units equal 84 pears, 1 unit is 84 ÷ 7 = 12 pears."
+            },
+            {
+              "title": "Use the original bars",
+              "text": "The original numbers of pears were 6 units in A and 9 units in B."
+            }
+          ],
+          "answerCheck": "6 × 12 + 9 × 12 = 180, so there were 180 pears in both boxes at 1st."
+        },
+        "zh-Hans": {
+          "strategy": "把2盒中相等的剩余梨数看作相同大小的单位条。",
+          "steps": [
+            {
+              "title": "让剩余部分相等",
+              "text": "把相等的剩余梨数设为4份。A盒剩下2/3，所以A盒原有6份，取出2份。B盒剩下4/9，所以B盒原有9份，取出5份。"
+            },
+            {
+              "title": "求每1份的数量",
+              "text": "取出的梨共有2 + 5 = 7份。7份是84个梨，所以1份是84 ÷ 7 = 12个梨。"
+            },
+            {
+              "title": "使用原来的单位条",
+              "text": "A盒原有6份梨，B盒原有9份梨。"
+            }
+          ],
+          "answerCheck": "6 × 12 + 9 × 12 = 180，所以开始时2盒共有180个梨。"
+        }
+      }
     },
     {
       "id": 48,
@@ -619,7 +839,45 @@
       "model": "money-units",
       "hint": "The $45 left is 5/7 of Benjamin's money. Find the cost of his 3 pens, which is also the cost of 5 pencils.",
       "questionZh": "内莉买5支铅笔所花的钱，与本杰明买3支钢笔所花的钱相同。若本杰明买钢笔花了自己钱的2/7，且还剩$45，一支铅笔和一支钢笔的总价是多少？",
-      "hintZh": "剩下的$45是本杰明的钱的5/7。求他买3支钢笔的价钱，这也等于5支铅笔的价钱。"
+      "hintZh": "剩下的$45是本杰明的钱的5/7。求他买3支钢笔的价钱，这也等于5支铅笔的价钱。",
+      "solution": {
+        "en": {
+          "strategy": "Benjamin’s $45 left is the unused 5/7 of his money. Use the matching costs of 3 pens and 5 pencils to find each unit price.",
+          "steps": [
+            {
+              "title": "Find the cost of 3 pens",
+              "text": "Benjamin had 5/7 of his money left, and that was $45. So 1/7 was $45 ÷ 5 = $9, and 2/7 spent on 3 pens was 2 × $9 = $18."
+            },
+            {
+              "title": "Find the pencil price",
+              "text": "5 pencils cost the same $18, so 1 pencil costs $18 ÷ 5 = $3.60."
+            },
+            {
+              "title": "Find the pen price",
+              "text": "3 pens cost $18, so 1 pen costs $18 ÷ 3 = $6."
+            }
+          ],
+          "answerCheck": "$3.60 + $6 = $9.60, so a pencil and a pen cost $9.60 altogether."
+        },
+        "zh-Hans": {
+          "strategy": "本杰明剩下的$45是他钱的5/7。利用3支钢笔和5支铅笔价钱相等，分别求单价。",
+          "steps": [
+            {
+              "title": "求3支钢笔的价钱",
+              "text": "本杰明剩下钱的5/7是$45，所以1/7是$45 ÷ 5 = $9。买3支钢笔花的钱是2/7，即2 × $9 = $18。"
+            },
+            {
+              "title": "求铅笔单价",
+              "text": "5支铅笔也值$18，所以1支铅笔是$18 ÷ 5 = $3.60。"
+            },
+            {
+              "title": "求钢笔单价",
+              "text": "3支钢笔值$18，所以1支钢笔是$18 ÷ 3 = $6。"
+            }
+          ],
+          "answerCheck": "$3.60 + $6 = $9.60，所以1支铅笔和1支钢笔的总价是$9.60。"
+        }
+      }
     },
     {
       "id": 63,
@@ -699,7 +957,45 @@
       "model": "mass-bar",
       "hint": "The difference between 45 kg and 33 kg is the mass of 1/2 the items. Use it to find the empty box's mass.",
       "questionZh": "一个盒子装满时质量为45 kg。取出盒中物品的1/2后，剩余物品和盒子的质量为33 kg。6个空盒子的质量是多少？",
-      "hintZh": "45 kg与33 kg的差是物品的1/2的质量。利用它求出1个空盒子的质量。"
+      "hintZh": "45 kg与33 kg的差是物品的1/2的质量。利用它求出1个空盒子的质量。",
+      "solution": {
+        "en": {
+          "strategy": "The decrease from a full box to a half-full box is exactly the mass of half the items.",
+          "steps": [
+            {
+              "title": "Find the mass of half the items",
+              "text": "45 kg − 33 kg = 12 kg, so 1/2 of the items has a mass of 12 kg."
+            },
+            {
+              "title": "Find the mass of all the items",
+              "text": "All the items have a mass of 2 × 12 kg = 24 kg."
+            },
+            {
+              "title": "Find 1 empty box",
+              "text": "A full box is 45 kg, so subtract the 24 kg of items to get the mass of 1 empty box."
+            }
+          ],
+          "answerCheck": "45 kg − 24 kg = 21 kg for 1 empty box, and 6 × 21 kg = 126 kg. The mass of 6 empty boxes is 126 kg."
+        },
+        "zh-Hans": {
+          "strategy": "从装满到取出1/2物品的质量减少量，正好是1/2物品的质量。",
+          "steps": [
+            {
+              "title": "求1/2物品的质量",
+              "text": "45 kg − 33 kg = 12 kg，所以1/2物品的质量是12 kg。"
+            },
+            {
+              "title": "求全部物品的质量",
+              "text": "全部物品的质量是2 × 12 kg = 24 kg。"
+            },
+            {
+              "title": "求1个空盒子的质量",
+              "text": "装满的盒子是45 kg，减去24 kg的物品质量，就得到1个空盒子的质量。"
+            }
+          ],
+          "answerCheck": "45 kg − 24 kg = 21 kg，1个空盒子是21 kg；6 × 21 kg = 126 kg，所以6个空盒子的质量是126 kg。"
+        }
+      }
     },
     {
       "id": 71,
@@ -739,7 +1035,45 @@
       "model": "geometry",
       "hint": "Find the square's side from its area, then its perimeter. That perimeter is 2/3 of the original wire.",
       "questionZh": "一根铁丝被剪开，其中的2/3弯成一个正方形，剩下的铁丝弯成一个长方形。正方形的面积是36 cm²。这根铁丝开始时长多少？",
-      "hintZh": "由面积求正方形边长，再求周长。这个周长是原来铁丝的2/3。"
+      "hintZh": "由面积求正方形边长，再求周长。这个周长是原来铁丝的2/3。",
+      "solution": {
+        "en": {
+          "strategy": "Use the square’s area to find its perimeter. That perimeter came from 2/3 of the original wire.",
+          "steps": [
+            {
+              "title": "Find the side of the square",
+              "text": "A square with area 36 cm² has side length 6 cm because 6 × 6 = 36."
+            },
+            {
+              "title": "Find the wire used for the square",
+              "text": "The square’s perimeter is 4 × 6 cm = 24 cm. This 24 cm is 2/3 of the original wire."
+            },
+            {
+              "title": "Scale from 2/3 to the whole wire",
+              "text": "To change 24 cm from 2/3 to the whole length, multiply by 3 and divide by 2."
+            }
+          ],
+          "answerCheck": "24 cm × 3 ÷ 2 = 36 cm, so the wire was 36 cm long at 1st."
+        },
+        "zh-Hans": {
+          "strategy": "先用正方形面积求周长。这个周长就是原来铁丝的2/3。",
+          "steps": [
+            {
+              "title": "求正方形的边长",
+              "text": "正方形面积是36 cm²，边长是6 cm，因为6 × 6 = 36。"
+            },
+            {
+              "title": "求围成正方形的铁丝长度",
+              "text": "正方形的周长是4 × 6 cm = 24 cm。这24 cm是原来铁丝的2/3。"
+            },
+            {
+              "title": "从2/3还原成整根铁丝",
+              "text": "把24 cm从2/3还原成全部长度，要先乘以3，再除以2。"
+            }
+          ],
+          "answerCheck": "24 cm × 3 ÷ 2 = 36 cm，所以这根铁丝开始时长36 cm。"
+        }
+      }
     },
     {
       "id": 75,
@@ -869,7 +1203,45 @@
       "model": "unit-bar",
       "hint": "Use a common unit for 1/5 of the 1st number and 1/2 of the 2nd number. The 12-unit difference helps split their total.",
       "questionZh": "一张纸上写着2个数。第1个数的1/5比第2个数的1/2多12。两个数的和是221。 (a) 第1个数是多少？ (b) 第2个数是多少？",
-      "hintZh": "把第1个数的1/5和第2个数的1/2用同一单位表示。相差的12个单位有助于把总数分开。"
+      "hintZh": "把第1个数的1/5和第2个数的1/2用同一单位表示。相差的12个单位有助于把总数分开。",
+      "solution": {
+        "en": {
+          "strategy": "Represent 1/5 of the 1st number with 1 variable, then express both whole numbers using that same variable.",
+          "steps": [
+            {
+              "title": "Set up the matching parts",
+              "text": "Let 1/5 of the 1st number be x. It is 12 more than 1/2 of the 2nd number, so 1/2 of the 2nd number is x − 12."
+            },
+            {
+              "title": "Write the 2 whole numbers",
+              "text": "The 1st number is 5x. The 2nd number is 2(x − 12). Their sum gives 5x + 2(x − 12) = 221."
+            },
+            {
+              "title": "Solve for the shared part",
+              "text": "5x + 2x − 24 = 221, so 7x = 245 and x = 35."
+            }
+          ],
+          "answerCheck": "1st number: 5 × 35 = 175. 2nd number: 2 × (35 − 12) = 46. Also, 1/5 of 175 is 35 and 1/2 of 46 is 23, which differ by 12; 175 + 46 = 221."
+        },
+        "zh-Hans": {
+          "strategy": "把第1个数的1/5设为x，再用x表示2个完整的数。",
+          "steps": [
+            {
+              "title": "建立相等部分的关系",
+              "text": "设第1个数的1/5是x。它比第2个数的1/2多12，所以第2个数的1/2是x − 12。"
+            },
+            {
+              "title": "写出2个完整的数",
+              "text": "第1个数是5x。第2个数是2(x − 12)。它们的和给出5x + 2(x − 12) = 221。"
+            },
+            {
+              "title": "求共同的部分",
+              "text": "5x + 2x − 24 = 221，所以7x = 245，x = 35。"
+            }
+          ],
+          "answerCheck": "第1个数：5 × 35 = 175。第2个数：2 × (35 − 12) = 46。而且175的1/5是35，46的1/2是23，相差12；175 + 46 = 221。"
+        }
+      }
     },
     {
       "id": 88,

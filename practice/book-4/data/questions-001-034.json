@@ -1,274 +1,1506 @@
 [
   {
     "id": 1,
-    "topic": "Comparison after a change",
+    "topic": "Whole Numbers",
     "question": "On the 1st day of a school camp, there were 396 children. 27 boys left the camp on the 2nd day. If there were 2 times as many boys as girls who remained at the camp, how many boys were there on the 1st day of the camp?",
     "answer": "273 boys",
     "model": "bar-change",
-    "hint": "1st find how many children remained. Split that total into 2 equal units for boys and 1 equal unit for girls, then restore the boys who left."
+    "hint": "1st find how many children remained. Split that total into 2 equal units for boys and 1 equal unit for girls, then restore the boys who left.",
+    "questionZh": "在学校营地的第1天，有396名儿童。第2天，有27名男孩离开了营地。若留在营地的男孩人数是女孩人数的2倍，那么营地第1天有多少名男孩？",
+    "hintZh": "第1步，求还剩多少名儿童。把该总数分成男孩的2个相等单位和女孩的1个相等单位，再把离开的男孩人数加回去。",
+    "solution": {
+      "en": {
+        "strategy": "Find how many children remained after the boys left, use the 2:1 boys-to-girls ratio, then add the departing boys back.",
+        "steps": [
+          {
+            "title": "Find the children remaining",
+            "text": "396 − 27 = 369 children remained at the camp."
+          },
+          {
+            "title": "Use the 2:1 ratio",
+            "text": "The 369 remaining children made 2 + 1 = 3 equal parts. 369 ÷ 3 = 123, so the remaining boys numbered 2 × 123 = 246."
+          },
+          {
+            "title": "Restore the boys who left",
+            "text": "Add back the 27 boys who left: 246 + 27 = 273."
+          }
+        ],
+        "answerCheck": "273 boys"
+      },
+      "zh-Hans": {
+        "strategy": "先求离开男孩后剩下的儿童人数，按男孩和女孩的2:1人数比分配，再把离开的男孩加回去。",
+        "steps": [
+          {
+            "title": "求剩下的儿童人数",
+            "text": "396 − 27 = 369，营地里还剩369名儿童。"
+          },
+          {
+            "title": "按2:1的人数比分配",
+            "text": "男孩 : 女孩 = 2 : 1，共有2 + 1 = 3份。369 ÷ 3 = 123，所以留下的男孩有2 × 123 = 246名。"
+          },
+          {
+            "title": "加回离开的男孩",
+            "text": "246 + 27 = 273，因此第1天的男孩人数为273。"
+          }
+        ],
+        "answerCheck": "答案：273名男孩。"
+      }
+    }
   },
   {
     "id": 2,
-    "topic": "Comparison after a change",
+    "topic": "Whole Numbers",
     "question": "On Monday, Farmer Tom collected 3 times as many eggs as Farmer Jack. On Tuesday, Farmer Tom sold 160 eggs. Farmer Jack then had 2 times as many eggs as Farmer Tom. How many eggs did Farmer Jack have?",
     "answer": "64 eggs",
     "model": "bar-change",
-    "hint": "Draw Tom as 3 units and Jack as 1 unit before the sale. After the sale, Jack is 2 units more than Tom; use the 160-egg difference."
+    "hint": "Draw Tom as 3 units and Jack as 1 unit before the sale. After the sale, Jack is 2 units more than Tom; use the 160-egg difference.",
+    "questionZh": "周一，Tom农夫收集的鸡蛋数是Jack农夫的3倍。周二，Tom农夫卖出了160个鸡蛋。此后，Jack农夫拥有的鸡蛋数是Tom农夫的2倍。Jack农夫有多少个鸡蛋？",
+    "hintZh": "卖出前，将Tom表示为3个单位，将Jack表示为1个单位。卖出后，Jack比Tom多2个单位；利用160个鸡蛋的差额求解。",
+    "solution": {
+      "en": {
+        "strategy": "Represent Farmer Jack's eggs by one amount and Farmer Tom's original eggs by three times that amount.",
+        "steps": [
+          {
+            "title": "Set up the quantities",
+            "text": "Let Farmer Jack have x eggs. Farmer Tom collected 3x eggs on Monday."
+          },
+          {
+            "title": "Use the condition after the sale",
+            "text": "After selling 160 eggs, Tom had 3x − 160 eggs. Jack then had 2 times Tom's amount, so x = 2(3x − 160)."
+          },
+          {
+            "title": "Solve for Jack's eggs",
+            "text": "x = 6x − 320, so 5x = 320 and x = 64."
+          }
+        ],
+        "answerCheck": "64 eggs"
+      },
+      "zh-Hans": {
+        "strategy": "把杰克农夫的鸡蛋数设为1个量，汤姆农夫原有的鸡蛋数就是这个量的3倍。",
+        "steps": [
+          {
+            "title": "设出两人的鸡蛋数",
+            "text": "设杰克农夫有x个鸡蛋，那么汤姆农夫周一收集了3x个鸡蛋。"
+          },
+          {
+            "title": "利用卖出鸡蛋后的关系",
+            "text": "汤姆卖出160个后有3x − 160个。此时杰克的鸡蛋数是汤姆的2倍，所以x = 2(3x − 160)。"
+          },
+          {
+            "title": "解方程",
+            "text": "x = 6x − 320，所以5x = 320，x = 64。"
+          }
+        ],
+        "answerCheck": "答案：64个鸡蛋。"
+      }
+    }
   },
   {
     "id": 3,
-    "topic": "Age comparison",
+    "topic": "Whole Numbers",
     "question": "When George is 15 years old, his sister is 8 years old and his father is 45 years old. How old will George's sister be when George is 1/2 his father's age?",
     "answer": "23 years old",
     "model": "bar-change",
-    "hint": "The father is always 30 years older than George. Find George's age when he is 1/2 his father's age, then add the same number of years to his sister's age."
+    "hint": "The father is always 30 years older than George. Find George's age when he is 1/2 his father's age, then add the same number of years to his sister's age.",
+    "questionZh": "当George 15岁时，他的妹妹8岁，父亲45岁。当George的年龄是父亲年龄的1/2时，他的妹妹将几岁？",
+    "hintZh": "父亲始终比George大30岁。求出George的年龄等于父亲年龄的1/2时他几岁，再在妹妹的年龄上加上相同的年数。",
+    "solution": {
+      "en": {
+        "strategy": "Use the constant age difference between George and his father, then add the elapsed years to his sister's age.",
+        "steps": [
+          {
+            "title": "Find the father-son age difference",
+            "text": "When George is 15 and his father is 45, the difference is 45 − 15 = 30 years."
+          },
+          {
+            "title": "Find George's required age",
+            "text": "When George is half his father's age, let George be g. His father is g + 30, so g = 1/2(g + 30). Thus 2g = g + 30 and g = 30."
+          },
+          {
+            "title": "Advance the sister's age",
+            "text": "George grows from 15 to 30, an increase of 15 years. His sister will be 8 + 15 = 23."
+          }
+        ],
+        "answerCheck": "23 years old"
+      },
+      "zh-Hans": {
+        "strategy": "先利用乔治和父亲之间不变的年龄差，求乔治达到条件时的年龄，再给妹妹增加相同的年数。",
+        "steps": [
+          {
+            "title": "求父子年龄差",
+            "text": "乔治15岁、父亲45岁，年龄差为45 − 15 = 30岁。"
+          },
+          {
+            "title": "求乔治满足条件时的年龄",
+            "text": "设乔治为g岁，父亲为g + 30岁。题意给出g = 1/2(g + 30)，所以2g = g + 30，g = 30。"
+          },
+          {
+            "title": "计算妹妹的年龄",
+            "text": "乔治从15岁到30岁经过15年，妹妹的年龄是8 + 15 = 23岁。"
+          }
+        ],
+        "answerCheck": "答案：23岁。"
+      }
+    }
   },
   {
     "id": 4,
-    "topic": "Comparison after a change",
+    "topic": "Whole Numbers",
     "question": "Linda and Serene had an equal number of balloons. After Linda used 16 balloons, Serene had 3 times as many balloons as Linda. How many balloons did Serene have?",
     "answer": "24 balloons",
     "model": "bar-change",
-    "hint": "After Linda uses balloons, Serene's unchanged amount is 3 equal units while Linda has 1. The 2-unit difference is 16."
+    "hint": "After Linda uses balloons, Serene's unchanged amount is 3 equal units while Linda has 1. The 2-unit difference is 16.",
+    "questionZh": "Linda和Serene原有同样多的气球。Linda用了16个气球后，Serene的气球数是Linda的3倍。Serene有多少个气球？",
+    "hintZh": "Linda用掉气球后，Serene未变的数量是3个相等单位，而Linda是1个单位。2个单位的差额是16。",
+    "solution": {
+      "en": {
+        "strategy": "Let the equal original number of balloons be one variable and compare Serene's unchanged amount with Linda's amount after using 16 balloons.",
+        "steps": [
+          {
+            "title": "Represent the original equal amounts",
+            "text": "Let each girl originally have b balloons. Serene still has b, while Linda has b − 16."
+          },
+          {
+            "title": "Use the three-times condition",
+            "text": "Serene has 3 times Linda's remaining balloons, so b = 3(b − 16)."
+          },
+          {
+            "title": "Solve for Serene's amount",
+            "text": "b = 3b − 48, so 2b = 48 and b = 24."
+          }
+        ],
+        "answerCheck": "24 balloons"
+      },
+      "zh-Hans": {
+        "strategy": "把两人原来相同的气球数设为一个未知量，比较瑟琳娜不变的数量和琳达用掉16个后的数量。",
+        "steps": [
+          {
+            "title": "表示原来的相同数量",
+            "text": "设两人原来各有b个气球。瑟琳娜仍有b个，琳达有b − 16个。"
+          },
+          {
+            "title": "利用3倍关系",
+            "text": "瑟琳娜的气球数是琳达剩余数量的3倍，所以b = 3(b − 16)。"
+          },
+          {
+            "title": "解出瑟琳娜的气球数",
+            "text": "b = 3b − 48，所以2b = 48，b = 24。"
+          }
+        ],
+        "answerCheck": "答案：24个气球。"
+      }
+    }
   },
   {
     "id": 5,
-    "topic": "Equal sharing",
+    "topic": "Whole Numbers",
     "question": "Jennifer had a party. She wanted to give an equal number of balloons to her 6 friends. If 1 of her friends did not turn up for the party, the rest would be able to receive another 2 balloons each. How many balloons did Jennifer have?",
     "answer": "60 balloons",
     "model": "unit-bar",
-    "hint": "With 1 friend absent, 5 friends each receive 2 more balloons. That extra distribution accounts for 10 balloons; use it to find each original share."
+    "hint": "With 1 friend absent, 5 friends each receive 2 more balloons. That extra distribution accounts for 10 balloons; use it to find each original share.",
+    "questionZh": "Jennifer举办了一场派对。她想把气球平均分给她的6位朋友。如果其中1位朋友没有来参加派对，其余的人每人就能多得到2个气球。Jennifer有多少个气球？",
+    "hintZh": "有1位朋友缺席时，5位朋友每人多分到2个气球。这部分额外分配的气球共计10个；利用它求出最初每人应得的数量。",
+    "solution": {
+      "en": {
+        "strategy": "Compare the total balloons when 6 friends attend with the total when only 5 friends attend and each gets 2 more.",
+        "steps": [
+          {
+            "title": "Represent the original share",
+            "text": "Let each of the 6 friends receive x balloons when all attend. Jennifer then has 6x balloons."
+          },
+          {
+            "title": "Use the absent-friend situation",
+            "text": "With 1 friend absent, 5 friends each receive x + 2 balloons, so the same total is 5(x + 2)."
+          },
+          {
+            "title": "Solve for the total",
+            "text": "6x = 5(x + 2), so x = 10. Therefore Jennifer had 6 × 10 = 60 balloons."
+          }
+        ],
+        "answerCheck": "60 balloons"
+      },
+      "zh-Hans": {
+        "strategy": "比较6位朋友都到场时的气球总数和只有5位朋友到场、每人多得2个时的气球总数。",
+        "steps": [
+          {
+            "title": "设原来的每人份数",
+            "text": "设6位朋友都到场时每人分得x个气球，珍妮弗共有6x个气球。"
+          },
+          {
+            "title": "利用1位朋友缺席的情况",
+            "text": "1位朋友没来时，5位朋友每人分得x + 2个，所以总数是5(x + 2)。"
+          },
+          {
+            "title": "求气球总数",
+            "text": "6x = 5(x + 2)，所以x = 10。珍妮弗共有6 × 10 = 60个气球。"
+          }
+        ],
+        "answerCheck": "答案：60个气球。"
+      }
+    }
   },
   {
     "id": 6,
-    "topic": "Equal additions and ratios",
+    "topic": "Whole Numbers",
     "question": "Anna had 3 times as many beads as Zoe. They had 480 beads altogether. Mrs Taylor gave an equal number of beads to each of them. Zoe then had 1/2 the number of beads that Anna had. How many beads did Mrs Taylor give them?",
-    "answer": "240 beads each",
+    "answer": "240 beads",
     "model": "bar-change",
-    "hint": "At 1st, Anna and Zoe are 3 units and 1 unit. Equal additions do not change their difference; after the gifts, Anna is 2 units more than Zoe."
+    "hint": "At 1st, Anna and Zoe are 3 units and 1 unit. Equal additions do not change their difference; after the gifts, Anna is 2 units more than Zoe.",
+    "questionZh": "Anna的珠子数是Zoe的3倍。她们一共有480颗珠子。Taylor太太给她们每人同样多的珠子。此后，Zoe的珠子数是Anna的1/2。Taylor太太给了她们每人多少颗珠子？",
+    "hintZh": "第1步，Anna和Zoe分别为3个单位和1个单位。增加相同数量不会改变她们的差额；收到珠子后，Anna比Zoe多2个单位。",
+    "solution": {
+      "en": {
+        "strategy": "First find Anna's and Zoe's original bead counts from the 3:1 ratio, then use the final one-half relationship after equal gifts.",
+        "steps": [
+          {
+            "title": "Find the original bead counts",
+            "text": "Anna : Zoe = 3 : 1, or 4 parts altogether. 480 ÷ 4 = 120, so Anna had 360 beads and Zoe had 120 beads."
+          },
+          {
+            "title": "Represent the equal gifts",
+            "text": "Let Mrs Taylor give each girl t beads. The new counts are 360 + t and 120 + t."
+          },
+          {
+            "title": "Apply the final half relationship",
+            "text": "Zoe then has 1/2 of Anna's amount: 120 + t = 1/2(360 + t). Thus 240 + 2t = 360 + t, so t = 120. She gave 2 × 120 = 240 beads altogether."
+          }
+        ],
+        "answerCheck": "240 beads"
+      },
+      "zh-Hans": {
+        "strategy": "先用3:1的比求安娜和佐伊原有的珠子数，再利用两人得到相同数量珠子后的1/2关系。",
+        "steps": [
+          {
+            "title": "求原来的珠子数",
+            "text": "安娜 : 佐伊 = 3 : 1，共4份。480 ÷ 4 = 120，所以安娜有360颗，佐伊有120颗。"
+          },
+          {
+            "title": "设每人得到的珠子数",
+            "text": "设泰勒太太给每人t颗珠子，得到后的数量分别为360 + t和120 + t。"
+          },
+          {
+            "title": "利用最后的1/2关系",
+            "text": "佐伊的数量是安娜的1/2：120 + t = 1/2(360 + t)。所以240 + 2t = 360 + t，t = 120。总共给了2 × 120 = 240颗。"
+          }
+        ],
+        "answerCheck": "答案：240颗珠子。"
+      }
+    }
   },
   {
     "id": 7,
-    "topic": "Remainders and arrangements",
+    "topic": "Whole Numbers",
     "question": "Helen had to arrange some chairs in a fixed number of rows. She estimated that there were more than 30 but fewer than 70 chairs. If she put 8 chairs in 1 row, she would be 7 chairs short. If she put 7 chairs in 1 row, she would have 2 chairs left. How many chairs were there?",
     "answer": "65 chairs",
-    "model": "unit-bar",
-    "hint": "Look for a number between 31 and 69 that is 2 more than a multiple of 7 and 7 less than a multiple of 8."
+    "model": "guess-check",
+    "hint": "Look for a number between 31 and 69 that is 2 more than a multiple of 7 and 7 less than a multiple of 8.",
+    "questionZh": "Helen要把一些椅子排成固定行数。她估计椅子超过30把但少于70把。如果每1行放8把椅子，她就会差7把；如果每1行放7把椅子，就会剩2把。共有多少把椅子？",
+    "hintZh": "寻找31到69之间的一个数：它比7的倍数多2，并且比8的倍数少7。",
+    "solution": {
+      "en": {
+        "strategy": "Find a number from 31 to 69 that leaves 2 when arranged in rows of 7 and becomes exactly divisible by 8 after adding the 7 chairs she lacks.",
+        "steps": [
+          {
+            "title": "Translate the 7-chair row condition",
+            "text": "Having 2 chairs left in rows of 7 means the total has the form 7n + 2."
+          },
+          {
+            "title": "List possible totals in the range",
+            "text": "Between 31 and 69, the possible totals are 37, 44, 51, 58, and 65."
+          },
+          {
+            "title": "Test the 8-chair row condition",
+            "text": "She is 7 chairs short for rows of 8, so total + 7 must be divisible by 8. Only 65 + 7 = 72 = 9 × 8."
+          }
+        ],
+        "answerCheck": "65 chairs"
+      },
+      "zh-Hans": {
+        "strategy": "在31到69之间寻找一个数：按每排7把椅子排列时余2把，加上缺少的7把后又能被8整除。",
+        "steps": [
+          {
+            "title": "表示每排7把时的条件",
+            "text": "每排7把椅子后余2把，说明总数可写成7n + 2。"
+          },
+          {
+            "title": "列出范围内的可能数",
+            "text": "31到69之间可能的总数是37、44、51、58和65。"
+          },
+          {
+            "title": "检验每排8把时的条件",
+            "text": "还差7把才够按每排8把排列，所以总数 + 7必须能被8整除。只有65 + 7 = 72 = 9 × 8。"
+          }
+        ],
+        "answerCheck": "答案：65把椅子。"
+      }
+    }
   },
   {
     "id": 8,
-    "topic": "Comparison after a transfer",
+    "topic": "Whole Numbers",
     "question": "Zack and Mandy shared 120 sweets. After Zack gave Mandy 10 sweets, he had 2 times as many sweets as Mandy. How many sweets did each of them have at 1st?",
     "answer": "Mandy: 30 sweets; Zack: 90 sweets",
     "model": "bar-change",
-    "hint": "After the transfer, Zack and Mandy are in a 2:1 ratio. Use the total of 120 to find their after-transfer amounts, then reverse the 10-sweet transfer."
+    "hint": "After the transfer, Zack and Mandy are in a 2:1 ratio. Use the total of 120 to find their after-transfer amounts, then reverse the 10-sweet transfer.",
+    "questionZh": "Zack和Mandy分120颗糖果。Zack给Mandy 10颗糖果后，他的糖果数是Mandy的2倍。他们一开始（第1次分配前）各有多少颗糖果？",
+    "hintZh": "转移后，Zack和Mandy的糖果数之比为2:1。利用总数120求出转移后各自的数量，再还原这次10颗糖果的转移。",
+    "solution": {
+      "en": {
+        "strategy": "Use the 2:1 ratio after Zack gives Mandy 10 sweets, then reverse that transfer to get the initial amounts.",
+        "steps": [
+          {
+            "title": "Find the amounts after the transfer",
+            "text": "After the transfer, Zack : Mandy = 2 : 1 and their total is still 120. One part is 120 ÷ 3 = 40, so Zack has 80 and Mandy has 40."
+          },
+          {
+            "title": "Reverse Zack's transfer",
+            "text": "Before giving 10 sweets, Zack had 80 + 10 = 90 sweets and Mandy had 40 − 10 = 30 sweets."
+          },
+          {
+            "title": "Check the total",
+            "text": "90 + 30 = 120, so the initial amounts use all 120 sweets."
+          }
+        ],
+        "answerCheck": "Mandy: 30 sweets; Zack: 90 sweets"
+      },
+      "zh-Hans": {
+        "strategy": "先用扎克给曼迪10颗糖后形成的2:1比求当时的数量，再倒推转移前的数量。",
+        "steps": [
+          {
+            "title": "求转移后的数量",
+            "text": "转移后扎克 : 曼迪 = 2 : 1，总数仍为120。每1份是120 ÷ 3 = 40，所以扎克有80颗，曼迪有40颗。"
+          },
+          {
+            "title": "倒推转移前的数量",
+            "text": "转移前扎克有80 + 10 = 90颗糖，曼迪有40 − 10 = 30颗糖。"
+          },
+          {
+            "title": "核对总数",
+            "text": "90 + 30 = 120，正好是原来的糖果总数。"
+          }
+        ],
+        "answerCheck": "答案：曼迪30颗糖；扎克90颗糖。"
+      }
+    }
   },
   {
     "id": 9,
-    "topic": "Comparison after removal",
+    "topic": "Whole Numbers",
     "question": "A basket contained 4 times as many blue balls as red balls. After 21 blue balls were taken away, there were 2 times as many red balls as blue balls. How many balls were there in the basket at 1st?",
     "answer": "30 balls",
     "model": "bar-change",
-    "hint": "Represent the original blue balls as 4 units and red balls as 1 unit. After 21 blue balls are removed, compare the new blue amount with 2 times the red amount."
+    "hint": "Draw the blue balls as 8 units and the red balls as 2 units, so that after the removal the new blue amount is exactly 1 unit. The 21 balls taken away are then 7 units.",
+    "questionZh": "一个篮子里蓝球的数量是红球的4倍。取走21个蓝球后，红球数量是蓝球数量的2倍。篮子最初（第1次取走前）共有多少个球？",
+    "hintZh": "把蓝球表示为8份，红球表示为2份，使取走后新的蓝球数正好是1份。取走的21个球就是7份。",
+    "solution": {
+      "en": {
+        "strategy": "Represent the original red-ball count by one amount and use the fact that, after 21 blue balls are removed, red balls are twice the remaining blue balls.",
+        "steps": [
+          {
+            "title": "Represent the original balls",
+            "text": "Let the original number of red balls be r. Then the original number of blue balls is 4r."
+          },
+          {
+            "title": "Use the condition after removal",
+            "text": "After 21 blue balls are removed, 4r − 21 blue balls remain. There are then 2 times as many red balls as blue balls, so r = 2(4r − 21)."
+          },
+          {
+            "title": "Find the original total",
+            "text": "r = 8r − 42, so 7r = 42 and r = 6. The blue balls were 4 × 6 = 24, giving 6 + 24 = 30 balls."
+          }
+        ],
+        "answerCheck": "30 balls"
+      },
+      "zh-Hans": {
+        "strategy": "把原来红球的数量设为一个未知量，再利用拿走21个蓝球后红球数量是剩余蓝球数量的2倍。",
+        "steps": [
+          {
+            "title": "表示原来的球数",
+            "text": "设原来有r个红球，那么原来有4r个蓝球。"
+          },
+          {
+            "title": "利用拿走后的关系",
+            "text": "拿走21个蓝球后，剩下4r − 21个蓝球。此时红球数是蓝球数的2倍，所以r = 2(4r − 21)。"
+          },
+          {
+            "title": "求原来的总数",
+            "text": "r = 8r − 42，所以7r = 42，r = 6。蓝球有4 × 6 = 24个，总数为6 + 24 = 30个。"
+          }
+        ],
+        "answerCheck": "答案：30个球。"
+      }
+    }
   },
   {
     "id": 10,
-    "topic": "Money comparison",
+    "topic": "Fractions",
     "question": "Nancy had 1/3 as much money as Ben. Lucy had $20 more than Ben. They had $132 altogether. How much did each of them have?",
     "answer": "Nancy: $16; Ben: $48; Lucy: $68",
     "model": "money-units",
-    "hint": "Let Nancy be 1 unit and Ben be 3 units. Remove Lucy's extra $20 from the total before dividing the remaining 7 units."
+    "hint": "Let Nancy be 1 unit and Ben be 3 units. Remove Lucy's extra $20 from the total before dividing the remaining 7 units.",
+    "questionZh": "Nancy的钱是Ben的1/3。Lucy的钱比Ben多$20。他们一共有$132。每个人各有多少钱？",
+    "hintZh": "设Nancy为1个单位，Ben为3个单位。先从总数中减去Lucy多出的$20，再把剩余部分按7个单位分配。",
+    "solution": {
+      "en": {
+        "strategy": "Use units for Nancy and Ben, remove Lucy's extra $20, and then divide the remaining total into equal units.",
+        "steps": [
+          {
+            "title": "Set up the unit ratio",
+            "text": "Let Nancy have 1 unit. Ben has 3 units because Nancy has 1/3 as much as Ben, and Lucy has 3 units plus $20."
+          },
+          {
+            "title": "Remove Lucy's extra money",
+            "text": "The three people have 1 + 3 + 3 = 7 units plus $20. Remove the extra $20: $132 − $20 = $112."
+          },
+          {
+            "title": "Find each amount",
+            "text": "$112 ÷ 7 = $16 per unit. Nancy has $16, Ben has 3 × $16 = $48, and Lucy has $48 + $20 = $68."
+          }
+        ],
+        "answerCheck": "Nancy: $16; Ben: $48; Lucy: $68"
+      },
+      "zh-Hans": {
+        "strategy": "把南希和本的金额表示为相等的份数，先扣除露西多出的$20，再把其余总数按份数分配。",
+        "steps": [
+          {
+            "title": "设出份数关系",
+            "text": "设南希有1份。本有3份，因为南希的钱是本的1/3；露西有3份再多$20。"
+          },
+          {
+            "title": "先扣除露西多出的金额",
+            "text": "3人的钱共有1 + 3 + 3 = 7份，另加$20。$132 − $20 = $112。"
+          },
+          {
+            "title": "求各人的金额",
+            "text": "$112 ÷ 7 = $16，每份是$16。南希有$16，本有3 × $16 = $48，露西有$48 + $20 = $68。"
+          }
+        ],
+        "answerCheck": "答案：南希$16；本$48；露西$68。"
+      }
+    }
   },
   {
     "id": 11,
-    "topic": "Mass with fractions",
+    "topic": "Fractions",
     "question": "There were 3 parcels, A, B and C. The mass of Parcel B was 3/4 kg less than the mass of Parcel A. The mass of Parcel C was 2/3 kg more than the mass of Parcel B. If the mass of Parcel A was 4 1/2 kg, what was the mass of Parcel C?",
     "answer": "4 5/12 kg",
     "model": "mass-bar",
-    "hint": "Subtract 3/4 kg from 4 1/2 kg to find Parcel B, then add 2/3 kg. Use a common denominator when adding or subtracting fractions."
+    "hint": "Parcel A is 4 1/2 kg. Subtract 3/4 kg to find Parcel B, then add 2/3 kg to find Parcel C. Change to a common denominator before adding or subtracting.",
+    "questionZh": "有3个包裹，A、B和C。包裹B的质量比包裹A少3/4 kg。包裹C的质量比包裹B多2/3 kg。若包裹A的质量是4 1/2 kg，包裹C的质量是多少？",
+    "hintZh": "从4 1/2 kg中减去3/4 kg，求出包裹B的质量，再加上2/3 kg。分数相加或相减时，使用公分母。",
+    "solution": {
+      "en": {
+        "strategy": "Subtract the stated fraction from Parcel A to obtain Parcel B, then add the stated fraction to obtain Parcel C.",
+        "steps": [
+          {
+            "title": "Find Parcel B's mass",
+            "text": "Parcel A is 4 1/2 kg. Parcel B is 3/4 kg lighter, so B = 4 1/2 − 3/4 = 4 2/4 − 3/4 = 3 3/4 kg."
+          },
+          {
+            "title": "Add to find Parcel C's mass",
+            "text": "Parcel C is 2/3 kg heavier than B: 3 3/4 + 2/3 = 3 9/12 + 8/12 = 4 5/12 kg."
+          },
+          {
+            "title": "Check the stated differences",
+            "text": "4 5/12 − 3 3/4 = 2/3 kg, so Parcel C is the required 2/3 kg heavier than B."
+          }
+        ],
+        "answerCheck": "4 5/12 kg"
+      },
+      "zh-Hans": {
+        "strategy": "先从A包裹的质量中减去给出的分数求B包裹，再加上给出的分数求C包裹。",
+        "steps": [
+          {
+            "title": "求B包裹的质量",
+            "text": "A包裹重4 1/2 kg。B包裹轻3/4 kg，所以B = 4 1/2 − 3/4 = 4 2/4 − 3/4 = 3 3/4 kg。"
+          },
+          {
+            "title": "加上质量差求C包裹",
+            "text": "C包裹比B包裹重2/3 kg：3 3/4 + 2/3 = 3 9/12 + 8/12 = 4 5/12 kg。"
+          },
+          {
+            "title": "核对质量差",
+            "text": "4 5/12 − 3 3/4 = 2/3 kg，C包裹确实比B包裹重2/3 kg。"
+          }
+        ],
+        "answerCheck": "答案：4 5/12 kg。"
+      }
+    }
   },
   {
     "id": 12,
-    "topic": "Fractions of salary",
+    "topic": "Fractions",
     "question": "Mr Rice spent 1/5 of his salary on food and 2/3 on clothing. 1/2 of the remaining amount was given to his wife and he saved the rest. If he had saved $520, what was Mr Rice's salary?",
     "answer": "$7800",
     "model": "fraction-of-remainder",
-    "hint": "Express 1/5 and 2/3 in fifteenths. After food and clothing, split the remaining fraction equally between his wife and his savings."
+    "hint": "Express 1/5 and 2/3 in fifteenths. After food and clothing, split the remaining fraction equally between his wife and his savings.",
+    "questionZh": "Rice先生把工资的1/5花在食物上，把2/3花在衣物上。剩余金额的1/2给了妻子，其余存起来。如果他存了$520，Rice先生的工资是多少？",
+    "hintZh": "将1/5和2/3化为以15为分母的分数。扣除食物和衣物的开支后，把剩余的分数在妻子和储蓄之间平均分配。",
+    "solution": {
+      "en": {
+        "strategy": "Find the fraction left after food and clothing, then use the fact that savings are half of that remainder.",
+        "steps": [
+          {
+            "title": "Find the remaining fraction",
+            "text": "Food and clothing used 1/5 + 2/3 = 3/15 + 10/15 = 13/15 of the salary. The remaining fraction was 1 − 13/15 = 2/15."
+          },
+          {
+            "title": "Find the savings fraction",
+            "text": "Mr Rice gave 1/2 of the remaining 2/15 to his wife and saved the other 1/2. His savings were 1/2 × 2/15 = 1/15 of his salary."
+          },
+          {
+            "title": "Calculate the salary",
+            "text": "If 1/15 is $520, the full salary is 15 × $520 = $7800."
+          }
+        ],
+        "answerCheck": "$7800"
+      },
+      "zh-Hans": {
+        "strategy": "先求食物和衣服支出后剩下的薪水分数，再利用储蓄是这部分的一半。",
+        "steps": [
+          {
+            "title": "求剩余的薪水分数",
+            "text": "食物和衣服用了1/5 + 2/3 = 3/15 + 10/15 = 13/15，剩下1 − 13/15 = 2/15。"
+          },
+          {
+            "title": "求储蓄所占分数",
+            "text": "赖斯先生把剩余2/15的一半给妻子，另一半储蓄。因此储蓄是1/2 × 2/15 = 1/15的薪水。"
+          },
+          {
+            "title": "计算薪水",
+            "text": "1/15是$520，所以全部薪水是15 × $520 = $7800。"
+          }
+        ],
+        "answerCheck": "答案：$7800。"
+      }
+    }
   },
   {
     "id": 13,
-    "topic": "Fractions of a remainder",
+    "topic": "Fractions",
     "question": "Sam had some marbles. He gave 1/7 of them to his brother. 2/3 of the remaining marbles were given to his cousin. The rest were kept in a box. If 48 marbles were kept in the box, how many more marbles did Sam give to his cousin than to his brother?",
     "answer": "72 marbles",
     "model": "fraction-of-remainder",
-    "hint": "After giving 1/7 away, the remaining 6/7 is split into 2/3 for the cousin and 1/3 kept. Work backwards from the 48 kept marbles."
+    "hint": "After giving 1/7 away, the remaining 6/7 is split into 2/3 for the cousin and 1/3 kept. Work backwards from the 48 kept marbles.",
+    "questionZh": "Sam有一些弹珠。他把其中的1/7给了弟弟。剩余弹珠的2/3给了表亲，其余放在一个盒子里。如果盒子里有48颗弹珠，Sam给表亲的弹珠比给弟弟的多多少颗？",
+    "hintZh": "给出1/7后，剩余的6/7分为给表亲的2/3和保留的1/3。从盒中保留的48颗弹珠倒推。",
+    "solution": {
+      "en": {
+        "strategy": "Work backward from the 48 marbles kept, which are one-third of the marbles remaining after Sam gave one-seventh to his brother.",
+        "steps": [
+          {
+            "title": "Find the marbles remaining after the first gift",
+            "text": "After giving 1/7 to his brother, Sam has 6/7 left. The 48 marbles kept are 1/3 of this remainder because 2/3 went to his cousin. Thus the remainder is 48 × 3 = 144."
+          },
+          {
+            "title": "Find the original number and each gift",
+            "text": "If 6/7 of the original number is 144, the original number is 144 ÷ 6 × 7 = 168. His brother received 1/7 × 168 = 24 marbles."
+          },
+          {
+            "title": "Compare the cousin's and brother's gifts",
+            "text": "His cousin received 2/3 × 144 = 96 marbles. The difference is 96 − 24 = 72 marbles."
+          }
+        ],
+        "answerCheck": "72 marbles"
+      },
+      "zh-Hans": {
+        "strategy": "从盒中留下的48颗弹珠倒推；这48颗是山姆送给弟弟后剩余弹珠的1/3。",
+        "steps": [
+          {
+            "title": "求送给弟弟后剩下的弹珠数",
+            "text": "送给弟弟1/7后，剩下6/7。剩下的弹珠中2/3送给表兄弟，盒中留下1/3，所以送弟弟后剩下48 × 3 = 144颗。"
+          },
+          {
+            "title": "求原有数量和送给弟弟的数量",
+            "text": "原数的6/7是144，所以原数为144 ÷ 6 × 7 = 168。弟弟得到1/7 × 168 = 24颗。"
+          },
+          {
+            "title": "比较两次赠送的数量",
+            "text": "表兄弟得到2/3 × 144 = 96颗。96 − 24 = 72颗。"
+          }
+        ],
+        "answerCheck": "答案：72颗弹珠。"
+      }
+    }
   },
   {
     "id": 14,
-    "topic": "Fractions and subtraction",
+    "topic": "Fractions",
     "question": "Mrs Anderson bought 60 eggs. She used 2/5 of them to bake cakes. She used some eggs to bake cookies. She had 12 eggs left. How many eggs did she use for baking cookies?",
     "answer": "24 eggs",
     "model": "fraction-of-remainder",
-    "hint": "Find 2/5 of 60 for the cakes, then subtract both the cake eggs and the eggs left from 60."
+    "hint": "Find 2/5 of 60 for the cakes, then subtract both the cake eggs and the eggs left from 60.",
+    "questionZh": "Anderson太太买了60个鸡蛋。她用其中的2/5烤蛋糕，又用一些鸡蛋烤饼干。她还剩12个鸡蛋。她烤饼干用了多少个鸡蛋？",
+    "hintZh": "先求出60的2/5用于烤蛋糕，再从60中减去烤蛋糕用的鸡蛋和剩下的鸡蛋。",
+    "solution": {
+      "en": {
+        "strategy": "Find the eggs used for cakes first, then subtract the cake eggs and the eggs left from the original 60.",
+        "steps": [
+          {
+            "title": "Calculate the cake eggs",
+            "text": "Mrs Anderson used 2/5 of 60 eggs for cakes: 2/5 × 60 = 24 eggs."
+          },
+          {
+            "title": "Account for the eggs left",
+            "text": "After all baking, 12 eggs were left. The cake eggs, cookie eggs, and leftover eggs total 60."
+          },
+          {
+            "title": "Find the cookie eggs",
+            "text": "60 − 24 − 12 = 24 eggs were used for baking cookies."
+          }
+        ],
+        "answerCheck": "24 eggs"
+      },
+      "zh-Hans": {
+        "strategy": "先求做蛋糕用掉的鸡蛋数，再从原来的60个中减去做蛋糕的鸡蛋和剩下的鸡蛋。",
+        "steps": [
+          {
+            "title": "计算做蛋糕用的鸡蛋",
+            "text": "安德森太太用60个鸡蛋的2/5做蛋糕：2/5 × 60 = 24个。"
+          },
+          {
+            "title": "列出剩余鸡蛋的关系",
+            "text": "完成所有烘焙后还剩12个鸡蛋。做蛋糕、做饼干和剩下的鸡蛋共60个。"
+          },
+          {
+            "title": "求做饼干用的鸡蛋",
+            "text": "60 − 24 − 12 = 24，所以做饼干用了24个鸡蛋。"
+          }
+        ],
+        "answerCheck": "答案：24个鸡蛋。"
+      }
+    }
   },
   {
     "id": 15,
-    "topic": "Fractional groups",
+    "topic": "Fractions",
     "question": "2/7 of the members in a country club are men. There are 1050 women below 50 years old. If there are 960 more women than men in the country club, how many women are above 50 years old?",
     "answer": "550 women",
     "model": "unit-bar",
-    "hint": "If men are 2/7 of the club, women are 5/7. The difference between women and men is 3 equal units, which is 960."
+    "hint": "If men are 2/7 of the club, women are 5/7. The difference between women and men is 3 equal units, which is 960.",
+    "questionZh": "某乡村俱乐部成员中，2/7是男性。有1050名50岁以下的女性。如果该俱乐部中女性比男性多960人，那么50岁以上的女性有多少人？",
+    "hintZh": "如果男性占俱乐部成员的2/7，那么女性占5/7。女性与男性的差是3个相等单位，即960人。",
+    "solution": {
+      "en": {
+        "strategy": "Use the 2/7 men and 5/7 women fractions so that the 960-person difference represents 3 equal parts, then subtract the younger women.",
+        "steps": [
+          {
+            "title": "Find one equal part",
+            "text": "Women make up 5/7 and men make up 2/7, so the difference is 5/7 − 2/7 = 3/7. Those 3 parts equal 960, so 1 part is 960 ÷ 3 = 320."
+          },
+          {
+            "title": "Find the total number of women",
+            "text": "Women make up 5 parts, so there are 5 × 320 = 1600 women in the club."
+          },
+          {
+            "title": "Subtract women below 50",
+            "text": "1600 − 1050 = 550 women are above 50 years old."
+          }
+        ],
+        "answerCheck": "550 women"
+      },
+      "zh-Hans": {
+        "strategy": "利用男性占2/7、女性占5/7，令960人的差额对应3个相等份，再减去50岁以下的女性人数。",
+        "steps": [
+          {
+            "title": "求每一份的人数",
+            "text": "女性占5/7，男性占2/7，差额为5/7 − 2/7 = 3/7。这3份是960人，所以1份为960 ÷ 3 = 320人。"
+          },
+          {
+            "title": "求女性总人数",
+            "text": "女性占5份，所以女性总数为5 × 320 = 1600人。"
+          },
+          {
+            "title": "减去50岁以下的女性",
+            "text": "1600 − 1050 = 550，因此50岁以上的女性有550人。"
+          }
+        ],
+        "answerCheck": "答案：550名女性。"
+      }
+    }
   },
   {
     "id": 16,
-    "topic": "Money and note counts",
+    "topic": "Fractions",
     "question": "Stephanie had a total of 80 pieces of $2 and $10 notes. After spending 2/5 of her $2 notes and 8 pieces of her $10 notes, she had an equal number of $2 and $10 notes left. How much money did Stephanie have at 1st?",
     "answer": "$440",
     "model": "money-units",
-    "hint": "The 2 kinds of notes left are equal. Since 8 $10 notes were spent, use the total note count to find each original count before calculating the money."
+    "hint": "The 2 kinds of notes left are equal. Since 8 $10 notes were spent, use the total note count to find each original count before calculating the money.",
+    "questionZh": "Stephanie共有80张$2和$10钞票。她花掉$2钞票的2/5以及8张$10钞票后，剩下的$2和$10钞票数量相同。Stephanie最初（第1次消费前）有多少钱？",
+    "hintZh": "剩下的2种纸币数量相同。既然她花掉了8张$10纸币，利用纸币总张数求出每种纸币最初的张数，再计算金额。",
+    "solution": {
+      "en": {
+        "strategy": "Let the original counts of $2 and $10 notes be variables, use the equal counts left after spending, and then calculate the original value.",
+        "steps": [
+          {
+            "title": "Set up the note counts",
+            "text": "Let x be the original number of $2 notes and y be the original number of $10 notes. Since there are 80 notes, x + y = 80."
+          },
+          {
+            "title": "Use the equal remaining counts",
+            "text": "After spending 2/5 of the $2 notes, 3/5x remain. After spending 8 $10 notes, y − 8 remain. These are equal, so 3/5x = y − 8."
+          },
+          {
+            "title": "Solve and calculate the value",
+            "text": "Substitute y = 80 − x: 3/5x = 72 − x. Thus 8/5x = 72, x = 45 and y = 35. The original money was 45 × $2 + 35 × $10 = $440."
+          }
+        ],
+        "answerCheck": "$440"
+      },
+      "zh-Hans": {
+        "strategy": "把原有的$2和$10纸币张数设为未知数，利用花掉部分纸币后两种纸币剩余张数相等的条件，再计算原有金额。",
+        "steps": [
+          {
+            "title": "设出两种纸币的张数",
+            "text": "设原有$2纸币为x张，$10纸币为y张。共有80张，所以x + y = 80。"
+          },
+          {
+            "title": "利用剩余张数相等",
+            "text": "花掉$2纸币的2/5后，剩下3/5x张；花掉8张$10纸币后，剩下y − 8张。两者相等，所以3/5x = y − 8。"
+          },
+          {
+            "title": "解出张数并求金额",
+            "text": "代入y = 80 − x：3/5x = 72 − x。因此8/5x = 72，x = 45，y = 35。原有金额为45 × $2 + 35 × $10 = $440。"
+          }
+        ],
+        "answerCheck": "答案：$440。"
+      }
+    }
   },
   {
     "id": 17,
-    "topic": "Fractions of groups",
+    "topic": "Fractions",
     "question": "3/5 of the animals on a farm are ducks and the rest are chickens. 1/5 of the chickens are brown and the rest are white. If there are 24 white chickens, how many more ducks than chickens are there on the farm?",
     "answer": "15 more ducks",
     "model": "fraction-of-remainder",
-    "hint": "White chickens are 4/5 of all chickens. Find the total chickens 1st, then use the 3:2 ratio of ducks to chickens."
+    "hint": "White chickens are 4/5 of all chickens. Find the total chickens 1st, then use the 3:2 ratio of ducks to chickens.",
+    "questionZh": "农场里的动物中，3/5是鸭子，其余是鸡。鸡中有1/5是棕色的，其余是白色的。如果有24只白鸡，农场里鸭子比鸡多多少只？",
+    "hintZh": "白鸡占所有鸡的4/5。第1步求鸡的总数，再利用鸭与鸡的3:2比例。",
+    "solution": {
+      "en": {
+        "strategy": "Use the white-chicken fraction to find all chickens, then use the 3:2 ducks-to-chickens ratio to compare their counts.",
+        "steps": [
+          {
+            "title": "Find the total chickens",
+            "text": "Of the chickens, 1/5 are brown, so 4/5 are white. If 4/5 is 24 white chickens, all chickens number 24 ÷ 4 × 5 = 30."
+          },
+          {
+            "title": "Find the ducks",
+            "text": "Ducks are 3/5 of the farm and chickens are the remaining 2/5, so ducks : chickens = 3 : 2. If 2 parts equal 30 chickens, 1 part is 15 and ducks are 3 × 15 = 45."
+          },
+          {
+            "title": "Compare the counts",
+            "text": "45 − 30 = 15, so there are 15 more ducks than chickens."
+          }
+        ],
+        "answerCheck": "15 more ducks"
+      },
+      "zh-Hans": {
+        "strategy": "先利用白鸡占鸡总数的分数求全部鸡的数量，再用鸭和鸡的3:2比比较它们的数量。",
+        "steps": [
+          {
+            "title": "求鸡的总数",
+            "text": "鸡中有1/5是棕色，所以4/5是白色。4/5对应24只白鸡，因此鸡的总数是24 ÷ 4 × 5 = 30只。"
+          },
+          {
+            "title": "求鸭的数量",
+            "text": "鸭占农场动物的3/5，鸡占剩下的2/5，所以鸭 : 鸡 = 3 : 2。2份对应30只鸡，1份是15只，鸭有3 × 15 = 45只。"
+          },
+          {
+            "title": "比较鸭和鸡的数量",
+            "text": "45 − 30 = 15，因此鸭比鸡多15只。"
+          }
+        ],
+        "answerCheck": "答案：多15只鸭。"
+      }
+    }
   },
   {
     "id": 18,
-    "topic": "Monthly savings",
+    "topic": "Fractions",
     "question": "Susan earns $2450 a month. She spends 2/5 of it and saves the rest. Andy earns $800 less than Susan. He spends $180 more than Susan each month and saves the rest. How much more can Susan save than Andy in 1/2 a year?",
     "answer": "$5880",
     "model": "money-units",
-    "hint": "Find Susan's monthly saving, then subtract Andy's lower income and extra spending to get his monthly saving. Multiply the monthly difference by 6."
+    "hint": "Find Susan's monthly saving, then subtract Andy's lower income and extra spending to get his monthly saving. Multiply the monthly difference by 6.",
+    "questionZh": "Susan 每月赚 $2450。她花掉其中的 2/5，剩下的存起来。Andy 每月比 Susan 少赚 $800。他每月比 Susan 多花 $180，其余的钱存起来。在 1/2 年内，Susan 比 Andy 能多存多少钱？",
+    "hintZh": "先求 Susan 每月的储蓄额，再从 Andy 较低的收入中扣除额外支出，求出他每月的储蓄额。将每月的差额乘以 6。",
+    "solution": {
+      "en": {
+        "strategy": "Find each person's monthly saving, then compare the savings over 6 months.",
+        "steps": [
+          {
+            "title": "Find Susan's monthly saving",
+            "text": "Susan spends 2/5 of $2450: 2/5 × 2450 = $980. She saves $2450 − $980 = $1470 each month."
+          },
+          {
+            "title": "Find Andy's monthly saving",
+            "text": "Andy earns $2450 − $800 = $1650. He spends $980 + $180 = $1160, so he saves $1650 − $1160 = $490 each month."
+          },
+          {
+            "title": "Compare 6 months of saving",
+            "text": "Susan saves $1470 − $490 = $980 more each month. Since 1/2 a year is 6 months, $980 × 6 = $5880."
+          }
+        ],
+        "answerCheck": "The difference over 6 months is $5880."
+      },
+      "zh-Hans": {
+        "strategy": "先分别求出两人每月的储蓄，再比较6个月的储蓄差。",
+        "steps": [
+          {
+            "title": "求苏珊每月的储蓄",
+            "text": "苏珊花掉$2450的2/5：2/5 × 2450 = $980。她每月储蓄$2450 − $980 = $1470。"
+          },
+          {
+            "title": "求安迪每月的储蓄",
+            "text": "安迪收入$2450 − $800 = $1650。他每月花$980 + $180 = $1160，所以储蓄$1650 − $1160 = $490。"
+          },
+          {
+            "title": "比较6个月的储蓄",
+            "text": "苏珊每月多储蓄$1470 − $490 = $980。1/2年是6个月，因此$980 × 6 = $5880。"
+          }
+        ],
+        "answerCheck": "6个月的储蓄差是$5880。"
+      }
+    }
   },
   {
     "id": 19,
-    "topic": "Mass with mixed numbers",
+    "topic": "Fractions",
     "question": "On Monday, a shopkeeper sold 12 1/2 kg of flour. He sold 5/6 kg more flour on Tuesday than on Monday. On Wednesday, he sold 1 1/3 kg less flour than on Tuesday. He then had 1/3 kg of flour left in his shop. How much flour did he have at 1st?",
     "answer": "38 1/6 kg",
     "model": "mass-bar",
-    "hint": "Calculate Tuesday from Monday, then Wednesday from Tuesday. Add the 3 daily sales and the flour left, using sixths as a common denominator."
+    "hint": "Calculate Tuesday from Monday, then Wednesday from Tuesday. Add the 3 daily sales and the flour left, using sixths as a common denominator.",
+    "questionZh": "星期一，某店主卖出 12 1/2 kg 面粉。星期二卖出的面粉比星期一多 5/6 kg。星期三卖出的面粉比星期二少 1 1/3 kg。之后，他店里还剩 1/3 kg 面粉。他起初（1st）有多少面粉？",
+    "hintZh": "先根据星期一求出星期二的销量，再根据星期二求出星期三的销量。用 6 作公分母，将 3 天的销量和剩余的面粉相加。",
+    "solution": {
+      "en": {
+        "strategy": "Express all daily sales in sixths, then add the sales and the flour left.",
+        "steps": [
+          {
+            "title": "Find Tuesday and Wednesday sales",
+            "text": "Monday's sale was 12 1/2 = 75/6 kg. Tuesday's sale was 75/6 + 5/6 = 80/6 kg. Wednesday's sale was 80/6 − 1 1/3 = 80/6 − 8/6 = 72/6 kg."
+          },
+          {
+            "title": "Add all flour accounted for",
+            "text": "The total sold was 75/6 + 80/6 + 72/6 = 227/6 kg. The 1/3 kg left is 2/6 kg, so the starting amount was 227/6 + 2/6 = 229/6 = 38 1/6 kg."
+          }
+        ],
+        "answerCheck": "He had 38 1/6 kg at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "把每天卖出的面粉都化成以6为分母的分数，再加上剩余量。",
+        "steps": [
+          {
+            "title": "求星期二和星期三的销量",
+            "text": "星期一卖12 1/2 = 75/6 kg。星期二卖75/6 + 5/6 = 80/6 kg。星期三比星期二少1 1/3 = 8/6 kg，所以卖80/6 − 8/6 = 72/6 kg。"
+          },
+          {
+            "title": "合计卖出和剩余的面粉",
+            "text": "3天共卖75/6 + 80/6 + 72/6 = 227/6 kg。剩下1/3 = 2/6 kg，所以开始有227/6 + 2/6 = 229/6 = 38 1/6 kg。"
+          }
+        ],
+        "answerCheck": "开始时有38 1/6 kg面粉。"
+      }
+    }
   },
   {
     "id": 20,
-    "topic": "Fractions of a remainder",
+    "topic": "Fractions",
     "question": "2/7 of the toy cars in a box are silver. 1/10 of the remainder are yellow and the rest are black. If there are 28 silver toy cars, how many black toy cars are there in the box?",
     "answer": "63 black toy cars",
     "model": "fraction-of-remainder",
-    "hint": "Use the silver cars to find the total. Yellow cars are 1/10 of the 5/7 remainder; subtract silver and yellow from the total."
+    "hint": "Use the silver cars to find the total. Yellow cars are 1/10 of the 5/7 remainder; subtract silver and yellow from the total.",
+    "questionZh": "某个盒子中有 2/7 的玩具汽车是银色的。剩余玩具汽车中的 1/10 是黄色的，其余是黑色的。如果有 28 辆银色玩具汽车，盒子里有多少辆黑色玩具汽车？",
+    "hintZh": "利用银色玩具汽车的数量求出总数。黄色玩具汽车是剩余 5/7 中的 1/10；从总数中减去银色和黄色玩具汽车。",
+    "solution": {
+      "en": {
+        "strategy": "Use the silver fraction to find the total, then remove the silver and yellow cars.",
+        "steps": [
+          {
+            "title": "Find the total number of cars",
+            "text": "28 silver cars are 2/7 of the box. Therefore the total is 28 ÷ 2/7 = 28 × 7/2 = 98 cars."
+          },
+          {
+            "title": "Find yellow and black cars",
+            "text": "After the silver cars, 98 − 28 = 70 cars remain. Yellow cars are 1/10 of 70, or 7. The black cars are 70 − 7 = 63."
+          }
+        ],
+        "answerCheck": "There are 63 black toy cars."
+      },
+      "zh-Hans": {
+        "strategy": "利用银色车所占的分数求总数，再从剩余车辆中扣除黄色车。",
+        "steps": [
+          {
+            "title": "求玩具车总数",
+            "text": "28辆银色玩具车占全盒的2/7，所以总数是28 ÷ 2/7 = 28 × 7/2 = 98辆。"
+          },
+          {
+            "title": "求黄色车和黑色车",
+            "text": "扣除银色车后，剩下98 − 28 = 70辆。黄色车是70的1/10，即7辆。黑色车有70 − 7 = 63辆。"
+          }
+        ],
+        "answerCheck": "有63辆黑色玩具车。"
+      }
+    }
   },
   {
     "id": 21,
-    "topic": "Fractions after giving",
+    "topic": "Fractions",
     "question": "Andrew and Ryan shared some chocolates. Andrew gave away 1/4 of his chocolates. 1/4 of the given chocolates were taken by Ryan. Ryan then had the same number of chocolates as Andrew. If Andrew gave away 12 chocolates, how many chocolates did each of them have at 1st?",
     "answer": "Andrew: 48 chocolates; Ryan: 33 chocolates",
     "model": "fraction-of-remainder",
-    "hint": "The 12 chocolates given away are 1/4 of Andrew's original amount. Ryan receives 1/4 of those 12; use the equal final amounts to work backwards."
+    "hint": "The 12 chocolates given away are 1/4 of Andrew's original amount. Ryan receives 1/4 of those 12; use the equal final amounts to work backwards.",
+    "questionZh": "Andrew 和 Ryan 分了若干巧克力。Andrew 送出了自己巧克力的 1/4。送出的巧克力中有 1/4 被 Ryan 拿走。此后，Ryan 的巧克力数量与 Andrew 相同。如果 Andrew 送出了 12 块巧克力，他们起初（1st）各有多少块巧克力？",
+    "hintZh": "送出的 12 块巧克力是 Andrew 原有数量的 1/4。Ryan 得到这 12 块中的 1/4；利用 2 人最后数量相等这个条件倒推。",
+    "solution": {
+      "en": {
+        "strategy": "Work from Andrew's given-away amount, then reverse the equal final amounts.",
+        "steps": [
+          {
+            "title": "Find Andrew's original and final amounts",
+            "text": "The 12 chocolates Andrew gave away were 1/4 of his original amount. Thus Andrew originally had 12 × 4 = 48 chocolates, and he had 48 − 12 = 36 after giving them away."
+          },
+          {
+            "title": "Find Ryan's original amount",
+            "text": "Ryan took 1/4 of the 12 given chocolates, which is 12 ÷ 4 = 3 chocolates. Ryan finished with the same 36 chocolates as Andrew, so he started with 36 − 3 = 33 chocolates."
+          }
+        ],
+        "answerCheck": "Andrew: 48 chocolates; Ryan: 33 chocolates."
+      },
+      "zh-Hans": {
+        "strategy": "先由安德鲁送出的数量求出他的原有数量，再从两人最后相等的数量倒推。",
+        "steps": [
+          {
+            "title": "求安德鲁原有和剩下的巧克力",
+            "text": "安德鲁送出的12颗是他原有数量的1/4，所以他原有12 × 4 = 48颗。送出后剩48 − 12 = 36颗。"
+          },
+          {
+            "title": "求瑞安原有的巧克力",
+            "text": "瑞安拿走送出巧克力的1/4，即12 ÷ 4 = 3颗。瑞安最后也有36颗，所以开始时有36 − 3 = 33颗。"
+          }
+        ],
+        "answerCheck": "安德鲁有48颗巧克力；瑞安有33颗巧克力。"
+      }
+    }
   },
   {
     "id": 22,
-    "topic": "Equalising two quantities",
+    "topic": "Fractions",
     "question": "Boxes A and B contained 112 pencils. When 1/5 of the pencils in box A were transferred to box B, both boxes contained the same number of pencils. How many more pencils were there in box A than in box B at 1st?",
     "answer": "28 pencils",
     "model": "bar-change",
-    "hint": "After transferring 1/5 of Box A, both boxes are equal. Draw Box A as 5 units and compare the before-and-after total of 112."
+    "hint": "After transferring 1/5 of Box A, both boxes are equal. Draw Box A as 5 units and compare the before-and-after total of 112.",
+    "questionZh": "盒子 A 和 B 中共有 112 支铅笔。当盒子 A 中的 1/5 铅笔转移到盒子 B 后，2 个盒子中的铅笔数量相同。起初（1st）盒子 A 比盒子 B 多多少支铅笔？",
+    "hintZh": "转移盒子 A 中的 1/5 后，2 个盒子中的数量相等。将盒子 A 画成 5 个单位，并结合转移前后的总数 112 进行比较。",
+    "solution": {
+      "en": {
+        "strategy": "Model box A as 5 equal units because 1/5 of it is transferred.",
+        "steps": [
+          {
+            "title": "Set up the unit model",
+            "text": "Let box A initially contain 5 units. Transferring 1/5 of A moves 1 unit, leaving 4 units in A. For the boxes to be equal, box B must initially have 3 units, because 3 + 1 = 4."
+          },
+          {
+            "title": "Find the difference",
+            "text": "Together the boxes have 5 + 3 = 8 units, equal to 112 pencils. Thus 1 unit is 112 ÷ 8 = 14 pencils. The initial difference is 5 − 3 = 2 units, or 2 × 14 = 28 pencils."
+          }
+        ],
+        "answerCheck": "Box A had 28 pencils more than box B at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "因为转走盒A的1/5，所以把盒A原有数量看作5个相等单位。",
+        "steps": [
+          {
+            "title": "建立单位模型",
+            "text": "设盒A开始有5个单位。转走1/5就是转走1个单位，盒A剩4个单位。转走后两盒相等，因此盒B开始应有3个单位，因为3 + 1 = 4。"
+          },
+          {
+            "title": "求原来的差",
+            "text": "两盒共5 + 3 = 8个单位，对应112支铅笔，所以1个单位是112 ÷ 8 = 14支。原来的差是5 − 3 = 2个单位，即2 × 14 = 28支。"
+          }
+        ],
+        "answerCheck": "开始时盒A比盒B多28支铅笔。"
+      }
+    }
   },
   {
     "id": 23,
-    "topic": "Fractions of salary",
+    "topic": "Fractions",
     "question": "Andrea spent 1/5 of her salary on food and 1/10 on transport. She gave the remaining amount to her 3 brothers equally. 1 of her brothers spent all his money on a radio and a watch that cost $86 and $145 respectively. What was Andrea's salary?",
     "answer": "$990",
     "model": "fraction-of-remainder",
-    "hint": "1 brother received $86 + $145. Multiply by 3 for the total remainder, then recognise that this remainder is 7/10 of Andrea's salary."
+    "hint": "1 brother received $86 + $145. Multiply by 3 for the total remainder, then recognise that this remainder is 7/10 of Andrea's salary.",
+    "questionZh": "Andrea 将薪水的 1/5 用于食物，1/10 用于交通。她把剩余的钱平均给了她的 3 位兄弟。其中 1 位兄弟把所有钱都花在了 1 台收音机和 1 块手表上，价格分别为 $86 和 $145。Andrea 的薪水是多少？",
+    "hintZh": "1 位兄弟得到的钱为 $86 + $145。乘以 3 得到剩余金额的总数，再注意到这笔剩余金额是 Andrea 薪水的 7/10。",
+    "solution": {
+      "en": {
+        "strategy": "Find one brother's share, combine the 3 equal shares, and scale up from the remaining 7/10 of the salary.",
+        "steps": [
+          {
+            "title": "Find the money received by one brother",
+            "text": "The radio and watch cost $86 + $145 = $231. Since one brother spent all of his share on them, each brother received $231."
+          },
+          {
+            "title": "Recover Andrea's salary",
+            "text": "The 3 brothers received $231 × 3 = $693. Andrea kept 1 − 1/5 − 1/10 = 7/10 of her salary for the brothers. Therefore her salary was $693 ÷ 7/10 = $693 × 10/7 = $990."
+          }
+        ],
+        "answerCheck": "Andrea's salary was $990."
+      },
+      "zh-Hans": {
+        "strategy": "先求1个兄弟所得的钱，再把3份相加，并由薪水的7/10反求总薪水。",
+        "steps": [
+          {
+            "title": "求1个兄弟得到的钱",
+            "text": "收音机和手表共花$86 + $145 = $231。这个兄弟把所有钱都花在这两样物品上，所以每个兄弟得到$231。"
+          },
+          {
+            "title": "反求安德烈娅的薪水",
+            "text": "3个兄弟共得到$231 × 3 = $693。安德烈娅给兄弟们的钱占薪水的1 − 1/5 − 1/10 = 7/10。因此她的薪水是$693 ÷ 7/10 = $693 × 10/7 = $990。"
+          }
+        ],
+        "answerCheck": "安德烈娅的薪水是$990。"
+      }
+    }
   },
   {
     "id": 24,
-    "topic": "Comparison after a transfer",
+    "topic": "Fractions",
     "question": "Ann and James had some stickers. After Ann gave James 1/4 of her stickers, James had 2 times as many stickers as Ann. If they had a total of 117 stickers, how many stickers did each of them have in the beginning?",
     "answer": "James: 65 stickers; Ann: 52 stickers",
     "model": "bar-change",
-    "hint": "Treat Ann's original amount as 4 equal parts. After 1 part moves to James, the final ratio is 2:1; use the unchanged total of 117."
+    "hint": "Treat Ann's original amount as 4 equal parts. After 1 part moves to James, the final ratio is 2:1; use the unchanged total of 117.",
+    "questionZh": "Ann 和 James 有若干贴纸。Ann 给了 James 自己贴纸的 1/4 后，James 的贴纸数量是 Ann 的 2 倍。如果他们共有 117 张贴纸，起初 2 人各有多少张贴纸？",
+    "hintZh": "将 Ann 起初的数量视为 4 个相等部分。转移 1 个部分给 James 后，最终比为 2:1；利用不变的总数 117。",
+    "solution": {
+      "en": {
+        "strategy": "Represent Ann's original stickers as 4 units so that the transferred 1/4 is one unit.",
+        "steps": [
+          {
+            "title": "Build the before-and-after model",
+            "text": "Let Ann start with 4 units. She gives 1 unit to James and has 3 units left. James then has 2 × 3 = 6 units, so he must have started with 6 − 1 = 5 units."
+          },
+          {
+            "title": "Use the total",
+            "text": "Initially they had 4 + 5 = 9 units, equal to 117 stickers. One unit is 117 ÷ 9 = 13 stickers. Ann had 4 × 13 = 52 stickers and James had 5 × 13 = 65 stickers."
+          }
+        ],
+        "answerCheck": "James: 65 stickers; Ann: 52 stickers."
+      },
+      "zh-Hans": {
+        "strategy": "把安原有的贴纸看作4个单位，这样她给出的1/4正好是1个单位。",
+        "steps": [
+          {
+            "title": "建立转移前后的单位关系",
+            "text": "设安开始有4个单位。她给詹姆斯1个单位后，自己剩3个单位。詹姆斯这时有安的2倍，即2 × 3 = 6个单位，所以他开始有6 − 1 = 5个单位。"
+          },
+          {
+            "title": "利用总数求每人的数量",
+            "text": "开始时共有4 + 5 = 9个单位，对应117张贴纸。1个单位是117 ÷ 9 = 13张。安有4 × 13 = 52张，詹姆斯有5 × 13 = 65张。"
+          }
+        ],
+        "answerCheck": "詹姆斯有65张贴纸；安有52张贴纸。"
+      }
+    }
   },
   {
     "id": 25,
-    "topic": "Nested fractions of money",
+    "topic": "Fractions",
     "question": "Mrs Brown gave 4/7 of her money to her son. He spent 2/5 of the money on a pair of shoes and the rest on 2 books that cost $18 each. How much did Mrs Brown have at 1st?",
     "answer": "$105",
     "model": "fraction-of-remainder",
-    "hint": "The books cost $36, which is the 3/5 of the son's money left after shoes. Find the son's amount, then scale from 4/7 to all of Mrs Brown's money."
+    "hint": "The books cost $36, which is the 3/5 of the son's money left after shoes. Find the son's amount, then scale from 4/7 to all of Mrs Brown's money.",
+    "questionZh": "Brown 太太将自己钱的 4/7 给了儿子。儿子将其中的 2/5 用来买 1 双鞋，剩下的钱买了 2 本书，每本书售价 $18。Brown 太太起初（1st）有多少钱？",
+    "hintZh": "书的总价是 $36，这相当于儿子买鞋后剩下的钱的 3/5。先求儿子得到的钱，再由 4/7 推算 Brown 太太所有的钱。",
+    "solution": {
+      "en": {
+        "strategy": "Use the book cost to find the son's amount, then scale from 4/7 to all of Mrs Brown's money.",
+        "steps": [
+          {
+            "title": "Find the son's money",
+            "text": "The 2 books cost 2 × $18 = $36. This is the 3/5 left after the son spent 2/5 on shoes. Therefore the son received $36 ÷ 3/5 = $36 × 5/3 = $60."
+          },
+          {
+            "title": "Find Mrs Brown's original money",
+            "text": "The $60 given to her son was 4/7 of Mrs Brown's money. Her original amount was $60 ÷ 4/7 = $60 × 7/4 = $105."
+          }
+        ],
+        "answerCheck": "Mrs Brown had $105 at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "先利用书的价钱求儿子得到的钱，再由4/7反求布朗太太所有的钱。",
+        "steps": [
+          {
+            "title": "求儿子得到的钱",
+            "text": "2本书花2 × $18 = $36。这是儿子买鞋花掉2/5后剩下的3/5。因此儿子得到$36 ÷ 3/5 = $36 × 5/3 = $60。"
+          },
+          {
+            "title": "求布朗太太原有的钱",
+            "text": "给儿子的$60是布朗太太钱的4/7。她原有的钱是$60 ÷ 4/7 = $60 × 7/4 = $105。"
+          }
+        ],
+        "answerCheck": "布朗太太开始时有$105。"
+      }
+    }
   },
   {
     "id": 26,
-    "topic": "Fractional comparisons",
+    "topic": "Fractions",
     "question": "Ray sold 2/3 of the charity tickets that Cindy sold. Cindy sold 3/4 of the charity tickets that Gina sold. Each charity ticket cost $2. The children collected a total of $648. How many charity tickets did Gina sell?",
     "answer": "144 charity tickets",
     "model": "unit-bar",
-    "hint": "1st convert $648 to a total number of tickets. Use a common unit bar: Gina, Cindy, and Ray can be represented by 4, 3, and 2 units."
+    "hint": "1st convert $648 to a total number of tickets. Use a common unit bar: Gina, Cindy, and Ray can be represented by 4, 3, and 2 units.",
+    "questionZh": "Ray 卖出的慈善票数是 Cindy 的 2/3。Cindy 卖出的慈善票数是 Gina 的 3/4。每张慈善票售价 $2。孩子们共筹得 $648。Gina 卖出了多少张慈善票？",
+    "hintZh": "第 1 步，先将 $648 换算成慈善票总数。使用共同单位条：Gina、Cindy 和 Ray 可分别表示为 4、3 和 2 个单位。",
+    "solution": {
+      "en": {
+        "strategy": "Convert the money total into tickets and use the ratio Gina:Cindy:Ray = 4:3:2.",
+        "steps": [
+          {
+            "title": "Find the number of tickets sold",
+            "text": "Each ticket cost $2, so the children sold $648 ÷ $2 = 324 tickets altogether."
+          },
+          {
+            "title": "Use the ticket ratio",
+            "text": "Cindy sold 3/4 of Gina's number and Ray sold 2/3 of Cindy's number. Taking Gina as 4 units gives Cindy 3 units and Ray 2 units. Thus 9 units = 324 tickets, so 1 unit = 36 tickets and Gina sold 4 × 36 = 144 tickets."
+          }
+        ],
+        "answerCheck": "Gina sold 144 charity tickets."
+      },
+      "zh-Hans": {
+        "strategy": "先把筹得的钱换成票数，再使用吉娜、辛迪和雷的比4:3:2。",
+        "steps": [
+          {
+            "title": "求总票数",
+            "text": "每张票价$2，所以孩子们共卖出$648 ÷ $2 = 324张票。"
+          },
+          {
+            "title": "利用票数比",
+            "text": "辛迪卖出的票是吉娜的3/4，雷卖出的票是辛迪的2/3。把吉娜看作4个单位，辛迪是3个单位，雷是2个单位。9个单位是324张，所以1个单位是36张，吉娜卖出4 × 36 = 144张。"
+          }
+        ],
+        "answerCheck": "吉娜卖出144张慈善票。"
+      }
+    }
   },
   {
     "id": 27,
-    "topic": "Fractions of two groups",
+    "topic": "Fractions",
     "question": "There were 3/4 as many sweets in box A as in box B. 1/2 of the sweets in box A and 3/8 of the sweets in box B were removed. There were then 152 sweets left in both boxes altogether. How many sweets were there in each box at 1st?",
     "answer": "Box A: 114 sweets; Box B: 152 sweets",
     "model": "fraction-of-remainder",
-    "hint": "Change 3/4 to 6/8 and model Box A and Box B in eighths. Then keep 1/2 of A and 5/8 of B to represent the 152 remaining sweets."
+    "hint": "Change 3/4 to 6/8 and model Box A and Box B in eighths. Then keep 1/2 of A and 5/8 of B to represent the 152 remaining sweets.",
+    "questionZh": "盒子 A 中糖果的数量是盒子 B 中的 3/4。盒子 A 中的 1/2 糖果和盒子 B 中的 3/8 糖果被拿走。之后，2 个盒子中总共剩下 152 颗糖果。最初（1st）2 盒中各有多少颗糖果？",
+    "hintZh": "将 3/4 改写为 6/8，并以 1/8 为单位表示盒子 A 和 B。然后保留 A 的 1/2 和 B 的 5/8，以表示剩下的 152 颗糖果。",
+    "solution": {
+      "en": {
+        "strategy": "Use the initial ratio A:B = 3:4 and apply the fractions that remain in each box.",
+        "steps": [
+          {
+            "title": "Model the remaining sweets",
+            "text": "Let box A initially have 3 units and box B have 4 units. Half of A remains, giving 1/2 × 3 = 1 1/2 units. Since 3/8 of B is removed, 5/8 remains, giving 5/8 × 4 = 2 1/2 units."
+          },
+          {
+            "title": "Find the original amounts",
+            "text": "The remaining total is 1 1/2 + 2 1/2 = 4 units, and this equals 152 sweets. Thus 1 unit = 152 ÷ 4 = 38 sweets. Initially A had 3 × 38 = 114 sweets and B had 4 × 38 = 152 sweets."
+          }
+        ],
+        "answerCheck": "Box A: 114 sweets; Box B: 152 sweets."
+      },
+      "zh-Hans": {
+        "strategy": "使用盒A和盒B原有数量的比3:4，再计算每盒剩下的分数。",
+        "steps": [
+          {
+            "title": "表示剩下的糖果",
+            "text": "设盒A开始有3个单位，盒B开始有4个单位。盒A剩下1/2，所以剩1/2 × 3 = 1 1/2个单位。盒B拿走3/8，剩5/8，所以剩5/8 × 4 = 2 1/2个单位。"
+          },
+          {
+            "title": "求原有糖果数",
+            "text": "剩下的总数是1 1/2 + 2 1/2 = 4个单位，对应152颗糖。1个单位是152 ÷ 4 = 38颗。因此盒A原有3 × 38 = 114颗，盒B原有4 × 38 = 152颗。"
+          }
+        ],
+        "answerCheck": "盒A有114颗糖；盒B有152颗糖。"
+      }
+    }
   },
   {
     "id": 28,
-    "topic": "Money after spending",
+    "topic": "Fractions",
     "question": "After their shopping trip, Mike spent 3/5 of his money, Evon spent 1/2 of hers and Sue spent $50. They then had the same amount of money left. If the total amount of money left was $54, what was the total amount of money Mike and Sue had at 1st?",
     "answer": "$113",
     "model": "money-units",
-    "hint": "The 3 equal amounts left total $54. Express Mike's original money as 5 units and Sue's as her equal leftover plus the $50 she spent."
+    "hint": "The 3 equal amounts left total $54. Express Mike's original money as 5 units and Sue's as her equal leftover plus the $50 she spent.",
+    "questionZh": "购物后，Mike 花掉自己钱的 3/5，Evon 花掉她的钱的 1/2，而 Sue 花了 $50。之后，他们剩下的钱同样多。如果剩余钱的总额是 $54，Mike 和 Sue 最初（1st）共有多少钱？",
+    "hintZh": "剩下的 3 份相等金额总计为 $54。将 Mike 起初的钱表示为 5 个单位；Sue 起初的钱等于她那份相等的余额加上她花掉的 $50。",
+    "solution": {
+      "en": {
+        "strategy": "First find the common amount left, then reconstruct Mike's and Sue's original amounts.",
+        "steps": [
+          {
+            "title": "Find the amount each person had left",
+            "text": "Mike, Evon, and Sue had equal amounts left, and together they had $54. Each therefore had $54 ÷ 3 = $18 left."
+          },
+          {
+            "title": "Find Mike's and Sue's starting amounts",
+            "text": "Mike had 2/5 of his money left, so his original amount was $18 ÷ 2/5 = $45. Sue spent $50 and had $18 left, so she started with $50 + $18 = $68. Their total was $45 + $68 = $113."
+          }
+        ],
+        "answerCheck": "Mike and Sue had $113 altogether at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "先求3人相同的剩余金额，再还原迈克和苏原有的金额。",
+        "steps": [
+          {
+            "title": "求每人剩下的钱",
+            "text": "迈克、伊冯和苏剩下的钱相同，合共$54。因此每人剩$54 ÷ 3 = $18。"
+          },
+          {
+            "title": "求迈克和苏开始时的钱",
+            "text": "迈克剩下原有钱的2/5，所以原有$18 ÷ 2/5 = $45。苏花掉$50后剩$18，所以开始有$50 + $18 = $68。两人合共有$45 + $68 = $113。"
+          }
+        ],
+        "answerCheck": "迈克和苏开始时合共有$113。"
+      }
+    }
   },
   {
     "id": 29,
-    "topic": "Multiplicative comparison",
+    "topic": "Fractions",
     "question": "A baker sold 2 times as many buns on Sunday than on Saturday. On Monday, he sold 1/4 of the buns he sold on Sunday. If he sold a total of 1260 buns during the 3 days, how many buns did he sell on Sunday?",
     "answer": "720 buns",
     "model": "unit-bar",
-    "hint": "If Saturday is 1 unit, Sunday is 2 units and Monday is 1/2 unit. Use a common denominator so all 3 days form whole equal units."
+    "hint": "Draw Saturday as 2 units, Sunday as 4 units and Monday as 1 unit, so every day is a whole number of units. All 7 units together are 1260.",
+    "questionZh": "某面包师星期日卖出的面包数量是星期六的 2 倍。星期一，他卖出的面包数量是星期日的 1/4。如果他在这 3 天共卖出 1260 个面包，星期日卖出了多少个？",
+    "hintZh": "把星期六表示为2份，星期日为4份，星期一为1份，这样每天都是完整的份数。7份合起来是1260。",
+    "solution": {
+      "en": {
+        "strategy": "Express Saturday, Sunday, and Monday as multiples of Saturday's sales.",
+        "steps": [
+          {
+            "title": "Set up the day-to-day amounts",
+            "text": "Let Saturday's sales be 1 unit. Sunday sales were 2 units, and Monday sales were 1/4 of Sunday, or 1/2 unit."
+          },
+          {
+            "title": "Find Sunday's sales",
+            "text": "The 3 days total 1 + 2 + 1/2 = 3 1/2 units = 1260 buns. One unit is 1260 ÷ 3 1/2 = 360 buns. Sunday sales were 2 × 360 = 720 buns."
+          }
+        ],
+        "answerCheck": "He sold 720 buns on Sunday."
+      },
+      "zh-Hans": {
+        "strategy": "把星期六、星期日和星期一的销量都表示成星期六销量的倍数。",
+        "steps": [
+          {
+            "title": "建立每天销量的关系",
+            "text": "设星期六卖出1个单位。星期日卖出2个单位，星期一卖出星期日的1/4，即1/2个单位。"
+          },
+          {
+            "title": "求星期日销量",
+            "text": "3天共1 + 2 + 1/2 = 3 1/2个单位，对应1260个面包。1个单位是1260 ÷ 3 1/2 = 360个。星期日卖出2 × 360 = 720个。"
+          }
+        ],
+        "answerCheck": "星期日卖出720个面包。"
+      }
+    }
   },
   {
     "id": 30,
-    "topic": "Money comparison with fractions",
+    "topic": "Fractions",
     "question": "Joan and Alan had some money. 2/3 of Joan's money was 1/2 of what Alan had. If Alan spent all his money on a book that cost $45 and a wallet that cost $98, how much did Joan and Alan have altogether?",
     "answer": "$250.25",
     "model": "money-units",
-    "hint": "Find Alan's money from the book and wallet. If 2/3 of Joan equals 1/2 of Alan, make both amounts use the same 6-part bar."
+    "hint": "Find Alan's money from the book and wallet. If 2/3 of Joan equals 1/2 of Alan, make both amounts use the same 6-part bar.",
+    "questionZh": "Joan 和 Alan 有些钱。Joan 钱的 2/3 等于 Alan 所有钱的 1/2。如果 Alan 将所有钱都用来买 1 本售价 $45 的书和 1 个售价 $98 的钱包，Joan 和 Alan 总共有多少钱？",
+    "hintZh": "根据书和钱包的价格求出 Alan 的钱。若 Joan 的 2/3 等于 Alan 的 1/2，就让这 2 个数量都用相同的 6 等分单位条表示。",
+    "solution": {
+      "en": {
+        "strategy": "Find Alan's money from the purchases, then use the equality between 2/3 of Joan's money and 1/2 of Alan's money.",
+        "steps": [
+          {
+            "title": "Find Alan's amount",
+            "text": "Alan spent all his money on a $45 book and a $98 wallet, so he had $45 + $98 = $143."
+          },
+          {
+            "title": "Find Joan's amount and the total",
+            "text": "Half of Alan's money is $143 ÷ 2 = $71.50. This equals 2/3 of Joan's money, so Joan had $71.50 ÷ 2/3 = $107.25. Together they had $143 + $107.25 = $250.25."
+          }
+        ],
+        "answerCheck": "Joan and Alan had $250.25 altogether."
+      },
+      "zh-Hans": {
+        "strategy": "先由艾伦购买物品的价钱求出他的钱，再用琼的2/3等于艾伦的1/2这个关系求解。",
+        "steps": [
+          {
+            "title": "求艾伦的钱数",
+            "text": "艾伦把所有钱买了$45的书和$98的钱包，所以他有$45 + $98 = $143。"
+          },
+          {
+            "title": "求琼的钱和总数",
+            "text": "艾伦钱的1/2是$143 ÷ 2 = $71.50。这等于琼钱的2/3，所以琼有$71.50 ÷ 2/3 = $107.25。两人合共$143 + $107.25 = $250.25。"
+          }
+        ],
+        "answerCheck": "琼和艾伦合共有$250.25。"
+      }
+    }
   },
   {
     "id": 31,
-    "topic": "Transfers and removal",
+    "topic": "Fractions",
     "question": "Boxes A and B contained 150 marbles altogether. When 1/3 of the marbles in box A were transferred to box B and 12 marbles were taken out from box B, there were 2 times as many marbles in box B than in box A. How many marbles were there in box B in the beginning?",
     "answer": "81 marbles",
     "model": "bar-change",
-    "hint": "After the 12 marbles are removed, 138 remain and the final boxes are in a 1:2 ratio. Reverse the transfer of 1/3 of Box A to recover Box B's starting amount."
+    "hint": "After the 12 marbles are removed, 138 remain and the final boxes are in a 1:2 ratio. Reverse the transfer of 1/3 of Box A to recover Box B's starting amount.",
+    "questionZh": "盒子 A 和 B 中共有 150 颗弹珠。当盒子 A 中的 1/3 弹珠转移到盒子 B，且从盒子 B 中取出 12 颗弹珠后，盒子 B 中的弹珠数量是盒子 A 的 2 倍。起初盒子 B 中有多少颗弹珠？",
+    "hintZh": "取出 12 颗弹珠后，还剩 138 颗，最后 2 个盒子的数量比为 1:2。逆向还原盒子 A 中的 1/3 转移过程，以求出盒子 B 起初的数量。",
+    "solution": {
+      "en": {
+        "strategy": "Use the final 1:2 ratio after the 12 marbles are removed, then reverse the transfer.",
+        "steps": [
+          {
+            "title": "Find the final amounts",
+            "text": "After 12 marbles are taken out, 150 − 12 = 138 marbles remain. The final ratio A:B is 1:2, so box A has 138 ÷ 3 = 46 marbles and box B has 2 × 46 = 92 marbles."
+          },
+          {
+            "title": "Reverse the transfer",
+            "text": "Box A's final 46 marbles are 2/3 of its original amount, because 1/3 was transferred. Thus A originally had 46 ÷ 2/3 = 69 marbles, so 69 ÷ 3 = 23 were transferred. Box B began with 92 − 23 + 12 = 81 marbles."
+          }
+        ],
+        "answerCheck": "Box B had 81 marbles in the beginning."
+      },
+      "zh-Hans": {
+        "strategy": "先利用拿走12颗后的1:2比例求最后数量，再倒推转移前的数量。",
+        "steps": [
+          {
+            "title": "求最后两盒的数量",
+            "text": "拿走12颗后，剩下150 − 12 = 138颗。最后盒A与盒B的比是1:2，所以盒A有138 ÷ 3 = 46颗，盒B有2 × 46 = 92颗。"
+          },
+          {
+            "title": "倒推转移前的数量",
+            "text": "盒A最后的46颗是原有数量的2/3，因为转走了1/3。因此盒A原有46 ÷ 2/3 = 69颗，转走69 ÷ 3 = 23颗。盒B开始有92 − 23 + 12 = 81颗。"
+          }
+        ],
+        "answerCheck": "盒B开始时有81颗弹珠。"
+      }
+    }
   },
   {
     "id": 32,
-    "topic": "Sale price fractions",
+    "topic": "Fractions",
     "question": "During a sale, Betty bought a watch at 3/5 of its normal price. She then had $220 left. If she had bought the watch at its normal price, she would be $10 short. What was the normal price of the watch?",
     "answer": "$575",
     "model": "money-units",
-    "hint": "The difference between paying 3/5 of the price and the full price is $220 + $10. That difference is 2/5 of the normal price."
+    "hint": "The difference between paying 3/5 of the price and the full price is $220 + $10. That difference is 2/5 of the normal price.",
+    "questionZh": "促销期间，Betty 以手表正常价格的 3/5 买下了 1 块手表。她随后还剩 $220。如果她以正常价格购买这块手表，她会差 $10。手表的正常价格是多少？",
+    "hintZh": "支付价格的 3/5 与支付全价之间的差额为 $220 + $10。这个差额是正常价格的 2/5。",
+    "solution": {
+      "en": {
+        "strategy": "Compare the amount paid in the sale with the normal price; the difference is 2/5 of the normal price.",
+        "steps": [
+          {
+            "title": "Find the saving between the two prices",
+            "text": "At the sale, Betty had $220 left. At the normal price, she would be $10 short. Therefore the normal price exceeds the sale price by $220 + $10 = $230."
+          },
+          {
+            "title": "Find the normal price",
+            "text": "The sale price is 3/5 of the normal price, so the difference is 1 − 3/5 = 2/5 of the normal price. Thus 2/5 of the normal price is $230, and the normal price is $230 ÷ 2/5 = $575."
+          }
+        ],
+        "answerCheck": "The normal price was $575."
+      },
+      "zh-Hans": {
+        "strategy": "比较促销价和原价；两者的差额是原价的2/5。",
+        "steps": [
+          {
+            "title": "求两种价格的差额",
+            "text": "按促销价买后，贝蒂还剩$220；按原价买则差$10。因此原价比促销价高$220 + $10 = $230。"
+          },
+          {
+            "title": "求原价",
+            "text": "促销价是原价的3/5，所以差额是1 − 3/5 = 2/5的原价。2/5的原价为$230，因此原价是$230 ÷ 2/5 = $575。"
+          }
+        ],
+        "answerCheck": "手表的原价是$575。"
+      }
+    }
   },
   {
     "id": 33,
-    "topic": "Successive fractions of a remainder",
+    "topic": "Fractions",
     "question": "Mr Smith sold 1/4 of his eggs on Monday and 1/4 of the remainder on Tuesday. The rest were sold on Wednesday. If he sold 144 eggs on Wednesday, how many eggs did he have in the beginning?",
     "answer": "256 eggs",
     "model": "fraction-of-remainder",
-    "hint": "After Monday, 3/4 remains. Wednesday is 3/4 of that remainder, so it is 9/16 of the original number of eggs."
+    "hint": "After Monday, 3/4 remains. Wednesday is 3/4 of that remainder, so it is 9/16 of the original number of eggs.",
+    "questionZh": "Smith 先生星期一卖出鸡蛋的 1/4，星期二卖出剩余鸡蛋的 1/4。其余的在星期三卖出。如果他星期三卖出 144 个鸡蛋，他起初有多少个鸡蛋？",
+    "hintZh": "星期一后剩下 3/4。星期三的数量是这部分剩余数量的 3/4，因此是原有鸡蛋数量的 9/16。",
+    "solution": {
+      "en": {
+        "strategy": "Express Wednesday's sales as a fraction of the original number of eggs.",
+        "steps": [
+          {
+            "title": "Find the fraction sold on Wednesday",
+            "text": "After Monday, 1 − 1/4 = 3/4 of the eggs remained. On Tuesday, 1/4 of that remainder was sold, so 3/4 of the remainder was left for Wednesday. Thus Wednesday's 144 eggs were 3/4 × 3/4 = 9/16 of the original number."
+          },
+          {
+            "title": "Find the original number",
+            "text": "If 9/16 of the original number is 144, the original number is 144 ÷ 9/16 = 144 × 16/9 = 256 eggs."
+          }
+        ],
+        "answerCheck": "Mr Smith had 256 eggs in the beginning."
+      },
+      "zh-Hans": {
+        "strategy": "把星期三卖出的鸡蛋数表示为原有鸡蛋数的一个分数。",
+        "steps": [
+          {
+            "title": "求星期三所占的分数",
+            "text": "星期一后剩下1 − 1/4 = 3/4。星期二卖出这部分的1/4，因此剩下这部分的3/4留到星期三。星期三卖的144个鸡蛋占原有数量的3/4 × 3/4 = 9/16。"
+          },
+          {
+            "title": "求原有鸡蛋数",
+            "text": "原有数量的9/16是144，所以原有数量是144 ÷ 9/16 = 144 × 16/9 = 256个鸡蛋。"
+          }
+        ],
+        "answerCheck": "史密斯先生开始时有256个鸡蛋。"
+      }
+    }
   },
   {
     "id": 34,
-    "topic": "Money and price comparison",
+    "topic": "Fractions",
     "question": "Sam could buy 4 magazines and 3 books with all his money. He decided to buy 2 magazines and a book. He then had $84 left. If a magazine cost 1/3 the price of a book, how much did Sam have at 1st?",
     "answer": "$136.50",
     "model": "money-units",
-    "hint": "Represent 1 magazine as 1 unit and 1 book as 3 units. The unspent items are 2 magazines and 2 books, worth 8 units and equal to $84."
+    "hint": "Represent 1 magazine as 1 unit and 1 book as 3 units. The unspent items are 2 magazines and 2 books, worth 8 units and equal to $84.",
+    "questionZh": "Sam 用所有的钱可以买 4 本杂志和 3 本书。他决定买 2 本杂志和 1 本书，之后还剩 $84。如果 1 本杂志的价格是 1 本书价格的 1/3，Sam 起初（1st）有多少钱？",
+    "hintZh": "将 1 本杂志表示为 1 个单位，将 1 本书表示为 3 个单位。未购买的物品是 2 本杂志和 2 本书，价值为 8 个单位，等于 $84。",
+    "solution": {
+      "en": {
+        "strategy": "Use a unit model in which one book costs 3 times one magazine, then use the $84 value of the items not bought.",
+        "steps": [
+          {
+            "title": "Represent the item prices",
+            "text": "Let a magazine cost 1 unit. Since a magazine costs 1/3 of a book, a book costs 3 units. All of Sam's money could buy 4 magazines and 3 books, worth 4 × 1 + 3 × 3 = 13 units."
+          },
+          {
+            "title": "Find the value of one unit and all his money",
+            "text": "Sam bought 2 magazines and 1 book, worth 2 × 1 + 1 × 3 = 5 units. The $84 left equals 13 − 5 = 8 units, so 1 unit is $84 ÷ 8 = $10.50. All his money was 13 × $10.50 = $136.50."
+          }
+        ],
+        "answerCheck": "Sam had $136.50 at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "把1本书的价格表示成1本杂志的3倍，再利用没有买的物品价值为$84。",
+        "steps": [
+          {
+            "title": "表示物品价格",
+            "text": "设1本杂志价钱是1个单位。杂志价钱是书的1/3，所以1本书价钱是3个单位。萨姆所有的钱可买4本杂志和3本书，价值4 × 1 + 3 × 3 = 13个单位。"
+          },
+          {
+            "title": "求每单位价值和总钱数",
+            "text": "萨姆买了2本杂志和1本书，价值2 × 1 + 1 × 3 = 5个单位。剩下的$84对应13 − 5 = 8个单位，所以1个单位是$84 ÷ 8 = $10.50。他所有的钱是13 × $10.50 = $136.50。"
+          }
+        ],
+        "answerCheck": "萨姆开始时有$136.50。"
+      }
+    }
   }
 ]

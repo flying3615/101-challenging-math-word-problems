@@ -1,290 +1,1730 @@
 [
   {
     "id": 35,
-    "topic": "Ratios and fractions",
-    "question": "There were 2 times as many oranges as apples in a box and 3 times as many pears as apples. When 1/4 of the oranges were eaten, there were 21 oranges left in the box. How many pieces of fruit were there in the box at 1st?",
-    "answer": "84 pieces of fruit",
-    "model": "unit-bar",
-    "hint": "Use the 21 remaining oranges to find the original number of oranges, then express apples and pears in terms of apples."
+    "topic": "Fractions",
+    "question": "A farmer sold some eggs in the morning. He then packed the remaining eggs into 15 cartons with 25 eggs in each carton. If the number of eggs he sold was 3/5 of the number of eggs he packed, how many eggs did the farmer have at 1st?",
+    "answer": "600 eggs",
+    "model": "fraction-of-remainder",
+    "hint": "The packed eggs are 15 × 25. Let the packed eggs be 5 units, so the eggs he sold are 3 units. Find 1 unit, then add both parts.",
+    "questionZh": "一位农夫上午卖出了一些鸡蛋。他把剩下的鸡蛋装进15个纸箱，每箱25个。若他卖出的鸡蛋数量是他装箱数量的3/5，农夫开始时有多少个鸡蛋？",
+    "hintZh": "装箱的鸡蛋是15 × 25个。把装箱的鸡蛋看作5份，那么卖出的鸡蛋是3份。先求1份，再把两部分相加。",
+    "solution": {
+      "en": {
+        "strategy": "Find the packed eggs, use the 3:5 sold-to-packed relationship, then combine both quantities.",
+        "steps": [
+          {
+            "title": "Find the eggs packed",
+            "text": "The farmer packed 15 × 25 = 375 eggs."
+          },
+          {
+            "title": "Find the eggs sold",
+            "text": "If 375 packed eggs are 5 equal parts, 1 part is 375 ÷ 5 = 75 eggs. The eggs sold were 3 parts: 3 × 75 = 225 eggs."
+          },
+          {
+            "title": "Find the starting total",
+            "text": "At first he had the eggs sold plus the eggs packed: 225 + 375 = 600 eggs."
+          }
+        ],
+        "answerCheck": "Answer: 600 eggs."
+      },
+      "zh-Hans": {
+        "strategy": "先求装箱的鸡蛋数，再按卖出数与装箱数的3:5关系求卖出数，最后相加。",
+        "steps": [
+          {
+            "title": "求装箱的鸡蛋数",
+            "text": "装箱的鸡蛋有15 × 25 = 375个。"
+          },
+          {
+            "title": "求卖出的鸡蛋数",
+            "text": "375个装箱鸡蛋是5份，所以1份是375 ÷ 5 = 75个。卖出的鸡蛋是3份，即3 × 75 = 225个。"
+          },
+          {
+            "title": "求原有总数",
+            "text": "开始时的鸡蛋数 = 卖出的225个 + 装箱的375个 = 600个。"
+          }
+        ],
+        "answerCheck": "答案：600个鸡蛋。"
+      }
+    }
   },
   {
     "id": 36,
-    "topic": "Fractions of a quantity",
-    "question": "Elaine had some sweets. When she ate 2/7 of them and gave 36 sweets to her brother, she had 2/7 of the sweets left. How many sweets did she have at 1st?",
-    "answer": "84 sweets",
-    "model": "bar-change",
-    "hint": "Compare the fraction after eating with the fraction finally left. The difference is the 36 sweets given away."
+    "topic": "Fractions",
+    "question": "There were some candles in a box. 1/3 of the candles were green. There were 2 times as many blue candles as red candles and 1/4 as many yellow candles as red candles. If there were 24 red candles, how many candles were there in the box altogether?",
+    "answer": "117 candles",
+    "model": "unit-bar",
+    "hint": "Find the yellow and blue candles from the 24 red candles. Those 3 colours together are the 2/3 that is not green, so they make 2 units of the whole box.",
+    "questionZh": "一个盒子里有一些蜡烛。其中1/3是绿色的。蓝色蜡烛的数量是红色的2倍，黄色蜡烛的数量是红色的1/4。若红色蜡烛有24支，盒子里一共有多少支蜡烛？",
+    "hintZh": "由24支红色蜡烛求出黄色和蓝色的数量。这3种颜色合起来就是不含绿色的2/3，也就是整盒的2份。",
+    "solution": {
+      "en": {
+        "strategy": "Calculate the red, blue, and yellow candles first; together they make the non-green 2/3 of the total.",
+        "steps": [
+          {
+            "title": "Find blue and yellow candles",
+            "text": "There are 24 red candles. Blue candles = 2 × 24 = 48, and yellow candles = 1/4 × 24 = 6."
+          },
+          {
+            "title": "Find the non-green part",
+            "text": "Red, blue, and yellow candles total 24 + 48 + 6 = 78. Since green candles are 1/3 of the box, these 78 candles are the other 2/3."
+          },
+          {
+            "title": "Find all candles",
+            "text": "The total is 78 ÷ 2 × 3 = 117 candles."
+          }
+        ],
+        "answerCheck": "Answer: 117 candles."
+      },
+      "zh-Hans": {
+        "strategy": "先求红、蓝、黄三种蜡烛的数量；它们合起来占总数中不是绿色的2/3。",
+        "steps": [
+          {
+            "title": "求蓝色和黄色蜡烛",
+            "text": "红色有24支。蓝色有2 × 24 = 48支，黄色有1/4 × 24 = 6支。"
+          },
+          {
+            "title": "求非绿色蜡烛数",
+            "text": "红、蓝、黄蜡烛共24 + 48 + 6 = 78支。绿色占1/3，所以这78支占总数的2/3。"
+          },
+          {
+            "title": "求总数",
+            "text": "蜡烛总数 = 78 ÷ 2 × 3 = 117支。"
+          }
+        ],
+        "answerCheck": "答案：117支蜡烛。"
+      }
+    }
   },
   {
     "id": 37,
-    "topic": "Mixed-number measurement",
-    "question": "Jug A contained 3 5/12 L of water. Jug A contained 1 2/3 L less water than jug B. Jug C contained 5/6 L less water than jug B. The water in the 3 jugs was poured into a container. How much water was there in the container in the end?",
-    "answer": "12 3/4 L",
+    "topic": "Fractions",
+    "question": "There were 2 times as many oranges as apples in a box and 3 times as many pears as apples. When 1/4 of the oranges were eaten, there were 21 oranges left in the box. How many pieces of fruit were there in the box at 1st?",
+    "answer": "84 pieces of fruit",
     "model": "unit-bar",
-    "hint": "1st find jug B by adding its difference to jug A; then find jug C by subtracting from jug B."
+    "hint": "Use the 21 remaining oranges to find the original number of oranges, then express apples and pears in terms of apples.",
+    "questionZh": "一个盒子里的橙子数量是苹果的2倍，梨的数量是苹果的3倍。吃掉橙子的1/4后，盒子里还剩21个橙子。开始时盒子里共有多少个水果？",
+    "hintZh": "由剩下的21个橙子求原来的橙子数，再用苹果表示苹果和梨的数量。",
+    "solution": {
+      "en": {
+        "strategy": "Recover the original oranges from the 21 left, then use the fruit ratios based on apples.",
+        "steps": [
+          {
+            "title": "Find the original oranges",
+            "text": "After 1/4 of the oranges were eaten, 3/4 remained. Thus the original number of oranges was 21 ÷ 3 × 4 = 28."
+          },
+          {
+            "title": "Find apples and pears",
+            "text": "Oranges were twice the apples, so apples = 28 ÷ 2 = 14. Pears were 3 times the apples: 3 × 14 = 42."
+          },
+          {
+            "title": "Add all the fruit",
+            "text": "The starting total was 28 + 14 + 42 = 84 pieces of fruit."
+          }
+        ],
+        "answerCheck": "Answer: 84 pieces of fruit."
+      },
+      "zh-Hans": {
+        "strategy": "由剩下的橙子数倒推原来橙子数，再利用以苹果为基准的倍数关系。",
+        "steps": [
+          {
+            "title": "求原来橙子数",
+            "text": "吃掉1/4后剩下3/4，即21个。因此原来有21 ÷ 3 × 4 = 28个橙子。"
+          },
+          {
+            "title": "求苹果和梨的数量",
+            "text": "橙子数是苹果数的2倍，所以苹果有28 ÷ 2 = 14个。梨数是苹果数的3倍，即3 × 14 = 42个。"
+          },
+          {
+            "title": "求水果总数",
+            "text": "开始时共有28 + 14 + 42 = 84个水果。"
+          }
+        ],
+        "answerCheck": "答案：84个水果。"
+      }
+    }
   },
   {
     "id": 38,
-    "topic": "Fractions of a remainder",
-    "question": "Mrs Crawford baked some pies. She gave 1/3 of them to her neighbour. She then gave 5/12 of the remainder to a children's home. The rest of the pies were packed into 25 boxes with 14 pies in each box. How many pies did Mrs Crawford bake altogether?",
-    "answer": "900 pies",
-    "model": "fraction-of-remainder",
-    "hint": "The packed pies are 25 × 14. Work backwards: after giving 1/3 away, 2/3 remains, and then 7/12 of that remainder is packed."
+    "topic": "Fractions",
+    "question": "Elaine had some sweets. When she ate 2/7 of them and gave 36 sweets to her brother, she had 2/7 of the sweets left. How many sweets did she have at 1st?",
+    "answer": "84 sweets",
+    "model": "bar-change",
+    "hint": "Compare the fraction after eating with the fraction finally left. The difference is the 36 sweets given away.",
+    "questionZh": "伊莱恩有一些糖。她吃掉其中的2/7，又给弟弟36颗糖后，剩下的糖是原来糖数的2/7。伊莱恩开始时有多少颗糖？",
+    "hintZh": "比较吃掉后的分数和最后剩下的分数，两者的差就是送出的36颗糖。",
+    "solution": {
+      "en": {
+        "strategy": "Compare the fraction remaining immediately after eating with the final fraction; the difference was given to her brother.",
+        "steps": [
+          {
+            "title": "Find the fraction after eating",
+            "text": "Elaine ate 2/7 of her sweets, so 1 − 2/7 = 5/7 remained."
+          },
+          {
+            "title": "Relate the 36 sweets to the whole",
+            "text": "She finally had 2/7 left. Therefore the 36 sweets given away were 5/7 − 2/7 = 3/7 of the original number."
+          },
+          {
+            "title": "Find the original number",
+            "text": "If 3/7 is 36, then 1/7 is 36 ÷ 3 = 12. The original number was 12 × 7 = 84 sweets."
+          }
+        ],
+        "answerCheck": "Answer: 84 sweets."
+      },
+      "zh-Hans": {
+        "strategy": "比较吃掉后剩下的分数和最后剩下的分数；两者的差就是给弟弟的糖。",
+        "steps": [
+          {
+            "title": "求吃掉后剩下的分数",
+            "text": "吃掉2/7后，剩下1 − 2/7 = 5/7。"
+          },
+          {
+            "title": "把36颗糖对应到原数",
+            "text": "最后剩2/7，所以给弟弟的36颗糖占原数的5/7 − 2/7 = 3/7。"
+          },
+          {
+            "title": "求原来糖数",
+            "text": "3/7是36，那么1/7是36 ÷ 3 = 12。原来有12 × 7 = 84颗糖。"
+          }
+        ],
+        "answerCheck": "答案：84颗糖。"
+      }
+    }
   },
   {
     "id": 39,
-    "topic": "Money and fractions",
-    "question": "Sandy spent 3/5 of her money in a toy shop on a teddy bear for $38 and a toy train for $46. The remaining money was then spent on 5 similar books. How much did each book cost?",
-    "answer": "$11.20",
-    "model": "money-units",
-    "hint": "The teddy bear and train together represent 3/5 of Sandy's money. Find the remaining 2/5, then share it equally among 5 books."
+    "topic": "Fractions",
+    "question": "Jug A contained 3 5/12 L of water. Jug A contained 1 2/3 L less water than jug B. Jug C contained 5/6 L less water than jug B. The water in the 3 jugs was poured into a container. How much water was there in the container in the end?",
+    "answer": "12 3/4 L",
+    "model": "unit-bar",
+    "hint": "1st find jug B by adding its difference to jug A; then find jug C by subtracting from jug B.",
+    "questionZh": "A壶装有3 5/12 L水。A壶的水比B壶少1 2/3 L。C壶的水比B壶少5/6 L。把3壶中的水倒入一个容器后，容器里共有多少水？",
+    "hintZh": "先把A壶与B壶的差加到A壶，求出B壶；再从B壶减去相差的量，求出C壶。",
+    "solution": {
+      "en": {
+        "strategy": "Use jug A to find jug B, then use jug B to find jug C before adding all three amounts.",
+        "steps": [
+          {
+            "title": "Find jug B",
+            "text": "Jug B had 3 5/12 + 1 2/3 = 3 5/12 + 1 8/12 = 5 1/12 L."
+          },
+          {
+            "title": "Find jug C",
+            "text": "Jug C had 5 1/12 − 5/6 = 5 1/12 − 10/12 = 4 1/4 L."
+          },
+          {
+            "title": "Add the three jugs",
+            "text": "Total water = 3 5/12 + 5 1/12 + 4 1/4 = 12 3/4 L."
+          }
+        ],
+        "answerCheck": "Answer: 12 3/4 L."
+      },
+      "zh-Hans": {
+        "strategy": "先由A壶求B壶的水量，再由B壶求C壶的水量，最后把三壶相加。",
+        "steps": [
+          {
+            "title": "求B壶水量",
+            "text": "B壶有3 5/12 + 1 2/3 = 3 5/12 + 1 8/12 = 5 1/12 L。"
+          },
+          {
+            "title": "求C壶水量",
+            "text": "C壶有5 1/12 − 5/6 = 5 1/12 − 10/12 = 4 1/4 L。"
+          },
+          {
+            "title": "相加三壶水量",
+            "text": "总水量 = 3 5/12 + 5 1/12 + 4 1/4 = 12 3/4 L。"
+          }
+        ],
+        "answerCheck": "答案：12 3/4 L。"
+      }
+    }
   },
   {
     "id": 40,
-    "topic": "Fractions of a quantity",
-    "question": "Jeff sold 120 oranges on Friday. He sold 100 fewer oranges on Friday than on Saturday. The number of oranges he sold on Sunday was 3 times the number he sold on Friday. If he had 2/7 of the oranges left, how many oranges did he have at 1st?",
-    "answer": "980 oranges",
+    "topic": "Fractions",
+    "question": "Mrs Crawford baked some pies. She gave 1/3 of them to her neighbour. She then gave 5/12 of the remainder to a children's home. The rest of the pies were packed into 25 boxes with 14 pies in each box. How many pies did Mrs Crawford bake altogether?",
+    "answer": "900 pies",
     "model": "fraction-of-remainder",
-    "hint": "Find sales for Friday, Saturday, and Sunday 1st. These sales make up 5/7 of the original number."
+    "hint": "The packed pies are 25 × 14. Work backwards: after giving 1/3 away, 2/3 remains, and then 7/12 of that remainder is packed.",
+    "questionZh": "克劳福德太太烤了一些派。她把其中的1/3给了邻居，然后把剩余派的5/12给了一所儿童之家。其余的派装入25个盒子，每盒14个。克劳福德太太一共烤了多少个派？",
+    "hintZh": "装盒的派有25 × 14个。倒推：送出1/3后剩下2/3，再送出5/12后，剩余部分的7/12被装盒。",
+    "solution": {
+      "en": {
+        "strategy": "Find the packed pies and express them as the fraction remaining after both gifts.",
+        "steps": [
+          {
+            "title": "Find the packed pies",
+            "text": "The 25 boxes hold 25 × 14 = 350 pies."
+          },
+          {
+            "title": "Find the packed fraction of the original",
+            "text": "After giving 1/3 away, 2/3 remained. Then 5/12 of that remainder was given away, so 7/12 of it was packed. Thus the packed pies were 2/3 × 7/12 = 7/18 of the original."
+          },
+          {
+            "title": "Find the original total",
+            "text": "If 7/18 is 350, then the total is 350 ÷ 7 × 18 = 900 pies."
+          }
+        ],
+        "answerCheck": "Answer: 900 pies."
+      },
+      "zh-Hans": {
+        "strategy": "先求装盒的派数，并把它表示成两次送出后剩下的原数分数。",
+        "steps": [
+          {
+            "title": "求装盒的派数",
+            "text": "25个盒子共装25 × 14 = 350个派。"
+          },
+          {
+            "title": "求装盒部分占原数的分数",
+            "text": "送出1/3后剩2/3；再送出剩余部分的5/12后，装盒的是该剩余部分的7/12。因此装盒的派占原数的2/3 × 7/12 = 7/18。"
+          },
+          {
+            "title": "求原有总数",
+            "text": "7/18对应350个，所以原来有350 ÷ 7 × 18 = 900个派。"
+          }
+        ],
+        "answerCheck": "答案：900个派。"
+      }
+    }
   },
   {
     "id": 41,
-    "topic": "Ratios and fractions",
-    "question": "There were 120 more eggs in box A than in box B. There were 2/3 as many eggs in box C as in box B. When 1/2 of the eggs in box B were sold, there were 222 eggs left in box B. How many eggs were there altogether?",
-    "answer": "1304 eggs",
-    "model": "unit-bar",
-    "hint": "Double the 222 eggs to find box B before any were sold. Use that to calculate boxes A and C."
+    "topic": "Fractions",
+    "question": "Sandy spent 3/5 of her money in a toy shop on a teddy bear for $38 and a toy train for $46. The remaining money was then spent on 5 similar books. How much did each book cost?",
+    "answer": "$11.20",
+    "model": "money-units",
+    "hint": "The teddy bear and train together represent 3/5 of Sandy's money. Find the remaining 2/5, then share it equally among 5 books.",
+    "questionZh": "桑迪在玩具店花掉自己钱的3/5，买了一只$38的泰迪熊和一列$46的玩具火车。剩余的钱买了5本相同的书。每本书多少钱？",
+    "hintZh": "泰迪熊和玩具火车的总价代表桑迪钱的3/5。先求剩余的2/5，再平均分给5本书。",
+    "solution": {
+      "en": {
+        "strategy": "The teddy bear and train make up 3/5 of Sandy's money; find the remaining 2/5 and divide it among five books.",
+        "steps": [
+          {
+            "title": "Find the toy-shop spending",
+            "text": "The teddy bear and toy train cost $38 + $46 = $84. This is 3/5 of Sandy's money."
+          },
+          {
+            "title": "Find the money left",
+            "text": "Her total money was $84 ÷ 3 × 5 = $140, so she had $140 − $84 = $56 left."
+          },
+          {
+            "title": "Find one book's cost",
+            "text": "The $56 bought 5 equal books, so each cost $56 ÷ 5 = $11.20."
+          }
+        ],
+        "answerCheck": "Answer: $11.20."
+      },
+      "zh-Hans": {
+        "strategy": "泰迪熊和玩具火车的价钱占总钱数的3/5；先求剩下的2/5，再平均分到5本书。",
+        "steps": [
+          {
+            "title": "求玩具店花费",
+            "text": "泰迪熊和玩具火车共$38 + $46 = $84，这占总钱数的3/5。"
+          },
+          {
+            "title": "求剩余的钱",
+            "text": "总钱数是$84 ÷ 3 × 5 = $140，所以剩下$140 − $84 = $56。"
+          },
+          {
+            "title": "求每本书的价钱",
+            "text": "$56买5本相同的书，所以每本是$56 ÷ 5 = $11.20。"
+          }
+        ],
+        "answerCheck": "答案：每本$11.20。"
+      }
+    }
   },
   {
     "id": 42,
-    "topic": "Fractions and unit price",
-    "question": "Alfred had 72 mugs. He sold some of them for $144. He then had 7/8 of the mugs left. How much would he get if he had sold all the mugs?",
-    "answer": "$1152",
+    "topic": "Fractions",
+    "question": "Jeff sold 120 oranges on Friday. He sold 100 fewer oranges on Friday than on Saturday. The number of oranges he sold on Sunday was 3 times the number he sold on Friday. If he had 2/7 of the oranges left, how many oranges did he have at 1st?",
+    "answer": "980 oranges",
     "model": "fraction-of-remainder",
-    "hint": "Find how many mugs were sold from the 1/8 part. That gives the selling price of 1 mug."
+    "hint": "Find sales for Friday, Saturday, and Sunday 1st. These sales make up 5/7 of the original number.",
+    "questionZh": "杰夫星期五卖出120个橙子。他星期五比星期六少卖100个橙子。星期日卖出的橙子数量是星期五的3倍。若他还剩原来橙子的2/7，他开始时有多少个橙子？",
+    "hintZh": "先求星期五、星期六和星期日各卖出的数量。这些卖出的橙子占原来总数的5/7。",
+    "solution": {
+      "en": {
+        "strategy": "Find the sales on all three days. Those sales are 5/7 of the starting oranges because 2/7 remained.",
+        "steps": [
+          {
+            "title": "Find each day's sales",
+            "text": "Friday sales were 120. Saturday sales were 120 + 100 = 220. Sunday sales were 3 × 120 = 360."
+          },
+          {
+            "title": "Find total sales",
+            "text": "He sold 120 + 220 + 360 = 700 oranges in all. Since 2/7 remained, the 700 sold were 5/7 of the original amount."
+          },
+          {
+            "title": "Find the starting number",
+            "text": "The original number was 700 ÷ 5 × 7 = 980 oranges."
+          }
+        ],
+        "answerCheck": "Answer: 980 oranges."
+      },
+      "zh-Hans": {
+        "strategy": "先求三天各卖出的橙子数。因为剩下2/7，所以卖出的数量是原数的5/7。",
+        "steps": [
+          {
+            "title": "求每天的销售量",
+            "text": "星期五卖120个；星期六卖120 + 100 = 220个；星期日卖3 × 120 = 360个。"
+          },
+          {
+            "title": "求卖出的总数",
+            "text": "三天共卖120 + 220 + 360 = 700个橙子。剩下2/7，因此卖出的700个是原数的5/7。"
+          },
+          {
+            "title": "求原有橙子数",
+            "text": "原来有700 ÷ 5 × 7 = 980个橙子。"
+          }
+        ],
+        "answerCheck": "答案：980个橙子。"
+      }
+    }
   },
   {
     "id": 43,
-    "topic": "Fractions and ratios",
-    "question": "There were some chicken wings and fishballs in a pack. After 2/7 of the chicken wings were taken out from the pack, there were 3/10 as many chicken wings as fishballs in the pack. If there were 50 fishballs, how many chicken wings were there in the pack at 1st?",
-    "answer": "21 chicken wings",
-    "model": "fraction-of-remainder",
-    "hint": "Use 3/10 of 50 to find the wings left after removal. That is 5/7 of the original number of wings."
+    "topic": "Fractions",
+    "question": "There were 120 more eggs in box A than in box B. There were 2/3 as many eggs in box C as in box B. When 1/2 of the eggs in box B were sold, there were 222 eggs left in box B. How many eggs were there altogether?",
+    "answer": "1304 eggs",
+    "model": "unit-bar",
+    "hint": "Double the 222 eggs to find box B before any were sold. Use that to calculate boxes A and C.",
+    "questionZh": "A盒比B盒多120个鸡蛋。C盒的鸡蛋数量是B盒的2/3。当B盒鸡蛋卖出1/2后，B盒剩222个鸡蛋。3个盒子原来一共有多少个鸡蛋？",
+    "hintZh": "把222个鸡蛋乘以2，求出卖出前B盒的数量。再利用它计算A盒和C盒。",
+    "solution": {
+      "en": {
+        "strategy": "Double the remaining eggs to find box B before selling, then calculate boxes A and C from B.",
+        "steps": [
+          {
+            "title": "Find box B originally",
+            "text": "After half of box B was sold, 222 eggs remained. Therefore box B originally held 222 × 2 = 444 eggs."
+          },
+          {
+            "title": "Find boxes A and C",
+            "text": "Box A had 444 + 120 = 564 eggs. Box C had 2/3 × 444 = 296 eggs."
+          },
+          {
+            "title": "Find the total",
+            "text": "The three boxes contained 564 + 444 + 296 = 1304 eggs altogether."
+          }
+        ],
+        "answerCheck": "Answer: 1304 eggs."
+      },
+      "zh-Hans": {
+        "strategy": "把B盒剩下的鸡蛋数加倍，求出卖出前B盒的数量，再据此求A盒和C盒。",
+        "steps": [
+          {
+            "title": "求B盒原有数量",
+            "text": "卖出B盒的一半后还剩222个，所以B盒原来有222 × 2 = 444个鸡蛋。"
+          },
+          {
+            "title": "求A盒和C盒数量",
+            "text": "A盒有444 + 120 = 564个。C盒有2/3 × 444 = 296个。"
+          },
+          {
+            "title": "求三盒总数",
+            "text": "三盒原来共有564 + 444 + 296 = 1304个鸡蛋。"
+          }
+        ],
+        "answerCheck": "答案：1304个鸡蛋。"
+      }
+    }
   },
   {
     "id": 44,
-    "topic": "Fractions of a quantity",
-    "question": "There were 1/2 as many yellow T-shirts as blue T-shirts in a box and 15 more green T-shirts than blue T-shirts. There were 27 yellow T-shirts. How many T-shirts were left in the box when 4/5 of the T-shirts were taken out?",
-    "answer": "30 T-shirts",
+    "topic": "Fractions",
+    "question": "Alfred had 72 mugs. He sold some of them for $144. He then had 7/8 of the mugs left. How much would he get if he had sold all the mugs?",
+    "answer": "$1152",
     "model": "fraction-of-remainder",
-    "hint": "Find blue and green T-shirts from the 27 yellow T-shirts. Then take the remaining 1/5 of the total."
+    "hint": "Find how many mugs were sold from the 1/8 part. That gives the selling price of 1 mug.",
+    "questionZh": "阿尔弗雷德有72个杯子。他卖出一些，得到$144，之后还剩原来杯子的7/8。如果他把所有杯子都卖出，可以得到多少钱？",
+    "hintZh": "由1/8求出卖出的杯子数，从而得到1个杯子的售价。",
+    "solution": {
+      "en": {
+        "strategy": "The fraction sold is the part not left. Use it to find how many mugs sold and then the price per mug.",
+        "steps": [
+          {
+            "title": "Find the mugs sold",
+            "text": "Since 7/8 were left, 1/8 were sold. Mugs sold = 1/8 × 72 = 9."
+          },
+          {
+            "title": "Find the price per mug",
+            "text": "Nine mugs brought in $144, so one mug cost $144 ÷ 9 = $16."
+          },
+          {
+            "title": "Find the value of all mugs",
+            "text": "Selling all 72 mugs would bring 72 × $16 = $1152."
+          }
+        ],
+        "answerCheck": "Answer: $1152."
+      },
+      "zh-Hans": {
+        "strategy": "卖出的部分是未剩下的部分。先求卖出多少个杯子，再求每个杯子的售价。",
+        "steps": [
+          {
+            "title": "求卖出的杯子数",
+            "text": "剩下7/8，说明卖出1/8。卖出杯子数 = 1/8 × 72 = 9个。"
+          },
+          {
+            "title": "求每个杯子的售价",
+            "text": "9个杯子卖得$144，所以每个售价为$144 ÷ 9 = $16。"
+          },
+          {
+            "title": "求全部杯子的总价",
+            "text": "72个杯子全卖出可得72 × $16 = $1152。"
+          }
+        ],
+        "answerCheck": "答案：$1152。"
+      }
+    }
   },
   {
     "id": 45,
-    "topic": "Fractional comparison",
-    "question": "There were some pears in boxes A and B. When 1/3 of the pears were taken out from box A and 5/9 of the pears were taken out from box B, there was an equal number of pears in both boxes. If 84 pears were taken out, how many pears were there in both boxes at 1st?",
-    "answer": "180 pears",
-    "model": "bar-change",
-    "hint": "Draw bars for the original quantities so that their remaining parts are equal. The removed parts total 84."
+    "topic": "Fractions",
+    "question": "There were some chicken wings and fishballs in a pack. After 2/7 of the chicken wings were taken out from the pack, there were 3/10 as many chicken wings as fishballs in the pack. If there were 50 fishballs, how many chicken wings were there in the pack at 1st?",
+    "answer": "21 chicken wings",
+    "model": "fraction-of-remainder",
+    "hint": "Use 3/10 of 50 to find the wings left after removal. That is 5/7 of the original number of wings.",
+    "questionZh": "一包里有一些鸡翅和鱼丸。取出鸡翅的2/7后，包里的鸡翅数量是鱼丸数量的3/10。若有50个鱼丸，开始时包里有多少个鸡翅？",
+    "hintZh": "用50的3/10求取出后剩下的鸡翅数。这是原来鸡翅数的5/7。",
+    "solution": {
+      "en": {
+        "strategy": "Use the fishballs to find the wings left after removal, then scale from the remaining 5/7 back to the original number.",
+        "steps": [
+          {
+            "title": "Find the wings left",
+            "text": "The remaining chicken wings were 3/10 as many as 50 fishballs: 3/10 × 50 = 15 wings."
+          },
+          {
+            "title": "Relate the remainder to the original",
+            "text": "After 2/7 were taken out, 1 − 2/7 = 5/7 of the chicken wings remained. Thus 15 wings represent 5/7 of the original number."
+          },
+          {
+            "title": "Find the original wings",
+            "text": "The original number was 15 ÷ 5 × 7 = 21 chicken wings."
+          }
+        ],
+        "answerCheck": "Answer: 21 chicken wings."
+      },
+      "zh-Hans": {
+        "strategy": "先由鱼丸数求取出后剩下的鸡翅数，再由剩下的5/7倒推原有数量。",
+        "steps": [
+          {
+            "title": "求剩下的鸡翅数",
+            "text": "剩下的鸡翅数是50个鱼丸的3/10，即3/10 × 50 = 15个。"
+          },
+          {
+            "title": "把剩余数对应到原数",
+            "text": "取出2/7后还剩1 − 2/7 = 5/7，所以15个鸡翅是原来数量的5/7。"
+          },
+          {
+            "title": "求原有鸡翅数",
+            "text": "原来有15 ÷ 5 × 7 = 21个鸡翅。"
+          }
+        ],
+        "answerCheck": "答案：21个鸡翅。"
+      }
+    }
   },
   {
     "id": 46,
-    "topic": "Ratios and fractions",
-    "question": "Agnes had a total of 135 balloons. There were 3 times as many red balloons as green balloons, 2 times as many blue balloons as green balloons and some purple balloons. When 12 green balloons burst, there were 1/3 as many green as purple balloons left. Find the total number of purple and green balloons Agnes had at 1st.",
-    "answer": "40 purple and green balloons",
-    "model": "bar-change",
-    "hint": "Let green balloons be 1 unit. After 12 burst, use the 1:3 relation between remaining green and purple."
+    "topic": "Fractions",
+    "question": "There were 1/2 as many yellow T-shirts as blue T-shirts in a box and 15 more green T-shirts than blue T-shirts. There were 27 yellow T-shirts. How many T-shirts were left in the box when 4/5 of the T-shirts were taken out?",
+    "answer": "30 T-shirts",
+    "model": "fraction-of-remainder",
+    "hint": "Find blue and green T-shirts from the 27 yellow T-shirts. Then take the remaining 1/5 of the total.",
+    "questionZh": "一个盒子里黄色T恤的数量是蓝色T恤的1/2，绿色T恤比蓝色T恤多15件。若有27件黄色T恤，取走所有T恤的4/5后，盒子里还剩多少件T恤？",
+    "hintZh": "由27件黄色T恤求蓝色和绿色T恤的数量，再求总数的剩余1/5。",
+    "solution": {
+      "en": {
+        "strategy": "Find the blue and green T-shirts from the yellow count, add all colours, then take the remaining 1/5.",
+        "steps": [
+          {
+            "title": "Find blue and green T-shirts",
+            "text": "Yellow is half of blue, so blue = 27 × 2 = 54. Green = 54 + 15 = 69."
+          },
+          {
+            "title": "Find the total number",
+            "text": "The box originally had 27 + 54 + 69 = 150 T-shirts."
+          },
+          {
+            "title": "Find the number left",
+            "text": "When 4/5 were taken out, 1/5 remained. Thus 1/5 × 150 = 30 T-shirts were left."
+          }
+        ],
+        "answerCheck": "Answer: 30 T-shirts."
+      },
+      "zh-Hans": {
+        "strategy": "由黄色T恤数求蓝色和绿色T恤数，得到总数后取剩下的1/5。",
+        "steps": [
+          {
+            "title": "求蓝色和绿色T恤数",
+            "text": "黄色是蓝色的1/2，所以蓝色有27 × 2 = 54件。绿色有54 + 15 = 69件。"
+          },
+          {
+            "title": "求T恤总数",
+            "text": "原来共有27 + 54 + 69 = 150件T恤。"
+          },
+          {
+            "title": "求剩下的数量",
+            "text": "取走4/5后剩1/5，所以剩下1/5 × 150 = 30件T恤。"
+          }
+        ],
+        "answerCheck": "答案：30件T恤。"
+      }
+    }
   },
   {
     "id": 47,
-    "topic": "Money word problems",
-    "question": "Michael paid $14 for 3 similar mangoes and a durian. The durian cost $2 more than each mango. What was the total cost of 5 mangoes and 4 durians?",
-    "answer": "$35",
-    "model": "money-units",
-    "hint": "Replace the durian with the cost of a mango plus $2, then find the price of 1 mango."
+    "topic": "Fractions",
+    "question": "There were some pears in boxes A and B. When 1/3 of the pears were taken out from box A and 5/9 of the pears were taken out from box B, there was an equal number of pears in both boxes. If 84 pears were taken out, how many pears were there in both boxes at 1st?",
+    "answer": "180 pears",
+    "model": "bar-change",
+    "hint": "Draw bars for the original quantities so that their remaining parts are equal. The removed parts total 84.",
+    "questionZh": "A盒和B盒中有一些梨。从A盒取出梨的1/3，从B盒取出梨的5/9后，两盒的梨数相等。若共取出84个梨，开始时两盒共有多少个梨？",
+    "hintZh": "画出原有数量的条形图，使两盒剩余部分相等。取出的部分合计84个。",
+    "solution": {
+      "en": {
+        "strategy": "Represent the equal number left in each box by one common amount, then use the 84 removed pears to find that amount.",
+        "steps": [
+          {
+            "title": "Express each box using the common remainder",
+            "text": "Let the equal number left in each box be R pears. Since 2/3 of box A remains, box A originally had 3R/2 and A had R/2 removed. Since 4/9 of box B remains, box B originally had 9R/4 and B had 5R/4 removed."
+          },
+          {
+            "title": "Use the removed pears",
+            "text": "The removed pears total R/2 + 5R/4 = 7R/4 = 84. Therefore R = 84 × 4 ÷ 7 = 48."
+          },
+          {
+            "title": "Find the starting total",
+            "text": "Initially, boxes A and B had 3R/2 + 9R/4 = 3 × 48/2 + 9 × 48/4 = 72 + 108 = 180 pears."
+          }
+        ],
+        "answerCheck": "Answer: 180 pears."
+      },
+      "zh-Hans": {
+        "strategy": "把两盒取出后相等的梨数设为同一个量，再利用取出的84个梨求这个量。",
+        "steps": [
+          {
+            "title": "用共同的剩余量表示两盒",
+            "text": "设两盒各剩R个梨。A盒剩原来的2/3，所以A盒原来有3R/2个，取出了R/2个。B盒剩原来的4/9，所以B盒原来有9R/4个，取出了5R/4个。"
+          },
+          {
+            "title": "利用取出的梨数",
+            "text": "取出的梨共R/2 + 5R/4 = 7R/4 = 84，所以R = 84 × 4 ÷ 7 = 48。"
+          },
+          {
+            "title": "求开始时的总数",
+            "text": "开始时共有3R/2 + 9R/4 = 3 × 48/2 + 9 × 48/4 = 72 + 108 = 180个梨。"
+          }
+        ],
+        "answerCheck": "答案：180个梨。"
+      }
+    }
   },
   {
     "id": 48,
-    "topic": "Money ratios",
-    "question": "A blouse costs 1/2 as much as a shirt. If the total cost of 3 similar blouses and a shirt is $200, what is the cost of 7 blouses and 4 shirts?",
-    "answer": "$600",
-    "model": "money-units",
-    "hint": "Use 1 blouse as 1 unit and 1 shirt as 2 units. Convert both purchases into units."
+    "topic": "Fractions",
+    "question": "Agnes had a total of 135 balloons. There were 3 times as many red balloons as green balloons, 2 times as many blue balloons as green balloons and some purple balloons. When 12 green balloons burst, there were 1/3 as many green as purple balloons left. Find the total number of purple and green balloons Agnes had at 1st.",
+    "answer": "40 purple and green balloons",
+    "model": "bar-change",
+    "hint": "Let green balloons be 1 unit. After 12 burst, use the 1:3 relation between remaining green and purple.",
+    "questionZh": "阿格妮丝共有135个气球。红气球数量是绿气球的3倍，蓝气球数量是绿气球的2倍，还有一些紫气球。12个绿气球爆掉后，剩下的绿气球数量是紫气球数量的1/3。求阿格妮丝开始时紫气球和绿气球的总数。",
+    "hintZh": "把绿气球设为1份。12个爆掉后，利用剩下绿气球与紫气球的1:3关系。",
+    "solution": {
+      "en": {
+        "strategy": "Let the number of green balloons be a variable. Express red, blue, and purple balloons in terms of it, then use the total.",
+        "steps": [
+          {
+            "title": "Set up the balloon relationships",
+            "text": "Let the original number of green balloons be g. Then red balloons = 3g and blue balloons = 2g. After 12 green balloons burst, g − 12 was 1/3 of the purple balloons, so purple balloons = 3(g − 12)."
+          },
+          {
+            "title": "Use the total of 135",
+            "text": "The total gives g + 3g + 2g + 3(g − 12) = 135. Thus 9g − 36 = 135, so 9g = 171 and g = 19."
+          },
+          {
+            "title": "Find green plus purple",
+            "text": "Purple balloons = 3(19 − 12) = 21. Therefore the original green and purple balloons totaled 19 + 21 = 40."
+          }
+        ],
+        "answerCheck": "Answer: 40 purple and green balloons."
+      },
+      "zh-Hans": {
+        "strategy": "设原来绿色气球数为未知数，用它表示红、蓝、紫气球数，再利用总数求解。",
+        "steps": [
+          {
+            "title": "建立气球数量关系",
+            "text": "设原来有g个绿色气球，则红色有3g个，蓝色有2g个。爆掉12个绿色气球后，g − 12是紫色气球数的1/3，所以紫色有3(g − 12)个。"
+          },
+          {
+            "title": "利用总数135",
+            "text": "总数给出g + 3g + 2g + 3(g − 12) = 135。即9g − 36 = 135，所以9g = 171，g = 19。"
+          },
+          {
+            "title": "求绿色和紫色气球总数",
+            "text": "紫色气球有3(19 − 12) = 21个。因此原来绿色和紫色气球共有19 + 21 = 40个。"
+          }
+        ],
+        "answerCheck": "答案：紫色和绿色气球共40个。"
+      }
+    }
   },
   {
     "id": 49,
-    "topic": "Equivalent costs",
-    "question": "Colin paid $12 for 4 buns and 4 cakes. 3 buns cost as much as 2 cakes. What was the total cost of 6 buns and 9 cakes?",
-    "answer": "$23.40",
+    "topic": "Money",
+    "question": "Michael paid $14 for 3 similar mangoes and a durian. The durian cost $2 more than each mango. What was the total cost of 5 mangoes and 4 durians?",
+    "answer": "$35",
     "model": "money-units",
-    "hint": "Represent a bun and cake with equal units using 3 buns = 2 cakes, then use the $12 total."
+    "hint": "Replace the durian with the cost of a mango plus $2, then find the price of 1 mango.",
+    "questionZh": "迈克尔买3个相同的芒果和1个榴莲共付$14。榴莲比每个芒果贵$2。5个芒果和4个榴莲共多少钱？",
+    "hintZh": "把榴莲的价格替换为1个芒果的价格加$2，再求1个芒果的价格。",
+    "solution": {
+      "en": {
+        "strategy": "Write the durian price as one mango price plus $2, solve for a mango, then calculate the requested purchase.",
+        "steps": [
+          {
+            "title": "Find the price of one mango",
+            "text": "Let one mango cost $m. One durian costs $(m + 2), so 3m + (m + 2) = 14. Hence 4m = 12 and m = 3."
+          },
+          {
+            "title": "Find the durian price",
+            "text": "A durian costs $3 + $2 = $5."
+          },
+          {
+            "title": "Calculate the new purchase",
+            "text": "Five mangoes and four durians cost 5 × $3 + 4 × $5 = $15 + $20 = $35."
+          }
+        ],
+        "answerCheck": "Answer: $35."
+      },
+      "zh-Hans": {
+        "strategy": "把榴莲价格表示为一个芒果的价格加$2，先求芒果单价，再计算所求购买总价。",
+        "steps": [
+          {
+            "title": "求一个芒果的价格",
+            "text": "设一个芒果为$m，一颗榴莲为$(m + 2)。则3m + (m + 2) = 14，所以4m = 12，m = 3。"
+          },
+          {
+            "title": "求榴莲价格",
+            "text": "一颗榴莲的价格是$3 + $2 = $5。"
+          },
+          {
+            "title": "计算所求总价",
+            "text": "5个芒果和4颗榴莲的价格 = 5 × $3 + 4 × $5 = $15 + $20 = $35。"
+          }
+        ],
+        "answerCheck": "答案：$35。"
+      }
+    }
   },
   {
     "id": 50,
-    "topic": "Money comparison",
-    "question": "The total cost of a radio, a clock and a blender is $215. The radio costs $35 more than the blender. The blender costs $45 more than the clock. What is the cost of the radio?",
-    "answer": "$110",
+    "topic": "Money",
+    "question": "A blouse costs 1/2 as much as a shirt. If the total cost of 3 similar blouses and a shirt is $200, what is the cost of 7 blouses and 4 shirts?",
+    "answer": "$600",
     "model": "money-units",
-    "hint": "Treat the clock as a base amount. Write the blender and radio as that amount plus their stated differences."
+    "hint": "Use 1 blouse as 1 unit and 1 shirt as 2 units. Convert both purchases into units.",
+    "questionZh": "一件女式上衣的价格是一件衬衫的1/2。若3件相同的女式上衣和1件衬衫共$200，7件女式上衣和4件衬衫共多少钱？",
+    "hintZh": "把1件女式上衣设为1份，1件衬衫设为2份。把两次购买都换算成份数。",
+    "solution": {
+      "en": {
+        "strategy": "Use one blouse as one unit and one shirt as two units. Determine the value of a unit from the first purchase.",
+        "steps": [
+          {
+            "title": "Set the unit relationship",
+            "text": "Let one blouse be 1 unit. Since a blouse costs half as much as a shirt, one shirt is 2 units."
+          },
+          {
+            "title": "Find each unit's value",
+            "text": "Three blouses and one shirt make 3 × 1 + 2 = 5 units, worth $200. Thus 1 unit is $200 ÷ 5 = $40."
+          },
+          {
+            "title": "Calculate the requested cost",
+            "text": "Seven blouses and four shirts make 7 × 1 + 4 × 2 = 15 units. Their cost is 15 × $40 = $600."
+          }
+        ],
+        "answerCheck": "Answer: $600."
+      },
+      "zh-Hans": {
+        "strategy": "把一件女式上衣看作1份，一件衬衫看作2份。由第一次购买求每份的价钱。",
+        "steps": [
+          {
+            "title": "建立份数关系",
+            "text": "设一件女式上衣为1份。女式上衣价格是衬衫的1/2，所以一件衬衫是2份。"
+          },
+          {
+            "title": "求每份的价钱",
+            "text": "3件女式上衣和1件衬衫共3 × 1 + 2 = 5份，价值$200。因此1份是$200 ÷ 5 = $40。"
+          },
+          {
+            "title": "计算所求总价",
+            "text": "7件女式上衣和4件衬衫共7 × 1 + 4 × 2 = 15份，价格是15 × $40 = $600。"
+          }
+        ],
+        "answerCheck": "答案：$600。"
+      }
+    }
   },
   {
     "id": 51,
-    "topic": "Money comparison",
-    "question": "Betty had 2 times as much money as Johnson. After Betty spent $350, she had $25 less than Johnson. Find the total amount of money they had at 1st.",
-    "answer": "$975",
-    "model": "bar-change",
-    "hint": "After Betty spends $350, compare her amount with Johnson's unchanged amount to find Johnson's money."
+    "topic": "Money",
+    "question": "Colin paid $12 for 4 buns and 4 cakes. 3 buns cost as much as 2 cakes. What was the total cost of 6 buns and 9 cakes?",
+    "answer": "$23.40",
+    "model": "money-units",
+    "hint": "Represent a bun and cake with equal units using 3 buns = 2 cakes, then use the $12 total.",
+    "questionZh": "科林买4个面包和4块蛋糕共付$12。3个面包的价钱等于2块蛋糕的价钱。6个面包和9块蛋糕共多少钱？",
+    "hintZh": "利用3个面包 = 2块蛋糕，把面包和蛋糕用相同的份数表示，再利用总价$12。",
+    "solution": {
+      "en": {
+        "strategy": "Use equal price units from 3 buns = 2 cakes, find one unit's value from the $12 purchase, then price the requested items.",
+        "steps": [
+          {
+            "title": "Set equal cost units",
+            "text": "Since 3 buns cost as much as 2 cakes, let one bun be 2 units and one cake be 3 units. Then 3 buns and 2 cakes each cost 6 units."
+          },
+          {
+            "title": "Find the value of one unit",
+            "text": "Four buns and four cakes cost 4 × 2 + 4 × 3 = 20 units, and this is $12. Thus 1 unit costs $12 ÷ 20 = $0.60."
+          },
+          {
+            "title": "Calculate the requested cost",
+            "text": "Six buns and nine cakes cost 6 × 2 + 9 × 3 = 39 units. Therefore the cost is 39 × $0.60 = $23.40."
+          }
+        ],
+        "answerCheck": "Answer: $23.40."
+      },
+      "zh-Hans": {
+        "strategy": "由3个面包和2块蛋糕等价设相同的价格份数，利用$12求每份价钱，再计算所求总价。",
+        "steps": [
+          {
+            "title": "建立等价份数",
+            "text": "3个面包和2块蛋糕同价，可设一个面包为2份、一块蛋糕为3份。这样3个面包和2块蛋糕都是6份。"
+          },
+          {
+            "title": "求每份的价钱",
+            "text": "4个面包和4块蛋糕共4 × 2 + 4 × 3 = 20份，价钱是$12。因此1份是$12 ÷ 20 = $0.60。"
+          },
+          {
+            "title": "计算所求总价",
+            "text": "6个面包和9块蛋糕共6 × 2 + 9 × 3 = 39份，所以总价是39 × $0.60 = $23.40。"
+          }
+        ],
+        "answerCheck": "答案：$23.40。"
+      }
+    }
   },
   {
     "id": 52,
-    "topic": "Money transfer",
-    "question": "Connie and Alice had an equal amount of money at 1st. Connie gave Alice $126 and Alice had 4 times as much money as Connie in the end. How much money did Connie have at 1st?",
-    "answer": "$210",
-    "model": "bar-change",
-    "hint": "The $126 transfer creates a difference between the final amounts. Model the final 4:1 ratio."
+    "topic": "Money",
+    "question": "The total cost of a radio, a clock and a blender is $215. The radio costs $35 more than the blender. The blender costs $45 more than the clock. What is the cost of the radio?",
+    "answer": "$110",
+    "model": "money-units",
+    "hint": "Treat the clock as a base amount. Write the blender and radio as that amount plus their stated differences.",
+    "questionZh": "一台收音机、一座时钟和一台搅拌机的总价是$215。收音机比搅拌机贵$35，搅拌机比时钟贵$45。收音机多少钱？",
+    "hintZh": "把时钟的价格看作基准金额，把搅拌机和收音机写成这个金额加上题中给出的差额。",
+    "solution": {
+      "en": {
+        "strategy": "Use the clock price as the common base amount, then add the stated differences.",
+        "steps": [
+          {
+            "title": "Express each price from the clock",
+            "text": "Let the clock cost $x. The blender costs $x + $45, and the radio costs $x + $45 + $35 = $x + $80."
+          },
+          {
+            "title": "Use the total cost",
+            "text": "Clock + blender + radio gives $x + ($x + $45) + ($x + $80) = $215. Thus 3$x + $125 = $215."
+          },
+          {
+            "title": "Find the radio price",
+            "text": "3$x = $215 − $125 = $90, so the clock costs $30. The radio costs $30 + $80 = $110."
+          }
+        ],
+        "answerCheck": "Clock $30, blender $75, and radio $110 give $30 + $75 + $110 = $215. The radio costs $110."
+      },
+      "zh-Hans": {
+        "strategy": "把时钟的价钱设为基准金额，再加上题目给出的差额。",
+        "steps": [
+          {
+            "title": "用时钟价格表示各物品价格",
+            "text": "设时钟价格为$x。搅拌机价格为$x + $45，收音机价格为$x + $45 + $35 = $x + $80。"
+          },
+          {
+            "title": "利用总价列式",
+            "text": "时钟、搅拌机和收音机的总价为$x + ($x + $45) + ($x + $80) = $215，所以3$x + $125 = $215。"
+          },
+          {
+            "title": "求收音机价格",
+            "text": "3$x = $215 − $125 = $90，所以时钟是$30。收音机是$30 + $80 = $110。"
+          }
+        ],
+        "answerCheck": "时钟$30、搅拌机$75、收音机$110，且$30 + $75 + $110 = $215。因此收音机价格是$110。"
+      }
+    }
   },
   {
     "id": 53,
-    "topic": "Coins and fractions",
-    "question": "Terence and Winnie had a total of 27 coins. When Terence gave Winnie 1/4 of his coins, she had 2 times as many coins as him. Winnie then found out that she had 2 times as many 20-cent coins as 10-cent coins. How much money did she have in the end?",
-    "answer": "$3",
+    "topic": "Money",
+    "question": "Betty had 2 times as much money as Johnson. After Betty spent $350, she had $25 less than Johnson. Find the total amount of money they had at 1st.",
+    "answer": "$975",
     "model": "bar-change",
-    "hint": "1st find Winnie's final number of coins using the transfer and total of 27. Then split them in the 2:1 ratio of 20-cent to 10-cent coins."
+    "hint": "After Betty spends $350, compare her amount with Johnson's unchanged amount to find Johnson's money.",
+    "questionZh": "贝蒂的钱是约翰逊的2倍。贝蒂花掉$350后，她的钱比约翰逊少$25。求他们开始时的钱总数。",
+    "hintZh": "贝蒂花掉$350后，将她的钱与约翰逊未变的钱比较，求出约翰逊的钱。",
+    "solution": {
+      "en": {
+        "strategy": "Compare Betty's original double amount with Johnson's unchanged amount after Betty spends money.",
+        "steps": [
+          {
+            "title": "Represent their original amounts",
+            "text": "Let Johnson have $x at 1st. Betty then has 2$x."
+          },
+          {
+            "title": "Use the amount after spending",
+            "text": "After spending $350, Betty has 2$x − $350. This is $25 less than Johnson's $x, so 2$x − $350 = $x − $25."
+          },
+          {
+            "title": "Find the total",
+            "text": "Subtract $x from both sides: $x = $325. Betty had 2 × $325 = $650, so together they had $325 + $650 = $975."
+          }
+        ],
+        "answerCheck": "After Betty spends $350, she has $650 − $350 = $300, which is $25 less than Johnson's $325. Their original total was $975."
+      },
+      "zh-Hans": {
+        "strategy": "比较贝蒂原来是2倍的钱数与约翰逊不变的钱数，并利用贝蒂花钱后的关系。",
+        "steps": [
+          {
+            "title": "表示开始时的钱数",
+            "text": "设约翰逊开始时有$x，贝蒂开始时就有2$x。"
+          },
+          {
+            "title": "利用花钱后的关系",
+            "text": "贝蒂花掉$350后有2$x − $350，这比约翰逊的$x少$25，所以2$x − $350 = $x − $25。"
+          },
+          {
+            "title": "求两人的总钱数",
+            "text": "两边减去$x，得$x = $325。贝蒂有2 × $325 = $650，因此开始时总数是$325 + $650 = $975。"
+          }
+        ],
+        "answerCheck": "贝蒂花钱后有$650 − $350 = $300，正好比约翰逊的$325少$25。开始时两人共有$975。"
+      }
+    }
   },
   {
     "id": 54,
-    "topic": "Equivalent costs",
-    "question": "Hazel had enough money to buy 25 chocolate cookies. Each chocolate cookie cost as much as 2 butter cookies. Hazel borrowed another $6 from her mother to buy 20 chocolate cookies and 20 butter cookies. How much money did Hazel have at 1st?",
-    "answer": "$30",
-    "model": "money-units",
-    "hint": "Convert 20 butter cookies into an equivalent number of chocolate cookies and compare the 2 purchases."
+    "topic": "Money",
+    "question": "Connie and Alice had an equal amount of money at 1st. Connie gave Alice $126 and Alice had 4 times as much money as Connie in the end. How much money did Connie have at 1st?",
+    "answer": "$210",
+    "model": "bar-change",
+    "hint": "The $126 transfer creates a difference between the final amounts. Model the final 4:1 ratio.",
+    "questionZh": "康妮和爱丽丝开始时的钱一样多。康妮给爱丽丝$126后，最后爱丽丝的钱是康妮的4倍。康妮开始时有多少钱？",
+    "hintZh": "转移$126使最后金额产生差距。把最后的金额按4:1比例表示。",
+    "solution": {
+      "en": {
+        "strategy": "Use the $126 transfer to express the final amounts, then apply the final 4:1 ratio.",
+        "steps": [
+          {
+            "title": "Represent the equal starting amounts",
+            "text": "Let each girl have $x at 1st. After Connie gives Alice $126, Connie has $x − $126 and Alice has $x + $126."
+          },
+          {
+            "title": "Apply the final ratio",
+            "text": "Alice has 4 times Connie's amount, so $x + $126 = 4($x − $126)."
+          },
+          {
+            "title": "Solve for Connie's starting money",
+            "text": "Expand: $x + $126 = 4$x − $504. Therefore $630 = 3$x and $x = $210."
+          }
+        ],
+        "answerCheck": "Connie ends with $210 − $126 = $84 and Alice ends with $210 + $126 = $336. Since $336 = 4 × $84, Connie had $210 at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "把$126的转移写入两人最后的钱数，再使用最后4:1的比例。",
+        "steps": [
+          {
+            "title": "表示相同的开始金额",
+            "text": "设两人开始时各有$x。康妮给爱丽丝$126后，康妮有$x − $126，爱丽丝有$x + $126。"
+          },
+          {
+            "title": "利用最后的比例",
+            "text": "爱丽丝的钱是康妮的4倍，所以$x + $126 = 4($x − $126)。"
+          },
+          {
+            "title": "求康妮开始时的钱",
+            "text": "展开后得$x + $126 = 4$x − $504，所以$630 = 3$x，$x = $210。"
+          }
+        ],
+        "answerCheck": "康妮最后有$210 − $126 = $84，爱丽丝最后有$210 + $126 = $336，而$336 = 4 × $84。因此康妮开始时有$210。"
+      }
+    }
   },
   {
     "id": 55,
-    "topic": "Money ratios",
-    "question": "A book costs 3 times as much as a pen. 5 similar pens cost as much as a photo frame. If 3 similar photo frames cost $74.25, what is the total cost of a book, a pen and a photo frame?",
-    "answer": "$44.55",
-    "model": "money-units",
-    "hint": "Express a pen, book, and photo frame in 1 common unit before using the cost of 3 photo frames."
+    "topic": "Money",
+    "question": "Terence and Winnie had a total of 27 coins. When Terence gave Winnie 1/4 of his coins, she had 2 times as many coins as him. Winnie then found out that she had 2 times as many 20-cent coins as 10-cent coins. How much money did she have in the end?",
+    "answer": "$3",
+    "model": "bar-change",
+    "hint": "1st find Winnie's final number of coins using the transfer and total of 27. Then split them in the 2:1 ratio of 20-cent to 10-cent coins.",
+    "questionZh": "特伦斯和温妮共有27枚硬币。特伦斯把自己硬币的1/4给温妮后，她的硬币数量是他的2倍。温妮随后发现，她的20分硬币数量是10分硬币的2倍。她最后有多少钱？",
+    "hintZh": "先利用转移和总数27求温妮最后的硬币数，再按20分硬币与10分硬币2:1的比例分配。",
+    "solution": {
+      "en": {
+        "strategy": "Find Winnie's final number of coins from the 2:1 coin-number ratio, then split her coins by denomination.",
+        "steps": [
+          {
+            "title": "Find the final coin numbers",
+            "text": "The total remains 27 coins. After the transfer, Winnie has twice as many coins as Terence, so their final numbers are in the ratio 2:1. Each part is 27 ÷ 3 = 9 coins; Winnie has 2 × 9 = 18 coins."
+          },
+          {
+            "title": "Split Winnie's coins by type",
+            "text": "Winnie's 20-cent coins and 10-cent coins are in the ratio 2:1. Split 18 coins into 3 parts: 1 part is 18 ÷ 3 = 6 coins. She has 12 twenty-cent coins and 6 ten-cent coins."
+          },
+          {
+            "title": "Find the value",
+            "text": "The 12 twenty-cent coins are worth 12 × $0.20 = $2.40. The 6 ten-cent coins are worth 6 × $0.10 = $0.60."
+          }
+        ],
+        "answerCheck": "$2.40 + $0.60 = $3, so Winnie had $3 in the end."
+      },
+      "zh-Hans": {
+        "strategy": "先由最后2:1的硬币数量关系求温妮的硬币总数，再按币值种类的2:1比例分配。",
+        "steps": [
+          {
+            "title": "求最后各自的硬币数",
+            "text": "硬币总数仍是27枚。转移后温妮的硬币数是特伦斯的2倍，比例为2:1。每份是27 ÷ 3 = 9枚，所以温妮有2 × 9 = 18枚。"
+          },
+          {
+            "title": "按币值分配温妮的硬币",
+            "text": "温妮的20分硬币与10分硬币数量比为2:1。18枚分成3份，每份是18 ÷ 3 = 6枚，因此有12枚20分硬币和6枚10分硬币。"
+          },
+          {
+            "title": "计算钱数",
+            "text": "12枚20分硬币值12 × $0.20 = $2.40；6枚10分硬币值6 × $0.10 = $0.60。"
+          }
+        ],
+        "answerCheck": "$2.40 + $0.60 = $3，所以温妮最后有$3。"
+      }
+    }
   },
   {
     "id": 56,
-    "topic": "Commission and bonuses",
-    "question": "For every T-shirt that Joel sells, he will receive $12. He will receive another $5 for every set of 10 T-shirts he sells. If he sells 100 T-shirts, he will receive an additional $50 bonus. How many T-shirts does Joel have to sell to receive $1372 in total?",
-    "answer": "106 T-shirts",
+    "topic": "Money",
+    "question": "Hazel had enough money to buy 25 chocolate cookies. Each chocolate cookie cost as much as 2 butter cookies. Hazel borrowed another $6 from her mother to buy 20 chocolate cookies and 20 butter cookies. How much money did Hazel have at 1st?",
+    "answer": "$30",
     "model": "money-units",
-    "hint": "1st calculate Joel's earnings for 100 T-shirts, including the 10 set bonuses and the $50 bonus."
+    "hint": "Convert 20 butter cookies into an equivalent number of chocolate cookies and compare the 2 purchases.",
+    "questionZh": "黑兹尔的钱刚好可以买25块巧克力饼干。每块巧克力饼干的价钱等于2块黄油饼干的价钱。她向母亲借了$6后，买20块巧克力饼干和20块黄油饼干。黑兹尔开始时有多少钱？",
+    "hintZh": "每1块巧克力饼干相当于2块黄油饼干。把20块黄油饼干换算成等价数量的巧克力饼干，比较2次购买。",
+    "solution": {
+      "en": {
+        "strategy": "Measure both purchases in chocolate-cookie price units.",
+        "steps": [
+          {
+            "title": "Convert butter cookies",
+            "text": "One chocolate cookie costs as much as 2 butter cookies. Therefore, 20 butter cookies cost the same as 20 ÷ 2 = 10 chocolate cookies."
+          },
+          {
+            "title": "Compare the two amounts of money",
+            "text": "The later purchase of 20 chocolate cookies and 20 butter cookies costs the same as 20 + 10 = 30 chocolate cookies. Hazel originally had the cost of 25 chocolate cookies, so the difference is the cost of 5 chocolate cookies."
+          },
+          {
+            "title": "Find Hazel's original money",
+            "text": "The extra 5 chocolate-cookie prices equal the $6 borrowed. Thus one chocolate cookie costs $6 ÷ 5 = $1.20, and 25 cost 25 × $1.20 = $30."
+          }
+        ],
+        "answerCheck": "25 chocolate cookies cost $30. Adding the $6 borrowed gives $36, which pays for 30 chocolate-cookie price units at $1.20 each. Hazel had $30 at 1st."
+      },
+      "zh-Hans": {
+        "strategy": "把两次购买都换算成巧克力饼干的价钱单位。",
+        "steps": [
+          {
+            "title": "换算黄油饼干",
+            "text": "1块巧克力饼干和2块黄油饼干价钱相同，所以20块黄油饼干相当于20 ÷ 2 = 10块巧克力饼干的价钱。"
+          },
+          {
+            "title": "比较两次可购买的数量",
+            "text": "后一次买20块巧克力饼干和20块黄油饼干，相当于20 + 10 = 30块巧克力饼干的价钱。开始时的钱能买25块，两者相差5块巧克力饼干的价钱。"
+          },
+          {
+            "title": "求开始时的钱数",
+            "text": "多出的5块巧克力饼干价钱就是借来的$6，所以每块巧克力饼干是$6 ÷ 5 = $1.20。开始时的钱是25 × $1.20 = $30。"
+          }
+        ],
+        "answerCheck": "25块巧克力饼干值$30。加上借来的$6共有$36，正好能买30个每个$1.20的巧克力饼干价钱单位。因此开始时有$30。"
+      }
+    }
   },
   {
     "id": 57,
-    "topic": "Equivalent costs",
-    "question": "4 boxes of coloured pencils cost as much as 3 boxes of paint. Natalie had just enough money to buy 7 boxes of paint and 2 boxes of coloured pencils. If a box of paint cost $5.40, how much would Natalie have left if she only bought 5 boxes of paint?",
-    "answer": "$18.90",
+    "topic": "Money",
+    "question": "A book costs 3 times as much as a pen. 5 similar pens cost as much as a photo frame. If 3 similar photo frames cost $74.25, what is the total cost of a book, a pen and a photo frame?",
+    "answer": "$44.55",
     "model": "money-units",
-    "hint": "Use 3 paint boxes = 4 coloured-pencil boxes to price 2 coloured-pencil boxes, then find Natalie's original money."
+    "hint": "Express a pen, book, and photo frame in 1 common unit before using the cost of 3 photo frames.",
+    "questionZh": "一本书的价格是一支笔的3倍。5支相同的笔的价格等于一个相框。若3个相同的相框共$74.25，一本书、一支笔和一个相框的总价是多少？",
+    "hintZh": "先把一支笔、一本书和一个相框都用1个共同单位表示，再利用3个相框的价钱。",
+    "solution": {
+      "en": {
+        "strategy": "Find the photo-frame price first, then use its links to the pen and book prices.",
+        "steps": [
+          {
+            "title": "Find one photo frame",
+            "text": "3 similar photo frames cost $74.25, so 1 photo frame costs $74.25 ÷ 3 = $24.75."
+          },
+          {
+            "title": "Find the pen and book prices",
+            "text": "5 pens cost as much as 1 photo frame, so a pen costs $24.75 ÷ 5 = $4.95. A book costs 3 times a pen, so it costs 3 × $4.95 = $14.85."
+          },
+          {
+            "title": "Add the three items",
+            "text": "Book + pen + photo frame costs $14.85 + $4.95 + $24.75."
+          }
+        ],
+        "answerCheck": "$14.85 + $4.95 + $24.75 = $44.55, so the total cost is $44.55."
+      },
+      "zh-Hans": {
+        "strategy": "先求1个相框的价钱，再利用相框、笔和书之间的价钱关系。",
+        "steps": [
+          {
+            "title": "求1个相框的价钱",
+            "text": "3个相同的相框共$74.25，所以1个相框是$74.25 ÷ 3 = $24.75。"
+          },
+          {
+            "title": "求笔和书的价钱",
+            "text": "5支笔和1个相框同价，所以1支笔是$24.75 ÷ 5 = $4.95。一本书是1支笔的3倍，即3 × $4.95 = $14.85。"
+          },
+          {
+            "title": "把三件物品相加",
+            "text": "一本书、一支笔和一个相框共$14.85 + $4.95 + $24.75。"
+          }
+        ],
+        "answerCheck": "$14.85 + $4.95 + $24.75 = $44.55，所以总价是$44.55。"
+      }
+    }
   },
   {
     "id": 58,
-    "topic": "Coins and money",
-    "question": "Jeffrey had 4 times as many 20-cent coins as 10-cent coins and 1/3 as many 50-cent coins as 10-cent coins. If he had 2 50-cent coins, how much money would he have left if he spent $2.75 on a pair of socks?",
-    "answer": "$3.65",
+    "topic": "Money",
+    "question": "For every T-shirt that Joel sells, he will receive $12. He will receive another $5 for every set of 10 T-shirts he sells. If he sells 100 T-shirts, he will receive an additional $50 bonus. How many T-shirts does Joel have to sell to receive $1372 in total?",
+    "answer": "106 T-shirts",
     "model": "money-units",
-    "hint": "Use the 2 50-cent coins to find the number of 10-cent coins, then find the number and total value of all coins."
+    "hint": "1st calculate Joel's earnings for 100 T-shirts, including the 10 set bonuses and the $50 bonus.",
+    "questionZh": "乔尔每卖出1件T恤可得$12。每卖出10件T恤，他还可额外得到$5。若卖出100件T恤，他可额外得到$50奖金。乔尔要卖出多少件T恤才能共得到$1372？",
+    "hintZh": "先计算乔尔卖出100件T恤的收入，包括10次每组奖金和$50奖金。",
+    "solution": {
+      "en": {
+        "strategy": "Calculate the guaranteed earnings at 100 T-shirts, then add the earnings from further T-shirts.",
+        "steps": [
+          {
+            "title": "Find earnings for 100 T-shirts",
+            "text": "The per-shirt pay is 100 × $12 = $1200. There are 100 ÷ 10 = 10 set bonuses, worth 10 × $5 = $50, plus the $50 bonus for selling 100 T-shirts."
+          },
+          {
+            "title": "Compare with the target",
+            "text": "For 100 T-shirts, Joel earns $1200 + $50 + $50 = $1300. He needs $1372 − $1300 = $72 more."
+          },
+          {
+            "title": "Find the additional T-shirts",
+            "text": "After 100, each additional T-shirt earns $12 until another full set of 10 is reached. $72 ÷ $12 = 6, so Joel needs 100 + 6 = 106 T-shirts."
+          }
+        ],
+        "answerCheck": "For 106 T-shirts, Joel earns 106 × $12 + 10 × $5 + $50 = $1272 + $50 + $50 = $1372. He must sell 106 T-shirts."
+      },
+      "zh-Hans": {
+        "strategy": "先计算卖出100件T恤时的固定收入，再补上达到目标所需的额外收入。",
+        "steps": [
+          {
+            "title": "计算卖出100件的收入",
+            "text": "按件收入是100 × $12 = $1200。100 ÷ 10 = 10组，每组奖金共10 × $5 = $50，卖出100件另有$50奖金。"
+          },
+          {
+            "title": "与目标收入比较",
+            "text": "卖出100件共得$1200 + $50 + $50 = $1300，还差$1372 − $1300 = $72。"
+          },
+          {
+            "title": "求额外需要卖出的件数",
+            "text": "卖出100件以后，尚未凑满下一组10件时，每多卖1件可得$12。$72 ÷ $12 = 6，所以要卖100 + 6 = 106件。"
+          }
+        ],
+        "answerCheck": "卖出106件时，收入为106 × $12 + 10 × $5 + $50 = $1272 + $50 + $50 = $1372。因此要卖106件T恤。"
+      }
+    }
   },
   {
     "id": 59,
-    "topic": "Fractions and money",
-    "question": "Michael had some flowers. He sold 2/3 of them at 90¢ each and the rest at 50¢ each. Fanny sold the same number of flowers at 80¢ each, collecting a total of $7.20. How much did Michael collect?",
-    "answer": "$6.90",
-    "model": "fraction-of-remainder",
-    "hint": "Use Fanny's $7.20 at 80¢ each to find the number of flowers. Then split Michael's flowers into 2/3 and 1/3."
+    "topic": "Money",
+    "question": "4 boxes of coloured pencils cost as much as 3 boxes of paint. Natalie had just enough money to buy 7 boxes of paint and 2 boxes of coloured pencils. If a box of paint cost $5.40, how much would Natalie have left if she only bought 5 boxes of paint?",
+    "answer": "$18.90",
+    "model": "money-units",
+    "hint": "Use 3 paint boxes = 4 coloured-pencil boxes to price 2 coloured-pencil boxes, then find Natalie's original money.",
+    "questionZh": "4盒彩色铅笔的价钱等于3盒颜料。娜塔莉的钱刚好可以买7盒颜料和2盒彩色铅笔。若每盒颜料$5.40，她只买5盒颜料会剩下多少钱？",
+    "hintZh": "利用3盒颜料 = 4盒彩色铅笔，求2盒彩色铅笔的价钱，再求娜塔莉原有的钱。",
+    "solution": {
+      "en": {
+        "strategy": "Use the price relationship between paint and coloured-pencil boxes to find Natalie's original money.",
+        "steps": [
+          {
+            "title": "Find the coloured-pencil-box price",
+            "text": "3 boxes of paint cost 3 × $5.40 = $16.20, the same as 4 boxes of coloured pencils. Thus 2 coloured-pencil boxes cost half of $16.20, or $8.10."
+          },
+          {
+            "title": "Find Natalie's original money",
+            "text": "7 paint boxes cost 7 × $5.40 = $37.80. Together with 2 coloured-pencil boxes, Natalie had $37.80 + $8.10 = $45.90."
+          },
+          {
+            "title": "Subtract the cost of 5 paint boxes",
+            "text": "5 paint boxes cost 5 × $5.40 = $27.00. Subtract this from $45.90."
+          }
+        ],
+        "answerCheck": "$45.90 − $27.00 = $18.90, so Natalie would have $18.90 left."
+      },
+      "zh-Hans": {
+        "strategy": "利用颜料盒与彩色铅笔盒的价钱关系，先求娜塔莉原有的钱数。",
+        "steps": [
+          {
+            "title": "求彩色铅笔盒的价钱",
+            "text": "3盒颜料值3 × $5.40 = $16.20，等于4盒彩色铅笔的价钱。因此2盒彩色铅笔值$16.20的一半，即$8.10。"
+          },
+          {
+            "title": "求娜塔莉原有的钱",
+            "text": "7盒颜料值7 × $5.40 = $37.80。再加上2盒彩色铅笔的$8.10，原有$37.80 + $8.10 = $45.90。"
+          },
+          {
+            "title": "减去买5盒颜料的费用",
+            "text": "5盒颜料值5 × $5.40 = $27.00，从$45.90中减去这笔钱。"
+          }
+        ],
+        "answerCheck": "$45.90 − $27.00 = $18.90，所以娜塔莉会剩下$18.90。"
+      }
+    }
   },
   {
     "id": 60,
-    "topic": "Fractions and money",
-    "question": "When Nelly bought 5 pencils, she spent the same amount as Benjamin who bought 3 pens. If Benjamin spent 2/7 of his money buying the pens and he had $45 left, what was the total cost of a pencil and a pen?",
-    "answer": "$9.60",
+    "topic": "Money",
+    "question": "Jeffrey had 4 times as many 20-cent coins as 10-cent coins and 1/3 as many 50-cent coins as 10-cent coins. If he had 2 of the 50-cent coins, how much money would he have left if he spent $2.75 on a pair of socks?",
+    "answer": "$3.65",
     "model": "money-units",
-    "hint": "The $45 left is 5/7 of Benjamin's money. Find the cost of his 3 pens, which is also the cost of 5 pencils."
+    "hint": "The 50-cent coins are 1/3 of the 10-cent coins, so use the 2 of them to find how many 10-cent coins there are. Then find the number and the total value of all the coins.",
+    "questionZh": "杰弗里20分硬币的数量是10分硬币的4倍，50分硬币的数量是10分硬币的1/3。若他有2枚50分硬币，买一双袜子花$2.75后还剩多少钱？",
+    "hintZh": "50分硬币的数量是10分硬币的1/3，所以用这2枚求出10分硬币有多少枚。再求所有硬币的数量和总价值。",
+    "solution": {
+      "en": {
+        "strategy": "Use the 50-cent coins to determine each coin count, then calculate the total value.",
+        "steps": [
+          {
+            "title": "Find the numbers of coins",
+            "text": "The 2 fifty-cent coins are 1/3 as many as the ten-cent coins, so there are 2 × 3 = 6 ten-cent coins. There are 4 times as many twenty-cent coins, or 4 × 6 = 24."
+          },
+          {
+            "title": "Find the value before buying socks",
+            "text": "The ten-cent coins are worth 6 × $0.10 = $0.60, the twenty-cent coins are worth 24 × $0.20 = $4.80, and the fifty-cent coins are worth 2 × $0.50 = $1.00. Total value is $6.40."
+          },
+          {
+            "title": "Subtract the sock cost",
+            "text": "Subtract the $2.75 spent on socks from the $6.40 in coins."
+          }
+        ],
+        "answerCheck": "$6.40 − $2.75 = $3.65, so Jeffrey would have $3.65 left."
+      },
+      "zh-Hans": {
+        "strategy": "先由50分硬币数求各种硬币的数量，再计算所有硬币的总值。",
+        "steps": [
+          {
+            "title": "求各种硬币的枚数",
+            "text": "2枚50分硬币是10分硬币数量的1/3，所以10分硬币有2 × 3 = 6枚。20分硬币是10分硬币的4倍，即4 × 6 = 24枚。"
+          },
+          {
+            "title": "求买袜子前的总钱数",
+            "text": "10分硬币值6 × $0.10 = $0.60；20分硬币值24 × $0.20 = $4.80；50分硬币值2 × $0.50 = $1.00。总值为$6.40。"
+          },
+          {
+            "title": "减去袜子的价钱",
+            "text": "用硬币总值$6.40减去买袜子的$2.75。"
+          }
+        ],
+        "answerCheck": "$6.40 − $2.75 = $3.65，所以杰弗里还剩$3.65。"
+      }
+    }
   },
   {
     "id": 61,
-    "topic": "Rates and earnings",
-    "question": "Ron earns $12 an hour on weekdays and 2 times as much on weekends. Ron works 8 hours a day on weekdays and 5 hours a day on Saturdays and Sundays. How much will he earn in 2 weeks if he works every day?",
-    "answer": "$1440",
-    "model": "money-units",
-    "hint": "Count weekday and weekend hours separately over 2 weeks, because the hourly rates differ."
+    "topic": "Money",
+    "question": "Michael had some flowers. He sold 2/3 of them at 90¢ each and the rest at 50¢ each. Fanny sold the same number of flowers at 80¢ each, collecting a total of $7.20. How much did Michael collect?",
+    "answer": "$6.90",
+    "model": "fraction-of-remainder",
+    "hint": "Use Fanny's $7.20 at 80¢ each to find the number of flowers. Then split Michael's flowers into 2/3 and 1/3.",
+    "questionZh": "迈克尔有一些花。他以每朵90¢卖出其中的2/3，以每朵50¢卖出其余的花。范妮以每朵80¢卖出同样数量的花，共收$7.20。迈克尔共收多少钱？",
+    "hintZh": "由范妮每朵80¢、共$7.20求花的数量。再把迈克尔的花按2/3和1/3分开。",
+    "solution": {
+      "en": {
+        "strategy": "Use Fanny's sales to find the common number of flowers, then split Michael's flowers into 2/3 and 1/3.",
+        "steps": [
+          {
+            "title": "Find the number of flowers",
+            "text": "Fanny collected $7.20 at $0.80 per flower, so she sold $7.20 ÷ $0.80 = 9 flowers. Michael had the same number, 9 flowers."
+          },
+          {
+            "title": "Find Michael's sales at each price",
+            "text": "Michael sold 2/3 of 9, or 6 flowers, at $0.90 each. He sold the remaining 1/3 of 9, or 3 flowers, at $0.50 each."
+          },
+          {
+            "title": "Add Michael's collections",
+            "text": "The two collections are 6 × $0.90 = $5.40 and 3 × $0.50 = $1.50."
+          }
+        ],
+        "answerCheck": "$5.40 + $1.50 = $6.90, so Michael collected $6.90."
+      },
+      "zh-Hans": {
+        "strategy": "由范妮的销售额求出共同的花朵数量，再把迈克尔的花分成2/3和1/3。",
+        "steps": [
+          {
+            "title": "求花朵数",
+            "text": "范妮每朵卖$0.80，共收$7.20，所以她卖出$7.20 ÷ $0.80 = 9朵。迈克尔也有同样的9朵花。"
+          },
+          {
+            "title": "求迈克尔按两种价钱卖出的数量",
+            "text": "迈克尔以每朵$0.90卖出9的2/3，即6朵；以每朵$0.50卖出剩下的1/3，即3朵。"
+          },
+          {
+            "title": "相加两部分收入",
+            "text": "两部分收入分别是6 × $0.90 = $5.40和3 × $0.50 = $1.50。"
+          }
+        ],
+        "answerCheck": "$5.40 + $1.50 = $6.90，所以迈克尔共收$6.90。"
+      }
+    }
   },
   {
     "id": 62,
-    "topic": "Simultaneous cost equations",
-    "question": "The cost of a magazine and 2 books is $34. The cost of 3 magazines and 4 books is $76. If Tasha buys 13 magazines and 9 books, how much money does she spend?",
-    "answer": "$221",
+    "topic": "Money",
+    "question": "When Nelly bought 5 pencils, she spent the same amount as Benjamin who bought 3 pens. If Benjamin spent 2/7 of his money buying the pens and he had $45 left, what was the total cost of a pencil and a pen?",
+    "answer": "$9.60",
     "model": "money-units",
-    "hint": "Double the 1st purchase, then compare it with the 2nd purchase to isolate the cost of 1 magazine."
+    "hint": "The $45 left is 5/7 of Benjamin's money. Find the cost of his 3 pens, which is also the cost of 5 pencils.",
+    "questionZh": "内莉买5支铅笔所花的钱，与本杰明买3支钢笔所花的钱相同。若本杰明买钢笔花了自己钱的2/7，且还剩$45，一支铅笔和一支钢笔的总价是多少？",
+    "hintZh": "剩下的$45是本杰明的钱的5/7。求他买3支钢笔的价钱，这也等于5支铅笔的价钱。",
+    "solution": {
+      "en": {
+        "strategy": "Use Benjamin's remaining 5/7 to find the shared cost of 3 pens and 5 pencils.",
+        "steps": [
+          {
+            "title": "Find the cost of 3 pens",
+            "text": "Benjamin spent 2/7 of his money and had 5/7 left. Since 5/7 is $45, 1/7 is $45 ÷ 5 = $9. Thus the 2/7 spent on 3 pens is 2 × $9 = $18."
+          },
+          {
+            "title": "Find each item price",
+            "text": "3 pens cost $18, so 1 pen costs $18 ÷ 3 = $6. The same $18 buys 5 pencils, so 1 pencil costs $18 ÷ 5 = $3.60."
+          },
+          {
+            "title": "Combine one pencil and one pen",
+            "text": "Add the $3.60 pencil price to the $6 pen price."
+          }
+        ],
+        "answerCheck": "$3.60 + $6 = $9.60, so a pencil and a pen cost $9.60 altogether."
+      },
+      "zh-Hans": {
+        "strategy": "用本杰明剩下的钱占5/7，求出3支钢笔和5支铅笔共同的价钱。",
+        "steps": [
+          {
+            "title": "求3支钢笔的价钱",
+            "text": "本杰明花了钱的2/7，剩下5/7。5/7是$45，所以1/7是$45 ÷ 5 = $9，买3支钢笔的2/7是2 × $9 = $18。"
+          },
+          {
+            "title": "求每件物品的单价",
+            "text": "3支钢笔值$18，因此1支钢笔是$18 ÷ 3 = $6。5支铅笔也值$18，因此1支铅笔是$18 ÷ 5 = $3.60。"
+          },
+          {
+            "title": "合并1支铅笔和1支钢笔的价钱",
+            "text": "把铅笔的$3.60和钢笔的$6相加。"
+          }
+        ],
+        "answerCheck": "$3.60 + $6 = $9.60，所以1支铅笔和1支钢笔共$9.60。"
+      }
+    }
   },
   {
     "id": 63,
-    "topic": "Simultaneous cost equations",
-    "question": "An apple and 2 oranges cost $2.30. 2 apples and an orange cost $2.50. What is the cost of 4 apples and 6 oranges?",
-    "answer": "$7.80",
+    "topic": "Money",
+    "question": "Ron earns $12 an hour on weekdays and 2 times as much on weekends. Ron works 8 hours a day on weekdays and 5 hours a day on Saturdays and Sundays. How much will he earn in 2 weeks if he works every day?",
+    "answer": "$1440",
     "model": "money-units",
-    "hint": "Double the 1st equation and compare it with the 2nd equation to find the cost of an orange."
+    "hint": "Count weekday and weekend hours separately over 2 weeks, because the hourly rates differ.",
+    "questionZh": "罗恩平日每小时赚$12，周末每小时赚2倍。罗恩平日每天工作8小时，星期六和星期日每天工作5小时。若连续每天工作，2周能赚多少钱？",
+    "hintZh": "平日和周末的时薪不同，因此分别计算2周内的平日与周末工作时数。",
+    "solution": {
+      "en": {
+        "strategy": "Calculate weekday and weekend earnings separately for the 2 weeks.",
+        "steps": [
+          {
+            "title": "Find weekday earnings",
+            "text": "There are 10 weekdays in 2 weeks. Ron works 10 × 8 = 80 weekday hours at $12 per hour, earning 80 × $12 = $960."
+          },
+          {
+            "title": "Find weekend earnings",
+            "text": "Weekend pay is 2 × $12 = $24 per hour. There are 4 weekend days in 2 weeks, so Ron works 4 × 5 = 20 hours and earns 20 × $24 = $480."
+          },
+          {
+            "title": "Add both earnings",
+            "text": "Add the $960 weekday earnings and the $480 weekend earnings."
+          }
+        ],
+        "answerCheck": "$960 + $480 = $1440, so Ron will earn $1440 in 2 weeks."
+      },
+      "zh-Hans": {
+        "strategy": "分别计算2周内平日和周末的收入。",
+        "steps": [
+          {
+            "title": "计算平日收入",
+            "text": "2周有10个平日。罗恩平日工作10 × 8 = 80小时，时薪$12，收入为80 × $12 = $960。"
+          },
+          {
+            "title": "计算周末收入",
+            "text": "周末时薪是2 × $12 = $24。2周有4个周末日，工作4 × 5 = 20小时，收入为20 × $24 = $480。"
+          },
+          {
+            "title": "相加两部分收入",
+            "text": "把平日的$960和周末的$480相加。"
+          }
+        ],
+        "answerCheck": "$960 + $480 = $1440，所以罗恩2周共赚$1440。"
+      }
+    }
   },
   {
     "id": 64,
-    "topic": "Ratios and grouping",
-    "question": "Mrs Bellamont sold 2 times as many butter cookies as chocolate chip cookies and 2 times as many chocolate chip cookies as coconut cookies. Each box of 4 cookies was sold for $4.50. 80 chocolate chip cookies were sold. How much would Mrs Bellamont collect from the sale of all the cookies?",
-    "answer": "$315",
-    "model": "unit-bar",
-    "hint": "Use chocolate chip cookies as 2 units. Find the total cookies, then the number of boxes of 4."
+    "topic": "Money",
+    "question": "The cost of a magazine and 2 books is $34. The cost of 3 magazines and 4 books is $76. If Tasha buys 13 magazines and 9 books, how much money does she spend?",
+    "answer": "$221",
+    "model": "money-units",
+    "hint": "Double the 1st purchase, then compare it with the 2nd purchase to isolate the cost of 1 magazine.",
+    "questionZh": "1本杂志和2本书共$34。3本杂志和4本书共$76。若塔莎买13本杂志和9本书，她要花多少钱？",
+    "hintZh": "把第1次购买乘以2，再与第2次购买比较，求出1本杂志的价钱。",
+    "solution": {
+      "en": {
+        "strategy": "Eliminate the book cost by comparing twice the first purchase with the second purchase.",
+        "steps": [
+          {
+            "title": "Find the magazine price",
+            "text": "Twice the cost of 1 magazine and 2 books is 2 magazines and 4 books for 2 × $34 = $68. The second purchase, 3 magazines and 4 books, costs $76. The extra magazine costs $76 − $68 = $8."
+          },
+          {
+            "title": "Find the book price",
+            "text": "1 magazine and 2 books cost $34. With a magazine at $8, 2 books cost $34 − $8 = $26, so 1 book costs $13."
+          },
+          {
+            "title": "Find Tasha's cost",
+            "text": "13 magazines cost 13 × $8 = $104, and 9 books cost 9 × $13 = $117."
+          }
+        ],
+        "answerCheck": "$104 + $117 = $221, so Tasha spends $221."
+      },
+      "zh-Hans": {
+        "strategy": "把第一次购买乘以2后与第二次购买比较，消去书的价钱。",
+        "steps": [
+          {
+            "title": "求杂志单价",
+            "text": "1本杂志和2本书共$34，乘以2后，2本杂志和4本书共$68。第二次的3本杂志和4本书共$76，多出的1本杂志值$76 − $68 = $8。"
+          },
+          {
+            "title": "求书的单价",
+            "text": "1本杂志和2本书共$34。杂志是$8，所以2本书值$34 − $8 = $26，1本书是$13。"
+          },
+          {
+            "title": "求塔莎的总花费",
+            "text": "13本杂志值13 × $8 = $104，9本书值9 × $13 = $117。"
+          }
+        ],
+        "answerCheck": "$104 + $117 = $221，所以塔莎花$221。"
+      }
+    }
   },
   {
     "id": 65,
-    "topic": "Mass and fractions",
-    "question": "The total mass of Gilbert and Sean was 124 kg. If Sean lost 1/4 of his mass, he would be 45 kg. How much heavier was Gilbert compared to Sean?",
-    "answer": "4 kg",
-    "model": "mass-bar",
-    "hint": "After losing 1/4, Sean has 3/4 of his original mass. Use 45 kg to recover his original mass."
+    "topic": "Money",
+    "question": "An apple and 2 oranges cost $2.30. 2 apples and an orange cost $2.50. What is the cost of 4 apples and 6 oranges?",
+    "answer": "$7.80",
+    "model": "money-units",
+    "hint": "Double the 1st equation and compare it with the 2nd equation to find the cost of an orange.",
+    "questionZh": "1个苹果和2个橙子共$2.30。2个苹果和1个橙子共$2.50。4个苹果和6个橙子共多少钱？",
+    "hintZh": "把第1个等式乘以2，再与第2个等式比较，求出1个橙子的价钱。",
+    "solution": {
+      "en": {
+        "strategy": "Compare twice the first equation with the second equation to determine both fruit prices.",
+        "steps": [
+          {
+            "title": "Find the orange price",
+            "text": "Twice the cost of 1 apple and 2 oranges is 2 apples and 4 oranges for 2 × $2.30 = $4.60. Compared with 2 apples and 1 orange for $2.50, 3 oranges cost $4.60 − $2.50 = $2.10."
+          },
+          {
+            "title": "Find the apple price",
+            "text": "1 orange costs $2.10 ÷ 3 = $0.70. From 1 apple + 2 oranges = $2.30, 1 apple costs $2.30 − 2 × $0.70 = $0.90."
+          },
+          {
+            "title": "Calculate the requested cost",
+            "text": "4 apples cost 4 × $0.90 = $3.60, and 6 oranges cost 6 × $0.70 = $4.20."
+          }
+        ],
+        "answerCheck": "$3.60 + $4.20 = $7.80, so 4 apples and 6 oranges cost $7.80."
+      },
+      "zh-Hans": {
+        "strategy": "把第一个等式乘以2后与第二个等式比较，求出两种水果的单价。",
+        "steps": [
+          {
+            "title": "求橙子的单价",
+            "text": "1个苹果和2个橙子共$2.30，乘以2后，2个苹果和4个橙子共$4.60。与2个苹果和1个橙子的$2.50比较，3个橙子值$4.60 − $2.50 = $2.10。"
+          },
+          {
+            "title": "求苹果的单价",
+            "text": "1个橙子是$2.10 ÷ 3 = $0.70。由1个苹果和2个橙子共$2.30，苹果是$2.30 − 2 × $0.70 = $0.90。"
+          },
+          {
+            "title": "计算要求的总价",
+            "text": "4个苹果值4 × $0.90 = $3.60，6个橙子值6 × $0.70 = $4.20。"
+          }
+        ],
+        "answerCheck": "$3.60 + $4.20 = $7.80，所以4个苹果和6个橙子共$7.80。"
+      }
+    }
   },
   {
     "id": 66,
-    "topic": "Mass comparison",
-    "question": "4 parcels, A, B, C and D have a total mass of 100.75 kg. Parcel A weighs 12.45 kg more than parcel B. Parcel B weighs 8.4 kg less than parcel C. Parcel C weighs 24.2 kg. How much heavier is parcel D than parcel C?",
-    "answer": "8.3 kg",
-    "model": "mass-bar",
-    "hint": "Find B from C, then A from B. Subtract A, B, and C from the total to find D."
+    "topic": "Money",
+    "question": "Mrs Bellamont sold 2 times as many butter cookies as chocolate chip cookies and 2 times as many chocolate chip cookies as coconut cookies. Each box of 4 cookies was sold for $4.50. 80 chocolate chip cookies were sold. How much would Mrs Bellamont collect from the sale of all the cookies?",
+    "answer": "$315",
+    "model": "unit-bar",
+    "hint": "Use chocolate chip cookies as 2 units. Find the total cookies, then the number of boxes of 4.",
+    "questionZh": "贝拉蒙特太太卖出的黄油饼干数量是巧克力碎片饼干的2倍，巧克力碎片饼干数量是椰子饼干的2倍。每盒4块饼干售价$4.50。已卖出80块巧克力碎片饼干。贝拉蒙特太太卖出所有饼干可收多少钱？",
+    "hintZh": "把巧克力碎片饼干表示为2份。求饼干总数，再求4块一盒的盒数。",
+    "solution": {
+      "en": {
+        "strategy": "Use the 80 chocolate chip cookies as the reference to find every cookie count and then the number of boxes.",
+        "steps": [
+          {
+            "title": "Find each type of cookie",
+            "text": "There are 80 chocolate chip cookies. Butter cookies are twice this number: 2 × 80 = 160. Chocolate chip cookies are twice the coconut cookies, so coconut cookies number 80 ÷ 2 = 40."
+          },
+          {
+            "title": "Find the number of boxes",
+            "text": "The total number of cookies is 160 + 80 + 40 = 280. At 4 cookies per box, this makes 280 ÷ 4 = 70 boxes."
+          },
+          {
+            "title": "Find the collection",
+            "text": "Each box sells for $4.50, so multiply 70 by $4.50."
+          }
+        ],
+        "answerCheck": "70 × $4.50 = $315, so Mrs Bellamont collects $315 from all the cookies."
+      },
+      "zh-Hans": {
+        "strategy": "以80块巧克力碎片饼干为基准，求各种饼干数量和盒数。",
+        "steps": [
+          {
+            "title": "求每种饼干的数量",
+            "text": "巧克力碎片饼干有80块。黄油饼干是它的2倍，即2 × 80 = 160块。巧克力碎片饼干是椰子饼干的2倍，所以椰子饼干有80 ÷ 2 = 40块。"
+          },
+          {
+            "title": "求盒数",
+            "text": "饼干总数为160 + 80 + 40 = 280块。每盒4块，所以有280 ÷ 4 = 70盒。"
+          },
+          {
+            "title": "求总收入",
+            "text": "每盒卖$4.50，因此用70乘$4.50。"
+          }
+        ],
+        "answerCheck": "70 × $4.50 = $315，所以贝拉蒙特太太卖出所有饼干可收$315。"
+      }
+    }
   },
   {
     "id": 67,
-    "topic": "Mass comparison",
-    "question": "Box A was 3.45 kg heavier than box B. When 1.2 kg of items in box A was removed, box A became 4 times as heavy as box B. What was the mass of box A in the beginning?",
-    "answer": "4.2 kg",
+    "topic": "Mass",
+    "question": "The total mass of Gilbert and Sean was 124 kg. If Sean lost 1/4 of his mass, he would be 45 kg. How much heavier was Gilbert compared to Sean?",
+    "answer": "4 kg",
     "model": "mass-bar",
-    "hint": "After removal, use the 4:1 mass ratio. The original difference is 3.45 kg, so the new difference is 3.45 − 1.2 kg."
+    "hint": "After losing 1/4, Sean has 3/4 of his original mass. Use 45 kg to recover his original mass.",
+    "questionZh": "吉尔伯特和肖恩的总质量是124 kg。若肖恩减去自己质量的1/4，他的质量将是45 kg。吉尔伯特比肖恩重多少？",
+    "hintZh": "肖恩减去1/4后，剩下原来质量的3/4。利用45 kg求出他原来的质量。",
+    "solution": {
+      "en": {
+        "strategy": "Recover Sean's original mass from the 3/4 that remains after his loss, then compare it with Gilbert's mass.",
+        "steps": [
+          {
+            "title": "Find Sean's original mass",
+            "text": "After losing 1/4 of his mass, Sean has 3/4 left, and that is 45 kg. Therefore, 1/4 is 45 ÷ 3 = 15 kg, so Sean originally weighed 4 × 15 = 60 kg."
+          },
+          {
+            "title": "Find Gilbert's mass",
+            "text": "Together they weighed 124 kg, so Gilbert weighed 124 kg − 60 kg = 64 kg."
+          },
+          {
+            "title": "Compare the masses",
+            "text": "Subtract Sean's 60 kg from Gilbert's 64 kg."
+          }
+        ],
+        "answerCheck": "64 kg − 60 kg = 4 kg, so Gilbert was 4 kg heavier than Sean."
+      },
+      "zh-Hans": {
+        "strategy": "由肖恩减重后剩下的3/4反求原来的质量，再与吉尔伯特的质量比较。",
+        "steps": [
+          {
+            "title": "求肖恩原来的质量",
+            "text": "肖恩减去1/4后剩下3/4，这3/4是45 kg。因此1/4是45 ÷ 3 = 15 kg，肖恩原来重4 × 15 = 60 kg。"
+          },
+          {
+            "title": "求吉尔伯特的质量",
+            "text": "两人共重124 kg，所以吉尔伯特重124 kg − 60 kg = 64 kg。"
+          },
+          {
+            "title": "比较两人的质量",
+            "text": "用吉尔伯特的64 kg减去肖恩的60 kg。"
+          }
+        ],
+        "answerCheck": "64 kg − 60 kg = 4 kg，所以吉尔伯特比肖恩重4 kg。"
+      }
+    }
   },
   {
     "id": 68,
-    "topic": "Mass of containers",
-    "question": "The mass of a box is 45 kg when it is full. When 1/2 of the items in the box are taken out, the mass of the remaining items and the box is 33 kg. What is the mass of 6 empty boxes?",
-    "answer": "126 kg",
+    "topic": "Mass",
+    "question": "4 parcels, A, B, C and D have a total mass of 100.75 kg. Parcel A weighs 12.45 kg more than parcel B. Parcel B weighs 8.4 kg less than parcel C. Parcel C weighs 24.2 kg. How much heavier is parcel D than parcel C?",
+    "answer": "8.3 kg",
     "model": "mass-bar",
-    "hint": "The difference between 45 kg and 33 kg is the mass of 1/2 the items. Use it to find the empty box's mass."
+    "hint": "Find B from C, then A from B. Subtract A, B, and C from the total to find D.",
+    "questionZh": "A、B、C和D共4个包裹的总质量是100.75 kg。A包裹比B包裹重12.45 kg。B包裹比C包裹轻8.4 kg。C包裹重24.2 kg。D包裹比C包裹重多少？",
+    "hintZh": "由C求B，再由B求A。从总质量中减去A、B和C的质量，求出D。",
+    "solution": {
+      "en": {
+        "strategy": "Find parcels B and A from parcel C, then subtract A, B, and C from the total to find D.",
+        "steps": [
+          {
+            "title": "Find parcels B and A",
+            "text": "Parcel B is 8.4 kg less than parcel C, so B weighs 24.2 kg − 8.4 kg = 15.8 kg. Parcel A is 12.45 kg more than B, so A weighs 15.8 kg + 12.45 kg = 28.25 kg."
+          },
+          {
+            "title": "Find parcel D",
+            "text": "Parcels A, B, and C weigh 28.25 kg + 15.8 kg + 24.2 kg = 68.25 kg. Thus D weighs 100.75 kg − 68.25 kg = 32.5 kg."
+          },
+          {
+            "title": "Compare D and C",
+            "text": "Subtract C's 24.2 kg from D's 32.5 kg."
+          }
+        ],
+        "answerCheck": "32.5 kg − 24.2 kg = 8.3 kg, so parcel D is 8.3 kg heavier than parcel C."
+      },
+      "zh-Hans": {
+        "strategy": "先由C包裹求出B和A包裹的质量，再从总质量中减去A、B、C以求D。",
+        "steps": [
+          {
+            "title": "求B和A包裹的质量",
+            "text": "B包裹比C包裹轻8.4 kg，所以B是24.2 kg − 8.4 kg = 15.8 kg。A包裹比B包裹重12.45 kg，所以A是15.8 kg + 12.45 kg = 28.25 kg。"
+          },
+          {
+            "title": "求D包裹的质量",
+            "text": "A、B、C的质量是28.25 kg + 15.8 kg + 24.2 kg = 68.25 kg。因此D是100.75 kg − 68.25 kg = 32.5 kg。"
+          },
+          {
+            "title": "比较D和C包裹",
+            "text": "用D的32.5 kg减去C的24.2 kg。"
+          }
+        ],
+        "answerCheck": "32.5 kg − 24.2 kg = 8.3 kg，所以D包裹比C包裹重8.3 kg。"
+      }
+    }
   },
   {
     "id": 69,
-    "topic": "Area of squares",
-    "question": "9 small squares are used to form a large square. If each side of a small square is 7 cm, what is the area of the large square?",
-    "answer": "441 cm²",
-    "model": "geometry",
-    "hint": "The 9 small squares form a 3 by 3 array, so each side of the large square has 3 7 cm lengths."
+    "topic": "Mass",
+    "question": "Box A was 3.45 kg heavier than box B. When 1.2 kg of items in box A was removed, box A became 4 times as heavy as box B. What was the mass of box A in the beginning?",
+    "answer": "4.2 kg",
+    "model": "mass-bar",
+    "hint": "After removal, use the 4:1 mass ratio. The original difference is 3.45 kg, so the new difference is 3.45 − 1.2 kg.",
+    "questionZh": "A盒比B盒重3.45 kg。从A盒取出1.2 kg物品后，A盒的质量变为B盒的4倍。A盒开始时的质量是多少？",
+    "hintZh": "取出后，利用4:1的质量比。原来的差是3.45 kg，因此新的差是3.45 − 1.2 kg。",
+    "solution": {
+      "en": {
+        "strategy": "Compare the new mass difference with the 4:1 ratio.",
+        "steps": [
+          {
+            "title": "Find the new difference",
+            "text": "After 1.2 kg is removed from A, the difference is 3.45 − 1.2 = 2.25 kg."
+          },
+          {
+            "title": "Use the ratio",
+            "text": "At that time A is 4 times B, so the difference of 3 parts is 2.25 kg. One part, B, is 2.25 ÷ 3 = 0.75 kg; A then is 4 × 0.75 = 3 kg."
+          },
+          {
+            "title": "Restore the removed items",
+            "text": "The beginning mass of A was 3 + 1.2 = 4.2 kg."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 4.2 kg."
+      },
+      "zh-Hans": {
+        "strategy": "把取出后的质量差与4:1的质量比对应起来。",
+        "steps": [
+          {
+            "title": "求取出后的差",
+            "text": "从A盒取出1.2 kg后，两盒的质量差是3.45 − 1.2 = 2.25 kg。"
+          },
+          {
+            "title": "利用4:1",
+            "text": "此时A是B的4倍，差是3份，所以1份即B盒质量为2.25 ÷ 3 = 0.75 kg。此时A盒质量为4 × 0.75 = 3 kg。"
+          },
+          {
+            "title": "加回取出的物品",
+            "text": "A盒开始时的质量为3 + 1.2 = 4.2 kg。"
+          }
+        ],
+        "answerCheck": "所以答案是4.2 kg。"
+      }
+    }
   },
   {
     "id": 70,
-    "topic": "Perimeter of a composite shape",
-    "question": "The area of a square is 81 cm². Find the perimeter of the unshaded portion.",
-    "answer": "32 cm",
-    "model": "geometry",
-    "hint": "Find the side length of the square 1st. Then use the 7 cm marked side and matching tick marks to label every edge of the unshaded boundary."
+    "topic": "Mass",
+    "question": "The mass of a box is 45 kg when it is full. When 1/2 of the items in the box are taken out, the mass of the remaining items and the box is 33 kg. What is the mass of 6 empty boxes?",
+    "answer": "126 kg",
+    "model": "mass-bar",
+    "hint": "The difference between 45 kg and 33 kg is the mass of 1/2 the items. Use it to find the empty box's mass.",
+    "questionZh": "一个盒子装满时质量为45 kg。取出盒中物品的1/2后，剩余物品和盒子的质量为33 kg。6个空盒子的质量是多少？",
+    "hintZh": "45 kg与33 kg的差是物品的1/2的质量。利用它求出1个空盒子的质量。",
+    "solution": {
+      "en": {
+        "strategy": "The drop in total mass is half the items, then use the full mass.",
+        "steps": [
+          {
+            "title": "Find half the items’ mass",
+            "text": "Removing half the items changes the mass from 45 kg to 33 kg, so half the items weigh 45 − 33 = 12 kg."
+          },
+          {
+            "title": "Find one empty box",
+            "text": "All the items weigh 2 × 12 = 24 kg. Therefore one empty box weighs 45 − 24 = 21 kg."
+          },
+          {
+            "title": "Find six boxes",
+            "text": "The mass of 6 empty boxes is 6 × 21 = 126 kg."
+          }
+        ],
+        "answerCheck": "Therefore, the answer is 126 kg."
+      },
+      "zh-Hans": {
+        "strategy": "先由减少的质量求出物品的一半，再求空盒质量。",
+        "steps": [
+          {
+            "title": "求物品一半的质量",
+            "text": "取出一半物品后，总质量从45 kg变为33 kg，所以物品的一半质量是45 − 33 = 12 kg。"
+          },
+          {
+            "title": "求1个空盒的质量",
+            "text": "全部物品的质量是2 × 12 = 24 kg。因此1个空盒的质量是45 − 24 = 21 kg。"
+          },
+          {
+            "title": "求6个空盒的质量",
+            "text": "6个空盒的质量是6 × 21 = 126 kg。"
+          }
+        ],
+        "answerCheck": "所以答案是126 kg。"
+      }
+    }
   }
 ]

@@ -3294,7 +3294,7 @@ window.QUESTION_BANK = [
           },
           {
             "title": "Add the boundary",
-            "text": "Perimeter ABFEHG = AB + BF + EF + EH + HG + GA = 9 + 2 + 9 + 5 + 7 = 32 cm."
+            "text": "Perimeter ABFEHG = AB + BF + (EF + HG) + EH + GA = 9 + 2 + 9 + 5 + 7 = 32 cm."
           }
         ],
         "answerCheck": "Therefore, the answer is 32 cm."
@@ -3312,7 +3312,7 @@ window.QUESTION_BANK = [
           },
           {
             "title": "相加求周长",
-            "text": "ABFEHG的周长 = AB + BF + EF + EH + GH + GA = 9 + 2 + 9 + 5 + 7 = 32 cm。"
+            "text": "ABFEHG的周长 = AB + BF + (EF + HG) + EH + GA = 9 + 2 + 9 + 5 + 7 = 32 cm。"
           }
         ],
         "answerCheck": "所以答案是32 cm。"

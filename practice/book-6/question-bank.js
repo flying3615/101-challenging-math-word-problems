@@ -9,36 +9,50 @@ window.QUESTION_BANK = [
     "sourcePage": 5,
     "solution": {
       "en": {
-        "strategy": "Use the total number of questions and compare the score from correct and wrong answers.",
+        "strategy": "Follow the guess-and-check table: each row must have 15 questions and score 29 points.",
         "steps": [
           {
-            "title": "Set up the counts",
-            "text": "Let c be the number correct. Then 15 − c were wrong, so 3c − (15 − c) = 29."
+            "title": "Fill trial rows",
+            "text": "For 7 correct answers, the table has 8 wrong answers: 7×3 − 8×1 = 13, so that row fails. For 9 correct answers, 6 are wrong: 9×3 − 6×1 = 21, so that row also fails."
           },
           {
-            "title": "Solve",
-            "text": "3c − 15 + c = 29, so 4c = 44 and c = 11."
+            "title": "Find the checked row",
+            "text": "The row with 11 correct answers has 4 wrong answers. Its score is 11×3 − 4×1 = 33 − 4 = 29, so it matches the required score."
           }
         ],
         "answerCheck": "11 questions"
       },
       "zh-Hans": {
-        "strategy": "用答对和答错的题数总和为 15，再列出得分关系。",
+        "strategy": "按猜测检验表逐行试算；每一行的题数都要是15，得分都要检验是否为29。",
         "steps": [
           {
-            "title": "设答对题数",
-            "text": "设答对 c 题，则答错 15 − c 题。得分是 3c − (15 − c) = 29。"
+            "title": "填写试算行",
+            "text": "结合上面的图示模型，答对7题时，答错8题：7×3 − 8×1 = 13，不符合。答对9题时，答错6题：9×3 − 6×1 = 21，也不符合。"
           },
           {
-            "title": "求 c",
-            "text": "3c − 15 + c = 29，所以 4c = 44，c = 11。"
+            "title": "找出检验成功的一行",
+            "text": "答对11题时，答错4题，得分为11×3 − 4×1 = 33 − 4 = 29，正好符合。"
           }
         ],
-        "answerCheck": "答对 11 题。"
+        "answerCheck": "答对11题。"
       }
     },
     "questionZh": "彼得答了15道测验题，共得29分。答对1题得3分，答错1题扣1分。彼得答对了多少题？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 50,
+      "sourceMethod": "Printed solution Step 1: guess-and-check table",
+      "en": {
+        "viewBox": "0 0 420 122",
+        "svg": "<rect x=\"10\" y=\"12\" width=\"400\" height=\"100\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"75\" y1=\"12\" x2=\"75\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"140\" y1=\"12\" x2=\"140\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"205\" y1=\"12\" x2=\"205\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"270\" y1=\"12\" x2=\"270\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"335\" y1=\"12\" x2=\"335\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"32\" x2=\"410\" y2=\"32\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"58\" x2=\"410\" y2=\"58\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"84\" x2=\"410\" y2=\"84\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"42\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Correct</text><text x=\"107\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Correct pts</text><text x=\"172\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Wrong</text><text x=\"237\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Deduct pts</text><text x=\"302\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Total</text><text x=\"367\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Check</text><text x=\"42\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">7</text><text x=\"107\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">7×3=21</text><text x=\"172\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">8</text><text x=\"237\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">8×1=8</text><text x=\"302\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">21−8=13</text><text x=\"367\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"42\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">9</text><text x=\"107\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">9×3=27</text><text x=\"172\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">6</text><text x=\"237\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">6×1=6</text><text x=\"302\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">27−6=21</text><text x=\"367\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"42\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"107\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">?×3</text><text x=\"172\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">15−?</text><text x=\"237\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">(15−?)×1</text><text x=\"302\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">…=29</text><text x=\"367\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text>",
+        "alt": "Guess-and-check table: preserve 15 questions while testing score combinations toward 29."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 420 122",
+        "svg": "<rect x=\"10\" y=\"12\" width=\"400\" height=\"100\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"75\" y1=\"12\" x2=\"75\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"140\" y1=\"12\" x2=\"140\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"205\" y1=\"12\" x2=\"205\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"270\" y1=\"12\" x2=\"270\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"335\" y1=\"12\" x2=\"335\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"32\" x2=\"410\" y2=\"32\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"58\" x2=\"410\" y2=\"58\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"84\" x2=\"410\" y2=\"84\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"42\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">答对</text><text x=\"107\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">答对得分</text><text x=\"172\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">答错</text><text x=\"237\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">扣分</text><text x=\"302\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">总分</text><text x=\"367\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">检验</text><text x=\"42\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">7</text><text x=\"107\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">7×3=21</text><text x=\"172\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">8</text><text x=\"237\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">8×1=8</text><text x=\"302\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">21−8=13</text><text x=\"367\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"42\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">9</text><text x=\"107\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">9×3=27</text><text x=\"172\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">6</text><text x=\"237\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">6×1=6</text><text x=\"302\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">27−6=21</text><text x=\"367\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"42\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"107\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">?×3</text><text x=\"172\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">15−?</text><text x=\"237\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">(15−?)×1</text><text x=\"302\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">…=29</text><text x=\"367\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text>",
+        "alt": "猜测检验表：总题数保持15，试算不同得分组合是否达到29。"
+      }
+    }
   },
   {
     "id": 2,
@@ -50,44 +64,50 @@ window.QUESTION_BANK = [
     "sourcePage": 5,
     "solution": {
       "en": {
-        "strategy": "Work backward from the equal final number of each colour.",
+        "strategy": "Use the aligned bars after the changes, where yellow and orange are 2 units each and black is 1 unit.",
         "steps": [
           {
-            "title": "Represent the final equal amount",
-            "text": "Let the final amount of each colour be x. Originally, yellow was x − 18, orange was x + 33, and black was x ÷ 2 because it was doubled."
+            "title": "Find one bar unit",
+            "text": "The bars show 5 equal units after the adjustments. Their total is 480 + 18 − 33 = 465, so 1 unit = 465 ÷ 5 = 93."
           },
           {
-            "title": "Use the original total",
-            "text": "(x − 18) + (x + 33) + x/2 = 480. Thus 5x/2 + 15 = 480, x = 186."
-          },
-          {
-            "title": "Find the original counts",
-            "text": "Yellow = 186 − 18 = 168; orange = 186 + 33 = 219; black = 186 ÷ 2 = 93."
+            "title": "Reverse the end pieces",
+            "text": "Yellow originally was 2 units minus the added 18: 2×93 − 18 = 168. Orange originally was 2 units plus the removed 33: 2×93 + 33 = 219. Black was 1 unit: 93."
           }
         ],
         "answerCheck": "Yellow: 168; orange: 219; black: 93"
       },
       "zh-Hans": {
-        "strategy": "从三种珠子最后数量相等的状态倒推。",
+        "strategy": "看变化后的对齐单位条：黄色和橙色各是2单位，黑色是1单位。",
         "steps": [
           {
-            "title": "设最后相等的数量",
-            "text": "设每种颜色最后都有 x 颗。原来黄珠有 x − 18 颗，橙珠有 x + 33 颗，黑珠有 x ÷ 2 颗，因为黑珠数量加倍了。"
+            "title": "求1个单位",
+            "text": "变化后的3条共5个等单位，总数是480 + 18 − 33 = 465，所以1单位是465 ÷ 5 = 93。"
           },
           {
-            "title": "利用原来的总数",
-            "text": "(x − 18) + (x + 33) + x/2 = 480，所以 5x/2 + 15 = 480，x = 186。"
-          },
-          {
-            "title": "求原来各色数量",
-            "text": "黄珠 = 186 − 18 = 168 颗；橙珠 = 186 + 33 = 219 颗；黑珠 = 186 ÷ 2 = 93 颗。"
+            "title": "倒推条形末端的变化",
+            "text": "黄珠原来是2×93 − 18 = 168颗；橙珠原来是2×93 + 33 = 219颗；黑珠原来是1×93 = 93颗。"
           }
         ],
-        "answerCheck": "黄珠 168 颗；橙珠 219 颗；黑珠 93 颗。"
+        "answerCheck": "黄珠168颗；橙珠219颗；黑珠93颗。"
       }
     },
     "questionZh": "一个盒子里有480颗黄色、橙色和黑色珠子。加入18颗黄色珠子、取走33颗橙色珠子，并把黑色珠子的数量增加到原来的2倍后，3种颜色的珠子数量相等。求每种珠子原来的数量。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 50,
+      "sourceMethod": "Printed solution Step 1: aligned unit bars and reverse adjustments",
+      "en": {
+        "viewBox": "0 0 420 145",
+        "svg": "<text x=\"12\" y=\"17\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">480 + 18 − 33 = 465</text><text x=\"12\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Yellow</text><rect x=\"80\" y=\"22\" width=\"60\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"22\" width=\"60\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"190\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\">−18</text><text x=\"12\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Orange</text><rect x=\"80\" y=\"48\" width=\"60\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"48\" width=\"60\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"200\" y=\"48\" width=\"40\" height=\"18\" fill=\"white\" stroke=\"#f5b57b\" stroke-width=\"1\"/><text x=\"220\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">+33</text><text x=\"12\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Black</text><rect x=\"80\" y=\"74\" width=\"60\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"74\" width=\"60\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"80\" y1=\"98\" x2=\"200\" y2=\"98\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"140\" y=\"112\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">2 unit</text><line x1=\"80\" y1=\"100\" x2=\"140\" y2=\"100\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"110\" y=\"112\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">1 unit</text><text x=\"270\" y=\"38\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#6d7f8f\">?</text><text x=\"270\" y=\"64\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#6d7f8f\">?</text><text x=\"270\" y=\"90\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#6d7f8f\">?</text><text x=\"12\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">5 units → 465; 1 unit → 465 ÷ 5</text>",
+        "alt": "Aligned unit bars show the reverse adjustments of 18 and 33 before finding the unknown quantities."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 420 145",
+        "svg": "<text x=\"12\" y=\"17\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">480 + 18 − 33 = 465</text><text x=\"12\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">黄色</text><rect x=\"80\" y=\"22\" width=\"60\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"22\" width=\"60\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"190\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\">−18</text><text x=\"12\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">橙色</text><rect x=\"80\" y=\"48\" width=\"60\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"48\" width=\"60\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"200\" y=\"48\" width=\"40\" height=\"18\" fill=\"white\" stroke=\"#f5b57b\" stroke-width=\"1\"/><text x=\"220\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">+33</text><text x=\"12\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">黑色</text><rect x=\"80\" y=\"74\" width=\"60\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"74\" width=\"60\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"80\" y1=\"98\" x2=\"200\" y2=\"98\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"140\" y=\"112\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">2 单位</text><line x1=\"80\" y1=\"100\" x2=\"140\" y2=\"100\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"110\" y=\"112\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">1 单位</text><text x=\"270\" y=\"38\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#6d7f8f\">?</text><text x=\"270\" y=\"64\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#6d7f8f\">?</text><text x=\"270\" y=\"90\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#6d7f8f\">?</text><text x=\"12\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">5单位 → 465；1单位 → 465÷5</text>",
+        "alt": "对齐单位条展示先还原18和33的变化，再求未知量。"
+      }
+    }
   },
   {
     "id": 3,
@@ -99,36 +119,50 @@ window.QUESTION_BANK = [
     "sourcePage": 5,
     "solution": {
       "en": {
-        "strategy": "Use the loss to find the original number of blue beads, then use the 40% red split.",
+        "strategy": "Use the percentage bars: 40% is 2 units and 60% is 3 equal units.",
         "steps": [
           {
-            "title": "Find the original blue beads",
-            "text": "The 50 lost blue beads are 1/3 of the original blue beads. Original blue beads = 50 × 3 = 150."
+            "title": "Read the blue bar",
+            "text": "The 60% blue bar is split into 3 equal 20% units. The lost 50 beads are one of those units, so 1 unit (20%) = 50 and the original blue amount is 3×50 = 150."
           },
           {
-            "title": "Find the final total",
-            "text": "Since 40% were red, 60% were blue. The original total was 150 ÷ 60% = 250. After 50 blue beads were lost, 250 − 50 = 200."
+            "title": "Complete the whole bar",
+            "text": "The full 100% bar has 5 units, so it originally held 5×50 = 250 beads. After the 50 blue beads were lost, Angie had 250 − 50 = 200 beads."
           }
         ],
         "answerCheck": "200 beads"
       },
       "zh-Hans": {
-        "strategy": "先用丢失的蓝珠数求原来蓝珠数，再利用红珠占40%的关系。",
+        "strategy": "使用百分比单位条：40%是2单位，60%是3个相等单位。",
         "steps": [
           {
-            "title": "求原来蓝珠数",
-            "text": "丢失的50颗蓝珠是原来蓝珠数的1/3，所以原来蓝珠有50 × 3 = 150颗。"
+            "title": "读出蓝珠条",
+            "text": "60%的蓝珠条分成3个20%单位。丢失的50颗就是1个单位，所以1单位（20%）=50，原来蓝珠有3×50 = 150颗。"
           },
           {
-            "title": "求最后总数",
-            "text": "红珠占40%，所以蓝珠占60%。原来总数是150 ÷ 60% = 250颗。丢失50颗蓝珠后，剩下250 − 50 = 200颗。"
+            "title": "补全100%的整条",
+            "text": "100%共有5个单位，原来总数是5×50 = 250颗。丢失50颗蓝珠后，剩250 − 50 = 200颗。"
           }
         ],
-        "answerCheck": "200颗珠子"
+        "answerCheck": "200颗珠子。"
       }
     },
     "questionZh": "安琪的珠子中有40%是红色的。她丢失50颗蓝色珠子后，蓝色珠子的数量减少了原来的1/3。安琪最后有多少颗珠子？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 50,
+      "sourceMethod": "Printed solution Step 1: percentage unit bars",
+      "en": {
+        "viewBox": "0 0 370 170",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">40% = 2/5</text><text x=\"150\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">60% = 3/5</text><text x=\"10\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Red beads</text><rect x=\"95\" y=\"29\" width=\"55\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"150\" y=\"29\" width=\"55\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"205\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">40%</text><text x=\"10\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Blue beads</text><rect x=\"95\" y=\"56\" width=\"55\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"150\" y=\"56\" width=\"55\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"205\" y=\"56\" width=\"55\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"177\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">50</text><text x=\"270\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">60%</text><line x1=\"95\" y1=\"82\" x2=\"260\" y2=\"82\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"178\" y=\"96\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">100%</text><text x=\"10\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">1 unit (20%) → 50</text><text x=\"10\" y=\"138\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">3 units (60%) → 150</text><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">5 units (100%) → 250; 250 − 50 = ?</text>",
+        "alt": "Percentage bars convert 40% and 60% into equal 20% units; one blue unit is 50."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 370 170",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">40% = 2/5</text><text x=\"150\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">60% = 3/5</text><text x=\"10\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">红珠</text><rect x=\"95\" y=\"29\" width=\"55\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"150\" y=\"29\" width=\"55\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"205\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">40%</text><text x=\"10\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">蓝珠</text><rect x=\"95\" y=\"56\" width=\"55\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"150\" y=\"56\" width=\"55\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"205\" y=\"56\" width=\"55\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"177\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">50</text><text x=\"270\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">60%</text><line x1=\"95\" y1=\"82\" x2=\"260\" y2=\"82\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"178\" y=\"96\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">100%</text><text x=\"10\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">1单位（20%）→50</text><text x=\"10\" y=\"138\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">3单位（60%）→150</text><text x=\"10\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">5单位（100%）→250；250−50=？</text>",
+        "alt": "百分比条把40%和60%转成相等的20%单位；一个蓝色单位为50。"
+      }
+    }
   },
   {
     "id": 4,
@@ -140,36 +174,50 @@ window.QUESTION_BANK = [
     "sourcePage": 6,
     "solution": {
       "en": {
-        "strategy": "Find the yellow and green counts first; the three non-blue colours make up 2/3 of the total.",
+        "strategy": "Make the three-unit bar: blue is 1 unit, while orange, yellow, and green together are the other 2 units.",
         "steps": [
           {
-            "title": "Count the non-blue buttons",
-            "text": "Yellow = 820 + 160 = 980. Green = 820 − 210 = 610. Orange, yellow, and green total 820 + 980 + 610 = 2410."
+            "title": "Build the 2-unit section",
+            "text": "Yellow = 820 + 160 = 980 and green = 820 − 210 = 610. Thus orange + yellow + green = 820 + 980 + 610 = 2410; this is the 2-unit section of the bar."
           },
           {
-            "title": "Find the whole total",
-            "text": "Blue buttons are 1/3 of the total, so the 2410 non-blue buttons are 2/3. Total buttons = 2410 ÷ 2 × 3 = 3615."
+            "title": "Complete all 3 units",
+            "text": "1 unit = 2410 ÷ 2 = 1205. The whole bar has 3 units, so the total is 3×1205 = 3615 buttons."
           }
         ],
         "answerCheck": "3615 buttons"
       },
       "zh-Hans": {
-        "strategy": "先求黄色和绿色纽扣数；3种非蓝色纽扣占总数的2/3。",
+        "strategy": "画3单位条：蓝色是1单位，橙、黄、绿合起来是另2单位。",
         "steps": [
           {
-            "title": "求非蓝色纽扣数",
-            "text": "黄纽扣有820 + 160 = 980个。绿纽扣有820 − 210 = 610个。橙、黄、绿纽扣共820 + 980 + 610 = 2410个。"
+            "title": "求2单位部分",
+            "text": "黄纽扣有820 + 160 = 980个，绿纽扣有820 − 210 = 610个。因此橙、黄、绿共820 + 980 + 610 = 2410个，正好是2单位。"
           },
           {
-            "title": "求总数",
-            "text": "蓝色纽扣占总数的1/3，所以2410个非蓝色纽扣占2/3。纽扣总数为2410 ÷ 2 × 3 = 3615个。"
+            "title": "完成3单位整条",
+            "text": "1单位是2410 ÷ 2 = 1205个。整条有3单位，所以总数是3×1205 = 3615个纽扣。"
           }
         ],
-        "answerCheck": "3615个纽扣"
+        "answerCheck": "3615个纽扣。"
       }
     },
     "questionZh": "有820个橙色纽扣，比黄色纽扣少160个，比绿色纽扣多210个。蓝色纽扣占总数的1/3。纽扣一共有多少个？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 50,
+      "sourceMethod": "Printed solution Step 1: three-unit bar model",
+      "en": {
+        "viewBox": "0 0 390 152",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Orange = 820</text><text x=\"10\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Yellow = 820 + 160 = 980</text><text x=\"10\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Green = 820 − 210 = 610</text><rect x=\"10\" y=\"75\" width=\"95\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"75\" width=\"95\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"200\" y=\"75\" width=\"95\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"10\" y=\"75\" width=\"95\" height=\"24\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"57\" y=\"91\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">blue</text><rect x=\"105\" y=\"75\" width=\"190\" height=\"24\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"200\" y=\"91\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">orange + yellow + green</text><line x1=\"10\" y1=\"70\" x2=\"295\" y2=\"70\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"152\" y=\"63\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#6d7f8f\" text-anchor=\"middle\">?</text><text x=\"10\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\">2 units → 2410; 1 unit → 2410 ÷ 2 = 1205</text><text x=\"10\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">3 units → ?</text>",
+        "alt": "Three-unit whole-part bar: the combined orange, yellow, and green amount is two equal units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 390 152",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">橙色 = 820</text><text x=\"10\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">黄色 = 820 + 160 = 980</text><text x=\"10\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">绿色 = 820 − 210 = 610</text><rect x=\"10\" y=\"75\" width=\"95\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"75\" width=\"95\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"200\" y=\"75\" width=\"95\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"10\" y=\"75\" width=\"95\" height=\"24\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"57\" y=\"91\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">蓝色</text><rect x=\"105\" y=\"75\" width=\"190\" height=\"24\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"200\" y=\"91\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">橙色 + 黄色 + 绿色</text><line x1=\"10\" y1=\"70\" x2=\"295\" y2=\"70\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"152\" y=\"63\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#6d7f8f\" text-anchor=\"middle\">?</text><text x=\"10\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\">2 units → 2410; 1 unit → 2410 ÷ 2 = 1205</text><text x=\"10\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">3单位 → ？</text>",
+        "alt": "三单位整体—部分条：橙、黄、绿的合计为两个相等单位。"
+      }
+    }
   },
   {
     "id": 5,
@@ -181,44 +229,50 @@ window.QUESTION_BANK = [
     "sourcePage": 6,
     "solution": {
       "en": {
-        "strategy": "Use the 2-fruit difference and account for Benjamin's $1 per complete 10-fruit group.",
+        "strategy": "Use the guess-and-check table, keeping apples 2 more than oranges and deducting the payment for complete tens.",
         "steps": [
           {
-            "title": "Express the fruit counts",
-            "text": "Let oranges = x, so apples = x + 2. The fruit value before payment is 3x + 2(x + 2) = 5x + 4 dollars."
+            "title": "Test table rows",
+            "text": "The 18-orange, 20-apple row gives $54 + $40 − $3 = $91, not $62. The 13-orange, 15-apple row gives $39 + $30 − $2 = $67, also not $62."
           },
           {
-            "title": "Account for the payment",
-            "text": "With x = 12, there are 12 + 14 = 26 fruit, or 2 complete groups of 10, so Benjamin receives $2. The seller keeps $62, making the fruit value $62 + $2 = $64."
-          },
-          {
-            "title": "Solve and check",
-            "text": "5x + 4 = 64 gives x = 12. Therefore there were 12 oranges and 14 apples; 12×$3 + 14×$2 − $2 = $62."
+            "title": "Use the checked row",
+            "text": "For 12 oranges and 14 apples, there are 26 fruit, so the table deducts $2. Then $36 + $28 − $2 = $62, which matches the sale total."
           }
         ],
         "answerCheck": "12 oranges; 14 apples"
       },
       "zh-Hans": {
-        "strategy": "利用苹果比橙子多 2 个，并扣除每完整 10 个水果的 $1 报酬。",
+        "strategy": "使用猜测检验表；苹果始终比橙子多2个，并扣除每完整10个水果的报酬。",
         "steps": [
           {
-            "title": "表示水果数量",
-            "text": "设橙子有 x 个，苹果有 x + 2 个。付报酬前的水果售价为 3x + 2(x + 2) = 5x + 4 美元。"
+            "title": "试算表格各行",
+            "text": "结合上面的图示模型，18个橙子和20个苹果时，$54 + $40 − $3 = $91，不是$62。13个橙子和15个苹果时，$39 + $30 − $2 = $67，也不是$62。"
           },
           {
-            "title": "计算报酬",
-            "text": "当 x = 12 时，水果共 12 + 14 = 26 个，有 2 组完整的 10 个，所以 Benjamin 得到 $2。卖家收 $62，水果售价应为 $62 + $2 = $64。"
-          },
-          {
-            "title": "求解并检验",
-            "text": "5x + 4 = 64，所以 x = 12。橙子有 12 个，苹果有 14 个；12×$3 + 14×$2 − $2 = $62。"
+            "title": "采用检验成功的一行",
+            "text": "12个橙子和14个苹果共26个水果，要扣$2。$36 + $28 − $2 = $62，正好符合。"
           }
         ],
-        "answerCheck": "橙子 12 个；苹果 14 个。"
+        "answerCheck": "橙子12个；苹果14个。"
       }
     },
     "questionZh": "本杰明卖苹果和橙子。他卖的苹果比橙子多2个；橙子每个$3，苹果每个$2，并且每卖出10个水果可获得$1。收款后总销售额为$62。求苹果和橙子各卖了多少个。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 51,
+      "sourceMethod": "Printed solution Step 1: guess-and-check table",
+      "en": {
+        "viewBox": "0 0 380 124",
+        "svg": "<rect x=\"10\" y=\"12\" width=\"355\" height=\"100\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"60\" y1=\"12\" x2=\"60\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"108\" y1=\"12\" x2=\"108\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"168\" y1=\"12\" x2=\"168\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"323\" y1=\"12\" x2=\"323\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"34\" x2=\"365\" y2=\"34\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"60\" x2=\"365\" y2=\"60\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"86\" x2=\"365\" y2=\"86\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"35.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Oranges</text><text x=\"84.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Apples</text><text x=\"138.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Total fruit</text><text x=\"245.5\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Collected</text><text x=\"344.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Check</text><text x=\"35.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">18</text><text x=\"84.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">20</text><text x=\"138.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">38</text><text x=\"245.5\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">$54+$40−$3=$91</text><text x=\"344.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"35.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">13</text><text x=\"84.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">15</text><text x=\"138.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">28</text><text x=\"245.5\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">$39+$30−$2=$67</text><text x=\"344.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"35.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"84.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"138.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"245.5\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">$3×?+$2×?−$2=$62</text><text x=\"344.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text>",
+        "alt": "Guess-and-check table preserves the displayed fruit totals and amount calculations without revealing the accepted quantities."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 380 124",
+        "svg": "<rect x=\"10\" y=\"12\" width=\"355\" height=\"100\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"60\" y1=\"12\" x2=\"60\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"108\" y1=\"12\" x2=\"108\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"168\" y1=\"12\" x2=\"168\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"323\" y1=\"12\" x2=\"323\" y2=\"112\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"34\" x2=\"365\" y2=\"34\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"60\" x2=\"365\" y2=\"60\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"86\" x2=\"365\" y2=\"86\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"35.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">橙子</text><text x=\"84.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">苹果</text><text x=\"138.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">水果总数</text><text x=\"245.5\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">收款</text><text x=\"344.0\" y=\"27\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">检验</text><text x=\"35.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">18</text><text x=\"84.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">20</text><text x=\"138.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">38</text><text x=\"245.5\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">$54+$40−$3=$91</text><text x=\"344.0\" y=\"51\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"35.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">13</text><text x=\"84.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">15</text><text x=\"138.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">28</text><text x=\"245.5\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">$39+$30−$2=$67</text><text x=\"344.0\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"35.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"84.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"138.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"245.5\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">$3×?+$2×?−$2=$62</text><text x=\"344.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text>",
+        "alt": "猜测检验表保留水果总数和金额计算，但不显示正确数量。"
+      }
+    }
   },
   {
     "id": 6,
@@ -230,36 +284,58 @@ window.QUESTION_BANK = [
     "sourcePage": 6,
     "solution": {
       "en": {
-        "strategy": "Find the common final amount, then reverse each transfer.",
+        "strategy": "Start with the final equal boxes, then follow the linked transfer bars backward.",
         "steps": [
           {
-            "title": "Find the final amount per box",
-            "text": "The total stays 160, so each of the 4 boxes finally has 160 ÷ 4 = 40 paperclips. Thus A started with 40 + 12 = 52 and D started with 40 + 17 = 57."
+            "title": "Read the final boxes",
+            "text": "Each final box has 160 ÷ 4 = 40 paperclips. Reversing the direct transfers gives A = 40 + 12 = 52 and D = 40 + 17 = 57."
           },
           {
-            "title": "Reverse the transfer from B",
-            "text": "After 12 arrived in B, 1/3 was moved, leaving 2/3 equal to 40. So B had 40 ÷ 2 × 3 = 60 then, and originally had 60 − 12 = 48. The transfer to C was 60 ÷ 3 = 20, so C originally had 40 − 20 − 17 = 3."
+            "title": "Use B's 2-unit and 3-unit bars",
+            "text": "The upper B bar shows 2 units = 40, so 1 unit = 20. Before one third was moved to C, B was 3 units = 60; undo the 12 moved from A: B = 60 − 12 = 48."
+          },
+          {
+            "title": "Finish C's split bar",
+            "text": "C's final 40-bar contains 20 from B and 17 from D. Its original part is 40 − 20 − 17 = 3."
           }
         ],
         "answerCheck": "A: 52; B: 48; C: 3; D: 57"
       },
       "zh-Hans": {
-        "strategy": "先求每盒最后相等的数量，再倒推每次移动。",
+        "strategy": "先读出最后4个相等的盒子，再沿着相连的转移单位条倒推。",
         "steps": [
           {
-            "title": "求每盒最后数量",
-            "text": "总数仍是160，所以4个盒子最后各有160 ÷ 4 = 40个回形针。因此A原来有40 + 12 = 52个，D原来有40 + 17 = 57个。"
+            "title": "读出最后每盒数量",
+            "text": "最后每盒有160 ÷ 4 = 40个回形针。倒推直接转移，A原来有40 + 12 = 52个，D原来有40 + 17 = 57个。"
           },
           {
-            "title": "倒推B到C的移动",
-            "text": "12个移入B后，移走1/3，剩下的2/3是40个。因此B当时有40 ÷ 2 × 3 = 60个，原来有60 − 12 = 48个。移到C的是60 ÷ 3 = 20个，所以C原来有40 − 20 − 17 = 3个。"
+            "title": "使用B的2单位和3单位条",
+            "text": "B的上条显示2单位=40，所以1单位=20。移到C之前，B是3单位=60；再倒回从A移入的12个，B原来有60 − 12 = 48个。"
+          },
+          {
+            "title": "完成C的分段条",
+            "text": "C最后的40个由从B来的20个、从D来的17个和原有部分组成，所以原有40 − 20 − 17 = 3个。"
           }
         ],
-        "answerCheck": "A：52个；B：48个；C：3个；D：57个"
+        "answerCheck": "A：52个；B：48个；C：3个；D：57个。"
       }
     },
     "questionZh": "160个回形针放在A、B、C、D四个盒子里。将12个回形针从A移到B，把B中回形针的1/3移到C，再将17个回形针从D移到C后，4个盒子里的回形针数量相等。求各盒原来的数量。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 51,
+      "sourceMethod": "Printed solution Step 1: transfer and reverse-change bars",
+      "en": {
+        "viewBox": "0 0 330 178",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">Each box at the end: 160 ÷ 4 = 40</text><text x=\"10\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Box B</text><rect x=\"70\" y=\"30\" width=\"50\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"120\" y=\"30\" width=\"50\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"170\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">to C</text><line x1=\"70\" y1=\"53\" x2=\"170\" y2=\"53\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"120\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">2 units = 40</text><rect x=\"70\" y=\"75\" width=\"50\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"120\" y=\"75\" width=\"50\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"170\" y=\"75\" width=\"50\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"177\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">from A</text><text x=\"220\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\">12</text><text x=\"10\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Box C</text><rect x=\"70\" y=\"126\" width=\"70\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"126\" width=\"58\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"198\" y=\"126\" width=\"42\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"105\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">from B 20</text><text x=\"169\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">from C 17</text><text x=\"70\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">40 − 20 − 17 = ?</text>",
+        "alt": "Transfer bars reverse the paperclip moves: a 2-unit final bar and a 3-unit initial bar guide the unknowns."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 330 178",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">最后每盒：160÷4=40</text><text x=\"10\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">B盒</text><rect x=\"70\" y=\"30\" width=\"50\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"120\" y=\"30\" width=\"50\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"170\" y=\"43\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">给C</text><line x1=\"70\" y1=\"53\" x2=\"170\" y2=\"53\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"120\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">2单位=40</text><rect x=\"70\" y=\"75\" width=\"50\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"120\" y=\"75\" width=\"50\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"170\" y=\"75\" width=\"50\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"177\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">来自A</text><text x=\"220\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\">12</text><text x=\"10\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">C盒</text><rect x=\"70\" y=\"126\" width=\"70\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"126\" width=\"58\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"198\" y=\"126\" width=\"42\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"105\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">来自B 20</text><text x=\"169\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">来自C 17</text><text x=\"70\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">40 − 20 − 17 = ?</text>",
+        "alt": "转移条倒推回形针的移动：2单位的最终条和3单位的原始条引导求未知量。"
+      }
+    }
   },
   {
     "id": 7,
@@ -271,44 +347,58 @@ window.QUESTION_BANK = [
     "sourcePage": 7,
     "solution": {
       "en": {
-        "strategy": "Use Alvin's amount as a common unit, then split the transfer in the 3:2 ratio.",
+        "strategy": "Use Alvin's 100% as the baseline, then use the 3:2 transfer strip and the final comparison bars.",
         "steps": [
           {
-            "title": "Make a unit model",
-            "text": "Let Alvin have 5 units. Michael has 80% more, or 9 units; Vanessa has 40% less, or 3 units."
+            "title": "Set up the percentage bars",
+            "text": "The initial bars are Michael 180%, Alvin 100%, and Vanessa 60%. Vanessa doubles to 120%, so the amount transferred to her is 120% − 60% = 60%."
           },
           {
-            "title": "Find the transfers",
-            "text": "Vanessa finishes with twice 3 units, so she receives 3 units. Split in the 3:2 ratio: Michael gives 9/5 × 3 = 9/5 units and Alvin gives 6/5 units."
+            "title": "Split the 60% transfer",
+            "text": "The M:A strip has 3 + 2 = 5 equal parts. Thus 1 part = 60% ÷ 5 = 12%; Michael gives 3×12% = 36% and Alvin gives 2×12% = 24%."
           },
           {
             "title": "Use the final difference",
-            "text": "Michael ends with 9 − 9/5 = 36/5 units; Vanessa ends with 6 units. Their difference is 6/5 units = $144, so 1 unit = $120. Original amounts are $1080, $600, and $360."
+            "text": "On the stacked bars, Michael's 180% minus Vanessa's 120% minus Michael's 36% transfer leaves 24%, and this is $144. Thus 1% = $144 ÷ 24 = $6. The original amounts are 180×$6 = $1080, 100×$6 = $600, and 60×$6 = $360."
           }
         ],
         "answerCheck": "Michael: $1080; Alvin: $600; Vanessa: $360"
       },
       "zh-Hans": {
-        "strategy": "把 Alvin 的钱设为单位，再按 3:2 分配给 Vanessa 的钱。",
+        "strategy": "以Alvin的100%为基准，再使用3:2转移比例条和最后的对比条。",
         "steps": [
           {
-            "title": "建立单位模型",
-            "text": "设 Alvin 有 5 份。Michael 多 80%，有 9 份；Vanessa 少 40%，有 3 份。"
+            "title": "画出百分比条",
+            "text": "起初Michael是180%，Alvin是100%，Vanessa是60%。Vanessa变为原来的2倍，即120%，所以她收到的是120% − 60% = 60%。"
           },
           {
-            "title": "求转给 Vanessa 的钱",
-            "text": "Vanessa 最后有原来的 2 倍，即从 3 份变为 6 份，所以共收到 3 份。按 3:2，Michael 给 9/5×3 = 9/5 份，Alvin 给 6/5 份。"
+            "title": "按3:2分60%",
+            "text": "M:A比例条共有3 + 2 = 5份，所以1份是60% ÷ 5 = 12%。Michael给3×12% = 36%，Alvin给2×12% = 24%。"
           },
           {
-            "title": "利用最后的差",
-            "text": "Michael 最后有 9 − 9/5 = 36/5 份，Vanessa 最后有 6 份，相差 6/5 份 = $144。因此 1 份 = $120，原来分别有 $1080、$600、$360。"
+            "title": "利用最后差额",
+            "text": "对齐条中，Michael的180%减Vanessa的120%，再减Michael转出的36%，余24%= $144。因此1%= $144 ÷ 24 = $6。原来Michael有180×$6 = $1080，Alvin有100×$6 = $600，Vanessa有60×$6 = $360。"
           }
         ],
-        "answerCheck": "Michael: $1080；Alvin: $600；Vanessa: $360。"
+        "answerCheck": "Michael：$1080；Alvin：$600；Vanessa：$360。"
       }
     },
     "questionZh": "迈克尔的钱比阿尔文多80%；瓦妮莎的钱比阿尔文少40%。迈克尔和阿尔文按3:2的比例给瓦妮莎钱。之后瓦妮莎的钱变为原来的2倍；迈克尔最后比瓦妮莎多$144。求三人原来各有多少钱。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 52,
+      "sourceMethod": "Printed solution Step 1: percentage-and-ratio transfer bars",
+      "en": {
+        "viewBox": "0 0 390 200",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Michael: 180%</text><text x=\"10\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Alvin: 100%</text><text x=\"10\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Vanessa: 60%</text><text x=\"10\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">60% × 2 = 120%</text><text x=\"10\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">M : A = 3 : 2</text><rect x=\"115\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"147\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"179\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"211\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"243\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"163\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">60%</text><text x=\"10\" y=\"126\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1 unit = 12%; M gives 36%; A gives 24%</text><rect x=\"10\" y=\"141\" width=\"216\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"10\" y=\"168\" width=\"144\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"154\" y=\"168\" width=\"72\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"190\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">to Vanessa 36%</text><text x=\"240\" y=\"154\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\">24% = $144</text><text x=\"240\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1% = $144 ÷ 24 = $6</text>",
+        "alt": "Percentage and ratio bars split the 60% transfer in a 3:2 ratio and expose the 24% comparison."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 390 200",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Michael: 180%</text><text x=\"10\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Alvin: 100%</text><text x=\"10\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Vanessa: 60%</text><text x=\"10\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">60% × 2 = 120%</text><text x=\"10\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">M : A = 3 : 2</text><rect x=\"115\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"147\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"179\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"211\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"243\" y=\"87\" width=\"32\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"163\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">60%</text><text x=\"10\" y=\"126\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1 unit = 12%; M gives 36%; A gives 24%</text><rect x=\"10\" y=\"141\" width=\"216\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"10\" y=\"168\" width=\"144\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"154\" y=\"168\" width=\"72\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"190\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">给Vanessa 36%</text><text x=\"240\" y=\"154\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\">24% = $144</text><text x=\"240\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1% = $144 ÷ 24 = $6</text>",
+        "alt": "百分比和比例条把60%的转移按3:2拆分，并显示24%的比较。"
+      }
+    }
   },
   {
     "id": 8,
@@ -320,36 +410,50 @@ window.QUESTION_BANK = [
     "sourcePage": 7,
     "solution": {
       "en": {
-        "strategy": "Use fifths for the total, then convert each colour count into boxes.",
+        "strategy": "Read the five-cell strip r | r | g | g | g+y, then convert the resulting car counts to boxes.",
         "steps": [
           {
-            "title": "Find the number of cars",
-            "text": "Let the total be 5 units. Red = 2 units, green = 2 units + 35, and yellow = 15. So 2u + (2u + 35) + 15 = 5u, giving u = 50. Red = 100 and green = 135."
+            "title": "Find one strip unit",
+            "text": "Using the visual model above, The last cell is g+y = 35 + 15 = 50, so every equal cell is 50. The first four cells make 4×50 = 200 red-and-green cars; add the extra 35 green cars to get 235."
           },
           {
-            "title": "Pack the cars",
-            "text": "Red cars fill 100 ÷ 5 = 20 boxes and green cars fill 135 ÷ 5 = 27 boxes. Yellow cars fill 15 ÷ 5 = 3 boxes. The difference is 20 + 27 − 3 = 44 boxes."
+            "title": "Pack the labelled totals",
+            "text": "Red-and-green cars fill 235 ÷ 5 = 47 boxes. Yellow cars fill 15 ÷ 5 = 3 boxes. The difference is 47 − 3 = 44 boxes."
           }
         ],
         "answerCheck": "44 boxes"
       },
       "zh-Hans": {
-        "strategy": "把总数看成5份，求出各色数量后再按每盒5辆装箱。",
+        "strategy": "读出5格条r｜r｜g｜g｜g+y，再把得到的车辆数换成箱数。",
         "steps": [
           {
-            "title": "求各色玩具车数",
-            "text": "设总数为5份，每份为u辆。红车有2u辆，绿车有2u + 35辆，黄车有15辆。2u + (2u + 35) + 15 = 5u，所以u = 50。红车有100辆，绿车有135辆。"
+            "title": "求1个单位格",
+            "text": "结合上面的图示模型，最后一格是g+y = 35 + 15 = 50，所以每个等格都是50。前4格共有4×50 = 200辆红绿车，再加多出的35辆绿车，红绿车共235辆。"
           },
           {
-            "title": "按颜色装箱",
-            "text": "红车装100 ÷ 5 = 20箱，绿车装135 ÷ 5 = 27箱，黄车装15 ÷ 5 = 3箱。相差20 + 27 − 3 = 44箱。"
+            "title": "把标记的总数装箱",
+            "text": "红绿车可装235 ÷ 5 = 47箱。黄车可装15 ÷ 5 = 3箱。相差47 − 3 = 44箱。"
           }
         ],
-        "answerCheck": "44箱"
+        "answerCheck": "44箱。"
       }
     },
     "questionZh": "汤姆的玩具车中有2/5是红色的。绿色玩具车比红色玩具车多35辆，其余15辆是黄色的。每盒装5辆同色玩具车。红色和绿色玩具车的盒数合计比黄色玩具车的盒数多多少？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 52,
+      "sourceMethod": "Printed solution Step 1: category-labelled unit strip",
+      "en": {
+        "viewBox": "0 0 360 164",
+        "svg": "<rect x=\"10\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"64\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"118\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"172\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"226\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"37\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">r</text><text x=\"91\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">r</text><text x=\"145\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">g</text><text x=\"199\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">g</text><text x=\"253\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">g+y</text><line x1=\"226\" y1=\"48\" x2=\"280\" y2=\"48\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"253\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">35 + 15</text><text x=\"10\" y=\"82\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">r: red; g: green; y: yellow</text><text x=\"10\" y=\"108\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">1 unit → 35 + 15 = 50</text><text x=\"10\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">4 units → 4 × 50 = 200; +35 → ?</text><text x=\"10\" y=\"149\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">red + green: ? ÷ 5 boxes; yellow: 15 ÷ 5 boxes</text>",
+        "alt": "Five labelled equal units encode red, green, and yellow categories; the final unit decomposes as 35 plus 15."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 360 164",
+        "svg": "<rect x=\"10\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"64\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"118\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"172\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"226\" y=\"20\" width=\"54\" height=\"24\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"37\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">r</text><text x=\"91\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">r</text><text x=\"145\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">g</text><text x=\"199\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">g</text><text x=\"253\" y=\"36\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">g+y</text><line x1=\"226\" y1=\"48\" x2=\"280\" y2=\"48\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"253\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">35 + 15</text><text x=\"10\" y=\"82\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">r：红色；g：绿色；y：黄色</text><text x=\"10\" y=\"108\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">1单位→35+15=50</text><text x=\"10\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">4单位→4×50=200；+35→？</text><text x=\"10\" y=\"149\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">红+绿：？÷5盒；黄色：15÷5盒</text>",
+        "alt": "5个有标签的相等单位编码红、绿、黄类别；最后一个单位分解为35加15。"
+      }
+    }
   },
   {
     "id": 9,
@@ -361,36 +465,58 @@ window.QUESTION_BANK = [
     "sourcePage": 7,
     "solution": {
       "en": {
-        "strategy": "Represent the starting cards in the ratio 3:7 and use the final ratio.",
+        "strategy": "Use the expanded 6:27 ratio bars and the rearranged Kristy strip.",
         "steps": [
           {
-            "title": "Set up the starting amounts",
-            "text": "Let David and Kristy initially have 3u and 7u cards. After the changes, they have 3u − 9 and 7u + 18 cards."
+            "title": "Expand the final ratio",
+            "text": "The 2:9 ratio is enlarged by 3 to 6:27, so the two final bars contain 33 equal units altogether. In the rearranged Kristy bar, 27 − 14 = 13 units remain to be valued."
           },
           {
-            "title": "Use the final ratio",
-            "text": "Their final ratio is 2:9, so 9(3u − 9) = 2(7u + 18). Thus 27u − 81 = 14u + 36, giving u = 9. Their final counts are 18 and 81, for a total of 99."
+            "title": "Value the rearranged section",
+            "text": "The seven repeated 3-card cells give 3×7 = 21 cards. Together with the bought 18 cards, this is 21 + 18 = 39 cards, matching the 13-unit section."
+          },
+          {
+            "title": "Complete the 33-unit brace",
+            "text": "13 units = 39, so 1 unit = 3. The full 33-unit brace is 33×3 = 99 cards."
           }
         ],
         "answerCheck": "99 cards"
       },
       "zh-Hans": {
-        "strategy": "把起初卡片数表示为3:7，再利用最后的2:9。",
+        "strategy": "使用扩成6:27的比例条和重排后的Kristy单位条。",
         "steps": [
           {
-            "title": "表示起初数量",
-            "text": "设大卫和克里斯蒂起初分别有3u张和7u张卡片。变化后分别有3u − 9张和7u + 18张。"
+            "title": "扩展最后的比",
+            "text": "把2:9同时乘3，得到6:27，所以最后两条共有33个等单位。重排后的Kristy条中，27 − 14 = 13单位需要求值。"
           },
           {
-            "title": "使用最后的比",
-            "text": "最后的比是2:9，所以9(3u − 9) = 2(7u + 18)。即27u − 81 = 14u + 36，得到u = 9。最后两人分别有18张和81张，共99张。"
+            "title": "给重排部分定值",
+            "text": "7个重复的“3”卡片格共有3×7 = 21张；再加买入的18张，得到21 + 18 = 39张，正好对应13单位。"
+          },
+          {
+            "title": "完成33单位括号",
+            "text": "13单位=39，所以1单位=3。33单位=33×3 = 99张卡片。"
           }
         ],
-        "answerCheck": "99张卡片"
+        "answerCheck": "99张卡片。"
       }
     },
     "questionZh": "大卫的卡片数量是克里斯蒂的3/7。大卫送出9张卡片，克里斯蒂买了18张卡片后，两人的卡片数量之比为2:9。最后两人一共有多少张卡片？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 53,
+      "sourceMethod": "Printed solution Step 1: ratio transformation and rearranged bars",
+      "en": {
+        "viewBox": "0 0 430 198",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">David : Kristy = 2 : 9  ×3 →  6 : 27</text><text x=\"275\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#6d7f8f\">33 units</text><text x=\"10\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">David</text><rect x=\"70\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"92\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"114\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"136\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"158\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"180\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"88\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g</text><text x=\"132\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g</text><text x=\"10\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Kristy</text><rect x=\"70\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"81\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"92\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"103\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"114\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"136\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"147\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"158\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"169\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"180\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"191\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"202\" y=\"61\" width=\"35\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"219\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">18</text><text x=\"244\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#6d7f8f\">bought</text><text x=\"10\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g: given away</text><text x=\"10\" y=\"126\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">Rearranged: 27 − 14 = 13 units</text><rect x=\"10\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"32\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"54\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"76\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"120\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"21\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"43\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"65\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"87\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"109\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"131\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><rect x=\"142\" y=\"138\" width=\"34\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"159\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">18</text><text x=\"10\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\">3 × 7 = 21; 21 + 18 = 39; 13 units → 39; 1 unit → 3; 33 units → ?</text>",
+        "alt": "Ratio transformation expands 2:9 to 6:27; the rearranged strip keeps the given-away and bought pieces visible."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 430 198",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">David : Kristy = 2 : 9  ×3 →  6 : 27</text><text x=\"275\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#6d7f8f\">33单位</text><text x=\"10\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">David</text><rect x=\"70\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"92\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"114\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"136\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"158\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"180\" y=\"33\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"88\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g</text><text x=\"132\" y=\"47\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g</text><text x=\"10\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Kristy</text><rect x=\"70\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"81\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"92\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"103\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"114\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"136\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"147\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"158\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"169\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"180\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"191\" y=\"61\" width=\"11\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"202\" y=\"61\" width=\"35\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"219\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">18</text><text x=\"244\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#6d7f8f\">买入</text><text x=\"10\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g：送出</text><text x=\"10\" y=\"126\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">重排后：27−14=13单位</text><rect x=\"10\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"32\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"54\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"76\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"120\" y=\"138\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"21\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"43\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"65\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"87\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"109\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><text x=\"131\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">3</text><rect x=\"142\" y=\"138\" width=\"34\" height=\"18\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"159\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">18</text><text x=\"10\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\">3×7=21；21+18=39；13单位→39；1单位→3；33单位→？</text>",
+        "alt": "比例变换把2:9扩大为6:27；重排后的条保留送出和买入的部分。"
+      }
+    }
   },
   {
     "id": 10,
@@ -402,36 +528,58 @@ window.QUESTION_BANK = [
     "sourcePage": 8,
     "solution": {
       "en": {
-        "strategy": "Count the girls who passed, then split the students who failed using their difference of 4.",
+        "strategy": "First find the total who failed, then use the two-row failure bar with the extra 4 boys.",
         "steps": [
           {
-            "title": "Find the passing girls",
-            "text": "Students who passed = 2/3 × 42 = 28. Passing girls = 9/14 × 28 = 18."
+            "title": "Find the failure total",
+            "text": "Using the visual model above, The fraction who failed is 1 − 2/3 = 1/3. Thus 1/3×42 = 14 students failed."
           },
           {
-            "title": "Find the failing girls",
-            "text": "There were 42 − 28 = 14 students who failed. If failing girls are g, failing boys are g + 4. So g + (g + 4) = 14, giving g = 5. Total girls = 18 + 5 = 23."
+            "title": "Split the failure bars",
+            "text": "The boys row has an extra terminal block of 4. Remove it from the total: 14 − 4 = 10. The two equal girls-and-boys parts are 10 ÷ 2 = 5, so 5 girls failed."
+          },
+          {
+            "title": "Add the passing girls",
+            "text": "2/3×42 = 28 students passed, and 9/14×28 = 18 of them were girls. Total girls = 18 + 5 = 23."
           }
         ],
         "answerCheck": "23 girls"
       },
       "zh-Hans": {
-        "strategy": "先求及格女生人数，再用不及格男生比女生多4人的关系求不及格女生人数。",
+        "strategy": "先求不及格总人数，再用“男生多4人”的两行失败人数条分配。",
         "steps": [
           {
-            "title": "求及格女生人数",
-            "text": "及格学生有2/3 × 42 = 28人。及格女生有9/14 × 28 = 18人。"
+            "title": "求不及格总数",
+            "text": "不及格部分是1 − 2/3 = 1/3，所以不及格有1/3×42 = 14人。"
           },
           {
-            "title": "求不及格女生人数",
-            "text": "不及格学生有42 − 28 = 14人。设不及格女生有g人，则不及格男生有g + 4人。g + (g + 4) = 14，所以g = 5。女生总数为18 + 5 = 23人。"
+            "title": "分开两条失败人数条",
+            "text": "男生条右端多出4人。先从总数去掉这段：14 − 4 = 10；余下两段相等，所以10 ÷ 2 = 5名女生不及格。"
+          },
+          {
+            "title": "加上及格女生",
+            "text": "及格有2/3×42 = 28人，其中女生有9/14×28 = 18人。女生总数是18 + 5 = 23人。"
           }
         ],
-        "answerCheck": "23名女生"
+        "answerCheck": "23名女生。"
       }
     },
     "questionZh": "42名学生中有2/3通过了英语考试。通过考试的学生中有9/14是女生。未通过考试的男生比女生多4人。班上有多少名女生？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 53,
+      "sourceMethod": "Printed solution Step 1: fraction calculation and failure bars",
+      "en": {
+        "viewBox": "0 0 400 150",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1 − 2/3 = 1/3;  1/3 × 42 = 14</text><text x=\"10\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Boys</text><rect x=\"65\" y=\"34\" width=\"100\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"165\" y=\"34\" width=\"40\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"185\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">4</text><text x=\"10\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Girls</text><rect x=\"65\" y=\"64\" width=\"70\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"135\" y=\"64\" width=\"70\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"220\" y1=\"34\" x2=\"220\" y2=\"82\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"230\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">14</text><text x=\"10\" y=\"110\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">14 − 4 = 10; 10 ÷ 2 = 5</text><text x=\"10\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">2/3 × 42 = 28; 9/14 × 28 = 18; 18 + 5 = ?</text>",
+        "alt": "Two-row failure bar model isolates the extra 4 boys before splitting the remaining failures equally."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 400 150",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1 − 2/3 = 1/3;  1/3 × 42 = 14</text><text x=\"10\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">男生</text><rect x=\"65\" y=\"34\" width=\"100\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"165\" y=\"34\" width=\"40\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"185\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">4</text><text x=\"10\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">女生</text><rect x=\"65\" y=\"64\" width=\"70\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"135\" y=\"64\" width=\"70\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"220\" y1=\"34\" x2=\"220\" y2=\"82\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"230\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">14</text><text x=\"10\" y=\"110\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">14 − 4 = 10; 10 ÷ 2 = 5</text><text x=\"10\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">2/3×42=28；9/14×28=18；18+5=？</text>",
+        "alt": "两行未及格条先分离多出的4名男生，再把其余未及格人数平分。"
+      }
+    }
   },
   {
     "id": 11,
@@ -443,44 +591,58 @@ window.QUESTION_BANK = [
     "sourcePage": 8,
     "solution": {
       "en": {
-        "strategy": "Use one equation for the total cookies and one for the total sales.",
+        "strategy": "Use the guess-and-check sales table, then compare the checked cookie counts.",
         "steps": [
           {
-            "title": "Write the equations",
-            "text": "Let b be butter cookies and c be chocolate-chip cookies. Then b + c = 120 and 2b + 4c = 310."
+            "title": "Check trial rows",
+            "text": "The table gives $340 for 70 butter and 50 chocolate-chip cookies, $320 for 80 and 40, and $308 for 86 and 34. None matches $310."
           },
           {
-            "title": "Solve",
-            "text": "Divide the sales equation by 2: b + 2c = 155. Subtract b + c = 120 to get c = 35, so b = 85."
+            "title": "Use the successful row",
+            "text": "For 85 butter and 35 chocolate-chip cookies, (85×$2) + (35×$4) = $170 + $140 = $310. This is the checked row."
           },
           {
-            "title": "Find the difference",
-            "text": "85 − 35 = 50 more butter cookies."
+            "title": "Compare the counts",
+            "text": "85 − 35 = 50, so 50 more butter cookies were sold."
           }
         ],
         "answerCheck": "50 more butter cookies"
       },
       "zh-Hans": {
-        "strategy": "一个等式表示饼干总数，另一个等式表示销售额。",
+        "strategy": "使用猜测检验销售表，再比较检验成功行中的两种饼干数量。",
         "steps": [
           {
-            "title": "列等式",
-            "text": "设黄油饼干有 b 个，巧克力碎片饼干有 c 个。则 b + c = 120，2b + 4c = 310。"
+            "title": "检验试算行",
+            "text": "结合上面的图示模型，70块黄油和50块巧克力碎片饼干的销售额是$340；80和40时是$320；86和34时是$308，都不是$310。"
           },
           {
-            "title": "求两种饼干数量",
-            "text": "销售额等式除以 2，得 b + 2c = 155。减去 b + c = 120，得到 c = 35，所以 b = 85。"
+            "title": "找出正确行",
+            "text": "85块黄油和35块巧克力碎片饼干时，(85×$2) + (35×$4) = $170 + $140 = $310，检验成功。"
           },
           {
-            "title": "求相差数量",
-            "text": "85 − 35 = 50 个，所以黄油饼干多 50 个。"
+            "title": "比较数量",
+            "text": "85 − 35 = 50，所以黄油饼干多卖50块。"
           }
         ],
-        "answerCheck": "黄油饼干多 50 个。"
+        "answerCheck": "黄油饼干多50块。"
       }
     },
     "questionZh": "德鲁太太卖出120块黄油饼干和巧克力碎片饼干。黄油饼干每块$2，巧克力碎片饼干每块$4，总销售额为$310。黄油饼干比巧克力碎片饼干多卖出多少块？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 53,
+      "sourceMethod": "Printed solution Step 1: guess-and-check table",
+      "en": {
+        "viewBox": "0 0 420 175",
+        "svg": "<rect x=\"10\" y=\"12\" width=\"392\" height=\"126\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"80\" y1=\"12\" x2=\"80\" y2=\"138\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"172\" y1=\"12\" x2=\"172\" y2=\"138\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"362\" y1=\"12\" x2=\"362\" y2=\"138\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"36\" x2=\"402\" y2=\"36\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"61\" x2=\"402\" y2=\"61\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"86\" x2=\"402\" y2=\"86\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"111\" x2=\"402\" y2=\"111\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"45.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Butter</text><text x=\"126.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Chocolate chip</text><text x=\"267.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Total amount</text><text x=\"382.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">Check</text><text x=\"45.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">70</text><text x=\"126.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">?</text><text x=\"267.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">(70×$2)+(?×$4)=?</text><text x=\"382.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"45.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">80</text><text x=\"126.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">40</text><text x=\"267.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">(80×$2)+(40×$4)=$320</text><text x=\"382.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"45.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">86</text><text x=\"126.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">34</text><text x=\"267.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">(86×$2)+(34×$4)=$308</text><text x=\"382.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"45.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"126.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"267.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">$2×? + $4×? = $310</text><text x=\"382.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"10\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#6d7f8f\">difference = ? − ?</text>",
+        "alt": "Guess-and-check table tests cookie counts against the displayed $310 total without revealing the accepted row."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 420 175",
+        "svg": "<rect x=\"10\" y=\"12\" width=\"392\" height=\"126\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"80\" y1=\"12\" x2=\"80\" y2=\"138\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"172\" y1=\"12\" x2=\"172\" y2=\"138\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"362\" y1=\"12\" x2=\"362\" y2=\"138\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"36\" x2=\"402\" y2=\"36\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"61\" x2=\"402\" y2=\"61\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"86\" x2=\"402\" y2=\"86\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"10\" y1=\"111\" x2=\"402\" y2=\"111\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"45.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">黄油饼干</text><text x=\"126.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">巧克力饼干</text><text x=\"267.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">总金额</text><text x=\"382.0\" y=\"28\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">检验</text><text x=\"45.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">70</text><text x=\"126.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">?</text><text x=\"267.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">(70×$2)+(?×$4)=?</text><text x=\"382.0\" y=\"53\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"45.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">80</text><text x=\"126.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">40</text><text x=\"267.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">(80×$2)+(40×$4)=$320</text><text x=\"382.0\" y=\"78\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"45.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">86</text><text x=\"126.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">34</text><text x=\"267.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">(86×$2)+(34×$4)=$308</text><text x=\"382.0\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">×</text><text x=\"45.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"126.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"267.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">$2×? + $4×? = $310</text><text x=\"382.0\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#2e8b57\" text-anchor=\"middle\">?</text><text x=\"10\" y=\"160\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#6d7f8f\">相差 = ？−？</text>",
+        "alt": "猜测检验表用显示的$310总金额试算饼干数量，但不显示正确行。"
+      }
+    }
   },
   {
     "id": 12,
@@ -492,44 +654,50 @@ window.QUESTION_BANK = [
     "sourcePage": 8,
     "solution": {
       "en": {
-        "strategy": "Express both final amounts in terms of John's original number.",
+        "strategy": "Use the two aligned initial bars: John is 2 units and Jane is 7 units, for 9 units altogether.",
         "steps": [
           {
-            "title": "Use John's original amount",
-            "text": "Let John originally have j marbles. After Jane gives him some, John has 3j marbles."
+            "title": "Read the 9-unit total",
+            "text": "The aligned bars show 2 John units plus 7 Jane units, making 9 units = 180 marbles. Therefore 1 unit = 180 ÷ 9 = 20."
           },
           {
-            "title": "Use Jane's final relation",
-            "text": "Jane then has 1/2 of John's final amount, so she has 3j/2 marbles. Their total remains 180."
-          },
-          {
-            "title": "Solve",
-            "text": "3j + 3j/2 = 180, so 9j/2 = 180 and j = 40. Jane originally had 180 − 40 = 140 marbles."
+            "title": "Read each initial bar",
+            "text": "John's 2-unit bar is 2×20 = 40 marbles. Jane's 7-unit bar is 7×20 = 140 marbles."
           }
         ],
         "answerCheck": "Jane: 140; John: 40"
       },
       "zh-Hans": {
-        "strategy": "把两人最后的弹珠数都用 John 原来的数量表示。",
+        "strategy": "使用两条对齐的原有数量条：John是2单位，Jane是7单位，共9单位。",
         "steps": [
           {
-            "title": "设 John 原有的数量",
-            "text": "设 John 原来有 j 颗弹珠。Jane 给他一些后，John 有 3j 颗。"
+            "title": "读出9单位总数",
+            "text": "图中John的2单位加Jane的7单位，共9单位=180颗弹珠。因此1单位=180 ÷ 9 = 20颗。"
           },
           {
-            "title": "表示 Jane 最后的数量",
-            "text": "Jane 最后有 John 最后数量的 1/2，所以她有 3j/2 颗。两人的总数仍是 180 颗。"
-          },
-          {
-            "title": "求原来的数量",
-            "text": "3j + 3j/2 = 180，所以 9j/2 = 180，j = 40。Jane 原来有 180 − 40 = 140 颗。"
+            "title": "读出各自的原有条",
+            "text": "John的2单位是2×20 = 40颗。Jane的7单位是7×20 = 140颗。"
           }
         ],
-        "answerCheck": "Jane: 140；John: 40。"
+        "answerCheck": "Jane：140颗；John：40颗。"
       }
     },
     "questionZh": "简和约翰共有180颗弹珠。简给约翰一些弹珠后，约翰的弹珠数量变为原来的3倍，简的弹珠数量是约翰的1/2。求两人原来各有多少颗弹珠。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 54,
+      "sourceMethod": "Printed solution Step 1: nine-unit comparison bars",
+      "en": {
+        "viewBox": "0 0 380 135",
+        "svg": "<text x=\"10\" y=\"30\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">John</text><rect x=\"60\" y=\"16\" width=\"38\" height=\"20\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"16\" width=\"38\" height=\"20\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Jane</text><rect x=\"60\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"136\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"174\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"212\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"250\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"288\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"60\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">9 units → 180; 1 unit → 180 ÷ 9 = 20</text><text x=\"60\" y=\"117\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">John: 2 × 20 = ?; Jane: 7 × 20 = ?</text><path d=\"M90 42 Q105.0 72 120 52\" fill=\"none\" stroke=\"#52718c\" stroke-width=\"1.5\"/>",
+        "alt": "Two aligned bars retain the 2-unit and 7-unit comparison; together they make 9 units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 380 135",
+        "svg": "<text x=\"10\" y=\"30\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">John</text><rect x=\"60\" y=\"16\" width=\"38\" height=\"20\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"16\" width=\"38\" height=\"20\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"66\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Jane</text><rect x=\"60\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"136\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"174\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"212\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"250\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"288\" y=\"52\" width=\"38\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"60\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">9单位→180；1单位→180÷9=20</text><text x=\"60\" y=\"117\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">John：2×20=？；Jane：7×20=？</text><path d=\"M90 42 Q105.0 72 120 52\" fill=\"none\" stroke=\"#52718c\" stroke-width=\"1.5\"/>",
+        "alt": "两条对齐的单位条保留2单位和7单位的比较；合在一起是9单位。"
+      }
+    }
   },
   {
     "id": 13,
@@ -541,36 +709,58 @@ window.QUESTION_BANK = [
     "sourcePage": 9,
     "solution": {
       "en": {
-        "strategy": "Use the difference between 3/5 and 1/2 to find the number.",
+        "strategy": "Rewrite both fractions in tenths so the 10-unit, 6-unit, and 5-unit bars can be compared directly.",
         "steps": [
           {
-            "title": "Find the number",
-            "text": "The fractional difference is 3/5 − 1/2 = 1/10. Therefore 1/10 of the number is 12, so the number is 12 × 10 = 120."
+            "title": "Align the fraction bars",
+            "text": "3/5 = 6/10 and 1/2 = 5/10. The 6-unit bar exceeds the 5-unit bar by 1 unit, and that one-unit difference is 12."
           },
           {
-            "title": "Compare with the fourth multiple",
-            "text": "The fourth multiple is 4 × 120 = 480. The difference is 480 − 120 = 360."
+            "title": "Complete the number bar",
+            "text": "The whole number is 10 units, so it is 10×12 = 120. Its fourth multiple is 4×120 = 480."
+          },
+          {
+            "title": "Take the requested difference",
+            "text": "480 − 120 = 360."
           }
         ],
         "answerCheck": "360"
       },
       "zh-Hans": {
-        "strategy": "利用3/5和1/2的差求这个数。",
+        "strategy": "把两个分数都改写成十分之几，使10单位、6单位和5单位条能直接比较。",
         "steps": [
           {
-            "title": "求这个数",
-            "text": "两个分数的差是3/5 − 1/2 = 1/10。因此这个数的1/10是12，所以这个数是12 × 10 = 120。"
+            "title": "对齐分数条",
+            "text": "3/5 = 6/10，1/2 = 5/10。6单位条比5单位条多1单位，这1单位就是12。"
           },
           {
-            "title": "与4倍比较",
-            "text": "这个数的4倍是4 × 120 = 480。两者相差480 − 120 = 360。"
+            "title": "完成整个数的单位条",
+            "text": "整个数有10单位，所以是10×12 = 120。它的4倍是4×120 = 480。"
+          },
+          {
+            "title": "求所需的差",
+            "text": "480 − 120 = 360。"
           }
         ],
-        "answerCheck": "360"
+        "answerCheck": "360。"
       }
     },
     "questionZh": "一个数的3/5比它的1/2多12。求这个数与它的4倍之间的差。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 54,
+      "sourceMethod": "Printed solution Step 1: equivalent-fraction unit bars",
+      "en": {
+        "viewBox": "0 0 350 165",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">3/5 = 6/10</text><text x=\"150\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1/2 = 5/10</text><text x=\"10\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">number</text><rect x=\"100\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"122\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"144\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"166\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"188\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"232\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"254\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"276\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"298\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"76\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">3/5 of number</text><rect x=\"100\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"122\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"144\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"166\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"188\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"232\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"254\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"276\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"298\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"104\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1/2 of number</text><rect x=\"100\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"122\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"144\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"166\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"188\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"232\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"254\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"276\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"298\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"210\" y1=\"60\" x2=\"232\" y2=\"60\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"221\" y=\"54\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\" text-anchor=\"middle\">12</text><text x=\"10\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1 unit → 12; 10 units → ?</text><text x=\"10\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#6d7f8f\">4th multiple − number = ?</text>",
+        "alt": "Equivalent fractions put both parts into tenths; the one-unit endpoint difference is 12."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 350 165",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">3/5 = 6/10</text><text x=\"150\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1/2 = 5/10</text><text x=\"10\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">数</text><rect x=\"100\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"122\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"144\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"166\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"188\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"232\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"254\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"276\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"298\" y=\"34\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"76\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">数的3/5</text><rect x=\"100\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"122\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"144\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"166\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"188\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"62\" width=\"22\" height=\"18\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"232\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"254\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"276\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"298\" y=\"62\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"104\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">数的1/2</text><rect x=\"100\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"122\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"144\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"166\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"188\" y=\"90\" width=\"22\" height=\"18\" fill=\"#f5b57b\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"232\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"254\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"276\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"298\" y=\"90\" width=\"22\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"210\" y1=\"60\" x2=\"232\" y2=\"60\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"221\" y=\"54\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\" text-anchor=\"middle\">12</text><text x=\"10\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1单位→12；10单位→？</text><text x=\"10\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#6d7f8f\">第4个倍数−这个数=？</text>",
+        "alt": "等价分数把两个部分化成十分之一；终点相差的1单位是12。"
+      }
+    }
   },
   {
     "id": 14,
@@ -582,36 +772,58 @@ window.QUESTION_BANK = [
     "sourcePage": 9,
     "solution": {
       "en": {
-        "strategy": "Each final group has the same share of 105; reverse the changes in groups 1 and 3.",
+        "strategy": "Use the equal final group size, then read the 80%/20% transfer bar and the 3-unit group-1 bar.",
         "steps": [
           {
-            "title": "Find groups 1 and 3",
-            "text": "Each final group has 105 ÷ 3 = 35 students. Group 1 has 2/3 of its original number, then loses 15: 2G₁/3 − 15 = 35. So G₁ = 75. Group 3 has 80% of its original number, then gains 15: 4G₃/5 + 15 = 35. So G₃ = 25."
+            "title": "Find group 3 from its percentage bar",
+            "text": "Each final group has 105 ÷ 3 = 35 students. After 15 arrive from group 1, group 3 had 35 − 15 = 20; this is the 80% part of its bar. The 20% transferred to group 2 is 20 ÷ 80×20 = 5, so group 3 originally had 20 + 5 = 25."
+          },
+          {
+            "title": "Find group 1 from its 3-unit bar",
+            "text": "Before the final 15 left group 1, it had 35 + 15 = 50 students. This is the 2-unit part after 1/3 moved away, so 1 unit = 50 ÷ 2 = 25 and group 1 originally had 3×25 = 75."
           },
           {
             "title": "Find group 2",
-            "text": "The original total was 105, so G₂ = 105 − 75 − 25 = 5. Check: group 2 receives 25 + 5 = 30 students, so it becomes 5 + 30 = 35."
+            "text": "Group 2 receives 25 from group 1 and 5 from group 3, then ends with 35. Its original number was 35 − 25 − 5 = 5."
           }
         ],
         "answerCheck": "Group 1: 75; Group 2: 5; Group 3: 25"
       },
       "zh-Hans": {
-        "strategy": "105人最后平均分成3组，先倒推第1组和第3组，再求第2组。",
+        "strategy": "利用最后每组相等的人数，再读80%/20%转移条和第1组的3单位条。",
         "steps": [
           {
-            "title": "求第1组和第3组",
-            "text": "每组最后有105 ÷ 3 = 35人。第1组剩原来的2/3后再调走15人：2G₁/3 − 15 = 35，所以G₁ = 75。第3组剩原来的80%后再调入15人：4G₃/5 + 15 = 35，所以G₃ = 25。"
+            "title": "从百分比条求第3组",
+            "text": "最后每组有105 ÷ 3 = 35人。第3组先有35 − 15 = 20人，这对应条中的80%。转到第2组的20%是20 ÷ 80×20 = 5人，所以第3组原来有20 + 5 = 25人。"
+          },
+          {
+            "title": "从3单位条求第1组",
+            "text": "第1组最后转走15人之前有35 + 15 = 50人，这是转走1/3后留下的2单位。所以1单位=50 ÷ 2 = 25人，第1组原来有3×25 = 75人。"
           },
           {
             "title": "求第2组",
-            "text": "原来总数是105，所以G₂ = 105 − 75 − 25 = 5。验算：第2组调入25 + 5 = 30人，变为5 + 30 = 35人。"
+            "text": "第2组从第1组收到25人，从第3组收到5人，最后有35人。因此原来有35 − 25 − 5 = 5人。"
           }
         ],
-        "answerCheck": "第1组：75人；第2组：5人；第3组：25人"
+        "answerCheck": "第1组：75人；第2组：5人；第3组：25人。"
       }
     },
     "questionZh": "105名学生分成3组。第1组的1/3调到第2组，第3组的20%调到第2组；随后15名学生从第1组调到第3组。此时3组人数相等。求各组原来的人数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 54,
+      "sourceMethod": "Printed solution Step 1: percentage transfer and ratio bar",
+      "en": {
+        "viewBox": "0 0 390 165",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">Each group at the end: 105 ÷ 3 = 35</text><rect x=\"10\" y=\"35\" width=\"56\" height=\"20\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"66\" y=\"35\" width=\"224\" height=\"20\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"38\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">20%</text><text x=\"178\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">80%</text><text x=\"10\" y=\"72\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">to group 2</text><text x=\"170\" y=\"72\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">from group 1 = 15</text><text x=\"10\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\">35 − 15 = 20; 80% → 20; 20% → ?</text><text x=\"10\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Group 1</text><rect x=\"80\" y=\"108\" width=\"60\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"108\" width=\"60\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"200\" y=\"108\" width=\"60\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"80\" y1=\"104\" x2=\"200\" y2=\"104\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"140\" y=\"98\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">2 units = 50</text><text x=\"230\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">to group 2</text><text x=\"10\" y=\"153\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1 unit → ?; 3 units → ?; 35 − ? − ? = ?</text>",
+        "alt": "Percentage transfer bar finds the 20% portion, then a three-unit group-1 bar supports the reverse calculation."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 390 165",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">最后每组：105÷3=35</text><rect x=\"10\" y=\"35\" width=\"56\" height=\"20\" fill=\"#f6dc74\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"66\" y=\"35\" width=\"224\" height=\"20\" fill=\"#84c5e8\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"38\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">20%</text><text x=\"178\" y=\"49\" font-family=\"Arial, sans-serif\" font-size=\"9\" fill=\"#17324d\" text-anchor=\"middle\">80%</text><text x=\"10\" y=\"72\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">给第2组</text><text x=\"170\" y=\"72\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">来自第1组=15</text><text x=\"10\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#2e8b57\">35−15=20；80%→20；20%→？</text><text x=\"10\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">第1组</text><rect x=\"80\" y=\"108\" width=\"60\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"140\" y=\"108\" width=\"60\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"200\" y=\"108\" width=\"60\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"80\" y1=\"104\" x2=\"200\" y2=\"104\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"140\" y=\"98\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">2单位=50</text><text x=\"230\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">给第2组</text><text x=\"10\" y=\"153\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">1单位→？；3单位→？；35−？−？=？</text>",
+        "alt": "百分比转移条先找到20%部分，再用第1组的三单位条倒推。"
+      }
+    }
   },
   {
     "id": 15,
@@ -623,44 +835,58 @@ window.QUESTION_BANK = [
     "sourcePage": 9,
     "solution": {
       "en": {
-        "strategy": "Find Jack's 1998 age from Tom's age, then move all ages forward by the required years.",
+        "strategy": "Use the 4-unit, 2-unit, and 1-unit age bars for 1998, then follow the timeline forward.",
         "steps": [
           {
-            "title": "Find the 1998 ages",
-            "text": "Tom was 36 and was 4 times Jack's age, so Jack was 36 ÷ 4 = 9. Peter was twice Jack's age, so Peter was 18 in 1998."
+            "title": "Read the 1998 unit bars",
+            "text": "Tom's 4 equal units total 36, so 1 unit = 36 ÷ 4 = 9. Peter's 2 units are 18 and Jack's 1 unit is 9 in 1998."
           },
           {
-            "title": "Answer part (a)",
-            "text": "From 1998 to 2000 is 2 years, so Peter was 18 + 2 = 20 years old."
+            "title": "Move to 2000",
+            "text": "The timeline advances 2 years from 1998 to 2000. Peter was 18 + 2 = 20 years old."
           },
           {
-            "title": "Answer part (b)",
-            "text": "In 2003, Tom, Jack, and Peter were 41, 14, and 23 years old. Their total was 41 + 14 + 23 = 78 years."
+            "title": "Move to 2003",
+            "text": "By 2000 Tom is 36 + 2 = 38, Peter is 20, and Jack is 9 + 2 = 11. Advance each by 3 more years: (38+3) + (20+3) + (11+3) = 41 + 23 + 14 = 78."
           }
         ],
         "answerCheck": "(a) 20 years; (b) 78 years"
       },
       "zh-Hans": {
-        "strategy": "先根据 Tom 的年龄求 Jack 在 1998 年的年龄，再把所有人的年龄增加所经过的年数。",
+        "strategy": "使用1998年的4单位、2单位、1单位年龄条，再沿时间线向前推。",
         "steps": [
           {
-            "title": "求 1998 年的年龄",
-            "text": "Tom 当时 36 岁，是 Jack 年龄的 4 倍，所以 Jack 是 36 ÷ 4 = 9 岁。Peter 是 Jack 的 2 倍，所以 Peter 在 1998 年是 18 岁。"
+            "title": "读出1998年的单位条",
+            "text": "Tom的4个等单位共36岁，所以1单位=36 ÷ 4 = 9岁。Peter的2单位是18岁，Jack的1单位是9岁。"
           },
           {
-            "title": "回答 (a)",
-            "text": "从 1998 年到 2000 年经过 2 年，所以 Peter 是 18 + 2 = 20 岁。"
+            "title": "推到2000年",
+            "text": "从1998年到2000年经过2年，Peter是18 + 2 = 20岁。"
           },
           {
-            "title": "回答 (b)",
-            "text": "到 2003 年，Tom、Jack、Peter 分别是 41 岁、14 岁、23 岁，总年龄为 41 + 14 + 23 = 78 岁。"
+            "title": "推到2003年",
+            "text": "到2000年，Tom是36 + 2 = 38岁，Peter是20岁，Jack是9 + 2 = 11岁。再各过3年：(38+3) + (20+3) + (11+3) = 41 + 23 + 14 = 78。"
           }
         ],
-        "answerCheck": "(a) 20 岁；(b) 78 岁。"
+        "answerCheck": "(a) 20岁；(b) 78岁。"
       }
     },
     "questionZh": "1998年，汤姆的年龄是杰克的4倍，彼得的年龄是杰克的2倍。汤姆当时36岁。求彼得在2000年的年龄，以及3人在2003年的年龄总和。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 55,
+      "sourceMethod": "Printed solution Step 1: age-ratio bars and timeline",
+      "en": {
+        "viewBox": "0 0 420 168",
+        "svg": "<text x=\"10\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Tom</text><rect x=\"70\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"108\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"146\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"184\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"70\" y1=\"7\" x2=\"222\" y2=\"7\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"146\" y=\"5\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">36</text><text x=\"10\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Peter</text><rect x=\"70\" y=\"38\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"108\" y=\"38\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"79\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Jack</text><rect x=\"70\" y=\"65\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"110\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Peter: 36 ÷ 2 = 18 (1998); 18 + 2 = ? (2000)</text><text x=\"10\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Jack: 18 ÷ 2 = 9 (1998); 9 + 2 = ? (2000)</text><text x=\"10\" y=\"155\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">2000  →  +3 years  →  2003 total: ?</text>",
+        "alt": "Age-ratio unit bars set Tom, Peter, and Jack at 4:2:1, then a timeline advances the given years."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 420 168",
+        "svg": "<text x=\"10\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Tom</text><rect x=\"70\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"108\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"146\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"184\" y=\"11\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><line x1=\"70\" y1=\"7\" x2=\"222\" y2=\"7\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"146\" y=\"5\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">36</text><text x=\"10\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Peter</text><rect x=\"70\" y=\"38\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"108\" y=\"38\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"79\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Jack</text><rect x=\"70\" y=\"65\" width=\"38\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"110\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Peter：36÷2=18（1998）；18+2=？（2000）</text><text x=\"10\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Jack：18÷2=9（1998）；9+2=？（2000）</text><text x=\"10\" y=\"155\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">2000  →  加3年  →  2003总年龄：？</text>",
+        "alt": "年龄比单位条设定Tom、Peter、Jack为4:2:1，再用时间线推进年份。"
+      }
+    }
   },
   {
     "id": 16,
@@ -672,36 +898,50 @@ window.QUESTION_BANK = [
     "sourcePage": 10,
     "solution": {
       "en": {
-        "strategy": "Let Zack’s initial number determine the equal gift, then use the final fractional equality and difference.",
+        "strategy": "Use the aligned Zack and Thomas unit bars: the same 3 given units appear in both rows.",
         "steps": [
           {
-            "title": "Relate the final numbers",
-            "text": "Let Zack initially have z cars. Since he then has twice as many, he receives z cars and has 2z. Thomas also receives z cars. From 2/3 of Zack’s final number = 1/2 of Thomas’s final number, 2/3(2z) = 1/2(T + z), so T = 5z/3."
+            "title": "Value the final-bar difference",
+            "text": "Zack's final bar has 6 units and Thomas's has 8 units. The final 2 extra Thomas units are labelled 36, so 1 unit = 36 ÷ 2 = 18."
           },
           {
-            "title": "Use the 36-car difference",
-            "text": "Thomas then has T + z = 8z/3 cars, while Zack has 2z. Their difference is 8z/3 − 2z = 2z/3 = 36, so z = 54. The total given is 54 + 54 = 108 cars, and Thomas initially had 5 × 54 ÷ 3 = 90 cars."
+            "title": "Read the given and initial sections",
+            "text": "The two g sections contain 3 + 3 = 6 units, so the total given is 6×18 = 108 cars. Thomas's initial section is the remaining 5 units, so it is 5×18 = 90 cars."
           }
         ],
         "answerCheck": "(a) 108 cars; (b) 90 cars"
       },
       "zh-Hans": {
-        "strategy": "设扎克原来的数量为未知数，用相同的赠送数量和最后的分数关系求解。",
+        "strategy": "使用Zack和Thomas的对齐单位条：两行都有相同的3个“g”赠送单位。",
         "steps": [
           {
-            "title": "表示最后的数量",
-            "text": "设扎克原来有z辆。后来他有原来的2倍，因此他得到z辆，最后有2z辆。托马斯也得到z辆。由扎克最后数量的2/3 = 托马斯最后数量的1/2，得2/3(2z) = 1/2(T + z)，所以T = 5z/3。"
+            "title": "给最后数量差定单位值",
+            "text": "Zack最后有6单位，Thomas最后有8单位。Thomas多出的2单位标为36，所以1单位=36 ÷ 2 = 18。"
           },
           {
-            "title": "使用相差36辆",
-            "text": "托马斯最后有T + z = 8z/3辆，扎克最后有2z辆。相差8z/3 − 2z = 2z/3 = 36，所以z = 54。共送出54 + 54 = 108辆，托马斯原来有5 × 54 ÷ 3 = 90辆。"
+            "title": "读出赠送部分和原有部分",
+            "text": "两段“g”共有3 + 3 = 6单位，所以共送出6×18 = 108辆。Thomas原有部分是剩下的5单位，即5×18 = 90辆。"
           }
         ],
-        "answerCheck": "(a) 108辆；(b) 90辆"
+        "answerCheck": "(a) 108辆；(b) 90辆。"
       }
     },
     "questionZh": "托马斯和扎克各自得到相同数量的玩具车。扎克后来拥有的玩具车数是他原来数量的2倍。此时扎克玩具车数的2/3等于托马斯玩具车数的1/2，且托马斯比扎克多36辆。求(a)共送出多少辆玩具车，(b)托马斯原来有多少辆玩具车。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 55,
+      "sourceMethod": "Printed solution Step 1: given-items unit bars",
+      "en": {
+        "viewBox": "0 0 350 158",
+        "svg": "<text x=\"10\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Zack</text><rect x=\"70\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"126\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"154\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"182\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"84\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"112\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"140\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"10\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Thomas</text><rect x=\"70\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"126\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"154\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"182\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"238\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"266\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"84\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"112\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"140\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><line x1=\"238\" y1=\"52\" x2=\"294\" y2=\"52\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"266\" y=\"46\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">36</text><text x=\"10\" y=\"98\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g: given</text><text x=\"10\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">2 units → 36; 1 unit → 36 ÷ 2 = 18</text><text x=\"10\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">6 units → ?; Thomas: 5 units → ?</text>",
+        "alt": "Given-items bars align Zack’s six units and Thomas’s eight units, with 36 marking Thomas’s final two units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 350 158",
+        "svg": "<text x=\"10\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Zack</text><rect x=\"70\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"126\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"154\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"182\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"18\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"84\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"112\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"140\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"10\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Thomas</text><rect x=\"70\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"98\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"126\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"154\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"182\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"210\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"238\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"266\" y=\"56\" width=\"28\" height=\"20\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"84\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"112\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><text x=\"140\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\" text-anchor=\"middle\">g</text><line x1=\"238\" y1=\"52\" x2=\"294\" y2=\"52\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"266\" y=\"46\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">36</text><text x=\"10\" y=\"98\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">g：给出的</text><text x=\"10\" y=\"123\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#2e8b57\">2单位→36；1单位→36÷2=18</text><text x=\"10\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">6单位→？；Thomas：5单位→？</text>",
+        "alt": "给出物品的单位条对齐Zack的6单位和Thomas的8单位，36标在Thomas最后2单位。"
+      }
+    }
   },
   {
     "id": 17,
@@ -713,36 +953,58 @@ window.QUESTION_BANK = [
     "sourcePage": 10,
     "solution": {
       "en": {
-        "strategy": "Use the equal chocolate amounts to find cookies and cakes, then use the cake-to-muffin relation.",
+        "strategy": "Use the flavour-coded unit bars: cookies have 10 units, cakes 3 units, and muffins 4 units.",
         "steps": [
           {
-            "title": "Find each item count",
-            "text": "Let cakes = K. Cookies = K + 140. Since 1/5 of the cookies equals 2/3 of the cakes, (K + 140)/5 = 2K/3. Thus 3K + 420 = 10K, so K = 60 and cookies = 200. Cakes are 3/4 of muffins, so muffins = 60 × 4/3 = 80."
+            "title": "Count the flavour units",
+            "text": "Use 1/5 = 2/10 to show 2 chocolate units in the 10-unit cookie bar. The cake bar has 2 chocolate and 1 butter unit; the muffin bar has 3 chocolate and 1 butter unit. Thus chocolate has 2 + 2 + 3 = 7 units, while butter has 8 + 1 + 1 = 10 units."
           },
           {
-            "title": "Compare flavours and calculate sales",
-            "text": "Chocolate cookies and cakes are 40 each. Butter cakes are 60 − 40 = 20, so butter muffins are also 20; chocolate muffins are 80 − 20 = 60. Butter items = 160 + 20 + 20 = 200 and chocolate items = 40 + 40 + 60 = 140, a difference of 60. Sales = 200×$0.50 + 60×$1.50 + 80×$2 = $350."
+            "title": "Value the bars",
+            "text": "The 7 chocolate units equal 140, so 1 unit = 140 ÷ 7 = 20. Butter totals 10×20 = 200, so butter exceeds chocolate by 200 − 140 = 60 items."
+          },
+          {
+            "title": "Calculate the sales",
+            "text": "The bars give 10×20 = 200 cookies, 3×20 = 60 cakes, and 4×20 = 80 muffins. Sales are 200×$0.50 + 60×$1.50 + 80×$2 = $100 + $90 + $160 = $350."
           }
         ],
         "answerCheck": "(a) 60 more; (b) $350"
       },
       "zh-Hans": {
-        "strategy": "先利用两种巧克力食品数量相等求饼干和蛋糕数，再用蛋糕与松饼的关系求松饼数。",
+        "strategy": "使用按口味着色的单位条：饼干10单位，蛋糕3单位，松饼4单位。",
         "steps": [
           {
-            "title": "求各类食品数量",
-            "text": "设蛋糕有K个，则饼干有K + 140个。因为饼干的1/5等于蛋糕的2/3，(K + 140)/5 = 2K/3。于是3K + 420 = 10K，K = 60，饼干有200个。蛋糕数是松饼数的3/4，所以松饼有60 × 4/3 = 80个。"
+            "title": "数出口味单位",
+            "text": "用1/5 = 2/10，可知10单位饼干条中有2个巧克力单位。蛋糕条有2个巧克力和1个黄油单位；松饼条有3个巧克力和1个黄油单位。因此巧克力共有2 + 2 + 3 = 7单位，黄油共有8 + 1 + 1 = 10单位。"
           },
           {
-            "title": "比较口味并计算销售额",
-            "text": "巧克力饼干和巧克力蛋糕各有40个。黄油蛋糕有60 − 40 = 20个，所以黄油松饼也有20个，巧克力松饼有80 − 20 = 60个。黄油味共160 + 20 + 20 = 200个，巧克力味共40 + 40 + 60 = 140个，多60个。销售额为200×$0.50 + 60×$1.50 + 80×$2 = $350。"
+            "title": "求单位值",
+            "text": "7个巧克力单位=140，所以1单位=140 ÷ 7 = 20。黄油共有10×20 = 200个，比巧克力多200 − 140 = 60个。"
+          },
+          {
+            "title": "计算销售额",
+            "text": "图中饼干有10×20 = 200个，蛋糕有3×20 = 60个，松饼有4×20 = 80个。销售额是200×$0.50 + 60×$1.50 + 80×$2 = $100 + $90 + $160 = $350。"
           }
         ],
-        "answerCheck": "(a) 多60个；(b) $350"
+        "answerCheck": "(a) 多60个；(b) $350。"
       }
     },
     "questionZh": "乔安妮卖饼干、蛋糕和松饼。饼干比蛋糕多140个。饼干的1/5和蛋糕的2/3是巧克力味。巧克力饼干数等于巧克力蛋糕数，黄油蛋糕数等于黄油松饼数，蛋糕数是松饼数的3/4。(a)黄油味食品比巧克力味食品多多少个？(b)若每个饼干$0.50、每个蛋糕$1.50、每个松饼$2，总销售额是多少？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 55,
+      "sourceMethod": "Printed solution Step 1: flavour-coded fractional unit bars",
+      "en": {
+        "viewBox": "0 0 410 182",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1/5 = 2/10</text><text x=\"145\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">grey = chocolate; white = butter</text><text x=\"10\" y=\"46\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Cookies</text><rect x=\"85\" y=\"32\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"32\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"145\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"165\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"185\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"205\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"225\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"245\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"265\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"295\" y=\"46\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">140</text><text x=\"10\" y=\"73\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Cakes</text><rect x=\"85\" y=\"59\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"59\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"59\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"59\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">Muffins</text><rect x=\"85\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"145\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"85\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"86\" width=\"60\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"131\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">7 units → chocolate; 10 units → butter</text><text x=\"10\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\">7 units → 140; 1 unit → 20; 10 units → ?; butter − chocolate = ?</text><text x=\"10\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">Cookies: 10×20; Cakes: 3×20; Muffins: 4×20</text>",
+        "alt": "Flavour-coded fractional bars count seven chocolate units and ten butter units before any final comparison or money result."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 410 182",
+        "svg": "<text x=\"10\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\">1/5 = 2/10</text><text x=\"145\" y=\"18\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">灰色=巧克力味；白色=黄油味</text><text x=\"10\" y=\"46\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">饼干</text><rect x=\"85\" y=\"32\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"32\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"145\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"165\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"185\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"205\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"225\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"245\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"265\" y=\"32\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"295\" y=\"46\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">140</text><text x=\"10\" y=\"73\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">蛋糕</text><rect x=\"85\" y=\"59\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"59\" width=\"20\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"59\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"59\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">松饼</text><rect x=\"85\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"125\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"145\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"85\" y=\"86\" width=\"20\" height=\"18\" fill=\"white\" stroke=\"#52718c\" stroke-width=\"1\"/><rect x=\"105\" y=\"86\" width=\"60\" height=\"18\" fill=\"#b8bec5\" stroke=\"#52718c\" stroke-width=\"1\"/><text x=\"10\" y=\"131\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\">7单位→巧克力味；10单位→黄油味</text><text x=\"10\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#2e8b57\">7单位→140；1单位→20；10单位→？；黄油味−巧克力味=？</text><text x=\"10\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#6d7f8f\">饼干：10×20；蛋糕：3×20；松饼：4×20</text>",
+        "alt": "口味色块分数条先统计7个巧克力味单位和10个黄油味单位，再进行最终比较或金额计算。"
+      }
+    }
   },
   {
     "id": 18,
@@ -754,44 +1016,58 @@ window.QUESTION_BANK = [
     "sourcePage": 10,
     "solution": {
       "en": {
-        "strategy": "Write equations for the people still in the hall, then use the total of 4656.",
+        "strategy": "Read the two aligned remaining-person bars as 5 equal men units and 4 equal women units plus four extra blocks of 120.",
         "steps": [
           {
-            "title": "Express those remaining",
-            "text": "If there were M men and W women at first, 1/5 of the men remained and 1/4 of the women remained. Thus W/4 = M/5 + 120, and M + W = 4656."
+            "title": "Remove the four extra blocks",
+            "text": "The bars together show 9 equal units plus 4 × 120 people. So the 9 equal units are 4656 − 4 × 120 = 4176."
           },
           {
-            "title": "Solve the two equations",
-            "text": "Substitute W = 4656 - M: (4656 - M)/4 = M/5 + 120. Multiplying by 20 gives 23280 - 5M = 4M + 2400, so M = 2320 and W = 2336."
+            "title": "Find one bar unit",
+            "text": "Each equal unit is 4176 ÷ 9 = 464 people. The men bar is 5 × 464 = 2320, while the women bar is 4 × 464 + 480 = 2336."
           },
           {
-            "title": "Compare the starting groups",
-            "text": "The difference was 2336 - 2320 = 16, so there were 16 more women than men at first."
+            "title": "Compare the two bars",
+            "text": "The women bar exceeds the men bar by 2336 − 2320 = 16."
           }
         ],
-        "answerCheck": "Check: 1/5 × 2320 = 464 and 1/4 × 2336 = 584; 584 - 464 = 120. Therefore, 16 more women."
+        "answerCheck": "Check: 4 × 120 = 480 and 4 × 464 + 480 − 5 × 464 = 16. Therefore, 16 more women."
       },
       "zh-Hans": {
-        "strategy": "把离开后剩下的人数分别表示出来，再利用总人数 4656 列方程。",
+        "strategy": "把两条对齐的剩余人数线段图读作：男士有 5 个相等单位，女士有 4 个相等单位再加 4 块 120。",
         "steps": [
           {
-            "title": "表示剩下的人数",
-            "text": "设原来有 M 名男士、W 名女士。男士离开 4/5，所以剩下 M/5；女士离开 3/4，所以剩下 W/4。因此 W/4 = M/5 + 120，且 M + W = 4656。"
+            "title": "先扣除 4 块额外人数",
+            "text": "两条线段图合共是 9 个相等单位加 4 × 120 人。因此 9 个相等单位是 4656 − 4 × 120 = 4176。"
           },
           {
-            "title": "解方程",
-            "text": "代入 W = 4656 - M： (4656 - M)/4 = M/5 + 120。把等式乘 20，得 23280 - 5M = 4M + 2400，所以 M = 2320，W = 2336。"
+            "title": "求每个单位",
+            "text": "每个相等单位是 4176 ÷ 9 = 464 人。男士条是 5 × 464 = 2320；女士条是 4 × 464 + 480 = 2336。"
           },
           {
-            "title": "比较原来人数",
-            "text": "2336 - 2320 = 16，所以原来女士比男士多 16 人。"
+            "title": "比较两条线段",
+            "text": "女士条比男士条多 2336 − 2320 = 16。"
           }
         ],
-        "answerCheck": "验算：剩下男士 2320 × 1/5 = 464，剩下女士 2336 × 1/4 = 584；584 - 464 = 120。答案：女士多 16 人。"
+        "answerCheck": "验算：4 × 120 = 480，且 4 × 464 + 480 − 5 × 464 = 16。答案：女士多 16 人。"
       }
     },
     "questionZh": "4656人参加了一场音乐会。1/4的男士和1/3的女士离开后，留下的女士比男士多120人。起初女士比男士多多少人？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 56,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"110\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"220\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"275\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"330\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"110\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"165\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"220\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"275\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"330\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"372\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"414\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"456\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"15\" y=\"76\">MEN remaining</text><text x=\"15\" y=\"141\">WOMEN remaining</text><text x=\"355\" y=\"112\">4 × 120</text><path d=\"M110 35v-10h275v10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"190\" y=\"20\">5 equal units</text><path d=\"M110 160v10h388v-10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"195\" y=\"192\">4 equal units + 4 blocks of 120</text><text x=\"150\" y=\"230\">9 units = 4656 − 4 × 120</text>",
+        "alt": "Aligned remaining-person bars: five male units; four female units plus four 120-person blocks; the nine equal units come from 4656 after removing the extra blocks."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"110\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"220\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"275\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"330\" y=\"55\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"110\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"165\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"220\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"275\" y=\"120\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"330\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"372\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"414\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"456\" y=\"120\" width=\"42\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"15\" y=\"76\">男士剩下</text><text x=\"15\" y=\"141\">女士剩下</text><text x=\"355\" y=\"112\">4 × 120</text><path d=\"M110 35v-10h275v10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"190\" y=\"20\">5 个相等单位</text><path d=\"M110 160v10h388v-10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"185\" y=\"192\">4 个相等单位 + 4 块 120</text><text x=\"150\" y=\"230\">9 个单位 = 4656 − 4 × 120</text>",
+        "alt": "对齐的剩余人数线段图：男士为5个单位；女士为4个单位加4块120人；从4656扣除额外块后得到9个相等单位。"
+      }
+    }
   },
   {
     "id": 19,
@@ -803,44 +1079,58 @@ window.QUESTION_BANK = [
     "sourcePage": 11,
     "solution": {
       "en": {
-        "strategy": "Find each type before removal, then use the 3/4 condition after 40 oranges are removed.",
+        "strategy": "Use the first thirds bar for the original oranges, then the second 4-unit bar for the 80 oranges left.",
         "steps": [
           {
-            "title": "Find the original counts",
-            "text": "Overripe oranges were 2/3 × 120 = 80, so ripe oranges were 120 - 80 = 40."
+            "title": "Read the original thirds bar",
+            "text": "One of the 3 equal parts is ripe: 120 ÷ 3 = 40 ripe oranges. The other 2 parts are overripe: 2 × 40 = 80."
           },
           {
-            "title": "Find the remaining counts",
-            "text": "After 40 are removed, 80 oranges remain. Overripe oranges are 3/4 × 80 = 60, so ripe oranges remaining are 80 - 60 = 20."
+            "title": "Read the remaining 4-unit bar",
+            "text": "After 40 oranges are removed, 80 remain. The bar has 4 equal units, so 1 unit is 80 ÷ 4 = 20; its 3 overripe units are 3 × 20 = 60."
           },
           {
-            "title": "Compare before and after",
-            "text": "Overripe removed: 80 - 60 = 20. Ripe removed: 40 - 20 = 20. The final difference is 60 - 20 = 40."
+            "title": "Compare each type",
+            "text": "Overripe removed = 80 − 60 = 20. Ripe remaining is 1 unit = 20, so ripe removed = 40 − 20 = 20; the final difference is 60 − 20 = 40."
           }
         ],
         "answerCheck": "Check: (a) 20 overripe; (b) 20 ripe; (c) 40 more overripe."
       },
       "zh-Hans": {
-        "strategy": "先求取走前 2 类橙子的数量，再用取走 40 个后过熟橙子占 3/4 的条件。",
+        "strategy": "先用 3 等分条表示原来的橙子，再用剩下 80 个橙子的 4 等分条。",
         "steps": [
           {
-            "title": "求原来数量",
-            "text": "过熟橙子有 2/3 × 120 = 80 个，所以成熟橙子有 120 - 80 = 40 个。"
+            "title": "读原来的 3 等分条",
+            "text": "3 个相等部分中有 1 部分是成熟橙子：120 ÷ 3 = 40 个。另 2 部分是过熟橙子：2 × 40 = 80 个。"
           },
           {
-            "title": "求取走后数量",
-            "text": "取走 40 个后还剩 80 个。过熟橙子为 3/4 × 80 = 60 个，所以成熟橙子还剩 80 - 60 = 20 个。"
+            "title": "读剩下的 4 等分条",
+            "text": "取走 40 个后剩 80 个。该条有 4 个相等单位，所以 1 个单位是 80 ÷ 4 = 20；其中 3 个过熟单位是 3 × 20 = 60。"
           },
           {
-            "title": "分别比较",
-            "text": "取走过熟橙子 80 - 60 = 20 个；取走成熟橙子 40 - 20 = 20 个；最后相差 60 - 20 = 40 个。"
+            "title": "比较两类橙子",
+            "text": "取走的过熟橙子为 80 − 60 = 20 个。剩下的成熟橙子为 1 个单位，即 20 个，所以取走的成熟橙子为 40 − 20 = 20 个；最后相差 60 − 20 = 40 个。"
           }
         ],
-        "answerCheck": "验算：答案：(a) 20 个过熟橙子；(b) 20 个成熟橙子；(c) 过熟橙子多 40 个。"
+        "answerCheck": "验算：(a) 20 个过熟橙子；(b) 20 个成熟橙子；(c) 过熟橙子多 40 个。"
       }
     },
     "questionZh": "120个橙子中有1/3成熟，其余过熟。取走40个橙子后，过熟橙子占剩余橙子的3/4。求取走的成熟橙子数、取走的过熟橙子数，以及最后两者数量之差。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 56,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"80\" y=\"45\" width=\"120\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"200\" y=\"45\" width=\"120\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"320\" y=\"45\" width=\"120\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"80\" y=\"130\" width=\"90\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"170\" y=\"130\" width=\"90\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"260\" y=\"130\" width=\"90\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"350\" y=\"130\" width=\"90\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"15\" y=\"65\">120 oranges</text><text x=\"110\" y=\"84\">ripe 1/3</text><text x=\"270\" y=\"84\">overripe 2/3</text><text x=\"15\" y=\"150\">80 left</text><text x=\"175\" y=\"180\">overripe 3/4</text><text x=\"385\" y=\"180\">ripe 1/4</text><text x=\"175\" y=\"230\">80 ÷ 4 = 1 unit</text>",
+        "alt": "A 120-orange bar first splits ripe and overripe into thirds. The 80 remaining oranges are then split into four equal units, with three overripe. "
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"80\" y=\"45\" width=\"120\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"200\" y=\"45\" width=\"120\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"320\" y=\"45\" width=\"120\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"80\" y=\"130\" width=\"90\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"170\" y=\"130\" width=\"90\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"260\" y=\"130\" width=\"90\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"350\" y=\"130\" width=\"90\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"15\" y=\"65\">120 个橙子</text><text x=\"110\" y=\"84\">成熟 1/3</text><text x=\"270\" y=\"84\">过熟 2/3</text><text x=\"15\" y=\"150\">剩下 80</text><text x=\"175\" y=\"180\">过熟 3/4</text><text x=\"385\" y=\"180\">成熟 1/4</text><text x=\"175\" y=\"230\">80 ÷ 4 = 1 个单位</text>",
+        "alt": "先把120个橙子按三等分分为成熟和过熟；再把剩下的80个橙子分为4个等单位，其中3个单位为过熟。"
+      }
+    }
   },
   {
     "id": 20,
@@ -852,44 +1142,58 @@ window.QUESTION_BANK = [
     "sourcePage": 11,
     "solution": {
       "en": {
-        "strategy": "Use the salary as one whole and express education and transport as fractions of it.",
+        "strategy": "Follow the monthly-budget strip: education is one quarter of the whole, food is one half, and the final quarter is split into savings 2 parts and transport 3 parts.",
         "steps": [
           {
-            "title": "Split the salary",
-            "text": "Education is 1/4 of the salary. Food is 2/3 of the remaining 3/4, or 1/2 of the salary. Therefore savings plus transport is the remaining 1/4."
+            "title": "Read the budget strip",
+            "text": "Using the visual model above, The education block is 1/4 of the monthly salary. Food takes 1/2, leaving 1/4 for savings and transport; transport is 3/5 of that last quarter, or 3/20 of the whole."
           },
           {
-            "title": "Find monthly education",
-            "text": "Transport is 3/5 of that 1/4, or 3/20 of the salary. Education minus transport is 1/4 - 3/20 = 1/10 of the salary, and this is $265. So the salary is $2650 and monthly education is 1/4 × $2650 = $662.50."
+            "title": "Use the labelled gap",
+            "text": "The brace shows education minus transport: 1/4 − 3/20 = 1/10 of the salary, and this gap is $265. Education is 1/4 ÷ 1/10 = 2.5 such gaps, so monthly education is 2.5 × $265 = $662.50."
           },
           {
-            "title": "Scale to 6 months",
-            "text": "In 6 months, education spending is 6 × $662.50 = $3975."
+            "title": "Extend the education block to 6 months",
+            "text": "For 6 months, education spending is 6 × $662.50 = $3975."
           }
         ],
-        "answerCheck": "Check: 6 months of education spending = $3975."
+        "answerCheck": "Check: 6 × $662.50 = $3975."
       },
       "zh-Hans": {
-        "strategy": "把月薪看作 1 整体，把教育费和交通费都表示成月薪的分数。",
+        "strategy": "按照每月预算条：教育占整体的 1/4，食物占 1/2，最后的 1/4 再按储蓄 2 份、交通 3 份分开。",
         "steps": [
           {
-            "title": "分配月薪",
-            "text": "教育费是月薪的 1/4。食物费是剩余 3/4 的 2/3，即月薪的 1/2。因此储蓄和交通费合共是月薪的 1/4。"
+            "title": "读预算线段图",
+            "text": "教育块是月薪的 1/4。食物占 1/2，余下 1/4 给储蓄和交通；交通占这最后 1/4 的 3/5，即整体的 3/20。"
           },
           {
-            "title": "求每月教育费",
-            "text": "交通费是这 1/4 的 3/5，即月薪的 3/20。教育费比交通费多 1/4 - 3/20 = 1/10 月薪，而这等于 $265。所以月薪是 $2650，每月教育费是 1/4 × $2650 = $662.50。"
+            "title": "利用标出的差额",
+            "text": "括号表示教育减交通：1/4 − 3/20 = 月薪的 1/10，而这个差额是 $265。教育费是 1/4 ÷ 1/10 = 2.5 个这样的差额，所以每月教育费为 2.5 × $265 = $662.50。"
           },
           {
-            "title": "计算 6 个月",
-            "text": "6 个月教育费是 6 × $662.50 = $3975。"
+            "title": "把教育块延伸到 6 个月",
+            "text": "6 个月的教育费为 6 × $662.50 = $3975。"
           }
         ],
-        "answerCheck": "验算：6 个月的教育费 = $3975。"
+        "answerCheck": "验算：6 × $662.50 = $3975。"
       }
     },
     "questionZh": "克劳福德太太将工资的1/3用于教育，又将余下部分的1/4用于食物。储蓄与交通费之比为2:3；教育支出比交通费多$265。求6个月的教育支出。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 57,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"55\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"110\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"220\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"275\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"330\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"385\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"440\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"495\" y=\"70\" width=\"28\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"523\" y=\"70\" width=\"28\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"551\" y=\"70\" width=\"28\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"579\" y=\"70\" width=\"28\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"607\" y=\"70\" width=\"28\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"55\" y=\"58\">EDUCATION</text><text x=\"250\" y=\"58\">FOOD = 2/3 of remainder</text><text x=\"485\" y=\"58\">SAV. 2 : TRANS. 3</text><path d=\"M55 115v12h110v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"65\" y=\"150\">education − transport = $265</text><text x=\"90\" y=\"205\">education = 1/4 whole; transport = 3/20 whole</text><text x=\"180\" y=\"235\">difference = 1/10 whole = $265</text>",
+        "alt": "Monthly budget strip: education is two base units; food is two-thirds of the remainder; savings-to-transport is 2:3. The education–transport gap is one-tenth of the whole."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"55\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"110\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"220\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"275\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"330\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"385\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"440\" y=\"70\" width=\"55\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"495\" y=\"70\" width=\"28\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"523\" y=\"70\" width=\"28\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"551\" y=\"70\" width=\"28\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"579\" y=\"70\" width=\"28\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"607\" y=\"70\" width=\"28\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"55\" y=\"58\">教育</text><text x=\"250\" y=\"58\">食物 = 余下的 2/3</text><text x=\"485\" y=\"58\">储蓄 2 : 交通 3</text><path d=\"M55 115v12h110v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"65\" y=\"150\">教育 − 交通 = $265</text><text x=\"90\" y=\"205\">教育 = 全部的 1/4；交通 = 全部的 3/20</text><text x=\"180\" y=\"235\">差 = 全部的 1/10 = $265</text>",
+        "alt": "每月预算条：教育为两个基本单位；食物是余下部分的2/3；储蓄与交通之比为2:3。教育与交通的差是整体的1/10。"
+      }
+    }
   },
   {
     "id": 21,
@@ -901,44 +1205,58 @@ window.QUESTION_BANK = [
     "sourcePage": 11,
     "solution": {
       "en": {
-        "strategy": "Calculate the water transferred from tank A, then use it to find tank B's capacity.",
+        "strategy": "Use the calculation box to get the transfer from tank A, then read it as 4 of the 5 equal capacity parts of tank B.",
         "steps": [
           {
-            "title": "Find water in A",
-            "text": "Tank A's capacity is 12 × 10 × 20 = 2400 cm³. It is 2/3 full, so it contains 2/3 × 2400 = 1600 cm³."
+            "title": "Complete the tank A box",
+            "text": "Using the visual model above, Tank A holds 12 × 10 × 20 = 2400 cm³. At 2/3 full it contains 1600 cm³, and the transferred half is 1600 ÷ 2 = 800 cm³."
           },
           {
-            "title": "Use the transfer for B",
-            "text": "Half of A's water, 1600 ÷ 2 = 800 cm³, fills the final 4/5 of B because B was already 1/5 full. Thus B's capacity is 800 ÷ 4/5 = 1000 cm³."
+            "title": "Fill the 5-part B bar",
+            "text": "The 800 cm³ transfer fills 4 of B's 5 equal parts. Therefore 1 part is 800 ÷ 4 = 200 cm³ and full tank B is 5 × 200 = 1000 cm³."
           },
           {
-            "title": "Add capacities",
-            "text": "The total capacity is 2400 + 1000 = 3400 cm³ = 3.4 L."
+            "title": "Add and convert the capacities",
+            "text": "Together the tanks hold 2400 + 1000 = 3400 cm³ = 3.4 L."
           }
         ],
-        "answerCheck": "Check: total capacity = 3.4 L."
+        "answerCheck": "Check: total capacity is 3400 cm³, which is 3.4 L."
       },
       "zh-Hans": {
-        "strategy": "先求从 A 倒出的水量，再用它求 B 的容积。",
+        "strategy": "先用计算框求出从 A 倒出的水，再把它看作 B 的 5 个等容积单位中的 4 个。",
         "steps": [
           {
-            "title": "求 A 中的水",
-            "text": "A 的容积是 12 × 10 × 20 = 2400 cm³。A 装了 2/3，因此水量是 2/3 × 2400 = 1600 cm³。"
+            "title": "完成水箱 A 的计算框",
+            "text": "结合上面的图示模型，水箱 A 的容积为 12 × 10 × 20 = 2400 cm³。装了 2/3 时有 1600 cm³，倒出其中一半为 1600 ÷ 2 = 800 cm³。"
           },
           {
-            "title": "利用倒入的水求 B",
-            "text": "倒出 A 中 1/2 的水：1600 ÷ 2 = 800 cm³。B 原来有 1/5，倒入后装满，所以 800 cm³ 是 B 的 4/5；B 的容积是 800 ÷ 4/5 = 1000 cm³。"
+            "title": "填入 B 的 5 等分条",
+            "text": "倒入的 800 cm³ 填满 B 的 5 个等容积部分中的 4 个。因此 1 份为 800 ÷ 4 = 200 cm³，水箱 B 全满为 5 × 200 = 1000 cm³。"
           },
           {
-            "title": "相加并换算",
-            "text": "总容积是 2400 + 1000 = 3400 cm³ = 3.4 L。"
+            "title": "相加并换算容积",
+            "text": "两个水箱合共为 2400 + 1000 = 3400 cm³ = 3.4 L。"
           }
         ],
-        "answerCheck": "验算：总容积 = 3.4 L。"
+        "answerCheck": "验算：总容积为 3400 cm³，即 3.4 L。"
       }
     },
     "questionZh": "水箱A装有2/3满的水。其中1/2的水把原本装有1/4水的水箱B加满。水箱A的尺寸为12 cm × 10 cm × 20 cm。求两个水箱的总容量（以升为单位）。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 57,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"30\" y=\"25\" width=\"245\" height=\"80\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"45\" y=\"52\">Tank A: 12 × 10 × 20 = 2400 cm³</text><text x=\"45\" y=\"78\">2/3 full → 1600 cm³</text><text x=\"45\" y=\"96\">transfer 1/2 → 800 cm³</text><rect x=\"175\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"240\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"305\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"370\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"435\" y=\"140\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"30\" y=\"164\">Tank B</text><text x=\"195\" y=\"130\">4/5 = 800 cm³</text><text x=\"195\" y=\"205\">5 equal capacity parts</text><path d=\"M175 185v12h325v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"260\" y=\"235\">combined capacity: A + B</text>",
+        "alt": "Tank A calculation establishes an 800 cm³ transfer. Tank B is a five-part capacity bar with four parts filled by that transfer."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"30\" y=\"25\" width=\"245\" height=\"80\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"45\" y=\"52\">水箱 A：12 × 10 × 20 = 2400 cm³</text><text x=\"45\" y=\"78\">装 2/3 → 1600 cm³</text><text x=\"45\" y=\"96\">倒出 1/2 → 800 cm³</text><rect x=\"175\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"240\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"305\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"370\" y=\"140\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"435\" y=\"140\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"30\" y=\"164\">水箱 B</text><text x=\"195\" y=\"130\">4/5 = 800 cm³</text><text x=\"195\" y=\"205\">5 个相等容积单位</text><path d=\"M175 185v12h325v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"260\" y=\"235\">总容积：A + B</text>",
+        "alt": "水箱A的计算确定倒入800 cm³。水箱B用5个等容积单位表示，其中4个单位由倒入的水填满。"
+      }
+    }
   },
   {
     "id": 22,
@@ -950,44 +1268,58 @@ window.QUESTION_BANK = [
     "sourcePage": 12,
     "solution": {
       "en": {
-        "strategy": "Find the total cost and use the price difference per kilogram.",
+        "strategy": "Use the aligned half-kilogram cost bars: 8 prawn price units and 5 fish price units, after separating the $3/kg prawn premium.",
         "steps": [
           {
-            "title": "Set up the quantities",
-            "text": "The prawns weigh 2.5 + 1.5 = 4 kg. The total spent is $50 - $5.50 = $44.50."
+            "title": "Set up the two cost strips",
+            "text": "Prawns weigh 2.5 + 1.5 = 4 kg, or 8 half-kg units. Fish weigh 2.5 kg, or 5 half-kg units. The purchase cost is $50 − $5.50 = $44.50."
           },
           {
-            "title": "Find the prices",
-            "text": "Let fish cost $f per kg, so prawns cost $(f + 3) per kg. Then 2.5f + 4(f + 3) = 44.50, giving 6.5f = 32.50 and f = $5."
+            "title": "Remove the premium from the common units",
+            "text": "The prawn premium is 4 × $3 = $12. Removing it leaves $44.50 − $12 = $32.50 for the 13 equal half-kg price units, so each unit is $32.50 ÷ 13 = $2.50."
           },
           {
-            "title": "Find the prawn cost",
-            "text": "Prawns cost $5 + $3 = $8 per kg, so 4 × $8 = $32 was spent on prawns."
+            "title": "Restore the prawn premium",
+            "text": "The 8 prawn units cost 8 × $2.50 = $20, then add the $12 premium: $20 + $12 = $32."
           }
         ],
-        "answerCheck": "Check: amount spent on prawns = $32."
+        "answerCheck": "Check: $20 + $12 = $32, so the amount spent on prawns is $32."
       },
       "zh-Hans": {
-        "strategy": "先求总花费和虾的质量，再利用每 kg 的价格差。",
+        "strategy": "用对齐的半公斤费用条：虾有 8 个价钱单位，鱼有 5 个；先分离虾每 kg 多出的 $3。",
         "steps": [
           {
-            "title": "列出质量和总价",
-            "text": "虾的质量是 2.5 + 1.5 = 4 kg。总花费是 $50 - $5.50 = $44.50。"
+            "title": "列出两条费用条",
+            "text": "虾重 2.5 + 1.5 = 4 kg，即 8 个半公斤单位。鱼重 2.5 kg，即 5 个半公斤单位。总花费为 $50 − $5.50 = $44.50。"
           },
           {
-            "title": "求每 kg 价格",
-            "text": "设鱼每 kg 为 $f，虾每 kg 为 $(f + 3)。所以 2.5f + 4(f + 3) = 44.50，得到 6.5f = 32.50，f = $5。"
+            "title": "从共同单位中扣除加价",
+            "text": "虾的加价为 4 × $3 = $12。扣除后，13 个相等的半公斤价钱单位共为 $44.50 − $12 = $32.50，所以每单位为 $32.50 ÷ 13 = $2.50。"
           },
           {
-            "title": "求虾的花费",
-            "text": "虾每 kg 是 $5 + $3 = $8，买 4 kg 的花费是 4 × $8 = $32。"
+            "title": "补回虾的加价",
+            "text": "8 个虾单位为 8 × $2.50 = $20，再加 $12 的加价：$20 + $12 = $32。"
           }
         ],
-        "answerCheck": "验算：买虾花了 $32。"
+        "answerCheck": "验算：$20 + $12 = $32，所以买虾花了 $32。"
       }
     },
     "questionZh": "鲍尔斯太太买了2.5 kg鱼和比鱼多1.5 kg的虾。从$50找回$5.50；虾每kg比鱼贵$3。她买虾花了多少钱？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 57,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"120\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"162\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"204\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"246\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"288\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"330\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"372\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"414\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"120\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"162\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"204\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"246\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"288\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"25\" y=\"76\">PRAWNS 4 kg</text><text x=\"25\" y=\"146\">FISH 2.5 kg</text><text x=\"235\" y=\"35\">8 half-kg units</text><text x=\"195\" y=\"180\">5 half-kg units</text><text x=\"470\" y=\"76\">premium: 4 × $3 = $12</text><text x=\"145\" y=\"220\">13 price units = ($50 − $5.50) − $12</text>",
+        "alt": "Cost comparison in half-kilogram price units: eight prawn units and five fish units. The four-kilogram prawn premium is separated before comparing the 13 common units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"120\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"162\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"204\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"246\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"288\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"330\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"372\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"414\" y=\"55\" width=\"42\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"120\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"162\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"204\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"246\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"288\" y=\"125\" width=\"42\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"25\" y=\"76\">虾 4 kg</text><text x=\"25\" y=\"146\">鱼 2.5 kg</text><text x=\"235\" y=\"35\">8 个半公斤单位</text><text x=\"195\" y=\"180\">5 个半公斤单位</text><text x=\"470\" y=\"76\">加价：4 × $3 = $12</text><text x=\"145\" y=\"220\">13 个价钱单位 = ($50 − $5.50) − $12</text>",
+        "alt": "以半公斤的价钱单位比较：虾有8个单位，鱼有5个单位。先分离4 kg虾的加价，再比较13个共同单位。"
+      }
+    }
   },
   {
     "id": 23,
@@ -999,44 +1331,58 @@ window.QUESTION_BANK = [
     "sourcePage": 12,
     "solution": {
       "en": {
-        "strategy": "Find the remaining water volume, then divide it between the tank and basin capacities.",
+        "strategy": "Find the remaining volume first, then use the 1-unit basin to 3-unit tank capacity bar before calculating the tank height.",
         "steps": [
           {
-            "title": "Find the remaining volume",
-            "text": "The container was 4/5 × 25 = 20 cm deep. After falling 5 cm, its water depth is 15 cm, so the remaining volume is 60 × 40 × 15 = 36000 cm³."
+            "title": "Find the water represented by the brace",
+            "text": "The original water depth is 4/5 × 25 = 20 cm. After a 5 cm fall, the depth is 15 cm, so the remaining volume is 60 × 40 × 15 = 36000 cm³."
           },
           {
-            "title": "Relate the two containers",
-            "text": "The basin capacity is 1/3 of the tank capacity, so together they hold 1 + 1/3 = 4/3 of the tank capacity. Thus the tank capacity is 36000 × 3/4 = 27000 cm³."
+            "title": "Split the 4-unit capacity bar",
+            "text": "The basin is 1 equal unit and the tank is 3 equal units, making 4 units altogether. The tank therefore receives 3/4 × 36000 = 27000 cm³."
           },
           {
-            "title": "Find the tank height",
-            "text": "Its base area is 18 × 15 = 270 cm². Therefore its water height is 27000 ÷ 270 = 100 cm."
+            "title": "Use the tank base annotation",
+            "text": "The tank base area is 18 × 15 = 270 cm². Its water height is 27000 ÷ 270 = 100 cm."
           }
         ],
-        "answerCheck": "Check: tank water height = 100 cm."
+        "answerCheck": "Check: 270 cm² × 100 cm = 27000 cm³, so the tank water height is 100 cm."
       },
       "zh-Hans": {
-        "strategy": "先求剩余水的体积，再按水箱和水盆的容积关系分配。",
+        "strategy": "先求总括号表示的剩余水量，再用水盆 1 份、水箱 3 份的容量条，最后计算水箱水高。",
         "steps": [
           {
-            "title": "求剩余水量",
-            "text": "原来水深是 4/5 × 25 = 20 cm。水位下降 5 cm 后水深为 15 cm，剩余体积为 60 × 40 × 15 = 36000 cm³。"
+            "title": "求总括号所示水量",
+            "text": "原来水深为 4/5 × 25 = 20 cm。下降 5 cm 后水深为 15 cm，所以剩余体积为 60 × 40 × 15 = 36000 cm³。"
           },
           {
-            "title": "利用容积关系",
-            "text": "水盆容积是水箱的 1/3，所以水箱和水盆的总容积是水箱的 1 + 1/3 = 4/3。水箱容积为 36000 × 3/4 = 27000 cm³。"
+            "title": "分配 4 个容量单位",
+            "text": "水盆是 1 个相等单位，水箱是 3 个相等单位，合共 4 个单位。因此水箱得到 3/4 × 36000 = 27000 cm³。"
           },
           {
-            "title": "求水箱水高",
-            "text": "水箱底面积是 18 × 15 = 270 cm²，因此水高为 27000 ÷ 270 = 100 cm。"
+            "title": "使用水箱底面标注",
+            "text": "水箱底面积是 18 × 15 = 270 cm²。水高为 27000 ÷ 270 = 100 cm。"
           }
         ],
-        "answerCheck": "验算：水箱中的水高 = 100 cm。"
+        "answerCheck": "验算：270 cm² × 100 cm = 27000 cm³，所以水箱水高是 100 cm。"
       }
     },
     "questionZh": "一个60 cm × 40 cm × 25 cm的容器装有4/5满的水；水位下降了5 cm。剩下的水装满一个水箱和一个盆，盆的容量是水箱容量的1/4。求水箱中的水高。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 57,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"90\" y=\"50\" width=\"105\" height=\"35\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"105\" y=\"73\">BASIN 1 unit</text><rect x=\"280\" y=\"50\" width=\"300\" height=\"35\" fill=\"#dcfce7\" stroke=\"#26364a\"/><line x1=\"380\" y1=\"50\" x2=\"380\" y2=\"85\" stroke=\"#26364a\"/><line x1=\"480\" y1=\"50\" x2=\"480\" y2=\"85\" stroke=\"#26364a\"/><text x=\"360\" y=\"42\">TANK 3 units</text><path d=\"M90 105v12h490v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"230\" y=\"142\">total remaining water = 36 000 cm³</text><text x=\"315\" y=\"172\">tank = 3 units</text><rect x=\"260\" y=\"190\" width=\"150\" height=\"45\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"275\" y=\"217\">base: 18 cm × 15 cm</text><text x=\"440\" y=\"217\">volume = base area × height</text>",
+        "alt": "A one-to-three basin-to-tank capacity bar allocates 36 000 cm³. The tank height follows from its 18 cm by 15 cm base."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"90\" y=\"50\" width=\"105\" height=\"35\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"105\" y=\"73\">水盆 1 单位</text><rect x=\"280\" y=\"50\" width=\"300\" height=\"35\" fill=\"#dcfce7\" stroke=\"#26364a\"/><line x1=\"380\" y1=\"50\" x2=\"380\" y2=\"85\" stroke=\"#26364a\"/><line x1=\"480\" y1=\"50\" x2=\"480\" y2=\"85\" stroke=\"#26364a\"/><text x=\"360\" y=\"42\">水箱 3 单位</text><path d=\"M90 105v12h490v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"230\" y=\"142\">剩余水量合共 = 36 000 cm³</text><text x=\"315\" y=\"172\">水箱 = 3 单位</text><rect x=\"260\" y=\"190\" width=\"150\" height=\"45\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"275\" y=\"217\">底：18 cm × 15 cm</text><text x=\"440\" y=\"217\">体积 = 底面积 × 高</text>",
+        "alt": "水盆与水箱的容积条为1:3，把36 000 cm³分配给两者。水箱高度由18 cm×15 cm的底面积求出。"
+      }
+    }
   },
   {
     "id": 24,
@@ -1048,44 +1394,58 @@ window.QUESTION_BANK = [
     "sourcePage": 12,
     "solution": {
       "en": {
-        "strategy": "Find the rectangle area, then subtract the unshaded parts inside the two 12 cm squares.",
+        "strategy": "Use the composite diagram: outer rectangle minus the two squares, then add the four curved segments inside the squares.",
         "steps": [
           {
-            "title": "Find the outer rectangle",
-            "text": "2(length + breadth) = 320, so the breadth is 160 - 96 = 64 cm. Its area is 96 × 64 = 6144 cm²."
+            "title": "Find the outer rectangle area",
+            "text": "Using the visual model above, Its breadth is (320 − 96 − 96) ÷ 2 = 64 cm. Thus the outer rectangle has area 96 × 64 = 6144 cm²."
           },
           {
-            "title": "Find one curved lens",
-            "text": "In a 12 cm square, one lens is two quarter-circle sectors minus two right triangles: 2 × (3.14 × 12² ÷ 4 - 12 × 12 ÷ 2) = 82.08 cm². Thus the unshaded part of one square is 12² - 82.08 = 61.92 cm²."
+            "title": "Find the four curved segments",
+            "text": "Each labelled segment is a quarter-circle minus a half-square triangle: 1/4 × 3.14 × 12² − 1/2 × 12 × 12 = 41.04 cm². The two squares contain 4 such segments, with total area 4 × 41.04 = 164.16 cm²."
           },
           {
-            "title": "Subtract both unshaded parts",
-            "text": "The shaded area is 6144 - 2 × 61.92 = 6020.16 cm²."
+            "title": "Combine the regions shown",
+            "text": "Start with the rectangle, remove 2 squares, and add the 4 shaded segments: 6144 − 2 × 12² + 164.16 = 6020.16 cm²."
           }
         ],
-        "answerCheck": "Check: shaded area = 6020.16 cm²."
+        "answerCheck": "Check: 6144 − 288 + 164.16 = 6020.16 cm²."
       },
       "zh-Hans": {
-        "strategy": "先求大长方形面积，再减去 2 个边长 12 cm 正方形中的白色部分。",
+        "strategy": "按照组合图计算：大长方形减去 2 个正方形，再加回正方形内的 4 块曲边阴影。",
         "steps": [
           {
             "title": "求大长方形面积",
-            "text": "2(长 + 宽) = 320，所以宽为 160 - 96 = 64 cm。大长方形面积为 96 × 64 = 6144 cm²。"
+            "text": "宽为 (320 − 96 − 96) ÷ 2 = 64 cm。因此大长方形面积为 96 × 64 = 6144 cm²。"
           },
           {
-            "title": "求 1 个弯月形面积",
-            "text": "在边长 12 cm 的正方形内，弯月形面积为 2 × (3.14 × 12² ÷ 4 - 12 × 12 ÷ 2) = 82.08 cm²。所以 1 个正方形的白色部分是 12² - 82.08 = 61.92 cm²。"
+            "title": "求 4 块曲边部分",
+            "text": "图中每一块曲边部分是四分之一圆减去半个正方形三角形：1/4 × 3.14 × 12² − 1/2 × 12 × 12 = 41.04 cm²。2 个正方形共有 4 块，面积为 4 × 41.04 = 164.16 cm²。"
           },
           {
-            "title": "减去 2 个白色部分",
-            "text": "阴影面积为 6144 - 2 × 61.92 = 6020.16 cm²。"
+            "title": "合并图中的区域",
+            "text": "从大长方形开始，减去 2 个正方形，再加回 4 块阴影：6144 − 2 × 12² + 164.16 = 6020.16 cm²。"
           }
         ],
-        "answerCheck": "验算：阴影面积 = 6020.16 cm²。"
+        "answerCheck": "验算：6144 − 288 + 164.16 = 6020.16 cm²。"
       }
     },
     "questionZh": "ABCD是一个周长为320 cm、长为96 cm的长方形。里面放有2个边长为12 cm的正方形。取π = 3.14，求阴影部分的面积。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 58,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"70\" y=\"35\" width=\"470\" height=\"155\" fill=\"#e0f2fe\" stroke=\"#26364a\"/><text x=\"275\" y=\"215\">96 cm</text><text x=\"20\" y=\"120\">64 cm</text><rect x=\"155\" y=\"78\" width=\"60\" height=\"60\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"385\" y=\"78\" width=\"60\" height=\"60\" fill=\"#fff\" stroke=\"#26364a\"/><line x1=\"155\" y1=\"138\" x2=\"215\" y2=\"78\" stroke=\"#26364a\"/><line x1=\"385\" y1=\"138\" x2=\"445\" y2=\"78\" stroke=\"#26364a\"/><path d=\"M155 138 A60 60 0 0 1 215 78\" fill=\"none\" stroke=\"#2563eb\"/><path d=\"M215 78 A60 60 0 0 0 155 138\" fill=\"none\" stroke=\"#2563eb\"/><path d=\"M385 138 A60 60 0 0 1 445 78\" fill=\"none\" stroke=\"#2563eb\"/><path d=\"M445 78 A60 60 0 0 0 385 138\" fill=\"none\" stroke=\"#2563eb\"/><text x=\"145\" y=\"68\">12 cm square</text><text x=\"375\" y=\"68\">12 cm square</text><text x=\"115\" y=\"245\">one segment = ¼π(12)² − ½(12)(12)</text>",
+        "alt": "Outer 96 cm by 64 cm rectangle with two 12 cm squares. Each square’s curved pieces are quarter-circle sector minus right triangle."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"70\" y=\"35\" width=\"470\" height=\"155\" fill=\"#e0f2fe\" stroke=\"#26364a\"/><text x=\"275\" y=\"215\">96 cm</text><text x=\"20\" y=\"120\">64 cm</text><rect x=\"155\" y=\"78\" width=\"60\" height=\"60\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"385\" y=\"78\" width=\"60\" height=\"60\" fill=\"#fff\" stroke=\"#26364a\"/><line x1=\"155\" y1=\"138\" x2=\"215\" y2=\"78\" stroke=\"#26364a\"/><line x1=\"385\" y1=\"138\" x2=\"445\" y2=\"78\" stroke=\"#26364a\"/><path d=\"M155 138 A60 60 0 0 1 215 78\" fill=\"none\" stroke=\"#2563eb\"/><path d=\"M215 78 A60 60 0 0 0 155 138\" fill=\"none\" stroke=\"#2563eb\"/><path d=\"M385 138 A60 60 0 0 1 445 78\" fill=\"none\" stroke=\"#2563eb\"/><path d=\"M445 78 A60 60 0 0 0 385 138\" fill=\"none\" stroke=\"#2563eb\"/><text x=\"145\" y=\"68\">边长 12 cm 正方形</text><text x=\"375\" y=\"68\">边长 12 cm 正方形</text><text x=\"115\" y=\"245\">1 块圆弓形 = ¼π(12)² − ½(12)(12)</text>",
+        "alt": "外矩形为96 cm×64 cm，内有两个边长12 cm的正方形。每块曲边部分为四分之一圆扇形减去直角三角形。"
+      }
+    }
   },
   {
     "id": 25,
@@ -1097,44 +1457,58 @@ window.QUESTION_BANK = [
     "sourcePage": 13,
     "solution": {
       "en": {
-        "strategy": "Use the first two purchases to find each unit price, then use Nick's spending.",
+        "strategy": "Use the aligned equation table to make 4 rulers appear in both rows, subtract to price a pen, then use Nick's payment.",
         "steps": [
           {
-            "title": "Find a pen price",
-            "text": "Double Joanne's purchase: 6 pens + 4 rulers cost $21.60. Subtract Alice's 5 pens + 4 rulers for $19.20, so 1 pen costs $2.40."
+            "title": "Align the two purchase rows",
+            "text": "Double 3 pens + 2 rulers = $10.80 to get 6 pens + 4 rulers = $21.60. This aligns with 5 pens + 4 rulers = $19.20."
           },
           {
-            "title": "Find a ruler price",
-            "text": "From 3 pens + 2 rulers = $10.80, 2 rulers cost $10.80 - 3 × $2.40 = $3.60. Therefore 1 ruler costs $1.80."
+            "title": "Subtract the aligned rows",
+            "text": "Subtracting gives 1 pen = $21.60 − $19.20 = $2.40. Then the table's first row gives 2 rulers = $10.80 − 3 × $2.40 = $3.60."
           },
           {
-            "title": "Use Nick's payment",
-            "text": "Nick spent $20 - $6.80 = $13.20. His 2 rulers cost 2 × $1.80 = $3.60, leaving $9.60 for pens. $9.60 ÷ $2.40 = 4."
+            "title": "Use Nick's row",
+            "text": "Nick spent $13.20. After paying $3.60 for 2 rulers, he has $13.20 − $3.60 = $9.60 for pens. Thus he buys $9.60 ÷ $2.40 = 4 pens."
           }
         ],
-        "answerCheck": "Check: Nick bought 4 pens."
+        "answerCheck": "Check: 2 rulers cost $3.60 and 4 pens cost 4 × $2.40 = $9.60; together they cost $13.20. Nick bought 4 pens."
       },
       "zh-Hans": {
-        "strategy": "先用前 2 次购买求出每支笔和每把尺的价格，再用 Nick 的花费计算。",
+        "strategy": "用对齐的等式表让两行都有 4 把尺，相减求笔价，再使用 Nick 的付款额。",
         "steps": [
           {
-            "title": "求每支笔价格",
-            "text": "Joanne 的购买乘 2：6 支笔和 4 把尺是 $21.60。减去 Alice 的 5 支笔和 4 把尺是 $19.20，所以 1 支笔是 $2.40。"
+            "title": "对齐两行购买式",
+            "text": "把 3 支笔 + 2 把尺 = $10.80 乘 2，得 6 支笔 + 4 把尺 = $21.60。这与 5 支笔 + 4 把尺 = $19.20 对齐。"
           },
           {
-            "title": "求每把尺价格",
-            "text": "由 3 支笔和 2 把尺 = $10.80，2 把尺是 $10.80 - 3 × $2.40 = $3.60。因此 1 把尺是 $1.80。"
+            "title": "相减对齐的两行",
+            "text": "相减得 1 支笔 = $21.60 − $19.20 = $2.40。再用表中第一行：2 把尺 = $10.80 − 3 × $2.40 = $3.60。"
           },
           {
-            "title": "计算 Nick 买的笔",
-            "text": "Nick 实付 $20 - $6.80 = $13.20。2 把尺花 2 × $1.80 = $3.60，余下 $9.60 买笔。$9.60 ÷ $2.40 = 4。"
+            "title": "使用 Nick 的购买行",
+            "text": "Nick 花了 $13.20。付 2 把尺的 $3.60 后，买笔的钱为 $13.20 − $3.60 = $9.60。因此他买了 $9.60 ÷ $2.40 = 4 支笔。"
           }
         ],
-        "answerCheck": "验算：Nick 买了 4 支笔。"
+        "answerCheck": "验算：2 把尺是 $3.60，4 支笔是 4 × $2.40 = $9.60，合共 $13.20。Nick 买了 4 支笔。"
       }
     },
     "questionZh": "乔安妮买3支笔和2把尺共花$10.80；爱丽丝买5支笔和4把尺共花$19.20。尼克买2把尺和若干支笔共花$13.20。尼克买了多少支笔？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 58,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"70\" y=\"30\" width=\"330\" height=\"38\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"70\" y=\"87\" width=\"330\" height=\"38\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"70\" y=\"144\" width=\"330\" height=\"38\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"100\" y=\"55\">3P + 2R = $10.80</text><text x=\"100\" y=\"112\">6P + 4R = $21.60</text><text x=\"100\" y=\"169\">5P + 4R = $19.20</text><path d=\"M425 87h25v95h-25\" fill=\"none\" stroke=\"#26364a\"/><text x=\"470\" y=\"140\">subtract → 1P = $2.40</text><text x=\"100\" y=\"225\">2R = $10.80 − 3P</text>",
+        "alt": "Aligned purchase equations double the first row so that four rulers can be eliminated by subtraction; the result prices one pen before substituting for two rulers."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"70\" y=\"30\" width=\"330\" height=\"38\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"70\" y=\"87\" width=\"330\" height=\"38\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"70\" y=\"144\" width=\"330\" height=\"38\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"100\" y=\"55\">3 支笔 + 2 把尺 = $10.80</text><text x=\"100\" y=\"112\">6 支笔 + 4 把尺 = $21.60</text><text x=\"100\" y=\"169\">5 支笔 + 4 把尺 = $19.20</text><path d=\"M425 87h25v95h-25\" fill=\"none\" stroke=\"#26364a\"/><text x=\"470\" y=\"140\">相减 → 1 支笔 = $2.40</text><text x=\"100\" y=\"225\">2 把尺 = $10.80 − 3P</text>",
+        "alt": "把购买等式对齐，先把第一行加倍，以相减消去4把尺；得到1支笔的价钱后，再代入求2把尺。"
+      }
+    }
   },
   {
     "id": 26,
@@ -1146,44 +1520,58 @@ window.QUESTION_BANK = [
     "sourcePage": 13,
     "solution": {
       "en": {
-        "strategy": "Express all original earnings in terms of Jeremy's, then follow the later changes.",
+        "strategy": "Read the Before bars as 2, 3, and 1 equal units, then follow the arrow and compare the End bars.",
         "steps": [
           {
-            "title": "Find the original earnings",
-            "text": "Let Jeremy earn 1 unit. Frankie earns 2 units and Martin earns 3 units, for 6 units total. Since the total is $120, 1 unit is $20: Jeremy $20, Frankie $40, Martin $60."
+            "title": "Find the value of a unit",
+            "text": "Before the transfer, Frankie, Martin, and Jeremy have 2 + 3 + 1 = 6 units worth $120. So 1 unit is $120 ÷ 6 = $20."
           },
           {
-            "title": "Update Frankie and Jeremy",
-            "text": "Martin gives Frankie 1/4 × $60 = $15, so Frankie has $40 + $15 = $55. Jeremy's later earnings are 4 times his earlier $20, so he has 4 × $20 = $80."
+            "title": "Follow the transfer arrow",
+            "text": "Martin's 3 units are $60, and the arrow marks 1/4 of this as $15. Frankie therefore changes from 2 units to 2 × $20 + $15 = $55."
           },
           {
-            "title": "Find the difference",
-            "text": "Jeremy has $80 - $55 = $25 more than Frankie."
+            "title": "Compare the End bars",
+            "text": "Jeremy's End bar has 4 units, or 4 × $20 = $80. The final difference is $80 − $55 = $25."
           }
         ],
-        "answerCheck": "Check: Jeremy had $25 more."
+        "answerCheck": "Check: Jeremy has $80 and Frankie has $55, so Jeremy had $25 more."
       },
       "zh-Hans": {
-        "strategy": "把 3 人原来的收入都用 Jeremy 的收入表示，再处理后来的变化。",
+        "strategy": "把 Before 的三条金额条读作 2、3、1 个相等单位，再沿箭头处理转给 Frankie 的钱，并比较 End 的两条金额条。",
         "steps": [
           {
-            "title": "求原来收入",
-            "text": "把 Jeremy 的收入看作 1 份，Frankie 是 2 份，Martin 是 3 份，共 6 份。$120 ÷ 6 = $20，所以 Jeremy 是 $20，Frankie 是 $40，Martin 是 $60。"
+            "title": "求每个单位的金额",
+            "text": "转钱前，Frankie、Martin、Jeremy 的单位数为 2 + 3 + 1 = 6，共 $120。因此 1 个单位为 $120 ÷ 6 = $20。"
           },
           {
-            "title": "更新 Frankie 和 Jeremy",
-            "text": "Martin 给 Frankie 1/4 × $60 = $15，所以 Frankie 有 $40 + $15 = $55。Jeremy 后来的收入是原来 $20 的 4 倍，所以他有 4 × $20 = $80。"
+            "title": "沿转账箭头计算",
+            "text": "Martin 的 3 个单位是 $60，箭头标示其中的 1/4 为 $15。Frankie 因而由 2 个单位变为 2 × $20 + $15 = $55。"
           },
           {
-            "title": "求相差金额",
-            "text": "Jeremy 比 Frankie 多 $80 - $55 = $25。"
+            "title": "比较 End 的金额条",
+            "text": "Jeremy 的 End 条有 4 个单位，即 4 × $20 = $80。最后相差 $80 − $55 = $25。"
           }
         ],
-        "answerCheck": "验算：Jeremy 多 $25。"
+        "answerCheck": "验算：Jeremy 有 $80，Frankie 有 $55，所以 Jeremy 多 $25。"
       }
     },
     "questionZh": "弗兰基、马丁和杰里米共赚了$120。杰里米赚的钱是弗兰基的1/2；马丁赚的钱是杰里米的3倍，并给了弗兰基自己钱的1/4。杰里米之后赚到的钱是先前的4倍。杰里米的钱增加了多少？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 58,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"145\" y=\"45\" width=\"48\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"193\" y=\"45\" width=\"48\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"145\" y=\"95\" width=\"48\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"193\" y=\"95\" width=\"48\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"241\" y=\"95\" width=\"48\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"145\" y=\"145\" width=\"48\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"20\" y=\"67\">Frankie 2u</text><text x=\"20\" y=\"117\">Martin 3u</text><text x=\"20\" y=\"167\">Jeremy 1u</text><text x=\"130\" y=\"205\">6 units = $120; 1 unit = $20</text><path d=\"M280 110h95\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M375 110l-11-6v12z\" fill=\"#26364a\"/><text x=\"278\" y=\"95\">¼ of Martin = $15</text><rect x=\"415\" y=\"72\" width=\"38\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"453\" y=\"72\" width=\"38\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"415\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"453\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"491\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"529\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"415\" y=\"62\">Frankie: 2u + $15</text><text x=\"415\" y=\"198\">Jeremy: 4u</text>",
+        "alt": "Before-and-after earning bars: 2, 3, and 1 units total $120; one quarter of Martin’s three-unit amount transfers to Frankie, while Jeremy becomes four units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"145\" y=\"45\" width=\"48\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"193\" y=\"45\" width=\"48\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"145\" y=\"95\" width=\"48\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"193\" y=\"95\" width=\"48\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"241\" y=\"95\" width=\"48\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"145\" y=\"145\" width=\"48\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"20\" y=\"67\">Frankie 2u</text><text x=\"20\" y=\"117\">Martin 3u</text><text x=\"20\" y=\"167\">Jeremy 1u</text><text x=\"130\" y=\"205\">6 个单位 = $120；1 单位 = $20</text><path d=\"M280 110h95\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M375 110l-11-6v12z\" fill=\"#26364a\"/><text x=\"278\" y=\"95\">Martin 的 ¼ = $15</text><rect x=\"415\" y=\"72\" width=\"38\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"453\" y=\"72\" width=\"38\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"415\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"453\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"491\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"529\" y=\"145\" width=\"38\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"415\" y=\"62\">Frankie：2u + $15</text><text x=\"415\" y=\"198\">Jeremy：4u</text>",
+        "alt": "前后收入条：2、3、1个单位合共$120；Martin的3个单位中有1/4转给Frankie，而Jeremy变成4个单位。"
+      }
+    }
   },
   {
     "id": 27,
@@ -1195,44 +1583,58 @@ window.QUESTION_BANK = [
     "sourcePage": 13,
     "solution": {
       "en": {
-        "strategy": "Find the volume delivered in 1.5 minutes, scale it from 1/4 to full, then divide by the base area.",
+        "strategy": "Use the two-row flow table to get the one shaded quarter of the tank, then scale the tank bar to full capacity.",
         "steps": [
           {
-            "title": "Find the inflow",
-            "text": "Tap A supplies 4 L/min. Tap B supplies 10 L every 2 min = 5 L/min. Together they supply 9 L/min, so in 1.5 min they supply 9 × 1.5 = 13.5 L = 13500 cm³."
+            "title": "Merge the two tap rates",
+            "text": "Using the visual model above, Tap A supplies 4 L/min. Tap B supplies 10 L ÷ 2 min = 5 L/min, so together they supply 9 L/min. In 1.5 min they deliver 9 × 1.5 = 13.5 L = 13500 cm³."
           },
           {
-            "title": "Find full capacity",
-            "text": "That 13500 cm³ is 1/4 of the tank, so its full volume is 4 × 13500 = 54000 cm³."
+            "title": "Scale the shaded quarter",
+            "text": "The shaded section is 1 of 4 equal tank-capacity parts. Thus the full tank volume is 4 × 13500 = 54000 cm³."
           },
           {
-            "title": "Find the height",
-            "text": "The base area is 90 × 10 = 900 cm². Height = 54000 ÷ 900 = 60 cm."
+            "title": "Use the base rectangle",
+            "text": "The base area is 90 × 10 = 900 cm². Height = full volume ÷ base area = 54000 ÷ 900 = 60 cm."
           }
         ],
-        "answerCheck": "Check: tank height = 60 cm."
+        "answerCheck": "Check: 900 cm² × 60 cm = 54000 cm³, so the tank height is 60 cm."
       },
       "zh-Hans": {
-        "strategy": "先求 1.5 min 注入的水量，把 1/4 水量放大到全满，再除以底面积。",
+        "strategy": "用两行进水速率表求水箱中涂色的 1/4，再把容量条放大到全满。",
         "steps": [
           {
-            "title": "求进水量",
-            "text": "水龙头 A 每 min 流 4 L。水龙头 B 每 2 min 流 10 L，即每 min 流 5 L。合共每 min 流 9 L；1.5 min 流入 9 × 1.5 = 13.5 L = 13500 cm³。"
+            "title": "合并两个水龙头的流速",
+            "text": "结合上面的图示模型，水龙头 A 每 min 流 4 L。水龙头 B 每 2 min 流 10 L，即 10 L ÷ 2 min = 5 L/min，所以合共 9 L/min。1.5 min 流入 9 × 1.5 = 13.5 L = 13500 cm³。"
           },
           {
-            "title": "求水箱全满容积",
-            "text": "13500 cm³ 是水箱的 1/4，所以全满容积是 4 × 13500 = 54000 cm³。"
+            "title": "把涂色的 1/4 放大",
+            "text": "涂色部分是水箱 4 个相等容量部分中的 1 个。因此水箱全满容积为 4 × 13500 = 54000 cm³。"
           },
           {
-            "title": "求高",
-            "text": "底面积为 90 × 10 = 900 cm²。高 = 54000 ÷ 900 = 60 cm。"
+            "title": "使用底面长方形",
+            "text": "底面积为 90 × 10 = 900 cm²。高 = 满箱体积 ÷ 底面积 = 54000 ÷ 900 = 60 cm。"
           }
         ],
-        "answerCheck": "验算：水箱高 = 60 cm。"
+        "answerCheck": "验算：900 cm² × 60 cm = 54000 cm³，所以水箱高是 60 cm。"
       }
     },
     "questionZh": "一个底面为90 cm × 10 cm的水箱由两个水龙头注水，流量分别为4 L/min和每2 min 10 L。注水1.5 min后，水箱装了1/4满。求水箱的高度。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 59,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"35\" y=\"35\" width=\"185\" height=\"45\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"35\" y=\"95\" width=\"185\" height=\"45\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"63\">Tap A: 4 L/min</text><text x=\"55\" y=\"123\">Tap B: 10 L ÷ 2 min = 5 L/min</text><path d=\"M240 88h70\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M310 88l-10-6v12z\" fill=\"#26364a\"/><text x=\"245\" y=\"73\">9 L/min × 1.5 min</text><rect x=\"350\" y=\"55\" width=\"200\" height=\"100\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"350\" y=\"130\" width=\"200\" height=\"25\" fill=\"#bae6fd\" stroke=\"#26364a\"/><line x1=\"400\" y1=\"55\" x2=\"400\" y2=\"155\" stroke=\"#26364a\"/><line x1=\"450\" y1=\"55\" x2=\"450\" y2=\"155\" stroke=\"#26364a\"/><line x1=\"500\" y1=\"55\" x2=\"500\" y2=\"155\" stroke=\"#26364a\"/><text x=\"365\" y=\"190\">1/4 = 13.5 L = 13 500 cm³</text><text x=\"360\" y=\"230\">base: 90 cm × 10 cm; height = full volume ÷ base area</text>",
+        "alt": "Two tap rates merge, then 1.5 minutes gives a one-quarter tank volume. The rectangular base supports the height calculation."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"35\" y=\"35\" width=\"185\" height=\"45\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"35\" y=\"95\" width=\"185\" height=\"45\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"63\">水龙头 A：4 L/min</text><text x=\"55\" y=\"123\">水龙头 B：10 L ÷ 2 min = 5 L/min</text><path d=\"M240 88h70\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M310 88l-10-6v12z\" fill=\"#26364a\"/><text x=\"245\" y=\"73\">9 L/min × 1.5 min</text><rect x=\"350\" y=\"55\" width=\"200\" height=\"100\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"350\" y=\"130\" width=\"200\" height=\"25\" fill=\"#bae6fd\" stroke=\"#26364a\"/><line x1=\"400\" y1=\"55\" x2=\"400\" y2=\"155\" stroke=\"#26364a\"/><line x1=\"450\" y1=\"55\" x2=\"450\" y2=\"155\" stroke=\"#26364a\"/><line x1=\"500\" y1=\"55\" x2=\"500\" y2=\"155\" stroke=\"#26364a\"/><text x=\"365\" y=\"190\">1/4 = 13.5 L = 13 500 cm³</text><text x=\"360\" y=\"230\">底：90 cm × 10 cm；高 = 满箱体积 ÷ 底面积</text>",
+        "alt": "两个水龙头的流速合并，1.5分钟得到水箱的1/4。用长方形底面求水箱的高度。"
+      }
+    }
   },
   {
     "id": 28,
@@ -1244,44 +1646,58 @@ window.QUESTION_BANK = [
     "sourcePage": 14,
     "solution": {
       "en": {
-        "strategy": "Use the two 4 cm extensions to express the area increase in terms of the original breadth.",
+        "strategy": "Use the nested-rectangle diagram: remove the 4 cm by 4 cm corner square, then express the two remaining added rectangles with PQ = 2PS.",
         "steps": [
           {
-            "title": "Name the original sides",
-            "text": "Let the breadth be b cm, so the length is 2b cm. The enlarged rectangle measures (2b + 4) cm by (b + 4) cm."
+            "title": "Remove the corner square",
+            "text": "The two 4 cm extensions make the highlighted corner a 4 cm × 4 cm square of area 16 cm². The two other added rectangles therefore have area 226 − 16 = 210 cm²."
           },
           {
-            "title": "Use the area increase",
-            "text": "The added area is (2b + 4)(b + 4) - 2b² = 12b + 16. Set this equal to 226: 12b + 16 = 226, so b = 17.5 cm and the length is 35 cm."
+            "title": "Use the two added rectangles",
+            "text": "Their areas are 4 × PS and 4 × PQ, so 4PS + 4PQ = 210. The diagram gives PQ = 2PS, hence 4PS + 4(2PS) = 210 and 12PS = 210."
           },
           {
-            "title": "Find the perimeter",
-            "text": "Perimeter = 2(35 + 17.5) = 105 cm."
+            "title": "Find the original perimeter",
+            "text": "PS = 17.5 cm and PQ = 35 cm. Thus the perimeter of PQRS is 2 × (17.5 + 35) = 105 cm."
           }
         ],
-        "answerCheck": "Check: PQRS perimeter = 105 cm."
+        "answerCheck": "Check: 4 × 17.5 + 4 × 35 + 16 = 226, and the perimeter is 105 cm."
       },
       "zh-Hans": {
-        "strategy": "利用长度和宽度各增加 4 cm，把面积增加量表示成原来宽的式子。",
+        "strategy": "使用嵌套矩形图：先扣除 4 cm × 4 cm 的角正方形，再用 PQ = 2PS 表示余下的 2 个新增长方形。",
         "steps": [
           {
-            "title": "设原来边长",
-            "text": "设原来宽为 b cm，则原来长为 2b cm。放大后长和宽分别是 (2b + 4) cm 和 (b + 4) cm。"
+            "title": "扣除角上的正方形",
+            "text": "两条 4 cm 的扩边形成高亮的 4 cm × 4 cm 角正方形，面积为 16 cm²。因此另外 2 个新增长方形的面积为 226 − 16 = 210 cm²。"
           },
           {
-            "title": "利用面积增加量",
-            "text": "增加的面积是 (2b + 4)(b + 4) - 2b² = 12b + 16。令它等于 226：12b + 16 = 226，所以 b = 17.5 cm，长为 35 cm。"
+            "title": "使用 2 个新增长方形",
+            "text": "它们的面积分别为 4 × PS 和 4 × PQ，所以 4PS + 4PQ = 210。图中给出 PQ = 2PS，因此 4PS + 4(2PS) = 210，即 12PS = 210。"
           },
           {
-            "title": "求周长",
-            "text": "周长 = 2(35 + 17.5) = 105 cm。"
+            "title": "求原矩形的周长",
+            "text": "PS = 17.5 cm，PQ = 35 cm。因此 PQRS 的周长为 2 × (17.5 + 35) = 105 cm。"
           }
         ],
-        "answerCheck": "验算：PQRS 的周长 = 105 cm。"
+        "answerCheck": "验算：4 × 17.5 + 4 × 35 + 16 = 226，周长为 105 cm。"
       }
     },
     "questionZh": "PQRS放大为VWRT后，面积增加226 cm²。PQRS的长是宽的2倍。求PQRS的周长。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 59,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"75\" y=\"35\" width=\"400\" height=\"165\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"125\" y=\"85\" width=\"350\" height=\"115\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"75\" y=\"35\" width=\"50\" height=\"50\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"68\" y=\"28\">V</text><text x=\"480\" y=\"28\">W</text><text x=\"68\" y=\"220\">Z</text><text x=\"480\" y=\"220\">R</text><text x=\"118\" y=\"78\">P</text><text x=\"118\" y=\"220\">Q</text><text x=\"465\" y=\"78\">S</text><text x=\"495\" y=\"215\">T</text><text x=\"78\" y=\"115\">4 cm</text><text x=\"155\" y=\"75\">4 cm</text><text x=\"185\" y=\"140\">original PQRS</text><text x=\"185\" y=\"165\">PQ = 2PS</text><text x=\"115\" y=\"245\">added area: 226 − 4 × 4 = 210</text><text x=\"360\" y=\"245\">4PS + 4PQ = 210</text>",
+        "alt": "Nested rectangles show two 4 cm extensions and their 4 cm square corner. Removing that 16 cm² square leaves the two added rectangles, with PQ twice PS."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"75\" y=\"35\" width=\"400\" height=\"165\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"125\" y=\"85\" width=\"350\" height=\"115\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"75\" y=\"35\" width=\"50\" height=\"50\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"68\" y=\"28\">V</text><text x=\"480\" y=\"28\">W</text><text x=\"68\" y=\"220\">Z</text><text x=\"480\" y=\"220\">R</text><text x=\"118\" y=\"78\">P</text><text x=\"118\" y=\"220\">Q</text><text x=\"465\" y=\"78\">S</text><text x=\"495\" y=\"215\">T</text><text x=\"78\" y=\"115\">4 cm</text><text x=\"155\" y=\"75\">4 cm</text><text x=\"185\" y=\"140\">原矩形 PQRS</text><text x=\"185\" y=\"165\">PQ = 2PS</text><text x=\"115\" y=\"245\">增加面积：226 − 4 × 4 = 210</text><text x=\"360\" y=\"245\">4PS + 4PQ = 210</text>",
+        "alt": "嵌套矩形显示两条4 cm的扩边及其4 cm正方形角。扣除该16 cm²正方形后，剩下两个增加的矩形，并且PQ是PS的两倍。"
+      }
+    }
   },
   {
     "id": 29,
@@ -1293,44 +1709,58 @@ window.QUESTION_BANK = [
     "sourcePage": 14,
     "solution": {
       "en": {
-        "strategy": "Use tank B to find the amount transferred, then work backward to tank A's capacity and remaining water.",
+        "strategy": "Use the first 5-part bar to recover tank A's initial water from the transfer, then use the 10-part percent bar to find full capacity.",
         "steps": [
           {
-            "title": "Find the transferred water",
-            "text": "Tank B's capacity is 15 × 12 × 25 = 4500 cm³. Half full is 4500 ÷ 2 = 2250 cm³, which is the water poured from A."
+            "title": "Label the transferred two fifths",
+            "text": "Tank B holds 15 × 12 × 25 = 4500 cm³, so its half-full amount is 2250 cm³. On A's first bar, this is 2 of the 5 equal initial-water parts."
           },
           {
-            "title": "Find A's capacity",
-            "text": "The 2250 cm³ is 2/5 of the water initially in A, so A initially held 2250 ÷ 2/5 = 5625 cm³. This was 30% of A, so A's capacity is 5625 ÷ 30% = 18750 cm³."
+            "title": "Complete the first bar",
+            "text": "One fifth is 2250 ÷ 2 = 1125 cm³, so all 5 initial parts total 5 × 1125 = 5625 cm³. The 3 untransferred parts are 3 × 1125 = 3375 cm³."
           },
           {
-            "title": "Find water needed now",
-            "text": "After pouring out 2/5, A retains 3/5 × 5625 = 3375 cm³. It needs 18750 - 3375 = 15375 cm³ to be full."
+            "title": "Read the 10% bar",
+            "text": "The 5625 cm³ initial amount is 30%, or 3 of 10 equal percent parts. Thus full capacity is 5625 ÷ 3 × 10 = 18750 cm³, and the water needed is 18750 − 3375 = 15375 cm³."
           }
         ],
-        "answerCheck": "Check: water needed to fill A = 15375 cm³."
+        "answerCheck": "Check: 30% of 18750 cm³ is 5625 cm³; after 2250 cm³ is transferred, 15375 cm³ is needed to fill A."
       },
       "zh-Hans": {
-        "strategy": "先利用 B 求倒入的水量，再倒推 A 的容积和现在剩余水量。",
+        "strategy": "先用第一个 5 等分条从倒出的水量还原 A 原有水量，再用 10 个百分比格求满箱容积。",
         "steps": [
           {
-            "title": "求倒入 B 的水量",
-            "text": "B 的容积为 15 × 12 × 25 = 4500 cm³。装满 1/2 是 4500 ÷ 2 = 2250 cm³，这就是从 A 倒出的水。"
+            "title": "标出倒出的 2/5",
+            "text": "水箱 B 的容积为 15 × 12 × 25 = 4500 cm³，半满为 2250 cm³。在 A 的第一条中，这就是原有水量的 5 个相等部分中的 2 个。"
           },
           {
-            "title": "求 A 的容积",
-            "text": "2250 cm³ 是 A 原有水量的 2/5，所以 A 原有 2250 ÷ 2/5 = 5625 cm³。这是 A 容积的 30%，所以 A 的容积是 5625 ÷ 30% = 18750 cm³。"
+            "title": "完成第一条容量条",
+            "text": "1/5 为 2250 ÷ 2 = 1125 cm³，所以原有 5 份为 5 × 1125 = 5625 cm³。未倒出的 3 份为 3 × 1125 = 3375 cm³。"
           },
           {
-            "title": "求现在还需要的水",
-            "text": "倒出 2/5 后，A 剩下 3/5 × 5625 = 3375 cm³。还需 18750 - 3375 = 15375 cm³。"
+            "title": "读 10% 百分比条",
+            "text": "原有的 5625 cm³ 是 30%，即 10 个相等百分比格中的 3 格。因此满箱容积为 5625 ÷ 3 × 10 = 18750 cm³，所需水量为 18750 − 3375 = 15375 cm³。"
           }
         ],
-        "answerCheck": "验算：A 还需要 15375 cm³ 水。"
+        "answerCheck": "验算：18750 cm³ 的 30% 是 5625 cm³；倒出 2250 cm³ 后，装满 A 还需 15375 cm³。"
       }
     },
     "questionZh": "水箱A原来装有30%满的水。其中2/5的水装满了空水箱B的1/2。水箱B的尺寸为15 cm × 12 cm × 25 cm。现在还需要多少水才能装满A？",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 60,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"60\" y=\"50\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"125\" y=\"50\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"190\" y=\"50\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"255\" y=\"50\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"320\" y=\"50\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"60\" y=\"155\" width=\"45\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"105\" y=\"155\" width=\"45\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"150\" y=\"155\" width=\"45\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"195\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"240\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"285\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"330\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"375\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"420\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"465\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"60\" y=\"35\">A initial water: 5 equal parts</text><path d=\"M60 95v11h130v-11\" fill=\"none\" stroke=\"#26364a\"/><text x=\"70\" y=\"125\">2/5 transferred = 2250 cm³</text><text x=\"60\" y=\"145\">A full capacity: 10% parts</text><path d=\"M60 205v10h135v-10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"65\" y=\"240\">30% = 5625 cm³</text><text x=\"330\" y=\"185\">after transfer: 3/5 remains</text>",
+        "alt": "Stage 1 uses five equal parts of A’s initial water; two parts fill half of tank B. Stage 2 uses ten 10% parts to relate that initial amount to A’s full capacity."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"60\" y=\"50\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"125\" y=\"50\" width=\"65\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"190\" y=\"50\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"255\" y=\"50\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"320\" y=\"50\" width=\"65\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"60\" y=\"155\" width=\"45\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"105\" y=\"155\" width=\"45\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"150\" y=\"155\" width=\"45\" height=\"30\" fill=\"#ddd6fe\" stroke=\"#26364a\"/><rect x=\"195\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"240\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"285\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"330\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"375\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"420\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"465\" y=\"155\" width=\"45\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"60\" y=\"35\">A 原有水量：5 个等份</text><path d=\"M60 95v11h130v-11\" fill=\"none\" stroke=\"#26364a\"/><text x=\"70\" y=\"125\">倒出 2/5 = 2250 cm³</text><text x=\"60\" y=\"145\">A 满箱容积：每格 10%</text><path d=\"M60 205v10h135v-10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"65\" y=\"240\">30% = 5625 cm³</text><text x=\"330\" y=\"185\">倒出后：剩 3/5</text>",
+        "alt": "第一阶段把A原有水量分成5等份，其中2份装满水箱B的一半。第二阶段把A满箱分成10个10%格，关联原有水量与满箱容积。"
+      }
+    }
   },
   {
     "id": 30,
@@ -1342,44 +1772,58 @@ window.QUESTION_BANK = [
     "sourcePage": 14,
     "solution": {
       "en": {
-        "strategy": "Express Angela's and Patrick's original money as fractions of Jemima's money.",
+        "strategy": "Use the three aligned money bars: Patrick after spending has 6 units, Jemima has 8, Angela has 3, and the separate $125 block restores the original total.",
         "steps": [
           {
-            "title": "Set up the amounts",
-            "text": "Let Jemima have J dollars. Angela has 3/8J. After Patrick spends $125, he has 1/4 less than Jemima, so he then has 3/4J and originally had 3/4J + $125."
+            "title": "Read the total brace",
+            "text": "The shaded bars contain 6 + 8 + 3 = 17 equal units, and the extra spending block is $125. Thus 17 units = $482 − $125 = $357."
           },
           {
-            "title": "Use the total",
-            "text": "(3/4J + 125) + J + 3/8J = 482. Thus 17/8J = 357, so J = $168. Angela has 3/8 × $168 = $63 and Patrick has 3/4 × $168 + $125 = $251."
+            "title": "Find the unit value",
+            "text": "One unit is $357 ÷ 17 = $21. Patrick's original bar is 6 units plus $125, while Angela's bar is 3 units."
           },
           {
-            "title": "Add the requested amounts",
-            "text": "Patrick plus Angela initially had $251 + $63 = $314."
+            "title": "Bracket Patrick and Angela together",
+            "text": "Their required total is 9 units + $125 = 9 × $21 + $125 = $314."
           }
         ],
-        "answerCheck": "Check: initial Patrick-plus-Angela total = $314."
+        "answerCheck": "Check: 9 × $21 + $125 = $314."
       },
       "zh-Hans": {
-        "strategy": "把 Angela 和 Patrick 原来的钱都用 Jemima 的钱表示。",
+        "strategy": "用 3 条对齐的金额条：Patrick 用钱后有 6 个单位，Jemima 有 8 个，Angela 有 3 个；另一个 $125 方块把总额还原为原来的金额。",
         "steps": [
           {
-            "title": "设各人的钱",
-            "text": "设 Jemima 有 J 元。Angela 有 3/8J。Patrick 用去 $125 后比 Jemima 少 1/4，所以他此时有 3/4J，原来有 3/4J + $125。"
+            "title": "读总括号",
+            "text": "阴影金额条共有 6 + 8 + 3 = 17 个相等单位，另有用去的 $125。因此 17 个单位 = $482 − $125 = $357。"
           },
           {
-            "title": "利用总额",
-            "text": "(3/4J + 125) + J + 3/8J = 482。因此 17/8J = 357，J = $168。Angela 有 3/8 × $168 = $63；Patrick 有 3/4 × $168 + $125 = $251。"
+            "title": "求每个单位的金额",
+            "text": "1 个单位为 $357 ÷ 17 = $21。Patrick 原来的金额条是 6 个单位加 $125，Angela 的金额条是 3 个单位。"
           },
           {
-            "title": "相加所求金额",
-            "text": "Patrick 和 Angela 原来共有 $251 + $63 = $314。"
+            "title": "把 Patrick 和 Angela 括在一起",
+            "text": "所求总额是 9 个单位加 $125 = 9 × $21 + $125 = $314。"
           }
         ],
-        "answerCheck": "验算：Patrick 和 Angela 原来共有 $314。"
+        "answerCheck": "验算：9 × $21 + $125 = $314。"
       }
     },
     "questionZh": "帕特里克、杰米玛和安吉拉共有$482。安吉拉的钱是杰米玛的3/4；帕特里克用了$125后，他的钱比杰米玛少1/4。求帕特里克和安吉拉起初的钱数总和。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 60,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"130\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"200\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"235\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"270\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"305\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"340\" y=\"45\" width=\"55\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"345\" y=\"67\">$125</text><rect x=\"130\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"165\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"200\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"235\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"270\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"305\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"340\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"375\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"130\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"165\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"200\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"20\" y=\"67\">PATRICK</text><text x=\"20\" y=\"127\">JEMIMA</text><text x=\"20\" y=\"187\">ANGELA</text><text x=\"415\" y=\"68\">spent</text><path d=\"M130 215v10h265v-10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"145\" y=\"248\">17 units + $125 = $482</text><text x=\"430\" y=\"135\">Patrick after spend = 6 units</text>",
+        "alt": "Three aligned money bars represent Patrick after spending, Jemima, and Angela. The 17 shaded units plus the $125 spend reconstruct the original total."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"130\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"200\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"235\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"270\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"305\" y=\"45\" width=\"35\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"340\" y=\"45\" width=\"55\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"345\" y=\"67\">$125</text><rect x=\"130\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"165\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"200\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"235\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"270\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"305\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"340\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"375\" y=\"105\" width=\"35\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"130\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"165\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"200\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"20\" y=\"67\">PATRICK</text><text x=\"20\" y=\"127\">JEMIMA</text><text x=\"20\" y=\"187\">ANGELA</text><text x=\"415\" y=\"68\">用去</text><path d=\"M130 215v10h265v-10\" fill=\"none\" stroke=\"#26364a\"/><text x=\"145\" y=\"248\">17 个单位 + $125 = $482</text><text x=\"430\" y=\"135\">Patrick 用钱后 = 6 单位</text>",
+        "alt": "三条对齐的金额条分别表示Patrick用钱后、Jemima和Angela。17个阴影单位加上用去的$125可还原原来总额。"
+      }
+    }
   },
   {
     "id": 31,
@@ -1391,44 +1835,58 @@ window.QUESTION_BANK = [
     "sourcePage": 15,
     "solution": {
       "en": {
-        "strategy": "Use a common ratio unit to find the original bead counts, then multiply by the prices.",
+        "strategy": "Use the before-and-after ratio strips. Double the 5:2 after ratio so that its 10 red units align with the 10 red units before use.",
         "steps": [
           {
-            "title": "Use both ratios",
-            "text": "Originally red:yellow = 10:9, so let the counts be 10x and 9x. After 30 yellow beads are used, 10x:(9x - 30) = 5:2."
+            "title": "Align the red rows",
+            "text": "Before use, the strips show red:yellow = 10:9. Double the after-use ratio 5:2 to get 10:4, matching the 10 red units."
           },
           {
-            "title": "Find the counts",
-            "text": "2 × 10x = 5(9x - 30), so 20x = 45x - 150 and x = 6. Originally there were 60 red and 54 yellow beads."
+            "title": "Use the yellow removal bracket",
+            "text": "Yellow changes from 9 units to 4 units, so 5 units represent the 30 used beads. One unit is 30 ÷ 5 = 6 beads; originally there were 10 × 6 = 60 red and 9 × 6 = 54 yellow beads."
           },
           {
-            "title": "Find the total cost",
-            "text": "Red beads cost $0.90 each, so cost $54. Yellow beads cost $0.90 + $0.20 = $1.10 each, so cost $59.40. Total = $54 + $59.40 = $113.40."
+            "title": "Price the original two bars",
+            "text": "Red costs 60 × $0.90 = $54. Yellow costs $0.90 + $0.20 = $1.10 each, so 54 × $1.10 = $59.40. Together they cost $113.40."
           }
         ],
-        "answerCheck": "Check: original cost = $113.40."
+        "answerCheck": "Check: $54 + $59.40 = $113.40."
       },
       "zh-Hans": {
-        "strategy": "用比的每 1 份表示原来珠子的数量，再乘以单价。",
+        "strategy": "使用前后比的线段条。把用后 5:2 的比双倍成 10:4，使红珠的 10 个单位与原来对齐。",
         "steps": [
           {
-            "title": "利用前后 2 个比",
-            "text": "原来红:黄 = 10:9，设数量为 10x 和 9x。用去 30 个黄珠后，10x:(9x - 30) = 5:2。"
+            "title": "对齐红珠两行",
+            "text": "用前的线段条为红:黄 = 10:9。把用后的 5:2 双倍，得到 10:4，正好与原来红珠的 10 个单位对齐。"
           },
           {
-            "title": "求原来数量",
-            "text": "2 × 10x = 5(9x - 30)，所以 20x = 45x - 150，x = 6。原来有 60 个红珠和 54 个黄珠。"
+            "title": "使用黄珠减少的括号",
+            "text": "黄珠从 9 个单位变为 4 个单位，所以减少的 5 个单位代表用掉的 30 颗。1 个单位为 30 ÷ 5 = 6 颗；原来红珠有 10 × 6 = 60 颗，黄珠有 9 × 6 = 54 颗。"
           },
           {
-            "title": "求总价",
-            "text": "红珠每个 $0.90，费用为 $54。黄珠每个 $0.90 + $0.20 = $1.10，费用为 $59.40。总价为 $54 + $59.40 = $113.40。"
+            "title": "计算原来两条珠子的价格",
+            "text": "红珠费用为 60 × $0.90 = $54。黄珠每颗为 $0.90 + $0.20 = $1.10，所以费用为 54 × $1.10 = $59.40。合共为 $113.40。"
           }
         ],
-        "answerCheck": "验算：原来的总价 = $113.40。"
+        "answerCheck": "验算：$54 + $59.40 = $113.40。"
       }
     },
     "questionZh": "红色珠子与黄色珠子的数量之比为10:9。用掉30颗黄色珠子后，数量之比变为5:2。红色珠子每颗$0.90；黄色珠子每颗贵$0.20。求这些珠子原来的总价。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 60,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"80\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"115\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"150\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"185\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"220\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"255\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"290\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"325\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"360\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"395\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"80\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"115\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"150\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"185\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"220\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"255\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"290\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"325\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"360\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"80\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"115\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"150\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"185\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"15\" y=\"67\">BEFORE red 10</text><text x=\"15\" y=\"117\">BEFORE yellow 9</text><text x=\"15\" y=\"187\">AFTER yellow 4</text><text x=\"455\" y=\"72\">after ratio 5:2 → 10:4</text><path d=\"M405 95v70\" fill=\"none\" stroke=\"#dc2626\"/><text x=\"425\" y=\"135\">5 units removed = 30 beads</text><text x=\"195\" y=\"230\">1 unit = 6 beads</text>",
+        "alt": "Before ratio bars show red 10 and yellow 9. Doubling the after ratio to 10:4 aligns red, so the five yellow-unit reduction represents 30 beads."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<rect x=\"80\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"115\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"150\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"185\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"220\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"255\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"290\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"325\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"360\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"395\" y=\"45\" width=\"35\" height=\"30\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"80\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"115\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"150\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"185\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"220\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"255\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"290\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"325\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"360\" y=\"95\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"80\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"115\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"150\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"185\" y=\"165\" width=\"35\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"15\" y=\"67\">原来红珠 10</text><text x=\"15\" y=\"117\">原来黄珠 9</text><text x=\"15\" y=\"187\">后来黄珠 4</text><text x=\"455\" y=\"72\">后来比 5:2 → 10:4</text><path d=\"M405 95v70\" fill=\"none\" stroke=\"#dc2626\"/><text x=\"425\" y=\"135\">少 5 个单位 = 30 颗</text><text x=\"195\" y=\"230\">1 个单位 = 6 颗珠子</text>",
+        "alt": "原来比的线段图为红10份、黄9份。把后来的5:2加倍成10:4后可对齐红珠，黄珠减少的5份就是30颗。"
+      }
+    }
   },
   {
     "id": 32,
@@ -1440,44 +1898,58 @@ window.QUESTION_BANK = [
     "sourcePage": 15,
     "solution": {
       "en": {
-        "strategy": "Subtract the shaded semicircle and shaded lower triangle from the large triangle.",
+        "strategy": "Use the labelled triangle-and-semicircle diagram: find the whole triangle, then subtract the semicircle and the lower shaded triangle.",
         "steps": [
           {
-            "title": "Find the large triangle",
-            "text": "Triangle PQR has base 12 cm and height 36 cm, so its area is 12 × 36 ÷ 2 = 216 cm²."
+            "title": "Find the whole triangle",
+            "text": "Using the visual model above, Triangle PQR has base PQ = 12 cm and height 36 cm, so its area is 12 × 36 ÷ 2 = 216 cm²."
           },
           {
-            "title": "Find the shaded pieces",
-            "text": "The semicircle has radius 12 ÷ 2 = 6 cm, so its area is 1/2 × 3.14 × 6² = 56.52 cm². The lower triangle has base 8 cm; its height is 36 - 6 - 5 = 25 cm, so its area is 8 × 25 ÷ 2 = 100 cm²."
+            "title": "Find the two shaded pieces",
+            "text": "The semicircle radius is 12 ÷ 2 = 6 cm, so its area is 1/2 × 3.14 × 6² = 56.52 cm². The lower triangle height is 36 − 6 − 5 = 25 cm, so its area is 8 × 25 ÷ 2 = 100 cm²."
           },
           {
-            "title": "Subtract",
-            "text": "Unshaded area = 216 - 56.52 - 100 = 59.48 cm²."
+            "title": "Leave the two unshaded side regions",
+            "text": "Unshaded area = 216 − 56.52 − 100 = 59.48 cm²."
           }
         ],
-        "answerCheck": "Check: unshaded area = 59.48 cm²."
+        "answerCheck": "Check: 216 − 56.52 − 100 = 59.48 cm²."
       },
       "zh-Hans": {
-        "strategy": "从大 △PQR 面积中减去阴影的 1/2 圆和下方小 △ 的面积。",
+        "strategy": "使用标有尺寸的三角形和半圆图：先求整个大三角形，再减去半圆和下方阴影三角形。",
         "steps": [
           {
-            "title": "求大 △PQR 面积",
-            "text": "△PQR 的底是 12 cm，高是 36 cm，面积为 12 × 36 ÷ 2 = 216 cm²。"
+            "title": "求整个大三角形",
+            "text": "结合上面的图示模型，△PQR 的底 PQ = 12 cm，高为 36 cm，因此面积为 12 × 36 ÷ 2 = 216 cm²。"
           },
           {
             "title": "求 2 个阴影部分",
-            "text": "直径为 12 cm 的 1/2 圆半径为 12 ÷ 2 = 6 cm，面积为 1/2 × 3.14 × 6² = 56.52 cm²。下方 △ 的底为 8 cm，高为 36 - 6 - 5 = 25 cm，面积为 8 × 25 ÷ 2 = 100 cm²。"
+            "text": "半圆半径为 12 ÷ 2 = 6 cm，面积为 1/2 × 3.14 × 6² = 56.52 cm²。下方三角形的高为 36 − 6 − 5 = 25 cm，面积为 8 × 25 ÷ 2 = 100 cm²。"
           },
           {
-            "title": "相减",
-            "text": "白色部分面积 = 216 - 56.52 - 100 = 59.48 cm²。"
+            "title": "保留两侧白色区域",
+            "text": "非阴影面积 = 216 − 56.52 − 100 = 59.48 cm²。"
           }
         ],
-        "answerCheck": "验算：白色部分面积 = 59.48 cm²。"
+        "answerCheck": "验算：216 − 56.52 − 100 = 59.48 cm²。"
       }
     },
     "questionZh": "三角形PQR内有一个半圆和一个小三角形；PQ是半圆的直径。根据图中给出的36 cm，取π = 3.14，求非阴影部分的面积。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 61,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<polygon points=\"155,35 485,35 320,225\" fill=\"#f8fafc\" stroke=\"#26364a\"/><path d=\"M155 35 A165 105 0 0 0 485 35\" fill=\"#bae6fd\" stroke=\"#2563eb\"/><line x1=\"210\" y1=\"135\" x2=\"430\" y2=\"135\" stroke=\"#26364a\"/><polygon points=\"210,135 430,135 320,225\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"145\" y=\"25\">P</text><text x=\"490\" y=\"25\">Q</text><text x=\"315\" y=\"245\">R</text><text x=\"285\" y=\"28\">PQ = 12 cm</text><text x=\"500\" y=\"125\">height = 36 cm</text><text x=\"285\" y=\"100\">semicircle radius = 6 cm</text><text x=\"270\" y=\"130\">8 cm</text><text x=\"435\" y=\"158\">gap = 5 cm</text><text x=\"165\" y=\"260\">unshaded = triangle PQR − semicircle − lower triangle</text>",
+        "alt": "Triangle PQR has base 12 cm and height 36 cm. A semicircle with radius 6 cm and a lower 8 cm-base triangle are the two shaded pieces subtracted from the whole."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<polygon points=\"155,35 485,35 320,225\" fill=\"#f8fafc\" stroke=\"#26364a\"/><path d=\"M155 35 A165 105 0 0 0 485 35\" fill=\"#bae6fd\" stroke=\"#2563eb\"/><line x1=\"210\" y1=\"135\" x2=\"430\" y2=\"135\" stroke=\"#26364a\"/><polygon points=\"210,135 430,135 320,225\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"145\" y=\"25\">P</text><text x=\"490\" y=\"25\">Q</text><text x=\"315\" y=\"245\">R</text><text x=\"285\" y=\"28\">PQ = 12 cm</text><text x=\"500\" y=\"125\">高 = 36 cm</text><text x=\"285\" y=\"100\">半圆半径 = 6 cm</text><text x=\"270\" y=\"130\">8 cm</text><text x=\"435\" y=\"158\">间隔 = 5 cm</text><text x=\"165\" y=\"260\">白色部分 = △PQR − 半圆 − 下方小三角形</text>",
+        "alt": "三角形PQR的底为12 cm、高为36 cm。半径6 cm的半圆和底为8 cm的下方小三角形是从整体中减去的两个阴影部分。"
+      }
+    }
   },
   {
     "id": 33,
@@ -1489,44 +1961,58 @@ window.QUESTION_BANK = [
     "sourcePage": 15,
     "solution": {
       "en": {
-        "strategy": "Find how much water reaches the tank, use the 30% transfer to find the tub capacity, and add both shortages.",
+        "strategy": "Follow the flow timeline to 140 L, then use the 4-part tub bar and 10-part tank bar to add the two empty amounts.",
         "steps": [
           {
-            "title": "Find the water pumped",
-            "text": "The two taps deliver 7 + 7 = 14 L/min. In 10 min they deliver 14 × 10 = 140 L = 140000 cm³."
+            "title": "Follow the flow timeline",
+            "text": "Using the visual model above, The two taps give 7 + 7 = 14 L/min. In 10 min they collect 14 × 10 = 140 L = 140000 cm³. The tub receives 30% of this, or 42 L."
           },
           {
-            "title": "Find the tub capacity",
-            "text": "30% of 140000 cm³ is 42000 cm³. This fills 3/4 of the tub, so the tub capacity is 42000 ÷ 3/4 = 56000 cm³."
+            "title": "Read the 4-part tub bar",
+            "text": "The 42 L fills 3 of 4 equal tub parts. One part is 42 ÷ 3 = 14 L, so the empty tub part is 14 L = 14000 cm³."
           },
           {
-            "title": "Add the two shortages",
-            "text": "Tank capacity is 70 × 45 × 50 = 157500 cm³; it retains 140000 - 42000 = 98000 cm³, so it needs 59500 cm³. The tub needs 56000 - 42000 = 14000 cm³. Total needed = 59500 + 14000 = 73500 cm³ = 73.5 L."
+            "title": "Read the 10-part tank bar and add",
+            "text": "The tank retains 70% of 140 L = 98 L = 98000 cm³. Its full capacity is 70 × 45 × 50 = 157500 cm³, so its empty amount is 157500 − 98000 = 59500 cm³. Total needed is 59500 + 14000 = 73500 cm³ = 73.5 L."
           }
         ],
-        "answerCheck": "Check: 73500 cm³ or 73.5 L."
+        "answerCheck": "Check: 59500 cm³ + 14000 cm³ = 73500 cm³ or 73.5 L."
       },
       "zh-Hans": {
-        "strategy": "先求进入水箱的水量，再用倒出 30% 后水盆装到 3/4 的条件求水盆容积，最后相加 2 个缺口。",
+        "strategy": "按照进水时间线先得到 140 L，再用水盆的 4 等分条和水箱的 10 格百分比条相加两个空缺量。",
         "steps": [
           {
-            "title": "求注入水量",
-            "text": "2 个水龙头每 min 共流 7 + 7 = 14 L。10 min 共流入 14 × 10 = 140 L = 140000 cm³。"
+            "title": "沿进水时间线计算",
+            "text": "结合上面的图示模型，两个水龙头的流量为 7 + 7 = 14 L/min。10 min 收集 14 × 10 = 140 L = 140000 cm³。水盆得到其中的 30%，即 42 L。"
           },
           {
-            "title": "求水盆容积",
-            "text": "140000 cm³ 的 30% 是 42000 cm³。这是水盆的 3/4，所以水盆容积是 42000 ÷ 3/4 = 56000 cm³。"
+            "title": "读水盆的 4 等分条",
+            "text": "42 L 填满水盆 4 个相等部分中的 3 个。1 个部分为 42 ÷ 3 = 14 L，因此水盆空缺的 1 个部分为 14 L = 14000 cm³。"
           },
           {
-            "title": "相加 2 个缺口",
-            "text": "水箱容积是 70 × 45 × 50 = 157500 cm³；倒出后水箱剩 140000 - 42000 = 98000 cm³，所以还需 59500 cm³。水盆还需 56000 - 42000 = 14000 cm³。合共需要 59500 + 14000 = 73500 cm³ = 73.5 L。"
+            "title": "读水箱的 10 格条并相加",
+            "text": "水箱保留 140 L 的 70%，即 98 L = 98000 cm³。水箱满容量为 70 × 45 × 50 = 157500 cm³，所以空缺为 157500 − 98000 = 59500 cm³。合共需要 59500 + 14000 = 73500 cm³ = 73.5 L。"
           }
         ],
-        "answerCheck": "验算：还需要 73500 cm³ 或 73.5 L。"
+        "answerCheck": "验算：59500 cm³ + 14000 cm³ = 73500 cm³，即 73.5 L。"
       }
     },
     "questionZh": "一个70 cm × 45 cm × 50 cm的水箱由2个流量均为7 L/min的水龙头注水10 min。将其中30%的水倒入一个浴盆，使浴盆达到3/10满。求将水箱和浴盆都加满还需要多少水。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 61,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<text x=\"40\" y=\"32\">Tap 1 7 L/min + Tap 2 7 L/min → 14 L/min</text><path d=\"M190 48h200\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M390 48l-10-6v12z\" fill=\"#26364a\"/><text x=\"230\" y=\"75\">× 10 min → 140 L</text><rect x=\"95\" y=\"125\" width=\"60\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"155\" y=\"125\" width=\"60\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"215\" y=\"125\" width=\"60\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"275\" y=\"125\" width=\"60\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"410\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"428\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"446\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"464\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"482\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"500\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"518\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"536\" y=\"125\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"554\" y=\"125\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"572\" y=\"125\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"95\" y=\"110\">TUB: 30% of 140 L = 42 L = 3/4 full</text><text x=\"410\" y=\"110\">TANK: 70% of 140 L = 98 L</text><text x=\"150\" y=\"185\">missing 1/4</text><text x=\"475\" y=\"185\">missing 30%</text><rect x=\"400\" y=\"210\" width=\"150\" height=\"28\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"412\" y=\"230\">tank: 70 × 45 × 50 cm</text>",
+        "alt": "A flow timeline creates 140 L, then branches to a four-part tub bar and a ten-part tank bar. Their unfilled parts are the quantities to combine."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<text x=\"40\" y=\"32\">水龙头 1：7 L/min + 水龙头 2：7 L/min → 14 L/min</text><path d=\"M190 48h200\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M390 48l-10-6v12z\" fill=\"#26364a\"/><text x=\"230\" y=\"75\">× 10 min → 140 L</text><rect x=\"95\" y=\"125\" width=\"60\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"155\" y=\"125\" width=\"60\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"215\" y=\"125\" width=\"60\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"275\" y=\"125\" width=\"60\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"410\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"428\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"446\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"464\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"482\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"500\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"518\" y=\"125\" width=\"18\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"536\" y=\"125\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"554\" y=\"125\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"572\" y=\"125\" width=\"18\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"95\" y=\"110\">水盆：140 L 的 30% = 42 L = 装 3/4</text><text x=\"410\" y=\"110\">水箱：140 L 的 70% = 98 L</text><text x=\"150\" y=\"185\">缺 1/4</text><text x=\"475\" y=\"185\">缺 30%</text><rect x=\"400\" y=\"210\" width=\"150\" height=\"28\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"412\" y=\"230\">水箱：70 × 45 × 50 cm</text>",
+        "alt": "进水时间线得到140 L，然后分到水盆的4等份条和水箱的10等份条。两个未填部分即为需要合并的量。"
+      }
+    }
   },
   {
     "id": 34,
@@ -1538,44 +2024,58 @@ window.QUESTION_BANK = [
     "sourcePage": 16,
     "solution": {
       "en": {
-        "strategy": "Find the least common multiple of the 3-minute, 4-minute, and 6-minute repeating schedules.",
+        "strategy": "Use the three-row multiples timeline for the 3-, 4-, and 6-minute intervals, beginning just after the chime together at 10:45 am.",
         "steps": [
           {
-            "title": "Find the repeat interval",
-            "text": "The clocks repeat every 3 min, 4 min, and 6 min. Their least common multiple is 12 min, so all three chime together every 12 min."
+            "title": "Mark each clock's timeline row",
+            "text": "Using the visual model above, List the next 60 minutes in separate rows: multiples of 3 for the first clock, multiples of 4 for the second, and multiples of 6 for the third."
           },
           {
-            "title": "List the next joint chimes",
-            "text": "Starting after 10:45 am, the next common chimes are at 10:57, 11:09, 11:21, 11:33, and 11:45."
+            "title": "Circle the common timeline marks",
+            "text": "The values shared by all three rows are 12, 24, 36, 48, and 60 minutes. These are the common multiples of 3, 4, and 6 in the next hour."
           },
           {
-            "title": "Count them",
-            "text": "There are 5 joint chimes in the next 60 min; the 10:45 am chime is the starting one and is not counted again."
+            "title": "Count the circled times",
+            "text": "Starting from 10:45 am, the five marked joint chimes are at 10:57 am, 11:09 am, 11:21 am, 11:33 am, and 11:45 am."
           }
         ],
-        "answerCheck": "Check: 5 times."
+        "answerCheck": "Check: the timeline circles 12, 24, 36, 48, and 60 minutes, so there are 5 times."
       },
       "zh-Hans": {
-        "strategy": "求每隔 3 min、4 min 和 6 min 的共同最小公倍数。",
+        "strategy": "从 10:45 am 同时鸣响后的时刻开始，用 3 分钟、4 分钟和 6 分钟的三行倍数时间线。",
         "steps": [
           {
-            "title": "求共同响铃间隔",
-            "text": "3 min、4 min 和 6 min 的最小公倍数是 12 min，所以 3 个钟每隔 12 min 同时响。"
+            "title": "标出每个时钟的时间线",
+            "text": "结合上面的图示模型，在接下来的 60 分钟内分别列出：第一个时钟的 3 的倍数、第二个时钟的 4 的倍数、第三个时钟的 6 的倍数。"
           },
           {
-            "title": "列出接下来的时间",
-            "text": "在 10:45 am 之后，同时响铃的时间是 10:57、11:09、11:21、11:33 和 11:45。"
+            "title": "圈出共同的时间点",
+            "text": "三行共同出现的是 12、24、36、48、60 分钟。这些是 3、4、6 在下一小时内的公倍数。"
           },
           {
-            "title": "计数",
-            "text": "接下来的 60 min 内共有 5 次同时响铃；起点 10:45 am 不再重复计算。"
+            "title": "数出圈出的时刻",
+            "text": "从 10:45 am 开始，5 次共同鸣响分别在 10:57 am、11:09 am、11:21 am、11:33 am、11:45 am。"
           }
         ],
-        "answerCheck": "验算：共有 5 次。"
+        "answerCheck": "验算：时间线圈出 12、24、36、48、60 分钟，共 5 times。"
       }
     },
     "questionZh": "3个时钟分别每3 min、每4 min（相差1 min）和每6 min报时。它们在上午10:45同时报时。接下来1 h内还会同时报时多少次？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 61,
+      "sourceMethod": "Original SVG re-rendering of the printed solution’s Step 1 model; values retained only where they establish the method, with final answer values omitted.",
+      "en": {
+        "viewBox": "0 0 640 260",
+        "svg": "<text x=\"15\" y=\"55\">First clock: 3 min</text><circle cx=\"161\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"155\" y=\"55\">3</text><circle cx=\"182\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"176\" y=\"55\">6</text><circle cx=\"203\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"197\" y=\"55\">9</text><circle cx=\"224\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"218\" y=\"55\">12</text><circle cx=\"245\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"239\" y=\"55\">15</text><circle cx=\"266\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"260\" y=\"55\">18</text><circle cx=\"287\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"281\" y=\"55\">21</text><circle cx=\"308\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"302\" y=\"55\">24</text><circle cx=\"329\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"323\" y=\"55\">27</text><circle cx=\"350\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"344\" y=\"55\">30</text><circle cx=\"371\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"365\" y=\"55\">33</text><circle cx=\"392\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"386\" y=\"55\">36</text><circle cx=\"413\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"407\" y=\"55\">39</text><circle cx=\"434\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"428\" y=\"55\">42</text><circle cx=\"455\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"449\" y=\"55\">45</text><circle cx=\"476\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"470\" y=\"55\">48</text><circle cx=\"497\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"491\" y=\"55\">51</text><circle cx=\"518\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"512\" y=\"55\">54</text><circle cx=\"539\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"533\" y=\"55\">57</text><circle cx=\"560\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"554\" y=\"55\">60</text><text x=\"15\" y=\"115\">Second clock: 4 min</text><circle cx=\"168\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"162\" y=\"115\">4</text><circle cx=\"196\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"190\" y=\"115\">8</text><circle cx=\"224\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"218\" y=\"115\">12</text><circle cx=\"252\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"246\" y=\"115\">16</text><circle cx=\"280\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"274\" y=\"115\">20</text><circle cx=\"308\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"302\" y=\"115\">24</text><circle cx=\"336\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"330\" y=\"115\">28</text><circle cx=\"364\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"358\" y=\"115\">32</text><circle cx=\"392\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"386\" y=\"115\">36</text><circle cx=\"420\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"414\" y=\"115\">40</text><circle cx=\"448\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"442\" y=\"115\">44</text><circle cx=\"476\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"470\" y=\"115\">48</text><circle cx=\"504\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"498\" y=\"115\">52</text><circle cx=\"532\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"526\" y=\"115\">56</text><circle cx=\"560\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"554\" y=\"115\">60</text><text x=\"15\" y=\"175\">Third clock: 6 min</text><circle cx=\"182\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"176\" y=\"175\">6</text><circle cx=\"224\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"218\" y=\"175\">12</text><circle cx=\"266\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"260\" y=\"175\">18</text><circle cx=\"308\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"302\" y=\"175\">24</text><circle cx=\"350\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"344\" y=\"175\">30</text><circle cx=\"392\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"386\" y=\"175\">36</text><circle cx=\"434\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"428\" y=\"175\">42</text><circle cx=\"476\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"470\" y=\"175\">48</text><circle cx=\"518\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"512\" y=\"175\">54</text><circle cx=\"560\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"554\" y=\"175\">60</text><line x1=\"140\" y1=\"215\" x2=\"570\" y2=\"215\" stroke=\"#26364a\"/><text x=\"140\" y=\"240\">0 min</text><text x=\"510\" y=\"240\">60 min = 1 h</text><text x=\"300\" y=\"25\">common interval: LCM(3, 4, 6) = 12 min</text>",
+        "alt": "Three rows list the 3-, 4-, and 6-minute multiples through one hour; the shared multiples 12, 24, 36, 48, and 60 are highlighted."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 260",
+        "svg": "<text x=\"15\" y=\"55\">第1个钟：每3 min</text><circle cx=\"161\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"155\" y=\"55\">3</text><circle cx=\"182\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"176\" y=\"55\">6</text><circle cx=\"203\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"197\" y=\"55\">9</text><circle cx=\"224\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"218\" y=\"55\">12</text><circle cx=\"245\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"239\" y=\"55\">15</text><circle cx=\"266\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"260\" y=\"55\">18</text><circle cx=\"287\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"281\" y=\"55\">21</text><circle cx=\"308\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"302\" y=\"55\">24</text><circle cx=\"329\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"323\" y=\"55\">27</text><circle cx=\"350\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"344\" y=\"55\">30</text><circle cx=\"371\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"365\" y=\"55\">33</text><circle cx=\"392\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"386\" y=\"55\">36</text><circle cx=\"413\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"407\" y=\"55\">39</text><circle cx=\"434\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"428\" y=\"55\">42</text><circle cx=\"455\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"449\" y=\"55\">45</text><circle cx=\"476\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"470\" y=\"55\">48</text><circle cx=\"497\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"491\" y=\"55\">51</text><circle cx=\"518\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"512\" y=\"55\">54</text><circle cx=\"539\" cy=\"50\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"533\" y=\"55\">57</text><circle cx=\"560\" cy=\"50\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"554\" y=\"55\">60</text><text x=\"15\" y=\"115\">第2个钟：每4 min</text><circle cx=\"168\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"162\" y=\"115\">4</text><circle cx=\"196\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"190\" y=\"115\">8</text><circle cx=\"224\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"218\" y=\"115\">12</text><circle cx=\"252\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"246\" y=\"115\">16</text><circle cx=\"280\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"274\" y=\"115\">20</text><circle cx=\"308\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"302\" y=\"115\">24</text><circle cx=\"336\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"330\" y=\"115\">28</text><circle cx=\"364\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"358\" y=\"115\">32</text><circle cx=\"392\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"386\" y=\"115\">36</text><circle cx=\"420\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"414\" y=\"115\">40</text><circle cx=\"448\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"442\" y=\"115\">44</text><circle cx=\"476\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"470\" y=\"115\">48</text><circle cx=\"504\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"498\" y=\"115\">52</text><circle cx=\"532\" cy=\"110\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"526\" y=\"115\">56</text><circle cx=\"560\" cy=\"110\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"554\" y=\"115\">60</text><text x=\"15\" y=\"175\">第3个钟：每6 min</text><circle cx=\"182\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"176\" y=\"175\">6</text><circle cx=\"224\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"218\" y=\"175\">12</text><circle cx=\"266\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"260\" y=\"175\">18</text><circle cx=\"308\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"302\" y=\"175\">24</text><circle cx=\"350\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"344\" y=\"175\">30</text><circle cx=\"392\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"386\" y=\"175\">36</text><circle cx=\"434\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"428\" y=\"175\">42</text><circle cx=\"476\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"470\" y=\"175\">48</text><circle cx=\"518\" cy=\"170\" r=\"12\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"512\" y=\"175\">54</text><circle cx=\"560\" cy=\"170\" r=\"12\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"554\" y=\"175\">60</text><line x1=\"140\" y1=\"215\" x2=\"570\" y2=\"215\" stroke=\"#26364a\"/><text x=\"140\" y=\"240\">0 分钟</text><text x=\"510\" y=\"240\">60 分钟 = 1 h</text><text x=\"300\" y=\"25\">共同间隔：LCM(3, 4, 6) = 12 min</text>",
+        "alt": "三行列出每3、4、6分钟的倍数直到1小时；共同的12、24、36、48、60分钟被标出。"
+      }
+    }
   },
   {
     "id": 35,
@@ -1587,44 +2087,58 @@ window.QUESTION_BANK = [
     "sourcePage": 16,
     "solution": {
       "en": {
-        "strategy": "Compare the two spending arrangements at the moment Frederick's money runs out; the change in Justina's daily spending creates equal money parts.",
+        "strategy": "Read the two aligned case bars as equal money units: the change from the first case to the second leaves 3 equal units between $70 and $430.",
         "steps": [
           {
-            "title": "Compare daily spending",
-            "text": "The daily-spending ratios are Frederick:Justina = 8:16 = 1:2, then 16:8 = 2:1. The two cases differ by 3 equal parts for Justina."
+            "title": "Compare the two case bars",
+            "text": "The top bar shows Frederick:Justina = 1:2 and the lower bar shows 2:1. Matching the fixed end segment of $70 to the $430 comparison leaves 3 equal unit blocks."
           },
           {
-            "title": "Find one part",
-            "text": "Justina has $430 instead of $70, so the difference is $430 − $70 = $360. Each part is $360 ÷ 3 = $120."
+            "title": "Value one unit",
+            "text": "The 3 blocks represent $430 − $70 = $360, so 1 unit is $360 ÷ 3 = $120."
           },
           {
-            "title": "Find both gifts",
-            "text": "Frederick's 2 parts are 2 × $120 = $240. Justina's original amount is $430 + $120 = $550."
+            "title": "Read each amount from the bars",
+            "text": "Frederick has 2 units, or 2 × $120 = $240. Justina has the $430 segment plus 1 unit, or $430 + $120 = $550."
           }
         ],
-        "answerCheck": "Check: $550 − $430 = $120, and the $360 difference between $430 and $70 is 3 × $120. Answer: Frederick: $240; Justina: $550."
+        "answerCheck": "Check: the 3-unit gap is 3 × $120 = $360 = $430 − $70. Answer: Frederick: $240; Justina: $550."
       },
       "zh-Hans": {
-        "strategy": "比较弗雷德里克的钱刚好用完时的2种每日花费安排；朱斯蒂娜每天花费的改变形成等份差。",
+        "strategy": "把两行对齐的情况条看成等额单位：从第1种情况到第2种情况，$70与$430之间相差3个等份。",
         "steps": [
           {
-            "title": "比较每天的花费",
-            "text": "2种安排中，弗雷德里克:朱斯蒂娜的每日花费分别为8:16 = 1:2和16:8 = 2:1。朱斯蒂娜在2种情况之间相差3个等份。"
+            "title": "比较两种情况条",
+            "text": "上条表示 Frederick:Justina = 1:2，下条表示 2:1。把固定的$70末段与$430的比较对齐后，剩下3个相等小格。"
           },
           {
             "title": "求每1份",
-            "text": "朱斯蒂娜留下$430而不是$70，相差$430 − $70 = $360。每1份是$360 ÷ 3 = $120。"
+            "text": "3格表示$430 − $70 = $360，所以1份是$360 ÷ 3 = $120。"
           },
           {
-            "title": "求父母给的钱",
-            "text": "弗雷德里克的2份为2 × $120 = $240。朱斯蒂娜原来的钱为$430 + $120 = $550。"
+            "title": "从条形图读出金额",
+            "text": "Frederick 有2份，即2 × $120 = $240。Justina 有$430加1份，即$430 + $120 = $550。"
           }
         ],
-        "answerCheck": "检验：$550 − $430 = $120，而$430与$70的差$360 = 3 × $120。答案：Frederick: $240; Justina: $550。"
+        "answerCheck": "检验：3份是3 × $120 = $360 = $430 − $70。答案：Frederick: $240; Justina: $550。"
       }
     },
     "questionZh": "弗雷德里克和朱斯蒂娜每天分别花$8和$16，朱斯蒂娜剩下$70；若两人交换每天的花费，朱斯蒂娜会剩下$430。求父母分别给了他们多少钱。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 62,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"18\" y=\"24\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Case 1: Frederick : Justina = 1 : 2</text><rect x=\"145\" y=\"10\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"159.0\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">F</text><rect x=\"173\" y=\"10\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">J</text><rect x=\"201\" y=\"10\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">J</text><text x=\"18\" y=\"76\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Case 2: Frederick : Justina = 2 : 1</text><rect x=\"145\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"159.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">F</text><rect x=\"173\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">F</text><rect x=\"201\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">J</text><rect x=\"229\" y=\"62\" width=\"38\" height=\"24\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#a36a2a\" stroke-width=\"1.5\"/><text x=\"248\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><path d=\"M145 116 v-8 H229 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"128\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">difference: $430 − $70 = 3 equal parts</text><text x=\"250\" y=\"148\" text-anchor=\"middle\" font-size=\"15\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 part = $120</text><text x=\"250\" y=\"184\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Compare 3 equal parts first.</text></g>",
+        "alt": "Two aligned money bars compare 1:2 and 2:1; the $430 and $70 difference makes three equal parts."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"18\" y=\"24\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">情况 1：Frederick : Justina = 1 : 2</text><rect x=\"145\" y=\"10\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"159.0\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">F</text><rect x=\"173\" y=\"10\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">J</text><rect x=\"201\" y=\"10\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"26\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">J</text><text x=\"18\" y=\"76\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">情况 2：Frederick : Justina = 2 : 1</text><rect x=\"145\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"159.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">F</text><rect x=\"173\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">F</text><rect x=\"201\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">J</text><rect x=\"229\" y=\"62\" width=\"38\" height=\"24\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#a36a2a\" stroke-width=\"1.5\"/><text x=\"248\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><path d=\"M145 116 v-8 H229 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"187.0\" y=\"128\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">相差：$430 − $70 = 3 个等份</text><text x=\"250\" y=\"148\" text-anchor=\"middle\" font-size=\"15\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 份 = $120</text><text x=\"250\" y=\"184\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">先比较 3 个等份。</text></g>",
+        "alt": "两条对齐的钱数条比较 1:2 与 2:1；$430 与 $70 的差对应 3 个等份。"
+      }
+    }
   },
   {
     "id": 36,
@@ -1636,44 +2150,58 @@ window.QUESTION_BANK = [
     "sourcePage": 16,
     "solution": {
       "en": {
-        "strategy": "Use the 4:3 starting ratio and the final fact that tank A has twice tank B's water.",
+        "strategy": "Use the segmented tank bars: A has 6 equal units when full, and its final 2-unit segment is 0.8 L.",
         "steps": [
           {
-            "title": "Find one ratio unit",
-            "text": "Let the initial amounts be 4 units and 3 units. When A is full, it has 6 units because it is twice B's 3 units. Thus 2 units = 0.8 L, so 1 unit = 0.4 L."
+            "title": "Label the equal units in tank A",
+            "text": "The 2 shaded units added to A are 0.8 L, so 1 unit is 0.8 ÷ 2 = 0.4 L. All 6 units in full tank A are 6 × 0.4 = 2.4 L."
           },
           {
-            "title": "Find both capacities",
-            "text": "Tank A's capacity is 6 × 0.4 = 2.4 L. Since this is 1/4 of tank B's capacity, B holds 4 × 2.4 = 9.6 L."
+            "title": "Scale to tank B",
+            "text": "The capacity bar for B has 4 quarters, with A's 2.4 L as 1 quarter. So B holds 4 × 2.4 = 9.6 L, while its 3 water units are 3 × 0.4 = 1.2 L."
           },
           {
-            "title": "Subtract B's current water",
-            "text": "Tank B currently has 3 × 0.4 = 1.2 L. It needs 9.6 − 1.2 = 8.4 L."
+            "title": "Use B's unshaded part",
+            "text": "The unshaded amount needed to fill B is 9.6 − 1.2 = 8.4 L."
           }
         ],
-        "answerCheck": "Check: A full is 2.4 L and B starts with 1.2 L, so A is twice B; B's capacity is 4 × 2.4 = 9.6 L. Answer: 8.4 L."
+        "answerCheck": "Check: B has 1.2 L of its 9.6 L capacity, leaving 8.4 L. Answer: 8.4 L."
       },
       "zh-Hans": {
-        "strategy": "利用起初4:3的水量比，以及A装满后是B中水量的2倍。",
+        "strategy": "使用分格水箱条：A装满时有6个等份，而A最后增加的2份是0.8 L。",
         "steps": [
           {
-            "title": "求每1份水量",
-            "text": "起初A、B分别有4份和3份。A装满后是B的2倍，所以A有6份。增加的2份是0.8 L，因此1份是0.4 L。"
+            "title": "标出A的等份",
+            "text": "A增加的2个阴影格是0.8 L，所以1格是0.8 ÷ 2 = 0.4 L。装满的A有6格，即6 × 0.4 = 2.4 L。"
           },
           {
-            "title": "求2个水箱的容量",
-            "text": "A的容量是6 × 0.4 = 2.4 L。这是B容量的1/4，所以B的容量是4 × 2.4 = 9.6 L。"
+            "title": "按比例求B",
+            "text": "B的容量条分成4个四分之一，其中1份等于A的2.4 L。因此B容量为4 × 2.4 = 9.6 L；B已有的3个水量格为3 × 0.4 = 1.2 L。"
           },
           {
-            "title": "减去B已有的水",
-            "text": "B现在有3 × 0.4 = 1.2 L，还需9.6 − 1.2 = 8.4 L。"
+            "title": "读出B的留白部分",
+            "text": "填满B所需的留白量是9.6 − 1.2 = 8.4 L。"
           }
         ],
-        "answerCheck": "检验：A装满有2.4 L，B起初有1.2 L，A正好是B的2倍；B容量为4 × 2.4 = 9.6 L。答案：8.4 L。"
+        "answerCheck": "检验：B已有1.2 L，容量是9.6 L，剩下8.4 L。答案：8.4 L。"
       }
     },
     "questionZh": "水箱A与B中的水量之比为4:3。向A加入0.8 L水后，A中的水量变为B中的2倍。A的容量是B容量的1/4。要把B装满，还要加多少水？",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 62,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"22\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Tank A: 6 equal units</text><rect x=\"160\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"216\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"272\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"300\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M272 53 v-8 H328 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"65\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">0.8 L</text><text x=\"20\" y=\"78\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Tank B capacity: 4 quarters</text><rect x=\"160\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"286\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"223\" y=\"108\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">3 units = 1.2 L</text><text x=\"250\" y=\"144\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">2 units = 0.8 L  →  1 unit = 0.4 L</text><text x=\"250\" y=\"178\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A full = 2.4 L = 1/4 of B</text><text x=\"250\" y=\"204\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Unshaded quarter = amount still needed.</text></g>",
+        "alt": "Unit bars show tank A’s added two units and tank B’s four-quarter capacity model."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"22\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">水箱 A：6 个等份</text><rect x=\"160\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"188\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"216\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"272\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"300\" y=\"8\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M272 53 v-8 H328 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"65\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">0.8 L</text><text x=\"20\" y=\"78\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">水箱 B 容量：4 个四分之一</text><rect x=\"160\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"202\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"244\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"286\" y=\"64\" width=\"42\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"223\" y=\"108\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">3 份 = 1.2 L</text><text x=\"250\" y=\"144\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">2 份 = 0.8 L  →  1 份 = 0.4 L</text><text x=\"250\" y=\"178\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A 装满 = 2.4 L = B 的 1/4</text><text x=\"250\" y=\"204\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">未涂色的四分之一 = 还需要的水量。</text></g>",
+        "alt": "等份条显示水箱 A 增加的 2 份，以及水箱 B 的四分之一容量模型。"
+      }
+    }
   },
   {
     "id": 37,
@@ -1685,44 +2213,58 @@ window.QUESTION_BANK = [
     "sourcePage": 17,
     "solution": {
       "en": {
-        "strategy": "Express Germaine's amount after spending in terms of Gilbert's amount, then use the $300 received.",
+        "strategy": "Follow the equal-part money bars: first remove the three fixed $70 blocks, then value the remaining equal blocks.",
         "steps": [
           {
-            "title": "Relate their amounts",
-            "text": "After Germaine spends $70, she has twice Gilbert's amount. Let Gilbert have 1 unit, so Germaine then has 2 units and originally had 2 units + $70."
+            "title": "Remove the fixed $70 blocks",
+            "text": "The diagram groups three $70 blocks, worth 3 × $70 = $210. Removing them from $300 leaves $300 − $210 = $90 across 5 equal unit blocks."
           },
           {
-            "title": "Use Gilbert's $300",
-            "text": "After receiving $300, Gilbert has 3 times Germaine's original amount. The $300 equals 5 units: 3(2 units + $70) − 1 unit = 5 units + $210, so 5 units = $90 and 1 unit = $18."
+            "title": "Find one unit",
+            "text": "Each unit block is $90 ÷ 5 = $18."
           },
           {
-            "title": "Find the final total",
-            "text": "Their final amounts are 2 units + 1 unit + $300 = 3 × $18 + $300 = $354."
+            "title": "Add the blocks shown for the final total",
+            "text": "The final bar has 8 equal units and the $210 fixed amount, so its total is 8 × $18 + $210 = $354."
           }
         ],
-        "answerCheck": "Check: Germaine has $106 − $70 = $36, twice Gilbert's $18; Gilbert then has $18 + $300 = $318. $36 + $318 = $354. Answer: $354."
+        "answerCheck": "Check: 8 × $18 + 3 × $70 = $354. Answer: $354."
       },
       "zh-Hans": {
-        "strategy": "把杰曼花钱后的金额表示成吉尔伯特金额的倍数，再使用吉尔伯特得到的$300。",
+        "strategy": "按等份金额条进行：先去掉3个固定的$70格，再求余下等格的金额。",
         "steps": [
           {
-            "title": "表示两人的金额",
-            "text": "杰曼花掉$70后有吉尔伯特的2倍。设吉尔伯特有1份，则杰曼此时有2份，原来有2份 + $70。"
+            "title": "去掉固定的$70格",
+            "text": "图中把3个$70格合在一起，金额为3 × $70 = $210。从$300中去掉它们，余下$300 − $210 = $90，对应5个等格。"
           },
           {
-            "title": "利用$300",
-            "text": "吉尔伯特得到$300后，有杰曼原来金额的3倍。$300相当于5份：3(2份 + $70) − 1份 = 5份 + $210，所以5份 = $90，1份 = $18。"
+            "title": "求每1格",
+            "text": "每个等格是$90 ÷ 5 = $18。"
           },
           {
-            "title": "求最后总数",
-            "text": "最后的总金额为2份 + 1份 + $300 = 3 × $18 + $300 = $354。"
+            "title": "加上最后条形图的各部分",
+            "text": "最后的条有8个等格和$210固定金额，所以总数是8 × $18 + $210 = $354。"
           }
         ],
-        "answerCheck": "检验：杰曼有$106 − $70 = $36，是吉尔伯特$18的2倍；吉尔伯特后来有$18 + $300 = $318。$36 + $318 = $354。答案：$354。"
+        "answerCheck": "检验：8 × $18 + 3 × $70 = $354。答案：$354。"
       }
     },
     "questionZh": "杰曼花掉$70后，剩下的钱是吉尔伯特的2倍。吉尔伯特得到$300后，钱数是杰曼原有钱数的3倍。求两人最后的钱数总和。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 62,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"32\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Gilbert</text><rect x=\"105\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"119.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"133\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"147.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"161\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><rect x=\"189\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"203.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><rect x=\"217\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"231.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><text x=\"20\" y=\"78\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Germaine</text><rect x=\"105\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"119.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"133\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"147.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"161\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><path d=\"M105 116 v-8 H245 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"128\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$300</text><text x=\"250\" y=\"146\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$300 = 5 units + 3 × $70</text><text x=\"250\" y=\"180\" text-anchor=\"middle\" font-size=\"14\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">5 units = $90  →  1 unit = $18</text></g>",
+        "alt": "Gilbert and Germaine bars keep equal units separate from three fixed $70 amounts."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"32\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Gilbert</text><rect x=\"105\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"119.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"133\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"147.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"161\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><rect x=\"189\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"203.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><rect x=\"217\" y=\"16\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"231.0\" y=\"32\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><text x=\"20\" y=\"78\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Germaine</text><rect x=\"105\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"119.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"133\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"147.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">u</text><rect x=\"161\" y=\"62\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"78\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$70</text><path d=\"M105 116 v-8 H245 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"128\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$300</text><text x=\"250\" y=\"146\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$300 = 5 份 + 3 × $70</text><text x=\"250\" y=\"180\" text-anchor=\"middle\" font-size=\"14\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">5 份 = $90  →  1 份 = $18</text></g>",
+        "alt": "Gilbert 与 Germaine 的条形图把等份与 3 个固定的 $70 金额分开。"
+      }
+    }
   },
   {
     "id": 38,
@@ -1734,44 +2276,58 @@ window.QUESTION_BANK = [
     "sourcePage": 17,
     "solution": {
       "en": {
-        "strategy": "Eliminate the magazines first, then use the third equation to find the magazine price.",
+        "strategy": "Rearrange the book, magazine, and comic cells exactly as the visual does so that the book-and-comic cells form one matched group.",
         "steps": [
           {
-            "title": "Compare the first two totals",
-            "text": "Subtract 3 comics + 2 magazines = $54 from 3 books + 2 magazines = $84. Thus 3 books − 3 comics = $30, so 1 book − 1 comic = $10."
+            "title": "Make the matched book-and-comic group",
+            "text": "Using the visual model above, The rearranged strips show 3 books plus 3 comics as a group worth $78."
           },
           {
-            "title": "Find the book and comic total",
-            "text": "From 2 comics + 2 books = $52, one comic + one book costs $26. Together with book − comic = $10, a book costs $18 and a comic costs $8."
+            "title": "Leave only the magazine cells",
+            "text": "After that group is matched, the 4 magazine cells under the $84-and-$54 strips are worth $60."
           },
           {
-            "title": "Find a magazine",
-            "text": "Use 3 comics + 2 magazines = $54: 3 × $8 + 2 magazines = $54, so 2 magazines = $30 and 1 magazine = $15."
+            "title": "Share the magazine total equally",
+            "text": "Each of the 4 identical magazine cells costs $60 ÷ 4 = $15."
           }
         ],
-        "answerCheck": "Check: 3 × $18 + 2 × $15 = $84, 3 × $8 + 2 × $15 = $54, and 2 × $8 + 2 × $18 = $52. Answer: $15."
+        "answerCheck": "Check: 4 magazine cells at $15 make $60. Answer: $15."
       },
       "zh-Hans": {
-        "strategy": "先消去杂志，再用第3个等式求1本杂志的价格。",
+        "strategy": "按图把书、杂志和漫画的格子重新排列，使书格和漫画格组成一个可配对的整体。",
         "steps": [
           {
-            "title": "比较前2个总价",
-            "text": "用3本漫画书和2本杂志的$54，从3本书和2本杂志的$84中相减。3本书 − 3本漫画书 = $30，所以1本书 − 1本漫画书 = $10。"
+            "title": "组成书和漫画的配对组",
+            "text": "重排后的条形图显示3本书加3本漫画书是一组，价值$78。"
           },
           {
-            "title": "求书和漫画书的价格",
-            "text": "2本漫画书 + 2本书 = $52，所以1本漫画书 + 1本书 = $26。再结合相差$10，1本书是$18，1本漫画书是$8。"
+            "title": "留下杂志格",
+            "text": "配对该组后，$84和$54条中余下的4个杂志格共值$60。"
           },
           {
-            "title": "求杂志价格",
-            "text": "代入3本漫画书 + 2本杂志 = $54：3 × $8 + 2本杂志 = $54，所以2本杂志 = $30，1本杂志 = $15。"
+            "title": "平均分杂志总价",
+            "text": "4个相同杂志格的单价是$60 ÷ 4 = $15。"
           }
         ],
-        "answerCheck": "检验：3 × $18 + 2 × $15 = $84，3 × $8 + 2 × $15 = $54，2 × $8 + 2 × $18 = $52。答案：$15。"
+        "answerCheck": "检验：4个杂志格每个$15，共为$60。答案：$15。"
       }
     },
     "questionZh": "3本书和2本杂志共$84；3本漫画书和2本杂志共$54；2本漫画书和2本书共$52。求1本杂志的价格。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 63,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"20\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$84</text><rect x=\"70\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"86.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"102\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"118.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"134\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"166\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"182.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"198\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"214.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"230\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"246.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"262\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"278.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"294\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><rect x=\"326\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"342.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><rect x=\"358\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"374.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><text x=\"20\" y=\"63\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$54</text><rect x=\"70\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"86.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"102\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"118.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"134\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><rect x=\"166\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"182.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><line x1=\"225\" y1=\"92\" x2=\"225\" y2=\"121\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"225,121 218,117 218,125\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"250\" y=\"116\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">Rearrange and compare</text><rect x=\"55\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"71.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"87\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"103.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"119\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"135.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">book</text><rect x=\"151\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"167.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><rect x=\"183\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"199.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><rect x=\"215\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"231.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">comic</text><rect x=\"247\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"263.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"279\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"295.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"311\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"327.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><rect x=\"343\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"359.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">magazine</text><path d=\"M247 177 v-8 H375 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"311.0\" y=\"189\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$60</text><text x=\"310\" y=\"203\" text-anchor=\"middle\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$60 ÷ 4 = ?</text></g>",
+        "alt": "Item-count bars show books, magazines, and comics, then isolate four equal magazine cells."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"20\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$84</text><rect x=\"70\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"86.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"102\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"118.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"134\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"166\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"182.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"198\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"214.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"230\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"246.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"262\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"278.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"294\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><rect x=\"326\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"342.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><rect x=\"358\" y=\"6\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"374.0\" y=\"22\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><text x=\"20\" y=\"63\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$54</text><rect x=\"70\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"86.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"102\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"118.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"134\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><rect x=\"166\" y=\"49\" width=\"32\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"182.0\" y=\"65\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><line x1=\"225\" y1=\"92\" x2=\"225\" y2=\"121\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"225,121 218,117 218,125\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"250\" y=\"116\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">重排并比较</text><rect x=\"55\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"71.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"87\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"103.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"119\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"135.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">书</text><rect x=\"151\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"167.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><rect x=\"183\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"199.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><rect x=\"215\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"231.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">漫画</text><rect x=\"247\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"263.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"279\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"295.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"311\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"327.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><rect x=\"343\" y=\"130\" width=\"32\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"359.0\" y=\"146\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">杂志</text><path d=\"M247 177 v-8 H375 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"311.0\" y=\"189\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$60</text><text x=\"310\" y=\"203\" text-anchor=\"middle\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$60 ÷ 4 = ?</text></g>",
+        "alt": "物品数量条显示书、杂志和漫画，再分离出 4 个相等的杂志格。"
+      }
+    }
   },
   {
     "id": 39,
@@ -1783,44 +2339,58 @@ window.QUESTION_BANK = [
     "sourcePage": 17,
     "solution": {
       "en": {
-        "strategy": "Find the shaded ring area, then use the 2:7 shaded-to-unshaded ratio.",
+        "strategy": "Use the concentric-circle partition to find the 2 shaded area units first, then scale the 7 unshaded units.",
         "steps": [
           {
-            "title": "Find the two circle areas",
-            "text": "The large circle has area 22/7 × 21 × 21 = 1386 cm². The small circle has area 22/7 × 7 × 7 = 154 cm²."
+            "title": "Find the ring shown as shaded",
+            "text": "Large-circle area = 22/7 × 21 × 21 = 1386 cm² and small-circle area = 22/7 × 7 × 7 = 154 cm². The shaded ring is 1386 − 154 = 1232 cm²."
           },
           {
-            "title": "Find the shaded area",
-            "text": "The shaded ring is 1386 − 154 = 1232 cm². It represents 2 parts of the 2:7 ratio."
+            "title": "Value the ratio strip",
+            "text": "The ring is 2 equal area units in the 2:7 strip, so 1 unit is 1232 ÷ 2 = 616 cm²."
           },
           {
-            "title": "Find the unshaded area",
-            "text": "One part is 1232 ÷ 2 = 616 cm², so the 7 unshaded parts have area 7 × 616 = 4312 cm²."
+            "title": "Read the 7 unshaded units",
+            "text": "The unshaded portion is 7 × 616 = 4312 cm²."
           }
         ],
-        "answerCheck": "Check: 1232:4312 = 2:7 because both divide by 616. Answer: 4312 cm²."
+        "answerCheck": "Check: 1232:4312 = 2:7 after dividing both terms by 616. Answer: 4312 cm²."
       },
       "zh-Hans": {
-        "strategy": "先求阴影圆环面积，再利用阴影与非阴影的2:7面积比。",
+        "strategy": "先用同心圆分区求2个阴影面积单位，再放大到7个非阴影单位。",
         "steps": [
           {
-            "title": "求2个圆的面积",
-            "text": "大圆面积为22/7 × 21 × 21 = 1386 cm²。小圆面积为22/7 × 7 × 7 = 154 cm²。"
+            "title": "求图中的阴影圆环",
+            "text": "大圆面积 = 22/7 × 21 × 21 = 1386 cm²，小圆面积 = 22/7 × 7 × 7 = 154 cm²。阴影圆环为1386 − 154 = 1232 cm²。"
           },
           {
-            "title": "求阴影面积",
-            "text": "阴影圆环面积是1386 − 154 = 1232 cm²，对应2:7中的2份。"
+            "title": "确定比条的每1份",
+            "text": "圆环对应2:7面积比条中的2份，所以1份是1232 ÷ 2 = 616 cm²。"
           },
           {
-            "title": "求非阴影面积",
-            "text": "1份是1232 ÷ 2 = 616 cm²，所以非阴影的7份面积是7 × 616 = 4312 cm²。"
+            "title": "读出7个非阴影份",
+            "text": "非阴影部分是7 × 616 = 4312 cm²。"
           }
         ],
-        "answerCheck": "检验：1232:4312 = 2:7，因为两数都可除以616。答案：4312 cm²。"
+        "answerCheck": "检验：1232:4312 同除以616后为2:7。答案：4312 cm²。"
       }
     },
     "questionZh": "2个同心圆的半径分别为7 cm和21 cm。阴影部分与非阴影部分的面积之比为2:7。取π = 22/7，求非阴影部分的面积。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 63,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><circle cx=\"115\" cy=\"105\" r=\"75\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"2\"/><circle cx=\"115\" cy=\"105\" r=\"25\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"2\"/><text x=\"115\" y=\"26\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">large r = 21 cm</text><text x=\"115\" y=\"109\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">small r = 7 cm</text><text x=\"115\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">shaded ring = 1386 − 154 = 1232 cm² = 2 parts</text><rect x=\"260\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"300\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"340\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"360\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"380\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"400\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"420\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"350\" y=\"64\" text-anchor=\"middle\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">2 : 7</text><text x=\"350\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 part = 616 cm²</text><text x=\"350\" y=\"160\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">shaded : unshaded</text></g>",
+        "alt": "A concentric-circle model turns the shaded ring into two equal area parts against seven unshaded parts."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><circle cx=\"115\" cy=\"105\" r=\"75\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"2\"/><circle cx=\"115\" cy=\"105\" r=\"25\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"2\"/><text x=\"115\" y=\"26\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">大圆 r = 21 cm</text><text x=\"115\" y=\"109\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">小圆 r = 7 cm</text><text x=\"115\" y=\"200\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">阴影圆环 = 1386 − 154 = 1232 cm² = 2 份</text><rect x=\"260\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"300\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"340\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"360\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"380\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"400\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"420\" y=\"75\" width=\"20\" height=\"28\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"350\" y=\"64\" text-anchor=\"middle\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">2 : 7</text><text x=\"350\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 份 = 616 cm²</text><text x=\"350\" y=\"160\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">阴影 : 非阴影</text></g>",
+        "alt": "同心圆模型把阴影圆环表示为 2 个等面积份，与 7 个非阴影份比较。"
+      }
+    }
   },
   {
     "id": 40,
@@ -1832,44 +2402,58 @@ window.QUESTION_BANK = [
     "sourcePage": 18,
     "solution": {
       "en": {
-        "strategy": "Find how much water the last third of the container needs; that amount was 80% of the tub's original water.",
+        "strategy": "Read the prism and 80% tub bar in sequence: the final third of the container is the transferred 80% of the tub water.",
         "steps": [
           {
-            "title": "Find the water transferred",
-            "text": "The container capacity is 12 × 15 × 30 = 5400 cm³. From 2/3 full to full requires 1/3 × 5400 = 1800 cm³."
+            "title": "Find the shaded third of the prism",
+            "text": "Using the visual model above, The container capacity is 12 × 15 × 30 = 5400 cm³. Its 1 of 3 equal volume slices is 5400 ÷ 3 = 1800 cm³."
           },
           {
-            "title": "Find the original tub volume",
-            "text": "After the transfer, 20% remains, so 80% of the original tub water was transferred. Thus the original volume is 1800 ÷ 80 × 100 = 2250 cm³."
+            "title": "Complete the 80% capacity bar",
+            "text": "The 1800 cm³ slice is 80% of the tub's original water, so the full tub-water amount is 1800 ÷ 80 × 100 = 2250 cm³."
           },
           {
-            "title": "Find the water level",
-            "text": "The tub base area is 24 × 15 = 360 cm². Its original water level was 2250 ÷ 360 = 6.25 cm."
+            "title": "Convert volume to height",
+            "text": "The tub base is 24 × 15 = 360 cm². Its original water height is 2250 ÷ 360 = 6.25 cm."
           }
         ],
-        "answerCheck": "Check: 80% of 2250 cm³ is 1800 cm³, exactly the amount needed to fill the container. Answer: 6.25 cm."
+        "answerCheck": "Check: 80% of 2250 cm³ is 1800 cm³. Answer: 6.25 cm."
       },
       "zh-Hans": {
-        "strategy": "先求容器最后1/3所需的水量；这正是浴盆原来水量的80%。",
+        "strategy": "依次读长方体和80%水槽条：容器最后的1/3正是水槽原有水量的80%。",
         "steps": [
           {
-            "title": "求倒入的水量",
-            "text": "容器容量为12 × 15 × 30 = 5400 cm³。从2/3满到装满需要1/3 × 5400 = 1800 cm³。"
+            "title": "求长方体的1/3",
+            "text": "结合上面的图示模型，容器容量为12 × 15 × 30 = 5400 cm³。3个等体积块中的1块为5400 ÷ 3 = 1800 cm³。"
           },
           {
-            "title": "求浴盆原有水量",
-            "text": "倒水后剩下20%，表示原来水量的80%被倒出。因此原有体积为1800 ÷ 80 × 100 = 2250 cm³。"
+            "title": "补全80%容量条",
+            "text": "1800 cm³是水槽原有水量的80%，所以原有水量为1800 ÷ 80 × 100 = 2250 cm³。"
           },
           {
-            "title": "求水深",
-            "text": "浴盆底面积为24 × 15 = 360 cm²。原来水深为2250 ÷ 360 = 6.25 cm。"
+            "title": "把体积换成水深",
+            "text": "水槽底面积是24 × 15 = 360 cm²。原来水深为2250 ÷ 360 = 6.25 cm。"
           }
         ],
-        "answerCheck": "检验：2250 cm³的80%是1800 cm³，正好填满容器所需。答案：6.25 cm。"
+        "answerCheck": "检验：2250 cm³的80%是1800 cm³。答案：6.25 cm。"
       }
     },
     "questionZh": "一个12 cm × 15 cm × 30 cm的容器装到2/3满；倒入其中的浴盆水后，浴盆剩下原来体积的20%。浴盆底面为24 cm × 15 cm。求浴盆原来的水深。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 63,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"18\" y=\"20\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Container: 12 cm × 15 cm × 30 cm</text><rect x=\"35\" y=\"42\" width=\"120\" height=\"74\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><polygon points=\"35,42 67,22 187,22 155,42\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><polygon points=\"155,42 187,22 187,96 155,116\" fill=\"#d7edf5\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"42\" x2=\"75\" y2=\"116\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"115\" y1=\"42\" x2=\"115\" y2=\"116\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"42\" width=\"40\" height=\"74\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"55\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">1/3</text><text x=\"95\" y=\"140\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">5400 cm³ ÷ 3 = 1800 cm³</text><text x=\"275\" y=\"20\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Tub: transferred volume = 80%</text><rect x=\"270\" y=\"42\" width=\"180\" height=\"42\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"42\" width=\"144\" height=\"42\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"360\" y=\"68\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">1800 cm³ = 80%</text><text x=\"360\" y=\"108\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">full tub = 2250 cm³</text><text x=\"250\" y=\"158\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">base = 24 cm × 15 cm = 360 cm²</text><path d=\"M450 165 v-42 M444 129 l6 -6 6 6\" fill=\"none\" stroke=\"#c45b36\" stroke-width=\"2\"/><text x=\"425\" y=\"188\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">height = volume ÷ base area</text></g>",
+        "alt": "A one-third container slice transfers to an 80%-full tub bar; the tub base is labelled for the height step."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"18\" y=\"20\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">容器：12 cm × 15 cm × 30 cm</text><rect x=\"35\" y=\"42\" width=\"120\" height=\"74\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><polygon points=\"35,42 67,22 187,22 155,42\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><polygon points=\"155,42 187,22 187,96 155,116\" fill=\"#d7edf5\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"75\" y1=\"42\" x2=\"75\" y2=\"116\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"115\" y1=\"42\" x2=\"115\" y2=\"116\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"35\" y=\"42\" width=\"40\" height=\"74\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"55\" y=\"85\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">1/3</text><text x=\"95\" y=\"140\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">5400 cm³ ÷ 3 = 1800 cm³</text><text x=\"275\" y=\"20\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">水槽：倒出的水 = 80%</text><rect x=\"270\" y=\"42\" width=\"180\" height=\"42\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"42\" width=\"144\" height=\"42\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"360\" y=\"68\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">1800 cm³ = 80%</text><text x=\"360\" y=\"108\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">full tub = 2250 cm³</text><text x=\"250\" y=\"158\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">底面积 = 24 cm × 15 cm = 360 cm²</text><path d=\"M450 165 v-42 M444 129 l6 -6 6 6\" fill=\"none\" stroke=\"#c45b36\" stroke-width=\"2\"/><text x=\"425\" y=\"188\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">水深 = 体积 ÷ 底面积</text></g>",
+        "alt": "容器的三分之一水量转入表示 80% 的水槽条；水槽底面积标出以便求水深。"
+      }
+    }
   },
   {
     "id": 41,
@@ -1881,44 +2465,58 @@ window.QUESTION_BANK = [
     "sourcePage": 18,
     "solution": {
       "en": {
-        "strategy": "Use Figure A to find the dimensions of each identical rectangle, then trace every outside edge of Figure B.",
+        "strategy": "Use the six equal rectangles to label the 6 cm and 24 cm modules, then follow every exposed edge of the stepped outline.",
         "steps": [
           {
-            "title": "Find one rectangle's area",
-            "text": "Figure A consists of 6 identical rectangles, so each rectangle has area 864 ÷ 6 = 144 cm²."
+            "title": "Find the rectangle module",
+            "text": "Six equal rectangles make 864 cm², so each has area 864 ÷ 6 = 144 cm². The top rectangle is 4 equal squares, so each square is 144 ÷ 4 = 36 cm² and has side 6 cm; its length is 4 × 6 = 24 cm."
           },
           {
-            "title": "Find rectangle dimensions",
-            "text": "The top rectangle divides into 4 equal squares. Each square has area 144 ÷ 4 = 36 cm², so its side (the rectangle's breadth) is 6 cm. The rectangle's length is 4 × 6 = 24 cm."
+            "title": "Transfer the labels to figure B",
+            "text": "Mark every strip thickness as 6 cm, the short step as 12 cm, and the long edges as 24 cm, exactly as on the stepped diagram."
           },
           {
-            "title": "Trace Figure B",
-            "text": "Add the labelled outer edges of Figure B: 24 + 6 + 6 + 24 + 6 + 12 + 24 + 6 + 6 + 6 + 6 = 156 cm."
+            "title": "Trace the outside only",
+            "text": "Follow the directional perimeter trace around every exposed edge of figure B. The labelled outside-edge sum shown by the trace is 156 cm."
           }
         ],
-        "answerCheck": "Check: each rectangle is 24 cm × 6 cm = 144 cm², and 6 × 144 cm² = 864 cm². Answer: 156 cm."
+        "answerCheck": "Check: each module rectangle is 24 cm × 6 cm = 144 cm², and 6 such rectangles make 864 cm². Answer: 156 cm."
       },
       "zh-Hans": {
-        "strategy": "先由图形A求每个全等长方形的长和宽，再沿图形B的外边界逐段相加。",
+        "strategy": "先用6个全等长方形标出6 cm和24 cm的模块，再沿阶梯图的全部外露边追踪。",
         "steps": [
           {
-            "title": "求每个长方形面积",
-            "text": "图形A由6个全等长方形组成，所以每个面积为864 ÷ 6 = 144 cm²。"
+            "title": "求长方形模块",
+            "text": "6个全等长方形面积共864 cm²，所以每个面积为864 ÷ 6 = 144 cm²。最上方长方形分成4个相等正方形，每个面积144 ÷ 4 = 36 cm²，边长为6 cm；长为4 × 6 = 24 cm。"
           },
           {
-            "title": "求长方形尺寸",
-            "text": "最上面的长方形可分成4个相同正方形。每个正方形面积为144 ÷ 4 = 36 cm²，边长也是长方形的宽，为6 cm。长方形的长是4 × 6 = 24 cm。"
+            "title": "把标注移到图形B",
+            "text": "按阶梯图把所有条带厚度标为6 cm，短台阶标为12 cm，长边标为24 cm。"
           },
           {
-            "title": "沿图形B外边相加",
-            "text": "图形B的外边长度为24 + 6 + 6 + 24 + 6 + 12 + 24 + 6 + 6 + 6 + 6 = 156 cm。"
+            "title": "只沿外边界追踪",
+            "text": "沿图形B的每一段外露边按箭头追踪。图上标出的外周长加和为156 cm。"
           }
         ],
-        "answerCheck": "检验：每个长方形是24 cm × 6 cm = 144 cm²，6 × 144 cm² = 864 cm²。答案：156 cm。"
+        "answerCheck": "检验：每个模块长方形为24 cm × 6 cm = 144 cm²，6个共864 cm²。答案：156 cm。"
       }
     },
     "questionZh": "6个全等长方形组成图形A，重新排列后形成图形B。图形A的面积为864 cm²。求图形B的周长。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 64,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"18\" y=\"19\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Figure A: 6 identical rectangles = 864 cm²</text><rect x=\"20\" y=\"28\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"82\" y=\"28\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"28\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"20\" y=\"54\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"82\" y=\"54\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"54\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"113\" y=\"92\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">864 ÷ 6 = 144 cm²</text><text x=\"113\" y=\"110\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">each = 24 cm × 6 cm</text><text x=\"280\" y=\"19\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Figure B: trace every outside edge</text><polygon points=\"300,42 348,42 348,66 396,66 396,114 372,114 372,138 324,138 324,114 300,114\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"2\"/><line x1=\"300\" y1=\"42\" x2=\"300\" y2=\"114\" stroke=\"#c45b36\" stroke-width=\"2\"/><line x1=\"300\" y1=\"114\" x2=\"324\" y2=\"114\" stroke=\"#c45b36\" stroke-width=\"2\"/><line x1=\"324\" y1=\"114\" x2=\"324\" y2=\"138\" stroke=\"#c45b36\" stroke-width=\"2\"/><text x=\"348\" y=\"56\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">6</text><text x=\"372\" y=\"62\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">24</text><text x=\"408\" y=\"91\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">24</text><text x=\"348\" y=\"157\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">6 / 12 / 24 cm modules</text><text x=\"348\" y=\"184\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Add only exposed edges.</text></g>",
+        "alt": "Six congruent rectangles establish 24 cm by 6 cm modules, then an L-shaped outline marks exposed perimeter edges."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"18\" y=\"19\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">图 A：6 个全等长方形 = 864 cm²</text><rect x=\"20\" y=\"28\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"82\" y=\"28\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"28\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"20\" y=\"54\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"82\" y=\"54\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"144\" y=\"54\" width=\"60\" height=\"24\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"113\" y=\"92\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">864 ÷ 6 = 144 cm²</text><text x=\"113\" y=\"110\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">每个 = 24 cm × 6 cm</text><text x=\"280\" y=\"19\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">图 B：沿每条外边追踪</text><polygon points=\"300,42 348,42 348,66 396,66 396,114 372,114 372,138 324,138 324,114 300,114\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"2\"/><line x1=\"300\" y1=\"42\" x2=\"300\" y2=\"114\" stroke=\"#c45b36\" stroke-width=\"2\"/><line x1=\"300\" y1=\"114\" x2=\"324\" y2=\"114\" stroke=\"#c45b36\" stroke-width=\"2\"/><line x1=\"324\" y1=\"114\" x2=\"324\" y2=\"138\" stroke=\"#c45b36\" stroke-width=\"2\"/><text x=\"348\" y=\"56\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">6</text><text x=\"372\" y=\"62\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">24</text><text x=\"408\" y=\"91\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">24</text><text x=\"348\" y=\"157\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">6 / 12 / 24 cm modules</text><text x=\"348\" y=\"184\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">只相加外露的边。</text></g>",
+        "alt": "6 个全等长方形确定 24 cm × 6 cm 的模块，再在阶梯形轮廓上标出外露的周长边。"
+      }
+    }
   },
   {
     "id": 42,
@@ -1930,44 +2528,58 @@ window.QUESTION_BANK = [
     "sourcePage": 18,
     "solution": {
       "en": {
-        "strategy": "Turn the percentage comparisons into fruit counts, then apply each bag price.",
+        "strategy": "Use the 100%, 110%, and 130% offset bars to obtain fruit counts, then read the matching unit-price table.",
         "steps": [
           {
-            "title": "Find orange and pear counts",
-            "text": "104 apples are 130% of oranges, so 1% = 104 ÷ 130 = 0.8 and oranges = 100 × 0.8 = 80. Pears are 110% of oranges, so pears = 110 × 0.8 = 88."
+            "title": "Value the percentage bar",
+            "text": "The apple bar is 130% and is labelled 104, so 1% = 104 ÷ 130 = 0.8. Thus oranges at 100% are 80 and pears at 110% are 88."
           },
           {
-            "title": "Price each fruit",
-            "text": "Apples: (104 ÷ 4) × $6 = $156. Oranges: (80 ÷ 2) × $3 = $120. Pears: (88 ÷ 8) × $10 = $110."
+            "title": "Use each table row",
+            "text": "Apples: 104 ÷ 4 bags × $6 = $156; oranges: 80 ÷ 2 bags × $3 = $120; pears: 88 ÷ 8 bags × $10 = $110."
           },
           {
-            "title": "Add the sales",
-            "text": "Total sales are $156 + $120 + $110 = $386."
+            "title": "Add the three receipts",
+            "text": "$156 + $120 + $110 = $386."
           }
         ],
-        "answerCheck": "Check: 104 is 30% more than 80 and 10% more than 88. $156 + $120 + $110 = $386. Answer: $386."
+        "answerCheck": "Check: 104 is 130% of 80, and the three receipt rows total $386. Answer: $386."
       },
       "zh-Hans": {
-        "strategy": "把百分比关系换算成水果数量，再按每袋价格计算。",
+        "strategy": "用100%、110%和130%的错位百分比条求水果数量，再读对应的单价表。",
         "steps": [
           {
-            "title": "求橙子和梨的数量",
-            "text": "104个苹果是橙子数量的130%，所以1% = 104 ÷ 130 = 0.8，橙子有100 × 0.8 = 80个。梨是橙子的110%，所以有110 × 0.8 = 88个。"
+            "title": "确定百分比条的每1%",
+            "text": "苹果条是130%，标为104，所以1% = 104 ÷ 130 = 0.8。因此100%的oranges有80个，110%的pears有88个。"
           },
           {
-            "title": "计算各种水果售价",
-            "text": "苹果：(104 ÷ 4) × $6 = $156。橙子：(80 ÷ 2) × $3 = $120。梨：(88 ÷ 8) × $10 = $110。"
+            "title": "计算表中每一行",
+            "text": "apples：104 ÷ 4袋 × $6 = $156；oranges：80 ÷ 2袋 × $3 = $120；pears：88 ÷ 8袋 × $10 = $110。"
           },
           {
-            "title": "求总销售额",
-            "text": "总销售额为$156 + $120 + $110 = $386。"
+            "title": "相加3张收据",
+            "text": "$156 + $120 + $110 = $386。"
           }
         ],
-        "answerCheck": "检验：104比80多30%，比88多10%。$156 + $120 + $110 = $386。答案：$386。"
+        "answerCheck": "检验：104是80的130%，3行收据合计$386。答案：$386。"
       }
     },
     "questionZh": "一名水果商卖出的苹果比橙子多30%，比梨多10%；卖出了104个苹果。水果按每袋4个$6、每袋8个$10、每袋2个$3出售。求总销售额。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 64,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"22\" y=\"28\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">oranges</text><rect x=\"105\" y=\"13\" width=\"200\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"22\" y=\"58\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">pears</text><rect x=\"105\" y=\"43\" width=\"200\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"43\" width=\"20\" height=\"18\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"22\" y=\"88\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">apples</text><rect x=\"105\" y=\"73\" width=\"200\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"73\" width=\"20\" height=\"18\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"325\" y=\"73\" width=\"40\" height=\"18\" rx=\"2\" fill=\"#f6d7a6\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"235\" y=\"112\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">104 apples = 130%</text><rect x=\"45\" y=\"130\" width=\"390\" height=\"60\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"150\" x2=\"435\" y2=\"150\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"130\" x2=\"190\" y2=\"190\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"335\" y1=\"130\" x2=\"335\" y2=\"190\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"118\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">fruit</text><text x=\"262\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">count ÷ bag</text><text x=\"385\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">price</text><text x=\"118\" y=\"166\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">apples</text><text x=\"262\" y=\"166\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">104 ÷ 4</text><text x=\"385\" y=\"166\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$6</text><text x=\"118\" y=\"183\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">oranges / pears</text><text x=\"262\" y=\"183\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">80 ÷ 2 ; 88 ÷ 8</text><text x=\"385\" y=\"183\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$3 ; $10</text></g>",
+        "alt": "Percentage bars establish orange 100%, pear 110%, and apple 130%, followed by a bag-price setup table."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"22\" y=\"28\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">橙子</text><rect x=\"105\" y=\"13\" width=\"200\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"22\" y=\"58\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">梨</text><rect x=\"105\" y=\"43\" width=\"200\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"43\" width=\"20\" height=\"18\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"22\" y=\"88\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">苹果</text><rect x=\"105\" y=\"73\" width=\"200\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"73\" width=\"20\" height=\"18\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"325\" y=\"73\" width=\"40\" height=\"18\" rx=\"2\" fill=\"#f6d7a6\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"235\" y=\"112\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">104 个苹果 = 130%</text><rect x=\"45\" y=\"130\" width=\"390\" height=\"60\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"45\" y1=\"150\" x2=\"435\" y2=\"150\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"130\" x2=\"190\" y2=\"190\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"335\" y1=\"130\" x2=\"335\" y2=\"190\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"118\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">水果</text><text x=\"262\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">数量 ÷ 每袋</text><text x=\"385\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">单价</text><text x=\"118\" y=\"166\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">苹果</text><text x=\"262\" y=\"166\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">104 ÷ 4</text><text x=\"385\" y=\"166\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$6</text><text x=\"118\" y=\"183\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">橙子 / 梨</text><text x=\"262\" y=\"183\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">80 ÷ 2 ; 88 ÷ 8</text><text x=\"385\" y=\"183\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">$3 ; $10</text></g>",
+        "alt": "百分比条建立橙子 100%、梨 110%、苹果 130%，下方是按袋价格计算的表格。"
+      }
+    }
   },
   {
     "id": 43,
@@ -1979,44 +2591,58 @@ window.QUESTION_BANK = [
     "sourcePage": 19,
     "solution": {
       "en": {
-        "strategy": "Scale and subtract the equations to isolate one fruit price at a time.",
+        "strategy": "Follow the ruled elimination table: scale rows until matching fruit columns can be subtracted.",
         "steps": [
           {
-            "title": "Find an apple price",
-            "text": "Triple 4 oranges + 3 apples + 2 papayas = $15.50 to get 12 oranges + 9 apples + 6 papayas = $46.50. Subtract 2 oranges + 6 papayas = $28.60, leaving 10 oranges + 9 apples = $17.90. Triple 3 oranges + 4 apples = $6.80 and subtract: 13 apples = $14.30, so an apple costs $1.10."
+            "title": "Create the first reduced row",
+            "text": "Using the visual model above, Multiply 4O + 3A + 2P = $15.50 by 3: 12O + 9A + 6P = $46.50. Subtract 2O + 6P = $28.60 to obtain 10O + 9A = $17.90."
           },
           {
-            "title": "Find an orange price",
-            "text": "From 3 oranges + 4 apples = $6.80, 3 oranges = $6.80 − 4 × $1.10 = $2.40. One orange costs $2.40 ÷ 3 = $0.80."
+            "title": "Isolate apples in the table",
+            "text": "Multiply the reduced row by 3 to get 30O + 27A = $53.70. Multiply 3O + 4A = $6.80 by 10 to get 30O + 40A = $68. Subtract to get 13A = $14.30, so A = $1.10."
           },
           {
-            "title": "Find a papaya price",
-            "text": "From 2 oranges + 6 papayas = $28.60, 6 papayas = $28.60 − 2 × $0.80 = $27. One papaya costs $27 ÷ 6 = $4.50."
+            "title": "Back-substitute down the rows",
+            "text": "From 3O + 4A = $6.80, O = $0.80. From 2O + 6P = $28.60, P = $4.50."
           }
         ],
         "answerCheck": "Check: 4 × $0.80 + 3 × $1.10 + 2 × $4.50 = $15.50. Answer: Apple: $1.10; Orange: $0.80; Papaya: $4.50."
       },
       "zh-Hans": {
-        "strategy": "将等式倍增并相减，每次先求出一种水果的单价。",
+        "strategy": "按有横线的消元表操作：把各行倍乘到水果列可配对相减。",
         "steps": [
           {
-            "title": "求苹果单价",
-            "text": "把4个橙子 + 3个苹果 + 2个木瓜 = $15.50乘3，得12个橙子 + 9个苹果 + 6个木瓜 = $46.50。减去2个橙子 + 6个木瓜 = $28.60，得10个橙子 + 9个苹果 = $17.90。把3个橙子 + 4个苹果 = $6.80乘3再相减，得13个苹果 = $14.30，所以1个苹果是$1.10。"
+            "title": "得到第1条消元行",
+            "text": "结合上面的图示模型，把4O + 3A + 2P = $15.50乘3，得12O + 9A + 6P = $46.50。减去2O + 6P = $28.60，得到10O + 9A = $17.90。"
           },
           {
-            "title": "求橙子单价",
-            "text": "由3个橙子 + 4个苹果 = $6.80，3个橙子 = $6.80 − 4 × $1.10 = $2.40。因此1个橙子是$2.40 ÷ 3 = $0.80。"
+            "title": "在表中消去橙子求苹果",
+            "text": "把消元行乘3，得30O + 27A = $53.70。把3O + 4A = $6.80乘10，得30O + 40A = $68。相减得13A = $14.30，所以A = $1.10。"
           },
           {
-            "title": "求木瓜单价",
-            "text": "由2个橙子 + 6个木瓜 = $28.60，6个木瓜 = $28.60 − 2 × $0.80 = $27。因此1个木瓜是$27 ÷ 6 = $4.50。"
+            "title": "沿各行回代",
+            "text": "由3O + 4A = $6.80，得O = $0.80。由2O + 6P = $28.60，得P = $4.50。"
           }
         ],
         "answerCheck": "检验：4 × $0.80 + 3 × $1.10 + 2 × $4.50 = $15.50。答案：Apple: $1.10; Orange: $0.80; Papaya: $4.50。"
       }
     },
     "questionZh": "4个橙子、3个苹果和2个木瓜共$15.50；2个橙子和6个木瓜共$28.60；3个橙子和4个苹果共$6.80。求每种水果的单价。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 65,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"15\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Elimination table</text><rect x=\"55\" y=\"28\" width=\"390\" height=\"154\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"50\" x2=\"445\" y2=\"50\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"69\" x2=\"445\" y2=\"69\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"88\" x2=\"445\" y2=\"88\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"107\" x2=\"445\" y2=\"107\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"126\" x2=\"445\" y2=\"126\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"145\" x2=\"445\" y2=\"145\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"164\" x2=\"445\" y2=\"164\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><text x=\"75\" y=\"45\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">4O + 3A + 2P = $15.50</text><text x=\"75\" y=\"64\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">12O + 9A + 6P = $46.50</text><text x=\"75\" y=\"83\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">− 2O        + 6P = $28.60</text><text x=\"75\" y=\"102\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">10O + 9A       = $17.90</text><text x=\"75\" y=\"121\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">30O + 27A      = $53.70</text><text x=\"75\" y=\"140\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">− 30O + 40A    = $68.00</text><text x=\"75\" y=\"159\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">13A = $14.30</text><path d=\"M28 66 C12 66 12 104 28 104\" fill=\"none\" stroke=\"#c45b36\" stroke-width=\"2\"/><text x=\"28\" y=\"120\" text-anchor=\"middle\" font-size=\"10\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">×3 then subtract</text><text x=\"250\" y=\"207\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">O = orange, A = apple, P = papaya</text></g>",
+        "alt": "A ruled elimination table preserves the scale-and-subtract path to isolate fruit coefficients before unit prices."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"15\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">消元表</text><rect x=\"55\" y=\"28\" width=\"390\" height=\"154\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"50\" x2=\"445\" y2=\"50\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"69\" x2=\"445\" y2=\"69\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"88\" x2=\"445\" y2=\"88\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"107\" x2=\"445\" y2=\"107\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"126\" x2=\"445\" y2=\"126\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"145\" x2=\"445\" y2=\"145\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"55\" y1=\"164\" x2=\"445\" y2=\"164\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><text x=\"75\" y=\"45\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">4O + 3A + 2P = $15.50</text><text x=\"75\" y=\"64\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">12O + 9A + 6P = $46.50</text><text x=\"75\" y=\"83\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">− 2O        + 6P = $28.60</text><text x=\"75\" y=\"102\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">10O + 9A       = $17.90</text><text x=\"75\" y=\"121\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">30O + 27A      = $53.70</text><text x=\"75\" y=\"140\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">− 30O + 40A    = $68.00</text><text x=\"75\" y=\"159\" text-anchor=\"start\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">13A = $14.30</text><path d=\"M28 66 C12 66 12 104 28 104\" fill=\"none\" stroke=\"#c45b36\" stroke-width=\"2\"/><text x=\"28\" y=\"120\" text-anchor=\"middle\" font-size=\"10\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">×3 后相减</text><text x=\"250\" y=\"207\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">O = 橙子，A = 苹果，P = 木瓜</text></g>",
+        "alt": "有横线的消元表保留倍乘与相减路径，在求单价前先分离水果系数。"
+      }
+    }
   },
   {
     "id": 44,
@@ -2028,44 +2654,58 @@ window.QUESTION_BANK = [
     "sourcePage": 19,
     "solution": {
       "en": {
-        "strategy": "Use the net filling rate because water enters and drains at the same time.",
+        "strategy": "Read the rate card first, then apply its net rate to the labelled 150-minute timeline and the 10 L mini-ratio.",
         "steps": [
           {
             "title": "Find the net rate",
-            "text": "Water enters at 3 L/min and leaves at 0.5 L/min, so the pail gains 3 − 0.5 = 2.5 L/min."
+            "text": "The rate card gives 3 L/min − 0.5 L/min = 2.5 L/min."
           },
           {
-            "title": "Find the amount at 9:30 am",
-            "text": "From 7:00 am to 9:30 am is 2 h 30 min = 150 min. The water amount is 2.5 × 150 = 375 L."
+            "title": "Use the timeline",
+            "text": "From 7:00 am to 9:30 am is 2 h 30 min = 150 min. The timeline volume is 2.5 × 150 = 375 L."
           },
           {
-            "title": "Find the time for 10 L",
-            "text": "At 2.5 L/min, reaching 10 L takes 10 ÷ 2.5 = 4 minutes."
+            "title": "Use the 10 L ratio",
+            "text": "At 2.5 L each minute, 10 L takes 10 ÷ 2.5 = 4 minutes."
           }
         ],
         "answerCheck": "Check: 2.5 × 150 = 375 L and 2.5 × 4 = 10 L. Answer: (a) 375 L; (b) 4 minutes."
       },
       "zh-Hans": {
-        "strategy": "因为注水和漏水同时发生，所以使用每分钟的净增加量。",
+        "strategy": "先读净流量卡，再把该速率用在标有150 min的时间线和10 L小比例上。",
         "steps": [
           {
             "title": "求净流量",
-            "text": "每分钟注入3 L，同时漏出0.5 L，所以桶每分钟净增加3 − 0.5 = 2.5 L。"
+            "text": "流量卡给出3 L/min − 0.5 L/min = 2.5 L/min。"
           },
           {
-            "title": "求上午9:30的水量",
-            "text": "上午7:00到9:30共有2 h 30 min = 150 min。水量为2.5 × 150 = 375 L。"
+            "title": "使用时间线",
+            "text": "从7:00 am到9:30 am是2 h 30 min = 150 min。时间线对应水量为2.5 × 150 = 375 L。"
           },
           {
-            "title": "求达到10 L的时间",
-            "text": "按2.5 L/min计算，达到10 L需要10 ÷ 2.5 = 4 minutes。"
+            "title": "使用10 L比例",
+            "text": "每分钟增加2.5 L，达到10 L需10 ÷ 2.5 = 4 minutes。"
           }
         ],
         "answerCheck": "检验：2.5 × 150 = 375 L，且2.5 × 4 = 10 L。答案：(a) 375 L; (b) 4 minutes。"
       }
     },
     "questionZh": "一个水龙头以3 L/min注水，一个洞以0.5 L/min漏水。从上午7:00开始，求上午9:30桶中的水量，以及桶中水达到10 L的时间。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 65,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><rect x=\"70\" y=\"16\" width=\"360\" height=\"40\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"250\" y=\"42\" text-anchor=\"middle\" font-size=\"14\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">in 3 L/min − out 0.5 L/min = net 2.5 L/min</text><line x1=\"75\" y1=\"110\" x2=\"425\" y2=\"110\" stroke=\"#315b7d\" stroke-width=\"2\"/><polygon points=\"75,110 84,105 84,115\" fill=\"#315b7d\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><polygon points=\"425,110 416,105 416,115\" fill=\"#315b7d\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"75\" y=\"93\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">7:00 am</text><text x=\"425\" y=\"93\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">9:30 am</text><text x=\"250\" y=\"139\" text-anchor=\"middle\" font-size=\"15\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">2 h 30 min = 150 min</text><line x1=\"155\" y1=\"170\" x2=\"345\" y2=\"170\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"345,170 338,166 338,174\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"250.0\" y=\"165.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">2.5 L each minute</text><text x=\"250\" y=\"204\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Use the same net rate for every interval.</text></g>",
+        "alt": "A net-rate card sits above a 7:00 am–9:30 am timeline labelled as 150 minutes."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><rect x=\"70\" y=\"16\" width=\"360\" height=\"40\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"250\" y=\"42\" text-anchor=\"middle\" font-size=\"14\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">流入 3 L/min − 流出 0.5 L/min = 净流量 2.5 L/min</text><line x1=\"75\" y1=\"110\" x2=\"425\" y2=\"110\" stroke=\"#315b7d\" stroke-width=\"2\"/><polygon points=\"75,110 84,105 84,115\" fill=\"#315b7d\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><polygon points=\"425,110 416,105 416,115\" fill=\"#315b7d\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"75\" y=\"93\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">7:00 am</text><text x=\"425\" y=\"93\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">9:30 am</text><text x=\"250\" y=\"139\" text-anchor=\"middle\" font-size=\"15\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">2 h 30 min = 150 min</text><line x1=\"155\" y1=\"170\" x2=\"345\" y2=\"170\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"345,170 338,166 338,174\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"250.0\" y=\"165.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">每分钟 2.5 L</text><text x=\"250\" y=\"204\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">每个时间段都使用相同的净流量。</text></g>",
+        "alt": "净流量卡位于从 7:00 am 到 9:30 am 的时间线上方，时间差标为 150 min。"
+      }
+    }
   },
   {
     "id": 45,
@@ -2077,44 +2717,58 @@ window.QUESTION_BANK = [
     "sourcePage": 19,
     "solution": {
       "en": {
-        "strategy": "Work backward from the final A amount, then undo each transfer for B and C.",
+        "strategy": "Read the transfer bars from A's two-unit difference, then use the labelled B and C transfer segments to rebuild the starting volumes.",
         "steps": [
           {
-            "title": "Find initial A",
-            "text": "Final A is 3 times initial A, and it increased by 210 ml then decreased by 150 ml: 2 units = 210 ml − 150 ml = 60 ml. Thus initial A is 1 unit = 30 ml."
+            "title": "Value A's unit",
+            "text": "The two-unit difference on A is 210 ml − 150 ml = 60 ml. Therefore 1 unit, A's starting amount, is 60 ÷ 2 = 30 ml."
           },
           {
-            "title": "Find initial B",
-            "text": "Final B is 3 times final A = 3 × (3 × 30) = 270 ml. Since B sent 20 ml to C, initial B was 270 + 20 = 290 ml."
+            "title": "Build B from three A-units",
+            "text": "B has 3 times final A, shown as 3 × 90 ml = 270 ml, plus the 20 ml sent to C. Thus B initially had 270 + 20 = 290 ml."
           },
           {
-            "title": "Find initial C and total",
-            "text": "Final C is also 270 ml. Undo its changes: initial C = 270 + 210 − 20 = 460 ml. Total initial juice = 30 + 290 + 460 = 780 ml."
+            "title": "Undo C's displayed transfers",
+            "text": "C starts with the 270 ml from B, the 210 ml transfer to A, and the 20 ml adjustment: 270 + 210 − 20 = 460 ml. Total initial juice is 30 + 290 + 460 = 780 ml."
           }
         ],
-        "answerCheck": "Check: A: 30 + 210 − 150 = 90 ml; B: 290 − 20 = 270 ml; C: 460 + 20 − 210 = 270 ml. Answer: A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml."
+        "answerCheck": "Check: 30 + 210 − 150 = 90 ml, while 290 − 20 = 460 + 20 − 210 = 270 ml. Answer: A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml."
       },
       "zh-Hans": {
-        "strategy": "从最后A中的橙汁量倒推，再逐步还原B和C的转移。",
+        "strategy": "先从A的2份差读出单位量，再利用B和C条上的转移段还原最初体积。",
         "steps": [
           {
-            "title": "求A原有的橙汁",
-            "text": "最后A中的橙汁是原来A的3倍，且A先增加210 ml再减少150 ml：2份 = 210 ml − 150 ml = 60 ml。因此A原来有1份 = 30 ml。"
+            "title": "求A的每1份",
+            "text": "A上的2份差为210 ml − 150 ml = 60 ml。因此1份，即A最初的量，是60 ÷ 2 = 30 ml。"
           },
           {
-            "title": "求B原有的橙汁",
-            "text": "最后B中的橙汁是最后A的3倍，即3 × (3 × 30) = 270 ml。B移出20 ml给C，所以B原来有270 + 20 = 290 ml。"
+            "title": "用3个A单位组成B",
+            "text": "B是最后A的3倍，图上为3 × 90 ml = 270 ml，再加上移到C的20 ml。因此B最初有270 + 20 = 290 ml。"
           },
           {
-            "title": "求C原有的橙汁和总量",
-            "text": "最后C中也是270 ml。倒推得C原来有270 + 210 − 20 = 460 ml。最初总量为30 + 290 + 460 = 780 ml。"
+            "title": "倒推C的转移段",
+            "text": "C的最初量由来自B的270 ml、转给A的210 ml和20 ml调整段组成：270 + 210 − 20 = 460 ml。最初总量为30 + 290 + 460 = 780 ml。"
           }
         ],
-        "answerCheck": "检验：A：30 + 210 − 150 = 90 ml；B：290 − 20 = 270 ml；C：460 + 20 − 210 = 270 ml。答案：A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml。"
+        "answerCheck": "检验：30 + 210 − 150 = 90 ml，290 − 20 = 460 + 20 − 210 = 270 ml。答案：A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml。"
       }
     },
     "questionZh": "橙汁分装在A、B、C 3个容器中。将20 ml从B移到C，将210 ml从C移到A，再从A取走150 ml。最后A中的橙汁是原来A中的3倍；B和C中的橙汁都等于最后A中的3倍。求各容器原来的橙汁量和纸盒中的橙汁总量。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 66,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"22\" y=\"28\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A: 2 equal units = 210 ml − 150 ml = 60 ml</text><rect x=\"52\" y=\"42\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"42\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M52 90 v-8 H108 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"80.0\" y=\"102\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">60 ml</text><text x=\"22\" y=\"112\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B: 3 × A + 20 ml</text><rect x=\"52\" y=\"126\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"126\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"108\" y=\"126\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"138\" x2=\"220\" y2=\"138\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"220,138 213,134 213,142\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"185.0\" y=\"133.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">20 ml</text><text x=\"22\" y=\"188\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">C: undo transfers</text><rect x=\"220\" y=\"116\" width=\"195\" height=\"42\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"165\" x2=\"145\" y2=\"165\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"145,165 138,161 138,169\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"182.5\" y=\"160.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">210 ml</text><text x=\"320\" y=\"142\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B transfer → C</text><text x=\"250\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">Work backward through each transfer.</text></g>",
+        "alt": "Container-transfer bars first model A’s two-unit difference, then display the 20 ml and 210 ml reversals."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"22\" y=\"28\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A：2 个等份 = 210 ml − 150 ml = 60 ml</text><rect x=\"52\" y=\"42\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"42\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M52 90 v-8 H108 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"80.0\" y=\"102\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">60 ml</text><text x=\"22\" y=\"112\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B：3 × A + 20 ml</text><rect x=\"52\" y=\"126\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"126\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"108\" y=\"126\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"150\" y1=\"138\" x2=\"220\" y2=\"138\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"220,138 213,134 213,142\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"185.0\" y=\"133.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">20 ml</text><text x=\"22\" y=\"188\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">C：倒推转移量</text><rect x=\"220\" y=\"116\" width=\"195\" height=\"42\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"165\" x2=\"145\" y2=\"165\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"145,165 138,161 138,169\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"182.5\" y=\"160.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">210 ml</text><text x=\"320\" y=\"142\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B transfer → C</text><text x=\"250\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">按每一次转移倒推。</text></g>",
+        "alt": "容器转移条先用 A 的两份差建模，再显示 20 ml 和 210 ml 的倒推转移。"
+      }
+    }
   },
   {
     "id": 46,
@@ -2126,44 +2780,58 @@ window.QUESTION_BANK = [
     "sourcePage": 20,
     "solution": {
       "en": {
-        "strategy": "Use the equal money relationships to make a unit model, with $180 as one unit.",
+        "strategy": "Count the categorised equal cells in the two money bars, using the bracketed $180 as one unit.",
         "steps": [
           {
-            "title": "Set up equal units",
-            "text": "The gift to Joanne's mother equals Alex's book spending. The money relationships form 8 equal units for Joanne and 6 equal units for Alex, with 1 unit = $180."
+            "title": "Read the two starting bars",
+            "text": "Joanne's bar contains 8 equal $180 cells, so she starts with 8 × $180 = $1440. Alex's bar contains 6 equal $180 cells, so he starts with 6 × $180 = $1080."
           },
           {
-            "title": "Find their initial amounts",
-            "text": "Joanne had 8 × $180 = $1440. Alex had 6 × $180 = $1080."
+            "title": "Count the spent cells",
+            "text": "The cells marked spent across the two bars total 7 equal units."
           },
           {
-            "title": "Find total spending",
-            "text": "Their clothing and book spending together is 7 units, so total spending is 7 × $180 = $1260."
+            "title": "Convert the spent units to money",
+            "text": "Their total spending is 7 × $180 = $1260."
           }
         ],
-        "answerCheck": "Check: Joanne's $1440 is 8 units and Alex's $1080 is 6 units of $180; 7 units of spending gives $1260. Answer: (a) Joanne: $1440; Alex: $1080; (b) $1260."
+        "answerCheck": "Check: 8 units give $1440, 6 units give $1080, and 7 spent units give $1260. Answer: (a) Joanne: $1440; Alex: $1080; (b) $1260."
       },
       "zh-Hans": {
-        "strategy": "利用相等的金额关系建立等份模型，并把$180作为1份。",
+        "strategy": "数两条金额条中分类的等格，并把括号标出的$180作为1份。",
         "steps": [
           {
-            "title": "建立等份模型",
-            "text": "乔安妮给母亲的钱等于亚历克斯买书的钱。金额关系可表示为乔安妮8份、亚历克斯6份，每1份是$180。"
+            "title": "读出两条起始金额条",
+            "text": "Joanne 的条有8个每格$180的等格，所以起初有8 × $180 = $1440。Alex 的条有6个等格，所以起初有6 × $180 = $1080。"
           },
           {
-            "title": "求起初金额",
-            "text": "乔安妮起初有8 × $180 = $1440。亚历克斯起初有6 × $180 = $1080。"
+            "title": "数花费格",
+            "text": "两条中标为spent的格合计7个等份。"
           },
           {
-            "title": "求总花费",
-            "text": "两人的衣服和书本花费一共是7份，所以总花费为7 × $180 = $1260。"
+            "title": "把花费份数换成金额",
+            "text": "总花费为7 × $180 = $1260。"
           }
         ],
-        "answerCheck": "检验：乔安妮的$1440是8份，亚历克斯的$1080是6份，每份$180；7份花费为$1260。答案：(a) Joanne: $1440; Alex: $1080; (b) $1260。"
+        "answerCheck": "检验：8份为$1440，6份为$1080，7个花费格为$1260。答案：(a) Joanne: $1440; Alex: $1080; (b) $1260。"
       }
     },
     "questionZh": "乔安妮先把钱的1/3给母亲，之后储蓄与花费之比为1:2。亚历克斯把钱的1/4花在衣服上，1/4花在书上；乔安妮给母亲的钱等于亚历克斯买书的钱。乔安妮转给亚历克斯$180后，所转的钱是亚历克斯储蓄的1/4。求题目所要求的数值。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 66,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"34\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Joanne</text><rect x=\"105\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">m</text><rect x=\"135\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">m</text><rect x=\"165\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"195\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"225\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"255\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"270.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"285\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">sa</text><rect x=\"315\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"330.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">sa</text><text x=\"20\" y=\"78\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Alex</text><rect x=\"105\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"135\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"165\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">c</text><rect x=\"195\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"225\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"255\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"270.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><path d=\"M105 120 v-8 H135 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">1 unit = $180</text><path d=\"M165 152 v-8 H285 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"225.0\" y=\"164\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">7 spent units</text><text x=\"250\" y=\"182\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">m=mother  s=spent  sa=savings  b=books  c=clothes</text><text x=\"250\" y=\"207\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">Count equal units before calculating amounts.</text></g>",
+        "alt": "Joanne’s eight and Alex’s six equal money units are coded by allocation; seven spent cells are grouped."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"20\" y=\"34\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Joanne</text><rect x=\"105\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">m</text><rect x=\"135\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">m</text><rect x=\"165\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"195\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"225\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"255\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"270.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"285\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">sa</text><rect x=\"315\" y=\"18\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"330.0\" y=\"34\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">sa</text><text x=\"20\" y=\"78\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Alex</text><rect x=\"105\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"135\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"165\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"180.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">c</text><rect x=\"195\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"225\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"240.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><rect x=\"255\" y=\"62\" width=\"30\" height=\"25\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"270.0\" y=\"78\" text-anchor=\"middle\" font-size=\"9\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">s</text><path d=\"M105 120 v-8 H135 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"132\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">1 unit = $180</text><path d=\"M165 152 v-8 H285 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"225.0\" y=\"164\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">7 个花费等份</text><text x=\"250\" y=\"182\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">m=母亲  s=花费  sa=储蓄  b=书  c=衣服</text><text x=\"250\" y=\"207\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">先数相等的份数，再计算金额。</text></g>",
+        "alt": "Joanne 的 8 个与 Alex 的 6 个相等金额格按用途编码；7 个花费格被合并。"
+      }
+    }
   },
   {
     "id": 47,
@@ -2175,44 +2843,58 @@ window.QUESTION_BANK = [
     "sourcePage": 20,
     "solution": {
       "en": {
-        "strategy": "Find the net water increase per minute, then scale from 40% full to 100% full.",
+        "strategy": "Use the inflow/outflow rate table, then read 100 L as the 4 shaded blocks of the 10-block capacity bar.",
         "steps": [
           {
-            "title": "Find the net rate",
-            "text": "The two taps add 2 × 6 = 12 L/min. The hole drains 8 ÷ 4 = 2 L/min, so the net gain is 12 − 2 = 10 L/min."
+            "title": "Complete the rate table",
+            "text": "Using the visual model above, Entering water is 2 × 6 = 12 L/min. Leaving water is 8 ÷ 4 = 2 L/min. The net row is 12 − 2 = 10 L/min."
           },
           {
-            "title": "Find the capacity",
-            "text": "After 10 minutes the tank has 10 × 10 = 100 L, which is 40% of its capacity. The capacity is 100 ÷ 40 × 100 = 250 L."
+            "title": "Value the 40% tank bar",
+            "text": "In 10 minutes the tank gains 10 × 10 = 100 L. The 4 shaded blocks are 40%, so the 10-block full capacity is 100 ÷ 40 × 100 = 250 L."
           },
           {
-            "title": "Find extra filling time",
-            "text": "The tank still needs 250 − 100 = 150 L. At 10 L/min, this takes 150 ÷ 10 = 15 minutes."
+            "title": "Fill the 6 unshaded blocks",
+            "text": "The remaining 6 blocks are 250 − 100 = 150 L, which takes 150 ÷ 10 = 15 minutes."
           }
         ],
-        "answerCheck": "Check: 10 minutes adds 100 L = 40% of 250 L; another 15 minutes adds 150 L. Answer: (a) 250 L; (b) 15 minutes."
+        "answerCheck": "Check: 100 L is 40% of 250 L, and 150 L at 10 L/min takes 15 minutes. Answer: (a) 250 L; (b) 15 minutes."
       },
       "zh-Hans": {
-        "strategy": "先求每分钟的净进水量，再从40%满推到100%满。",
+        "strategy": "先使用进水/出水流量表，再把100 L读成10格容量条中的4个阴影格。",
         "steps": [
           {
-            "title": "求净流量",
-            "text": "2个水龙头的进水量是2 × 6 = 12 L/min。洞的漏水量是8 ÷ 4 = 2 L/min，所以净增加量是12 − 2 = 10 L/min。"
+            "title": "完成流量表",
+            "text": "结合上面的图示模型，进水量为2 × 6 = 12 L/min。出水量为8 ÷ 4 = 2 L/min。净流量一行是12 − 2 = 10 L/min。"
           },
           {
-            "title": "求水箱容量",
-            "text": "10 min后水箱有10 × 10 = 100 L，这占容量的40%。容量为100 ÷ 40 × 100 = 250 L。"
+            "title": "确定40%水箱条的总量",
+            "text": "10 min后水箱增加10 × 10 = 100 L。4个阴影格是40%，所以10格满箱为100 ÷ 40 × 100 = 250 L。"
           },
           {
-            "title": "求还需的时间",
-            "text": "水箱还需250 − 100 = 150 L。按10 L/min，需要150 ÷ 10 = 15 minutes。"
+            "title": "填满6个留白格",
+            "text": "余下6格为250 − 100 = 150 L，按10 L/min需150 ÷ 10 = 15 minutes。"
           }
         ],
-        "answerCheck": "检验：10 min增加100 L = 250 L的40%；再过15 minutes增加150 L。答案：(a) 250 L; (b) 15 minutes。"
+        "answerCheck": "检验：100 L是250 L的40%，150 L按10 L/min需15 minutes。答案：(a) 250 L; (b) 15 minutes。"
       }
     },
     "questionZh": "2个水龙头各以6 L/min注水，同时一个洞每4 min漏8 L水。10 min后水箱装了40%满。求水箱容量，以及再过多久能装满。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 67,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><rect x=\"25\" y=\"20\" width=\"210\" height=\"85\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"25\" y1=\"48\" x2=\"235\" y2=\"48\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"25\" y1=\"75\" x2=\"235\" y2=\"75\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><text x=\"38\" y=\"42\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">enter: 2 × 6 = 12 L/min</text><text x=\"38\" y=\"69\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">leave: 8 ÷ 4 = 2 L/min</text><text x=\"38\" y=\"96\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">net: 12 − 2 = 10 L/min</text><text x=\"350\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">100 L = 40% after 10 min</text><rect x=\"250\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"290\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"310\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"350\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"370\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"390\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"410\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"430\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"350\" y=\"105\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">40% full</text><line x1=\"290\" y1=\"145\" x2=\"410\" y2=\"145\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"410,145 403,141 403,149\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"350.0\" y=\"140.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">remaining 60%</text><text x=\"350\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Use 10 L/min after scaling the percentage bar.</text></g>",
+        "alt": "A rate table feeds a ten-cell tank bar with four shaded cells, showing the 40% fill model."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><rect x=\"25\" y=\"20\" width=\"210\" height=\"85\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><line x1=\"25\" y1=\"48\" x2=\"235\" y2=\"48\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><line x1=\"25\" y1=\"75\" x2=\"235\" y2=\"75\" stroke=\"#9cb5c8\" stroke-width=\"1\"/><text x=\"38\" y=\"42\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">流入：2 × 6 = 12 L/min</text><text x=\"38\" y=\"69\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">流出：8 ÷ 4 = 2 L/min</text><text x=\"38\" y=\"96\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">净流量：12 − 2 = 10 L/min</text><text x=\"350\" y=\"24\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">10 min 后 100 L = 40%</text><rect x=\"250\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"290\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"310\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"350\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"370\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"390\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"410\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"430\" y=\"45\" width=\"20\" height=\"35\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"350\" y=\"105\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">40% 装满</text><line x1=\"290\" y1=\"145\" x2=\"410\" y2=\"145\" stroke=\"#c45b36\" stroke-width=\"2\"/><polygon points=\"410,145 403,141 403,149\" fill=\"#c45b36\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"350.0\" y=\"140.0\" text-anchor=\"middle\" font-size=\"11\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">剩余 60%</text><text x=\"350\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">按百分比条换算后，使用 10 L/min。</text></g>",
+        "alt": "流量表连接到 10 格水箱条，其中 4 格涂色，表示 40% 的装水模型。"
+      }
+    }
   },
   {
     "id": 48,
@@ -2224,44 +2906,58 @@ window.QUESTION_BANK = [
     "sourcePage": 20,
     "solution": {
       "en": {
-        "strategy": "Compare the original $80 difference with the final 2:1 relationship after equal daily gifts.",
+        "strategy": "Use the two aligned money bars: Mary's 2 units and Tom's 3 units differ by one unit, the original $80 gap.",
         "steps": [
           {
-            "title": "Find Mary's final amount",
-            "text": "Tom starts with $130 and Mary starts with $50, so Tom has $130 − $50 = $80 more. After two days Mary has twice Tom, so Mary's final amount is 2 × $80 = $160."
+            "title": "Value the extra unit",
+            "text": "Tom's starting amount exceeds Mary's by $130 − $50 = $80. The extra third block in Tom's bar is therefore $80."
           },
           {
-            "title": "Find money given to Mary",
-            "text": "Mary received $160 − $50 = $110 over the two days."
+            "title": "Read Mary's two blocks",
+            "text": "Mary's final bar has 2 equal blocks, so it is 2 × $80 = $160. The two-day amount she received is $160 − $50 = $110."
           },
           {
-            "title": "Find the total and daily gift",
-            "text": "Tom also received $110, so the mother gave $110 + $110 = $220 altogether. Mary's daily amount was $110 ÷ 2 = $55."
+            "title": "Split the two-day amount",
+            "text": "Both received the same $110 over 2 days, so the mother gave $110 + $110 = $220 in total and Mary received $110 ÷ 2 = $55 each day."
           }
         ],
-        "answerCheck": "Check: Mary ends with $50 + $110 = $160 and Tom with $130 + $110 = $240; the stated relationship uses the $80 difference in the unit model. Answer: (a) $220; (b) $55."
+        "answerCheck": "Check: Mary receives $110 and Tom receives $110, for $220; $110 over 2 days is $55 per day. Answer: (a) $220; (b) $55."
       },
       "zh-Hans": {
-        "strategy": "比较起初相差的$80与每天收到相同金额后的2倍关系。",
+        "strategy": "使用两条对齐金额条：Mary有2份，Tom有3份，多出的1份就是起初的$80差额。",
         "steps": [
           {
-            "title": "求玛丽最后的钱数",
-            "text": "汤姆起初有$130，玛丽有$50，所以汤姆多$130 − $50 = $80。2天后玛丽的钱是汤姆的2倍，因此玛丽最后的金额是2 × $80 = $160。"
+            "title": "确定多出的1份",
+            "text": "Tom起初比Mary多$130 − $50 = $80，因此Tom条上多出的第3格是$80。"
           },
           {
-            "title": "求给玛丽的钱",
-            "text": "玛丽2天一共得到$160 − $50 = $110。"
+            "title": "读出Mary的2格",
+            "text": "Mary最后的条有2个等格，所以是2 × $80 = $160。她2天收到的钱是$160 − $50 = $110。"
           },
           {
-            "title": "求总金额和每天金额",
-            "text": "汤姆也得到$110，所以母亲一共给了$110 + $110 = $220。玛丽每天得到$110 ÷ 2 = $55。"
+            "title": "把2天金额平分",
+            "text": "两人2天各收到相同的$110，因此母亲共给$110 + $110 = $220，Mary每天收到$110 ÷ 2 = $55。"
           }
         ],
-        "answerCheck": "检验：玛丽最后有$50 + $110 = $160，汤姆最后有$130 + $110 = $240；等份模型的差为$80。答案：(a) $220; (b) $55。"
+        "answerCheck": "检验：Mary收到$110，Tom收到$110，共$220；$110分2天是每天$55。答案：(a) $220; (b) $55。"
       }
     },
     "questionZh": "玛丽有$50，汤姆有$130。他们的母亲每天给两人相同的钱；2天后玛丽的钱是汤姆的2倍。求母亲一共给了多少钱，以及玛丽每天得到多少钱。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 67,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"25\" y=\"37\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Mary</text><rect x=\"105\" y=\"20\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"20\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"25\" y=\"83\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Tom</text><rect x=\"105\" y=\"66\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"66\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"66\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M161 113 v-8 H189 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"125\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">extra unit: $130 − $50 = $80</text><text x=\"250\" y=\"140\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Mary: 2 equal units = $160</text><rect x=\"115\" y=\"160\" width=\"270\" height=\"34\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"250\" y=\"182\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">two-day equal gifts: $160 − $50 = $110</text><text x=\"250\" y=\"213\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Split the equal two-day gift after the bar comparison.</text></g>",
+        "alt": "Mary’s two equal units and Tom’s three reveal the fixed $80 extra unit, before the two-day gift split."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"25\" y=\"37\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Mary</text><rect x=\"105\" y=\"20\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"20\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"25\" y=\"83\" text-anchor=\"start\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Tom</text><rect x=\"105\" y=\"66\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"66\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"66\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M161 113 v-8 H189 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"175.0\" y=\"125\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">多出的 1 份：$130 − $50 = $80</text><text x=\"250\" y=\"140\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">Mary：2 个等份 = $160</text><rect x=\"115\" y=\"160\" width=\"270\" height=\"34\" rx=\"2\" fill=\"#eff6fa\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"250\" y=\"182\" text-anchor=\"middle\" font-size=\"13\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">两天相等的给款：$160 − $50 = $110</text><text x=\"250\" y=\"213\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">先比较条形图，再把两天相等的给款分开。</text></g>",
+        "alt": "Mary 的 2 个等份与 Tom 的 3 个等份显示固定的 $80 多出一份，再处理两天给款。"
+      }
+    }
   },
   {
     "id": 49,
@@ -2273,44 +2969,58 @@ window.QUESTION_BANK = [
     "sourcePage": 21,
     "solution": {
       "en": {
-        "strategy": "Use perimeter ratios to find both square side lengths, then determine the overlap rectangle.",
+        "strategy": "Use the two perimeter-ratio strips to label both squares and their shared shaded rectangle before subtracting the shaded area.",
         "steps": [
           {
-            "title": "Find square perimeters and sides",
-            "text": "A:B = 3:5 gives 8 units = 192 cm, so 1 unit = 24 cm. Perimeters are A = 72 cm and B = 120 cm; their side lengths are 18 cm and 30 cm."
+            "title": "Find the square sides from the first ratio strip",
+            "text": "A:B = 3:5, so 8 units = 192 cm and 1 unit = 24 cm. The square perimeters are 72 cm and 120 cm, giving sides 18 cm and 30 cm."
           },
           {
-            "title": "Find the shaded rectangle",
-            "text": "The shaded-rectangle perimeter is 2/6 of A's 72 cm, or 24 cm. Its length is 18 ÷ 2 = 9 cm and its breadth is (24 − 9 − 9) ÷ 2 = 3 cm, so its area is 9 × 3 = 27 cm²."
+            "title": "Find the common rectangle",
+            "text": "The rectangle:A perimeter ratio is 2:6, so its perimeter is 2/6 × 72 = 24 cm. Its length is 18 ÷ 2 = 9 cm and breadth is (24 − 9 − 9) ÷ 2 = 3 cm, so its area is 27 cm²."
           },
           {
-            "title": "Find unshaded areas",
-            "text": "Square B's unshaded area is 30 × 30 − 27 = 873 cm². Square A's unshaded area is 18 × 18 − 27 = 297 cm², so both unshaded portions total 873 + 297 = 1170 cm²."
+            "title": "Subtract the shared shaded piece",
+            "text": "For B, 30 × 30 − 27 = 873 cm². For both squares, 18 × 18 + 30 × 30 − 2 × 27 = 1170 cm²."
           }
         ],
-        "answerCheck": "Check: the overlap is 9 cm × 3 cm = 27 cm². 900 − 27 = 873 cm² and 324 − 27 = 297 cm²; 873 + 297 = 1170 cm². Answer: (a) 27 cm²; (b) 873 cm²; (c) 1170 cm²."
+        "answerCheck": "Check: the common rectangle is 9 cm × 3 cm = 27 cm². Answer: (a) 27 cm²; (b) 873 cm²; (c) 1170 cm²."
       },
       "zh-Hans": {
-        "strategy": "先利用周长比求2个正方形的边长，再求重叠的阴影长方形。",
+        "strategy": "先用2条周长比条标出两个正方形和共同的阴影长方形，再减去阴影面积。",
         "steps": [
           {
-            "title": "求正方形周长和边长",
-            "text": "A:B = 3:5，8份 = 192 cm，所以1份 = 24 cm。A、B的周长分别为72 cm和120 cm，边长分别为18 cm和30 cm。"
+            "title": "由第1条比条求正方形边长",
+            "text": "结合上面的图示模型，A:B = 3:5，所以8份 = 192 cm，1份 = 24 cm。两个正方形周长为72 cm和120 cm，边长为18 cm和30 cm。"
           },
           {
-            "title": "求阴影长方形",
-            "text": "阴影长方形周长是A周长72 cm的2/6，即24 cm。它的长为18 ÷ 2 = 9 cm，宽为(24 − 9 − 9) ÷ 2 = 3 cm，面积为9 × 3 = 27 cm²。"
+            "title": "求共同长方形",
+            "text": "长方形:A周长比为2:6，所以长方形周长是2/6 × 72 = 24 cm。长为18 ÷ 2 = 9 cm，宽为(24 − 9 − 9) ÷ 2 = 3 cm，面积为27 cm²。"
           },
           {
-            "title": "求非阴影面积",
-            "text": "正方形B的非阴影面积是30 × 30 − 27 = 873 cm²。正方形A的非阴影面积是18 × 18 − 27 = 297 cm²，因此总非阴影面积为873 + 297 = 1170 cm²。"
+            "title": "减去共同阴影部分",
+            "text": "对B，30 × 30 − 27 = 873 cm²。对两个正方形，18 × 18 + 30 × 30 − 2 × 27 = 1170 cm²。"
           }
         ],
-        "answerCheck": "检验：重叠部分为9 cm × 3 cm = 27 cm²。900 − 27 = 873 cm²，324 − 27 = 297 cm²，873 + 297 = 1170 cm²。答案：(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²。"
+        "answerCheck": "检验：共同长方形为9 cm × 3 cm = 27 cm²。答案：(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²。"
       }
     },
     "questionZh": "正方形A与B的周长之比为3:5，阴影长方形的周长与A的周长之比为2:6，两个正方形的周长总和为192 cm。求3个所要求的面积。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 68,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">perimeter ratio A : B = 3 : 5; total 192 cm</text><rect x=\"90\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"120\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"210\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"240\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"300\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"250\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 ratio unit = 24 cm</text><rect x=\"45\" y=\"90\" width=\"90\" height=\"90\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"265\" y=\"90\" width=\"130\" height=\"130\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"85\" y=\"130\" width=\"45\" height=\"15\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"150\" width=\"45\" height=\"15\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"90\" y=\"200\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A side = 18 cm</text><text x=\"330\" y=\"212\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B side = 30 cm</text><text x=\"250\" y=\"88\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">rectangle: 9 cm × 3 cm; P = 24 cm</text></g>",
+        "alt": "A 3:5 perimeter strip sets square sides; both square outlines contain the same 9 cm by 3 cm shaded rectangle."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">周长比 A : B = 3 : 5；合计 192 cm</text><rect x=\"90\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"120\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"150\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"210\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"240\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"300\" y=\"28\" width=\"30\" height=\"20\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"250\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 个比份 = 24 cm</text><rect x=\"45\" y=\"90\" width=\"90\" height=\"90\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"265\" y=\"90\" width=\"130\" height=\"130\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"85\" y=\"130\" width=\"45\" height=\"15\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"150\" width=\"45\" height=\"15\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"90\" y=\"200\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A side = 18 cm</text><text x=\"330\" y=\"212\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B side = 30 cm</text><text x=\"250\" y=\"88\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">长方形：9 cm × 3 cm；周长 = 24 cm</text></g>",
+        "alt": "3:5 的周长比条确定正方形边长；两个正方形都含同一个 9 cm × 3 cm 阴影长方形。"
+      }
+    }
   },
   {
     "id": 50,
@@ -2322,93 +3032,121 @@ window.QUESTION_BANK = [
     "sourcePage": 21,
     "solution": {
       "en": {
-        "strategy": "Compare the two quadrant areas, then remove the rectangle area that is included in one shaded difference.",
+        "strategy": "Read the composite diagram as one large quadrant with the small quadrant and rectangle removed.",
         "steps": [
           {
-            "title": "Find the quadrant areas",
-            "text": "Small quadrant = 1/4 × 3.14 × 12 × 12 = 113.04 cm². Big quadrant = 1/4 × 3.14 × 24 × 24 = 452.16 cm²."
+            "title": "Calculate the two quadrant areas",
+            "text": "Using the visual model above, Small quadrant = 1/4 × 3.14 × 12 × 12 = 113.04 cm². Large quadrant = 1/4 × 3.14 × 24 × 24 = 452.16 cm²."
           },
           {
-            "title": "Find their difference",
-            "text": "The difference between the quadrant areas is 452.16 − 113.04 = 339.12 cm²."
+            "title": "Calculate the rectangle area",
+            "text": "The labelled rectangle is 12 × 24 = 288 cm²."
           },
           {
-            "title": "Remove the rectangle",
-            "text": "The rectangle area is 12 × 24 = 288 cm². Thus the difference in shaded areas is 339.12 − 288 = 51.12 cm²."
+            "title": "Use the area ledger",
+            "text": "The residual shaded area is 452.16 − 113.04 − 288 = 51.12 cm²."
           }
         ],
         "answerCheck": "Check: 452.16 − 113.04 − 288 = 51.12 cm². Answer: 51.12 cm²."
       },
       "zh-Hans": {
-        "strategy": "比较2个四分之一圆的面积，再减去其中包含的长方形面积。",
+        "strategy": "把组合图看成一个大四分之一圆，扣除小四分之一圆和长方形。",
         "steps": [
           {
-            "title": "求四分之一圆面积",
-            "text": "小四分之一圆面积 = 1/4 × 3.14 × 12 × 12 = 113.04 cm²。大四分之一圆面积 = 1/4 × 3.14 × 24 × 24 = 452.16 cm²。"
+            "title": "计算2个四分之一圆面积",
+            "text": "结合上面的图示模型，小四分之一圆 = 1/4 × 3.14 × 12 × 12 = 113.04 cm²。大四分之一圆 = 1/4 × 3.14 × 24 × 24 = 452.16 cm²。"
           },
           {
-            "title": "求圆形面积差",
-            "text": "2个四分之一圆的面积差是452.16 − 113.04 = 339.12 cm²。"
+            "title": "计算长方形面积",
+            "text": "标出的长方形为12 × 24 = 288 cm²。"
           },
           {
-            "title": "减去长方形面积",
-            "text": "长方形面积是12 × 24 = 288 cm²。因此阴影面积之差为339.12 − 288 = 51.12 cm²。"
+            "title": "使用面积账",
+            "text": "剩余阴影面积为452.16 − 113.04 − 288 = 51.12 cm²。"
           }
         ],
         "answerCheck": "检验：452.16 − 113.04 − 288 = 51.12 cm²。答案：51.12 cm²。"
       }
     },
     "questionZh": "一个长方形内有2个半径分别为12 cm和24 cm的四分之一圆。取π = 3.14，求阴影部分面积之差。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 68,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><path d=\"M35 180 L35 35 A145 145 0 0 1 180 180 Z\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"2\"/><path d=\"M35 180 L35 108 A72 72 0 0 1 107 180 Z\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"2\"/><rect x=\"35\" y=\"132\" width=\"72\" height=\"48\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#a36a2a\" stroke-width=\"1.5\"/><line x1=\"35\" y1=\"190\" x2=\"180\" y2=\"190\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"107\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">r = 24 cm</text><line x1=\"25\" y1=\"180\" x2=\"25\" y2=\"108\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"18\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">12 cm</text><text x=\"285\" y=\"47\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">big quadrant: 452.16 cm²</text><text x=\"285\" y=\"82\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">small quadrant: 113.04 cm²</text><text x=\"285\" y=\"117\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">rectangle: 12 × 24 = 288 cm²</text><line x1=\"270\" y1=\"130\" x2=\"465\" y2=\"130\" stroke=\"#9cb5c8\" stroke-width=\"1.5\"/><text x=\"367\" y=\"162\" text-anchor=\"middle\" font-size=\"12\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">compare areas, then subtract the rectangle</text><text x=\"367\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">residual shaded region</text></g>",
+        "alt": "Nested quarter-circle geometry labels the large and small quadrants and the 12 cm by 24 cm rectangle for subtraction."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><path d=\"M35 180 L35 35 A145 145 0 0 1 180 180 Z\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"2\"/><path d=\"M35 180 L35 108 A72 72 0 0 1 107 180 Z\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"2\"/><rect x=\"35\" y=\"132\" width=\"72\" height=\"48\" rx=\"2\" fill=\"#f8e4c6\" stroke=\"#a36a2a\" stroke-width=\"1.5\"/><line x1=\"35\" y1=\"190\" x2=\"180\" y2=\"190\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"107\" y=\"205\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">r = 24 cm</text><line x1=\"25\" y1=\"180\" x2=\"25\" y2=\"108\" stroke=\"#c45b36\" stroke-width=\"1.5\"/><text x=\"18\" y=\"145\" text-anchor=\"middle\" font-size=\"10\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">12 cm</text><text x=\"285\" y=\"47\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">大四分之一圆：452.16 cm²</text><text x=\"285\" y=\"82\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">小四分之一圆：113.04 cm²</text><text x=\"285\" y=\"117\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">长方形：12 × 24 = 288 cm²</text><line x1=\"270\" y1=\"130\" x2=\"465\" y2=\"130\" stroke=\"#9cb5c8\" stroke-width=\"1.5\"/><text x=\"367\" y=\"162\" text-anchor=\"middle\" font-size=\"12\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">比较面积后，再减去长方形</text><text x=\"367\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">剩余阴影区域</text></g>",
+        "alt": "嵌套四分之一圆图形标出大、小扇形和 12 cm × 24 cm 长方形，供面积相减。"
+      }
+    }
   },
   {
     "id": 51,
     "topic": "Fractions",
-    "question": "Basins A, B, C are identical. A has mass 3.1 kg at 1/4 full and B 2.2 kg at 3/4 full. Find C’s filled fraction when it has mass 2.8 kg.",
-    "answer": "5/7",
+    "question": "Basins A, B, C are identical. A has mass 3.1 kg at 1/2 full and B 2.2 kg at 1/5 full. Find C’s filled fraction when it has mass 2.8 kg.",
+    "answer": "2/5",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
     "sourcePage": 21,
     "solution": {
       "en": {
-        "strategy": "Compare the measured masses and use equal water-volume units to obtain the recorded filled fraction.",
+        "strategy": "Use the aligned mass bars to find the empty-basin mass, then read basin C as 4 shaded cells of a 10-cell fill bar.",
         "steps": [
           {
-            "title": "Compare the two masses",
-            "text": "The stated masses differ by 3.1 kg − 2.2 kg = 0.9 kg. Use 10 equal water-volume units to represent a full basin."
+            "title": "Value one water-mass unit",
+            "text": "Using the visual model above, A exceeds B by 3 equal cells, while 3.1 kg − 2.2 kg = 0.9 kg. Thus 1 cell represents 0.9 ÷ 3 = 0.3 kg."
           },
           {
-            "title": "Set the water unit",
-            "text": "The unit model assigns 3 equal water units to 0.9 kg, so 1 unit has mass 0.9 ÷ 3 = 0.3 kg. The empty basin mass is then found by subtracting the water contribution from 2.2 kg."
+            "title": "Remove the common basin mass",
+            "text": "B's 2 water cells weigh 2 × 0.3 = 0.6 kg, so the empty basin weighs 2.2 − 0.6 = 1.6 kg. C's water weighs 2.8 − 1.6 = 1.2 kg = 4 cells."
           },
           {
-            "title": "Find basin C's fraction",
-            "text": "Using the same 0.3 kg water unit, basin C's water corresponds to 4 of the 10 equal units. This gives the recorded filled fraction 5/7."
+            "title": "Read the fill bar",
+            "text": "The visual shades 4 of 10 equal fill cells, so its displayed fraction is 4/10 = 2/5."
           }
         ],
-        "answerCheck": "Check: the mass comparison uses 3.1 kg, 2.2 kg, and 2.8 kg with 0.3 kg equal water units. Answer: 5/7."
+        "answerCheck": "Check: 4 of 10 equal fill units is 4/10 = 2/5. Answer: 2/5."
       },
       "zh-Hans": {
-        "strategy": "比较给出的质量，并用相等的水量单位求出题目答案所记录的装满分数。",
+        "strategy": "用对齐质量条求空盆质量，再把C读成10格装水条中的4个阴影格。",
         "steps": [
           {
-            "title": "比较2个质量",
-            "text": "给出的质量相差3.1 kg − 2.2 kg = 0.9 kg。把1个装满的盆表示为10个相等的水量单位。"
+            "title": "确定每个水量格的质量",
+            "text": "A比B多3个等格，而3.1 kg − 2.2 kg = 0.9 kg。因此1格代表0.9 ÷ 3 = 0.3 kg。"
           },
           {
-            "title": "确定每个水量单位",
-            "text": "等份模型中3个相等水量单位对应0.9 kg，所以1个单位质量为0.9 ÷ 3 = 0.3 kg。然后从2.2 kg减去水的质量，求盆本身的质量。"
+            "title": "去掉共同的盆体质量",
+            "text": "B中2个水格重2 × 0.3 = 0.6 kg，所以空盆重2.2 − 0.6 = 1.6 kg。C中的水重2.8 − 1.6 = 1.2 kg = 4格。"
           },
           {
-            "title": "求C装满的分数",
-            "text": "按同样的0.3 kg水量单位，C中的水对应10个等份单位中的4个。这给出题目所记录的装满分数5/7。"
+            "title": "读出装水条",
+            "text": "图中10个等格有4格阴影，所以图示分数为4/10 = 2/5。"
           }
         ],
-        "answerCheck": "检验：质量比较使用3.1 kg、2.2 kg、2.8 kg和每份0.3 kg的水量单位。答案：5/7。"
+        "answerCheck": "检验：10个相等单位中的4个是4/10 = 2/5。答案：2/5。"
       }
     },
-    "questionZh": "A、B、C是相同的盆。A装1/4满时质量为3.1 kg，B装3/4满时质量为2.2 kg。C的质量为2.8 kg时，装了几分之几满？",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "questionZh": "A、B、C是相同的盆。A装1/2满时质量为3.1 kg，B装1/5满时质量为2.2 kg。C的质量为2.8 kg时，装了几分之几满？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 69,
+      "sourceMethod": "Original compact re-rendering of the printed-solution Step 1 model; values are working relationships only.",
+      "en": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A has 3 more equal water units than B</text><text x=\"22\" y=\"55\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A</text><rect x=\"55\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"68.0\" y=\"54\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"81\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"107\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"159\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"185\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"211\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"263\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"289\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"22\" y=\"91\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B</text><rect x=\"55\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"68.0\" y=\"90\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"81\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"107\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"159\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"185\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"211\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M237 122 v-8 H315 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"276.0\" y=\"134\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">3.1 kg − 2.2 kg = 0.9 kg = 3 units</text><text x=\"250\" y=\"147\" text-anchor=\"middle\" font-size=\"14\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 unit = 0.3 kg</text><text x=\"35\" y=\"180\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">C fill model</text><rect x=\"130\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"205\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"230\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"255\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"355\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"255\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">10 equal units; shade C water units.</text></g>",
+        "alt": "Aligned A and B mass bars isolate a three-unit 0.9 kg difference; C is represented by a ten-unit fill bar."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 500 220",
+        "svg": "<g><text x=\"250\" y=\"18\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A 比 B 多 3 个相等水量单位</text><text x=\"22\" y=\"55\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">A</text><rect x=\"55\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"68.0\" y=\"54\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"81\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"107\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"159\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"185\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"211\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"263\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"289\" y=\"38\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"22\" y=\"91\" text-anchor=\"start\" font-size=\"14\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">B</text><rect x=\"55\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"68.0\" y=\"90\" text-anchor=\"middle\" font-size=\"8\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">b</text><rect x=\"81\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"107\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"133\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"159\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"185\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"211\" y=\"74\" width=\"26\" height=\"22\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><path d=\"M237 122 v-8 H315 v8\" fill=\"none\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"276.0\" y=\"134\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">3.1 kg − 2.2 kg = 0.9 kg = 3 份</text><text x=\"250\" y=\"147\" text-anchor=\"middle\" font-size=\"14\" fill=\"#9a3e20\" font-family=\"Arial, sans-serif\">1 份 = 0.3 kg</text><text x=\"35\" y=\"180\" text-anchor=\"start\" font-size=\"12\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">C 的装水模型</text><rect x=\"130\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"205\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#bfe3f2\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"230\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"255\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"305\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"330\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><rect x=\"355\" y=\"163\" width=\"25\" height=\"26\" rx=\"2\" fill=\"#fff\" stroke=\"#315b7d\" stroke-width=\"1.5\"/><text x=\"255\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17324d\" font-family=\"Arial, sans-serif\">10 个等份；涂出 C 中水量所占的份数。</text></g>",
+        "alt": "对齐的 A、B 质量条分离出 3 份、0.9 kg 的差；C 用 10 格装水条表示。"
+      }
+    }
   },
   {
     "id": 52,
@@ -2420,44 +3158,58 @@ window.QUESTION_BANK = [
     "sourcePage": 22,
     "solution": {
       "en": {
-        "strategy": "Find the tank's full capacity, then use the poured 1/10 to recover the starting water volume.",
+        "strategy": "Read the 10 equal water units and the capacity box together.",
         "steps": [
           {
-            "title": "Find the tank capacity",
-            "text": "The capacity is 20 × 12 × 15 = 3600 cm³."
+            "title": "Value the 10-unit water strip",
+            "text": "The highlighted 1/10 unit is 12 cm³. Therefore all 10 equal units show 10 × 12 = 120 cm³ of water at first."
           },
           {
-            "title": "Recover the starting water",
-            "text": "The poured amount was 12 cm³, and this was 1/10 of the starting water. So the starting volume was 12 × 10 = 120 cm³."
+            "title": "Read the tank-capacity box",
+            "text": "The rectangular prism is 20 cm × 12 cm × 15 cm, so its capacity is 20 × 12 × 15 = 3600 cm³."
           },
           {
-            "title": "Find the unfilled fraction",
-            "text": "Initially filled fraction = 120/3600 = 1/30. Therefore the unfilled fraction was 1 − 1/30 = 29/30."
+            "title": "Compare the two volumes",
+            "text": "The unfilled volume is 3600 − 120 = 3480 cm³. The diagram’s remainder is 3480/3600 = 29/30 of the tank."
           }
         ],
-        "answerCheck": "29/30"
+        "answerCheck": "The unfilled fraction is 29/30."
       },
       "zh-Hans": {
-        "strategy": "先求水箱容量，再由倒出的1/10求原来的水量。",
+        "strategy": "把10等份水量条和水箱容量图连起来读。",
         "steps": [
           {
-            "title": "求水箱容量",
-            "text": "水箱容量为20 × 12 × 15 = 3600 cm³。"
+            "title": "确定10格水量条的数值",
+            "text": "突出的一格是1/10，等于12 cm³。因此10个等格表示起初有10 × 12 = 120 cm³的水。"
           },
           {
-            "title": "求原有水量",
-            "text": "倒出的水为12 cm³，等于原有水量的1/10，所以原有水量为12 × 10 = 120 cm³。"
+            "title": "计算水箱容量",
+            "text": "长方体的尺寸是20 cm × 12 cm × 15 cm，所以容量为20 × 12 × 15 = 3600 cm³。"
           },
           {
-            "title": "求未装水的分数",
-            "text": "开始时装水的分数为120/3600 = 1/30。因此未装水的分数为1 − 1/30 = 29/30。"
+            "title": "比较已装和未装的体积",
+            "text": "未装的体积为3600 − 120 = 3480 cm³。图中的剩余部分是3480/3600 = 29/30。"
           }
         ],
-        "answerCheck": "答案：29/30。"
+        "answerCheck": "未装满的部分占29/30。"
       }
     },
     "questionZh": "一个20 cm × 12 cm × 15 cm的水箱中有水。倒出其中的1/10到一个盆里后，盆里的水量增加12 cm³。起初水箱未装满的部分占水箱容量的几分之几？",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 69,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"45\" y=\"72\" width=\"34\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"79\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"113\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"147\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"181\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"215\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"249\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"283\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"317\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"351\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"45\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">water at first: 10 equal units = 120 cm³</text><text x=\"62\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">1/10</text><path d=\"M45 112v12h34v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"62.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">poured = 12 cm³</text><path d=\"M45 135v12h340v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">10 equal units</text><polyline points=\"448,92 526,58 590,88 513,123 448,92\" fill=\"#eef6ff\" stroke=\"#26364a\" stroke-width=\"1.5\"/><polyline points=\"448,92 448,170 513,203 513,123\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><polyline points=\"513,123 590,88 590,164 513,203\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"510\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">tank capacity</text><text x=\"520\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">20 cm × 12 cm × 15 cm</text><text x=\"520\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">= 3600 cm³</text><text x=\"46\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">water used: 1 unit = 12 cm³</text><text x=\"46\" y=\"232\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">initial water: 10 × 12 = 120 cm³</text>",
+        "alt": "A ten-unit water strip assigns 12 cm³ to one tenth and pairs it with a labelled rectangular-prism tank capacity."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"45\" y=\"72\" width=\"34\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"79\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"113\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"147\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"181\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"215\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"249\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"283\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"317\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"351\" y=\"72\" width=\"34\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"45\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">起初水量：10 个等格 = 120 cm³</text><text x=\"62\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">1/10</text><path d=\"M45 112v12h34v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"62.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">倒出 = 12 cm³</text><path d=\"M45 135v12h340v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"215.0\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">10 个等格</text><polyline points=\"448,92 526,58 590,88 513,123 448,92\" fill=\"#eef6ff\" stroke=\"#26364a\" stroke-width=\"1.5\"/><polyline points=\"448,92 448,170 513,203 513,123\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><polyline points=\"513,123 590,88 590,164 513,203\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"510\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">水箱容量</text><text x=\"520\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">20 cm × 12 cm × 15 cm</text><text x=\"520\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">= 3600 cm³</text><text x=\"46\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">1 格水量 = 12 cm³</text><text x=\"46\" y=\"232\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">起初水量：10 × 12 = 120 cm³</text>",
+        "alt": "10等格水量条把12 cm³对应到十分之一，并与标注尺寸的长方体水箱容量配对。"
+      }
+    }
   },
   {
     "id": 53,
@@ -2469,44 +3221,58 @@ window.QUESTION_BANK = [
     "sourcePage": 22,
     "solution": {
       "en": {
-        "strategy": "Express each day's sales as a fraction of the original number, then use the 15-pen difference.",
+        "strategy": "Use the 12-cell chronological bar to turn every day into equal units.",
         "steps": [
           {
-            "title": "Represent the first two days",
-            "text": "Let the original number be N. Day 1 sales were 1/4N. On day 2, Mathew sold 1/3N more than the day-1 amount, so day-2 sales were 1/4N + 1/3N = 7/12N."
+            "title": "Label the three parts of the bar",
+            "text": "The bar shows first day as 1/4 = 3/12, second day as 1/3 + 1/4 = 7/12, and the third day as 12/12 − 3/12 − 7/12 = 2/12."
           },
           {
-            "title": "Find day-3 sales",
-            "text": "The remaining pens sold on day 3 were N − 1/4N − 7/12N = 1/6N."
+            "title": "Use the bracketed difference",
+            "text": "The second-day section has 7 units and the third-day section has 2 units, so their difference is 5 units. The bracket says these 5 units are 15 pens."
           },
           {
-            "title": "Use the difference",
-            "text": "Day 2 exceeded day 3 by 7/12N − 1/6N = 5/12N. Thus 5/12N = 15, so N = 15 × 12/5 = 36."
+            "title": "Scale the full bar",
+            "text": "One unit is 15 ÷ 5 = 3 pens. All 12 units are 12 × 3 = 36 pens."
           }
         ],
-        "answerCheck": "36 pens"
+        "answerCheck": "The original number was 36 pens."
       },
       "zh-Hans": {
-        "strategy": "把每天卖出的数量表示成原有数量的分数，再利用相差的15支笔。",
+        "strategy": "用按天排列的12格条，把每天的数量化成相同单位。",
         "steps": [
           {
-            "title": "表示前两天的销量",
-            "text": "设原有N支笔。第1天卖出1/4N。第2天比第1天多卖原有数量的1/3，即卖出1/4N + 1/3N = 7/12N。"
+            "title": "标出长条的3部分",
+            "text": "图中第一天是1/4 = 3/12；第二天是1/3 + 1/4 = 7/12；第三天是12/12 − 3/12 − 7/12 = 2/12。"
           },
           {
-            "title": "求第3天的销量",
-            "text": "第3天卖完剩下的笔：N − 1/4N − 7/12N = 1/6N。"
+            "title": "利用括号标出的差",
+            "text": "第二天有7格，第三天有2格，相差5格。括号说明这5格等于15支笔。"
           },
           {
-            "title": "利用相差数量",
-            "text": "第2天比第3天多卖7/12N − 1/6N = 5/12N。由5/12N = 15，得N = 15 × 12/5 = 36。"
+            "title": "还原整条",
+            "text": "1格是15 ÷ 5 = 3支笔。12格一共是12 × 3 = 36支笔。"
           }
         ],
-        "answerCheck": "答案：36支笔。"
+        "answerCheck": "原来有36支笔。"
       }
     },
     "questionZh": "马修第1天卖出笔的1/3，第2天再卖出4支，其余在第3天卖出。第2天比第3天多卖15支笔。求原来有多少支笔。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 69,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"55\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"93\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"131\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"169\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"207\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"245\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"283\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"321\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"359\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"397\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"435\" y=\"90\" width=\"38\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"473\" y=\"90\" width=\"38\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"55\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">original pens: 12 equal units</text><path d=\"M55 132v12h114v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"112.0\" y=\"162\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">first day: 3/12 = 1/4</text><path d=\"M169 132v12h266v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"302.0\" y=\"162\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">second day: 7/12</text><path d=\"M435 132v12h76v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"473.0\" y=\"162\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">third day: 2/12</text><path d=\"M169 174v12h266v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"302.0\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">7 units − 2 units = 5 units = 15 pens</text><text x=\"55\" y=\"236\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 unit = 15 ÷ 5 = 3 pens</text><text x=\"55\" y=\"264\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">whole bar: 12 equal units</text>",
+        "alt": "A 12-unit chronological pen bar groups 3, 7, and 2 units and marks the five-unit comparison."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"55\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"93\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"131\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"169\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"207\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"245\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"283\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"321\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"359\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"397\" y=\"90\" width=\"38\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"435\" y=\"90\" width=\"38\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"473\" y=\"90\" width=\"38\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"55\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">原有笔数：12 个等格</text><path d=\"M55 132v12h114v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"112.0\" y=\"162\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">第一天：3/12 = 1/4</text><path d=\"M169 132v12h266v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"302.0\" y=\"162\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">第二天：7/12</text><path d=\"M435 132v12h76v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"473.0\" y=\"162\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">第三天：2/12</text><path d=\"M169 174v12h266v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"302.0\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">7 格 − 2 格 = 5 格 = 15 支笔</text><text x=\"55\" y=\"236\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 格 = 15 ÷ 5 = 3 支笔</text><text x=\"55\" y=\"264\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">整条：12 个等格</text>",
+        "alt": "12等格的笔数时序条分组为3、7、2格，并标出5格的比较。"
+      }
+    }
   },
   {
     "id": 54,
@@ -2518,44 +3284,58 @@ window.QUESTION_BANK = [
     "sourcePage": 22,
     "solution": {
       "en": {
-        "strategy": "Check the source's stated pack counts against the total cost by pricing each size separately.",
+        "strategy": "Use the 15-unit purchase bar, then convert each coloured section from dollars to packs.",
         "steps": [
           {
-            "title": "Price the small packs",
-            "text": "15 small packs cost 15 × $4 = $60."
+            "title": "Build the 15-unit bar",
+            "text": "Small packs are 1/3 = 5/15. Medium packs are 1/5 + 5/15 = 8/15, leaving 15 − 5 − 8 = 2 units for large packs."
           },
           {
-            "title": "Price the medium and large packs",
-            "text": "16 medium packs cost 16 × $6 = $96, and 3 large packs cost 3 × $8 = $24."
+            "title": "Value one bar unit",
+            "text": "The complete 15-unit bar costs $180, so 1 unit costs $180 ÷ 15 = $12."
           },
           {
-            "title": "Check the total",
-            "text": "The total is $60 + $96 + $24 = $180, giving the stated pack counts."
+            "title": "Turn each section into packs",
+            "text": "Small: 5 × $12 = $60 and $60 ÷ $4 = 15. Medium: 8 × $12 = $96 and $96 ÷ $6 = 16. Large: 2 × $12 = $24 and $24 ÷ $8 = 3."
           }
         ],
-        "answerCheck": "Small: 15; Medium: 16; Large: 3"
+        "answerCheck": "Small: 15; Medium: 16; Large: 3."
       },
       "zh-Hans": {
-        "strategy": "分别计算各类饼干包的价钱，核对题源给出的包数与总价。",
+        "strategy": "用15格购买组成条，再把每种颜色的金额换成包数。",
         "steps": [
           {
-            "title": "计算小包装价钱",
-            "text": "15包小包装的价钱为15 × $4 = $60。"
+            "title": "组成15格长条",
+            "text": "小包装占1/3 = 5/15。中包装占1/5 + 5/15 = 8/15，所以大包装占15 − 5 − 8 = 2格。"
           },
           {
-            "title": "计算中、大包装价钱",
-            "text": "16包中包装的价钱为16 × $6 = $96；3包大包装的价钱为3 × $8 = $24。"
+            "title": "确定每格金额",
+            "text": "完整的15格长条价值$180，所以1格价值$180 ÷ 15 = $12。"
           },
           {
-            "title": "核对总价",
-            "text": "总价为$60 + $96 + $24 = $180，所以包数为题源所列的数量。"
+            "title": "把每段换成包数",
+            "text": "小包装：5 × $12 = $60，$60 ÷ $4 = 15。中包装：8 × $12 = $96，$96 ÷ $6 = 16。大包装：2 × $12 = $24，$24 ÷ $8 = 3。"
           }
         ],
-        "answerCheck": "答案：小包装15包；中包装16包；大包装3包。"
+        "answerCheck": "小包装15包；中包装16包；大包装3包。"
       }
     },
     "questionZh": "埃德蒙买了小、中、大3种装的饼干，价格分别为$4、$6、$8。小包装占总数的1/4；中包装比小包装多4包，总价为$180。求各种包装各买了多少包。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 70,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"48\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"64.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"80\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"96.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"112\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"128.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"144\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"160.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"176\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"192.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"208\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"224.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"240\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"256.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"272\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"288.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"304\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"320.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"336\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"352.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"368\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"384.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"400\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"416.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"432\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"448.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"464\" y=\"74\" width=\"32\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"480.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">L</text><rect x=\"496\" y=\"74\" width=\"32\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"512.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">L</text><path d=\"M48 112v12h160v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"128.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">small: 5 units</text><path d=\"M208 112v12h256v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"336.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">medium: 8 units</text><path d=\"M464 112v12h64v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"496.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">large: 2 units</text><text x=\"48\" y=\"212\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">small cost: 5 × $12 = $60; price per pack: $4</text><text x=\"48\" y=\"238\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">medium cost: 8 × $12 = $96; price per pack: $6</text><text x=\"48\" y=\"264\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">large cost: 2 × $12 = $24; price per pack: $8</text>",
+        "alt": "A fifteen-unit cost bar partitions the purchase into small, medium, and large pack shares before pack-price division."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"48\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"64.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"80\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"96.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"112\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"128.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"144\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"160.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"176\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"192.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">S</text><rect x=\"208\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"224.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"240\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"256.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"272\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"288.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"304\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"320.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"336\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"352.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"368\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"384.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"400\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"416.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"432\" y=\"74\" width=\"32\" height=\"30\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"448.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">M</text><rect x=\"464\" y=\"74\" width=\"32\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"480.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">L</text><rect x=\"496\" y=\"74\" width=\"32\" height=\"30\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"512.0\" y=\"94.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">L</text><path d=\"M48 112v12h160v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"128.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">小包：5 格</text><path d=\"M208 112v12h256v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"336.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">中包：8 格</text><path d=\"M464 112v12h64v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"496.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">大包：2 格</text><text x=\"48\" y=\"212\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">小包金额：5 × $12 = $60；每包 $4</text><text x=\"48\" y=\"238\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">中包金额：8 × $12 = $96；每包 $6</text><text x=\"48\" y=\"264\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">大包金额：2 × $12 = $24；每包 $8</text>",
+        "alt": "15等价成本条把购买分成小、中、大包的份额，再对应每包价格。"
+      }
+    }
   },
   {
     "id": 55,
@@ -2567,44 +3347,58 @@ window.QUESTION_BANK = [
     "sourcePage": 23,
     "solution": {
       "en": {
-        "strategy": "Track both transfers in order and use the equal final amounts with the fixed total of 144.",
+        "strategy": "Work backward with the two transfer bars, starting from the equal final shares.",
         "steps": [
           {
-            "title": "Write the amounts after Ben's transfer",
-            "text": "Let Ben and Tom initially have B and T sweets. Ben gives 1/5B, leaving 4/5B; Tom then has T + 1/5B."
+            "title": "Read the equal final share",
+            "text": "The statement above both bars gives 144 ÷ 2 = 72 sweets each at the end."
           },
           {
-            "title": "Write the final equality",
-            "text": "Tom gives 1/4 of his new amount to Ben. Hence Ben finishes with 4/5B + 1/4(T + 1/5B), while Tom finishes with 3/4(T + 1/5B). Equating these gives T = 7/5B."
+            "title": "Value the upper transfer bar",
+            "text": "Tom’s upper bar has 3 units bracketed as 72 after giving to Ben. Thus 1 unit is 72 ÷ 3 = 24, and the 4 shown units total 4 × 24 = 96."
           },
           {
-            "title": "Use the total",
-            "text": "B + T = 144, so B + 7/5B = 144. Thus 12/5B = 144, B = 60, and T = 84."
+            "title": "Use the lower transfer bar",
+            "text": "The remaining amount shown for Ben is 144 − 96 = 48. Ben’s lower bar has 4 units equal to 48, so 1 unit is 48 ÷ 4 = 12 and 5 units are 5 × 12 = 60. The total then gives Tom 144 − 60 = 84."
           }
         ],
-        "answerCheck": "Ben: 60; Tom: 84"
+        "answerCheck": "Ben: 60; Tom: 84."
       },
       "zh-Hans": {
-        "strategy": "按顺序记录2次转移，并利用最后数量相等和总数144。",
+        "strategy": "从最后相等的数量出发，用两条转移条倒推。",
         "steps": [
           {
-            "title": "表示Ben转出后的数量",
-            "text": "设Ben和Tom开始时分别有B和T颗糖。Ben给出1/5B后剩4/5B；Tom此时有T + 1/5B。"
+            "title": "读出最后相等的份数",
+            "text": "两条长条上方给出最后各有144 ÷ 2 = 72颗糖。"
           },
           {
-            "title": "列出最后相等关系",
-            "text": "Tom再给Ben自己现有糖的1/4。因此Ben最后有4/5B + 1/4(T + 1/5B)，Tom最后有3/4(T + 1/5B)。令两者相等，得T = 7/5B。"
+            "title": "确定上方转移条每格的数值",
+            "text": "Tom上方的条中，括起来的3格是给Ben后剩下的72。因此1格是72 ÷ 3 = 24，图中4格合共是4 × 24 = 96。"
           },
           {
-            "title": "利用总数",
-            "text": "B + T = 144，所以B + 7/5B = 144。故12/5B = 144，B = 60，T = 84。"
+            "title": "使用下方转移条",
+            "text": "Ben图中剩下的数量为144 − 96 = 48。Ben下方的4格等于48，所以1格是48 ÷ 4 = 12，5格是5 × 12 = 60。总数为144，所以Tom有144 − 60 = 84。"
           }
         ],
-        "answerCheck": "答案：Ben有60颗；Tom有84颗。"
+        "answerCheck": "Ben有60颗；Tom有84颗。"
       }
     },
     "questionZh": "本和汤姆共有144颗糖。本给汤姆自己糖的1/4；汤姆给本自己糖的1/3后，两人的糖数相等。求两人原来各有多少颗糖。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 70,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"160\" y=\"70\" width=\"58\" height=\"34\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"218\" y=\"70\" width=\"58\" height=\"34\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"276\" y=\"70\" width=\"58\" height=\"34\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"334\" y=\"70\" width=\"58\" height=\"34\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"160\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"206\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"252\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"298\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"344\" y=\"174\" width=\"46\" height=\"34\" fill=\"#fda4af\" stroke=\"#26364a\"/><text x=\"45\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Tom</text><text x=\"45\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Ben</text><path d=\"M160 112v12h174v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"247.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">after giving: 3 units = 72</text><text x=\"364\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">to Ben</text><text x=\"160\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">1 Tom unit = 72 ÷ 3 = 24</text><path d=\"M160 216v12h184v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"252.0\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">after giving: 4 units = 48</text><text x=\"367\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">to Tom</text><text x=\"160\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">1 Ben unit = 48 ÷ 4 = 12</text><text x=\"250\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">final equal share: 144 ÷ 2 = 72 each</text>",
+        "alt": "Linked four-unit and five-unit transfer bars retain the equal final share and the units remaining after each transfer."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"160\" y=\"70\" width=\"58\" height=\"34\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"218\" y=\"70\" width=\"58\" height=\"34\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"276\" y=\"70\" width=\"58\" height=\"34\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"334\" y=\"70\" width=\"58\" height=\"34\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"160\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"206\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"252\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"298\" y=\"174\" width=\"46\" height=\"34\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"344\" y=\"174\" width=\"46\" height=\"34\" fill=\"#fda4af\" stroke=\"#26364a\"/><text x=\"45\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Tom</text><text x=\"45\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Ben</text><path d=\"M160 112v12h174v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"247.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">给出后：3 格 = 72</text><text x=\"364\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">给 Ben</text><text x=\"160\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Tom 的 1 格 = 72 ÷ 3 = 24</text><path d=\"M160 216v12h184v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"252.0\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">给出后：4 格 = 48</text><text x=\"367\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">给 Tom</text><text x=\"160\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Ben 的 1 格 = 48 ÷ 4 = 12</text><text x=\"250\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">最后相等：144 ÷ 2 = 各 72</text>",
+        "alt": "相连的4格和5格转移条保留最终相等的份额，以及每次转移后剩余的单位。"
+      }
+    }
   },
   {
     "id": 56,
@@ -2616,44 +3410,58 @@ window.QUESTION_BANK = [
     "sourcePage": 23,
     "solution": {
       "en": {
-        "strategy": "Follow the two transfers in sequence and combine the final equality with the total of 240.",
+        "strategy": "Use the publisher’s two aligned transfer rows as one 20-unit total.",
         "steps": [
           {
-            "title": "Represent the first transfer",
-            "text": "Let Claudia and Agnes initially have C and A curry puffs. Claudia gives 1/4C, leaving 3/4C; Agnes then has A + 1/4C."
+            "title": "Read the aligned rows",
+            "text": "Claudia’s row has 12 equal units and Agnes’s row has 8 equal units. Together the model has 20 units for 240 curry puffs; the transfer marks show 1/4 = 3/12."
           },
           {
-            "title": "Set the final amounts equal",
-            "text": "Agnes gives 1/11 of her new amount to Claudia. Thus Claudia has 3/4C + 1/11(A + 1/4C), and Agnes has 10/11(A + 1/4C). Equality simplifies to C = 3/2A."
+            "title": "Find one unit",
+            "text": "Each equal unit is 240 ÷ 20 = 12 curry puffs."
           },
           {
-            "title": "Use the total",
-            "text": "C + A = 240 and C = 3/2A. Therefore 5/2A = 240, so A = 96 and C = 144."
+            "title": "Scale each original row",
+            "text": "Claudia’s 12 units are 12 × 12 = 144 curry puffs. Agnes’s 8 units are 8 × 12 = 96 curry puffs."
           }
         ],
-        "answerCheck": "Claudia: 144; Agnes: 96"
+        "answerCheck": "Claudia: 144; Agnes: 96."
       },
       "zh-Hans": {
-        "strategy": "按顺序处理2次转移，并把最后相等的数量与总数240结合。",
+        "strategy": "把原解答中两条对齐的转移条看成合共20格。",
         "steps": [
           {
-            "title": "表示第一次转移",
-            "text": "设Claudia和Agnes开始时分别有C和A个咖喱角。Claudia给出1/4C后剩3/4C；Agnes此时有A + 1/4C。"
+            "title": "读出两条对齐长条",
+            "text": "Claudia的条有12个等格，Agnes的条有8个等格。模型一共有20格，对应240个咖喱角；转移标记说明1/4 = 3/12。"
           },
           {
-            "title": "列出最后相等关系",
-            "text": "Agnes再给Claudia自己现有数量的1/11。因此Claudia有3/4C + 1/11(A + 1/4C)，Agnes有10/11(A + 1/4C)。令两者相等，化简得C = 3/2A。"
+            "title": "求每格数量",
+            "text": "每个等格是240 ÷ 20 = 12个咖喱角。"
           },
           {
-            "title": "利用总数",
-            "text": "C + A = 240，且C = 3/2A。因此5/2A = 240，A = 96，C = 144。"
+            "title": "计算两人的原有数量",
+            "text": "Claudia的12格是12 × 12 = 144个。Agnes的8格是8 × 12 = 96个。"
           }
         ],
-        "answerCheck": "答案：Claudia有144个；Agnes有96个。"
+        "answerCheck": "Claudia有144个；Agnes有96个。"
       }
     },
     "questionZh": "克劳迪娅给阿格尼丝自己咖喱角的1/4；阿格尼丝给克劳迪娅自己咖喱角的1/3后，两人的数量相等，共有240个。求两人原来各有多少个。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 71,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"100\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"130\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"160\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"190\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"220\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"250\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"280\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"310\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"340\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"370\" y=\"70\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"400\" y=\"70\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"430\" y=\"70\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"100\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"130\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"160\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"190\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"220\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"250\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"280\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"310\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"340\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"370\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"400\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"430\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><text x=\"38\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Claudia</text><text x=\"50\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Agnes</text><path d=\"M100 108v12h360v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"280.0\" y=\"138\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">12 units: Claudia</text><path d=\"M100 200v12h240v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"220.0\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">8 units: Agnes</text><text x=\"370\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">dashed extension</text><text x=\"370\" y=\"67\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">C C C</text><text x=\"415\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">A from Agnes</text><path d=\"M385 105 C420 115 420 138 390 150\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.5\"/><path d=\"M390 150l6-10l6 8z\" fill=\"#dc2626\"/><text x=\"100\" y=\"242\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1/4 = 3/12</text><text x=\"100\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">20 units = 240 curry puffs; 1 unit = 12</text>",
+        "alt": "Two aligned unit rows recreate the printed transfer layout: 12 Claudia units, 8 Agnes units, a three-unit C block, A marking, arrow, and dashed extension."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"100\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"130\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"160\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"190\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"220\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"250\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"280\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"310\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"340\" y=\"70\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"370\" y=\"70\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"400\" y=\"70\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"430\" y=\"70\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"100\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"130\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"160\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"190\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"220\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"250\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"280\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"310\" y=\"162\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"340\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"370\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"400\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"430\" y=\"162\" width=\"30\" height=\"28\" fill=\"#ffffff\" stroke=\"#26364a\"/><text x=\"38\" y=\"89\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Claudia</text><text x=\"50\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Agnes</text><path d=\"M100 108v12h360v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"280.0\" y=\"138\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Claudia：12 格</text><path d=\"M100 200v12h240v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"220.0\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Agnes：8 格</text><text x=\"370\" y=\"181\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">虚线延长</text><text x=\"370\" y=\"67\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">C C C</text><text x=\"415\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">A：来自 Agnes</text><path d=\"M385 105 C420 115 420 138 390 150\" fill=\"none\" stroke=\"#dc2626\" stroke-width=\"1.5\"/><path d=\"M390 150l6-10l6 8z\" fill=\"#dc2626\"/><text x=\"100\" y=\"242\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1/4 = 3/12</text><text x=\"100\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">20 格 = 240 个咖喱角；1 格 = 12</text>",
+        "alt": "两行对齐单位条重画印刷解答的转移布局：Claudia的12格、Agnes的8格、3格C区、A标记、箭头及虚线延长。"
+      }
+    }
   },
   {
     "id": 57,
@@ -2665,44 +3473,58 @@ window.QUESTION_BANK = [
     "sourcePage": 23,
     "solution": {
       "en": {
-        "strategy": "Use the two rose sales to find the original roses, then use the 60 flowers left after the first sale to find the orchids.",
+        "strategy": "Follow the 15-part roses bar, then the 5-part orchids remainder bar.",
         "steps": [
           {
-            "title": "Find the original roses",
-            "text": "After the additional 14 roses were sold, 1/5 of the original roses remained. Thus 14 = (1 − 1/3 − 1/5)R = 7/15R, so R = 30."
+            "title": "Value the roses bar",
+            "text": "In the 15-part bar, 1/3 = 5/15 were sold yesterday, 7 units are the later 14 roses sold, and 1/5 = 3/15 are left. Thus 1 unit is 14 ÷ 7 = 2 roses and the full bar is 15 × 2 = 30 roses."
           },
           {
-            "title": "Use the number left after the first sale",
-            "text": "After the first sale, 2/3 of 30 roses, or 20 roses, remained. Since 60 flowers remained altogether, 40 orchids remained."
+            "title": "Find the flowers left after the first sale",
+            "text": "The roses remaining then are 10 units, or 10 × 2 = 20. Of the 60 flowers left, the orchids remaining are 60 − 20 = 40."
           },
           {
-            "title": "Recover the orchids and total",
-            "text": "The 40 orchids were 4/5 of the original orchid number, so the original orchid number was 40 ÷ 4/5 = 50. The original total was 50 + 30 = 80."
+            "title": "Use the orchids bar",
+            "text": "The orchids bar has 4 left units after 1/5 was sold. Therefore 1 unit is 40 ÷ 4 = 10 and all 5 units are 5 × 10 = 50 orchids. The original total is 50 + 30 = 80."
           }
         ],
-        "answerCheck": "80 orchids and roses"
+        "answerCheck": "There were 80 orchids and roses."
       },
       "zh-Hans": {
-        "strategy": "先利用2次卖玫瑰花求原有玫瑰花数，再利用第一次卖出后剩下的60朵求兰花数。",
+        "strategy": "先读15格玫瑰条，再读5格兰花剩余条。",
         "steps": [
           {
-            "title": "求原有玫瑰花数",
-            "text": "再卖出14朵玫瑰花后，剩下原有玫瑰花的1/5。因此14 = (1 − 1/3 − 1/5)R = 7/15R，故R = 30。"
+            "title": "确定玫瑰条每格的数值",
+            "text": "15格条中，昨天卖出1/3 = 5/15；后来卖出的14朵占7格；剩下1/5 = 3/15。因此1格是14 ÷ 7 = 2朵，15格共有15 × 2 = 30朵玫瑰。"
           },
           {
-            "title": "利用第一次卖出后剩下的数量",
-            "text": "第一次卖出后，剩下2/3 × 30 = 20朵玫瑰花。总共剩60朵花，所以剩下40朵兰花。"
+            "title": "求第一次卖出后剩下的花",
+            "text": "当时剩下的玫瑰有10格，即10 × 2 = 20朵。总共剩60朵，所以剩下的兰花有60 − 20 = 40朵。"
           },
           {
-            "title": "还原兰花数和总数",
-            "text": "40朵兰花是原有兰花的4/5，所以原有兰花数为40 ÷ 4/5 = 50。原有总数为50 + 30 = 80。"
+            "title": "使用兰花条",
+            "text": "兰花条中卖出1/5后还剩4格。因此1格是40 ÷ 4 = 10朵，5格共有5 × 10 = 50朵兰花。原有总数为50 + 30 = 80。"
           }
         ],
-        "answerCheck": "答案：兰花和玫瑰花共80朵。"
+        "answerCheck": "兰花和玫瑰原来共有80朵。"
       }
     },
     "questionZh": "一名花商卖出兰花的1/5和玫瑰的1/3后，剩下60朵。又卖出14朵玫瑰后，剩下的玫瑰是原来数量的1/2。求原来花的总数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 71,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"55\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"85\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"115\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"145\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"175\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"235\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"265\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"295\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"325\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"355\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"385\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"415\" y=\"66\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"445\" y=\"66\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"475\" y=\"66\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"55\" y=\"190\" width=\"52\" height=\"28\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"107\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"159\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"211\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"263\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">roses: 15 equal units</text><path d=\"M55 104v12h150v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"130.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">sold yesterday: 5 units = 1/3</text><path d=\"M205 104v12h210v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">sold later: 7 units = 14</text><path d=\"M415 104v12h90v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"460.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">left: 3 units = 1/5</text><text x=\"55\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">1 unit = 14 ÷ 7 = 2 roses</text><text x=\"55\" y=\"166\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">original roses: 15 equal units</text><text x=\"55\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">orchids: 5 equal units</text><path d=\"M55 228v12h52v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"81.0\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">sold: 1/5</text><path d=\"M107 228v12h208v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"211.0\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">left: 4 units = 40</text><text x=\"55\" y=\"270\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">orchids: 1 unit = 40 ÷ 4 = 10</text>",
+        "alt": "A fifteen-part roses bar and five-part orchids bar preserve the sequential sale fractions and the values used to establish units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"55\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"85\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"115\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"145\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"175\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"235\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"265\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"295\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"325\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"355\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"385\" y=\"66\" width=\"30\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"415\" y=\"66\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"445\" y=\"66\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"475\" y=\"66\" width=\"30\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"55\" y=\"190\" width=\"52\" height=\"28\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"107\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"159\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"211\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"263\" y=\"190\" width=\"52\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">玫瑰：15 个等格</text><path d=\"M55 104v12h150v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"130.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">昨天卖出：5 格 = 1/3</text><path d=\"M205 104v12h210v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">后来卖出：7 格 = 14</text><path d=\"M415 104v12h90v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"460.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">剩下：3 格 = 1/5</text><text x=\"55\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">1 格 = 14 ÷ 7 = 2 朵</text><text x=\"55\" y=\"166\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">原有玫瑰：15 个等格</text><text x=\"55\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">兰花：5 个等格</text><path d=\"M55 228v12h52v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"81.0\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">卖出：1/5</text><path d=\"M107 228v12h208v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"211.0\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">剩下：4 格 = 40</text><text x=\"55\" y=\"270\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">兰花：1 格 = 40 ÷ 4 = 10</text>",
+        "alt": "15格玫瑰条和5格兰花条保留连续售出的分数及确定单位所用数值。"
+      }
+    }
   },
   {
     "id": 58,
@@ -2714,44 +3536,58 @@ window.QUESTION_BANK = [
     "sourcePage": 24,
     "solution": {
       "en": {
-        "strategy": "Express all three book groups as fractions of the total, then use the 63-book difference.",
+        "strategy": "Partition the whole into the 20 equal book parts shown by the bar.",
         "steps": [
           {
-            "title": "Represent Chinese and English books",
-            "text": "Let the total be N. Chinese books were 1/4N, leaving 3/4N. English books were 1/5 of that remainder, or 3/20N."
+            "title": "Label the three sections",
+            "text": "Using the visual model above, Chinese books are 1/4 = 5/20. English books are 1/5 of the remaining 3/4, so they are 1/5 × 3/4 = 3/20. The remaining Malay section is 20 − 5 − 3 = 12 parts."
           },
           {
-            "title": "Represent Malay books",
-            "text": "Malay books were the rest: N − 1/4N − 3/20N = 3/5N."
+            "title": "Use the bracketed difference",
+            "text": "Malay has 12 parts and English has 3 parts, so the marked difference is 9 parts = 63 books."
           },
           {
-            "title": "Use the difference",
-            "text": "Malay exceeded English by 3/5N − 3/20N = 9/20N = 63. Hence N = 140, giving 35 Chinese, 21 English, and 84 Malay books."
+            "title": "Scale every section",
+            "text": "One part is 63 ÷ 9 = 7 books. Chinese: 5 × 7 = 35; English: 3 × 7 = 21; Malay: 12 × 7 = 84."
           }
         ],
-        "answerCheck": "Chinese: 35; English: 21; Malay: 84"
+        "answerCheck": "Chinese: 35; English: 21; Malay: 84."
       },
       "zh-Hans": {
-        "strategy": "把3类书都表示成总数的分数，再利用相差的63本。",
+        "strategy": "把图书总数按长条分成20个等份。",
         "steps": [
           {
-            "title": "表示华文书和英文书",
-            "text": "设总数为N。华文书有1/4N，余下3/4N。英文书占余下书的1/5，即3/20N。"
+            "title": "标出3个部分",
+            "text": "结合上面的图示模型，中文书占1/4 = 5/20。英文书占余下3/4的1/5，即1/5 × 3/4 = 3/20。马来文书是剩下的20 − 5 − 3 = 12格。"
           },
           {
-            "title": "表示马来文书",
-            "text": "马来文书是其余部分：N − 1/4N − 3/20N = 3/5N。"
+            "title": "利用括号标出的差",
+            "text": "马来文书有12格，英文书有3格，标出的差是9格 = 63本。"
           },
           {
-            "title": "利用相差数量",
-            "text": "马来文书比英文书多3/5N − 3/20N = 9/20N = 63。因此N = 140，华文书35本，英文书21本，马来文书84本。"
+            "title": "计算每一部分",
+            "text": "1格是63 ÷ 9 = 7本。中文书：5 × 7 = 35本；英文书：3 × 7 = 21本；马来文书：12 × 7 = 84本。"
           }
         ],
-        "answerCheck": "答案：华文书35本；英文书21本；马来文书84本。"
+        "answerCheck": "中文书35本；英文书21本；马来文书84本。"
       }
     },
     "questionZh": "中文书、英文书和马来文书中，中文书占1/4；余下的书中有1/3是英文书。马来文书比英文书多63本。求每种书各有多少本。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 72,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"40\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"65\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"90\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"115\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"140\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"190\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"215\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"240\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"265\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"290\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"315\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"340\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"365\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"390\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"415\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"440\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"465\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"490\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"515\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"40\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">all books: 20 equal parts</text><path d=\"M40 116v12h125v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"102.5\" y=\"146\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Chinese: 5/20 = 1/4</text><path d=\"M165 116v12h75v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"202.5\" y=\"146\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">English: 3/20</text><path d=\"M240 116v12h300v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"390.0\" y=\"146\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Malay: 12/20</text><path d=\"M240 158v12h300v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"390.0\" y=\"188\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Malay − English = 9 parts = 63 books</text><text x=\"40\" y=\"221\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 part = 63 ÷ 9 = 7 books</text><text x=\"40\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Chinese: 5 parts; English: 3 parts; Malay: 12 parts</text>",
+        "alt": "A twenty-part whole-books bar separates Chinese, English, and Malay shares and marks the nine-part difference."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"40\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"65\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"90\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"115\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"140\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"190\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"215\" y=\"78\" width=\"25\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"240\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"265\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"290\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"315\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"340\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"365\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"390\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"415\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"440\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"465\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"490\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"515\" y=\"78\" width=\"25\" height=\"28\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"40\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">全部图书：20 个等份</text><path d=\"M40 116v12h125v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"102.5\" y=\"146\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">华文书：5/20 = 1/4</text><path d=\"M165 116v12h75v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"202.5\" y=\"146\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">英文书：3/20</text><path d=\"M240 116v12h300v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"390.0\" y=\"146\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">马来文书：12/20</text><path d=\"M240 158v12h300v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"390.0\" y=\"188\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">马来文书 − 英文书 = 9 份 = 63 本</text><text x=\"40\" y=\"221\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 份 = 63 ÷ 9 = 7 本</text><text x=\"40\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">华文书5份；英文书3份；马来文书12份</text>",
+        "alt": "20等份的图书总量条分出华文、英文和马来文书份额，并标出9份差额。"
+      }
+    }
   },
   {
     "id": 59,
@@ -2763,44 +3599,58 @@ window.QUESTION_BANK = [
     "sourcePage": 24,
     "solution": {
       "en": {
-        "strategy": "Use the pear-sale relationship first, then connect the remaining pears to the remaining apples.",
+        "strategy": "Link the 7-part pears bar to the 6-part apples bar.",
         "steps": [
           {
-            "title": "Find pears remaining",
-            "text": "The 7 pears sold were 1/6 of the pears not sold. Therefore pears remaining = 7 × 6 = 42, so original pears = 42 + 7 = 49."
+            "title": "Read the pears bar",
+            "text": "The pears bar has 1 sold unit labelled 7 and 6 not-sold units. Thus the not-sold pears are 6 × 7 = 42 and all 7 units give 7 × 7 = 49 pears."
           },
           {
-            "title": "Find apples remaining",
-            "text": "Pears left were 1/4 of apples left, so apples remaining = 42 × 4 = 168."
+            "title": "Link the two remainders",
+            "text": "The diagram states that the 42 pears left are 1/4 of the apples left. Hence the apples-left section is 4 × 42 = 168."
           },
           {
-            "title": "Recover the original apples",
-            "text": "After selling 1/3 of the apples, 2/3 remained. Thus original apples = 168 ÷ 2/3 = 252."
+            "title": "Complete the apples bar",
+            "text": "The apples bar represents 1/3 sold as 2 of 6 units and 4 units not sold. Each unit is 42, so all 6 units are 6 × 42 = 252 apples."
           }
         ],
-        "answerCheck": "Apples: 252; Pears: 49"
+        "answerCheck": "Apples: 252; Pears: 49."
       },
       "zh-Hans": {
-        "strategy": "先利用梨的售出关系求剩下的梨，再把剩梨与剩苹果联系起来。",
+        "strategy": "把7格梨条与6格苹果条的剩余部分连起来。",
         "steps": [
           {
-            "title": "求剩下的梨",
-            "text": "卖出的7个梨是不卖出的梨的1/6。因此剩梨为7 × 6 = 42个，原有梨为42 + 7 = 49个。"
+            "title": "读出梨条",
+            "text": "梨条中卖出的1格标为7，未卖出的有6格。因此剩下的梨是6 × 7 = 42个，7格总数是7 × 7 = 49个。"
           },
           {
-            "title": "求剩下的苹果",
-            "text": "剩梨是剩苹果的1/4，所以剩苹果为42 × 4 = 168个。"
+            "title": "连接两个剩余部分",
+            "text": "图中说明剩下的42个梨是剩下苹果的1/4。因此剩下的苹果部分是4 × 42 = 168个。"
           },
           {
-            "title": "还原原有苹果数",
-            "text": "卖出苹果的1/3后，剩下2/3。因此原有苹果数为168 ÷ 2/3 = 252。"
+            "title": "完成苹果条",
+            "text": "苹果条把卖出的1/3表示为6格中的2格，未卖出的是4格。每格是42个，所以6格共有6 × 42 = 252个苹果。"
           }
         ],
-        "answerCheck": "答案：苹果252个；梨49个。"
+        "answerCheck": "苹果252个；梨49个。"
       }
     },
     "questionZh": "卖出苹果的1/3和7个梨后，剩下的梨是剩下苹果的1/4。卖出的梨是未卖出梨的1/7。求原来苹果和梨各有多少个。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 72,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"145\" y=\"63\" width=\"45\" height=\"30\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"190\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"235\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"280\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"325\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"370\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"415\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"145\" y=\"171\" width=\"52\" height=\"30\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"197\" y=\"171\" width=\"52\" height=\"30\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"249\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"301\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"353\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"405\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"45\" y=\"84\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">pears</text><text x=\"45\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">apples</text><path d=\"M145 101v12h45v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"167.5\" y=\"131\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">sold = 7</text><path d=\"M190 101v12h270v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"131\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">not sold = 42</text><path d=\"M145 209v12h104v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"197.0\" y=\"239\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">sold = 1/3</text><path d=\"M249 209v12h208v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"353.0\" y=\"239\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">not sold: 4 units</text><text x=\"145\" y=\"137\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">pears: 1 sold unit + 6 not-sold units</text><text x=\"145\" y=\"247\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">pears left = 1/4 of apples left</text><text x=\"145\" y=\"273\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">apples: 4 not-sold units = 4 × 42</text>",
+        "alt": "Paired pears and apples bars link the seven-part pear structure to the apples’ two-sold and four-not-sold structure."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"145\" y=\"63\" width=\"45\" height=\"30\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"190\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"235\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"280\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"325\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"370\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"415\" y=\"63\" width=\"45\" height=\"30\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"145\" y=\"171\" width=\"52\" height=\"30\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"197\" y=\"171\" width=\"52\" height=\"30\" fill=\"#fda4af\" stroke=\"#26364a\"/><rect x=\"249\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"301\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"353\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"405\" y=\"171\" width=\"52\" height=\"30\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"45\" y=\"84\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">梨</text><text x=\"45\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">苹果</text><path d=\"M145 101v12h45v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"167.5\" y=\"131\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">卖出 = 7</text><path d=\"M190 101v12h270v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"131\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">未卖 = 42</text><path d=\"M145 209v12h104v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"197.0\" y=\"239\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">卖出 = 1/3</text><path d=\"M249 209v12h208v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"353.0\" y=\"239\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">未卖：4 格</text><text x=\"145\" y=\"137\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">梨：1 个卖出格 + 6 个未卖格</text><text x=\"145\" y=\"247\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">梨剩下数 = 苹果剩下数的 1/4</text><text x=\"145\" y=\"273\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">苹果：4 个未卖格 = 4 × 42</text>",
+        "alt": "成对的梨和苹果条把梨的7份结构连接到苹果的2格卖出和4格未卖结构。"
+      }
+    }
   },
   {
     "id": 60,
@@ -2812,44 +3662,58 @@ window.QUESTION_BANK = [
     "sourcePage": 24,
     "solution": {
       "en": {
-        "strategy": "Split the notes into $2, $10, and $5 groups as fractions of the total number of notes.",
+        "strategy": "Use the repeating 10-note denomination strip as one complete set.",
         "steps": [
           {
-            "title": "Express each note group",
-            "text": "Let there be N notes. $2 notes = 1/5N. Of the remaining 4/5N notes, $10 notes = 3/8 × 4/5N = 3/10N, leaving $5 notes = 1/2N."
+            "title": "Read one note set",
+            "text": "The strip contains two $2 notes, three $10 notes, and five $5 notes: 10 notes in one set."
           },
           {
-            "title": "Form the value equation",
-            "text": "Their total value is 2(1/5N) + 10(3/10N) + 5(1/2N) = 295."
+            "title": "Find the value and number of sets",
+            "text": "One set is (2 × $2) + (3 × $10) + (5 × $5) = $59. Therefore $295 ÷ $59 = 5 identical sets."
           },
           {
-            "title": "Solve and count $10 notes",
-            "text": "The equation is 59/10N = 295, so N = 50. Therefore the number of $10 notes is 3/10 × 50 = 15."
+            "title": "Count the highlighted notes",
+            "text": "Each set has 3 ten-dollar notes, so 5 sets have 5 × 3 = 15 ten-dollar notes."
           }
         ],
-        "answerCheck": "15 ten-dollar notes"
+        "answerCheck": "There are 15 ten-dollar notes."
       },
       "zh-Hans": {
-        "strategy": "把$2、$10和$5纸币分别表示成纸币总数的分数。",
+        "strategy": "把重复的10格钞票条看成1个完整组合。",
         "steps": [
           {
-            "title": "表示各类纸币",
-            "text": "设共有N张纸币。$2纸币有1/5N张。余下4/5N张中的3/8是$10纸币，即3/10N张，剩下的$5纸币有1/2N张。"
+            "title": "读出1组钞票",
+            "text": "这条中有2张$2、3张$10和5张$5纸币，合共10张。"
           },
           {
-            "title": "列出金额方程",
-            "text": "总金额为2(1/5N) + 10(3/10N) + 5(1/2N) = 295。"
+            "title": "求每组金额和组数",
+            "text": "1组的金额是(2 × $2) + (3 × $10) + (5 × $5) = $59。因此$295 ÷ $59 = 5组相同的钞票。"
           },
           {
-            "title": "求$10纸币数量",
-            "text": "方程化为59/10N = 295，所以N = 50。$10纸币有3/10 × 50 = 15张。"
+            "title": "数出突出显示的纸币",
+            "text": "每组有3张$10纸币，所以5组有5 × 3 = 15张$10纸币。"
           }
         ],
-        "answerCheck": "答案：15张$10纸币。"
+        "answerCheck": "有15张$10纸币。"
       }
     },
     "questionZh": "琼斯先生的纸币中有1/4是$2纸币；其余纸币中有2/3是$10纸币，剩下的是$5纸币。总额为$295。有多少张$10纸币？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 72,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"90\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"111.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$2</text><rect x=\"132\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"153.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$2</text><rect x=\"174\" y=\"75\" width=\"42\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"195.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$10</text><rect x=\"216\" y=\"75\" width=\"42\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"237.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$10</text><rect x=\"258\" y=\"75\" width=\"42\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"279.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$10</text><rect x=\"300\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"321.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"342\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"363.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"384\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"405.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"426\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"447.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"468\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"489.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"90\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"125\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"175\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"210\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"260\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"295\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"345\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"380\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"430\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"465\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><text x=\"90\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">one 10-note set</text><path d=\"M90 115v12h420v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">1 set: (2 × $2) + (3 × $10) + (5 × $5) = $59</text><text x=\"90\" y=\"157\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">$295 ÷ $59 = 5 sets</text><text x=\"90\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">each set contains 3 ten-dollar notes</text>",
+        "alt": "A ten-note denomination strip is bracketed as one $59 set, with five repeated set markers for the total."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"90\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"111.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$2</text><rect x=\"132\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><text x=\"153.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$2</text><rect x=\"174\" y=\"75\" width=\"42\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"195.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$10</text><rect x=\"216\" y=\"75\" width=\"42\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"237.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$10</text><rect x=\"258\" y=\"75\" width=\"42\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"279.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$10</text><rect x=\"300\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"321.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"342\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"363.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"384\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"405.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"426\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"447.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"468\" y=\"75\" width=\"42\" height=\"32\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"489.0\" y=\"96.0\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#17324d\" text-anchor=\"middle\">$5</text><rect x=\"90\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"125\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"175\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"210\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"260\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"295\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"345\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"380\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><rect x=\"430\" y=\"175\" width=\"70\" height=\"24\" fill=\"#f8fafc\" stroke=\"#26364a\"/><text x=\"465\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"middle\">1 set</text><text x=\"90\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 组共10张钞票</text><path d=\"M90 115v12h420v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">1 组：(2 × $2) + (3 × $10) + (5 × $5) = $59</text><text x=\"90\" y=\"157\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">$295 ÷ $59 = 5 组</text><text x=\"90\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">每组有3张十元钞票</text>",
+        "alt": "10格钞票面额条括为价值$59的一组，并用5个重复组标记表示总额。"
+      }
+    }
   },
   {
     "id": 61,
@@ -2861,44 +3725,58 @@ window.QUESTION_BANK = [
     "sourcePage": 25,
     "solution": {
       "en": {
-        "strategy": "Use the initial fractional equality for a ratio, then use Jim's transfer and the final difference.",
+        "strategy": "Compare the before-and-after marble bars to value one equal unit.",
         "steps": [
           {
-            "title": "Find the initial ratio",
-            "text": "1/2 of Jim's marbles equalled 2/3 of Alice's, so Jim : Alice = 4 : 3."
+            "title": "Read the two states",
+            "text": "Before the transfer, the aligned bars show Jim : Alice = 4 : 3. After the transfer, Jim has 5 units and Alice has 6 original units plus 3 transferred units, or 9 units; the gap is 4 units = 40."
           },
           {
-            "title": "Use Jim's amount left",
-            "text": "After giving 30 marbles, Jim had 5/8 of his original number left. Thus 30 was 3/8 of Jim's original number, so Jim originally had 30 ÷ 3/8 = 80 marbles."
+            "title": "Value one unit",
+            "text": "The transfer bracket marks 3 units = 30 marbles, so 1 unit = 30 ÷ 3 = 10 marbles."
           },
           {
-            "title": "Find Alice's original number",
-            "text": "From the ratio 4 : 3, Alice originally had 80 × 3/4 = 60 marbles. Check: after Jim gives 30, they have 50 and 90, so Alice is 40 ahead."
+            "title": "Return to the original bars",
+            "text": "Jim’s original bar is 8 units, so 8 × 10 = 80 marbles. Alice’s original bar is 6 units, so 6 × 10 = 60 marbles."
           }
         ],
-        "answerCheck": "Jim: 80; Alice: 60"
+        "answerCheck": "Jim: 80; Alice: 60."
       },
       "zh-Hans": {
-        "strategy": "先由开始时的分数关系求比例，再核对Jim转出30个弹珠后的条件。",
+        "strategy": "比较转移前和转移后的弹珠条，确定每个等格的数值。",
         "steps": [
           {
-            "title": "求开始时的比例",
-            "text": "Jim弹珠的1/2等于Alice弹珠的2/3，所以Jim : Alice = 4 : 3。"
+            "title": "读出两个状态",
+            "text": "转移前，对齐长条表示Jim : Alice = 4 : 3。转移后，Jim有5格；Alice有6格原有部分加3格转入部分，共9格；相差4格 = 40。"
           },
           {
-            "title": "利用Jim剩下的数量",
-            "text": "Jim给出30个后，剩下原有数量的5/8。因此30个是原有数量的3/8，Jim原有30 ÷ 3/8 = 80个。"
+            "title": "确定每格数量",
+            "text": "转移括号标出3格 = 30个弹珠，所以1格 = 30 ÷ 3 = 10个。"
           },
           {
-            "title": "求Alice原有的数量",
-            "text": "由比例4 : 3，Alice原有80 × 3/4 = 60个。核对：Jim给出30个后，两人有50个和90个，Alice多40个。"
+            "title": "回到原有的长条",
+            "text": "Jim原有的条是8格，所以有8 × 10 = 80个弹珠。Alice原有的条是6格，所以有6 × 10 = 60个弹珠。"
           }
         ],
-        "answerCheck": "答案：Jim有80个；Alice有60个。"
+        "answerCheck": "Jim有80个；Alice有60个。"
       }
     },
     "questionZh": "吉姆和爱丽丝有一些弹珠。吉姆弹珠数的1/4等于爱丽丝弹珠数的1/3。吉姆给爱丽丝30颗后，爱丽丝比吉姆多40颗；吉姆还剩原来数量的2/3。求两人原来各有多少颗弹珠。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 73,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"150\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"188\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"226\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"264\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"150\" y=\"91\" width=\"38\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"188\" y=\"91\" width=\"38\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"226\" y=\"91\" width=\"38\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"350\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"382\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"414\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"446\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"478\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"350\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"382\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"414\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"446\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"478\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"510\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"542\" y=\"91\" width=\"32\" height=\"26\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"574\" y=\"91\" width=\"32\" height=\"26\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"606\" y=\"91\" width=\"32\" height=\"26\" fill=\"#ffffff\" stroke=\"#26364a\"/><text x=\"150\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">before: Jim : Alice = 4 : 3</text><text x=\"350\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">after transfer</text><text x=\"85\" y=\"74\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Jim</text><text x=\"85\" y=\"111\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Alice</text><text x=\"285\" y=\"74\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Jim</text><text x=\"285\" y=\"111\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Alice</text><path d=\"M350 128v12h160v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"430.0\" y=\"158\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">difference: 4 units = 40</text><path d=\"M542 128v12h96v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"590.0\" y=\"158\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">transferred: 3 units = 30</text><text x=\"150\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 unit = 30 ÷ 3 = 10</text><text x=\"150\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">original reconstruction: Jim 8 units; Alice 6 units</text>",
+        "alt": "Before-and-after marble bars retain the 4:3 ratio, the three transferred units, and the four-unit final difference."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"150\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"188\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"226\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"264\" y=\"54\" width=\"38\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"150\" y=\"91\" width=\"38\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"188\" y=\"91\" width=\"38\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"226\" y=\"91\" width=\"38\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"350\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"382\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"414\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"446\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"478\" y=\"54\" width=\"32\" height=\"26\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"350\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"382\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"414\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"446\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"478\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"510\" y=\"91\" width=\"32\" height=\"26\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"542\" y=\"91\" width=\"32\" height=\"26\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"574\" y=\"91\" width=\"32\" height=\"26\" fill=\"#ffffff\" stroke=\"#26364a\"/><rect x=\"606\" y=\"91\" width=\"32\" height=\"26\" fill=\"#ffffff\" stroke=\"#26364a\"/><text x=\"150\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">转移前：Jim : Alice = 4 : 3</text><text x=\"350\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">转移后</text><text x=\"85\" y=\"74\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Jim</text><text x=\"85\" y=\"111\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Alice</text><text x=\"285\" y=\"74\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Jim</text><text x=\"285\" y=\"111\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Alice</text><path d=\"M350 128v12h160v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"430.0\" y=\"158\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">差：4 格 = 40</text><path d=\"M542 128v12h96v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"590.0\" y=\"158\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">转移：3 格 = 30</text><text x=\"150\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">1 格 = 30 ÷ 3 = 10</text><text x=\"150\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">还原起初：Jim 8 格；Alice 6 格</text>",
+        "alt": "转移前后的弹珠条保留4:3比例、3格转移量和最后4格差额。"
+      }
+    }
   },
   {
     "id": 62,
@@ -2910,44 +3788,58 @@ window.QUESTION_BANK = [
     "sourcePage": 25,
     "solution": {
       "en": {
-        "strategy": "Use the fraction of twenty-cent coins to form a three-coin value group.",
+        "strategy": "Use the count-ratio bar to restrict the coin counts, then follow the two-row check table.",
         "steps": [
           {
-            "title": "Make one coin group",
-            "text": "If 2/3 of the coins are twenty-cent coins, every group of 3 coins has 2 twenty-cent coins and 1 five-cent coin."
+            "title": "Read the count relationship",
+            "text": "The five-part count bar shows the twenty-cent count is twice the five-cent count. Since $3.60 is 360¢, the five-cent count must be even."
           },
           {
-            "title": "Find the group value",
-            "text": "One such group is worth 2 × $0.20 + $0.05 = $0.45."
+            "title": "Test the first table row",
+            "text": "For 12 twenty-cent coins and 6 five-cent coins, (12 × 20¢) + (6 × 5¢) = $2.70, so this row is not the $3.60 total."
           },
           {
-            "title": "Find each count",
-            "text": "$3.60 ÷ $0.45 = 8 groups. Hence there are 8 × 2 = 16 twenty-cent coins and 8 five-cent coins."
+            "title": "Use the checked row",
+            "text": "For 16 twenty-cent coins and 8 five-cent coins, (16 × 20¢) + (8 × 5¢) = $3.60. This is the row with the check mark."
           }
         ],
-        "answerCheck": "Twenty-cent: 16; five-cent: 8"
+        "answerCheck": "Twenty-cent: 16; five-cent: 8."
       },
       "zh-Hans": {
-        "strategy": "利用$0.20硬币所占的分数，组成每组3枚硬币的价值。",
+        "strategy": "先用数量比例条限制硬币数量，再按两行检验表检查。",
         "steps": [
           {
-            "title": "组成1组硬币",
-            "text": "$0.20硬币占全部硬币的2/3，所以每3枚硬币中有2枚$0.20硬币和1枚$0.05硬币。"
+            "title": "读出数量关系",
+            "text": "5分段数量条表示20¢硬币的数量是5¢硬币的2倍。因为$3.60 = 360¢，5¢硬币的数量必须是偶数。"
           },
           {
-            "title": "求每组金额",
-            "text": "每组价值为2 × $0.20 + $0.05 = $0.45。"
+            "title": "检验表格的第一行",
+            "text": "12枚20¢硬币和6枚5¢硬币的金额是(12 × 20¢) + (6 × 5¢) = $2.70，不是$3.60。"
           },
           {
-            "title": "求各类硬币数",
-            "text": "$3.60 ÷ $0.45 = 8组。因此有8 × 2 = 16枚$0.20硬币和8枚$0.05硬币。"
+            "title": "使用打勾的一行",
+            "text": "16枚20¢硬币和8枚5¢硬币的金额是(16 × 20¢) + (8 × 5¢) = $3.60。这一行通过检验。"
           }
         ],
-        "answerCheck": "答案：$0.20硬币16枚；$0.05硬币8枚。"
+        "answerCheck": "20¢硬币16枚；5¢硬币8枚。"
       }
     },
     "questionZh": "弗朗西斯有$3.60，由$0.05和$0.20硬币组成。其中1/4的硬币是$0.20硬币。求两种硬币各有多少枚。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 73,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"70\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"122\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"174\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"226\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"278\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"70\" y=\"33\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">count model</text><path d=\"M70 88v12h104v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"122.0\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">20¢ coins: 2 parts</text><path d=\"M174 88v12h156v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"252.0\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">5¢ coins: 3 parts</text><text x=\"70\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">number of 20¢ coins is twice number of 5¢ coins</text><rect x=\"55\" y=\"142\" width=\"530\" height=\"33\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"155\" y1=\"142\" x2=\"155\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"142\" x2=\"270\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"500\" y1=\"142\" x2=\"500\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"585\" y1=\"142\" x2=\"585\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"175\" x2=\"585\" y2=\"175\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"213\" x2=\"585\" y2=\"213\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"252\" x2=\"585\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"72\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">20¢ coins</text><text x=\"170\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">5¢ coins</text><text x=\"290\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">total</text><text x=\"518\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">check</text><text x=\"98\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">12</text><text x=\"205\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">6</text><text x=\"285\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">12 × 20¢ + 6 × 5¢ = $2.70</text><text x=\"535\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">trial</text><text x=\"535\" y=\"237\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">trial</text>",
+        "alt": "A 2-to-3 count bar sits above a source-style two-row trial table for the 20¢ and 5¢ coin quantities."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"70\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"122\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"174\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"226\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><rect x=\"278\" y=\"52\" width=\"52\" height=\"28\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"70\" y=\"33\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">数量模型</text><path d=\"M70 88v12h104v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"122.0\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">20¢硬币：2 份</text><path d=\"M174 88v12h156v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"252.0\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">5¢硬币：3 份</text><text x=\"70\" y=\"120\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">20¢硬币数量是5¢硬币数量的2倍</text><rect x=\"55\" y=\"142\" width=\"530\" height=\"33\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"155\" y1=\"142\" x2=\"155\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"142\" x2=\"270\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"500\" y1=\"142\" x2=\"500\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"585\" y1=\"142\" x2=\"585\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"175\" x2=\"585\" y2=\"175\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"213\" x2=\"585\" y2=\"213\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"252\" x2=\"585\" y2=\"252\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"72\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">20¢硬币</text><text x=\"170\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">5¢硬币</text><text x=\"290\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">总金额</text><text x=\"518\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">检验</text><text x=\"98\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">12</text><text x=\"205\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"start\">6</text><text x=\"285\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">12 × 20¢ + 6 × 5¢ = $2.70</text><text x=\"535\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">试算</text><text x=\"535\" y=\"237\" font-family=\"Arial, sans-serif\" font-size=\"11\" fill=\"#17324d\" text-anchor=\"start\">试算</text>",
+        "alt": "2比3的数量条置于原解答式两行试算表上方，用于20¢和5¢硬币数量。"
+      }
+    }
   },
   {
     "id": 63,
@@ -2959,44 +3851,58 @@ window.QUESTION_BANK = [
     "sourcePage": 25,
     "solution": {
       "en": {
-        "strategy": "Find Q's speed from its first meeting with P, then use the extra half hour before meeting R.",
+        "strategy": "Use the shared 3-hour route interval to find Q’s speed, then extend Q’s timeline by 0.5 hour.",
         "steps": [
           {
-            "title": "Find P's distance at the first meeting",
-            "text": "From 8:30 am to 11:30 am is 3 hours, so P travelled 60 × 3 = 180 km."
+            "title": "Read the first time band",
+            "text": "From 8:30 am to 11:30 am is 3 hours. On the route line, P covers 60 × 3 = 180 km of the 300 km separation."
           },
           {
-            "title": "Find Q's speed",
-            "text": "P and Q started 300 km apart, so Q travelled 300 − 180 = 120 km in 3 hours. Thus Q's speed was 120 ÷ 3 = 40 km/h."
+            "title": "Find Q’s speed",
+            "text": "The remaining route segment to the same meeting point is 300 − 180 = 120 km for Q. Thus Q’s speed is 120 ÷ 3 = 40 km/h."
           },
           {
-            "title": "Find Q's extra distance",
-            "text": "Q met R 30 minutes = 1/2 hour later, so it travelled 40 × 1/2 = 20 km between the meetings."
+            "title": "Extend to Q–R’s meeting",
+            "text": "The timeline adds 0.5 hour before Q meets R. Q travels 40 × 0.5 = 20 km in that interval."
           }
         ],
-        "answerCheck": "20 km"
+        "answerCheck": "Q travelled 20 km between the meetings."
       },
       "zh-Hans": {
-        "strategy": "先由Q与P第一次相遇求Q的速度，再利用与R相遇前多出的30分钟。",
+        "strategy": "利用共同的3小时路线区间求Q的速度，再把Q的时间线延长0.5小时。",
         "steps": [
           {
-            "title": "求P在第一次相遇前走的距离",
-            "text": "从8:30 am到11:30 am是3小时，所以P走了60 × 3 = 180 km。"
+            "title": "读出第1段时间带",
+            "text": "从8:30 am到11:30 am是3小时。路线图中P走了60 × 3 = 180 km，占相距300 km中的一段。"
           },
           {
             "title": "求Q的速度",
-            "text": "P和Q开始时相距300 km，因此Q走了300 − 180 = 120 km，用时3小时。Q的速度为120 ÷ 3 = 40 km/h。"
+            "text": "到同一相遇点，Q要走的另一段是300 − 180 = 120 km。因此Q的速度是120 ÷ 3 = 40 km/h。"
           },
           {
-            "title": "求Q多走的距离",
-            "text": "Q在30分钟 = 1/2小时后与R相遇，所以两次相遇之间走了40 × 1/2 = 20 km。"
+            "title": "延长到Q与R相遇",
+            "text": "时间线在Q与R相遇前再延长0.5小时。Q在这段时间走了40 × 0.5 = 20 km。"
           }
         ],
-        "answerCheck": "答案：20 km。"
+        "answerCheck": "两次相遇之间，Q行驶了20 km。"
       }
     },
     "questionZh": "上午8:30时，P、Q、R三辆车相距300 km。Q在上午11:30遇到P，30 min后遇到R；P的车速为60 km/h。求Q在两次相遇之间行驶了多远。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 74,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"70\" y1=\"122\" x2=\"570\" y2=\"122\" stroke=\"#26364a\" stroke-width=\"2\"/><line x1=\"70\" y1=\"112\" x2=\"70\" y2=\"132\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"370\" y1=\"112\" x2=\"370\" y2=\"132\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"570\" y1=\"112\" x2=\"570\" y2=\"132\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"70\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">A: P and R start</text><text x=\"370\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">P meets Q</text><text x=\"570\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Q meets R</text><path d=\"M70 110h285\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"4\"/><path d=\"M570 110h-185\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"4\"/><text x=\"220\" y=\"99\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">P: 60 km/h × 3 h = 180 km</text><text x=\"477\" y=\"99\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Q: 120 km in 3 h</text><text x=\"70\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">8:30 am</text><text x=\"370\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">11:30 am</text><text x=\"470\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">+ 0.5 h</text><line x1=\"70\" y1=\"62\" x2=\"370\" y2=\"62\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"370\" y1=\"62\" x2=\"470\" y2=\"62\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"220\" y=\"81\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">3 h</text><text x=\"420\" y=\"81\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">0.5 h</text><text x=\"70\" y=\"202\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">300 km − 180 km = 120 km</text><text x=\"70\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Q speed: 120 km ÷ 3 h = 40 km/h</text><text x=\"70\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">next interval: 40 km/h × 0.5 h</text>",
+        "alt": "A route line and synchronized time band show P and Q covering the 300 km separation before the half-hour extension."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"70\" y1=\"122\" x2=\"570\" y2=\"122\" stroke=\"#26364a\" stroke-width=\"2\"/><line x1=\"70\" y1=\"112\" x2=\"70\" y2=\"132\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"370\" y1=\"112\" x2=\"370\" y2=\"132\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"570\" y1=\"112\" x2=\"570\" y2=\"132\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"70\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">A：P和R出发</text><text x=\"370\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">P与Q相遇</text><text x=\"570\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Q与R相遇</text><path d=\"M70 110h285\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"4\"/><path d=\"M570 110h-185\" fill=\"none\" stroke=\"#16a34a\" stroke-width=\"4\"/><text x=\"220\" y=\"99\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">P：60 km/h × 3小时 = 180 km</text><text x=\"477\" y=\"99\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">Q：3小时行120 km</text><text x=\"70\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">上午8:30</text><text x=\"370\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">上午11:30</text><text x=\"470\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">+ 0.5小时</text><line x1=\"70\" y1=\"62\" x2=\"370\" y2=\"62\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"370\" y1=\"62\" x2=\"470\" y2=\"62\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"220\" y=\"81\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">3小时</text><text x=\"420\" y=\"81\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">0.5小时</text><text x=\"70\" y=\"202\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">300 km − 180 km = 120 km</text><text x=\"70\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Q速度：120 km ÷ 3小时 = 40 km/h</text><text x=\"70\" y=\"260\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">下一时段：40 km/h × 0.5小时</text>",
+        "alt": "路线线段和同步时间带显示P和Q先覆盖300 km间距，再延长半小时。"
+      }
+    }
   },
   {
     "id": 64,
@@ -3008,44 +3914,58 @@ window.QUESTION_BANK = [
     "sourcePage": 26,
     "solution": {
       "en": {
-        "strategy": "Use Linda's 4-hour distance to find her speed, then add the 15 km/h speed difference.",
+        "strategy": "Let the common 4-hour timeline drive both parallel travel rows.",
         "steps": [
           {
-            "title": "Find Linda's speed",
-            "text": "Linda covered 224 km from noon to 4 pm, or 4 hours. Her speed was 224 ÷ 4 = 56 km/h."
+            "title": "Use Linda’s row",
+            "text": "The common timeline from 12 noon to 4 pm is 4 hours. Linda’s row gives 224 km in 4 hours, so her speed is 224 ÷ 4 = 56 km/h."
           },
           {
-            "title": "Find Terence's speed",
-            "text": "Terence was 15 km/h faster, so his speed was 56 + 15 = 71 km/h."
+            "title": "Build Terence’s speed row",
+            "text": "Terence’s row is 15 km/h faster, so his speed is 56 + 15 = 71 km/h."
           },
           {
-            "title": "Find the journey distance",
-            "text": "Terence travelled for 4 hours to reach B, so A–B was 71 × 4 = 284 km."
+            "title": "Apply the same time window",
+            "text": "Terence reaches B in the same 4 hours, so the A–B route is 71 × 4 = 284 km."
           }
         ],
-        "answerCheck": "284 km"
+        "answerCheck": "The A–B distance is 284 km."
       },
       "zh-Hans": {
-        "strategy": "先由Linda在4小时内走的距离求速度，再加上15 km/h的速度差。",
+        "strategy": "让共同的4小时时间线带动两条平行的行程计算。",
         "steps": [
           {
-            "title": "求Linda的速度",
-            "text": "从中午到4 pm是4小时。Linda走了224 km，速度为224 ÷ 4 = 56 km/h。"
+            "title": "使用Linda的行程",
+            "text": "从中午12点到下午4点的共同时间线是4小时。Linda在4小时走224 km，所以速度是224 ÷ 4 = 56 km/h。"
           },
           {
-            "title": "求Terence的速度",
-            "text": "Terence快15 km/h，所以速度为56 + 15 = 71 km/h。"
+            "title": "组成Terence的速度行",
+            "text": "Terence比Linda快15 km/h，所以速度是56 + 15 = 71 km/h。"
           },
           {
-            "title": "求A到B的距离",
-            "text": "Terence走了4小时到达B，所以A–B的距离为71 × 4 = 284 km。"
+            "title": "使用相同的时间段",
+            "text": "Terence也在相同的4小时内到达B，所以A到B的距离是71 × 4 = 284 km。"
           }
         ],
-        "answerCheck": "答案：284 km。"
+        "answerCheck": "A到B的距离是284 km。"
       }
     },
     "questionZh": "特伦斯和琳达中午从A开往B。特伦斯的平均车速比琳达快15 km/h；下午4:00特伦斯到达B时，琳达已行驶224 km。求A到B的距离。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 74,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"110\" y1=\"65\" x2=\"530\" y2=\"65\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"57\" x2=\"110\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"530\" y1=\"57\" x2=\"530\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"110\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">12 noon</text><text x=\"530\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">4 pm</text><text x=\"320\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">common time: 4 h</text><rect x=\"105\" y=\"120\" width=\"430\" height=\"42\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"65\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Linda</text><text x=\"320\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">224 km in 4 h → 56 km/h</text><rect x=\"105\" y=\"190\" width=\"430\" height=\"42\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"217\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Terence</text><text x=\"320\" y=\"217\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">56 + 15 = 71 km/h</text><text x=\"105\" y=\"270\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">same 4 h: 71 km/h × 4 h = A–B</text>",
+        "alt": "A shared noon-to-4 pm timeline links Linda’s distance-speed calculation to Terence’s parallel route calculation."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"110\" y1=\"65\" x2=\"530\" y2=\"65\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"57\" x2=\"110\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"530\" y1=\"57\" x2=\"530\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"110\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">中午12点</text><text x=\"530\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">下午4点</text><text x=\"320\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">共同时间：4小时</text><rect x=\"105\" y=\"120\" width=\"430\" height=\"42\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"65\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Linda</text><text x=\"320\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">4小时行224 km → 56 km/h</text><rect x=\"105\" y=\"190\" width=\"430\" height=\"42\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"217\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Terence</text><text x=\"320\" y=\"217\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">56 + 15 = 71 km/h</text><text x=\"105\" y=\"270\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">同样4小时：71 km/h × 4小时 = A到B</text>",
+        "alt": "从中午到下午4点的共同时间线把Linda的路程速度计算与Terence的平行路线计算连接起来。"
+      }
+    }
   },
   {
     "id": 65,
@@ -3057,44 +3977,58 @@ window.QUESTION_BANK = [
     "sourcePage": 26,
     "solution": {
       "en": {
-        "strategy": "Find the original journey distance and the on-time duration, then allocate that duration to the two equal halves.",
+        "strategy": "Split the 480-km route into two equal halves and use the expected-time strip.",
         "steps": [
           {
-            "title": "Find distance and scheduled time",
-            "text": "At 80 km/h for 6 hours, Aaron travelled 80 × 6 = 480 km. He was 1 h 36 min late, so the on-time journey duration was 6 h − 1 h 36 min = 4 h 24 min = 4.4 h."
+            "title": "Build the route and expected-time strips",
+            "text": "The actual trip from 5:30 to 11:30 is 6 hours at 80 km/h, so the route is 80 × 6 = 480 km. Being 1 h 36 min late means the expected duration is 6 − 1.6 = 4.4 hours."
           },
           {
-            "title": "Time the first half",
-            "text": "The first half was 480 ÷ 2 = 240 km. At 100 km/h, it would take 240 ÷ 100 = 2.4 h."
+            "title": "Time the first 240 km",
+            "text": "Each half of the route is 480 ÷ 2 = 240 km. The first half at 100 km/h takes 240 ÷ 100 = 2.4 hours."
           },
           {
-            "title": "Find the needed later speed",
-            "text": "The second half had to take 4.4 − 2.4 = 2 h. Its required speed was 240 ÷ 2 = 120 km/h."
+            "title": "Use the remaining time strip",
+            "text": "The expected-time strip has 4.4 − 2.4 = 2 hours left for the second 240 km. Its needed speed is 240 ÷ 2 = 120 km/h."
           }
         ],
-        "answerCheck": "120 km/h"
+        "answerCheck": "The needed later-part speed is 120 km/h."
       },
       "zh-Hans": {
-        "strategy": "先求原来的全程和准时所需时间，再把这段时间分配给相等的两半路程。",
+        "strategy": "把480 km路线分成两个相等的半程，并使用预期时间条。",
         "steps": [
           {
-            "title": "求全程和准时用时",
-            "text": "Aaron以80 km/h行驶6小时，全程为80 × 6 = 480 km。他迟到1 h 36 min，所以准时全程用时为6 h − 1 h 36 min = 4 h 24 min = 4.4 h。"
+            "title": "画出路线和预期时间条",
+            "text": "实际行程从5:30到11:30，共6小时，以80 km/h行驶，所以路线为80 × 6 = 480 km。迟到1 h 36 min，表示预期用时是6 − 1.6 = 4.4小时。"
           },
           {
-            "title": "计算前半程用时",
-            "text": "前半程为480 ÷ 2 = 240 km。以100 km/h行驶，需要240 ÷ 100 = 2.4 h。"
+            "title": "计算前240 km的用时",
+            "text": "路线的每一半是480 ÷ 2 = 240 km。前半程以100 km/h行驶，需要240 ÷ 100 = 2.4小时。"
           },
           {
-            "title": "求后半程所需速度",
-            "text": "后半程只能用4.4 − 2.4 = 2 h。因此所需速度为240 ÷ 2 = 120 km/h。"
+            "title": "使用时间条中剩下的时间",
+            "text": "预期时间条还剩4.4 − 2.4 = 2小时给后240 km。因此所需速度是240 ÷ 2 = 120 km/h。"
           }
         ],
-        "answerCheck": "答案：120 km/h。"
+        "answerCheck": "后半程所需速度是120 km/h。"
       }
     },
     "questionZh": "亚伦从5:30到11:30以80 km/h行驶，仍晚了1 h 36 min。若他在全程最初的1/2以100 km/h行驶，求后半程所需的速度。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 74,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"70\" y=\"70\" width=\"480\" height=\"35\" fill=\"#f8fafc\" stroke=\"#26364a\"/><line x1=\"310\" y1=\"70\" x2=\"310\" y2=\"105\" stroke=\"#26364a\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"184\" width=\"264\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"334\" y=\"184\" width=\"216\" height=\"32\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"70\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">actual: 5:30–11:30 = 6 h at 80 km/h</text><text x=\"190\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">first 240 km</text><text x=\"430\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">second 240 km</text><text x=\"70\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">480 km = 80 km/h × 6 h</text><text x=\"70\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">expected time: 6 − 1.6 = 4.4 h</text><text x=\"202\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">2.4 h at 100 km/h</text><text x=\"442\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">remaining 2 h</text><text x=\"70\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">first half: 240 km ÷ 100 km/h = 2.4 h</text><text x=\"70\" y=\"278\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">second half: 240 km ÷ 2 h</text>",
+        "alt": "A 480 km route is split into equal 240 km halves and aligned to the 4.4-hour expected-time budget."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"70\" y=\"70\" width=\"480\" height=\"35\" fill=\"#f8fafc\" stroke=\"#26364a\"/><line x1=\"310\" y1=\"70\" x2=\"310\" y2=\"105\" stroke=\"#26364a\" stroke-width=\"1.5\"/><rect x=\"70\" y=\"184\" width=\"264\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"334\" y=\"184\" width=\"216\" height=\"32\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"70\" y=\"48\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">实际：5:30–11:30 = 6小时，80 km/h</text><text x=\"190\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">前240 km</text><text x=\"430\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">后240 km</text><text x=\"70\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">480 km = 80 km/h × 6小时</text><text x=\"70\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">预期时间：6 − 1.6 = 4.4小时</text><text x=\"202\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">2.4小时，100 km/h</text><text x=\"442\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">剩余2小时</text><text x=\"70\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">前半程：240 km ÷ 100 km/h = 2.4小时</text><text x=\"70\" y=\"278\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">后半程：240 km ÷ 2小时</text>",
+        "alt": "480 km路线分成相等的两个240 km半程，并与4.4小时预期时间预算对齐。"
+      }
+    }
   },
   {
     "id": 66,
@@ -3106,44 +4040,58 @@ window.QUESTION_BANK = [
     "sourcePage": 26,
     "solution": {
       "en": {
-        "strategy": "Use Tony's trip to find A–B, then subtract Jasper's distance travelled by 10:30 am.",
+        "strategy": "Synchronize both drivers at 10:30, then compare their route distances.",
         "steps": [
           {
-            "title": "Find Tony's travel time and distance",
-            "text": "Tony left at 6:30 am and arrived at 10:30 am, so he travelled 4 hours at 90 − 10 = 80 km/h. Thus A–B = 80 × 4 = 320 km."
+            "title": "Read Tony’s timeline",
+            "text": "The clock line places Tony’s start at 6:30 am and his arrival at 10:30 am: 4 hours. His speed is 90 − 10 = 80 km/h, so A–B is 80 × 4 = 320 km."
           },
           {
-            "title": "Find Jasper's distance travelled",
-            "text": "Jasper travelled from 8:30 am to 10:30 am for 2 hours at 90 km/h, covering 90 × 2 = 180 km."
+            "title": "Read Jasper’s shorter timeline",
+            "text": "Jasper starts at 8:30 am, so by 10:30 am he has driven 2 hours at 90 km/h. His shaded route section is 90 × 2 = 180 km."
           },
           {
-            "title": "Find Jasper's remaining distance",
-            "text": "Jasper was 320 − 180 = 140 km from B."
+            "title": "Find the unshaded route remainder",
+            "text": "The remaining distance to B is 320 − 180 = 140 km."
           }
         ],
-        "answerCheck": "140 km"
+        "answerCheck": "Jasper was 140 km from B."
       },
       "zh-Hans": {
-        "strategy": "先利用Tony的行程求A–B的距离，再减去Jasper在10:30 am前走的距离。",
+        "strategy": "把两人的时间线同步到10:30，再比较路线距离。",
         "steps": [
           {
-            "title": "求Tony的行驶时间和距离",
-            "text": "Tony在6:30 am出发，10:30 am到达，共行驶4小时，速度为90 − 10 = 80 km/h。因此A–B为80 × 4 = 320 km。"
+            "title": "读出Tony的时间线",
+            "text": "时钟线显示Tony在6:30 am出发，10:30 am到达，共4小时。他的速度是90 − 10 = 80 km/h，所以A到B是80 × 4 = 320 km。"
           },
           {
-            "title": "求Jasper已走的距离",
-            "text": "Jasper从8:30 am到10:30 am行驶2小时，速度为90 km/h，走了90 × 2 = 180 km。"
+            "title": "读出Jasper较短的时间线",
+            "text": "Jasper在8:30 am出发，到10:30 am已行驶2小时，速度为90 km/h。他在路线条上涂出的距离是90 × 2 = 180 km。"
           },
           {
-            "title": "求Jasper距离B还有多远",
-            "text": "Jasper距离B还有320 − 180 = 140 km。"
+            "title": "求未涂出的路线余段",
+            "text": "到B的剩余距离是320 − 180 = 140 km。"
           }
         ],
-        "answerCheck": "答案：140 km。"
+        "answerCheck": "Jasper离B还有140 km。"
       }
     },
     "questionZh": "贾斯珀上午8:30从A出发，车速90 km/h。托尼比他早2 h出发，速度慢10 km/h，并在上午10:30到达B。此时贾斯珀离B还有多远？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 75,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"80\" y1=\"65\" x2=\"560\" y2=\"65\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"57\" x2=\"80\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"57\" x2=\"320\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"560\" y1=\"57\" x2=\"560\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"80\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">6:30</text><text x=\"320\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">8:30</text><text x=\"560\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">10:30</text><line x1=\"80\" y1=\"102\" x2=\"560\" y2=\"102\" stroke=\"#2563eb\" stroke-width=\"5\"/><text x=\"320\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">Tony: 4 h at 80 km/h</text><line x1=\"320\" y1=\"145\" x2=\"560\" y2=\"145\" stroke=\"#16a34a\" stroke-width=\"5\"/><text x=\"440\" y=\"137\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">Jasper: 2 h at 90 km/h</text><text x=\"80\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">A</text><text x=\"560\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">B</text><text x=\"215\" y=\"228\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">Jasper: 180 km</text><text x=\"455\" y=\"228\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">to B: 320 km − 180 km</text><text x=\"80\" y=\"274\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Tony’s A–B distance: 80 km/h × 4 h = 320 km</text>",
+        "alt": "A common clock line coordinates Tony’s four-hour trip with Jasper’s two-hour distance on the shared A–B route."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"80\" y1=\"65\" x2=\"560\" y2=\"65\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"57\" x2=\"80\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"57\" x2=\"320\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"560\" y1=\"57\" x2=\"560\" y2=\"74\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"80\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">6:30</text><text x=\"320\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">8:30</text><text x=\"560\" y=\"44\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">10:30</text><line x1=\"80\" y1=\"102\" x2=\"560\" y2=\"102\" stroke=\"#2563eb\" stroke-width=\"5\"/><text x=\"320\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">Tony：4小时，80 km/h</text><line x1=\"320\" y1=\"145\" x2=\"560\" y2=\"145\" stroke=\"#16a34a\" stroke-width=\"5\"/><text x=\"440\" y=\"137\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">Jasper：2小时，90 km/h</text><text x=\"80\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">A</text><text x=\"560\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">B</text><text x=\"215\" y=\"228\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">Jasper：180 km</text><text x=\"455\" y=\"228\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">到B：320 km − 180 km</text><text x=\"80\" y=\"274\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">Tony的A–B路程：80 km/h × 4小时 = 320 km</text>",
+        "alt": "共同时间线协调Tony的4小时行程和Jasper在同一A–B路线上的2小时路程。"
+      }
+    }
   },
   {
     "id": 67,
@@ -3155,44 +4103,58 @@ window.QUESTION_BANK = [
     "sourcePage": 27,
     "solution": {
       "en": {
-        "strategy": "Compare both joggers' distances at 5:45 pm to find Caleb's speed, then extend his start time back to 4:15 pm.",
+        "strategy": "Use the staggered-start timeline to compare distances at 5:45, then extend Caleb’s row.",
         "steps": [
           {
-            "title": "Find George's distance",
-            "text": "George jogged for 1.5 hours from 4:15 pm to 5:45 pm, so he covered 9 × 1.5 = 13.5 km."
+            "title": "Read George’s full interval",
+            "text": "George’s timeline runs from 4:15 to 5:45, or 1.5 hours. His distance bar is 9 × 1.5 = 13.5 km."
           },
           {
-            "title": "Find Caleb's speed",
-            "text": "Caleb was 2 km ahead at 5:45 pm, so he covered 13.5 + 2 = 15.5 km in 1 hour. His speed was 15.5 km/h."
+            "title": "Find Caleb’s one-hour speed",
+            "text": "Caleb’s row runs only from 4:45 to 5:45, or 1 hour. At 5:45 he is 2 km farther, so his distance is 13.5 + 2 = 15.5 km and his speed is 15.5 km/h."
           },
           {
-            "title": "Extend Caleb's running time",
-            "text": "Starting at 4:15 pm instead would give Caleb 1.5 hours. He would cover 15.5 × 1.5 = 23.25 km."
+            "title": "Extend Caleb to the full interval",
+            "text": "If Caleb started at 4:15, his row would also be 1.5 hours long. He would cover 15.5 × 1.5 = 23.25 km."
           }
         ],
-        "answerCheck": "23.25 km"
+        "answerCheck": "Caleb would cover 23.25 km."
       },
       "zh-Hans": {
-        "strategy": "比较两人在5:45 pm时走的距离，先求Caleb的速度，再把他的开始时间提前到4:15 pm。",
+        "strategy": "用错开起跑时间的时间线比较5:45时的距离，再延长Caleb的行程条。",
         "steps": [
           {
-            "title": "求George走的距离",
-            "text": "George从4:15 pm到5:45 pm跑了1.5小时，所以跑了9 × 1.5 = 13.5 km。"
+            "title": "读出George的完整时间段",
+            "text": "George的时间线从4:15到5:45，共1.5小时。他的距离条为9 × 1.5 = 13.5 km。"
           },
           {
-            "title": "求Caleb的速度",
-            "text": "5:45 pm时Caleb领先2 km，所以他1小时跑了13.5 + 2 = 15.5 km，速度为15.5 km/h。"
+            "title": "求Caleb的1小时速度",
+            "text": "Caleb的条只从4:45到5:45，共1小时。5:45时他多跑2 km，所以距离为13.5 + 2 = 15.5 km，速度为15.5 km/h。"
           },
           {
-            "title": "延长Caleb的跑步时间",
-            "text": "若Caleb在4:15 pm开始，他可跑1.5小时，距离为15.5 × 1.5 = 23.25 km。"
+            "title": "把Caleb延长到完整时间段",
+            "text": "如果Caleb在4:15开始，他的条也有1.5小时。他会跑15.5 × 1.5 = 23.25 km。"
           }
         ],
-        "answerCheck": "答案：23.25 km。"
+        "answerCheck": "Caleb会跑23.25 km。"
       }
     },
     "questionZh": "乔治从4:15开始以9 km/h慢跑。凯莱布4:45开始，5:45时他在乔治前面2 km。若凯莱布从4:15开始，他会跑多远？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 75,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"85\" y1=\"62\" x2=\"565\" y2=\"62\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"54\" x2=\"85\" y2=\"71\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"245\" y1=\"54\" x2=\"245\" y2=\"71\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"565\" y1=\"54\" x2=\"565\" y2=\"71\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"85\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">4:15</text><text x=\"245\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">4:45</text><text x=\"565\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">5:45</text><rect x=\"85\" y=\"100\" width=\"480\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"245\" y=\"155\" width=\"320\" height=\"32\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"45\" y=\"121\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">George</text><text x=\"325\" y=\"121\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">1.5 h × 9 km/h = 13.5 km</text><text x=\"50\" y=\"176\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Caleb</text><text x=\"405\" y=\"176\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">1 h: 13.5 + 2 = 15.5 km</text><rect x=\"85\" y=\"225\" width=\"480\" height=\"32\" fill=\"#fef3c7\" stroke=\"#26364a\" stroke-dasharray=\"5 3\"/><text x=\"325\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">same 1.5 h: 15.5 km/h × 1.5 h</text>",
+        "alt": "A three-mark timeline aligns George’s 1.5-hour run and Caleb’s one-hour run, then extends Caleb to the full interval."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<line x1=\"85\" y1=\"62\" x2=\"565\" y2=\"62\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"54\" x2=\"85\" y2=\"71\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"245\" y1=\"54\" x2=\"245\" y2=\"71\" stroke=\"#26364a\" stroke-width=\"1.5\"/><line x1=\"565\" y1=\"54\" x2=\"565\" y2=\"71\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"85\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">4:15</text><text x=\"245\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">4:45</text><text x=\"565\" y=\"42\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">5:45</text><rect x=\"85\" y=\"100\" width=\"480\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"245\" y=\"155\" width=\"320\" height=\"32\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"45\" y=\"121\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">George</text><text x=\"325\" y=\"121\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">1.5小时 × 9 km/h = 13.5 km</text><text x=\"50\" y=\"176\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">Caleb</text><text x=\"405\" y=\"176\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">1小时：13.5 + 2 = 15.5 km</text><rect x=\"85\" y=\"225\" width=\"480\" height=\"32\" fill=\"#fef3c7\" stroke=\"#26364a\" stroke-dasharray=\"5 3\"/><text x=\"325\" y=\"246\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"middle\">同跑1.5小时：15.5 km/h × 1.5小时</text>",
+        "alt": "三刻度时间线对齐George的1.5小时跑步和Caleb的1小时跑步，再把Caleb延长到完整时段。"
+      }
+    }
   },
   {
     "id": 68,
@@ -3204,44 +4166,58 @@ window.QUESTION_BANK = [
     "sourcePage": 27,
     "solution": {
       "en": {
-        "strategy": "Find the route and the bus's original speed, then use the shorter total journey time after the speed increase.",
+        "strategy": "Use the five-part 450-km route bar and the shortened total-time strip.",
         "steps": [
           {
-            "title": "Find the route and original bus speed",
-            "text": "The route length is 90 × 5 = 450 km. Since the bus took 9 hours originally, its speed was 450 ÷ 9 = 50 km/h."
+            "title": "Set the route and original speed",
+            "text": "The car’s route is 90 × 5 = 450 km. The bus originally takes 9 hours, so its original speed is 450 ÷ 9 = 50 km/h."
           },
           {
-            "title": "Find time after the increase",
-            "text": "Arriving 1 h 36 min early means taking 9 h − 1 h 36 min = 7.4 h. The first 3/5 of 450 km is 270 km and takes 270 ÷ 50 = 5.4 h."
+            "title": "Read the first 3/5 route section",
+            "text": "The shaded first 3 of 5 equal parts are 3/5 × 450 = 270 km. At 50 km/h, this section takes 270 ÷ 50 = 5.4 hours."
           },
           {
-            "title": "Find the new speed",
-            "text": "The remaining 2/5 is 180 km and must take 7.4 − 5.4 = 2 h. The new speed is 180 ÷ 2 = 90 km/h, which is 90 − 50 = 40 km/h faster."
+            "title": "Use the revised time for the final 2/5",
+            "text": "Arriving 1 h 36 min early changes 9 hours to 9 − 1.6 = 7.4 hours. After 5.4 hours, 2 hours remain for 2/5 × 450 = 180 km, so the new speed is 180 ÷ 2 = 90 km/h. The increase is 90 − 50 = 40 km/h."
           }
         ],
-        "answerCheck": "40 km/h"
+        "answerCheck": "The bus must travel 40 km/h faster."
       },
       "zh-Hans": {
-        "strategy": "先求全程和巴士原来的速度，再利用提速后的较短总用时。",
+        "strategy": "使用分成5份的450 km路线条和缩短后的总时间条。",
         "steps": [
           {
-            "title": "求全程和巴士原速度",
-            "text": "全程为90 × 5 = 450 km。巴士原来用9小时，所以原速度为450 ÷ 9 = 50 km/h。"
+            "title": "确定路线和原来的速度",
+            "text": "汽车的路线为90 × 5 = 450 km。巴士原来用9小时，所以原速度为450 ÷ 9 = 50 km/h。"
           },
           {
-            "title": "求提速后的可用时间",
-            "text": "提早1 h 36 min到达，表示总用时为9 h − 1 h 36 min = 7.4 h。前3/5全程为270 km，以50 km/h行驶需要270 ÷ 50 = 5.4 h。"
+            "title": "读出前3/5路线段",
+            "text": "涂出的前5等份中的3份是3/5 × 450 = 270 km。以50 km/h行驶，这一段需要270 ÷ 50 = 5.4小时。"
           },
           {
-            "title": "求新的速度",
-            "text": "剩下的2/5全程为180 km，只能用7.4 − 5.4 = 2 h。新速度为180 ÷ 2 = 90 km/h，比50 km/h快90 − 50 = 40 km/h。"
+            "title": "用修订时间计算最后2/5",
+            "text": "提前1 h 36 min到达，使9小时变成9 − 1.6 = 7.4小时。已用5.4小时后，剩2小时行驶2/5 × 450 = 180 km，所以新速度是180 ÷ 2 = 90 km/h。提高了90 − 50 = 40 km/h。"
           }
         ],
-        "answerCheck": "答案：40 km/h。"
+        "answerCheck": "巴士必须快40 km/h。"
       }
     },
     "questionZh": "一辆汽车和一辆巴士从A到B分别需5 h和9 h；汽车的速度为90 km/h。巴士走完3/5路程后，速度必须提高多少，才能提前1 h 36 min到达？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 76,
+      "sourceMethod": "Source-aligned compact SVG redraw of the printed solution model; method-establishing values and relationships are retained, while the question-bank final answer is omitted.",
+      "en": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"70\" y=\"70\" width=\"96\" height=\"34\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"166\" y=\"70\" width=\"96\" height=\"34\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"262\" y=\"70\" width=\"96\" height=\"34\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"358\" y=\"70\" width=\"96\" height=\"34\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"454\" y=\"70\" width=\"96\" height=\"34\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"70\" y=\"184\" width=\"430\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"500\" y=\"184\" width=\"70\" height=\"32\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"70\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">450 km route = 5 equal fifths</text><path d=\"M70 112v12h288v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"214.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">3/5 = 270 km at 50 km/h = 5.4 h</text><path d=\"M358 112v12h192v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"454.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">2/5 = 180 km</text><text x=\"70\" y=\"157\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">original speed: 450 km ÷ 9 h = 50 km/h</text><text x=\"70\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">revised time: 9 h − 1 h 36 min (= 1.6 h) = 7.4 h</text><text x=\"285\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">used: 5.4 h</text><text x=\"535\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">left: 2 h</text><text x=\"70\" y=\"254\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">final segment: 180 km ÷ 2 h</text><text x=\"70\" y=\"279\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">speed comparison: 90 − 50 km/h</text>",
+        "alt": "A five-part 450 km route aligns the first three fifths with 5.4 hours and the last two fifths with the remaining two-hour budget."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 300",
+        "svg": "<rect x=\"70\" y=\"70\" width=\"96\" height=\"34\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"166\" y=\"70\" width=\"96\" height=\"34\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"262\" y=\"70\" width=\"96\" height=\"34\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"358\" y=\"70\" width=\"96\" height=\"34\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"454\" y=\"70\" width=\"96\" height=\"34\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"70\" y=\"184\" width=\"430\" height=\"32\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"500\" y=\"184\" width=\"70\" height=\"32\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"70\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">450 km路线 = 5 个等份</text><path d=\"M70 112v12h288v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"214.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">3/5 = 270 km，50 km/h，需5.4小时</text><path d=\"M358 112v12h192v-12\" fill=\"none\" stroke=\"#26364a\" stroke-width=\"1.5\"/><text x=\"454.0\" y=\"142\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#17324d\" text-anchor=\"middle\">2/5 = 180 km</text><text x=\"70\" y=\"157\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">原速度：450 km ÷ 9小时 = 50 km/h</text><text x=\"70\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"start\">修订时间：9小时 − 1小时36分（= 1.6小时）= 7.4小时</text><text x=\"285\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">已用：5.4小时</text><text x=\"535\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#17324d\" text-anchor=\"middle\">剩余：2小时</text><text x=\"70\" y=\"254\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">最后一段：180 km ÷ 2小时</text><text x=\"70\" y=\"279\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#17324d\" text-anchor=\"start\">速度比较：90 − 50 km/h</text>",
+        "alt": "5等份的450 km路线把前3/5与5.4小时对齐，把后2/5与剩余2小时预算对齐。"
+      }
+    }
   },
   {
     "id": 69,
@@ -3253,44 +4229,58 @@ window.QUESTION_BANK = [
     "sourcePage": 27,
     "solution": {
       "en": {
-        "strategy": "Find Aaron’s and Collin’s speeds from the two overtaking times, then compare Bryan’s 120 m/min speed with Collin’s speed.",
+        "strategy": "Follow the position track: use the 2-minute catch-up strip for Aaron, the 5-minute strip for Collin, then close the fixed 150 m gap.",
         "steps": [
           {
-            "title": "Find Aaron’s speed",
-            "text": "At 8:00 Aaron is 50 m behind Bryan and catches him in 2 min, so Aaron is 50 ÷ 2 = 25 m/min faster than Bryan. Aaron’s speed is 120 + 25 = 145 m/min."
+            "title": "Read the 2-minute catch-up strip",
+            "text": "Bryan covers 2 × 120 = 240 m. Aaron starts 50 m behind Bryan, so his aligned strip is 50 + 240 = 290 m in 2 min. Therefore Aaron runs at 290 ÷ 2 = 145 m/min."
           },
           {
-            "title": "Find Collin’s speed",
-            "text": "Aaron passes Collin 3 min after passing Bryan, so this happens 2 + 3 = 5 min after 8:00. Aaron closes the 150 + 50 = 200 m gap to Collin in 5 min, so Aaron is 200 ÷ 5 = 40 m/min faster than Collin. Collin runs at 145 − 40 = 105 m/min."
+            "title": "Read the 5-minute position strip",
+            "text": "In 5 min, Aaron covers 5 × 145 = 725 m. On the track, remove Collin’s 150 m head start and Aaron’s 50 m starting deficit: 725 − 150 − 50 = 525 m. Thus Collin runs at 525 ÷ 5 = 105 m/min."
           },
           {
-            "title": "Let Bryan catch Collin",
-            "text": "Bryan gains 120 − 105 = 15 m/min on Collin. He needs 150 ÷ 15 = 10 min to close the original 150 m gap, so he passes Collin at 8:10 am."
+            "title": "Close the last gap",
+            "text": "Bryan gains 120 − 105 = 15 m/min on Collin. The fixed gap is 150 m, so 150 ÷ 15 = 10 min after 8:00, which is 8:10 am."
           }
         ],
-        "answerCheck": "8:10 am"
+        "answerCheck": "Checked answer: 8:10 am."
       },
       "zh-Hans": {
-        "strategy": "先由2分钟和3分钟的追上时间求出Aaron和Collin的速度，再把Bryan的120 m/min与Collin的速度比较。",
+        "strategy": "按位置线来算：先读出 Aaron 的 2 min 追及路程，再用 5 min 路程条求 Collin 的速度，最后追完固定的 150 m 间距。",
         "steps": [
           {
-            "title": "求Aaron的速度",
-            "text": "8:00时，Aaron在Bryan后面50 m，并在2 min后追上他，所以Aaron每分钟比Bryan快50 ÷ 2 = 25 m/min。Aaron的速度是120 + 25 = 145 m/min。"
+            "title": "读出 2 min 追及路程条",
+            "text": "结合上面的图示模型，Bryan 在 2 min 内跑 2 × 120 = 240 m。Aaron 起点在 Bryan 后 50 m，所以对齐后的路程是 50 + 240 = 290 m，用时 2 min。Aaron 的速度是 290 ÷ 2 = 145 m/min。"
           },
           {
-            "title": "求Collin的速度",
-            "text": "Aaron在超过Bryan后的3 min才超过Collin，因此这是8:00后的2 + 3 = 5 min。Aaron在5 min内追上了相距150 + 50 = 200 m的Collin，所以Aaron每分钟比Collin快200 ÷ 5 = 40 m/min。Collin的速度为145 − 40 = 105 m/min。"
+            "title": "读出 5 min 位置路程条",
+            "text": "5 min 内 Aaron 跑 5 × 145 = 725 m。按位置线扣除 Collin 的 150 m 领先距离和 Aaron 的 50 m 起点落后距离：725 − 150 − 50 = 525 m。因此 Collin 的速度是 525 ÷ 5 = 105 m/min。"
           },
           {
-            "title": "让Bryan追上Collin",
-            "text": "Bryan每分钟追近120 − 105 = 15 m。要追完原来的150 m，需要150 ÷ 15 = 10 min，所以Bryan在8:10 am超过Collin。"
+            "title": "追完最后的间距",
+            "text": "Bryan 每分钟追近 120 − 105 = 15 m。固定间距是 150 m，所以 150 ÷ 15 = 10 min；8:00 后 10 min 是 8:10 am。"
           }
         ],
         "answerCheck": "答案：8:10 am。"
       }
     },
     "questionZh": "科林在布莱恩前方150 m；亚伦在布莱恩后方50 m。上午8:00开始，亚伦2 min后超过布莱恩，3 min后又超过科林。布莱恩的跑速为120 m/min。布莱恩何时超过科林？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 76,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q69  Position model: fixed offsets and catch-up distances</text><text x=\"55\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">8:00</text><line x1=\"105\" y1=\"70\" x2=\"700\" y2=\"70\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"100\" y=\"96\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Bryan</text><text x=\"48\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Aaron</text><text x=\"100\" y=\"168\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Collin</text><line x1=\"105\" y1=\"91\" x2=\"345\" y2=\"91\" stroke=\"#93c5fd\" stroke-width=\"5\"/><text x=\"225\" y=\"115\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">240 m / 2 min</text><line x1=\"55\" y1=\"127\" x2=\"345\" y2=\"127\" stroke=\"#2563eb\" stroke-width=\"5\"/><text x=\"200\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">50 m + 240 m = 290 m</text><line x1=\"255\" y1=\"163\" x2=\"700\" y2=\"163\" stroke=\"#cbd5e1\" stroke-width=\"5\"/><text x=\"478\" y=\"187\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">150 m ahead</text><line x1=\"55\" y1=\"220\" x2=\"700\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"55\" y=\"247\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Aaron  725 m in 5 min</text><text x=\"55\" y=\"272\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Collin  725 − 150 − 50 = 525 m</text><rect x=\"55\" y=\"292\" width=\"150\" height=\"24\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"205\" y=\"292\" width=\"45\" height=\"24\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"130\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">150 m</text><text x=\"228\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">15 m/min</text><text x=\"320\" y=\"310\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">120 − 105 = 15 m/min</text><text x=\"320\" y=\"334\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">150 m ÷ 15 m/min</text></g>",
+        "alt": "Position tracks show Bryan, Aaron, and Collin with the 50 m and 150 m fixed offsets plus the 240 m, 290 m, 725 m, and 525 m calculations."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q69  位置模型：固定间距与追及路程</text><text x=\"55\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">8:00</text><line x1=\"105\" y1=\"70\" x2=\"700\" y2=\"70\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"100\" y=\"96\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Bryan</text><text x=\"48\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Aaron</text><text x=\"100\" y=\"168\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Collin</text><line x1=\"105\" y1=\"91\" x2=\"345\" y2=\"91\" stroke=\"#93c5fd\" stroke-width=\"5\"/><text x=\"225\" y=\"115\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">240 m / 2 min</text><line x1=\"55\" y1=\"127\" x2=\"345\" y2=\"127\" stroke=\"#2563eb\" stroke-width=\"5\"/><text x=\"200\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">50 m + 240 m = 290 m</text><line x1=\"255\" y1=\"163\" x2=\"700\" y2=\"163\" stroke=\"#cbd5e1\" stroke-width=\"5\"/><text x=\"478\" y=\"187\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">150 m 在前</text><line x1=\"55\" y1=\"220\" x2=\"700\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"2\"/><text x=\"55\" y=\"247\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Aaron  725 m in 5 min</text><text x=\"55\" y=\"272\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Collin  725 − 150 − 50 = 525 m</text><rect x=\"55\" y=\"292\" width=\"150\" height=\"24\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"205\" y=\"292\" width=\"45\" height=\"24\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"130\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">150 m</text><text x=\"228\" y=\"337\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">15 m/min</text><text x=\"320\" y=\"310\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">120 − 105 = 15 m/min</text><text x=\"320\" y=\"334\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">150 m ÷ 15 m/min</text></g>",
+        "alt": "位置线展示 Bryan、Aaron 和 Collin 的 50 m、150 m 固定间距，以及 240 m、290 m、725 m、525 m 的计算。"
+      }
+    }
   },
   {
     "id": 70,
@@ -3302,44 +4292,58 @@ window.QUESTION_BANK = [
     "sourcePage": 28,
     "solution": {
       "en": {
-        "strategy": "Find the 720 km trip distance from Sean’s journey, then use the 30 km/h speed difference to locate the moment they are 150 km apart.",
+        "strategy": "Use the two aligned journey lanes to find the common 720 km route, then mark the 5-hour point where the lanes are 150 km apart.",
         "steps": [
           {
-            "title": "Find both journey speeds",
-            "text": "Sean drives for 8 h, from 5:30 to 1:30, at 90 km/h. The trip is 90 × 8 = 720 km. Mary takes 6 h, so her speed is 720 ÷ 6 = 120 km/h."
+            "title": "Label the complete lanes",
+            "text": "Sean’s lane runs from 5:30 am to 1:30 pm, or 8 h, at 90 km/h. The common route is 90 × 8 = 720 km. Mary’s 6-hour lane therefore has speed 720 ÷ 6 = 120 km/h."
           },
           {
-            "title": "Find the time of the 150 km separation",
-            "text": "Mary gains on Sean at 120 − 90 = 30 km/h. Starting together, they are 150 km apart after 150 ÷ 30 = 5 h."
+            "title": "Locate the 150 km separation",
+            "text": "The aligned lanes separate at 120 − 90 = 30 km/h. A 150 km separation occurs after 150 ÷ 30 = 5 h."
           },
           {
-            "title": "Find Sean’s remaining distance",
-            "text": "In 5 h Sean covers 90 × 5 = 450 km. His distance from the 720 km destination is 720 − 450 = 270 km."
+            "title": "Shade Sean’s final segment",
+            "text": "At the 5-hour mark, Sean has 8 − 5 = 3 h left. His shaded final segment is 90 × 3 = 270 km."
           }
         ],
-        "answerCheck": "270 km"
+        "answerCheck": "Checked answer: 270 km."
       },
       "zh-Hans": {
-        "strategy": "先由Sean的行程求出720 km的全程，再利用30 km/h的速度差找出两人相距150 km的时刻。",
+        "strategy": "用两条对齐的行程线求共同的 720 km 全程，再在 5 h 处标出两条线相距 150 km 的位置。",
         "steps": [
           {
-            "title": "求全程和两人的速度",
-            "text": "Sean从5:30到1:30行驶8 h，速度为90 km/h，所以全程是90 × 8 = 720 km。Mary用6 h完成同一行程，速度是720 ÷ 6 = 120 km/h。"
+            "title": "标出两条完整行程线",
+            "text": "Sean 的行程线从 5:30 am 到 1:30 pm，共 8 h，速度为 90 km/h。共同全程是 90 × 8 = 720 km。Mary 用 6 h 走完全程，速度为 720 ÷ 6 = 120 km/h。"
           },
           {
-            "title": "求相距150 km的时间",
-            "text": "Mary每小时比Sean多走120 − 90 = 30 km。两人同时出发后，150 ÷ 30 = 5 h时相距150 km。"
+            "title": "找到相距 150 km 的时刻",
+            "text": "两条对齐行程线每小时拉开 120 − 90 = 30 km。相距 150 km 需要 150 ÷ 30 = 5 h。"
           },
           {
-            "title": "求Sean离终点的距离",
-            "text": "5 h内Sean走了90 × 5 = 450 km，离720 km终点还有720 − 450 = 270 km。"
+            "title": "读出 Sean 的最后一段",
+            "text": "在 5 h 的标记处，Sean 还剩 8 − 5 = 3 h。他到终点的阴影段是 90 × 3 = 270 km。"
           }
         ],
         "answerCheck": "答案：270 km。"
       }
     },
     "questionZh": "肖恩从5:30到1:30以90 km/h行驶。玛丽用6 h走完相同的路程。当两人相距150 km时，肖恩离目的地还有多远？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 77,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q70  Two travellers: common route and 5-hour separation</text><text x=\"50\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">5:30 am</text><text x=\"680\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">destination</text><text x=\"50\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Sean</text><line x1=\"70\" y1=\"100\" x2=\"680\" y2=\"100\" stroke=\"#93c5fd\" stroke-width=\"5\"/><text x=\"260\" y=\"86\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">90 km/h</text><text x=\"450\" y=\"86\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">8 h</text><text x=\"50\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Mary</text><line x1=\"70\" y1=\"165\" x2=\"520\" y2=\"165\" stroke=\"#2563eb\" stroke-width=\"5\"/><text x=\"260\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">120 km/h</text><text x=\"450\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h</text><line x1=\"70\" y1=\"230\" x2=\"680\" y2=\"230\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"225\" x2=\"70\" y2=\"235\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"451\" y1=\"225\" x2=\"451\" y2=\"235\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"680\" y1=\"225\" x2=\"680\" y2=\"235\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"70\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">0 h</text><text x=\"451\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5 h</text><text x=\"680\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">8 h</text><line x1=\"451\" y1=\"100\" x2=\"451\" y2=\"165\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><polyline points=\"451,190 451,182 520,182 520,190\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"485.5\" y=\"199\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">150 km</text><rect x=\"70\" y=\"285\" width=\"610\" height=\"38\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"375\" y=\"309\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">90 km/h × 8 h = 720 km</text></g>",
+        "alt": "Aligned Sean and Mary route lanes show 90 km/h, 120 km/h, 720 km, the 5-hour marker, and a 150 km separation."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q70  两位旅客：共同路线与 5 小时相差距离</text><text x=\"50\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">5:30 am</text><text x=\"680\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">终点</text><text x=\"50\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Sean</text><line x1=\"70\" y1=\"100\" x2=\"680\" y2=\"100\" stroke=\"#93c5fd\" stroke-width=\"5\"/><text x=\"260\" y=\"86\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">90 km/h</text><text x=\"450\" y=\"86\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">8 h</text><text x=\"50\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Mary</text><line x1=\"70\" y1=\"165\" x2=\"520\" y2=\"165\" stroke=\"#2563eb\" stroke-width=\"5\"/><text x=\"260\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">120 km/h</text><text x=\"450\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h</text><line x1=\"70\" y1=\"230\" x2=\"680\" y2=\"230\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"225\" x2=\"70\" y2=\"235\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"451\" y1=\"225\" x2=\"451\" y2=\"235\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"680\" y1=\"225\" x2=\"680\" y2=\"235\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"70\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">0 h</text><text x=\"451\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5 h</text><text x=\"680\" y=\"253\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">8 h</text><line x1=\"451\" y1=\"100\" x2=\"451\" y2=\"165\" stroke=\"#1f2937\" stroke-width=\"1.2\"/><polyline points=\"451,190 451,182 520,182 520,190\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"485.5\" y=\"199\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">150 km</text><rect x=\"70\" y=\"285\" width=\"610\" height=\"38\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"375\" y=\"309\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">90 km/h × 8 h = 720 km</text></g>",
+        "alt": "对齐的 Sean、Mary 路线展示 90 km/h、120 km/h、720 km、5 小时标记及 150 km 间距。"
+      }
+    }
   },
   {
     "id": 71,
@@ -3351,36 +4355,58 @@ window.QUESTION_BANK = [
     "sourcePage": 28,
     "solution": {
       "en": {
-        "strategy": "Use Jane’s travel time to find PQ, then use the meeting point and Mark’s remaining time.",
+        "strategy": "Partition the 600 km route bar into five equal units, then read the 2-unit meeting section and the 3-unit remaining section.",
         "steps": [
           {
-            "title": "Find the distance from P to Q",
-            "text": "Jane travels from 11:00 am to 4:00 pm, which is 5 hours. Therefore PQ = 120 × 5 = 600 km. She passes Mark after 2/5 of 600 km = 240 km, leaving 600 − 240 = 360 km to Q."
+            "title": "Build the five-unit route bar",
+            "text": "Jane travels from 11 am to 4 pm for 5 h at 120 km/h, so P–Q is 120 × 5 = 600 km. Each of the 5 equal units is 600 ÷ 5 = 120 km; the first 2 units are 240 km and the last 3 units are 360 km."
           },
           {
-            "title": "Find Mark’s later speed",
-            "text": "Jane reaches the meeting point after 240 ÷ 120 = 2 hours, at 1:00 pm. Mark travels the remaining 360 km from 1:00 pm to 3:30 pm, or 2.5 hours. His speed is 360 ÷ 2.5 = 144 km/h."
+            "title": "Mark the meeting point",
+            "text": "Jane reaches the 2-unit section after 240 ÷ 120 = 2 h, so she passes Mark at 1 pm. The distance from that point to Q is the remaining 3-unit section, 360 km."
+          },
+          {
+            "title": "Use the final time strip",
+            "text": "From 1 pm to 3:30 pm is 2.5 h. Mark’s speed over the labelled 360 km section is 360 ÷ 2.5 = 144 km/h."
           }
         ],
-        "answerCheck": "(a) 360 km; (b) 144 km/h"
+        "answerCheck": "Checked answers: (a) 360 km; (b) 144 km/h."
       },
       "zh-Hans": {
-        "strategy": "先利用简的行驶时间求PQ全程，再用相遇点和马克的剩余时间求速度。",
+        "strategy": "把 600 km 路程条分成 5 个等份，再读出会面前的 2 份和会面后的 3 份。",
         "steps": [
           {
-            "title": "求P到Q的距离",
-            "text": "简从上午11:00行驶到下午4:00，共5小时。因此PQ = 120 × 5 = 600 km。她在全程的2/5处超过马克，即走了2/5 × 600 = 240 km，离Q还有600 − 240 = 360 km。"
+            "title": "画出 5 等份路程条",
+            "text": "结合上面的图示模型，Jane 从 11 am 到 4 pm 行驶 5 h，速度为 120 km/h，所以 P–Q 是 120 × 5 = 600 km。每一份为 600 ÷ 5 = 120 km；前 2 份是 240 km，后 3 份是 360 km。"
           },
           {
-            "title": "求马克相遇后的速度",
-            "text": "简走到相遇点需240 ÷ 120 = 2小时，即下午1:00。马克从下午1:00到下午3:30走剩下的360 km，共2.5小时。他的速度是360 ÷ 2.5 = 144 km/h。"
+            "title": "标出会面点",
+            "text": "Jane 走前 2 份需要 240 ÷ 120 = 2 h，所以她在 1 pm 超过 Mark。该点到 Q 的距离是剩下的 3 份，即 360 km。"
+          },
+          {
+            "title": "利用最后的时间线",
+            "text": "从 1 pm 到 3:30 pm 是 2.5 h。Mark 在标出的 360 km 路段的速度是 360 ÷ 2.5 = 144 km/h。"
           }
         ],
-        "answerCheck": "(a) 360 km；(b) 144 km/h"
+        "answerCheck": "答案：(a) 360 km；(b) 144 km/h。"
       }
     },
     "questionZh": "马克上午10:00从P出发，速度为75 km/h。简在1小时后从P出发，速度为120 km/h。她走完全程的2/5时超过马克，并在下午4:00到达Q。(a)她超过马克时离Q多远？(b)若马克在相遇后于下午3:30到达Q，他相遇后的速度是多少？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 77,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q71  Five equal route units</text><text x=\"50\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">P</text><text x=\"680\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Q</text><g><rect x=\"70\" y=\"78\" width=\"122\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"192\" y=\"78\" width=\"122\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"314\" y=\"78\" width=\"122\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"436\" y=\"78\" width=\"122\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"558\" y=\"78\" width=\"122\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"70,125 70,117 314,117 314,125\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"192.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2/5 = 240 km</text><polyline points=\"314,125 314,117 680,117 680,125\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"375\" y=\"55\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11 am → 4 pm = 5 h</text><text x=\"192\" y=\"180\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">240 km ÷ 120 km/h = 2 h</text><text x=\"192\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">1 pm</text><text x=\"497\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2.5 h</text><text x=\"375\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Each unit = 120 km</text></g>",
+        "alt": "Five equal P–Q route cells show the 2/5 and 3/5 split of 600 km with the time annotations."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q71  五个等份路程</text><text x=\"50\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">P</text><text x=\"680\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Q</text><g><rect x=\"70\" y=\"78\" width=\"122\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"192\" y=\"78\" width=\"122\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"314\" y=\"78\" width=\"122\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"436\" y=\"78\" width=\"122\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"558\" y=\"78\" width=\"122\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"70,125 70,117 314,117 314,125\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"192.0\" y=\"134\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2/5 = 240 km</text><polyline points=\"314,125 314,117 680,117 680,125\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"375\" y=\"55\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11 am → 4 pm = 5 h</text><text x=\"192\" y=\"180\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">240 km ÷ 120 km/h = 2 h</text><text x=\"192\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">1 pm</text><text x=\"497\" y=\"204\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2.5 h</text><text x=\"375\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">每一份 = 120 km</text></g>",
+        "alt": "五个等份 P–Q 路程格展示 600 km 的 2/5 与 3/5 划分及时间标注。"
+      }
+    }
   },
   {
     "id": 72,
@@ -3392,44 +4418,58 @@ window.QUESTION_BANK = [
     "sourcePage": 28,
     "solution": {
       "en": {
-        "strategy": "Find the unfilled volume, then compare the fill times at 120 + 180 ml/min and at 200 + 200 ml/min.",
+        "strategy": "Use the four unfilled bands of the tank, then compare the two rows of the flow-rate table.",
         "steps": [
           {
-            "title": "Find the volume still needed",
-            "text": "The container capacity is 15 × 20 × 30 = 9000 cm³ = 9000 ml. It is 1/5 full, so the amount still needed is 4/5 × 9000 = 7200 ml."
+            "title": "Label the unfilled tank bands",
+            "text": "The tank capacity is 15 × 20 × 30 = 9000 cm³. It is 1/5 full, so the 4 highlighted unfilled bands total 4/5 × 9000 = 7200 cm³."
           },
           {
-            "title": "Time with the original taps",
-            "text": "The original combined flow is 120 + 180 = 300 ml/min. Filling 7200 ml takes 7200 ÷ 300 = 24 min."
+            "title": "Complete the original row",
+            "text": "The original taps give 120 + 180 = 300 cm³/min. The table’s first time cell is 7200 ÷ 300 = 24 min."
           },
           {
-            "title": "Time with the changed taps",
-            "text": "The changed combined flow is 200 + 200 = 400 ml/min. The time is 7200 ÷ 400 = 18 min, so filling is 24 − 18 = 6 minutes faster."
+            "title": "Complete the revised row and compare",
+            "text": "The revised taps give 200 + 200 = 400 cm³/min, so the second time cell is 7200 ÷ 400 = 18 min. The arrow between the time cells shows 24 − 18 = 6 minutes faster."
           }
         ],
-        "answerCheck": "6 minutes"
+        "answerCheck": "Checked answer: 6 minutes."
       },
       "zh-Hans": {
-        "strategy": "先求还需注入的体积，再比较120 + 180 ml/min和200 + 200 ml/min两种流速下的注满时间。",
+        "strategy": "先用水箱中 4 个未装满的体积分层，再比较流量表的两行。",
         "steps": [
           {
-            "title": "求还需要的体积",
-            "text": "容器容量为15 × 20 × 30 = 9000 cm³ = 9000 ml。容器已装满1/5，所以还需要4/5 × 9000 = 7200 ml。"
+            "title": "标出水箱未装满的分层",
+            "text": "水箱容量为 15 × 20 × 30 = 9000 cm³。它已有 1/5 满，图中突出的 4 层未装满部分是 4/5 × 9000 = 7200 cm³。"
           },
           {
-            "title": "原来水龙头所需时间",
-            "text": "原来的合流速为120 + 180 = 300 ml/min。注入7200 ml需要7200 ÷ 300 = 24 min。"
+            "title": "完成原来流量的一行",
+            "text": "原来两个水龙头的合流量是 120 + 180 = 300 cm³/min。表中第一格时间为 7200 ÷ 300 = 24 min。"
           },
           {
-            "title": "改变后的时间",
-            "text": "改变后的合流速为200 + 200 = 400 ml/min。所需时间为7200 ÷ 400 = 18 min，所以快了24 − 18 = 6 minutes。"
+            "title": "完成调整后的一行并比较",
+            "text": "调整后合流量是 200 + 200 = 400 cm³/min，因此第二格时间为 7200 ÷ 400 = 18 min。两格之间的箭头表示 24 − 18 = 6 minutes 更快。"
           }
         ],
         "answerCheck": "答案：6 minutes。"
       }
     },
     "questionZh": "一个15 cm × 20 cm × 30 cm的容器装有1/5满的水。两个水龙头的流量分别为120 ml/min和180 ml/min。若每个水龙头的流量均为200 ml/min，注满速度会快多少？",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 78,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q72  Tank volume and two flow rates</text><text x=\"130\" y=\"55\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">15 cm × 20 cm × 30 cm</text><rect x=\"50\" y=\"70\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"100\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"130\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"160\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"190\" width=\"160\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"130\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">4/5 = 7200 cm³</text><text x=\"130\" y=\"235\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">unfilled volume</text><rect x=\"280\" y=\"70\" width=\"420\" height=\"50\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"120\" width=\"420\" height=\"50\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"170\" width=\"420\" height=\"50\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"340\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Tap setting</text><text x=\"500\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Combined flow</text><text x=\"640\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Time</text><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"580\" y1=\"70\" x2=\"580\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"340\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Original</text><text x=\"500\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">120 + 180 = 300 cm³/min</text><text x=\"640\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7200 ÷ 300</text><text x=\"340\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Revised</text><text x=\"500\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">200 + 200 = 400 cm³/min</text><text x=\"640\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7200 ÷ 400</text><line x1=\"490\" y1=\"270\" x2=\"590\" y2=\"270\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"590,270 583,266 583,274\" fill=\"#2563eb\"/><text x=\"540\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">faster fill</text><text x=\"490\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">7200 cm³</text><text x=\"590\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">300 → 400 cm³/min</text></g>",
+        "alt": "A five-band tank highlights four unfilled bands and a two-row table compares original and revised combined flow rates."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q72  水箱体积与两种流量</text><text x=\"130\" y=\"55\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">15 cm × 20 cm × 30 cm</text><rect x=\"50\" y=\"70\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"100\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"130\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"160\" width=\"160\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"50\" y=\"190\" width=\"160\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"130\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">4/5 = 7200 cm³</text><text x=\"130\" y=\"235\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">未装满体积</text><rect x=\"280\" y=\"70\" width=\"420\" height=\"50\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"120\" width=\"420\" height=\"50\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"280\" y=\"170\" width=\"420\" height=\"50\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"340\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">水龙头设置</text><text x=\"500\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">合计流量</text><text x=\"640\" y=\"101\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">时间</text><line x1=\"430\" y1=\"70\" x2=\"430\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"580\" y1=\"70\" x2=\"580\" y2=\"220\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"340\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">原来</text><text x=\"500\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">120 + 180 = 300 cm³/min</text><text x=\"640\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7200 ÷ 300</text><text x=\"340\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">调整后</text><text x=\"500\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">200 + 200 = 400 cm³/min</text><text x=\"640\" y=\"195\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7200 ÷ 400</text><line x1=\"490\" y1=\"270\" x2=\"590\" y2=\"270\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"590,270 583,266 583,274\" fill=\"#2563eb\"/><text x=\"540\" y=\"258\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">更快注满</text><text x=\"490\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">7200 cm³</text><text x=\"590\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">300 → 400 cm³/min</text></g>",
+        "alt": "五层水箱突出四层未装满部分，并以两行表比较原来和调整后的合计流量。"
+      }
+    }
   },
   {
     "id": 73,
@@ -3441,44 +4481,58 @@ window.QUESTION_BANK = [
     "sourcePage": 29,
     "solution": {
       "en": {
-        "strategy": "Use the car’s 90 km/h for its 9:00–1:00 journey, then interpret the canonical 8 h as the lorry’s full P–Q travel time.",
+        "strategy": "Use the four equal route units and the clock strip: the car covers three units while the lorry covers one.",
         "steps": [
           {
-            "title": "Find the road length",
-            "text": "The car drives for 4 h from 9:00 to 1:00 at 90 km/h, so P–Q is 90 × 4 = 360 km."
+            "title": "Make the four-unit route",
+            "text": "The car travels from 9 am to 1 pm for 4 h at 90 km/h, so P–Q is 90 × 4 = 360 km. One of the 4 equal units is 360 ÷ 4 = 90 km."
           },
           {
-            "title": "Locate the meeting point",
-            "text": "The lorry travels 1/4 of the 360 km route from Q, or 360 ÷ 4 = 90 km. Therefore the car has travelled 360 − 90 = 270 km when they meet."
+            "title": "Read the meeting sections",
+            "text": "At the meeting, the car’s shaded 3 units are 3 × 90 = 270 km. The lorry’s section from Q is the remaining 1 unit, or 90 km."
           },
           {
-            "title": "Find the lorry’s full-trip time",
-            "text": "The car reaches the meeting point in 270 ÷ 90 = 3 h, at 12:00. The lorry has travelled 90 km from 10:00 to 12:00, so its speed is 90 ÷ 2 = 45 km/h. At 45 km/h, the full 360 km route takes 360 ÷ 45 = 8 h. This is the full P–Q time, not its 2 h time to the meeting point."
+            "title": "Use the clock strip for the lorry",
+            "text": "The car takes 270 ÷ 90 = 3 h to the meeting. The lorry starts 1 h later, so its clock strip is 2 h. Its speed is 90 ÷ 2 = 45 km/h, and the full 360 km route takes 360 ÷ 45 = 8 h."
           }
         ],
-        "answerCheck": "(a) 270 km; (b) 8 h"
+        "answerCheck": "Checked answers: (a) 270 km; (b) 8 h."
       },
       "zh-Hans": {
-        "strategy": "用汽车从9:00到1:00以90 km/h行驶的路程求全程，并把规范答案中的8 h理解为货车走完全程P–Q的时间。",
+        "strategy": "用 4 等份路线条和时间线：汽车走了 3 份，货车走了 1 份。",
         "steps": [
           {
-            "title": "求道路全长",
-            "text": "汽车从9:00到1:00共行驶4 h，速度为90 km/h，所以P–Q全长为90 × 4 = 360 km。"
+            "title": "画出 4 等份路线",
+            "text": "汽车从 9 am 到 1 pm 行驶 4 h，速度为 90 km/h，所以 P–Q 是 90 × 4 = 360 km。4 个等份中的每一份是 360 ÷ 4 = 90 km。"
           },
           {
-            "title": "确定相遇地点",
-            "text": "货车从Q走了全程的1/4，即360 ÷ 4 = 90 km。因此相遇时汽车已走360 − 90 = 270 km。"
+            "title": "读出会面时的两段",
+            "text": "会面时，汽车涂色的 3 份是 3 × 90 = 270 km。货车从 Q 走的是剩下的 1 份，即 90 km。"
           },
           {
-            "title": "求货车走完全程的时间",
-            "text": "汽车到相遇点需270 ÷ 90 = 3 h，即12:00相遇。货车从10:00到12:00走90 km，速度为90 ÷ 2 = 45 km/h。货车走完360 km需360 ÷ 45 = 8 h；这不是它到相遇点的2 h。"
+            "title": "用货车的时间线",
+            "text": "汽车到会面点需 270 ÷ 90 = 3 h。货车晚 1 h 出发，所以时间线显示它行驶 2 h。货车速度为 90 ÷ 2 = 45 km/h，走完全程 360 km 需要 360 ÷ 45 = 8 h。"
           }
         ],
         "answerCheck": "答案：(a) 270 km；(b) 8 h。"
       }
     },
     "questionZh": "一辆汽车上午9:00从P出发，车速90 km/h，下午1:00到达Q。一辆卡车上午10:00从Q出发，在全程的1/4处与汽车相遇。求相遇时汽车行驶的距离和卡车行驶的时间。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 78,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q73  Opposing journeys on four equal route units</text><text x=\"60\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">P</text><text x=\"700\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Q</text><g><rect x=\"80\" y=\"82\" width=\"150\" height=\"36\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"230\" y=\"82\" width=\"150\" height=\"36\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"380\" y=\"82\" width=\"150\" height=\"36\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"530\" y=\"82\" width=\"150\" height=\"36\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"80,130 80,122 530,122 530,130\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><polyline points=\"530,130 530,122 680,122 680,130\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"605.0\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Lorry: 1/4</text><text x=\"380\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">360 km</text><text x=\"80\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Car starts 9 am</text><line x1=\"235\" y1=\"185\" x2=\"405\" y2=\"185\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"405,185 398,181 398,189\" fill=\"#2563eb\"/><text x=\"320\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3 h</text><text x=\"430\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">meeting</text><text x=\"80\" y=\"235\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">Lorry starts 1 h later</text><line x1=\"270\" y1=\"230\" x2=\"405\" y2=\"230\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"405,230 398,226 398,234\" fill=\"#2563eb\"/><text x=\"337\" y=\"219\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 h</text><rect x=\"100\" y=\"275\" width=\"540\" height=\"40\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g>",
+        "alt": "A four-part P–Q route bar shows the car’s three parts, the lorry’s one part, and the offset start-time strip."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q73  相向行程：四个等份</text><text x=\"60\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">P</text><text x=\"700\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Q</text><g><rect x=\"80\" y=\"82\" width=\"150\" height=\"36\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"230\" y=\"82\" width=\"150\" height=\"36\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"380\" y=\"82\" width=\"150\" height=\"36\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"530\" y=\"82\" width=\"150\" height=\"36\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"80,130 80,122 530,122 530,130\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><polyline points=\"530,130 530,122 680,122 680,130\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"605.0\" y=\"139\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">货车：1/4</text><text x=\"380\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">360 km</text><text x=\"80\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">汽车 9 am 出发</text><line x1=\"235\" y1=\"185\" x2=\"405\" y2=\"185\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"405,185 398,181 398,189\" fill=\"#2563eb\"/><text x=\"320\" y=\"174\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3 h</text><text x=\"430\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">相遇</text><text x=\"80\" y=\"235\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">货车晚 1 h 出发</text><line x1=\"270\" y1=\"230\" x2=\"405\" y2=\"230\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"405,230 398,226 398,234\" fill=\"#2563eb\"/><text x=\"337\" y=\"219\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 h</text><rect x=\"100\" y=\"275\" width=\"540\" height=\"40\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g>",
+        "alt": "四等份 P–Q 路程条展示汽车的三份、货车的一份及错开出发时间线。"
+      }
+    }
   },
   {
     "id": 74,
@@ -3490,77 +4544,121 @@ window.QUESTION_BANK = [
     "sourcePage": 29,
     "solution": {
       "en": {
-        "strategy": "Use the 24 km remainder to find the total distance and the first-part time.",
+        "strategy": "Use the nine equal route cells: the final 4 cells are 24 km, so every cell has the same distance.",
         "steps": [
           {
-            "title": "Find the first-part distance",
-            "text": "The remaining 24 km is 4/9 of the journey. Therefore the whole journey is 24 ÷ 4 × 9 = 54 km, and the first 5/9 is 54 × 5/9 = 30 km."
+            "title": "Label one route unit",
+            "text": "The final 4/9 is 24 km, so 1/9 is 24 ÷ 4 = 6 km. The first 5 cells therefore show 5 × 6 = 30 km."
           },
           {
-            "title": "Calculate time and second-part speed",
-            "text": "The first part takes 30 ÷ 80 hour = 3/8 hour = 22.5 minutes. Adding 12 minutes gives 34.5 minutes. The second-part speed is 24 ÷ (12/60) = 120 km/h."
+            "title": "Read the first-part time",
+            "text": "The first block takes 30 ÷ 80 = 0.375 h = 22.5 min. Adding the labelled final 12 min gives 22.5 + 12 = 34.5 minutes."
+          },
+          {
+            "title": "Convert the final time for the rate",
+            "text": "The final strip is 12 min = 0.2 h. Its speed is 24 ÷ 0.2 = 120 km/h."
           }
         ],
-        "answerCheck": "(a) 34.5 minutes; (b) 120 km/h"
+        "answerCheck": "Checked answers: (a) 34.5 minutes; (b) 120 km/h."
       },
       "zh-Hans": {
-        "strategy": "用剩下的24 km求全程和第1段的时间。",
+        "strategy": "用 9 个等格的路程条：最后 4 格是 24 km，所以每一格距离相同。",
         "steps": [
           {
-            "title": "求第1段距离",
-            "text": "剩下的24 km是全程的4/9。因此全程是24 ÷ 4 × 9 = 54 km，前5/9是54 × 5/9 = 30 km。"
+            "title": "标出 1 个路程单位",
+            "text": "最后的 4/9 是 24 km，所以 1/9 是 24 ÷ 4 = 6 km。因此前 5 格为 5 × 6 = 30 km。"
           },
           {
-            "title": "计算时间和第2段速度",
-            "text": "第1段用时30 ÷ 80小时 = 3/8小时 = 22.5分钟。加上12分钟，总用时为34.5分钟。第2段速度为24 ÷ (12/60) = 120 km/h。"
+            "title": "读出第 1 段时间",
+            "text": "第 1 段需要 30 ÷ 80 = 0.375 h = 22.5 min。加上图中最后一段的 12 min，得到 22.5 + 12 = 34.5 minutes。"
+          },
+          {
+            "title": "把最后一段时间换成小时",
+            "text": "最后一段为 12 min = 0.2 h。它的速度是 24 ÷ 0.2 = 120 km/h。"
           }
         ],
-        "answerCheck": "(a) 34.5分钟；(b) 120 km/h"
+        "answerCheck": "答案：(a) 34.5 minutes；(b) 120 km/h。"
       }
     },
     "questionZh": "杰克以80 km/h行驶了全程的前5/9。他用12分钟行驶剩下的24 km。求(a)总用时，(b)第2段路程的速度。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 79,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q74  Nine equal route units</text><g><rect x=\"55\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"125\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"160.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"195\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"230.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"265\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"335\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"370.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"405\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"440.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"475\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"510.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"545\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"580.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"615\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"650.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text></g><polyline points=\"55,132 55,124 405,124 405,132\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"230.0\" y=\"141\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5/9 = 30 km</text><polyline points=\"405,132 405,124 685,124 685,132\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"545.0\" y=\"141\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4/9 = 24 km</text><text x=\"230\" y=\"178\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">30 km at 80 km/h</text><text x=\"545\" y=\"178\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24 km</text><rect x=\"70\" y=\"225\" width=\"230\" height=\"52\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"185\" y=\"248\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">30 ÷ 80 = 0.375 h</text><text x=\"185\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">= 22.5 min</text><rect x=\"400\" y=\"225\" width=\"230\" height=\"52\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"515\" y=\"248\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12 min = 0.2 h</text><text x=\"515\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24 km ÷ 0.2 h</text><text x=\"350\" y=\"325\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">1/9 = 24 ÷ 4 = 6 km</text></g>",
+        "alt": "Nine route cells show the five-part and four-part distances plus the minute-to-hour conversion."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q74  九个等份路程</text><g><rect x=\"55\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"125\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"160.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"195\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"230.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"265\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"335\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"370.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"405\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"440.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"475\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"510.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"545\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"580.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text><rect x=\"615\" y=\"80\" width=\"70\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"650.0\" y=\"102.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 km</text></g><polyline points=\"55,132 55,124 405,124 405,132\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"230.0\" y=\"141\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5/9 = 30 km</text><polyline points=\"405,132 405,124 685,124 685,132\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"545.0\" y=\"141\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4/9 = 24 km</text><text x=\"230\" y=\"178\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">30 km at 80 km/h</text><text x=\"545\" y=\"178\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24 km</text><rect x=\"70\" y=\"225\" width=\"230\" height=\"52\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"185\" y=\"248\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">30 ÷ 80 = 0.375 h</text><text x=\"185\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">= 22.5 min</text><rect x=\"400\" y=\"225\" width=\"230\" height=\"52\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"515\" y=\"248\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12 min = 0.2 h</text><text x=\"515\" y=\"268\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24 km ÷ 0.2 h</text><text x=\"350\" y=\"325\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">1/9 = 24 ÷ 4 = 6 km</text></g>",
+        "alt": "九个路程格展示五份与四份的距离及分钟到小时的换算。"
+      }
+    }
   },
   {
     "id": 75,
     "topic": "Distance, Speed and Time",
-    "question": "Tom started from A for B at 5:45 am. Jane started along the same route 2 hours later at 100 km/h. She overtook Tom after completing 3/5 of her journey and reached B 4 hours later. Find (a) the distance from A to B, (b) Tom’s speed, and (c) the required time.",
+    "question": "Tom started from A for B at 5:45 am. Jane started along the same route 2 hours later at 100 km/h. She overtook Tom after completing 3/5 of her journey and reached B 4 hours later. Find (a) the distance Tom was from B when Jane overtook him, (b) Tom’s speed, and (c) the time Tom reached B.",
     "answer": "(a) 400 km; (b) 75 km/h; (c) 7:05 pm",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 29,
     "solution": {
       "en": {
-        "strategy": "Use Jane’s 4-hour journey to determine the route length, then apply the stated route and time results.",
+        "strategy": "Use the five-unit overtaking bar and its time strip: Jane’s 3-unit section is paired with Tom’s 2-hour earlier start.",
         "steps": [
           {
-            "title": "Find the journey distance",
-            "text": "Jane travels for 4 hours at 100 km/h. Therefore AB = 100 × 4 = 400 km. The overtaking point is 3/5 × 400 = 240 km from A."
+            "title": "Read Jane’s three-unit section",
+            "text": "The bar labels Jane’s 3/5 section as 600 km. Therefore 1 unit is 600 ÷ 3 = 200 km, and all 5 units make 5 × 200 = 1000 km."
           },
           {
-            "title": "State the remaining results",
-            "text": "Using the travel schedule for the same 400 km route gives Tom’s speed as 75 km/h and the required time as 7:05 pm."
+            "title": "Match the overtaking times",
+            "text": "Jane’s 600 km section at 100 km/h takes 600 ÷ 100 = 6 h. Tom started 2 h earlier, so the paired time strip gives him 6 + 2 = 8 h to the same point."
+          },
+          {
+            "title": "Finish the full-route calculation",
+            "text": "Tom’s speed shown by the route-and-time comparison is 600 ÷ 8 = 75 km/h. The full-route strip gives 1000 ÷ 75 = 13 h 20 min; from 5:45 am, that ends at 7:05 pm."
           }
         ],
-        "answerCheck": "(a) 400 km; (b) 75 km/h; (c) 7:05 pm"
+        "answerCheck": "Checked answers: (a) 400 km; (b) 75 km/h; (c) 7:05 pm."
       },
       "zh-Hans": {
-        "strategy": "先利用简的4小时行程求路线长度，再得到其余所求结果。",
+        "strategy": "用 5 等份追及路线条和时间线：Jane 的 3 份路程与 Tom 提前 2 h 出发对应。",
         "steps": [
           {
-            "title": "求全程距离",
-            "text": "简以100 km/h行驶4小时。因此AB = 100 × 4 = 400 km。超过汤姆的位置离A为3/5 × 400 = 240 km。"
+            "title": "读出 Jane 的 3 份路程",
+            "text": "路程条把 Jane 的 3/5 标为 600 km。因此 1 份为 600 ÷ 3 = 200 km，全部 5 份为 5 × 200 = 1000 km。"
           },
           {
-            "title": "得到其余结果",
-            "text": "把同一条400 km路线代入行程时间关系，汤姆的速度为75 km/h，所求时间为下午7:05。"
+            "title": "对齐追及时刻",
+            "text": "Jane 以 100 km/h 走 600 km 需要 600 ÷ 100 = 6 h。Tom 早出发 2 h，所以时间线显示他到同一点用了 6 + 2 = 8 h。"
+          },
+          {
+            "title": "完成全程计算",
+            "text": "由路线和时间比较，Tom 的速度是 600 ÷ 8 = 75 km/h。全程条给出 1000 ÷ 75 = 13 h 20 min；从 5:45 am 起算，到达时刻是 7:05 pm。"
           }
         ],
-        "answerCheck": "(a) 400 km；(b) 75 km/h；(c) 下午7:05"
+        "answerCheck": "答案：(a) 400 km；(b) 75 km/h；(c) 7:05 pm。"
       }
     },
-    "questionZh": "汤姆上午5:45从A出发前往B。简在2小时后沿同一路线以100 km/h出发。她走完全程的3/5时超过汤姆，并在4小时后到达B。求(a)A到B的距离，(b)汤姆的速度，(c)所求时间。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "questionZh": "汤姆上午5:45从A出发前往B。简在2小时后沿同一路线以100 km/h出发。她走完全程的3/5时超过汤姆，并在4小时后到达B。求(a)简超过汤姆时，汤姆距离B多远，(b)汤姆的速度，(c)汤姆到达B的时间。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 79,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"50\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">A</text><text x=\"700\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">B</text><g><rect x=\"70\" y=\"80\" width=\"125\" height=\"38\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"80\" width=\"125\" height=\"38\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"80\" width=\"125\" height=\"38\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"445\" y=\"80\" width=\"125\" height=\"38\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"570\" y=\"80\" width=\"125\" height=\"38\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"70,138 70,130 445,130 445,138\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"257.5\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Jane: 3/5 = 600 km</text><polyline points=\"445,138 445,130 695,130 695,138\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"570.0\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 units</text><text x=\"195\" y=\"180\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 200 km</text><line x1=\"80\" y1=\"230\" x2=\"610\" y2=\"230\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"80\" y1=\"224\" x2=\"80\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"477\" y1=\"224\" x2=\"477\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"610\" y1=\"224\" x2=\"610\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"80\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Jane</text><text x=\"477\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h</text><text x=\"610\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">overtake</text><text x=\"80\" y=\"290\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Tom</text><text x=\"477\" y=\"290\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h + 2 h = 8 h</text><rect x=\"120\" y=\"310\" width=\"500\" height=\"30\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g>",
+        "alt": "Five equal route units show Jane’s first three units, Tom’s two-hour head start, and the full-route time computation."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"50\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">A</text><text x=\"700\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">B</text><g><rect x=\"70\" y=\"80\" width=\"125\" height=\"38\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"80\" width=\"125\" height=\"38\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"80\" width=\"125\" height=\"38\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"445\" y=\"80\" width=\"125\" height=\"38\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"570\" y=\"80\" width=\"125\" height=\"38\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"70,138 70,130 445,130 445,138\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"257.5\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Jane：3/5 = 600 km</text><polyline points=\"445,138 445,130 695,130 695,138\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"570.0\" y=\"147\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 份</text><text x=\"195\" y=\"180\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">每一份 = 200 km</text><line x1=\"80\" y1=\"230\" x2=\"610\" y2=\"230\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"80\" y1=\"224\" x2=\"80\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"477\" y1=\"224\" x2=\"477\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"610\" y1=\"224\" x2=\"610\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"80\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Jane</text><text x=\"477\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h</text><text x=\"610\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">追上</text><text x=\"80\" y=\"290\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Tom</text><text x=\"477\" y=\"290\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h + 2 h = 8 h</text><rect x=\"120\" y=\"310\" width=\"500\" height=\"30\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g>",
+        "alt": "五个等份展示 Jane 的前三份、Tom 提前 2 小时及全程时间计算。"
+      }
+    }
   },
   {
     "id": 76,
@@ -3572,44 +4670,58 @@ window.QUESTION_BANK = [
     "sourcePage": 30,
     "solution": {
       "en": {
-        "strategy": "Find P–Q from motorist A’s 6 h trip, then use B’s different start time for each arrival calculation.",
+        "strategy": "Fill the distance–speed–time table, then use the labelled clock timeline to compare B’s two possible travel times.",
         "steps": [
           {
-            "title": "Find the P–Q distance",
-            "text": "A travels from 9:30 to 3:30, which is 6 h, at 80 km/h. Thus P–Q is 80 × 6 = 480 km."
+            "title": "Complete motorist A’s row",
+            "text": "A travels from 9:30 to 3:30 for 6 h. At 80 km/h, the table gives P–Q = 80 × 6 = 480 km."
           },
           {
-            "title": "Find B’s normal arrival",
-            "text": "At 100 km/h, B takes 480 ÷ 100 = 4.8 h = 4 h 48 min. Starting at 11:30, B arrives at 4:18 pm."
+            "title": "Follow B’s normal clock arcs",
+            "text": "For B, 480 ÷ 100 = 4.8 h = 4 h 48 min. Starting at 11:30, the timeline’s four 1-hour arcs, then 30 min and 18 min, end at 4:18 pm."
           },
           {
-            "title": "Find B’s required speed",
-            "text": "To arrive at 3:30 after leaving at 11:30, B has 4 h. The required speed is 480 ÷ 4 = 120 km/h."
+            "title": "Highlight the 3:30 target",
+            "text": "From 11:30 to 3:30, the highlighted timeline is 4 h. To cover the same 480 km in 4 h, B needs 480 ÷ 4 = 120 km/h."
           }
         ],
-        "answerCheck": "(a) 4:18 pm; (b) 120 km/h"
+        "answerCheck": "Checked answers: (a) 4:18 pm; (b) 120 km/h."
       },
       "zh-Hans": {
-        "strategy": "先由A以80 km/h行驶6 h求出P–Q的距离，再利用B不同的出发时间分别求到达时间和所需速度。",
+        "strategy": "先完成距离—速度—时间表，再用标有刻度的时间线比较 B 的两种行驶时间。",
         "steps": [
           {
-            "title": "求P–Q距离",
-            "text": "A从9:30到3:30行驶6 h，速度为80 km/h，所以P–Q为80 × 6 = 480 km。"
+            "title": "完成驾车人 A 的一行",
+            "text": "A 从 9:30 到 3:30 行驶 6 h。以 80 km/h 行驶，表中得到 P–Q = 80 × 6 = 480 km。"
           },
           {
-            "title": "求B按原速的到达时间",
-            "text": "B以100 km/h行驶480 km，需要480 ÷ 100 = 4.8 h = 4 h 48 min。从11:30出发，到达时间是4:18 pm。"
+            "title": "沿 B 的正常时间线读刻度",
+            "text": "B 需要 480 ÷ 100 = 4.8 h = 4 h 48 min。从 11:30 开始，时间线上的 4 个 1 h 弧、再加 30 min 和 18 min，终点是 4:18 pm。"
           },
           {
-            "title": "求B准时到达所需速度",
-            "text": "B从11:30到3:30只有4 h，所需速度为480 ÷ 4 = 120 km/h。"
+            "title": "突出 3:30 的目标时刻",
+            "text": "从 11:30 到 3:30 的突出时间段为 4 h。B 要在 4 h 内走同样的 480 km，所需速度是 480 ÷ 4 = 120 km/h。"
           }
         ],
         "answerCheck": "答案：(a) 4:18 pm；(b) 120 km/h。"
       }
     },
     "questionZh": "驾车人A上午9:30从P出发，车速80 km/h，下午3:30到达Q。B在2 h后以100 km/h从P出发。求B到达时间，以及B若在下午3:30到达所需的速度。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 80,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q76  Distance–time table and source timeline</text><rect x=\"50\" y=\"55\" width=\"650\" height=\"80\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"280\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Speed</text><text x=\"440\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Time</text><text x=\"610\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Distance</text><line x1=\"200\" y1=\"55\" x2=\"200\" y2=\"135\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"360\" y1=\"55\" x2=\"360\" y2=\"135\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"520\" y1=\"55\" x2=\"520\" y2=\"135\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"95\" x2=\"700\" y2=\"95\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"280\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">80 km/h</text><text x=\"440\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h</text><text x=\"610\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">480 km</text><text x=\"280\" y=\"159\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">100 km/h</text><text x=\"610\" y=\"159\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">480 km</text><line x1=\"90\" y1=\"230\" x2=\"670\" y2=\"230\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"90\" y1=\"224\" x2=\"90\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11:30</text><line x1=\"210\" y1=\"224\" x2=\"210\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12:30</text><line x1=\"330\" y1=\"224\" x2=\"330\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"330\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1:30</text><line x1=\"450\" y1=\"224\" x2=\"450\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"450\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2:30</text><line x1=\"570\" y1=\"224\" x2=\"570\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3:30</text><line x1=\"630\" y1=\"224\" x2=\"630\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"670\" y1=\"224\" x2=\"670\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"670\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\"></text><text x=\"150.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"270.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"390.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"510.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"600\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">30 min</text><polyline points=\"90,286 90,278 570,278 570,286\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/></g>",
+        "alt": "A distance–time table and labelled source timeline show 480 km, 4 h 48 min, four hours, 30 minutes, and 18 minutes."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q76  路程时间表与原解时间线</text><rect x=\"50\" y=\"55\" width=\"650\" height=\"80\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"280\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">速度</text><text x=\"440\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">时间</text><text x=\"610\" y=\"77\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">路程</text><line x1=\"200\" y1=\"55\" x2=\"200\" y2=\"135\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"360\" y1=\"55\" x2=\"360\" y2=\"135\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"520\" y1=\"55\" x2=\"520\" y2=\"135\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"95\" x2=\"700\" y2=\"95\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"280\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">80 km/h</text><text x=\"440\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 h</text><text x=\"610\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">480 km</text><text x=\"280\" y=\"159\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">100 km/h</text><text x=\"610\" y=\"159\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">480 km</text><line x1=\"90\" y1=\"230\" x2=\"670\" y2=\"230\" stroke=\"#1f2937\" stroke-width=\"2\"/><line x1=\"90\" y1=\"224\" x2=\"90\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"90\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11:30</text><line x1=\"210\" y1=\"224\" x2=\"210\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"210\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12:30</text><line x1=\"330\" y1=\"224\" x2=\"330\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"330\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1:30</text><line x1=\"450\" y1=\"224\" x2=\"450\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"450\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2:30</text><line x1=\"570\" y1=\"224\" x2=\"570\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3:30</text><line x1=\"630\" y1=\"224\" x2=\"630\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"670\" y1=\"224\" x2=\"670\" y2=\"236\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"670\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\"></text><text x=\"150.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"270.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"390.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"510.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 h</text><text x=\"600\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">30 min</text><polyline points=\"90,286 90,278 570,278 570,286\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/></g>",
+        "alt": "路程时间表和标注时间线展示 480 km、4 h 48 min、4 个小时、30 分钟、18 分钟。"
+      }
+    }
   },
   {
     "id": 77,
@@ -3621,44 +4733,58 @@ window.QUESTION_BANK = [
     "sourcePage": 30,
     "solution": {
       "en": {
-        "strategy": "Use the 400 km Y–Z segment and the two stated times to check the train speeds and the canonical departure time.",
+        "strategy": "Work backward along the X–Y–Z route strip: find B’s speed on Y–Z, use B’s full 6-hour bar for X–Y, then place A’s 5-hour bar ending at 2 pm.",
         "steps": [
           {
-            "title": "Find train B’s speed and X–Y distance",
-            "text": "B travels Y–Z from 2:00 to 4:00, so its speed is 400 ÷ 2 = 200 km/h. Since B’s full journey takes 6 h, it spends 4 h reaching Y and X–Y is 200 × 4 = 800 km."
+            "title": "Label B’s route and time bars",
+            "text": "B travels the 400 km Y–Z segment from 2 pm to 4 pm, or 2 h. So B’s speed is 400 ÷ 2 = 200 km/h. Its 6-hour bar leaves 6 − 2 = 4 h for X–Y, giving X–Y = 200 × 4 = 800 km."
           },
           {
-            "title": "Compute train A’s timing",
-            "text": "At 160 km/h, A needs 800 ÷ 160 = 5 h to reach Y. Passing Y at 2:00 means A would depart at 9:00 am. It then needs 400 ÷ 160 = 2.5 h to reach Z, arriving at 4:30 pm."
+            "title": "Work backward to A’s departure",
+            "text": "A’s parallel X–Y bar is 800 ÷ 160 = 5 h. Since it ends at Y at 2 pm, A starts at 9:00 am."
           },
           {
-            "title": "Check the result",
-            "text": "The stated values do support both canonical results: 9:00 am and 4:30 pm."
+            "title": "Extend A’s bar to Z",
+            "text": "The full route is 800 + 400 = 1200 km. At 160 km/h, A needs 1200 ÷ 160 = 7.5 h = 7 h 30 min, so 9:00 am + 7 h 30 min = 4:30 pm."
           }
         ],
-        "answerCheck": "(a) 9:00 am; (b) 4:30 pm"
+        "answerCheck": "Checked answers: (a) 9:00 am; (b) 4:30 pm."
       },
       "zh-Hans": {
-        "strategy": "利用Y–Z的400 km和两段时间求列车速度，再核对规范的出发和到达时间。",
+        "strategy": "沿 X–Y–Z 路线条倒推：先用 B 在 Y–Z 的速度，再用 B 的 6 h 时间条求 X–Y，最后把 A 在 2 pm 结束的 5 h 时间条向前推。",
         "steps": [
           {
-            "title": "求B车速度和X–Y距离",
-            "text": "B车从2:00到4:00走完Y–Z的400 km，因此速度为400 ÷ 2 = 200 km/h。B车全程用6 h，到Y前用了4 h，所以X–Y为200 × 4 = 800 km。"
+            "title": "标出 B 的路程和时间条",
+            "text": "B 从 2 pm 到 4 pm 走完 Y–Z 的 400 km，共 2 h。因此 B 的速度是 400 ÷ 2 = 200 km/h。B 的全程时间条是 6 h，X–Y 用时为 6 − 2 = 4 h，所以 X–Y = 200 × 4 = 800 km。"
           },
           {
-            "title": "计算A车的时间",
-            "text": "A车以160 km/h走800 km到Y，需要800 ÷ 160 = 5 h。它在2:00经过Y，所以出发时间为9:00 am。接着走400 km到Z需要400 ÷ 160 = 2.5 h，故在4:30 pm到达。"
+            "title": "倒推 A 的出发时刻",
+            "text": "A 在平行的 X–Y 时间条上用时 800 ÷ 160 = 5 h。它在 2 pm 到 Y，因此出发时刻是 9:00 am。"
           },
           {
-            "title": "核对结果",
-            "text": "题目给出的数值确实支持两个规范答案：9:00 am和4:30 pm。"
+            "title": "把 A 的时间条延长到 Z",
+            "text": "全程为 800 + 400 = 1200 km。A 以 160 km/h 行驶，需要 1200 ÷ 160 = 7.5 h = 7 h 30 min，因此 9:00 am + 7 h 30 min = 4:30 pm。"
           }
         ],
         "answerCheck": "答案：(a) 9:00 am；(b) 4:30 pm。"
       }
     },
     "questionZh": "火车A以160 km/h从X开往Z。火车B用了6 h；两车都在2:00经过Y，B在4:00到达Z；Y到Z为400 km。求A的出发和到达时间。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 80,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q77  X–Y–Z route with backward time bars</text><line x1=\"85\" y1=\"85\" x2=\"675\" y2=\"85\" stroke=\"#1f2937\" stroke-width=\"3\"/><text x=\"85\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">X</text><text x=\"478\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Y</text><text x=\"675\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Z</text><line x1=\"478\" y1=\"75\" x2=\"478\" y2=\"95\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"282\" y=\"113\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">800 km</text><text x=\"576\" y=\"113\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">400 km</text><text x=\"65\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">B</text><rect x=\"85\" y=\"150\" width=\"393\" height=\"32\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"478\" y=\"150\" width=\"197\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"281\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4 h</text><text x=\"576\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 pm → 4 pm = 2 h</text><text x=\"65\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">A</text><rect x=\"85\" y=\"210\" width=\"393\" height=\"32\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"281\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5 h</text><text x=\"478\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">arrives at Y: 2 pm</text><rect x=\"130\" y=\"285\" width=\"500\" height=\"36\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"309\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">400 km ÷ 2 h = 200 km/h</text><text x=\"380\" y=\"340\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">(800 + 400) km ÷ 160 km/h = 7.5 h</text></g>",
+        "alt": "An X–Y–Z strip shows 800 km and 400 km with train B and A time bars."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q77  X–Y–Z 路线与倒推时间条</text><line x1=\"85\" y1=\"85\" x2=\"675\" y2=\"85\" stroke=\"#1f2937\" stroke-width=\"3\"/><text x=\"85\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">X</text><text x=\"478\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Y</text><text x=\"675\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Z</text><line x1=\"478\" y1=\"75\" x2=\"478\" y2=\"95\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"282\" y=\"113\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">800 km</text><text x=\"576\" y=\"113\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">400 km</text><text x=\"65\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">B</text><rect x=\"85\" y=\"150\" width=\"393\" height=\"32\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"478\" y=\"150\" width=\"197\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"281\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4 h</text><text x=\"576\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 pm → 4 pm = 2 h</text><text x=\"65\" y=\"230\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">A</text><rect x=\"85\" y=\"210\" width=\"393\" height=\"32\" fill=\"#93c5fd\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"281\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5 h</text><text x=\"478\" y=\"231\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">到达 Y：2 pm</text><rect x=\"130\" y=\"285\" width=\"500\" height=\"36\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"309\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">400 km ÷ 2 h = 200 km/h</text><text x=\"380\" y=\"340\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">(800 + 400) km ÷ 160 km/h = 7.5 h</text></g>",
+        "alt": "X–Y–Z 路线条展示 800 km、400 km，以及 B、A 两列车的时间条。"
+      }
+    }
   },
   {
     "id": 78,
@@ -3670,36 +4796,58 @@ window.QUESTION_BANK = [
     "sourcePage": 30,
     "solution": {
       "en": {
-        "strategy": "Use the 2:1 ratio to express blue and red towels, then use the remaining total.",
+        "strategy": "Use the segmented towel model: scale blue:red from 2:1 to 4:2, mark the 1600 towels sold, and compare the equal red and blue sections.",
         "steps": [
           {
-            "title": "Represent the starting towels",
-            "text": "Let the number of red towels be r. Then blue towels = 2r and white towels = 4000 − 3r."
+            "title": "Set up the first segmented bar",
+            "text": "Scale blue:red = 2:1 to 4:2. The 4000-total bar is shown as red, red, blue, blue, blue, blue, white, white, so the red and blue sections can be compared in whole equal cells."
           },
           {
-            "title": "Use the towels remaining",
-            "text": "Remaining towels are r + 3/4(2r) + 1/2(4000 − 3r) = 2400. This simplifies to r + 2000 = 2400, so r = 400. White towels = 4000 − 3×400 = 2800. Red plus white towels = 400 + 2800 = 3200."
+            "title": "Mark the sold section",
+            "text": "The after-sale bar leaves 2400 towels, so its bracketed sold amount is 4000 − 2400 = 1600 towels."
+          },
+          {
+            "title": "Use the equal-unit comparison",
+            "text": "In the model, blue is 2 equal units and red is 2 equal units. The red-and-white bracket is therefore 2 lots of the 1600 sold section: 1600 × 2 = 3200 red and white towels."
           }
         ],
-        "answerCheck": "3200 red and white towels"
+        "answerCheck": "Checked answer: 3200 red and white towels."
       },
       "zh-Hans": {
-        "strategy": "用2:1表示蓝色和红色毛巾数，再利用剩下的总数列方程。",
+        "strategy": "使用分段毛巾条：把 blue:red 从 2:1 扩成 4:2，标出卖出的 1600 条，再比较相等的 red 和 blue 单位段。",
         "steps": [
           {
-            "title": "表示原来毛巾数",
-            "text": "设红色毛巾有r条，则蓝色毛巾有2r条，白色毛巾有4000 − 3r条。"
+            "title": "画出第一条分段模型",
+            "text": "把 blue:red = 2:1 扩成 4:2。总数 4000 的条形图依次为 red、red、blue、blue、blue、blue、white、white，这样可以用完整等格比较 red 和 blue 部分。"
           },
           {
-            "title": "利用剩余总数",
-            "text": "剩下的毛巾数为r + 3/4(2r) + 1/2(4000 − 3r) = 2400。化简得r + 2000 = 2400，所以r = 400。白色毛巾有4000 − 3×400 = 2800条。红色和白色毛巾共400 + 2800 = 3200条。"
+            "title": "标出售出的部分",
+            "text": "售后条形图还剩 2400 条，所以括号标出的售出数量为 4000 − 2400 = 1600 条。"
+          },
+          {
+            "title": "利用相等单位的比较",
+            "text": "在图中，blue 为 2 个等单位，red 也为 2 个等单位。因此 red 和 white 的括号部分是售出 1600 条的 2 倍：1600 × 2 = 3200 条 red and white towels。"
           }
         ],
-        "answerCheck": "3200条红色和白色毛巾"
+        "answerCheck": "答案：3200 red and white towels。"
       }
     },
     "questionZh": "一个仓库有4000条毛巾。蓝色毛巾与红色毛巾的数量之比为2:1，其余是白色毛巾。卖出蓝色毛巾的1/4和白色毛巾的1/2后，还剩2400条。求原来红色和白色毛巾的总数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 81,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q78  Segmented towel ratio model</text><text x=\"370\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">blue : red = 2 : 1  →  4 : 2</text><text x=\"60\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">4000</text><g><rect x=\"80\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"115.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"150\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"185.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"220\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"255.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"290\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"360\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"395.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"430\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"465.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"500\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"535.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text><rect x=\"570\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"605.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text></g><polyline points=\"220,170 220,162 640,162 640,170\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"430.0\" y=\"179\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">blue + white</text><text x=\"675\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">r = red\nb = blue\nw = white</text><text x=\"80\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">After sale: same unit model</text><g><rect x=\"80\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"115.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"150\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"185.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"220\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"255.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"290\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"360\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"395.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"430\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"465.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"500\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"535.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text><rect x=\"570\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"605.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text></g><polyline points=\"80,292 80,284 360,284 360,292\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"220.0\" y=\"301\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">sold: 4000 − 2400 = 1600</text><text x=\"500\" y=\"300\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">blue = 2 units</text><text x=\"500\" y=\"326\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">red = 2 units</text></g>",
+        "alt": "Two eight-cell r/b/w towel models show the scaled blue:red ratio and the 1600 sold portion."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q78  毛巾分段比例模型</text><text x=\"370\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">blue : red = 2 : 1  →  4 : 2</text><text x=\"60\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">4000</text><g><rect x=\"80\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"115.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"150\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"185.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"220\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"255.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"290\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"360\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"395.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"430\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"465.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"500\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"535.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text><rect x=\"570\" y=\"120\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"605.0\" y=\"141.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text></g><polyline points=\"220,170 220,162 640,162 640,170\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"430.0\" y=\"179\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">蓝色 + 白色</text><text x=\"675\" y=\"151\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">r = 红\nb = 蓝\nw = 白</text><text x=\"80\" y=\"225\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">售后：相同单位模型</text><g><rect x=\"80\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"115.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"150\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"185.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">r</text><rect x=\"220\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"255.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"290\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"360\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"395.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"430\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"465.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">b</text><rect x=\"500\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"535.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text><rect x=\"570\" y=\"242\" width=\"70\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"605.0\" y=\"263.0\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">w</text></g><polyline points=\"80,292 80,284 360,284 360,292\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"220.0\" y=\"301\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">售出：4000 − 2400 = 1600</text><text x=\"500\" y=\"300\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">蓝色 = 2 份</text><text x=\"500\" y=\"326\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">红色 = 2 份</text></g>",
+        "alt": "两个含 r/b/w 的八格毛巾模型展示放大的蓝红比例和售出 1600 的部分。"
+      }
+    }
   },
   {
     "id": 79,
@@ -3711,44 +4859,58 @@ window.QUESTION_BANK = [
     "sourcePage": 31,
     "solution": {
       "en": {
-        "strategy": "Combine A:B = 2:3 and B:C = 2:1 into one ratio, then use the equal transfers from B to A and C.",
+        "strategy": "Follow the A:B:C ratio table: make B common, scale to whole transfer units, then apply the +2, −4, +2 change row.",
         "steps": [
           {
-            "title": "Write one three-part ratio",
-            "text": "Make B equal to 6 parts: A:B = 4:6 and B:C = 6:3. Let the initial counts be A = 4x, B = 6x, C = 3x."
+            "title": "Make one three-column ratio",
+            "text": "The table first aligns A:B = 2:3 and B:C = 2:1 as A:B:C = 4:6:3. Multiply every column by 3 to get 12:18:9."
           },
           {
-            "title": "Find each transfer",
-            "text": "Let B give t beads to both A and C. A = B afterward gives 4x + t = 6x − 2t, so 3t = 2x and t = 2x/3."
+            "title": "Apply the transfer arrows",
+            "text": "B gives 2 units to A and 2 units to C, so the table changes by +2, −4, +2. Thus 12:18:9 becomes 14:14:11."
           },
           {
-            "title": "Use C = 297",
-            "text": "C afterward is 3x + 2x/3 = 11x/3 = 297, so x = 81. The original total is (4 + 6 + 3) × 81 = 1053 beads."
+            "title": "Value a unit and total the columns",
+            "text": "C’s 11 units equal 297, so 1 unit is 297 ÷ 11 = 27. The total is 14 + 14 + 11 = 39 units, and 39 × 27 = 1053 beads."
           }
         ],
-        "answerCheck": "1053 beads"
+        "answerCheck": "Checked answer: 1053 beads."
       },
       "zh-Hans": {
-        "strategy": "把A:B = 2:3和B:C = 2:1合并为一个比，再利用B平均转给A和C的珠子。",
+        "strategy": "按 A:B:C 比例表计算：先把 B 对齐，再扩成可转移的整数单位，最后应用 +2、−4、+2 的变换行。",
         "steps": [
           {
-            "title": "写成三项人数比",
-            "text": "把B化成6份：A:B = 4:6，B:C = 6:3。设原来A = 4x，B = 6x，C = 3x。"
+            "title": "合并成三栏比例",
+            "text": "表中先把 A:B = 2:3 和 B:C = 2:1 对齐成 A:B:C = 4:6:3。每栏同乘 3，得到 12:18:9。"
           },
           {
-            "title": "求每次转移量",
-            "text": "设B各给A和C t颗珠子。转移后A = B，所以4x + t = 6x − 2t，即3t = 2x，t = 2x/3。"
+            "title": "应用转移箭头",
+            "text": "B 给 A 2 个单位、给 C 2 个单位，所以表中变化为 +2、−4、+2。12:18:9 变为 14:14:11。"
           },
           {
-            "title": "利用C = 297",
-            "text": "转移后C为3x + 2x/3 = 11x/3 = 297，所以x = 81。原来总数为(4 + 6 + 3) × 81 = 1053颗珠子。"
+            "title": "求每单位和总数",
+            "text": "C 的 11 个单位等于 297，所以 1 个单位是 297 ÷ 11 = 27。总数是 14 + 14 + 11 = 39 个单位，39 × 27 = 1053 beads。"
           }
         ],
-        "answerCheck": "答案：1053颗珠子。"
+        "answerCheck": "答案：1053 beads。"
       }
     },
     "questionZh": "罐子A和B中的珠子数量之比为2:3，B和C中的珠子数量之比为2:1。从B向A和C分别转移相同数量的珠子后，A与B数量相等，C中有297颗。求珠子总数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 81,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q79  A : B : C ratio transformation</text><text x=\"220\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><text x=\"380\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><text x=\"540\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"175\" y=\"78\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2</text><rect x=\"335\" y=\"78\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3</text><rect x=\"495\" y=\"78\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1</text><rect x=\"175\" y=\"118\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4</text><rect x=\"335\" y=\"118\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6</text><rect x=\"495\" y=\"118\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3</text><rect x=\"175\" y=\"168\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"335\" y=\"168\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">18</text><rect x=\"495\" y=\"168\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">9</text><rect x=\"175\" y=\"228\" width=\"90\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14</text><rect x=\"335\" y=\"228\" width=\"90\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14</text><rect x=\"495\" y=\"228\" width=\"90\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11</text><text x=\"100\" y=\"108\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×2</text><line x1=\"115\" y1=\"105\" x2=\"170\" y2=\"105\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"170,105 163,101 163,109\" fill=\"#2563eb\"/><text x=\"100\" y=\"155\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×3</text><line x1=\"115\" y1=\"152\" x2=\"170\" y2=\"152\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"170,152 163,148 163,156\" fill=\"#2563eb\"/><text x=\"290\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">+2</text><text x=\"380\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">−4</text><text x=\"470\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">+2</text><text x=\"540\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11 units = 297</text><text x=\"540\" y=\"332\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 27</text></g>",
+        "alt": "An A:B:C table scales compatible ratios then shows the transfer from 12:18:9 to 14:14:11."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q79  A : B : C 比例变换</text><text x=\"220\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A</text><text x=\"380\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">B</text><text x=\"540\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">C</text><rect x=\"175\" y=\"78\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2</text><rect x=\"335\" y=\"78\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3</text><rect x=\"495\" y=\"78\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1</text><rect x=\"175\" y=\"118\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4</text><rect x=\"335\" y=\"118\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6</text><rect x=\"495\" y=\"118\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"140\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3</text><rect x=\"175\" y=\"168\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"335\" y=\"168\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">18</text><rect x=\"495\" y=\"168\" width=\"90\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">9</text><rect x=\"175\" y=\"228\" width=\"90\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14</text><rect x=\"335\" y=\"228\" width=\"90\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14</text><rect x=\"495\" y=\"228\" width=\"90\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"540\" y=\"250\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11</text><text x=\"100\" y=\"108\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×2</text><line x1=\"115\" y1=\"105\" x2=\"170\" y2=\"105\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"170,105 163,101 163,109\" fill=\"#2563eb\"/><text x=\"100\" y=\"155\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×3</text><line x1=\"115\" y1=\"152\" x2=\"170\" y2=\"152\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"170,152 163,148 163,156\" fill=\"#2563eb\"/><text x=\"290\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">+2</text><text x=\"380\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">−4</text><text x=\"470\" y=\"222\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">+2</text><text x=\"540\" y=\"305\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">11 units = 297</text><text x=\"540\" y=\"332\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 27</text></g>",
+        "alt": "A:B:C 表先统一比例，再展示从 12:18:9 到 14:14:11 的转移。"
+      }
+    }
   },
   {
     "id": 80,
@@ -3760,44 +4922,58 @@ window.QUESTION_BANK = [
     "sourcePage": 31,
     "solution": {
       "en": {
-        "strategy": "Represent the original men and women as x and 2x, use the 96-person difference after half the men leave, then remove 8 women.",
+        "strategy": "Use the aligned men/women bars after half the men leave: the women’s extra 3 units are 96, then remove the separate 8-woman block.",
         "steps": [
           {
-            "title": "Write the original quantities",
-            "text": "Since 1/3 of the people are men, let men be x and women be 2x."
+            "title": "Read the remaining-unit bars",
+            "text": "The men row has 2 equal cells, with 1 shaded as the half that left, leaving 1 unit. The women row has 4 units, so its extra 3 units over the men are labelled 96."
           },
           {
-            "title": "Use the 96-person difference",
-            "text": "After 1/2 of the men leave, x/2 men remain while 2x women remain. Before the 8 women leave, women exceed men by 2x − x/2 = 3x/2 = 96. Hence x = 64."
+            "title": "Find the unit size",
+            "text": "The brace gives 3 units = 96, so 1 unit = 96 ÷ 3 = 32. The women’s 4 units are 4 × 32 = 128."
           },
           {
-            "title": "Form the final ratio",
-            "text": "Final men = 64 ÷ 2 = 32. Final women = 2 × 64 − 8 = 120. Thus men:women = 32:120 = 4:15."
+            "title": "Remove the 8-woman block",
+            "text": "After 8 women leave, women remaining are 128 − 8 = 120, while men remaining are 32. The final strip is 32:120 = 4:15."
           }
         ],
-        "answerCheck": "4:15"
+        "answerCheck": "Checked answer: 4:15."
       },
       "zh-Hans": {
-        "strategy": "把原来男人和女人人数分别设为x和2x，利用一半男人离开后相差96人，再减去8名女人。",
+        "strategy": "使用一半男士离开后的对齐男女格条：女士多出的 3 个单位是 96，再减去单独标出的 8 名女士。",
         "steps": [
           {
-            "title": "设原来的人数",
-            "text": "男人占总人数的1/3，设男人有x人，女人有2x人。"
+            "title": "读出留下人数的单位条",
+            "text": "男士一行有 2 个等格，其中 1 格涂色表示离开的一半，留下 1 个单位。女士一行有 4 个单位，比男士多出的 3 个单位标为 96。"
           },
           {
-            "title": "利用相差96人",
-            "text": "1/2的男人离开后，剩下x/2名男人和2x名女人。在8名女人离开前，女人多2x − x/2 = 3x/2 = 96人，所以x = 64。"
+            "title": "求每单位人数",
+            "text": "括号给出 3 个单位 = 96，所以 1 个单位 = 96 ÷ 3 = 32。女士的 4 个单位为 4 × 32 = 128。"
           },
           {
-            "title": "写出最后的比",
-            "text": "最后男人有64 ÷ 2 = 32人，女人有2 × 64 − 8 = 120人。因此男人:女人 = 32:120 = 4:15。"
+            "title": "减去 8 名女士的方块",
+            "text": "8 名女士离开后，女士剩下 128 − 8 = 120，男士剩下 32。最后比例条为 32:120 = 4:15。"
           }
         ],
         "answerCheck": "答案：4:15。"
       }
     },
     "questionZh": "聚会上有1/3是男士。1/2的男士和8名女士离开后，在女士离开前，女士比男士多96人。求最后男士与女士人数之比。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 81,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q80  Men and women: remaining-unit bars</text><text x=\"70\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">men</text><g><rect x=\"90\" y=\"75\" width=\"90\" height=\"34\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"75\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"70\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">women</text><g><rect x=\"90\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"360\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"135\" y=\"67\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">left</text><polyline points=\"180,198 180,190 450,190 450,198\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"315.0\" y=\"207\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">96</text><text x=\"315\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 32</text><rect x=\"90\" y=\"285\" width=\"360\" height=\"32\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"450\" y=\"285\" width=\"48\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"474\" y=\"307\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">8</text></g>",
+        "alt": "Aligned men and women unit bars mark the half leaving, three-unit difference of 96, and eight women leaving."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q80  男女人数：剩余单位条</text><text x=\"70\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">男</text><g><rect x=\"90\" y=\"75\" width=\"90\" height=\"34\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"75\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"70\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">女</text><g><rect x=\"90\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"180\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"270\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"360\" y=\"145\" width=\"90\" height=\"34\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"135\" y=\"67\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">离开</text><polyline points=\"180,198 180,190 450,190 450,198\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"315.0\" y=\"207\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">96</text><text x=\"315\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 32</text><rect x=\"90\" y=\"285\" width=\"360\" height=\"32\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"450\" y=\"285\" width=\"48\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"474\" y=\"307\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">8</text></g>",
+        "alt": "对齐的男女单位条标出离开的一半、3 份相差 96，以及 8 名女性离开。"
+      }
+    }
   },
   {
     "id": 81,
@@ -3809,44 +4985,58 @@ window.QUESTION_BANK = [
     "sourcePage": 31,
     "solution": {
       "en": {
-        "strategy": "Split 80 marbles in the 3:2 ratio, then compare Cindy’s remaining marbles with one quarter of Mark’s unchanged count.",
+        "strategy": "Use the two-row Cindy–Mark bar: first split 80 in 3:2, then use the four-unit comparison to identify Cindy’s remaining 8 marbles.",
         "steps": [
           {
-            "title": "Find the original counts",
-            "text": "Cindy:Mark = 3:2, or 5 equal parts. Each part is 80 ÷ 5 = 16, so Cindy has 3 × 16 = 48 marbles and Mark has 2 × 16 = 32 marbles."
+            "title": "Fill the starting bars",
+            "text": "Cindy:Mark = 3:2, so the two bars have 3 + 2 = 5 equal units. One unit is 80 ÷ 5 = 16, giving Cindy 48 marbles and Mark 32 marbles."
           },
           {
-            "title": "Find Cindy’s remaining marbles",
-            "text": "Cindy has 1/4 as many marbles as Mark afterward. Mark still has 32, so Cindy has 1/4 × 32 = 8 marbles."
+            "title": "Use the four-unit comparison",
+            "text": "The model labels Mark’s unchanged bar as 32 and divides that comparison into 4 equal units. Thus 4 units = 32 and 1 unit = 8; Cindy’s final bar is 1 of those 4 units, or 8 marbles."
           },
           {
-            "title": "Find the number given away",
-            "text": "Cindy gives away 48 − 8 = 40 marbles."
+            "title": "Compare Cindy’s before and after bars",
+            "text": "Cindy started with 48 marbles and the final comparison bar shows 8. She gave away 48 − 8 = 40 marbles."
           }
         ],
-        "answerCheck": "40 marbles"
+        "answerCheck": "Checked answer: 40 marbles."
       },
       "zh-Hans": {
-        "strategy": "先把80颗弹珠按3:2分配，再把Cindy剩下的弹珠与Mark不变数量的1/4比较。",
+        "strategy": "用 Cindy–Mark 的两行条形图：先把 80 按 3:2 分配，再用 4 单位比较读出 Cindy 剩下的 8 颗。",
         "steps": [
           {
-            "title": "求原来的人数",
-            "text": "Cindy:Mark = 3:2，共5份。每份是80 ÷ 5 = 16，所以Cindy有3 × 16 = 48颗，Mark有2 × 16 = 32颗。"
+            "title": "填入起初的两条格条",
+            "text": "Cindy:Mark = 3:2，因此两条格条共有 3 + 2 = 5 个等单位。1 个单位是 80 ÷ 5 = 16，所以 Cindy 有 48 颗，Mark 有 32 颗。"
           },
           {
-            "title": "求Cindy剩下的弹珠",
-            "text": "之后Cindy的弹珠数是Mark的1/4。Mark仍有32颗，所以Cindy有1/4 × 32 = 8颗。"
+            "title": "利用 4 单位比较",
+            "text": "图中 Mark 不变的格条标为 32，并把比较段分成 4 个等单位。因此 4 个单位 = 32，1 个单位 = 8；Cindy 最后的格条是这 4 个单位中的 1 个，即 8 颗。"
           },
           {
-            "title": "求送出的数量",
-            "text": "Cindy送出了48 − 8 = 40颗弹珠。"
+            "title": "比较 Cindy 的前后格条",
+            "text": "Cindy 起初有 48 颗，最后比较条显示 8 颗。她送出 48 − 8 = 40 颗。"
           }
         ],
-        "answerCheck": "答案：40颗弹珠。"
+        "answerCheck": "答案：40 marbles。"
       }
     },
     "questionZh": "辛迪与马克的弹珠数之比为3:2，共80颗。辛迪送出一些弹珠后，她的弹珠数是马克的1/4。辛迪送出了多少颗？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 82,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q81  Cindy and Mark: four-unit comparison</text><text x=\"75\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Cindy</text><g><rect x=\"95\" y=\"78\" width=\"100\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"75\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Mark</text><g><rect x=\"95\" y=\"148\" width=\"100\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"148\" width=\"100\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"295\" y=\"148\" width=\"100\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"395\" y=\"148\" width=\"100\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"95,205 95,197 495,197 495,205\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"295.0\" y=\"214\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Mark = 32</text><line x1=\"145\" y1=\"113\" x2=\"145\" y2=\"148\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><text x=\"145\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">same</text><rect x=\"90\" y=\"250\" width=\"260\" height=\"38\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"275\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3 units + 2 units = 80</text><text x=\"220\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 16</text><text x=\"490\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Cindy = 48</text><text x=\"490\" y=\"285\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Mark = 32</text><text x=\"490\" y=\"320\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4 units = 32</text><text x=\"490\" y=\"345\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 8</text></g>",
+        "alt": "Cindy and Mark bars use a four-unit comparison with Mark’s 32 marbles and the initial 3:2 split."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q81  Cindy 与 Mark：四单位比较</text><text x=\"75\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Cindy</text><g><rect x=\"95\" y=\"78\" width=\"100\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"75\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">Mark</text><g><rect x=\"95\" y=\"148\" width=\"100\" height=\"35\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"195\" y=\"148\" width=\"100\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"295\" y=\"148\" width=\"100\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"395\" y=\"148\" width=\"100\" height=\"35\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"95,205 95,197 495,197 495,205\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"295.0\" y=\"214\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Mark = 32</text><line x1=\"145\" y1=\"113\" x2=\"145\" y2=\"148\" stroke=\"#2563eb\" stroke-width=\"1.3\"/><text x=\"145\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">相等</text><rect x=\"90\" y=\"250\" width=\"260\" height=\"38\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"220\" y=\"275\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3 units + 2 units = 80</text><text x=\"220\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 16</text><text x=\"490\" y=\"255\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Cindy = 48</text><text x=\"490\" y=\"285\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">Mark = 32</text><text x=\"490\" y=\"320\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">4 units = 32</text><text x=\"490\" y=\"345\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 8</text></g>",
+        "alt": "Cindy 和 Mark 的格条用 4 份比较，并标出 Mark 的 32 颗弹珠和初始 3:2 划分。"
+      }
+    }
   },
   {
     "id": 82,
@@ -3858,36 +5048,58 @@ window.QUESTION_BANK = [
     "sourcePage": 32,
     "solution": {
       "en": {
-        "strategy": "Represent the men and women by the ratio 2:3, then compare leavers with people remaining.",
+        "strategy": "Use the source’s six-unit and four-unit bars for people remaining and people leaving, then reconstruct the initial 10-unit whole.",
         "steps": [
           {
-            "title": "Set up the ratio",
-            "text": "Let the numbers of men and women be 2u and 3u. The total attendance is 5u."
+            "title": "Read the two comparison bars",
+            "text": "After the stated fractions leave, the diagram represents people remaining by 6 equal units and people who left by 4 equal units. The unshared difference is 24."
           },
           {
-            "title": "Compare leaving and remaining",
-            "text": "Men leaving = 1/4(2u) = u/2 and women leaving = 1/2(3u) = 3u/2, so 2u leave. Therefore 3u remain. Since remaining exceeds leaving by 24, 3u − 2u = 24, so u = 24. Initial attendance = 5 × 24 = 120."
+            "title": "Find the value of a unit",
+            "text": "The bracket gives 6 units − 4 units = 24, so 2 units = 24 and 1 unit = 12."
+          },
+          {
+            "title": "Rebuild the original whole",
+            "text": "The initial attendance is the 6-unit remaining bar plus the 4-unit leaving bar: 6 + 4 = 10 units. Therefore 10 × 12 = 120 people."
           }
         ],
-        "answerCheck": "120 people"
+        "answerCheck": "Checked answer: 120 people."
       },
       "zh-Hans": {
-        "strategy": "按2:3表示男士和女士人数，再比较离开和留下的人数。",
+        "strategy": "用原图中留下的 6 单位条和离开的 4 单位条，再重建起初的 10 单位总数。",
         "steps": [
           {
-            "title": "表示人数比",
-            "text": "设男士和女士分别有2u人和3u人，起初总人数是5u人。"
+            "title": "读出两条比较格条",
+            "text": "按题目给出的离开分数，图中把留下的人表示为 6 个等单位，把离开的人表示为 4 个等单位。两条未重合部分的差是 24。"
           },
           {
-            "title": "比较离开和留下的人数",
-            "text": "离开的男士有1/4(2u) = u/2人，离开的女士有1/2(3u) = 3u/2人，所以离开2u人，留下3u人。留下的比离开的多24人，因此3u − 2u = 24，u = 24。起初总人数为5 × 24 = 120人。"
+            "title": "求每单位人数",
+            "text": "括号表示 6 个单位 − 4 个单位 = 24，所以 2 个单位 = 24，1 个单位 = 12。"
+          },
+          {
+            "title": "重建起初总人数",
+            "text": "起初人数是留下的 6 单位加离开的 4 单位：6 + 4 = 10 个单位。因此 10 × 12 = 120 people。"
           }
         ],
-        "answerCheck": "120人"
+        "answerCheck": "答案：120 people。"
       }
     },
     "questionZh": "在一个乡村俱乐部，男士与女士人数之比为2:3。1/4的男士和1/2的女士离开后，留下的人数比离开的人数多24人。求起初到场的总人数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 82,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q82  Club members: six-unit and four-unit bars</text><text x=\"75\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">men</text><g><rect x=\"95\" y=\"78\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"170\" y=\"78\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"245\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"395\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"470\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"75\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">women</text><g><rect x=\"95\" y=\"143\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"170\" y=\"143\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"245\" y=\"143\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"143\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"170\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">left the club</text><polyline points=\"395,202 395,194 545,194 545,202\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"470.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><text x=\"320\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">6 units − 4 units = 24</text><text x=\"320\" y=\"273\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 units = 24</text><text x=\"320\" y=\"300\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 12</text><polyline points=\"95,330 95,322 545,322 545,330\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"320.0\" y=\"339\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 + 4 = 10 units</text></g>",
+        "alt": "Men and women bars show departure cells, a six-unit versus four-unit comparison, and the 24 difference."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q82  社团成员：6 份与 4 份格条</text><text x=\"75\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">男</text><g><rect x=\"95\" y=\"78\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"170\" y=\"78\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"245\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"395\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"470\" y=\"78\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"75\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"normal\" fill=\"#1f2937\">女</text><g><rect x=\"95\" y=\"143\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"170\" y=\"143\" width=\"75\" height=\"32\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"245\" y=\"143\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"320\" y=\"143\" width=\"75\" height=\"32\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"170\" y=\"70\" font-family=\"Arial, sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">离开社团</text><polyline points=\"395,202 395,194 545,194 545,202\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"470.0\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><text x=\"320\" y=\"245\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">6 units − 4 units = 24</text><text x=\"320\" y=\"273\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">2 units = 24</text><text x=\"320\" y=\"300\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 12</text><polyline points=\"95,330 95,322 545,322 545,330\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"320.0\" y=\"339\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">6 + 4 = 10 units</text></g>",
+        "alt": "男女格条展示离开格、6 份对 4 份的比较及 24 的差距。"
+      }
+    }
   },
   {
     "id": 83,
@@ -3899,44 +5111,58 @@ window.QUESTION_BANK = [
     "sourcePage": 32,
     "solution": {
       "en": {
-        "strategy": "Find the original sweet counts from 5:7, determine Mandy’s transfer from the 3:21 ratio, then reverse a transfer from Jack to equalise them.",
+        "strategy": "Use the Mandy–Jack–total ratio table: scale the initial 5:7:12 row, place the 3:21:24 row after Mandy’s transfer, then move to the equal 12:12:24 row.",
         "steps": [
           {
-            "title": "Find the original counts",
-            "text": "Jack’s 7 parts equal 168 sweets, so one part is 168 ÷ 7 = 24. Mandy starts with 5 × 24 = 120 sweets."
+            "title": "Scale the initial row",
+            "text": "The initial table row Mandy:Jack:total = 5:7:12 is doubled to 10:14:24. Since Jack’s 14 units equal 168 sweets, 1 unit is 168 ÷ 14 = 12 sweets."
           },
           {
-            "title": "Find Mandy’s transfer",
-            "text": "Let Mandy give t sweets to Jack. The new ratio 3:21 is 1:7, so (120 − t):(168 + t) = 1:7. Thus 7(120 − t) = 168 + t, giving t = 84. They then have 36 and 252 sweets."
+            "title": "Read the after-Mandy-transfer row",
+            "text": "After Mandy gives sweets, the table shows 3:21:24. To make the two columns equal, Jack must return sweets until the row becomes 12:12:24."
           },
           {
-            "title": "Equalise the counts",
-            "text": "If Jack returns r sweets, 252 − r = 36 + r. Therefore 2r = 216 and r = 108 sweets."
+            "title": "Measure Jack’s return",
+            "text": "Jack’s column changes from 21 units to 12 units, a return of 21 − 12 = 9 units. Thus he returns 9 × 12 = 108 sweets."
           }
         ],
-        "answerCheck": "108 sweets"
+        "answerCheck": "Checked answer: 108 sweets."
       },
       "zh-Hans": {
-        "strategy": "先由5:7求原来糖果数，再用3:21求Mandy给出的数量，最后倒推Jack要归还多少才能相等。",
+        "strategy": "使用 Mandy–Jack–total 比例表：先把初始的 5:7:12 行放大，再写 Mandy 转移后的 3:21:24 行，最后变到相等的 12:12:24 行。",
         "steps": [
           {
-            "title": "求原来的糖果数",
-            "text": "Jack的7份是168颗糖，所以每份为168 ÷ 7 = 24。Mandy原来有5 × 24 = 120颗糖。"
+            "title": "放大初始行",
+            "text": "初始表格 Mandy:Jack:total = 5:7:12，加倍为 10:14:24。Jack 的 14 个单位等于 168 颗糖，所以 1 个单位是 168 ÷ 14 = 12 颗。"
           },
           {
-            "title": "求Mandy给出的数量",
-            "text": "设Mandy给Jack t颗糖。新比3:21可化为1:7，所以(120 − t):(168 + t) = 1:7。即7(120 − t) = 168 + t，得t = 84。此时两人分别有36颗和252颗糖。"
+            "title": "读出 Mandy 转移后的行",
+            "text": "Mandy 给出糖果后，表中为 3:21:24。要让两栏相等，Jack 要归还糖果，直到该行变为 12:12:24。"
           },
           {
-            "title": "使数量相等",
-            "text": "若Jack归还r颗糖，则252 − r = 36 + r。因此2r = 216，r = 108颗糖。"
+            "title": "量出 Jack 归还的单位数",
+            "text": "Jack 一栏从 21 个单位变为 12 个单位，归还了 21 − 12 = 9 个单位。因此他归还 9 × 12 = 108 颗糖。"
           }
         ],
-        "answerCheck": "答案：108颗糖。"
+        "answerCheck": "答案：108 sweets。"
       }
     },
     "questionZh": "曼迪与杰克的糖果数之比为5:7；曼迪给杰克一些糖果后，数量之比变为3:21。杰克起初有168颗糖果。为使两人的糖果数相等，杰克必须还给曼迪多少颗？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 82,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q83  Mandy–Jack–total ratio table</text><text x=\"190\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Mandy</text><text x=\"380\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Jack</text><text x=\"570\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">total</text><rect x=\"142\" y=\"73\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5</text><rect x=\"332\" y=\"73\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7</text><rect x=\"522\" y=\"73\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"142\" y=\"113\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3</text><rect x=\"332\" y=\"113\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">21</text><rect x=\"522\" y=\"113\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><rect x=\"142\" y=\"163\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">10</text><rect x=\"332\" y=\"163\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14</text><rect x=\"522\" y=\"163\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><rect x=\"142\" y=\"218\" width=\"96\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"332\" y=\"218\" width=\"96\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"522\" y=\"218\" width=\"96\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><text x=\"285\" y=\"143\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×2</text><line x1=\"300\" y1=\"140\" x2=\"330\" y2=\"140\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"330,140 323,136 323,144\" fill=\"#2563eb\"/><text x=\"475\" y=\"143\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×2</text><line x1=\"490\" y1=\"140\" x2=\"520\" y2=\"140\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"520,140 513,136 513,144\" fill=\"#2563eb\"/><text x=\"290\" y=\"216\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">+2</text><text x=\"475\" y=\"216\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">−2</text><text x=\"380\" y=\"295\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14 units = 168</text><text x=\"380\" y=\"322\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 12</text><text x=\"380\" y=\"347\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12 − 3 = 9 units</text></g>",
+        "alt": "A Mandy–Jack–total table shows the ratio rows and the transfer that makes Mandy and Jack equal."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q83  Mandy–Jack–总数比例表</text><text x=\"190\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Mandy</text><text x=\"380\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">Jack</text><text x=\"570\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">总数</text><rect x=\"142\" y=\"73\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">5</text><rect x=\"332\" y=\"73\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7</text><rect x=\"522\" y=\"73\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"142\" y=\"113\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">3</text><rect x=\"332\" y=\"113\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">21</text><rect x=\"522\" y=\"113\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><rect x=\"142\" y=\"163\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">10</text><rect x=\"332\" y=\"163\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14</text><rect x=\"522\" y=\"163\" width=\"96\" height=\"30\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"185\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><rect x=\"142\" y=\"218\" width=\"96\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"190\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"332\" y=\"218\" width=\"96\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"380\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12</text><rect x=\"522\" y=\"218\" width=\"96\" height=\"30\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><text x=\"570\" y=\"240\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">24</text><text x=\"285\" y=\"143\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×2</text><line x1=\"300\" y1=\"140\" x2=\"330\" y2=\"140\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"330,140 323,136 323,144\" fill=\"#2563eb\"/><text x=\"475\" y=\"143\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">×2</text><line x1=\"490\" y1=\"140\" x2=\"520\" y2=\"140\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"520,140 513,136 513,144\" fill=\"#2563eb\"/><text x=\"290\" y=\"216\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">+2</text><text x=\"475\" y=\"216\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">−2</text><text x=\"380\" y=\"295\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">14 units = 168</text><text x=\"380\" y=\"322\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 12</text><text x=\"380\" y=\"347\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12 − 3 = 9 units</text></g>",
+        "alt": "Mandy–Jack–总数表展示比例行及使两者相等的转移。"
+      }
+    }
   },
   {
     "id": 84,
@@ -3948,36 +5174,58 @@ window.QUESTION_BANK = [
     "sourcePage": 32,
     "solution": {
       "en": {
-        "strategy": "Combine the two ratios, then use the relationship after 36 sweets are removed.",
+        "strategy": "Use the ratio ladder and three-row bars: align A:B:C, then compare A’s removed 9 cells with the 36-sweets label.",
         "steps": [
           {
-            "title": "Combine the ratios",
-            "text": "Make the B parts equal: A:B = 21:12 and B:C = 12:8. Thus A:B:C = 21:12:8. Let their counts be 21u, 12u, and 8u."
+            "title": "Build the aligned ratio ladder",
+            "text": "Make B common: A:B:C = 7:4:3 becomes 21:12:9. After removal, the diagram shows 12:12:8, matching C as 2/3 of A because 8 is 2/3 of 12."
           },
           {
-            "title": "Use the final relationship",
-            "text": "After 36 are removed from A, C is 2/3 of A: 8u = 2/3(21u − 36). Multiplying by 3 gives 24u = 42u − 72, so u = 4. The total left is 21u + 12u + 8u − 36 = 41×4 − 36 = 128."
+            "title": "Value the removed cells",
+            "text": "A changes from 21 units to 12 units, so its shaded removed part is 21 − 12 = 9 units. The bar labels this part 36 sweets, hence 1 unit = 36 ÷ 9 = 4 sweets."
+          },
+          {
+            "title": "Total the remaining bars",
+            "text": "The three remaining bars contain 12 + 12 + 8 = 32 units. Therefore the total sweets left are 32 × 4 = 128 sweets."
           }
         ],
-        "answerCheck": "128 sweets"
+        "answerCheck": "Checked answer: 128 sweets."
       },
       "zh-Hans": {
-        "strategy": "先合并两个比，再利用从A取走36颗后的数量关系。",
+        "strategy": "使用比例阶梯和 A、B、C 三条格条：先对齐 A:B:C，再把 A 被取走的 9 格与 36 颗糖对应。",
         "steps": [
           {
-            "title": "合并两个比",
-            "text": "把B的份数化成相同：A:B = 21:12，B:C = 12:8。因此A:B:C = 21:12:8。设三者分别有21u、12u、8u颗。"
+            "title": "画出对齐的比例阶梯",
+            "text": "把 B 对齐：A:B:C = 7:4:3 变为 21:12:9。取走后图中为 12:12:8；因为 8 是 12 的 2/3，所以符合 C 是 A 的 2/3。"
           },
           {
-            "title": "利用最后的关系",
-            "text": "从A取走36颗后，C是A的2/3：8u = 2/3(21u − 36)。两边乘3，得24u = 42u − 72，所以u = 4。剩下的糖果总数为21u + 12u + 8u − 36 = 41×4 − 36 = 128颗。"
+            "title": "求被取走格子的单位值",
+            "text": "A 从 21 个单位变为 12 个单位，因此涂色的取走部分是 21 − 12 = 9 个单位。图中该部分标为 36 颗糖，所以 1 个单位 = 36 ÷ 9 = 4 颗。"
+          },
+          {
+            "title": "合计剩下的三条格条",
+            "text": "剩下的三条格条共有 12 + 12 + 8 = 32 个单位。因此剩下糖果总数是 32 × 4 = 128 sweets。"
           }
         ],
-        "answerCheck": "128颗糖果"
+        "answerCheck": "答案：128 sweets。"
       }
     },
     "questionZh": "A与B的糖果数之比为7:4，B与C的糖果数之比为3:2。从A取走36颗糖果后，C的糖果数是A的2/3。求剩下糖果的总数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 83,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q84  Ratio ladder and three-row bar model</text><text x=\"110\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">C</text><g><rect x=\"140\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"162\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"206\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"228\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"250\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"272\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"294\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"110\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">A</text><g><rect x=\"140\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"162\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"206\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"228\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"250\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"272\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"294\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"316\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"338\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"360\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"382\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"300\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">C = 8 units</text><text x=\"300\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">A = 12 units</text><text x=\"480\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A : B : C</text><text x=\"480\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7 : 4 : 3  →  21 : 12 : 9</text><text x=\"480\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">after removal: 12 : 12 : 8</text><text x=\"60\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">A</text><g><rect x=\"85\" y=\"170\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"170\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"170\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"199\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"275\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"313\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"389\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"427\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"465\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"503\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"60\" y=\"235\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">B</text><g><rect x=\"85\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"199\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"275\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"313\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"389\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"427\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"465\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"503\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"60\" y=\"280\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">C</text><g><rect x=\"85\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"199\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"275\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"313\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"199,162 199,170 541,170 541,162\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"370.0\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">36</text><text x=\"250\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">9 units = 36</text><text x=\"470\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 4</text><text x=\"360\" y=\"345\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12 + 12 + 8 = 32 units</text></g>",
+        "alt": "A ratio ladder and A/B/C bars show the 36-sweets removal as nine equal units."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><text x=\"20\" y=\"25\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"start\" font-weight=\"bold\" fill=\"#1f2937\">Q84  比例阶梯与三行格条模型</text><text x=\"110\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">C</text><g><rect x=\"140\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"162\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"206\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"228\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"250\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"272\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"294\" y=\"50\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"110\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">A</text><g><rect x=\"140\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"162\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"184\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"206\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"228\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"250\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"272\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"294\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"316\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"338\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"360\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"382\" y=\"90\" width=\"22\" height=\"20\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"300\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">C = 8 units</text><text x=\"300\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"normal\" fill=\"#1f2937\">A = 12 units</text><text x=\"480\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">A : B : C</text><text x=\"480\" y=\"92\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">7 : 4 : 3  →  21 : 12 : 9</text><text x=\"480\" y=\"119\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">after removal: 12 : 12 : 8</text><text x=\"60\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">A</text><g><rect x=\"85\" y=\"170\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"170\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"170\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"199\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"275\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"313\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"389\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"427\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"465\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"503\" y=\"170\" width=\"38\" height=\"28\" fill=\"#cbd5e1\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"60\" y=\"235\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">B</text><g><rect x=\"85\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"199\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"275\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"313\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"389\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"427\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"465\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"503\" y=\"215\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><text x=\"60\" y=\"280\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">C</text><g><rect x=\"85\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"123\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"161\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"199\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"237\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"275\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"313\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"351\" y=\"260\" width=\"38\" height=\"28\" fill=\"#ffffff\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g><polyline points=\"199,162 199,170 541,170 541,162\" fill=\"none\" stroke=\"#1f2937\" stroke-width=\"1.3\"/><text x=\"370.0\" y=\"165\" font-family=\"Arial, sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">36</text><text x=\"250\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\" fill=\"#1f2937\">9 units = 36</text><text x=\"470\" y=\"315\" font-family=\"Arial, sans-serif\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">1 unit = 4</text><text x=\"360\" y=\"345\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#1f2937\">12 + 12 + 8 = 32 units</text></g>",
+        "alt": "比例阶梯和 A/B/C 格条将取走的 36 颗糖表示为 9 个等份。"
+      }
+    }
   },
   {
     "id": 85,
@@ -3989,44 +5237,58 @@ window.QUESTION_BANK = [
     "sourcePage": 33,
     "solution": {
       "en": {
-        "strategy": "Find the initial adult and child counts, then use the fact that children are 80% when adults are 20% of the people remaining.",
+        "strategy": "Use the before/after percentage table: keep the child block fixed at 632 while it changes from 40% to 80% of the new total.",
         "steps": [
           {
-            "title": "Find the initial groups",
-            "text": "Adults are 60% of 1580, so there are 0.60 × 1580 = 948 adults. The children number 1580 − 948 = 632."
+            "title": "Fill the before column",
+            "text": "Using the visual model above, Before adults alight, adults are 60% of 1580: 0.60 × 1580 = 948. The children block is 1580 − 948 = 632, or 40%."
           },
           {
-            "title": "Find the adults remaining",
-            "text": "No children alight. If adults are 20% of the people remaining, children are 80%, so children:adults = 80:20 = 4:1. With 632 children, remaining adults are 632 ÷ 4 = 158."
+            "title": "Read the fixed child block after",
+            "text": "No children alight, so the same 632 block is 80% after the change. The adults block is then 20%, so adults remaining are 632 ÷ 80 × 20 = 158."
           },
           {
-            "title": "Find the adults alighting",
-            "text": "Adults alighting = 948 − 158 = 790. The final children:adults ratio is 632:158 = 4:1."
+            "title": "Compare adult blocks and simplify",
+            "text": "The adult blocks show 948 − 158 = 790 adults alighting. The after column gives children:adults = 632:158 = 4:1."
           }
         ],
-        "answerCheck": "(a) 790 adults; (b) 4:1"
+        "answerCheck": "Checked answers: (a) 790 adults; (b) 4:1."
       },
       "zh-Hans": {
-        "strategy": "先求原来的成人和儿童人数，再利用剩下的人中成人占20%、儿童占80%这一关系。",
+        "strategy": "用前后百分比表：保持 children 的 632 方块不变，它从新变化前的 40% 变为变化后的 80%。",
         "steps": [
           {
-            "title": "求原来的两组人数",
-            "text": "成人占1580人的60%，所以成人有0.60 × 1580 = 948人。儿童有1580 − 948 = 632人。"
+            "title": "填入变化前的一列",
+            "text": "成年人下船前，adults 是 1580 的 60%：0.60 × 1580 = 948。children 方块为 1580 − 948 = 632，也就是 40%。"
           },
           {
-            "title": "求留下的成人数",
-            "text": "没有儿童下船。剩下的人中成人占20%，则儿童占80%，所以儿童:成人 = 80:20 = 4:1。儿童有632人，留下的成人为632 ÷ 4 = 158人。"
+            "title": "读出变化后固定的 children 方块",
+            "text": "没有 children 下船，所以同一个 632 方块在变化后占 80%。adults 方块占 20%，留下的 adults 为 632 ÷ 80 × 20 = 158。"
           },
           {
-            "title": "求下船的成人数",
-            "text": "下船的成人数为948 − 158 = 790人。最后儿童:成人 = 632:158 = 4:1。"
+            "title": "比较 adults 方块并化简比例",
+            "text": "两个 adults 方块相差 948 − 158 = 790，表示下船的成年人。变化后 children:adults = 632:158 = 4:1。"
           }
         ],
         "answerCheck": "答案：(a) 790 adults；(b) 4:1。"
       }
     },
     "questionZh": "一艘船上有1580人；其中60%是成年人。部分成年人下船后，成年人占剩余人数的20%。求下船的成年人数，以及最后儿童与成年人的人数之比。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 83,
+      "sourceMethod": "Redrawn from the printed solution structure on the private Book 6 source PDF; values cross-checked against /tmp/book6-source-visuals-5.json. Final question-bank answers omitted.",
+      "en": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><rect x=\"90\" y=\"85\" width=\"240\" height=\"62\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"147\" width=\"240\" height=\"42\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"430\" y=\"85\" width=\"240\" height=\"88\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"430\" y=\"173\" width=\"240\" height=\"24\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"115\" x2=\"430\" y2=\"115\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"430,115 423,111 423,119\" fill=\"#2563eb\"/><rect x=\"155\" y=\"260\" width=\"110\" height=\"35\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"278\" x2=\"430\" y2=\"278\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"430,278 423,274 423,282\" fill=\"#2563eb\"/><rect x=\"445\" y=\"260\" width=\"110\" height=\"35\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g>",
+        "alt": "Before/after ship composition blocks keep 632 children fixed while the percentages change."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 760 360",
+        "svg": "<g><rect x=\"90\" y=\"85\" width=\"240\" height=\"62\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"147\" width=\"240\" height=\"42\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"430\" y=\"85\" width=\"240\" height=\"88\" fill=\"#dbeafe\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><rect x=\"430\" y=\"173\" width=\"240\" height=\"24\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"115\" x2=\"430\" y2=\"115\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"430,115 423,111 423,119\" fill=\"#2563eb\"/><rect x=\"155\" y=\"260\" width=\"110\" height=\"35\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"278\" x2=\"430\" y2=\"278\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><polygon points=\"430,278 423,274 423,282\" fill=\"#2563eb\"/><rect x=\"445\" y=\"260\" width=\"110\" height=\"35\" fill=\"#f3f4f6\" stroke=\"#1f2937\" stroke-width=\"1.5\"/></g>",
+        "alt": "船上人数的前后方块保持 632 名儿童不变，同时展示百分比变化。"
+      }
+    }
   },
   {
     "id": 86,
@@ -4038,44 +5300,58 @@ window.QUESTION_BANK = [
     "sourcePage": 33,
     "solution": {
       "en": {
-        "strategy": "Use the cake-count ratio to find each number of cakes, then multiply each count by its price.",
+        "strategy": "Use the 5-unit chocolate bar and 3-unit strawberry bar. The exposed 2 units give the value of one unit before the two cake sales are added.",
         "steps": [
           {
-            "title": "Find the price and ratio unit",
-            "text": "A strawberry cake costs 2 × $4 + $3 = $11. The count ratio is 5:3, and the difference is 8 cakes, so 2 units = 8 and 1 unit = 4 cakes."
+            "title": "Value one bar unit",
+            "text": "The diagram shows that the extra 2 units of chocolate cakes equal 8 cakes. So 1 unit = 8 ÷ 2 = 4 cakes."
           },
           {
-            "title": "Find each sales amount",
-            "text": "Chocolate cakes: 5 × 4 = 20 cakes, so 20 × $4 = $80. Strawberry cakes: 3 × 4 = 12 cakes, so 12 × $11 = $132."
+            "title": "Find each cake count",
+            "text": "Chocolate cakes = 5 × 4 = 20. Strawberry cakes = 3 × 4 = 12."
           },
           {
-            "title": "Add the sales",
-            "text": "Total sales = $80 + $132 = $212."
+            "title": "Price both parts",
+            "text": "Chocolate sales = 20 × $4 = $80. One strawberry cake costs 2 × $4 + $3 = $11, so strawberry sales = 12 × $11 = $132. Total = $80 + $132 = $212."
           }
         ],
-        "answerCheck": "Therefore, the answer is $212."
+        "answerCheck": "Answer: $212"
       },
       "zh-Hans": {
-        "strategy": "先用蛋糕数量的比求出两种蛋糕各卖了多少个，再分别乘以单价。",
+        "strategy": "利用图中的 5 个巧克力单位和 3 个草莓单位。多出的 2 个单位确定每个单位的数量，再分别计算两种蛋糕的销售额。",
         "steps": [
           {
-            "title": "求单价和每份数量",
-            "text": "草莓蛋糕单价是2 × $4 + $3 = $11。数量比是5:3，相差8个，所以2份 = 8个，1份 = 4个。"
+            "title": "求 1 个单位",
+            "text": "图中巧克力蛋糕多出的 2 个单位是 8 个蛋糕，所以 1 个单位 = 8 ÷ 2 = 4 个蛋糕。"
           },
           {
-            "title": "求两种蛋糕的销售额",
-            "text": "巧克力蛋糕有5 × 4 = 20个，销售额是20 × $4 = $80。草莓蛋糕有3 × 4 = 12个，销售额是12 × $11 = $132。"
+            "title": "求两种蛋糕的数量",
+            "text": "巧克力蛋糕有 5 × 4 = 20 个；草莓蛋糕有 3 × 4 = 12 个。"
           },
           {
-            "title": "求总销售额",
-            "text": "总销售额 = $80 + $132 = $212。"
+            "title": "分别计算销售额",
+            "text": "巧克力蛋糕销售额是 20 × $4 = $80。1 个草莓蛋糕价格是 2 × $4 + $3 = $11，所以草莓蛋糕销售额是 12 × $11 = $132。总销售额 = $80 + $132 = $212。"
           }
         ],
-        "answerCheck": "所以答案是$212。"
+        "answerCheck": "答案：$212"
       }
     },
     "questionZh": "巧克力蛋糕每个$4；草莓蛋糕每个比2个巧克力蛋糕贵$3。两种蛋糕的数量之比为5:3，吉布斯卖出的巧克力蛋糕比草莓蛋糕多8个。求总销售额。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 83,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"150\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"198\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"246\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"294\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"342\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"390\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"438\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"486\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"91\">chocolate</text><text x=\"530\" y=\"91\">strawberry</text><text x=\"220\" y=\"91\">5 units</text><text x=\"443\" y=\"91\">3 units</text><path d=\"M150 112v16h240v-16\" fill=\"none\" stroke=\"#26364a\"/><text x=\"273\" y=\"187\">1 unit = 8 ÷ 2 = 4</text><text x=\"172\" y=\"225\">chocolate: 5 × 4 cakes</text><text x=\"406\" y=\"225\">strawberry: 3 × 4 cakes</text>",
+        "alt": "A five-unit chocolate bar and three-unit strawberry bar expose a two-unit difference of 8 cakes, establishing one unit before pricing."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"150\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"198\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"246\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"294\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"342\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"390\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"438\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"486\" y=\"70\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"55\" y=\"91\">巧克力蛋糕</text><text x=\"520\" y=\"91\">草莓蛋糕</text><text x=\"220\" y=\"91\">5 个单位</text><text x=\"443\" y=\"91\">3 个单位</text><path d=\"M150 112v16h240v-16\" fill=\"none\" stroke=\"#26364a\"/><text x=\"273\" y=\"187\">1 unit = 8 ÷ 2 = 4</text><text x=\"172\" y=\"225\">巧克力：5 × 4 个</text><text x=\"406\" y=\"225\">草莓：3 × 4 个</text>",
+        "alt": "5个单位的巧克力蛋糕条与3个单位的草莓蛋糕条，显示相差2个单位即8个蛋糕，先确定每个单位。"
+      }
+    }
   },
   {
     "id": 87,
@@ -4087,44 +5363,58 @@ window.QUESTION_BANK = [
     "sourcePage": 33,
     "solution": {
       "en": {
-        "strategy": "Use Mark and Jane’s difference to find their ticket counts; their combined count is the half not sold by Susan.",
+        "strategy": "Read Mark and Jane as the 5-unit and 3-unit bars, then double their combined tickets because Susan sold one half of all tickets.",
         "steps": [
           {
-            "title": "Find Mark and Jane's tickets",
-            "text": "Mark:Jane = 5:3, so the difference is 2 units. Since 2 units = 18 tickets, 1 unit = 9 tickets. Mark sold 5 × 9 = 45 and Jane sold 3 × 9 = 27."
+            "title": "Find one unit",
+            "text": "Mark exceeds Jane by 2 units, and the diagram labels those 2 units as 18 tickets. Thus 1 unit = 18 ÷ 2 = 9 tickets."
           },
           {
-            "title": "Find the total number of tickets",
-            "text": "Mark and Jane sold 45 + 27 = 72 tickets. Susan sold 1/2 of all the tickets, so these 72 tickets are the other 1/2. Total tickets = 72 × 2 = 144."
+            "title": "Find all tickets",
+            "text": "Mark and Jane sold 5 + 3 = 8 units, or 8 × 9 = 72 tickets. This is the half not sold by Susan, so all tickets = 2 × 72 = 144."
           },
           {
             "title": "Find the collection",
-            "text": "The collection was 144 × $1.20 = $172.80."
+            "text": "At $1.20 per ticket, the collection is 144 × $1.20 = $172.80."
           }
         ],
-        "answerCheck": "Therefore, the answer is $172.80."
+        "answerCheck": "Answer: $172.80"
       },
       "zh-Hans": {
-        "strategy": "先用马克和简的数量差求出票数；他们合共卖出的票就是苏珊卖掉1/2后剩下的1/2。",
+        "strategy": "把马克和简看作图中的 5 个单位和 3 个单位。两人卖出的票是总票数的一半，所以求出后要加倍。",
         "steps": [
           {
-            "title": "求马克和简卖的票数",
-            "text": "马克:简 = 5:3，相差2份。2份 = 18张票，所以1份 = 9张票。马克卖了5 × 9 = 45张，简卖了3 × 9 = 27张。"
+            "title": "求 1 个单位",
+            "text": "马克比简多 2 个单位，图中这 2 个单位是 18 张票。因此 1 个单位 = 18 ÷ 2 = 9 张票。"
           },
           {
             "title": "求总票数",
-            "text": "马克和简合共卖了45 + 27 = 72张票。苏珊卖了全部票的1/2，所以72张是另外的1/2。总票数 = 72 × 2 = 144张。"
+            "text": "马克和简卖出 5 + 3 = 8 个单位，即 8 × 9 = 72 张票。这是苏珊未卖出的那一半，所以总票数 = 2 × 72 = 144 张。"
           },
           {
-            "title": "求筹款总额",
-            "text": "筹款总额是144 × $1.20 = $172.80。"
+            "title": "求筹款额",
+            "text": "每张票 $1.20，筹款额 = 144 × $1.20 = $172.80。"
           }
         ],
-        "answerCheck": "所以答案是$172.80。"
+        "answerCheck": "答案：$172.80"
       }
     },
     "questionZh": "苏珊卖出慈善票的1/2；剩余票中马克与简卖出的数量之比为5:3，马克比简多卖18张。每张票$1.20。求总筹款额。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 84,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"135\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"183\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"231\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"279\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"327\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"135\" y=\"110\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"183\" y=\"110\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"231\" y=\"110\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"135\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"170\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"240\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"275\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"310\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"345\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"380\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><text x=\"35\" y=\"76\">Mark</text><text x=\"35\" y=\"131\">Jane</text><path d=\"M279 96v14h96v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"286\" y=\"143\">2 units = 18</text><text x=\"155\" y=\"180\">1 unit = 9</text><text x=\"35\" y=\"226\">Mark + Jane</text><text x=\"283\" y=\"196\">8 units = 72</text><text x=\"135\" y=\"265\">Susan = 1/2 total → total tickets = 2 × 72</text>",
+        "alt": "Aligned five-unit and three-unit ticket bars show the 18-ticket difference. Their eight-unit combined bar is the half not sold by Susan."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"135\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"183\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"231\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"279\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"327\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"135\" y=\"110\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"183\" y=\"110\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"231\" y=\"110\" width=\"48\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"135\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"170\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"240\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"275\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"310\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"345\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"380\" y=\"205\" width=\"35\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><text x=\"35\" y=\"76\">马克</text><text x=\"35\" y=\"131\">简</text><path d=\"M279 96v14h96v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"286\" y=\"143\">2 个单位 = 18</text><text x=\"155\" y=\"180\">1 个单位 = 9</text><text x=\"35\" y=\"226\">马克 + 简</text><text x=\"283\" y=\"196\">8 个单位 = 72</text><text x=\"135\" y=\"265\">苏珊 = 总数的 1/2 → 总票数 = 2 × 72</text>",
+        "alt": "上下对齐的5单位和3单位票数条显示18张的差；两人的8单位总和是苏珊卖掉一半后剩下的一半。"
+      }
+    }
   },
   {
     "id": 88,
@@ -4136,44 +5426,58 @@ window.QUESTION_BANK = [
     "sourcePage": 34,
     "solution": {
       "en": {
-        "strategy": "Represent the original amounts by the ratio 2:5:3 and use Zachary’s 20% spending to determine one ratio unit.",
+        "strategy": "Compare the before-and-after ratio strips. Zachary spends one of his five units, and that one-unit change is the labelled $196 gap.",
         "steps": [
           {
-            "title": "Write the ratio amounts",
-            "text": "Let Alvin, Zachary, and Philip originally have 2u, 5u, and 3u dollars. After Zachary spends 20%, he has 80% of 5u, which is 4u."
+            "title": "Show Zachary after spending",
+            "text": "20% of Zachary’s 5 units is 1 unit. His bar changes from 5 units to 4 units, while Alvin and Philip remain 2 units and 3 units."
           },
           {
-            "title": "Find one unit",
-            "text": "Alvin plus Philip have 2u + 3u = 5u. This is $196 more than Zachary’s remaining 4u, so u = $196."
+            "title": "Value a unit",
+            "text": "After the spending, Alvin plus Philip is 2 + 3 = 5 units and Zachary has 4 units. Their difference is 1 unit = $196."
           },
           {
-            "title": "Compare the requested original amounts",
-            "text": "Originally, Alvin plus Zachary had 2u + 5u = 7u, while Philip had 3u. The difference is 7u − 3u = 4u = 4 × $196 = $784."
+            "title": "Use the original bars",
+            "text": "Originally Alvin plus Zachary exceeds Philip by (2 + 5 − 3) = 4 units. So the difference is 4 × $196 = $784."
           }
         ],
-        "answerCheck": "Therefore, the answer is $784."
+        "answerCheck": "Answer: $784"
       },
       "zh-Hans": {
-        "strategy": "把原有金额写成2:5:3，再利用扎卡里花掉20%后剩下的金额求出每1份。",
+        "strategy": "比较图中原来和后来两条比例带。扎卡里从 5 个单位中花掉 1 个单位，这个单位正是标出的 $196 差额。",
         "steps": [
           {
-            "title": "用份数表示原有金额",
-            "text": "设阿尔文、扎卡里和菲利普原来分别有2份、5份和3份。扎卡里花掉20%后剩下80%，即5份的80% = 4份。"
+            "title": "画出花钱后的比例",
+            "text": "扎卡里原有 5 个单位，花掉其中的 20%，即 1 个单位，所以剩下 4 个单位。阿尔文和菲利普仍分别是 2 个单位和 3 个单位。"
           },
           {
-            "title": "求每1份的金额",
-            "text": "阿尔文和菲利普共有2份 + 3份 = 5份，比扎卡里剩下的4份多$196，所以1份 = $196。"
+            "title": "求 1 个单位的金额",
+            "text": "花钱后，阿尔文加菲利普是 2 + 3 = 5 个单位，扎卡里是 4 个单位，相差 1 个单位 = $196。"
           },
           {
-            "title": "比较所求的原有金额",
-            "text": "原来阿尔文和扎卡里共有2份 + 5份 = 7份，菲利普有3份，相差7份 − 3份 = 4份 = 4 × $196 = $784。"
+            "title": "回到原来的比例",
+            "text": "原来阿尔文加扎卡里比菲利普多 (2 + 5 − 3) = 4 个单位，所以多 4 × $196 = $784。"
           }
         ],
-        "answerCheck": "所以答案是$784。"
+        "answerCheck": "答案：$784"
       }
     },
     "questionZh": "阿尔文、扎卡里和菲利普的钱数之比为2:5:3。扎卡里花掉20%后，剩下的钱比阿尔文和菲利普的钱数总和少$196。阿尔文和扎卡里的钱数总和比菲利普多多少？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 84,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"150\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"184\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"218\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"252\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"286\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"320\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"354\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"388\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"422\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"456\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"150\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"184\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"218\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"252\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"286\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"320\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"354\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"388\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"422\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"40\" y=\"80\">before</text><text x=\"40\" y=\"165\">after</text><text x=\"160\" y=\"48\">Alvin 2u</text><text x=\"250\" y=\"48\">Zachary 5u</text><text x=\"400\" y=\"48\">Philip 3u</text><text x=\"250\" y=\"133\">Zachary 4u</text><line x1=\"354\" y1=\"55\" x2=\"388\" y2=\"93\" stroke=\"#dc2626\"/><line x1=\"388\" y1=\"55\" x2=\"354\" y2=\"93\" stroke=\"#dc2626\"/><text x=\"426\" y=\"112\">20% of 5u = 1u</text><text x=\"250\" y=\"208\">5u − 4u = $196</text><path d=\"M150 186v14h340v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"215\" y=\"240\">original comparison: 2u + 5u versus 3u</text>",
+        "alt": "Before-and-after three-person ratio bars show Zachary’s five units reduced by one unit (20%), fixing the unit difference before the original comparison."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"150\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"184\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"218\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"252\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"286\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"320\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"354\" y=\"60\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"388\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"422\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"456\" y=\"60\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"150\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"184\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"218\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"252\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"286\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"320\" y=\"145\" width=\"34\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"354\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"388\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"422\" y=\"145\" width=\"34\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"40\" y=\"80\">原来</text><text x=\"40\" y=\"165\">后来</text><text x=\"160\" y=\"48\">阿尔文 2u</text><text x=\"250\" y=\"48\">扎卡里 5u</text><text x=\"400\" y=\"48\">菲利普 3u</text><text x=\"250\" y=\"133\">扎卡里 4u</text><line x1=\"354\" y1=\"55\" x2=\"388\" y2=\"93\" stroke=\"#dc2626\"/><line x1=\"388\" y1=\"55\" x2=\"354\" y2=\"93\" stroke=\"#dc2626\"/><text x=\"426\" y=\"112\">5u 的 20% = 1u</text><text x=\"250\" y=\"208\">5u − 4u = $196</text><path d=\"M150 186v14h340v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"215\" y=\"240\">原来比较：2u + 5u 与 3u</text>",
+        "alt": "三人的前后比例条显示扎卡里的5u减少1u（20%），先确定单位差额，再比较原有数量。"
+      }
+    }
   },
   {
     "id": 89,
@@ -4185,44 +5489,58 @@ window.QUESTION_BANK = [
     "sourcePage": 34,
     "solution": {
       "en": {
-        "strategy": "First use the ratio of men leaving to men remaining, then use the percentages to scale up to all adults.",
+        "strategy": "Follow the diagram’s chain from the 2:5 men bars to the percentage bars for all leavers and then all adults.",
         "steps": [
           {
-            "title": "Find the number of men who left",
-            "text": "Men leaving:men remaining = 2:5, so there are 7 equal units of men. Since 105 men were initially present, 1 unit = 105 ÷ 7 = 15. Men who left = 2 × 15 = 30."
+            "title": "Find the men who left",
+            "text": "The 7 units for men who left and stayed equal 105 men, so 1 unit = 105 ÷ 7 = 15. Men who left = 2 × 15 = 30."
           },
           {
             "title": "Find the original adults",
-            "text": "The 30 men were 10% of all leavers, so all leavers = 30 ÷ 10% = 300. These leavers were 40% of the adults, so original adults = 300 ÷ 40% = 750."
+            "text": "The diagram marks 30 men as 10% of all leavers, so all leavers = 30 ÷ 10% = 300. Those 300 adults are 40% of the original adults, so the original number of adults = 300 ÷ 40% = 750."
           },
           {
-            "title": "Subtract the men",
+            "title": "Remove the men",
             "text": "Initial women = 750 − 105 = 645."
           }
         ],
-        "answerCheck": "Therefore, the answer is 645 women."
+        "answerCheck": "Answer: 645 women"
       },
       "zh-Hans": {
-        "strategy": "先用离开的男人与留下的男人的比求离开的男人数，再用百分数推回成人总数。",
+        "strategy": "按照图示，从离开和留下男子的 2:5 单位条，依次连接到所有离开者和所有成人的百分比条。",
         "steps": [
           {
-            "title": "求离开的男人数",
-            "text": "离开的男人:留下的男人 = 2:5，所以男人总数是7份。开始有105名男人，1份 = 105 ÷ 7 = 15名。离开的男人 = 2 × 15 = 30名。"
+            "title": "求离开的男子人数",
+            "text": "离开和留下的男子共 7 个单位，对应 105 人，所以 1 个单位 = 105 ÷ 7 = 15 人。离开的男子 = 2 × 15 = 30 人。"
           },
           {
-            "title": "求原来的成人总数",
-            "text": "30名男人是所有离开者的10%，所以所有离开者 = 30 ÷ 10% = 300名。这300名是成人的40%，所以原来有成人 = 300 ÷ 40% = 750名。"
+            "title": "求原来成人总数",
+            "text": "图中 30 名男子是所有离开者的 10%，所以所有离开者 = 30 ÷ 10% = 300 人。这 300 人是原来成人的 40%，所以原来成人总数 = 300 ÷ 40% = 750 人。"
           },
           {
-            "title": "求原来的女人数",
-            "text": "原来的女人数 = 750 − 105 = 645名。"
+            "title": "减去男子人数",
+            "text": "原来女士人数 = 750 − 105 = 645。"
           }
         ],
-        "answerCheck": "所以答案是645名女人。"
+        "answerCheck": "答案：645 名女士"
       }
     },
     "questionZh": "聚会上40%的成年人离开；离开者中有10%是男士。离开的男士与留下的男士人数之比为2:5；起初有105名男士。求起初有多少名女士。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 84,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"125\" y=\"55\" width=\"48\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"173\" y=\"55\" width=\"48\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"221\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"269\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"317\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"365\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"413\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"125\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"157\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"189\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"221\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"253\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"285\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"317\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"349\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"381\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"413\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"125\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"157\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"189\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"221\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"253\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"285\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"317\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"349\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"381\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"413\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"25\" y=\"76\">men left</text><text x=\"25\" y=\"98\">men stayed</text><path d=\"M125 100v14h336v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"245\" y=\"127\">7 units = 105</text><text x=\"125\" y=\"126\">2u = 30</text><text x=\"25\" y=\"156\">all leavers</text><text x=\"125\" y=\"187\">10% = 30</text><text x=\"413\" y=\"187\">100% = 300</text><text x=\"25\" y=\"236\">all adults</text><text x=\"125\" y=\"267\">40% = 300</text><text x=\"413\" y=\"267\">100% = 750</text>",
+        "alt": "A 2:5 men-left-to-men-stayed strip gives 30. Two ten-part percent bars then scale 10% to all leavers and 40% to all adults."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"125\" y=\"55\" width=\"48\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"173\" y=\"55\" width=\"48\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"221\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"269\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"317\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"365\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"413\" y=\"55\" width=\"48\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"125\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"157\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"189\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"221\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"253\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"285\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"317\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"349\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"381\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"413\" y=\"135\" width=\"32\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"125\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"157\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"189\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"221\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"253\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"285\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"317\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"349\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"381\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"413\" y=\"215\" width=\"32\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"25\" y=\"76\">离开的男子</text><text x=\"25\" y=\"98\">留下的男子</text><path d=\"M125 100v14h336v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"245\" y=\"127\">7 个单位 = 105</text><text x=\"125\" y=\"126\">2u = 30</text><text x=\"25\" y=\"156\">所有离开者</text><text x=\"125\" y=\"187\">10% = 30</text><text x=\"413\" y=\"187\">100% = 300</text><text x=\"25\" y=\"236\">所有成人</text><text x=\"125\" y=\"267\">40% = 300</text><text x=\"413\" y=\"267\">100% = 750</text>",
+        "alt": "2:5的男子离开与留下比例条得到30人；随后两条10等分百分比条从10%推到所有离开者，并从40%推到所有成人。"
+      }
+    }
   },
   {
     "id": 90,
@@ -4234,44 +5552,58 @@ window.QUESTION_BANK = [
     "sourcePage": 34,
     "solution": {
       "en": {
-        "strategy": "Treat Kate's and Melissa's percentages as percentages of the original number of biscuits, then use Ann's 20-biscuit difference and Jack's 80 biscuits.",
+        "strategy": "Use the 10-cell percentage bar. Its final 20% section combines Ann’s extra 20 biscuits with Jack’s 80 biscuits.",
         "steps": [
           {
-            "title": "Express the known shares",
-            "text": "Let the total be T biscuits. Kate took 30% of T and Melissa took 25% of T. Ann took 20 more than Melissa, so Ann took 25% of T + 20."
+            "title": "Value the percentage bar",
+            "text": "The final 20% of the bar is 20 + 80 = 100 biscuits. Therefore 10% = 50 biscuits and 100% = 500 biscuits."
           },
           {
-            "title": "Find the total",
-            "text": "All biscuits were taken: 30%T + 25%T + (25%T + 20) + 80 = T. Thus 80%T + 100 = T, so 20%T = 100 and T = 500."
+            "title": "Convert Ann’s extra biscuits",
+            "text": "Ann took 20 more biscuits than Melissa. As a share of 500, 20 biscuits = 20 ÷ 500 × 100% = 4%."
           },
           {
-            "title": "Find Ann's percentage",
-            "text": "Ann took 25% of 500 + 20 = 125 + 20 = 145 biscuits. Her percentage was 145 ÷ 500 = 29%."
+            "title": "Add to Melissa’s share",
+            "text": "Melissa took 25%, so Ann took 25% + 4% = 29%."
           }
         ],
-        "answerCheck": "Therefore, the answer is 29%."
+        "answerCheck": "Answer: 29%"
       },
       "zh-Hans": {
-        "strategy": "把凯特和梅利莎拿走的百分数都看作原来饼干总数的百分数，再用安比梅利莎多20块和杰克拿80块来列式。",
+        "strategy": "使用 10 格百分比条。最后的 20% 一段由安多拿的 20 块饼干和杰克拿的 80 块组成。",
         "steps": [
           {
-            "title": "用总数表示各人的份额",
-            "text": "设饼干总数为T。凯特拿了T的30%，梅利莎拿了T的25%。安比梅利莎多20块，所以安拿了T的25% + 20。"
+            "title": "确定整条的数量",
+            "text": "条形图最后的 20% = 20 + 80 = 100 块饼干。因此 10% = 50 块，100% = 500 块。"
           },
           {
-            "title": "求饼干总数",
-            "text": "所有饼干都被拿走：30%T + 25%T + (25%T + 20) + 80 = T。于是80%T + 100 = T，20%T = 100，T = 500。"
+            "title": "把安多拿的饼干化成百分比",
+            "text": "安比梅利莎多拿 20 块。占 500 块的百分比是 20 ÷ 500 × 100% = 4%。"
           },
           {
-            "title": "求安拿的百分数",
-            "text": "安拿了500的25% + 20 = 125 + 20 = 145块。她拿的百分数是145 ÷ 500 = 29%。"
+            "title": "加到梅利莎的百分比",
+            "text": "梅利莎拿了 25%，所以安拿了 25% + 4% = 29%。"
           }
         ],
-        "answerCheck": "所以答案是29%。"
+        "answerCheck": "答案：29%"
       }
     },
     "questionZh": "凯特拿走30%的饼干；梅利莎拿走25%；杰克拿走最后80块；安拿走的比梅利莎多20块。安拿走了百分之几的饼干？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 84,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"90\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"132\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"174\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"216\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"258\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"300\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"342\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"384\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"426\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"468\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><text x=\"100\" y=\"83\">Kate 30%</text><text x=\"224\" y=\"83\">Melissa 25%</text><text x=\"335\" y=\"83\">Ann: 25%</text><text x=\"420\" y=\"83\">Ann + Jack</text><path d=\"M426 130v14h84v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"422\" y=\"164\">20% = 20 + 80 = 100</text><text x=\"220\" y=\"204\">10% = 50</text><text x=\"185\" y=\"240\">20 biscuits of 500 = 4%</text><text x=\"390\" y=\"240\">Ann: 25% + 4%</text>",
+        "alt": "A ten-part biscuit bar groups Kate, Melissa, Ann’s base share, and Ann’s extra 20 with Jack’s 80. The final two parts establish 20% = 100."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"90\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"132\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"174\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"216\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"258\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"300\" y=\"95\" width=\"42\" height=\"28\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"342\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"384\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"426\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"468\" y=\"95\" width=\"42\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><text x=\"100\" y=\"83\">凯特 30%</text><text x=\"224\" y=\"83\">梅利莎 25%</text><text x=\"335\" y=\"83\">安：25%</text><text x=\"420\" y=\"83\">安 + 杰克</text><path d=\"M426 130v14h84v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"422\" y=\"164\">20% = 20 + 80 = 100</text><text x=\"220\" y=\"204\">10% = 50</text><text x=\"185\" y=\"240\">500 中的 20 块 = 4%</text><text x=\"390\" y=\"240\">安：25% + 4%</text>",
+        "alt": "10等分饼干条分组显示凯特、梅利莎、安的基本份额，以及安多出的20块和杰克的80块；最后两格确定20%=100。"
+      }
+    }
   },
   {
     "id": 91,
@@ -4283,44 +5615,58 @@ window.QUESTION_BANK = [
     "sourcePage": 35,
     "solution": {
       "en": {
-        "strategy": "Calculate the 20% commission per cup and add the 5% price bonus for each complete group of 10 cups.",
+        "strategy": "Use the guess-and-check table after finding the earnings for one cup and for each group of ten cups.",
         "steps": [
           {
-            "title": "Find the payment per cup and per ten cups",
-            "text": "20% of $8 is $1.60, so 53 cups earn 53 × $1.60 = $84.80. The extra payment for every 10 cups is 5% of $8 = $0.40."
+            "title": "Find the two earnings rates",
+            "text": "20% of $8 is $1.60 for each cup. The extra 5% of $8 for every 10 cups is $0.40 per group of 10."
           },
           {
-            "title": "Test 53 cups",
-            "text": "There are 5 complete groups of 10 in 53, so the extra payment is 5 × $0.40 = $2.00. Total payment = $84.80 + $2.00 = $86.80."
+            "title": "Read the table trial",
+            "text": "For 50 cups, the table gives 50 × $1.60 + 5 × $0.40 = $82. This is $86.80 − $82 = $4.80 short."
           },
           {
-            "title": "Confirm the cup count",
-            "text": "The total matches Uncle Sam's $86.80, so he sold 53 cups."
+            "title": "Add the missing cups",
+            "text": "The $4.80 difference buys 4.80 ÷ 1.60 = 3 more cups; it does not complete another group of 10. Thus 50 + 3 = 53 cups."
           }
         ],
-        "answerCheck": "Therefore, the answer is 53 cups."
+        "answerCheck": "Answer: 53 cups"
       },
       "zh-Hans": {
-        "strategy": "先算每杯的20%收入，再加上每满10杯所得的5%单价奖金。",
+        "strategy": "先求每杯和每 10 杯带来的收入，再按照猜测与检验表继续。",
         "steps": [
           {
-            "title": "求每杯和每10杯的收入",
-            "text": "$8的20%是$1.60，所以53杯的20%收入是53 × $1.60 = $84.80。每满10杯的额外收入是$8的5% = $0.40。"
+            "title": "求两种收入",
+            "text": "每杯 $8 的 20% 是 $1.60。每卖 10 杯另收的 $8 的 5% 是每 10 杯 $0.40。"
           },
           {
-            "title": "检验53杯",
-            "text": "53杯中有5组完整的10杯，额外收入是5 × $0.40 = $2.00。总收入 = $84.80 + $2.00 = $86.80。"
+            "title": "使用表中的试算",
+            "text": "50 杯时，表中总收入是 50 × $1.60 + 5 × $0.40 = $82，比 $86.80 少 $86.80 − $82 = $4.80。"
           },
           {
-            "title": "确认杯数",
-            "text": "总收入正好是山姆叔叔得到的$86.80，所以他卖了53杯。"
+            "title": "补上所差的杯数",
+            "text": "$4.80 ÷ $1.60 = 3 杯，而且没有凑满新的 10 杯。因此共卖出 50 + 3 = 53 杯。"
           }
         ],
-        "answerCheck": "所以答案是53杯。"
+        "answerCheck": "答案：53 杯"
       }
     },
     "questionZh": "山姆叔叔从每杯$8的售价中收取20%，并且每卖10杯另收取售价的5%。他共收了$86.80。他卖出了多少杯？",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 85,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"55\" y=\"40\" width=\"530\" height=\"35\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"165\" y1=\"40\" x2=\"165\" y2=\"230\" stroke=\"#26364a\"/><line x1=\"315\" y1=\"40\" x2=\"315\" y2=\"230\" stroke=\"#26364a\"/><line x1=\"455\" y1=\"40\" x2=\"455\" y2=\"230\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"75\" x2=\"585\" y2=\"75\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"125\" x2=\"585\" y2=\"125\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"175\" x2=\"585\" y2=\"175\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"230\" x2=\"585\" y2=\"230\" stroke=\"#26364a\"/><rect x=\"55\" y=\"175\" width=\"530\" height=\"55\" fill=\"#fef3c7\" stroke=\"none\"/><text x=\"75\" y=\"63\">cups</text><text x=\"185\" y=\"63\">$1.60 each</text><text x=\"335\" y=\"63\">$0.40 per 10</text><text x=\"490\" y=\"63\">total</text><text x=\"95\" y=\"105\">20</text><text x=\"210\" y=\"105\">20 × $1.60</text><text x=\"350\" y=\"105\">2 × $0.40</text><text x=\"485\" y=\"105\">$32.80</text><text x=\"95\" y=\"155\">40</text><text x=\"210\" y=\"155\">40 × $1.60</text><text x=\"350\" y=\"155\">4 × $0.40</text><text x=\"485\" y=\"155\">$65.60</text><text x=\"95\" y=\"210\">50</text><text x=\"210\" y=\"210\">50 × $1.60</text><text x=\"350\" y=\"210\">5 × $0.40</text><text x=\"485\" y=\"210\">$82</text><text x=\"115\" y=\"266\">$86.80 − $82 = $4.80; $4.80 ÷ $1.60 = 3 more cups</text>",
+        "alt": "A Guess-and-Check table tests 20, 40, and 50 cups using $1.60 per cup plus $0.40 per complete ten, then isolates the remaining amount."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"55\" y=\"40\" width=\"530\" height=\"35\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"165\" y1=\"40\" x2=\"165\" y2=\"230\" stroke=\"#26364a\"/><line x1=\"315\" y1=\"40\" x2=\"315\" y2=\"230\" stroke=\"#26364a\"/><line x1=\"455\" y1=\"40\" x2=\"455\" y2=\"230\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"75\" x2=\"585\" y2=\"75\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"125\" x2=\"585\" y2=\"125\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"175\" x2=\"585\" y2=\"175\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"230\" x2=\"585\" y2=\"230\" stroke=\"#26364a\"/><rect x=\"55\" y=\"175\" width=\"530\" height=\"55\" fill=\"#fef3c7\" stroke=\"none\"/><text x=\"75\" y=\"63\">杯数</text><text x=\"185\" y=\"63\">$1.60 每杯</text><text x=\"335\" y=\"63\">$0.40 每10杯</text><text x=\"490\" y=\"63\">合计</text><text x=\"95\" y=\"105\">20</text><text x=\"210\" y=\"105\">20 × $1.60</text><text x=\"350\" y=\"105\">2 × $0.40</text><text x=\"485\" y=\"105\">$32.80</text><text x=\"95\" y=\"155\">40</text><text x=\"210\" y=\"155\">40 × $1.60</text><text x=\"350\" y=\"155\">4 × $0.40</text><text x=\"485\" y=\"155\">$65.60</text><text x=\"95\" y=\"210\">50</text><text x=\"210\" y=\"210\">50 × $1.60</text><text x=\"350\" y=\"210\">5 × $0.40</text><text x=\"485\" y=\"210\">$82</text><text x=\"115\" y=\"266\">$86.80 − $82 = $4.80；$4.80 ÷ $1.60 = 再加 3 杯</text>",
+        "alt": "猜测与检验表用每杯$1.60和每完整10杯$0.40试算20、40、50杯，然后单独处理余下金额。"
+      }
+    }
   },
   {
     "id": 92,
@@ -4332,44 +5678,58 @@ window.QUESTION_BANK = [
     "sourcePage": 35,
     "solution": {
       "en": {
-        "strategy": "Use the 144 girls without pets to find the whole class, then calculate the pet owners among boys and girls.",
+        "strategy": "Partition the whole-class percentage bar into boys and girls, then locate the pet-keeping sections within both parts.",
         "steps": [
           {
-            "title": "Find the class size",
-            "text": "20% are boys, so 80% are girls. Since 10% of girls keep pets, 90% of girls do not. Thus 90% of 80% = 72% of the class is girls without pets."
+            "title": "Use the girls-without-pets section",
+            "text": "Using the visual model above, Girls are 100% − 20% = 80% of the class. 90% of those girls have no pets, so this is 90% × 80% = 72% of the class = 144 children. Hence 1% = 2 children."
           },
           {
-            "title": "Calculate the number of children",
-            "text": "72% of the class is 144, so the class has 144 ÷ 72% = 200 children. There are 20% × 200 = 40 boys and 80% × 200 = 160 girls."
+            "title": "Find both pet sections",
+            "text": "Boys with pets are 20% of 20% = 4% of the class. Girls with pets are 10% of 80% = 8% of the class."
           },
           {
-            "title": "Count the pet owners",
-            "text": "Boys with pets = 20% × 40 = 8. Girls with pets = 10% × 160 = 16. Total = 8 + 16 = 24 children."
+            "title": "Combine the sections",
+            "text": "Children with pets make up 4% + 8% = 12% of the class, or 12 × 2 = 24 children."
           }
         ],
-        "answerCheck": "Therefore, the answer is 24 children."
+        "answerCheck": "Answer: 24 children"
       },
       "zh-Hans": {
-        "strategy": "先用144名没有宠物的女生求全班人数，再分别计算有宠物的男生和女生。",
+        "strategy": "把全班百分比条分成男生和女生，再在两部分中找出养宠物的区域。",
         "steps": [
           {
-            "title": "求全班人数的比例",
-            "text": "男生占20%，所以女生占80%。有10%的女生养宠物，因此90%的女生不养宠物。全班中没有宠物的女生占90% × 80% = 72%。"
+            "title": "利用女生中不养宠物的部分",
+            "text": "结合上面的图示模型，女生占全班 100% − 20% = 80%。其中 90% 不养宠物，所以占全班 90% × 80% = 72%，即 144 人。因此 1% = 2 人。"
           },
           {
-            "title": "求全班人数",
-            "text": "全班的72%是144名，所以全班人数 = 144 ÷ 72% = 200名。其中男生有20% × 200 = 40名，女生有80% × 200 = 160名。"
+            "title": "求两部分养宠物的百分比",
+            "text": "养宠物的男生占全班 20% 的 20%，即 4%。养宠物的女生占全班 80% 的 10%，即 8%。"
           },
           {
-            "title": "计算养宠物的儿童数",
-            "text": "养宠物的男生有20% × 40 = 8名，养宠物的女生有10% × 160 = 16名，共8 + 16 = 24名。"
+            "title": "合并两部分",
+            "text": "养宠物的儿童占 4% + 8% = 12%，即 12 × 2 = 24 人。"
           }
         ],
-        "answerCheck": "所以答案是24名儿童。"
+        "answerCheck": "答案：24 名儿童"
       }
     },
     "questionZh": "一个班级中20%是男生。20%的男生和10%的女生养宠物；144名女生不养宠物。多少名儿童养宠物？",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 85,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"85\" y=\"70\" width=\"110\" height=\"52\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"195\" y=\"70\" width=\"440\" height=\"52\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"195\" y=\"70\" width=\"396\" height=\"52\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"591\" y=\"70\" width=\"44\" height=\"52\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"85\" y=\"140\" width=\"88\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"173\" y=\"140\" width=\"22\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"103\" y=\"60\">boys 20%</text><text x=\"365\" y=\"60\">girls 80%</text><text x=\"280\" y=\"101\">no pets: 90% of girls = 72% of class</text><text x=\"590\" y=\"101\">pets 8%</text><text x=\"90\" y=\"191\">boys: pets 4%</text><text x=\"380\" y=\"152\">72% = 144 → 1% = 2</text><path d=\"M85 185v12h550v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"270\" y=\"230\">pets: 4% + 8% = 12% of class</text>",
+        "alt": "The class bar splits 20% boys and 80% girls. Nested segments show 72% girls without pets, alongside 4% boys and 8% girls with pets."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"85\" y=\"70\" width=\"110\" height=\"52\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"195\" y=\"70\" width=\"440\" height=\"52\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"195\" y=\"70\" width=\"396\" height=\"52\" fill=\"#f8fafc\" stroke=\"#26364a\"/><rect x=\"591\" y=\"70\" width=\"44\" height=\"52\" fill=\"#fde68a\" stroke=\"#26364a\"/><rect x=\"85\" y=\"140\" width=\"88\" height=\"30\" fill=\"#bae6fd\" stroke=\"#26364a\"/><rect x=\"173\" y=\"140\" width=\"22\" height=\"30\" fill=\"#fff\" stroke=\"#26364a\"/><text x=\"103\" y=\"60\">男生 20%</text><text x=\"365\" y=\"60\">女生 80%</text><text x=\"280\" y=\"101\">无宠物：女生的 90% = 全班的 72%</text><text x=\"590\" y=\"101\">宠物 8%</text><text x=\"90\" y=\"191\">男生：养宠物 4%</text><text x=\"380\" y=\"152\">72% = 144 → 1% = 2</text><path d=\"M85 185v12h550v-12\" fill=\"none\" stroke=\"#26364a\"/><text x=\"270\" y=\"230\">养宠物：4% + 8% = 全班的 12%</text>",
+        "alt": "全班比例条分成20%男生和80%女生；嵌套部分显示无宠物女生占72%，并显示养宠物男生4%和女生8%。"
+      }
+    }
   },
   {
     "id": 93,
@@ -4381,44 +5741,58 @@ window.QUESTION_BANK = [
     "sourcePage": 35,
     "solution": {
       "en": {
-        "strategy": "Express each colour as a percentage of the total, then use the difference between yellow and red to find the total.",
+        "strategy": "Use the percentage-bar model to partition the whole by colour. Blue and green each take 10% of the 60% remaining after red.",
         "steps": [
           {
-            "title": "Find each percentage",
-            "text": "Red marbles are 2/5 = 40% of the total. The remaining 60% contains 10% blue and 10% green, so blue = 6% and green = 6% of the total. Yellow = 60% − 6% − 6% = 48%."
+            "title": "Fill the percentage partitions",
+            "text": "Using the visual model above, Red = 2/5 = 40%, so 60% remains. Blue = 10% of 60% = 6%, and green = 6%; therefore yellow = 60% − 6% − 6% = 48%."
           },
           {
-            "title": "Find the total number of marbles",
-            "text": "Yellow exceeds red by 48% − 40% = 8% of the total. Since 8% is 32 marbles, the total is 32 ÷ 8% = 400 marbles."
+            "title": "Value 1%",
+            "text": "Yellow exceeds red by 48% − 40% = 8%, and this equals 32 marbles. So 1% = 32 ÷ 8 = 4 marbles."
           },
           {
-            "title": "Count blue and green marbles",
-            "text": "Blue plus green is 6% + 6% = 12% of 400, which is 48 marbles."
+            "title": "Take the blue-and-green section",
+            "text": "Blue plus green is 6% + 6% = 12%, so it contains 12 × 4 = 48 marbles."
           }
         ],
-        "answerCheck": "Therefore, the answer is 48 blue and green marbles."
+        "answerCheck": "Answer: 48 blue and green marbles"
       },
       "zh-Hans": {
-        "strategy": "把每种颜色写成总数的百分数，再用黄色比红色多的数量求总数。",
+        "strategy": "使用百分比条形模型按颜色把整体分成百分比部分。红色之后剩下的 60% 中，蓝色和绿色各占其中的 10%。",
         "steps": [
           {
-            "title": "求每种颜色所占的百分数",
-            "text": "红色占总数的2/5 = 40%。剩下的60%中，蓝色占10%，绿色占10%，所以蓝色占总数的6%，绿色也占6%。黄色占60% − 6% − 6% = 48%。"
+            "title": "填出各颜色的百分比",
+            "text": "结合上面的图示模型，红色占 2/5 = 40%，剩下 60%。蓝色占 60% 的 10%，即 6%；绿色也是 6%，所以黄色占 60% − 6% − 6% = 48%。"
           },
           {
-            "title": "求弹珠总数",
-            "text": "黄色比红色多48% − 40% = 总数的8%。这8%是32颗，所以总数 = 32 ÷ 8% = 400颗。"
+            "title": "求 1% 对应的颗数",
+            "text": "黄色比红色多 48% − 40% = 8%，对应 32 颗弹珠。因此 1% = 32 ÷ 8 = 4 颗。"
           },
           {
-            "title": "求蓝色和绿色弹珠数",
-            "text": "蓝色和绿色合共占6% + 6% = 12%，所以有400的12% = 48颗。"
+            "title": "取蓝色和绿色部分",
+            "text": "蓝色加绿色占 6% + 6% = 12%，所以有 12 × 4 = 48 颗弹珠。"
           }
         ],
-        "answerCheck": "所以答案是蓝色和绿色弹珠共有48颗。"
+        "answerCheck": "答案：48 颗蓝色和绿色弹珠"
       }
     },
     "questionZh": "弹珠中有2/5是红色的。在其余弹珠中，10%是蓝色的，10%是绿色的。黄色弹珠比红色弹珠多32颗。求蓝色和绿色弹珠的总数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 85,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"65\" y=\"65\" width=\"228\" height=\"48\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"293\" y=\"65\" width=\"342\" height=\"48\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"293\" y=\"65\" width=\"34\" height=\"48\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"327\" y=\"65\" width=\"34\" height=\"48\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"145\" y=\"53\">red 40%</text><text x=\"410\" y=\"53\">remaining 60%</text><text x=\"294\" y=\"143\">blue: 10% of 60% = 6%</text><text x=\"405\" y=\"143\">green: 10% of 60% = 6%</text><text x=\"470\" y=\"101\">yellow: 60% − 6% − 6%</text><path d=\"M293 116v15h68v-15\" fill=\"none\" stroke=\"#26364a\"/><text x=\"275\" y=\"184\">blue + green = 12%</text><text x=\"250\" y=\"220\">yellow − red = 8% = 32 marbles → 1% = 4</text>",
+        "alt": "A whole bar first allocates red 40%, then takes blue and green as 10% each of the remaining 60%. The yellow–red gap establishes one percent."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"65\" y=\"65\" width=\"228\" height=\"48\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"293\" y=\"65\" width=\"342\" height=\"48\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"293\" y=\"65\" width=\"34\" height=\"48\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"327\" y=\"65\" width=\"34\" height=\"48\" fill=\"#bbf7d0\" stroke=\"#26364a\"/><text x=\"145\" y=\"53\">红色 40%</text><text x=\"410\" y=\"53\">剩下 60%</text><text x=\"294\" y=\"143\">蓝色：60% 的 10% = 6%</text><text x=\"405\" y=\"143\">绿色：60% 的 10% = 6%</text><text x=\"465\" y=\"101\">黄色：60% − 6% − 6%</text><path d=\"M293 116v15h68v-15\" fill=\"none\" stroke=\"#26364a\"/><text x=\"275\" y=\"184\">蓝色 + 绿色 = 12%</text><text x=\"250\" y=\"220\">黄色 − 红色 = 8% = 32 颗 → 1% = 4</text>",
+        "alt": "整体条先分配红色40%，再把余下60%的10%分别给蓝色和绿色；黄色与红色的差确定1%。"
+      }
+    }
   },
   {
     "id": 94,
@@ -4430,44 +5804,58 @@ window.QUESTION_BANK = [
     "sourcePage": 36,
     "solution": {
       "en": {
-        "strategy": "Express Jane's original number as 140% of Jeffrey's, then equate their numbers after the loss and transfer.",
+        "strategy": "Use the 140% Jane bar and 100% Jeffrey bar. The diagram’s 16, 16, and 12 pieces make the original 40% difference.",
         "steps": [
           {
-            "title": "Set up the original numbers",
-            "text": "Let Jeffrey originally have x marbles. Jane had 40% more, so she had 140% of x = 1.4x marbles."
+            "title": "Match the 40% extension",
+            "text": "After Jane loses 12 and gives Jeffrey 16, equality requires the original difference to cover 12 + 16 + 16 = 44. Thus 40% = 44."
           },
           {
-            "title": "Make the final numbers equal",
-            "text": "Jane lost 12 and gave Jeffrey 16, so Jane had 1.4x − 12 − 16 = 1.4x − 28. Jeffrey then had x + 16. Since they matched, 1.4x − 28 = x + 16."
+            "title": "Scale Jane’s bar",
+            "text": "Jane’s original bar is 140%, so Jane had 44 ÷ 40 × 140 = 154 marbles."
           },
           {
-            "title": "Solve and find both numbers",
-            "text": "0.4x = 44, so x = 110. Jeffrey originally had 110 marbles and Jane originally had 1.4 × 110 = 154 marbles."
+            "title": "Scale Jeffrey’s bar",
+            "text": "Jeffrey’s original bar is 100%, so Jeffrey had 44 ÷ 40 × 100 = 110 marbles."
           }
         ],
-        "answerCheck": "Therefore, the answer is Jane: 154; Jeffrey: 110."
+        "answerCheck": "Answer: Jane: 154; Jeffrey: 110"
       },
       "zh-Hans": {
-        "strategy": "把简原有的弹珠数表示为杰弗里的140%，再令两人最后的弹珠数相等。",
+        "strategy": "使用图中的简 140% 条和杰弗里 100% 条。标出的 16、16 和 12 组成原来相差的 40%。",
         "steps": [
           {
-            "title": "设原有的弹珠数",
-            "text": "设杰弗里原来有x颗弹珠。简比他多40%，所以简有x的140% = 1.4x颗。"
+            "title": "对应 40% 的长度",
+            "text": "结合上面的图示模型，简丢 12 颗并给杰弗里 16 颗后相等，所以原来的差额 = 12 + 16 + 16 = 44。因此 40% = 44。"
           },
           {
-            "title": "令最后的数量相等",
-            "text": "简丢了12颗，又给杰弗里16颗，所以简剩下1.4x − 12 − 16 = 1.4x − 28颗。杰弗里有x + 16颗。因为两人一样多，所以1.4x − 28 = x + 16。"
+            "title": "按简的比例条计算",
+            "text": "简原来的数量是 140%，所以是 44 ÷ 40 × 140 = 154 颗。"
           },
           {
-            "title": "解出两人的原有数量",
-            "text": "0.4x = 44，所以x = 110。杰弗里原来有110颗，简原来有1.4 × 110 = 154颗。"
+            "title": "按杰弗里的比例条计算",
+            "text": "杰弗里原来的数量是 100%，所以是 44 ÷ 40 × 100 = 110 颗。"
           }
         ],
-        "answerCheck": "所以答案是：简有154颗；杰弗里有110颗。"
+        "answerCheck": "答案：简：154；杰弗里：110"
       }
     },
     "questionZh": "简的弹珠比杰弗里的多40%。简丢失12颗并给杰弗里16颗后，两人的弹珠数相等。求两人原来各有多少颗弹珠。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 85,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"100\" y=\"55\" width=\"350\" height=\"38\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"450\" y=\"55\" width=\"140\" height=\"38\" fill=\"#fef3c7\" stroke=\"#26364a\"/><line x1=\"501\" y1=\"55\" x2=\"501\" y2=\"93\" stroke=\"#26364a\"/><line x1=\"552\" y1=\"55\" x2=\"552\" y2=\"93\" stroke=\"#26364a\"/><rect x=\"100\" y=\"130\" width=\"350\" height=\"38\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"25\" y=\"79\">Jane 140%</text><text x=\"465\" y=\"79\">16</text><text x=\"515\" y=\"79\">16</text><text x=\"565\" y=\"79\">12</text><path d=\"M450 98v15h140v-15\" fill=\"none\" stroke=\"#26364a\"/><text x=\"468\" y=\"132\">40% = 16 + 16 + 12 = 44</text><text x=\"130\" y=\"210\">Jane: 140% − 12 − 16</text><text x=\"130\" y=\"245\">Jeffrey: 100% + 16</text><text x=\"420\" y=\"245\">make equal</text>",
+        "alt": "Aligned 140% and 100% bars isolate Jane’s 40% extension as 16 + 16 + 12. The loss and transfer are then placed against the matching bars."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"100\" y=\"55\" width=\"350\" height=\"38\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"450\" y=\"55\" width=\"140\" height=\"38\" fill=\"#fef3c7\" stroke=\"#26364a\"/><line x1=\"501\" y1=\"55\" x2=\"501\" y2=\"93\" stroke=\"#26364a\"/><line x1=\"552\" y1=\"55\" x2=\"552\" y2=\"93\" stroke=\"#26364a\"/><rect x=\"100\" y=\"130\" width=\"350\" height=\"38\" fill=\"#dbeafe\" stroke=\"#26364a\"/><text x=\"25\" y=\"79\">简 140%</text><text x=\"465\" y=\"79\">16</text><text x=\"515\" y=\"79\">16</text><text x=\"565\" y=\"79\">12</text><path d=\"M450 98v15h140v-15\" fill=\"none\" stroke=\"#26364a\"/><text x=\"468\" y=\"132\">40% = 16 + 16 + 12 = 44</text><text x=\"130\" y=\"210\">简：140% − 12 − 16</text><text x=\"130\" y=\"245\">杰弗里：100% + 16</text><text x=\"420\" y=\"245\">令两者相等</text>",
+        "alt": "对齐的140%和100%条把简多出的40%分成16、16、12；随后把遗失和转给对方的数量放入相应的条。"
+      }
+    }
   },
   {
     "id": 95,
@@ -4479,44 +5867,58 @@ window.QUESTION_BANK = [
     "sourcePage": 36,
     "solution": {
       "en": {
-        "strategy": "Write each month's saving as a percentage of one monthly salary, then use their difference.",
+        "strategy": "Use the two saving percentage strips: a 50% increase on the first 10% saving adds 5%, so their difference values a percentage of the salary.",
         "steps": [
           {
-            "title": "Compare the two savings",
-            "text": "In month 1, Mrs Wood saved 10% of her salary. In month 2, she saved 50% more than that, so she saved 10% × 1.5 = 15% of her salary."
+            "title": "Compare the saving strips",
+            "text": "Using the visual model above, 50% of the first month’s 10% saving is 5%. The second-month saving is 10% + 5% = 15%, so the difference is 5%."
           },
           {
             "title": "Find one monthly salary",
-            "text": "The difference is 15% − 10% = 5% of one monthly salary, and this equals $496.50. Monthly salary = $496.50 ÷ 5% = $9930."
+            "text": "5% = $496.50, so 1% = $496.50 ÷ 5 = $99.30. Then 100% = 100 × $99.30 = $9930."
           },
           {
-            "title": "Find the 6-month salary",
-            "text": "For 6 months, the salary is 6 × $9930 = $59580."
+            "title": "Multiply for six months",
+            "text": "Six months of salary = 6 × $9930 = $59580."
           }
         ],
-        "answerCheck": "Therefore, the answer is $59580."
+        "answerCheck": "Answer: $59580"
       },
       "zh-Hans": {
-        "strategy": "把两个月的储蓄都写成1个月工资的百分数，再用两者的差求月工资。",
+        "strategy": "利用两个月储蓄百分比条：第 1 个月的 10% 增加 50%，就是再增加 5%，两条之间的差可确定工资的百分比。",
         "steps": [
           {
-            "title": "比较两个月的储蓄",
-            "text": "第1个月，伍德太太储蓄工资的10%。第2个月比第1个月多储蓄50%，所以第2个月储蓄10% × 1.5 = 工资的15%。"
+            "title": "比较两条储蓄百分比",
+            "text": "结合上面的图示模型，第 1 个月 10% 的 50% 是 5%。第 2 个月储蓄为 10% + 5% = 15%，因此相差 5%。"
           },
           {
-            "title": "求1个月的工资",
-            "text": "两个月储蓄相差15% − 10% = 1个月工资的5%，即$496.50。月工资 = $496.50 ÷ 5% = $9930。"
+            "title": "求 1 个月工资",
+            "text": "5% = $496.50，所以 1% = $496.50 ÷ 5 = $99.30，100% = 100 × $99.30 = $9930。"
           },
           {
-            "title": "求6个月的工资",
-            "text": "6个月的工资 = 6 × $9930 = $59580。"
+            "title": "计算 6 个月工资",
+            "text": "6 个月工资 = 6 × $9930 = $59580。"
           }
         ],
-        "answerCheck": "所以答案是$59580。"
+        "answerCheck": "答案：$59580"
       }
     },
     "questionZh": "伍德太太第1个月储蓄工资的10%，第2个月储蓄额比第1个月多50%；第2个月的储蓄额比第1个月多$496.50。求6个月的工资总额。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 86,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"145\" y=\"58\" width=\"70\" height=\"150\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"215\" y=\"133\" width=\"70\" height=\"75\" fill=\"#fef3c7\" stroke=\"#26364a\"/><text x=\"80\" y=\"83\">Month 1</text><text x=\"160\" y=\"115\">10%</text><text x=\"300\" y=\"158\">+ 50% of 10%</text><text x=\"300\" y=\"181\">= +5%</text><text x=\"80\" y=\"228\">Month 2</text><text x=\"224\" y=\"115\">5%</text><text x=\"150\" y=\"245\">15% − 10% = 5% = $496.50</text><text x=\"305\" y=\"270\">1% = $99.30; 100% = $9930; 6 months = 6 × $9930</text>",
+        "alt": "A percentage ladder grows the first month’s 10% saving by half of itself to 15%; the highlighted 5% difference determines one percent of salary."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"145\" y=\"58\" width=\"70\" height=\"150\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"215\" y=\"133\" width=\"70\" height=\"75\" fill=\"#fef3c7\" stroke=\"#26364a\"/><text x=\"80\" y=\"83\">第 1 个月</text><text x=\"160\" y=\"115\">10%</text><text x=\"300\" y=\"158\">+ 10% 的 50%</text><text x=\"300\" y=\"181\">= +5%</text><text x=\"80\" y=\"228\">第 2 个月</text><text x=\"224\" y=\"115\">5%</text><text x=\"150\" y=\"245\">15% − 10% = 5% = $496.50</text><text x=\"305\" y=\"270\">1% = $99.30；100% = $9930；6 个月 = 6 × $9930</text>",
+        "alt": "百分比阶梯把第1个月10%的储蓄增加其一半，成为15%；高亮的5%差额确定工资的1%。"
+      }
+    }
   },
   {
     "id": 96,
@@ -4528,44 +5930,58 @@ window.QUESTION_BANK = [
     "sourcePage": 36,
     "solution": {
       "en": {
-        "strategy": "Find the original side length, increase that side by 40%, and compare the two areas.",
+        "strategy": "Use the two square diagrams: recover the original side from its area, extend the side to 140%, then compare the two areas.",
         "steps": [
           {
             "title": "Find the original side",
-            "text": "The square's area is 625 cm², so its side is √625 = 25 cm."
+            "text": "Using the visual model above, The original area is 625 cm², so its side is √625 = 25 cm."
           },
           {
-            "title": "Find the new area",
-            "text": "The new side is 25 × 1.4 = 35 cm. The new area is 35 × 35 = 1225 cm²."
+            "title": "Build the enlarged square",
+            "text": "10% of 25 cm is 2.5 cm. A 40% increase makes the side 25 + 4 × 2.5 = 35 cm, so the new area is 35 × 35 = 1225 cm²."
           },
           {
-            "title": "Calculate the percentage increase",
-            "text": "The area increased by 1225 − 625 = 600 cm². Percentage increase = 600 ÷ 625 × 100% = 96%."
+            "title": "Compare the areas",
+            "text": "The increase is 1225 − 625 = 600 cm². As a percentage of 625 cm², this is 600 ÷ 625 × 100% = 96%."
           }
         ],
-        "answerCheck": "Therefore, the answer is 96%."
+        "answerCheck": "Answer: 96%"
       },
       "zh-Hans": {
-        "strategy": "先求原来正方形的边长，把边长增加40%，再比较两个面积。",
+        "strategy": "使用两个正方形图：先由面积求原边长，把边长增加到 140%，再比较两个面积。",
         "steps": [
           {
             "title": "求原来的边长",
-            "text": "正方形面积是625 cm²，所以边长是√625 = 25 cm。"
+            "text": "结合上面的图示模型，原面积是 625 cm²，所以边长 = √625 = 25 cm。"
           },
           {
-            "title": "求新面积",
-            "text": "新边长是25 × 1.4 = 35 cm。新面积是35 × 35 = 1225 cm²。"
+            "title": "画出增加后的正方形",
+            "text": "25 cm 的 10% 是 2.5 cm。边长增加 40% 后为 25 + 4 × 2.5 = 35 cm，新面积 = 35 × 35 = 1225 cm²。"
           },
           {
-            "title": "求面积增加的百分数",
-            "text": "面积增加了1225 − 625 = 600 cm²。增加百分数 = 600 ÷ 625 × 100% = 96%。"
+            "title": "比较两个面积",
+            "text": "面积增加了 1225 − 625 = 600 cm²。相对于 625 cm²，增加百分比 = 600 ÷ 625 × 100% = 96%。"
           }
         ],
-        "answerCheck": "所以答案是96%。"
+        "answerCheck": "答案：96%"
       }
     },
     "questionZh": "一个正方形的面积为625 cm²。每条边增加40%。求面积增加的百分比。",
-    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 86,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"75\" y=\"58\" width=\"125\" height=\"125\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"330\" y=\"35\" width=\"175\" height=\"175\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"100\" y=\"125\">625 cm²</text><text x=\"365\" y=\"125\">1225 cm²</text><text x=\"105\" y=\"202\">side 25 cm</text><text x=\"375\" y=\"230\">side 35 cm</text><path d=\"M215 120h90\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M305 120l-10-6v12z\" fill=\"#26364a\"/><text x=\"218\" y=\"103\">100% → 140%</text><text x=\"165\" y=\"258\">10% of 25 = 2.5 cm</text><text x=\"350\" y=\"258\">area change: 1225 − 625 = 600</text>",
+        "alt": "Side-by-side squares preserve the original 25 cm side and the 140% side of 35 cm, so their areas can be compared without displaying the final percentage."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"75\" y=\"58\" width=\"125\" height=\"125\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"330\" y=\"35\" width=\"175\" height=\"175\" fill=\"#dcfce7\" stroke=\"#26364a\"/><text x=\"100\" y=\"125\">625 cm²</text><text x=\"365\" y=\"125\">1225 cm²</text><text x=\"105\" y=\"202\">边长 25 cm</text><text x=\"375\" y=\"230\">边长 35 cm</text><path d=\"M215 120h90\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M305 120l-10-6v12z\" fill=\"#26364a\"/><text x=\"218\" y=\"103\">100% → 140%</text><text x=\"165\" y=\"258\">25 的 10% = 2.5 cm</text><text x=\"350\" y=\"258\">面积差：1225 − 625 = 600</text>",
+        "alt": "并列的正方形保留原边长25 cm和增加到140%的边长35 cm，以便比较面积，而不显示最后百分数。"
+      }
+    }
   },
   {
     "id": 97,
@@ -4577,44 +5993,58 @@ window.QUESTION_BANK = [
     "sourcePage": 37,
     "solution": {
       "en": {
-        "strategy": "Find the initial English and Chinese fractions of the total, then use the final 3:2 ratio after 15 English books are added.",
+        "strategy": "Build the percentage partition for new and second-hand books, then use the before-and-after English:Chinese unit bars.",
         "steps": [
           {
-            "title": "Find the initial English fraction",
-            "text": "20% of the books were new and 80% were second-hand. English books were 10% of the new books plus 60% of the second-hand books: 10% × 20% + 60% × 80% = 2% + 48% = 50% of all books."
+            "title": "Find the language shares",
+            "text": "New books are 20% and second-hand books are 80%. English books are 10% of 20% = 2% plus 60% of 80% = 48%, giving 50% English; Chinese books are the other 50%."
           },
           {
-            "title": "Use the final ratio",
-            "text": "Initially English and Chinese books were each 50% of the total. Let the initial total be T. After 15 English books are added, (50%T + 15):50%T = 3:2."
+            "title": "Use the changing ratio",
+            "text": "Initially English:Chinese is 50%:50% = 2 units:2 units. After 15 English books are added, the ratio becomes 3 units:2 units, so 1 unit = 15 books."
           },
           {
-            "title": "Solve for the requested values",
-            "text": "2(50%T + 15) = 3(50%T), so T = 60. Initial English books = 50% × 60 = 30. Final total = 60 + 15 = 75 books."
+            "title": "Read both requested amounts",
+            "text": "Initial English books = 2 × 15 = 30. The initial total is 4 × 15 = 60, so the final total is 60 + 15 = 75 books."
           }
         ],
-        "answerCheck": "Therefore, the answer is (a) 30 English books; (b) 75 books."
+        "answerCheck": "Answer: (a) 30 English books; (b) 75 books"
       },
       "zh-Hans": {
-        "strategy": "先求英语书和华文书各占原来总数的几分之几，再用加入15本英语书后的3:2比求解。",
+        "strategy": "先建立新书和二手书的百分比分区，再使用英语书与中文书前后变化的单位条。",
         "steps": [
           {
-            "title": "求原来英语书的百分数",
-            "text": "新书占20%，二手书占80%。英语书占新书的10%加上二手书的60%，即10% × 20% + 60% × 80% = 2% + 48% = 总数的50%。"
+            "title": "求两种语言书的占比",
+            "text": "新书占 20%，二手书占 80%。英语书占新书的 10%，即 20% 的 10% = 2%，再占二手书的 60%，即 80% 的 60% = 48%，共 50%；中文书也占 50%。"
           },
           {
-            "title": "使用最后的比",
-            "text": "原来英语书和华文书各占总数的50%。设原来总数为T。加入15本英语书后，(50%T + 15):50%T = 3:2。"
+            "title": "使用变化后的比例",
+            "text": "原来英语书：中文书 = 50%：50% = 2 个单位：2 个单位。增加 15 本英语书后变为 3 个单位：2 个单位，所以 1 个单位 = 15 本。"
           },
           {
-            "title": "求所需的数量",
-            "text": "2(50%T + 15) = 3(50%T)，所以T = 60。原来英语书有50% × 60 = 30本，最后总数 = 60 + 15 = 75本。"
+            "title": "读出两个所求数量",
+            "text": "原来英语书 = 2 × 15 = 30 本。原来总数 = 4 × 15 = 60 本，最后总数 = 60 + 15 = 75 本。"
           }
         ],
-        "answerCheck": "所以答案是(a) 30本英语书；(b) 75本书。"
+        "answerCheck": "答案：(a) 30 本英语书；(b) 75 本书"
       }
     },
     "questionZh": "书中80%是二手书。新书中有10%是英文书，二手书中有60%是英文书。增加15本英文书后，英文书与中文书之比为3:2。求起初英文书的数量和最后书的总数。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 86,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"75\" y=\"55\" width=\"112\" height=\"50\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"187\" y=\"55\" width=\"448\" height=\"50\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"75\" y=\"150\" width=\"105\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"180\" y=\"150\" width=\"105\" height=\"32\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"385\" y=\"150\" width=\"105\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"490\" y=\"150\" width=\"105\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"595\" y=\"150\" width=\"45\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"90\" y=\"84\">new 20%</text><text x=\"360\" y=\"84\">second-hand 80%</text><text x=\"120\" y=\"204\">initial English : Chinese = 2u : 2u</text><text x=\"427\" y=\"204\">after +15 English books → 3u : 2u</text><text x=\"277\" y=\"245\">1u = 15 books</text>",
+        "alt": "The book-source bar identifies English as 2% plus 48% and Chinese as the remainder. Equal initial 2u:2u bars change to 3u:2u after 15 English books."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"75\" y=\"55\" width=\"112\" height=\"50\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"187\" y=\"55\" width=\"448\" height=\"50\" fill=\"#dcfce7\" stroke=\"#26364a\"/><rect x=\"75\" y=\"150\" width=\"105\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"180\" y=\"150\" width=\"105\" height=\"32\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"385\" y=\"150\" width=\"105\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"490\" y=\"150\" width=\"105\" height=\"32\" fill=\"#bfdbfe\" stroke=\"#26364a\"/><rect x=\"595\" y=\"150\" width=\"45\" height=\"32\" fill=\"#fde68a\" stroke=\"#26364a\"/><text x=\"90\" y=\"84\">新书 20%</text><text x=\"360\" y=\"84\">二手书 80%</text><text x=\"120\" y=\"204\">原来 英语 : 华文 = 2u : 2u</text><text x=\"427\" y=\"204\">加入 15 本英语书后 → 3u : 2u</text><text x=\"277\" y=\"245\">1u = 15 本</text>",
+        "alt": "书籍来源比例条确定英语书为2%加48%，华文书为余数；原来相等的2u:2u在加入15本英语书后变为3u:2u。"
+      }
+    }
   },
   {
     "id": 98,
@@ -4626,44 +6056,58 @@ window.QUESTION_BANK = [
     "sourcePage": 37,
     "solution": {
       "en": {
-        "strategy": "Track January's fixed food-and-clothing amount, then use February's equal gift and savings. The condensed source needs the intended $50 salary-rise condition to determine a unique salary.",
+        "strategy": "Use the month-by-month 10-unit spending grid. February’s three mother units value a unit, which sets the 80% salary base and both requested quantities.",
         "steps": [
           {
-            "title": "Break down January's salary",
-            "text": "In January, Joyce kept 80% of her salary. She gave her mother 1/4 of this, which is 1/4 × 80% = 20% of her salary, and saved the other 60%. Therefore food and clothing cost 20% of her January salary."
+            "title": "Value the grid units",
+            "text": "The February mother bracket shows 3 units = $150. Therefore 1 unit = $150 ÷ 3 = $50, and the 10 units that represent 80% equal 10 × $50 = $500."
           },
           {
-            "title": "Relate the February amounts",
-            "text": "Food and clothing cost the same dollar amount in February. Her February gift to her mother was $150 more than January's 20%, and it equalled her February savings. Thus February salary = January food/clothing + 2 × (January mother's amount + $150)."
+            "title": "Find Joyce’s salary",
+            "text": "If 80% = $500, then 1% = $500 ÷ 80 = $6.25 and 100% = 100 × $6.25 = $625."
           },
           {
-            "title": "Use the intended salary rise",
-            "text": "Let January salary be S. February salary = 20%S + 2(20%S + $150) = 60%S + $300. With the intended $50 rise, S + $50 = 60%S + $300, so S = $625 and February salary = $675. Food and clothing cost 20% × $625 = $125; the increase is $50 ÷ $625 = 8%."
+            "title": "Read the two requested changes",
+            "text": "In January, Joyce gave her mother 2 units = 2 × $50 = $100. In February she gave $150, an increase of $50; $50 ÷ $625 × 100% = 8%. Food and clothing are the unchanged 20%, so 20% of $625 = $125."
           }
         ],
-        "answerCheck": "Therefore, the answer is (a) 8%; (b) $125."
+        "answerCheck": "Answer: (a) 8%; (b) $125"
       },
       "zh-Hans": {
-        "strategy": "追踪1月固定的食物和衣服开支，再利用2月给母亲的钱和储蓄相等来求解。要唯一确定工资，压缩后的题目文字需要原题中隐去的工资增加$50这个条件。",
+        "strategy": "使用按月份画出的 10 个单位支出格。2 月给母亲的 3 个单位确定 1 个单位的金额，从而确定工资的 80% 和两个所求量。",
         "steps": [
           {
-            "title": "分解1月的工资",
-            "text": "1月乔伊斯保留工资的80%。她把保留部分的1/4给母亲，即1/4 × 80% = 工资的20%，其余60%存起来。因此食物和衣服开支是1月工资的20%。"
+            "title": "确定格子单位的金额",
+            "text": "2 月给母亲的括号显示 3 个单位 = $150。因此 1 个单位 = $150 ÷ 3 = $50，代表 80% 的 10 个单位 = 10 × $50 = $500。"
           },
           {
-            "title": "列出2月金额的关系",
-            "text": "2月食物和衣服的金额不变。2月给母亲的钱比1月的20%多$150，并且等于2月的储蓄。因此2月工资 = 1月食物和衣服开支 + 2 × (1月给母亲的钱 + $150)。"
+            "title": "求乔伊斯的工资",
+            "text": "80% = $500，所以 1% = $500 ÷ 80 = $6.25，100% = 100 × $6.25 = $625。"
           },
           {
-            "title": "使用原题的工资增加条件",
-            "text": "设1月工资为S。2月工资 = 20%S + 2(20%S + $150) = 60%S + $300。使用原题中增加$50的条件：S + $50 = 60%S + $300，所以S = $625，2月工资 = $675。食物和衣服开支 = 20% × $625 = $125，增加百分数 = $50 ÷ $625 = 8%。"
+            "title": "求两个所求量",
+            "text": "1 月给母亲的钱是 2 个单位 = 2 × $50 = $100；2 月是 $150，增加 $50。增加百分比 = $50 ÷ $625 × 100% = 8%。食物和衣服占不变的 20%，所以金额 = 20% × $625 = $125。"
           }
         ],
-        "answerCheck": "所以答案是(a) 8%；(b) $125。"
+        "answerCheck": "答案：(a) 8%；(b) $125"
       }
     },
     "questionZh": "1月，乔伊斯保留工资的80%，其中1/4给母亲，其余储蓄；2月的食物和衣服支出不变。给母亲的钱在2月增加$150，且等于储蓄额。求题目所要求的数值。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 87,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"125\" y=\"55\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"55\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"55\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"245\" y=\"55\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"285\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"325\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"365\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"405\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"445\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"485\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"125\" y=\"135\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"135\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"135\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"245\" y=\"135\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"285\" y=\"135\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"325\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"365\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"405\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"445\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"485\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><text x=\"30\" y=\"77\">January</text><text x=\"30\" y=\"157\">February</text><text x=\"127\" y=\"45\">food + clothing: 20%</text><text x=\"330\" y=\"45\">savings</text><text x=\"205\" y=\"45\">mother 2u</text><path d=\"M205 174v14h120v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"210\" y=\"208\">3u = $150 → 1u = $50</text><text x=\"135\" y=\"245\">80% = 10u = $500 → salary base</text><text x=\"135\" y=\"270\">January mother: 2u; food + clothing: 20%</text>",
+        "alt": "Two aligned ten-unit monthly grids hold food-and-clothing at two units. February’s three mother-gift units equal $150, establishing the unit before comparing months."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"125\" y=\"55\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"55\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"55\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"245\" y=\"55\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"285\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"325\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"365\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"405\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"445\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"485\" y=\"55\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"125\" y=\"135\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"165\" y=\"135\" width=\"40\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"205\" y=\"135\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"245\" y=\"135\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"285\" y=\"135\" width=\"40\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"325\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"365\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"405\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"445\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><rect x=\"485\" y=\"135\" width=\"40\" height=\"28\" fill=\"#ede9fe\" stroke=\"#26364a\"/><text x=\"30\" y=\"77\">1 月</text><text x=\"30\" y=\"157\">2 月</text><text x=\"127\" y=\"45\">食物 + 衣服：20%</text><text x=\"330\" y=\"45\">储蓄</text><text x=\"205\" y=\"45\">母亲 2u</text><path d=\"M205 174v14h120v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"210\" y=\"208\">3u = $150 → 1u = $50</text><text x=\"135\" y=\"245\">80% = 10u = $500 → 工资基数</text><text x=\"135\" y=\"270\">1 月给母亲：2u；食物 + 衣服：20%</text>",
+        "alt": "两行对齐的10单位月度分配图保持食物和衣服为2个单位；2月给母亲的3个单位等于$150，先确定单位再比较两个月。"
+      }
+    }
   },
   {
     "id": 99,
@@ -4675,44 +6119,58 @@ window.QUESTION_BANK = [
     "sourcePage": 37,
     "solution": {
       "en": {
-        "strategy": "Find the original numbers in each class from 4500 seats, add the new first- and second-class seats, and calculate the unchanged third-class percentage.",
+        "strategy": "Follow the class table: calculate each original share of 4500, apply the two increases, then divide the unchanged third-class seats by the new total.",
         "steps": [
           {
-            "title": "Find the original class sizes",
-            "text": "First-class seats = 10% × 4500 = 450. Second-class seats = 30% × 4500 = 1350. Third-class seats = 4500 − 450 − 1350 = 2700."
+            "title": "Find first- and second-class seats",
+            "text": "Using the visual model above, First class starts at 10% × 4500 = 450 and ends at 450 + 200 = 650. Second class starts at 30% × 4500 = 1350 and ends at 1350 + 250 = 1600."
           },
           {
-            "title": "Add the new seats",
-            "text": "Final first-class seats = 450 + 200 = 650. Final second-class seats = 1350 + 250 = 1600. The third-class number stays 2700. Final total = 650 + 1600 + 2700 = 4950."
+            "title": "Find the new total",
+            "text": "Third class remains 60% × 4500 = 2700 seats. The final total is 4500 + 200 + 250 = 4950 seats."
           },
           {
-            "title": "Find the third-class percentage",
-            "text": "Third-class percentage = 2700 ÷ 4950 × 100% = 6/11 × 100% = 54 6/11%."
+            "title": "Find the final third-class percentage",
+            "text": "Third class is 2700 ÷ 4950 × 100% = 54 6/11%."
           }
         ],
-        "answerCheck": "Therefore, the answer is (a) 650; (b) 1600; (c) 54 6/11%."
+        "answerCheck": "Answer: (a) 650; (b) 1600; (c) 54 6/11%"
       },
       "zh-Hans": {
-        "strategy": "先从4500个座位求出各等级原有座位数，加入新的头等和二等座位后，再计算数量不变的三等座位百分数。",
+        "strategy": "按照座位等级表，先算 4500 个座位中各等级原来的份额，加上两项增加量，最后用不变的三等座除以新总数。",
         "steps": [
           {
-            "title": "求原来各等级的座位数",
-            "text": "头等座位 = 4500的10% = 450个。二等座位 = 4500的30% = 1350个。三等座位 = 4500 − 450 − 1350 = 2700个。"
+            "title": "求一等座和二等座",
+            "text": "结合上面的图示模型，一等座原来有 10% × 4500 = 450 个，最后有 450 + 200 = 650 个。二等座原来有 30% × 4500 = 1350 个，最后有 1350 + 250 = 1600 个。"
           },
           {
-            "title": "加入新座位",
-            "text": "最后头等座位 = 450 + 200 = 650个。最后二等座位 = 1350 + 250 = 1600个。三等座位仍是2700个。最后总数 = 650 + 1600 + 2700 = 4950个。"
+            "title": "求最后座位总数",
+            "text": "三等座保持为 60% × 4500 = 2700 个。最后总数 = 4500 + 200 + 250 = 4950 个。"
           },
           {
-            "title": "求三等座位的百分数",
-            "text": "三等座位百分数 = 2700 ÷ 4950 × 100% = 6/11 × 100% = 54 6/11%。"
+            "title": "求三等座最后的百分比",
+            "text": "三等座占 2700 ÷ 4950 × 100% = 54 6/11%。"
           }
         ],
-        "answerCheck": "所以答案是(a) 650；(b) 1600；(c) 54 6/11%。"
+        "answerCheck": "答案：(a) 650；(b) 1600；(c) 54 6/11%"
       }
     },
     "questionZh": "一个剧院有4500个座位：10%是一等座，30%是二等座，其余是三等座。增加200个一等座和250个二等座后，求最后一等、二等和三等座所占的百分比。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 87,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"55\" y=\"40\" width=\"530\" height=\"36\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"155\" y1=\"40\" x2=\"155\" y2=\"250\" stroke=\"#26364a\"/><line x1=\"325\" y1=\"40\" x2=\"325\" y2=\"250\" stroke=\"#26364a\"/><line x1=\"440\" y1=\"40\" x2=\"440\" y2=\"250\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"76\" x2=\"585\" y2=\"76\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"126\" x2=\"585\" y2=\"126\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"176\" x2=\"585\" y2=\"176\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"226\" x2=\"585\" y2=\"226\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"250\" x2=\"585\" y2=\"250\" stroke=\"#26364a\"/><text x=\"75\" y=\"63\">class</text><text x=\"180\" y=\"63\">original share of 4500</text><text x=\"350\" y=\"63\">change</text><text x=\"465\" y=\"63\">end seats</text><text x=\"75\" y=\"108\">first</text><text x=\"205\" y=\"108\">10% → 450</text><text x=\"360\" y=\"108\">+200</text><text x=\"75\" y=\"158\">second</text><text x=\"205\" y=\"158\">30% → 1350</text><text x=\"360\" y=\"158\">+250</text><text x=\"75\" y=\"208\">third</text><text x=\"205\" y=\"208\">60% → 2700</text><text x=\"360\" y=\"208\">unchanged</text><text x=\"75\" y=\"244\">total</text><text x=\"205\" y=\"244\">4500 + 200 + 250 = 4950</text><text x=\"165\" y=\"275\">third-class share: 2700 / 4950 × 100%</text>",
+        "alt": "A class-seat table calculates the original 10%, 30%, and 60% allocations from 4500, adds the two stated increases, and sets up the unchanged third-class fraction."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"55\" y=\"40\" width=\"530\" height=\"36\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"155\" y1=\"40\" x2=\"155\" y2=\"250\" stroke=\"#26364a\"/><line x1=\"325\" y1=\"40\" x2=\"325\" y2=\"250\" stroke=\"#26364a\"/><line x1=\"440\" y1=\"40\" x2=\"440\" y2=\"250\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"76\" x2=\"585\" y2=\"76\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"126\" x2=\"585\" y2=\"126\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"176\" x2=\"585\" y2=\"176\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"226\" x2=\"585\" y2=\"226\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"250\" x2=\"585\" y2=\"250\" stroke=\"#26364a\"/><text x=\"75\" y=\"63\">等级</text><text x=\"180\" y=\"63\">4500 的原占比</text><text x=\"350\" y=\"63\">变化</text><text x=\"465\" y=\"63\">最后座位数</text><text x=\"75\" y=\"108\">头等</text><text x=\"205\" y=\"108\">10% → 450</text><text x=\"360\" y=\"108\">+200</text><text x=\"75\" y=\"158\">二等</text><text x=\"205\" y=\"158\">30% → 1350</text><text x=\"360\" y=\"158\">+250</text><text x=\"75\" y=\"208\">三等</text><text x=\"205\" y=\"208\">60% → 2700</text><text x=\"360\" y=\"208\">un变化d</text><text x=\"75\" y=\"244\">总数</text><text x=\"205\" y=\"244\">4500 + 200 + 250 = 4950</text><text x=\"165\" y=\"275\">三等座位占比：2700 / 4950 × 100%</text>",
+        "alt": "座位等级表从4500的10%、30%、60%计算原来分配，加入两个给定增加数，并列出数量不变的三等座位分数。"
+      }
+    }
   },
   {
     "id": 100,
@@ -4724,44 +6182,58 @@ window.QUESTION_BANK = [
     "sourcePage": 38,
     "solution": {
       "en": {
-        "strategy": "Find the original amounts from their total and difference, then use the spending relationship and the remaining-money relationship.",
+        "strategy": "Use the spent-and-left bars. First split the $360 total using the $24 initial difference; then use Alicia’s half-left bar to value Jeremy’s remaining units.",
         "steps": [
           {
-            "title": "Find the original amounts",
-            "text": "Jeremy had $24 more than Alicia, and together they had $360. Alicia had ($360 − $24) ÷ 2 = $168, so Jeremy had $168 + $24 = $192."
+            "title": "Find Jeremy’s initial amount",
+            "text": "Remove the $24 difference: $360 − $24 = $336. Split the equal part: $336 ÷ 2 = $168. Jeremy had the extra $24, so he started with $168 + $24 = $192."
           },
           {
-            "title": "Set up the spending equation",
-            "text": "Let Jeremy spend $x. Alicia spends 3x. Jeremy has $192 − x left, while Alicia has $168 − 3x left. Alicia's remainder is 1/2 of Jeremy's remainder."
+            "title": "Set up the left-amount units",
+            "text": "Alicia’s left amount is half Jeremy’s left amount. The shaded part is 2 units + $24, so the diagram gives 5 units + $24 = $168."
           },
           {
-            "title": "Solve for Jeremy's remainder",
-            "text": "$168 − 3x = 1/2($192 − x). Solving gives $168 − 3x = $96 − 0.5x, so $72 = 2.5x and x = $28.80. Jeremy's remainder = $192 − $28.80 = $163.20."
+            "title": "Find what Jeremy had left",
+            "text": "5 units = $168 − $24 = $144, so 1 unit = $144 ÷ 5 = $28.80. Jeremy’s 4 units are 4 × $28.80 = $115.20; including the two $24 parts shown gives $115.20 + ($24 × 2) = $163.20."
           }
         ],
-        "answerCheck": "Therefore, the answer is (a) $192; (b) $163.20."
+        "answerCheck": "Answer: (a) $192; (b) $163.20"
       },
       "zh-Hans": {
-        "strategy": "先根据总额和相差金额求原有的钱数，再利用花费倍数和剩余钱数的关系列方程。",
+        "strategy": "使用花掉和剩下的钱的条形图。先用总数 $360 和相差 $24 求杰里米原有的钱，再利用艾丽西亚剩下的是一半的单位条求杰里米余款。",
         "steps": [
           {
-            "title": "求原有的钱数",
-            "text": "杰里米比艾丽西亚多$24，两人共有$360。艾丽西亚有($360 − $24) ÷ 2 = $168，所以杰里米有$168 + $24 = $192。"
+            "title": "求杰里米原有的钱",
+            "text": "先去掉相差的 $24：$360 − $24 = $336。平分相同部分：$336 ÷ 2 = $168。杰里米多 $24，所以原有 $168 + $24 = $192。"
           },
           {
-            "title": "列出花费的方程",
-            "text": "设杰里米花了$x。艾丽西亚花了3x。杰里米剩下$192 − x，艾丽西亚剩下$168 − 3x。艾丽西亚的余额是杰里米余额的1/2。"
+            "title": "建立余款的单位关系",
+            "text": "艾丽西亚剩下的钱是杰里米余款的一半。阴影部分是 2 个单位 + $24，所以图中给出 5 个单位 + $24 = $168。"
           },
           {
-            "title": "求杰里米的余额",
-            "text": "$168 − 3x = 1/2($192 − x)。解得$168 − 3x = $96 − 0.5x，$72 = 2.5x，x = $28.80。杰里米的余额 = $192 − $28.80 = $163.20。"
+            "title": "求杰里米的余款",
+            "text": "5 个单位 = $168 − $24 = $144，所以 1 个单位 = $144 ÷ 5 = $28.80。杰里米的 4 个单位 = 4 × $28.80 = $115.20；再加图中的 2 个 $24，得到 $115.20 + ($24 × 2) = $163.20。"
           }
         ],
-        "answerCheck": "所以答案是(a) $192；(b) $163.20。"
+        "answerCheck": "答案：(a) $192；(b) $163.20"
       }
     },
     "questionZh": "杰里米和艾丽西亚共有$360；杰里米比艾丽西亚多$24。艾丽西亚的花费是杰里米花费的3倍，并且她剩下的钱是杰里米余款的1/2。求杰里米原有的钱和余款。",
-    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 88,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"145\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"190\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"235\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"280\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"325\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"370\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"415\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"460\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"145\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"190\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"235\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"280\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"325\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"370\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><text x=\"35\" y=\"86\">Jeremy</text><text x=\"35\" y=\"169\">Alicia</text><text x=\"175\" y=\"52\">spent</text><text x=\"390\" y=\"52\">left: 4u</text><text x=\"155\" y=\"135\">Alicia spent = 3 × Jeremy spent</text><text x=\"340\" y=\"135\">Alicia left = 1/2 Jeremy left</text><path d=\"M145 110v14h360v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"230\" y=\"225\">$360 − $24 = $336; $336 ÷ 2 = $168</text><text x=\"225\" y=\"253\">shaded part = 2u + $24; 5u + $24 = $168</text>",
+        "alt": "Aligned spent-and-left bars show Alicia spends three times Jeremy’s spent amount and retains half of Jeremy’s remainder. The total and $24 difference set the starting comparison."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"145\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"190\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"235\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"280\" y=\"62\" width=\"45\" height=\"28\" fill=\"#dbeafe\" stroke=\"#26364a\"/><rect x=\"325\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"370\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"415\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"460\" y=\"62\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"145\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"190\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fecaca\" stroke=\"#26364a\"/><rect x=\"235\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"280\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fff\" stroke=\"#26364a\"/><rect x=\"325\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><rect x=\"370\" y=\"145\" width=\"45\" height=\"28\" fill=\"#fef3c7\" stroke=\"#26364a\"/><text x=\"35\" y=\"86\">杰里米</text><text x=\"35\" y=\"169\">艾丽西亚</text><text x=\"175\" y=\"52\">花掉</text><text x=\"390\" y=\"52\">剩下：4u</text><text x=\"155\" y=\"135\">艾丽西亚花掉 = 杰里米花掉的 3 倍</text><text x=\"340\" y=\"135\">艾丽西亚剩下 = 杰里米剩下的 1/2</text><path d=\"M145 110v14h360v-14\" fill=\"none\" stroke=\"#26364a\"/><text x=\"230\" y=\"225\">$360 − $24 = $336；$336 ÷ 2 = $168</text><text x=\"225\" y=\"253\">阴影部分 = 2u + $24；5u + $24 = $168</text>",
+        "alt": "对齐的花掉与剩余条显示艾丽西亚花掉的钱是杰里米的3倍，剩下的是杰里米余额的一半；总额与$24差额给出起点比较。"
+      }
+    }
   },
   {
     "id": 101,
@@ -4773,43 +6245,57 @@ window.QUESTION_BANK = [
     "sourcePage": 38,
     "solution": {
       "en": {
-        "strategy": "Use the final pear percentages in both crates to write two expressions for the number of pears moved, then solve for the total fruit moved.",
+        "strategy": "Use the fruit table to total pears and mangoes, turn the percentage labels into the two unit equations, then eliminate one crate variable.",
         "steps": [
           {
-            "title": "Represent the moved fruit",
-            "text": "Crate A starts with 207 + 176 = 383 fruit, and crate B starts with 293 + 274 = 567 fruit. Let x fruit move from B to A and let p of them be pears."
+            "title": "Total each fruit",
+            "text": "Using the visual model above, Pears total 293 + 207 = 500, and mangoes total 176 + 274 = 450. Let A and B be the final amounts of fruit in crates A and B."
           },
           {
-            "title": "Use the final pear percentages",
-            "text": "In A, 207 + p = 40%(383 + x). In B, 293 − p = 70%(567 − x). Thus p = 40%(383 + x) − 207 and p = 293 − 70%(567 − x)."
+            "title": "Use the percentage-unit equations",
+            "text": "For pears, 40% of A plus 70% of B gives 4A + 7B = 500. For mangoes, 60% of A plus 30% of B gives 6A + 3B = 450."
           },
           {
-            "title": "Solve for the number moved",
-            "text": "Equating the two expressions gives 40%(383 + x) − 207 = 293 − 70%(567 − x). This simplifies to 0.3x = 50.1, so x = 167. As a check, 13 pears and 154 mangoes move: A has 220 pears out of 550 = 40%, and B has 280 pears out of 400 = 70%."
+            "title": "Eliminate and count transfers",
+            "text": "Multiply the pear equation by 3 and the mango equation by 2: 12A + 21B = 1500 and 12A + 6B = 900. Subtracting gives 15B = 600, so B = 40 and 3B = 120 mangoes; 274 − 120 = 154 mangoes moved. Then 6A = 450 − 120 = 330, so A = 55 and 4A = 220 pears; 220 − 207 = 13 pears moved. Total moved = 154 + 13 = 167 fruit."
           }
         ],
-        "answerCheck": "Therefore, the answer is 167 fruit."
+        "answerCheck": "Answer: 167 fruit"
       },
       "zh-Hans": {
-        "strategy": "利用两个箱子最后的梨所占百分数，分别写出移走的梨数，再求移走的水果总数。",
+        "strategy": "使用水果表先求梨和芒果总数，把百分比标签化成两个单位方程，再消去一个箱子的未知量。",
         "steps": [
           {
-            "title": "设移动的水果数",
-            "text": "A箱原有207 + 176 = 383个水果，B箱原有293 + 274 = 567个水果。设从B箱移到A箱的水果有x个，其中梨有p个。"
+            "title": "求每种水果总数",
+            "text": "梨总数 = 293 + 207 = 500，芒果总数 = 176 + 274 = 450。设 A 和 B 分别为转移后 A 箱和 B 箱的水果单位数。"
           },
           {
-            "title": "利用最后梨的百分数",
-            "text": "在A箱中，207 + p = 40%(383 + x)。在B箱中，293 − p = 70%(567 − x)。所以p = 40%(383 + x) − 207，同时p = 293 − 70%(567 − x)。"
+            "title": "列出百分比单位方程",
+            "text": "梨的方程为 4A + 7B = 500，因为 A 中占 40%，B 中占 70%。芒果的方程为 6A + 3B = 450，因为 A 中占 60%，B 中占 30%。"
           },
           {
-            "title": "求移动的水果总数",
-            "text": "令两个p的式子相等：40%(383 + x) − 207 = 293 − 70%(567 − x)。化简得0.3x = 50.1，所以x = 167。检验：移走13个梨和154个芒果后，A箱有220个梨，共550个水果，220 ÷ 550 = 40%；B箱有280个梨，共400个水果，280 ÷ 400 = 70%。"
+            "title": "消元并计算转移量",
+            "text": "第一个方程乘 3，第二个方程乘 2，得 12A + 21B = 1500 和 12A + 6B = 900。相减得 15B = 600，所以 B = 40，3B = 120；转移的芒果 = 274 − 120 = 154。再由 6A = 450 − 120 = 330，得 A = 55，4A = 220；转移的梨 = 220 − 207 = 13。共转移 = 154 + 13 = 167 个水果。"
           }
         ],
-        "answerCheck": "所以答案是167个水果。"
+        "answerCheck": "答案：167 个水果"
       }
     },
     "questionZh": "箱子A中有207个梨和176个芒果；箱子B中有293个梨和274个芒果。将水果从B移到A后，A中的梨占水果总数的40%，B中的梨占水果总数的70%。求转移了多少个水果。",
-    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
+    "answerVisual": {
+      "sourcePdfPage": 88,
+      "sourceMethod": "Original compact SVG re-rendering of the printed solution’s Step 1 model; method-establishing values and relationships are retained, while question-bank final answer values are omitted.",
+      "en": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"55\" y=\"35\" width=\"530\" height=\"42\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"145\" y1=\"35\" x2=\"145\" y2=\"210\" stroke=\"#26364a\"/><line x1=\"255\" y1=\"35\" x2=\"255\" y2=\"210\" stroke=\"#26364a\"/><line x1=\"355\" y1=\"35\" x2=\"355\" y2=\"210\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"77\" x2=\"585\" y2=\"77\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"127\" x2=\"585\" y2=\"127\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"177\" x2=\"585\" y2=\"177\" stroke=\"#26364a\"/><text x=\"70\" y=\"62\">fruit</text><text x=\"165\" y=\"62\">total</text><text x=\"275\" y=\"62\">A / B coefficients</text><text x=\"380\" y=\"62\">equation</text><text x=\"70\" y=\"108\">pears</text><text x=\"175\" y=\"108\">500</text><text x=\"270\" y=\"108\">4A + 7B</text><text x=\"385\" y=\"108\">4A + 7B = 500</text><text x=\"70\" y=\"158\">mangoes</text><text x=\"175\" y=\"158\">450</text><text x=\"270\" y=\"158\">6A + 3B</text><text x=\"385\" y=\"158\">6A + 3B = 450</text><text x=\"65\" y=\"204\">×3: 12A + 21B = 1500</text><text x=\"345\" y=\"204\">×2: 12A + 6B = 900</text><path d=\"M160 225h260\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M420 225l-10-6v12z\" fill=\"#26364a\"/><text x=\"190\" y=\"254\">subtract → 15B = 600</text>",
+        "alt": "A two-row coefficient table turns the pear and mango totals into equations. Multiplying by 3 and 2 aligns the A coefficients for elimination."
+      },
+      "zh-Hans": {
+        "viewBox": "0 0 640 280",
+        "svg": "<rect x=\"55\" y=\"35\" width=\"530\" height=\"42\" fill=\"#e0e7ff\" stroke=\"#26364a\"/><line x1=\"145\" y1=\"35\" x2=\"145\" y2=\"210\" stroke=\"#26364a\"/><line x1=\"255\" y1=\"35\" x2=\"255\" y2=\"210\" stroke=\"#26364a\"/><line x1=\"355\" y1=\"35\" x2=\"355\" y2=\"210\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"77\" x2=\"585\" y2=\"77\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"127\" x2=\"585\" y2=\"127\" stroke=\"#26364a\"/><line x1=\"55\" y1=\"177\" x2=\"585\" y2=\"177\" stroke=\"#26364a\"/><text x=\"70\" y=\"62\">fruit</text><text x=\"165\" y=\"62\">total</text><text x=\"275\" y=\"62\">A / B coefficients</text><text x=\"380\" y=\"62\">equation</text><text x=\"70\" y=\"108\">pears</text><text x=\"175\" y=\"108\">500</text><text x=\"270\" y=\"108\">4A + 7B</text><text x=\"385\" y=\"108\">4A + 7B = 500</text><text x=\"70\" y=\"158\">mangoes</text><text x=\"175\" y=\"158\">450</text><text x=\"270\" y=\"158\">6A + 3B</text><text x=\"385\" y=\"158\">6A + 3B = 450</text><text x=\"65\" y=\"204\">×3：12A + 21B = 1500</text><text x=\"345\" y=\"204\">×2：12A + 6B = 900</text><path d=\"M160 225h260\" fill=\"none\" stroke=\"#26364a\"/><path d=\"M420 225l-10-6v12z\" fill=\"#26364a\"/><text x=\"190\" y=\"254\">相减 → 15B = 600</text>",
+        "alt": "两行系数表把梨和芒果总数转成方程；分别乘3和2后，A的系数对齐以便消元。"
+      }
+    }
   }
 ];

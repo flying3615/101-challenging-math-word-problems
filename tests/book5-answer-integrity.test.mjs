@@ -6,8 +6,8 @@ const q69 = bank.find(question => question.id === 69);
 const q83 = bank.find(question => question.id === 83);
 const q31 = bank.find(question => question.id === 31);
 
-assert.equal(q69.answer, '63°', 'Book 5 Q69 base angles must follow the stated 54° vertex angle in isosceles triangle BPQ.');
-assert.equal(q83.answer, '(a) $6480; (b) 200%', 'Book 5 Q83 must calculate Samuel’s comparison from $3240 spent and $1080 given.');
-assert.match(q31.solution.en.answerCheck, /(?:cannot|correction|conflict)/i, 'Book 5 Q31 must flag its unsolved source-data inconsistency rather than assert a false calculation.');
+assert.equal(q69.answer, '59°', 'Book 5 Q69 must follow the printed square-angle chase and isosceles-triangle route.');
+assert.equal(q83.answer, '(a) $6480; (b) 33 1/3%', 'Book 5 Q83 must compare the spending difference with the full six-part salary.');
+assert.equal(q31.solution.en.answerCheck, '156 cups', 'Book 5 Q31 must use the printed two paid sets plus one single sales group.');
 
-console.log('PASS: Book 5 answer integrity protects verified corrections and flags the unresolved source conflict.');
+console.log('PASS: Book 5 answer integrity reflects the printed solution methods.');

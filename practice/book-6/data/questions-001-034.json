@@ -92,83 +92,83 @@
   {
     "id": 3,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "40% of Angie’s beads were red. After she lost 50 blue beads, blue beads were 1/2 of their original count. How many beads did Angie have in the end?",
+    "question": "40% of Angie’s beads were red. After she lost 50 blue beads, the number of blue beads was reduced by 1/3 of its original count. How many beads did Angie have in the end?",
     "answer": "200 beads",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 5,
     "solution": {
       "en": {
-        "strategy": "Translate the stated 40% red / 60% blue split and test the stated halving condition.",
+        "strategy": "Use the loss to find the original number of blue beads, then use the 40% red split.",
         "steps": [
           {
-            "title": "Find the original blue count",
-            "text": "If losing 50 blue beads leaves 1/2 of the original blue count, then 50 is the other 1/2. Original blue beads = 100."
+            "title": "Find the original blue beads",
+            "text": "The 50 lost blue beads are 1/3 of the original blue beads. Original blue beads = 50 × 3 = 150."
           },
           {
-            "title": "Apply the colour percentage",
-            "text": "Blue is 60% of the original total because red is 40%. So the original total would be 100 ÷ 0.6 = 500/3, and after losing 50 it would be 350/3 beads."
+            "title": "Find the final total",
+            "text": "Since 40% were red, 60% were blue. The original total was 150 ÷ 60% = 250. After 50 blue beads were lost, 250 − 50 = 200."
           }
         ],
-        "answerCheck": "200 beads. Note: the current source wording gives 350/3 beads, not this answer; the printed-book relationship is that blue was reduced by 1/3 of its original count, which gives 250 − 50 = 200 beads."
+        "answerCheck": "200 beads"
       },
       "zh-Hans": {
-        "strategy": "把红珠占 40%、蓝珠占 60% 的关系与题目所写的“剩下原来 1/2”一起检验。",
+        "strategy": "先用丢失的蓝珠数求原来蓝珠数，再利用红珠占40%的关系。",
         "steps": [
           {
             "title": "求原来蓝珠数",
-            "text": "若失去 50 颗蓝珠后剩下原来蓝珠的 1/2，那么失去的 50 颗也是原来的 1/2，所以原来有 100 颗蓝珠。"
+            "text": "丢失的50颗蓝珠是原来蓝珠数的1/3，所以原来蓝珠有50 × 3 = 150颗。"
           },
           {
-            "title": "代入颜色百分比",
-            "text": "红珠占 40%，所以蓝珠占原来总数的 60%。原来总数应为 100 ÷ 0.6 = 500/3 颗，失去 50 颗后为 350/3 颗。"
+            "title": "求最后总数",
+            "text": "红珠占40%，所以蓝珠占60%。原来总数是150 ÷ 60% = 250颗。丢失50颗蓝珠后，剩下250 − 50 = 200颗。"
           }
         ],
-        "answerCheck": "当前答案键为 200 颗。按当前题干的 1/2 条件会得到 350/3 颗；印刷书中的条件是减少原来蓝珠的 1/3，才有 250 − 50 = 200 颗。"
+        "answerCheck": "200颗珠子"
       }
     },
-    "questionZh": "安琪的珠子中有40%是红色的。她丢失50颗蓝色珠子后，蓝色珠子的数量变为原来的1/2。安琪最后有多少颗珠子？",
+    "questionZh": "安琪的珠子中有40%是红色的。她丢失50颗蓝色珠子后，蓝色珠子的数量减少了原来的1/3。安琪最后有多少颗珠子？",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 4,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "There were 820 orange buttons, 160 fewer than yellow and 210 more than green. Blue buttons were 1/4 of the total. How many buttons were there altogether?",
+    "question": "There were 820 orange buttons, 160 fewer than yellow buttons and 210 more than green buttons. Blue buttons were 1/3 of the total. How many buttons were there altogether?",
     "answer": "3615 buttons",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 6,
     "solution": {
       "en": {
-        "strategy": "First find the three non-blue counts, then use the stated fraction for blue buttons.",
+        "strategy": "Find the yellow and green counts first; the three non-blue colours make up 2/3 of the total.",
         "steps": [
           {
-            "title": "Find yellow and green",
-            "text": "Yellow = 820 + 160 = 980 buttons. Green = 820 − 210 = 610 buttons. Orange, yellow, and green total 820 + 980 + 610 = 2410."
+            "title": "Count the non-blue buttons",
+            "text": "Yellow = 820 + 160 = 980. Green = 820 − 210 = 610. Orange, yellow, and green total 820 + 980 + 610 = 2410."
           },
           {
-            "title": "Use the current fraction",
-            "text": "If blue is 1/4 of the total, the 2410 non-blue buttons are 3/4 of the total. Total = 2410 ÷ 3/4 = 9640/3 buttons."
+            "title": "Find the whole total",
+            "text": "Blue buttons are 1/3 of the total, so the 2410 non-blue buttons are 2/3. Total buttons = 2410 ÷ 2 × 3 = 3615."
           }
         ],
-        "answerCheck": "3615 buttons. Note: the current source says blue is 1/4 of the total, which gives 9640/3; 3615 follows the printed-book 1/3 relationship because 2410 is then 2/3 of 3615."
+        "answerCheck": "3615 buttons"
       },
       "zh-Hans": {
-        "strategy": "先求蓝色以外的 3 种按钮数，再使用题干给出的蓝色所占分数。",
+        "strategy": "先求黄色和绿色纽扣数；3种非蓝色纽扣占总数的2/3。",
         "steps": [
           {
-            "title": "求黄、绿按钮数",
-            "text": "黄按钮 = 820 + 160 = 980 个；绿按钮 = 820 − 210 = 610 个。橙、黄、绿共 820 + 980 + 610 = 2410 个。"
+            "title": "求非蓝色纽扣数",
+            "text": "黄纽扣有820 + 160 = 980个。绿纽扣有820 − 210 = 610个。橙、黄、绿纽扣共820 + 980 + 610 = 2410个。"
           },
           {
-            "title": "使用当前题干的分数",
-            "text": "若蓝按钮占总数的 1/4，则 2410 个非蓝按钮占总数的 3/4。总数 = 2410 ÷ 3/4 = 9640/3 个。"
+            "title": "求总数",
+            "text": "蓝色纽扣占总数的1/3，所以2410个非蓝色纽扣占2/3。纽扣总数为2410 ÷ 2 × 3 = 3615个。"
           }
         ],
-        "answerCheck": "当前答案键为 3615 个。当前题干的 1/4 会得到 9640/3；印刷书使用 1/3 时，2410 是总数 3615 的 2/3。"
+        "answerCheck": "3615个纽扣"
       }
     },
-    "questionZh": "有820颗橙色纽扣，比黄色纽扣少160颗，比绿色纽扣多210颗。蓝色纽扣占总数的1/4。纽扣一共有多少颗？",
+    "questionZh": "有820个橙色纽扣，比黄色纽扣少160个，比绿色纽扣多210个。蓝色纽扣占总数的1/3。纽扣一共有多少个？",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -223,42 +223,42 @@
   {
     "id": 6,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "160 paperclips were in boxes A, B, C, D. 12 moved A→B, 1/4 of B moved B→C, and 17 moved D→C. All boxes then matched. Find original counts.",
+    "question": "160 paperclips were in 4 boxes A, B, C, and D. 12 paperclips were moved from A to B, 1/3 of the paperclips in B were moved to C, and 17 paperclips were moved from D to C. The boxes then contained equal numbers of paperclips. Find the original number in each box.",
     "answer": "A: 52; B: 48; C: 3; D: 57",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 6,
     "solution": {
       "en": {
-        "strategy": "The final equal count is 160 ÷ 4 = 40; then reverse each transfer using the fraction stated in the current source.",
+        "strategy": "Find the common final amount, then reverse each transfer.",
         "steps": [
           {
-            "title": "Set the final amount",
-            "text": "Each box finally has 160 ÷ 4 = 40 paperclips. Box A was A − 12 = 40, so A = 52; box D was D − 17 = 40, so D = 57."
+            "title": "Find the final amount per box",
+            "text": "The total stays 160, so each of the 4 boxes finally has 160 ÷ 4 = 40 paperclips. Thus A started with 40 + 12 = 52 and D started with 40 + 17 = 57."
           },
           {
-            "title": "Reverse box B and C",
-            "text": "The current source transfers 1/4 of B after 12 arrive. Thus 3/4(B + 12) = 40, so B = 124/3. Box C then satisfies C + (B + 12)/4 + 17 = 40, so C = 29/3."
+            "title": "Reverse the transfer from B",
+            "text": "After 12 arrived in B, 1/3 was moved, leaving 2/3 equal to 40. So B had 40 ÷ 2 × 3 = 60 then, and originally had 60 − 12 = 48. The transfer to C was 60 ÷ 3 = 20, so C originally had 40 − 20 − 17 = 3."
           }
         ],
-        "answerCheck": "A: 52; B: 48; C: 3; D: 57. Note: those integer values require transferring 1/3 of B, not the current source's 1/4."
+        "answerCheck": "A: 52; B: 48; C: 3; D: 57"
       },
       "zh-Hans": {
-        "strategy": "最后 4 个盒子相等，每盒有 160 ÷ 4 = 40 个回形针；再按当前题干的分数倒推。",
+        "strategy": "先求每盒最后相等的数量，再倒推每次移动。",
         "steps": [
           {
-            "title": "确定最后每盒数量",
-            "text": "每盒最后有 160 ÷ 4 = 40 个。A − 12 = 40，所以 A = 52；D − 17 = 40，所以 D = 57。"
+            "title": "求每盒最后数量",
+            "text": "总数仍是160，所以4个盒子最后各有160 ÷ 4 = 40个回形针。因此A原来有40 + 12 = 52个，D原来有40 + 17 = 57个。"
           },
           {
-            "title": "倒推 B 和 C",
-            "text": "当前题干是转走 B 的 1/4，因此 3/4(B + 12) = 40，B = 124/3。再由 C + (B + 12)/4 + 17 = 40，得到 C = 29/3。"
+            "title": "倒推B到C的移动",
+            "text": "12个移入B后，移走1/3，剩下的2/3是40个。因此B当时有40 ÷ 2 × 3 = 60个，原来有60 − 12 = 48个。移到C的是60 ÷ 3 = 20个，所以C原来有40 − 20 − 17 = 3个。"
           }
         ],
-        "answerCheck": "当前答案键为 A: 52；B: 48；C: 3；D: 57。该整数答案需要转走 B 的 1/3，而不是当前题干的 1/4。"
+        "answerCheck": "A：52个；B：48个；C：3个；D：57个"
       }
     },
-    "questionZh": "160个回形针放在A、B、C、D 4个盒子里。将12个从A移到B，将B中1/4的回形针移到C，又将17个从D移到C后，所有盒子里的回形针数量相等。求各盒原来的数量。",
+    "questionZh": "160个回形针放在A、B、C、D四个盒子里。将12个回形针从A移到B，把B中回形针的1/3移到C，再将17个回形针从D移到C后，4个盒子里的回形针数量相等。求各盒原来的数量。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -313,132 +313,124 @@
   {
     "id": 8,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "4/9 of Tom’s toy cars were red. Green exceeded red by 35 and yellow cars numbered 15. Packing 5 same-colour cars per box, how many more red-and-green boxes than yellow boxes were there?",
+    "question": "2/5 of Tom’s toy cars were red. The number of green cars was 35 more than the number of red cars, and the remaining 15 cars were yellow. The cars were packed 5 to a box, with a single colour in each box. How many more red-and-green boxes than yellow boxes were there?",
     "answer": "44 boxes",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 7,
     "solution": {
       "en": {
-        "strategy": "Use the current source's 4/9 red fraction to determine all three colour counts before packing.",
+        "strategy": "Use fifths for the total, then convert each colour count into boxes.",
         "steps": [
           {
-            "title": "Set equal fractional units",
-            "text": "Let the total be 9u. Red = 4u, green = 4u + 35, and yellow = 15. Therefore 4u + (4u + 35) + 15 = 9u, so u = 50."
+            "title": "Find the number of cars",
+            "text": "Let the total be 5 units. Red = 2 units, green = 2 units + 35, and yellow = 15. So 2u + (2u + 35) + 15 = 5u, giving u = 50. Red = 100 and green = 135."
           },
           {
             "title": "Pack the cars",
-            "text": "Red = 200 cars and green = 235 cars, giving 40 + 47 = 87 boxes. Yellow gives 15 ÷ 5 = 3 boxes, so the difference is 87 − 3 = 84 boxes."
+            "text": "Red cars fill 100 ÷ 5 = 20 boxes and green cars fill 135 ÷ 5 = 27 boxes. Yellow cars fill 15 ÷ 5 = 3 boxes. The difference is 20 + 27 − 3 = 44 boxes."
           }
         ],
-        "answerCheck": "44 boxes. Note: the current source values calculate to 84 boxes, so they do not support the stated answer."
+        "answerCheck": "44 boxes"
       },
       "zh-Hans": {
-        "strategy": "用当前题干“红车占 4/9”的条件先求 3 种颜色的数量，再装箱。",
+        "strategy": "把总数看成5份，求出各色数量后再按每盒5辆装箱。",
         "steps": [
           {
-            "title": "设总数为 9 份",
-            "text": "设总数为 9u。红车有 4u 辆，绿车有 4u + 35 辆，黄车有 15 辆。因此 4u + (4u + 35) + 15 = 9u，所以 u = 50。"
+            "title": "求各色玩具车数",
+            "text": "设总数为5份，每份为u辆。红车有2u辆，绿车有2u + 35辆，黄车有15辆。2u + (2u + 35) + 15 = 5u，所以u = 50。红车有100辆，绿车有135辆。"
           },
           {
-            "title": "按 5 辆装箱",
-            "text": "红车有 200 辆，绿车有 235 辆，共有 40 + 47 = 87 箱。黄车有 15 ÷ 5 = 3 箱，差为 87 − 3 = 84 箱。"
+            "title": "按颜色装箱",
+            "text": "红车装100 ÷ 5 = 20箱，绿车装135 ÷ 5 = 27箱，黄车装15 ÷ 5 = 3箱。相差20 + 27 − 3 = 44箱。"
           }
         ],
-        "answerCheck": "当前答案键为 44 箱。按当前题干的数据计算得到 84 箱，不能得到该答案。"
+        "answerCheck": "44箱"
       }
     },
-    "questionZh": "汤姆的玩具车中有4/9是红色的。绿色玩具车比红色的多35辆，黄色玩具车有15辆。若每盒装5辆同色玩具车，红色和绿色玩具车的盒数合计比黄色玩具车的盒数多多少？",
+    "questionZh": "汤姆的玩具车中有2/5是红色的。绿色玩具车比红色玩具车多35辆，其余15辆是黄色的。每盒装5辆同色玩具车。红色和绿色玩具车的盒数合计比黄色玩具车的盒数多多少？",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 9,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "David had 1/3 as many cards as Kristy. David gave away 9; Kristy bought 18; their final ratio was 2:9. How many cards did they have altogether in the end?",
+    "question": "David had 3/7 as many cards as Kristy. David gave away 9 cards and Kristy bought 18 cards. Their final numbers of cards were in the ratio 2:9. How many cards did they have altogether in the end?",
     "answer": "99 cards",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 7,
     "solution": {
       "en": {
-        "strategy": "Use the current 1/3 starting ratio and then impose the final 2:9 ratio.",
+        "strategy": "Represent the starting cards in the ratio 3:7 and use the final ratio.",
         "steps": [
           {
-            "title": "Represent the starting cards",
-            "text": "Let David start with x cards. Kristy then starts with 3x cards. After the changes they have x − 9 and 3x + 18."
+            "title": "Set up the starting amounts",
+            "text": "Let David and Kristy initially have 3u and 7u cards. After the changes, they have 3u − 9 and 7u + 18 cards."
           },
           {
             "title": "Use the final ratio",
-            "text": "(x − 9)/(3x + 18) = 2/9. Cross-multiplying gives 9x − 81 = 6x + 36, so x = 39."
-          },
-          {
-            "title": "Find the final total",
-            "text": "David has 39 − 9 = 30 cards and Kristy has 3×39 + 18 = 135 cards. Together they have 165 cards."
+            "text": "Their final ratio is 2:9, so 9(3u − 9) = 2(7u + 18). Thus 27u − 81 = 14u + 36, giving u = 9. Their final counts are 18 and 81, for a total of 99."
           }
         ],
-        "answerCheck": "99 cards. Note: the current source relationships calculate to 165 cards, not 99 cards."
+        "answerCheck": "99 cards"
       },
       "zh-Hans": {
-        "strategy": "采用当前题干“David 是 Kristy 的 1/3”的起始关系，再使用最后的 2:9 比。",
+        "strategy": "把起初卡片数表示为3:7，再利用最后的2:9。",
         "steps": [
           {
-            "title": "表示起始卡片数",
-            "text": "设 David 原来有 x 张卡，Kristy 原来有 3x 张。变化后两人分别有 x − 9 张和 3x + 18 张。"
+            "title": "表示起初数量",
+            "text": "设大卫和克里斯蒂起初分别有3u张和7u张卡片。变化后分别有3u − 9张和7u + 18张。"
           },
           {
             "title": "使用最后的比",
-            "text": "(x − 9)/(3x + 18) = 2/9。交叉相乘得 9x − 81 = 6x + 36，所以 x = 39。"
-          },
-          {
-            "title": "求最后总数",
-            "text": "David 有 39 − 9 = 30 张，Kristy 有 3×39 + 18 = 135 张，共有 165 张。"
+            "text": "最后的比是2:9，所以9(3u − 9) = 2(7u + 18)。即27u − 81 = 14u + 36，得到u = 9。最后两人分别有18张和81张，共99张。"
           }
         ],
-        "answerCheck": "当前答案键为 99 张。按当前题干的关系计算得到 165 张，不是 99 张。"
+        "answerCheck": "99张卡片"
       }
     },
-    "questionZh": "大卫的卡片数量是克里斯蒂的1/3。大卫送出9张卡片，克里斯蒂买了18张卡片后，两人的卡片数量之比为2:9。最后两人一共有多少张卡片？",
+    "questionZh": "大卫的卡片数量是克里斯蒂的3/7。大卫送出9张卡片，克里斯蒂买了18张卡片后，两人的卡片数量之比为2:9。最后两人一共有多少张卡片？",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 10,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "3/4 of 42 students passed English. 1/4 of those who passed were girls, and 4 more boys than girls failed. How many girls were in the class?",
+    "question": "2/3 of 42 students passed English. Of those who passed, 9/14 were girls. There were 4 more boys than girls among the students who failed. How many girls were in the class?",
     "answer": "23 girls",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 8,
     "solution": {
       "en": {
-        "strategy": "Calculate passers first, then split the failures using the 4-student difference in the current source.",
+        "strategy": "Count the girls who passed, then split the students who failed using their difference of 4.",
         "steps": [
           {
-            "title": "Count the students who passed",
-            "text": "3/4 of 42 students passed, so 42 × 3/4 = 31.5. Of these, 1/4 are girls, or 31.5 × 1/4 = 7.875 girls."
+            "title": "Find the passing girls",
+            "text": "Students who passed = 2/3 × 42 = 28. Passing girls = 9/14 × 28 = 18."
           },
           {
-            "title": "Check the remaining students",
-            "text": "There would be 42 − 31.5 = 10.5 failures. If failed boys are 4 more than failed girls, failed girls = (10.5 − 4)/2 = 3.25, giving 7.875 + 3.25 = 11.125 girls."
+            "title": "Find the failing girls",
+            "text": "There were 42 − 28 = 14 students who failed. If failing girls are g, failing boys are g + 4. So g + (g + 4) = 14, giving g = 5. Total girls = 18 + 5 = 23."
           }
         ],
-        "answerCheck": "23 girls. Note: the current source fractions create non-integer student counts; the printed-book 2/3 passed and 9/14 girls among passers give 18 passing girls, 5 failing girls, and 23 girls."
+        "answerCheck": "23 girls"
       },
       "zh-Hans": {
-        "strategy": "先按当前题干计算及格人数，再用不及格男生比女生多 4 人的关系检验。",
+        "strategy": "先求及格女生人数，再用不及格男生比女生多4人的关系求不及格女生人数。",
         "steps": [
           {
-            "title": "计算及格人数",
-            "text": "42 人的 3/4 及格，所以及格人数为 42×3/4 = 31.5 人。其中 1/4 是女生，即 31.5×1/4 = 7.875 人。"
+            "title": "求及格女生人数",
+            "text": "及格学生有2/3 × 42 = 28人。及格女生有9/14 × 28 = 18人。"
           },
           {
-            "title": "检查不及格人数",
-            "text": "不及格人数为 42 − 31.5 = 10.5 人。若不及格男生比女生多 4 人，不及格女生为 (10.5 − 4)/2 = 3.25 人，总女生为 7.875 + 3.25 = 11.125 人。"
+            "title": "求不及格女生人数",
+            "text": "不及格学生有42 − 28 = 14人。设不及格女生有g人，则不及格男生有g + 4人。g + (g + 4) = 14，所以g = 5。女生总数为18 + 5 = 23人。"
           }
         ],
-        "answerCheck": "当前答案键为 23 名女生。当前题干的分数会产生非整数人数；印刷书的 2/3 及格和及格者中 9/14 是女生，得到 18 名及格女生、5 名不及格女生，共 23 名。"
+        "answerCheck": "23名女生"
       }
     },
-    "questionZh": "42名学生中有3/4通过了英语考试。通过考试的学生中有1/4是女生；未通过考试的男生比女生多4人。班上有多少名女生？",
+    "questionZh": "42名学生中有2/3通过了英语考试。通过考试的学生中有9/14是女生。未通过考试的男生比女生多4人。班上有多少名女生？",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -542,83 +534,83 @@
   {
     "id": 13,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "2/3 of a number exceeds 1/4 of it by 12. Find the difference between the number and its 4th multiple.",
+    "question": "3/5 of a number exceeds 1/2 of the number by 12. Find the difference between the number and its fourth multiple.",
     "answer": "360",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 9,
     "solution": {
       "en": {
-        "strategy": "Compute the fractional difference stated in the current source, then multiply the number by 4.",
+        "strategy": "Use the difference between 3/5 and 1/2 to find the number.",
         "steps": [
           {
             "title": "Find the number",
-            "text": "The difference is 2/3 − 1/4 = 5/12 of the number. Thus 5/12 of n = 12, so n = 144/5."
+            "text": "The fractional difference is 3/5 − 1/2 = 1/10. Therefore 1/10 of the number is 12, so the number is 12 × 10 = 120."
           },
           {
-            "title": "Find the requested difference",
-            "text": "The fourth multiple is 4n, so its difference from n is 4n − n = 3n = 3×144/5 = 432/5 = 86.4."
+            "title": "Compare with the fourth multiple",
+            "text": "The fourth multiple is 4 × 120 = 480. The difference is 480 − 120 = 360."
           }
         ],
-        "answerCheck": "360. Note: the current source fractions give 86.4; 360 follows the printed-book fractions 3/5 and 1/2, for which 1/10 of n = 12 and n = 120."
+        "answerCheck": "360"
       },
       "zh-Hans": {
-        "strategy": "先按当前题干求两个分数的差，再求该数与它的 4 倍数之差。",
+        "strategy": "利用3/5和1/2的差求这个数。",
         "steps": [
           {
             "title": "求这个数",
-            "text": "当前题干的差为 2/3 − 1/4 = 5/12。因此 5/12×n = 12，n = 144/5。"
+            "text": "两个分数的差是3/5 − 1/2 = 1/10。因此这个数的1/10是12，所以这个数是12 × 10 = 120。"
           },
           {
-            "title": "求所求的差",
-            "text": "4 倍数与原数的差为 4n − n = 3n = 3×144/5 = 432/5 = 86.4。"
+            "title": "与4倍比较",
+            "text": "这个数的4倍是4 × 120 = 480。两者相差480 − 120 = 360。"
           }
         ],
-        "answerCheck": "当前答案键为 360。当前题干的分数得到 86.4；印刷书使用 3/5 和 1/2 时，1/10×n = 12，n = 120，差为 360。"
+        "answerCheck": "360"
       }
     },
-    "questionZh": "一个数的2/3比它的1/4多12。求这个数与它的4倍之间的差。",
+    "questionZh": "一个数的3/5比它的1/2多12。求这个数与它的4倍之间的差。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 14,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "105 students were in 3 groups. 1/4 of group 1 and 20% of group 3 moved to group 2; 15 then moved group 1→3. All groups then matched. Find original counts.",
+    "question": "105 students were in 3 groups. 1/3 of group 1 moved to group 2, and 20% of group 3 moved to group 2. Then 15 students moved from group 1 to group 3. The 3 groups then had equal numbers of students. Find the original number in each group.",
     "answer": "Group 1: 75; Group 2: 5; Group 3: 25",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 9,
     "solution": {
       "en": {
-        "strategy": "Since 105 students are eventually equal among 3 groups, each final group has 35 students; reverse the stated moves.",
+        "strategy": "Each final group has the same share of 105; reverse the changes in groups 1 and 3.",
         "steps": [
           {
-            "title": "Work back from groups 1 and 3",
-            "text": "Current source: group 1 ends with 3/4 of its original count minus 15, so 3G1/4 − 15 = 35 and G1 = 200/3. Group 3 ends with 80% of its original count plus 15, so 4G3/5 + 15 = 35 and G3 = 25."
+            "title": "Find groups 1 and 3",
+            "text": "Each final group has 105 ÷ 3 = 35 students. Group 1 has 2/3 of its original number, then loses 15: 2G₁/3 − 15 = 35. So G₁ = 75. Group 3 has 80% of its original number, then gains 15: 4G₃/5 + 15 = 35. So G₃ = 25."
           },
           {
             "title": "Find group 2",
-            "text": "The original total is 105, so G2 = 105 − 200/3 − 25 = 40/3."
+            "text": "The original total was 105, so G₂ = 105 − 75 − 25 = 5. Check: group 2 receives 25 + 5 = 30 students, so it becomes 5 + 30 = 35."
           }
         ],
-        "answerCheck": "Group 1: 75; Group 2: 5; Group 3: 25. Note: these source answers require 1/3, rather than the current source's 1/4, to move from group 1: 2/3×75 − 15 = 35."
+        "answerCheck": "Group 1: 75; Group 2: 5; Group 3: 25"
       },
       "zh-Hans": {
-        "strategy": "105 人最后平均分成 3 组，所以每组最后有 35 人；再按当前题干倒推。",
+        "strategy": "105人最后平均分成3组，先倒推第1组和第3组，再求第2组。",
         "steps": [
           {
-            "title": "倒推第 1 组和第 3 组",
-            "text": "当前题干下，第 1 组最后是原来的 3/4 再减 15，所以 3G1/4 − 15 = 35，G1 = 200/3。第 3 组最后是原来的 80% 再加 15，所以 4G3/5 + 15 = 35，G3 = 25。"
+            "title": "求第1组和第3组",
+            "text": "每组最后有105 ÷ 3 = 35人。第1组剩原来的2/3后再调走15人：2G₁/3 − 15 = 35，所以G₁ = 75。第3组剩原来的80%后再调入15人：4G₃/5 + 15 = 35，所以G₃ = 25。"
           },
           {
-            "title": "求第 2 组",
-            "text": "原来总数为 105，所以 G2 = 105 − 200/3 − 25 = 40/3。"
+            "title": "求第2组",
+            "text": "原来总数是105，所以G₂ = 105 − 75 − 25 = 5。验算：第2组调入25 + 5 = 30人，变为5 + 30 = 35人。"
           }
         ],
-        "answerCheck": "当前答案键为第 1 组 75 人；第 2 组 5 人；第 3 组 25 人。这个答案需要第 1 组转走 1/3：2/3×75 − 15 = 35，而不是当前题干的 1/4。"
+        "answerCheck": "第1组：75人；第2组：5人；第3组：25人"
       }
     },
-    "questionZh": "105名学生分成3组。第1组的1/4和第3组的20%调到第2组；随后又有15名学生从第1组调到第3组。此时3组人数相等。求各组原来的人数。",
+    "questionZh": "105名学生分成3组。第1组的1/3调到第2组，第3组的20%调到第2组；随后15名学生从第1组调到第3组。此时3组人数相等。求各组原来的人数。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -673,83 +665,83 @@
   {
     "id": 16,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "Thomas and Zack each received equal toy-car amounts. Zack then had 2 times his original count; 3/4 of Zack’s count equalled 1/2 of Thomas’s count, and Thomas was 36 ahead. Find both requested values.",
+    "question": "Thomas and Zack were each given the same number of toy cars. Zack then had 2 times as many toy cars as he had at first. 2/3 of Zack’s number then equalled 1/2 of Thomas’s number then. Thomas had 36 more toy cars than Zack then. Find (a) the total number of toy cars given and (b) Thomas’s initial number of toy cars.",
     "answer": "(a) 108 cars; (b) 90 cars",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 10,
     "solution": {
       "en": {
-        "strategy": "Use the final 3/4-to-1/2 equality and the 36-car difference before reversing the equal gifts.",
+        "strategy": "Let Zack’s initial number determine the equal gift, then use the final fractional equality and difference.",
         "steps": [
           {
-            "title": "Find the final counts",
-            "text": "Let Zack's final count be z and Thomas's be t. From 3z/4 = t/2, t = 3z/2. Since Thomas has 36 more, 3z/2 − z = 36, so z = 72 and t = 108."
+            "title": "Relate the final numbers",
+            "text": "Let Zack initially have z cars. Since he then has twice as many, he receives z cars and has 2z. Thomas also receives z cars. From 2/3 of Zack’s final number = 1/2 of Thomas’s final number, 2/3(2z) = 1/2(T + z), so T = 5z/3."
           },
           {
-            "title": "Reverse the gifts",
-            "text": "Zack's final 72 is twice his original count, so he originally had 36 and received 36 cars. Thomas received the same 36 cars, so he originally had 108 − 36 = 72 cars. The gifts total 36 + 36 = 72 cars."
+            "title": "Use the 36-car difference",
+            "text": "Thomas then has T + z = 8z/3 cars, while Zack has 2z. Their difference is 8z/3 − 2z = 2z/3 = 36, so z = 54. The total given is 54 + 54 = 108 cars, and Thomas initially had 5 × 54 ÷ 3 = 90 cars."
           }
         ],
-        "answerCheck": "(a) 108 cars; (b) 90 cars. Note: the current source conditions calculate to (a) 72 cars and (b) 72 cars, not the stated answer."
+        "answerCheck": "(a) 108 cars; (b) 90 cars"
       },
       "zh-Hans": {
-        "strategy": "先利用最后的 3/4 与 1/2 相等关系以及相差 36 辆，求最后数量，再倒推相同的赠送数量。",
+        "strategy": "设扎克原来的数量为未知数，用相同的赠送数量和最后的分数关系求解。",
         "steps": [
           {
-            "title": "求最后的数量",
-            "text": "设 Zack 最后有 z 辆，Thomas 最后有 t 辆。3z/4 = t/2，所以 t = 3z/2。Thomas 多 36 辆，即 3z/2 − z = 36，因此 z = 72，t = 108。"
+            "title": "表示最后的数量",
+            "text": "设扎克原来有z辆。后来他有原来的2倍，因此他得到z辆，最后有2z辆。托马斯也得到z辆。由扎克最后数量的2/3 = 托马斯最后数量的1/2，得2/3(2z) = 1/2(T + z)，所以T = 5z/3。"
           },
           {
-            "title": "倒推赠送的车数",
-            "text": "Zack 最后的 72 辆是原来的 2 倍，所以他原来有 36 辆，收到 36 辆。Thomas 也收到 36 辆，所以他原来有 108 − 36 = 72 辆；共送出 36 + 36 = 72 辆。"
+            "title": "使用相差36辆",
+            "text": "托马斯最后有T + z = 8z/3辆，扎克最后有2z辆。相差8z/3 − 2z = 2z/3 = 36，所以z = 54。共送出54 + 54 = 108辆，托马斯原来有5 × 54 ÷ 3 = 90辆。"
           }
         ],
-        "answerCheck": "当前答案键为 (a) 108 辆；(b) 90 辆。当前题干条件计算得到 (a) 72 辆；(b) 72 辆，不能得到该答案。"
+        "answerCheck": "(a) 108辆；(b) 90辆"
       }
     },
-    "questionZh": "托马斯和扎克各自收到同样数量的玩具车。之后扎克的玩具车数量变为原来的2倍；扎克数量的3/4等于托马斯数量的1/2，并且托马斯比扎克多36辆。求题目所要求的两个数值。",
+    "questionZh": "托马斯和扎克各自得到相同数量的玩具车。扎克后来拥有的玩具车数是他原来数量的2倍。此时扎克玩具车数的2/3等于托马斯玩具车数的1/2，且托马斯比扎克多36辆。求(a)共送出多少辆玩具车，(b)托马斯原来有多少辆玩具车。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 17,
     "topic": "The Four Operations of Whole Numbers",
-    "question": "Joanne sold cookies, cakes, muffins. Cookies exceeded cakes by 140; 1/2 of cookies and 1/3 of cakes were chocolate. Use the stated equal flavour relationships to find the requested difference and sales total.",
+    "question": "Joanne sold cookies, cakes, and muffins. There were 140 more cookies than cakes. 1/5 of the cookies and 2/3 of the cakes were chocolate. The number of chocolate cookies equalled the number of chocolate cakes. The number of butter cakes equalled the number of butter muffins. The number of cakes was 3/4 of the number of muffins. (a) How many more butter items than chocolate items were there? (b) If a cookie cost $0.50, a cake cost $1.50, and a muffin cost $2, what were the total sales?",
     "answer": "(a) 60 more; (b) $350",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
     "sourcePage": 10,
     "solution": {
       "en": {
-        "strategy": "Record the numerical relations that are present, then identify the missing flavour equalities and prices needed to determine the requested values.",
+        "strategy": "Use the equal chocolate amounts to find cookies and cakes, then use the cake-to-muffin relation.",
         "steps": [
           {
-            "title": "State the available relations",
-            "text": "Let cookies be C and cakes be K. The source gives C = K + 140, chocolate cookies = C/2, and chocolate cakes = K/3."
+            "title": "Find each item count",
+            "text": "Let cakes = K. Cookies = K + 140. Since 1/5 of the cookies equals 2/3 of the cakes, (K + 140)/5 = 2K/3. Thus 3K + 420 = 10K, so K = 60 and cookies = 200. Cakes are 3/4 of muffins, so muffins = 60 × 4/3 = 80."
           },
           {
-            "title": "Check what is needed",
-            "text": "The source refers to “stated equal flavour relationships” but does not state them. It also omits the cookie, cake, and muffin prices. Therefore the missing relationships cannot determine the flavour difference or the total sales."
+            "title": "Compare flavours and calculate sales",
+            "text": "Chocolate cookies and cakes are 40 each. Butter cakes are 60 − 40 = 20, so butter muffins are also 20; chocolate muffins are 80 − 20 = 60. Butter items = 160 + 20 + 20 = 200 and chocolate items = 40 + 40 + 60 = 140, a difference of 60. Sales = 200×$0.50 + 60×$1.50 + 80×$2 = $350."
           }
         ],
-        "answerCheck": "(a) 60 more; (b) $350. Note: this exact source answer cannot be derived from the current source wording because required flavour relationships and prices are omitted."
+        "answerCheck": "(a) 60 more; (b) $350"
       },
       "zh-Hans": {
-        "strategy": "先列出题干中已有的数量关系，再检查求解所需但缺失的口味相等关系和单价。",
+        "strategy": "先利用两种巧克力食品数量相等求饼干和蛋糕数，再用蛋糕与松饼的关系求松饼数。",
         "steps": [
           {
-            "title": "列出已有关系",
-            "text": "设饼干数为 C，蛋糕数为 K。题干给出 C = K + 140，巧克力饼干为 C/2，巧克力蛋糕为 K/3。"
+            "title": "求各类食品数量",
+            "text": "设蛋糕有K个，则饼干有K + 140个。因为饼干的1/5等于蛋糕的2/3，(K + 140)/5 = 2K/3。于是3K + 420 = 10K，K = 60，饼干有200个。蛋糕数是松饼数的3/4，所以松饼有60 × 4/3 = 80个。"
           },
           {
-            "title": "检查缺失信息",
-            "text": "题干提到“已说明的口味相等关系”，却没有写出这些关系；也没有给出饼干、蛋糕和松饼的单价。因此不能由当前题干求出口味数量差或总销售额。"
+            "title": "比较口味并计算销售额",
+            "text": "巧克力饼干和巧克力蛋糕各有40个。黄油蛋糕有60 − 40 = 20个，所以黄油松饼也有20个，巧克力松饼有80 − 20 = 60个。黄油味共160 + 20 + 20 = 200个，巧克力味共40 + 40 + 60 = 140个，多60个。销售额为200×$0.50 + 60×$1.50 + 80×$2 = $350。"
           }
         ],
-        "answerCheck": "当前答案键为 (a) 多 60 个；(b) $350。当前题干缺少所需的口味相等关系和单价，无法推出此答案。"
+        "answerCheck": "(a) 多60个；(b) $350"
       }
     },
-    "questionZh": "乔安妮卖饼干、蛋糕和松饼。饼干比蛋糕多140个；饼干的1/2和蛋糕的1/3是巧克力味的。利用题目给出的口味数量相等关系，求所要求的数量差和销售总额。",
+    "questionZh": "乔安妮卖饼干、蛋糕和松饼。饼干比蛋糕多140个。饼干的1/5和蛋糕的2/3是巧克力味。巧克力饼干数等于巧克力蛋糕数，黄油蛋糕数等于黄油松饼数，蛋糕数是松饼数的3/4。(a)黄油味食品比巧克力味食品多多少个？(b)若每个饼干$0.50、每个蛋糕$1.50、每个松饼$2，总销售额是多少？",
     "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {

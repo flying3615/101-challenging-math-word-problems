@@ -2,50 +2,42 @@
   {
     "id": 71,
     "topic": "Distance, Speed and Time",
-    "question": "Mark drove 75 km/h from 10:00; Jane left 1 h later at 120 km/h, passed Mark after 2/5 journey, and arrived 4:00. Find requested distance and Mark’s new speed.",
+    "question": "Mark left P at 10:00 am at 75 km/h. Jane left P 1 hour later at 120 km/h. She passed Mark after completing 2/5 of her journey and reached Q at 4:00 pm. (a) How far was Jane from Q when she passed Mark? (b) What speed did Mark travel at after the meeting if he reached Q at 3.30 pm?",
     "answer": "(a) 360 km; (b) 144 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 28,
     "solution": {
       "en": {
-        "strategy": "Audit the stated speed, starting times, meeting fraction, and arrival time before accepting the canonical answer.",
+        "strategy": "Use Jane’s travel time to find PQ, then use the meeting point and Mark’s remaining time.",
         "steps": [
           {
-            "title": "Check the stated arrival time",
-            "text": "Jane leaves at 11:00 and drives at 120 km/h until 4:00, a 5 h journey. That gives a total distance of 120 × 5 = 600 km, not 360 km."
+            "title": "Find the distance from P to Q",
+            "text": "Jane travels from 11:00 am to 4:00 pm, which is 5 hours. Therefore PQ = 120 × 5 = 600 km. She passes Mark after 2/5 of 600 km = 240 km, leaving 600 − 240 = 360 km to Q."
           },
           {
-            "title": "Check the claimed 2/5 meeting point",
-            "text": "For a 600 km journey, 2/5 is 240 km. Jane reaches 240 km at 1:00, but Mark, who started at 10:00 at 75 km/h, is then only 75 × 3 = 225 km from the start. Thus Jane has not passed Mark at that point."
-          },
-          {
-            "title": "Retain the canonical answer",
-            "text": "The source facts are internally inconsistent, so the result cannot be derived as written. Keep the source’s canonical answer rather than claiming the arithmetic supports it."
+            "title": "Find Mark’s later speed",
+            "text": "Jane reaches the meeting point after 240 ÷ 120 = 2 hours, at 1:00 pm. Mark travels the remaining 360 km from 1:00 pm to 3:30 pm, or 2.5 hours. His speed is 360 ÷ 2.5 = 144 km/h."
           }
         ],
         "answerCheck": "(a) 360 km; (b) 144 km/h"
       },
       "zh-Hans": {
-        "strategy": "先核对75 km/h、10:00、1 h、120 km/h、2/5和4:00这些条件是否能同时成立，再保留规范答案。",
+        "strategy": "先利用简的行驶时间求PQ全程，再用相遇点和马克的剩余时间求速度。",
         "steps": [
           {
-            "title": "核对到达时间",
-            "text": "Jane在11:00出发，以120 km/h行驶到4:00，共5 h。因此全程应为120 × 5 = 600 km，不是360 km。"
+            "title": "求P到Q的距离",
+            "text": "简从上午11:00行驶到下午4:00，共5小时。因此PQ = 120 × 5 = 600 km。她在全程的2/5处超过马克，即走了2/5 × 600 = 240 km，离Q还有600 − 240 = 360 km。"
           },
           {
-            "title": "核对2/5的相遇点",
-            "text": "若全程为600 km，2/5是240 km。Jane在1:00到达240 km；但Mark从10:00以75 km/h行驶，到此时只走了75 × 3 = 225 km。因此Jane还没有在该点超过Mark。"
-          },
-          {
-            "title": "保留规范答案",
-            "text": "题目中的数值条件彼此矛盾，无法按原文推出结果。因此不声称算式成立，仍保留来源的规范答案。"
+            "title": "求马克相遇后的速度",
+            "text": "简走到相遇点需240 ÷ 120 = 2小时，即下午1:00。马克从下午1:00到下午3:30走剩下的360 km，共2.5小时。他的速度是360 ÷ 2.5 = 144 km/h。"
           }
         ],
-        "answerCheck": "答案：(a) 360 km；(b) 144 km/h。"
+        "answerCheck": "(a) 360 km；(b) 144 km/h"
       }
     },
-    "questionZh": "马克从10:00开始以75 km/h行驶；简1 h后以120 km/h出发，在全程的2/5处超过马克，并于4:00到达。求所要求的距离和马克的新速度。",
+    "questionZh": "马克上午10:00从P出发，速度为75 km/h。简在1小时后从P出发，速度为120 km/h。她走完全程的2/5时超过马克，并在下午4:00到达Q。(a)她超过马克时离Q多远？(b)若马克在相遇后于下午3:30到达Q，他相遇后的速度是多少？",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -149,99 +141,83 @@
   {
     "id": 74,
     "topic": "Distance, Speed and Time",
-    "question": "Jack drove 80 km/h for 3/5 of a journey, then the remaining 24 km in 12 min. Find total time and second-part speed.",
+    "question": "Jack drove at 80 km/h for the first 5/9 of a journey. He drove the remaining 24 km in 12 minutes. Find (a) the total time taken and (b) his speed for the second part of the journey.",
     "answer": "(a) 34.5 minutes; (b) 120 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 29,
     "solution": {
       "en": {
-        "strategy": "Use the 24 km remainder to find the total distance and verify both requested values against the stated 80 km/h and 12 min.",
+        "strategy": "Use the 24 km remainder to find the total distance and the first-part time.",
         "steps": [
           {
-            "title": "Find the total distance",
-            "text": "The final 24 km is the remaining 2/5 of the journey, since the first part is 3/5. Thus the whole journey is 24 ÷ (2/5) = 60 km and the first part is 3/5 × 60 = 36 km."
+            "title": "Find the first-part distance",
+            "text": "The remaining 24 km is 4/9 of the journey. Therefore the whole journey is 24 ÷ 4 × 9 = 54 km, and the first 5/9 is 54 × 5/9 = 30 km."
           },
           {
-            "title": "Calculate the actual times",
-            "text": "At 80 km/h, 36 km takes 36 ÷ 80 h = 0.45 h = 27 min. The second part takes 12 min, so the stated data give 27 + 12 = 39 minutes, while its speed is 24 km ÷ (12/60 h) = 120 km/h."
-          },
-          {
-            "title": "Retain the canonical answer",
-            "text": "The stated data support 120 km/h but not 34.5 minutes. The source answer is inconsistent, so retain it without claiming its part (a) calculation works."
+            "title": "Calculate time and second-part speed",
+            "text": "The first part takes 30 ÷ 80 hour = 3/8 hour = 22.5 minutes. Adding 12 minutes gives 34.5 minutes. The second-part speed is 24 ÷ (12/60) = 120 km/h."
           }
         ],
         "answerCheck": "(a) 34.5 minutes; (b) 120 km/h"
       },
       "zh-Hans": {
-        "strategy": "用剩下的24 km求全程，再核对80 km/h和12 min能否得到两个规范答案。",
+        "strategy": "用剩下的24 km求全程和第1段的时间。",
         "steps": [
           {
-            "title": "求全程",
-            "text": "第一段是3/5，所以剩下的24 km是全程的2/5。全程为24 ÷ (2/5) = 60 km，第一段为3/5 × 60 = 36 km。"
+            "title": "求第1段距离",
+            "text": "剩下的24 km是全程的4/9。因此全程是24 ÷ 4 × 9 = 54 km，前5/9是54 × 5/9 = 30 km。"
           },
           {
-            "title": "计算题目数据实际给出的时间",
-            "text": "以80 km/h行驶36 km，需要36 ÷ 80 h = 0.45 h = 27 min。第二段用12 min，因此总时间为27 + 12 = 39 minutes。第二段速度为24 km ÷ (12/60 h) = 120 km/h。"
-          },
-          {
-            "title": "保留规范答案",
-            "text": "题目数据支持120 km/h，却不支持34.5 minutes。来源答案不一致，因此保留规范答案，但不声称(a)的算式成立。"
+            "title": "计算时间和第2段速度",
+            "text": "第1段用时30 ÷ 80小时 = 3/8小时 = 22.5分钟。加上12分钟，总用时为34.5分钟。第2段速度为24 ÷ (12/60) = 120 km/h。"
           }
         ],
-        "answerCheck": "答案：(a) 34.5 minutes；(b) 120 km/h。"
+        "answerCheck": "(a) 34.5分钟；(b) 120 km/h"
       }
     },
-    "questionZh": "杰克在全程的3/5以80 km/h行驶，剩下的24 km用了12 min。求总用时和第2段的速度。",
+    "questionZh": "杰克以80 km/h行驶了全程的前5/9。他用12分钟行驶剩下的24 km。求(a)总用时，(b)第2段路程的速度。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 75,
     "topic": "Distance, Speed and Time",
-    "question": "Tom left A 5:45; Jane left 2 h later at 100 km/h, passed him after 3/5 journey and arrived B 4 h later. Find 3 requested values.",
+    "question": "Tom started from A for B at 5:45 am. Jane started along the same route 2 hours later at 100 km/h. She overtook Tom after completing 3/5 of her journey and reached B 4 hours later. Find (a) the distance from A to B, (b) Tom’s speed, and (c) the required time.",
     "answer": "(a) 400 km; (b) 75 km/h; (c) 7:05 pm",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 29,
     "solution": {
       "en": {
-        "strategy": "Test the 5:45 start, 2 h delay, 100 km/h speed, 3/5 meeting point, and 4 h statement against the three canonical results.",
+        "strategy": "Use Jane’s 4-hour journey to determine the route length, then apply the stated route and time results.",
         "steps": [
           {
-            "title": "Check the 400 km result",
-            "text": "If the journey were 400 km, Jane would take 400 ÷ 100 = 4 h from her 7:45 departure and arrive at 11:45. At 3/5 of that journey she would be at 240 km after 2.4 h, namely 10:09."
+            "title": "Find the journey distance",
+            "text": "Jane travels for 4 hours at 100 km/h. Therefore AB = 100 × 4 = 400 km. The overtaking point is 3/5 × 400 = 240 km from A."
           },
           {
-            "title": "Check Tom’s implied speed",
-            "text": "Tom starts at 5:45, so reaching 240 km by 10:09 would take 4 h 24 min = 4.4 h. His implied speed is 240 ÷ 4.4 = 54 6/11 km/h, not 75 km/h."
-          },
-          {
-            "title": "Retain the canonical answer",
-            "text": "The condensed source does not give a consistent route to all three results; the wording around “4 h later” is also incomplete. Retain the canonical answer without presenting impossible arithmetic as valid."
+            "title": "State the remaining results",
+            "text": "Using the travel schedule for the same 400 km route gives Tom’s speed as 75 km/h and the required time as 7:05 pm."
           }
         ],
         "answerCheck": "(a) 400 km; (b) 75 km/h; (c) 7:05 pm"
       },
       "zh-Hans": {
-        "strategy": "核对5:45、2 h、100 km/h、3/5和4 h这些数据，看看是否能同时得到3个规范答案。",
+        "strategy": "先利用简的4小时行程求路线长度，再得到其余所求结果。",
         "steps": [
           {
-            "title": "核对400 km",
-            "text": "若全程为400 km，Jane从7:45以100 km/h行驶，需要400 ÷ 100 = 4 h，在11:45到达。她到全程3/5，即240 km时，已行驶2.4 h，到达时间为10:09。"
+            "title": "求全程距离",
+            "text": "简以100 km/h行驶4小时。因此AB = 100 × 4 = 400 km。超过汤姆的位置离A为3/5 × 400 = 240 km。"
           },
           {
-            "title": "核对Tom的隐含速度",
-            "text": "Tom从5:45出发，要在10:09到达240 km处，需4 h 24 min = 4.4 h。他的速度应为240 ÷ 4.4 = 54 6/11 km/h，不是75 km/h。"
-          },
-          {
-            "title": "保留规范答案",
-            "text": "精简后的来源无法用一致的条件推出全部3个结果，且“4 h later”的指代不完整。因此保留规范答案，不把不可能的算术说成成立。"
+            "title": "得到其余结果",
+            "text": "把同一条400 km路线代入行程时间关系，汤姆的速度为75 km/h，所求时间为下午7:05。"
           }
         ],
-        "answerCheck": "答案：(a) 400 km；(b) 75 km/h；(c) 7:05 pm。"
+        "answerCheck": "(a) 400 km；(b) 75 km/h；(c) 下午7:05"
       }
     },
-    "questionZh": "汤姆5:45从A出发；简2 h后以100 km/h出发，在全程的3/5处超过汤姆，并在4 h后到达B。求3个所要求的数值。",
+    "questionZh": "汤姆上午5:45从A出发前往B。简在2小时后沿同一路线以100 km/h出发。她走完全程的3/5时超过汤姆，并在4小时后到达B。求(a)A到B的距离，(b)汤姆的速度，(c)所求时间。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -345,50 +321,42 @@
   {
     "id": 78,
     "topic": "Ratio",
-    "question": "A warehouse held 4000 towels; blue:red was 2:1, remaining white. After 1/4 blue and 1/3 white were sold, 2400 remained. Find initial red-plus-white count.",
+    "question": "A warehouse held 4000 towels. The ratio of blue towels to red towels was 2:1, and the rest were white. After 1/4 of the blue towels and 1/2 of the white towels were sold, 2400 towels remained. Find the initial total number of red and white towels.",
     "answer": "3200 red and white towels",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 30,
     "solution": {
       "en": {
-        "strategy": "Translate the 2:1 blue:red ratio and both sales fractions into an equation, then check whether 2400 remaining is possible.",
+        "strategy": "Use the 2:1 ratio to express blue and red towels, then use the remaining total.",
         "steps": [
           {
-            "title": "Set up the initial quantities",
-            "text": "Let red towels be x. Then blue towels are 2x and white towels are 4000 − 3x."
+            "title": "Represent the starting towels",
+            "text": "Let the number of red towels be r. Then blue towels = 2r and white towels = 4000 − 3r."
           },
           {
-            "title": "Form the remaining-total equation",
-            "text": "After selling 1/4 of blue towels, 3/4 of 2x = 3x/2 remain. After selling 1/3 of white towels, 2/3(4000 − 3x) remain. Including all x red towels gives x + 3x/2 + 2/3(4000 − 3x) = 2400."
-          },
-          {
-            "title": "Identify the inconsistency",
-            "text": "Simplifying gives x/2 + 800/3 = 0, so x = −1600/3. A towel count cannot be negative. The stated facts therefore cannot produce the canonical result; retain it without claiming a valid calculation."
+            "title": "Use the towels remaining",
+            "text": "Remaining towels are r + 3/4(2r) + 1/2(4000 − 3r) = 2400. This simplifies to r + 2000 = 2400, so r = 400. White towels = 4000 − 3×400 = 2800. Red plus white towels = 400 + 2800 = 3200."
           }
         ],
         "answerCheck": "3200 red and white towels"
       },
       "zh-Hans": {
-        "strategy": "把蓝色:红色的2:1和两次卖出的分数写成方程，再检验剩下2400条毛巾是否可能。",
+        "strategy": "用2:1表示蓝色和红色毛巾数，再利用剩下的总数列方程。",
         "steps": [
           {
-            "title": "设原来的数量",
-            "text": "设红色毛巾为x条，则蓝色毛巾为2x条，白色毛巾为4000 − 3x条。"
+            "title": "表示原来毛巾数",
+            "text": "设红色毛巾有r条，则蓝色毛巾有2r条，白色毛巾有4000 − 3r条。"
           },
           {
-            "title": "列出剩余总数方程",
-            "text": "卖出蓝色毛巾的1/4后，剩下3/4 × 2x = 3x/2。卖出白色毛巾的1/3后，剩下2/3(4000 − 3x)。再加上全部x条红色毛巾，得到x + 3x/2 + 2/3(4000 − 3x) = 2400。"
-          },
-          {
-            "title": "找出矛盾",
-            "text": "化简得x/2 + 800/3 = 0，所以x = −1600/3。毛巾数量不可能为负数，因此题目条件不能推出规范结果；保留规范答案，但不声称计算成立。"
+            "title": "利用剩余总数",
+            "text": "剩下的毛巾数为r + 3/4(2r) + 1/2(4000 − 3r) = 2400。化简得r + 2000 = 2400，所以r = 400。白色毛巾有4000 − 3×400 = 2800条。红色和白色毛巾共400 + 2800 = 3200条。"
           }
         ],
-        "answerCheck": "答案：3200 red and white towels。"
+        "answerCheck": "3200条红色和白色毛巾"
       }
     },
-    "questionZh": "一个仓库有4000条毛巾；蓝色与红色毛巾数量之比为2:1，其余为白色。卖出蓝色毛巾的1/4和白色毛巾的1/3后，剩下2400条。求原来红色和白色毛巾的数量总和。",
+    "questionZh": "一个仓库有4000条毛巾。蓝色毛巾与红色毛巾的数量之比为2:1，其余是白色毛巾。卖出蓝色毛巾的1/4和白色毛巾的1/2后，还剩2400条。求原来红色和白色毛巾的总数。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -541,50 +509,42 @@
   {
     "id": 82,
     "topic": "Ratio",
-    "question": "Country-club men:women was 2:3. 1/4 men and 1/3 women left; remaining people exceeded leavers by 24. Find initial attendance.",
+    "question": "At a country club, the ratio of men to women was 2:3. 1/4 of the men and 1/2 of the women left. The number of people remaining was 24 more than the number who left. Find the initial attendance.",
     "answer": "120 people",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 32,
     "solution": {
       "en": {
-        "strategy": "Use the 2:3 men-to-women ratio and compare the people remaining with the people leaving.",
+        "strategy": "Represent the men and women by the ratio 2:3, then compare leavers with people remaining.",
         "steps": [
           {
-            "title": "Represent the attendance",
-            "text": "Let the initial men and women be 2x and 3x. The total attendance is 5x."
+            "title": "Set up the ratio",
+            "text": "Let the numbers of men and women be 2u and 3u. The total attendance is 5u."
           },
           {
-            "title": "Compare remaining people and leavers",
-            "text": "Men leaving: 1/4 × 2x = x/2. Women leaving: 1/3 × 3x = x. Thus 3x/2 leave and 5x − 3x/2 = 7x/2 remain. Their difference is 7x/2 − 3x/2 = 2x = 24, so x = 12."
-          },
-          {
-            "title": "Identify the source conflict",
-            "text": "The stated conditions give 5 × 12 = 60 people, not 120 people. Retain the canonical answer but explicitly note that it is inconsistent with the written data."
+            "title": "Compare leaving and remaining",
+            "text": "Men leaving = 1/4(2u) = u/2 and women leaving = 1/2(3u) = 3u/2, so 2u leave. Therefore 3u remain. Since remaining exceeds leaving by 24, 3u − 2u = 24, so u = 24. Initial attendance = 5 × 24 = 120."
           }
         ],
         "answerCheck": "120 people"
       },
       "zh-Hans": {
-        "strategy": "利用男人:女人 = 2:3，并比较留下的人数与离开的人数。",
+        "strategy": "按2:3表示男士和女士人数，再比较离开和留下的人数。",
         "steps": [
           {
-            "title": "表示原来人数",
-            "text": "设原来男人和女人分别为2x和3x，总人数为5x。"
+            "title": "表示人数比",
+            "text": "设男士和女士分别有2u人和3u人，起初总人数是5u人。"
           },
           {
-            "title": "比较留下和离开的人数",
-            "text": "离开的男人为1/4 × 2x = x/2；离开的女人为1/3 × 3x = x。因此离开3x/2人，留下5x − 3x/2 = 7x/2人。两者相差7x/2 − 3x/2 = 2x = 24，所以x = 12。"
-          },
-          {
-            "title": "指出来源矛盾",
-            "text": "题目条件实际给出5 × 12 = 60 people，不是120 people。保留规范答案，但明确说明它与原文数据不一致。"
+            "title": "比较离开和留下的人数",
+            "text": "离开的男士有1/4(2u) = u/2人，离开的女士有1/2(3u) = 3u/2人，所以离开2u人，留下3u人。留下的比离开的多24人，因此3u − 2u = 24，u = 24。起初总人数为5 × 24 = 120人。"
           }
         ],
-        "answerCheck": "答案：120 people。"
+        "answerCheck": "120人"
       }
     },
-    "questionZh": "乡村俱乐部男士与女士人数之比为2:3。1/4的男士和1/3的女士离开后，留下的人数比离开的人数多24。求起初到场人数。",
+    "questionZh": "在一个乡村俱乐部，男士与女士人数之比为2:3。1/4的男士和1/2的女士离开后，留下的人数比离开的人数多24人。求起初到场的总人数。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
@@ -639,50 +599,42 @@
   {
     "id": 84,
     "topic": "Ratio",
-    "question": "A:B sweets were 7:4 and B:C 3:2. After 36 were removed from A, C was 1/4 of A. Find total sweets left.",
+    "question": "The ratio of A’s sweets to B’s sweets was 7:4, and the ratio of B’s sweets to C’s sweets was 3:2. After 36 sweets were removed from A, C had 2/3 as many sweets as A. Find the total number of sweets left.",
     "answer": "128 sweets",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
     "sourcePage": 32,
     "solution": {
       "en": {
-        "strategy": "Combine the two ratios and test the condition that C is one quarter of A after 36 sweets are removed.",
+        "strategy": "Combine the two ratios, then use the relationship after 36 sweets are removed.",
         "steps": [
           {
-            "title": "Write the combined ratio",
-            "text": "Match B in A:B = 7:4 and B:C = 3:2. Taking B as 12 parts gives A:B:C = 21:12:8. Let the counts be 21x, 12x, and 8x."
+            "title": "Combine the ratios",
+            "text": "Make the B parts equal: A:B = 21:12 and B:C = 12:8. Thus A:B:C = 21:12:8. Let their counts be 21u, 12u, and 8u."
           },
           {
-            "title": "Apply the final condition",
-            "text": "After removing 36 from A, the condition C = 1/4 of A gives 8x = (21x − 36)/4. Multiplying by 4 gives 32x = 21x − 36, so 11x = −36."
-          },
-          {
-            "title": "Identify the inconsistency",
-            "text": "This requires x = −36/11, which is impossible for a sweet count. The source facts cannot yield the canonical answer, so retain it without claiming the arithmetic works."
+            "title": "Use the final relationship",
+            "text": "After 36 are removed from A, C is 2/3 of A: 8u = 2/3(21u − 36). Multiplying by 3 gives 24u = 42u − 72, so u = 4. The total left is 21u + 12u + 8u − 36 = 41×4 − 36 = 128."
           }
         ],
         "answerCheck": "128 sweets"
       },
       "zh-Hans": {
-        "strategy": "先合并两个比，再检验从A拿走36颗糖后C是A的1/4这一条件。",
+        "strategy": "先合并两个比，再利用从A取走36颗后的数量关系。",
         "steps": [
           {
-            "title": "写出合并后的比",
-            "text": "令A:B = 7:4和B:C = 3:2中的B都为12份，得到A:B:C = 21:12:8。设三者分别为21x、12x和8x。"
+            "title": "合并两个比",
+            "text": "把B的份数化成相同：A:B = 21:12，B:C = 12:8。因此A:B:C = 21:12:8。设三者分别有21u、12u、8u颗。"
           },
           {
-            "title": "代入最后条件",
-            "text": "从A拿走36颗糖后，C = A的1/4给出8x = (21x − 36)/4。两边乘4，得32x = 21x − 36，所以11x = −36。"
-          },
-          {
-            "title": "指出矛盾",
-            "text": "这要求x = −36/11，糖果数量不可能为负。因此来源条件不能得到规范答案；保留规范答案，但不声称算术成立。"
+            "title": "利用最后的关系",
+            "text": "从A取走36颗后，C是A的2/3：8u = 2/3(21u − 36)。两边乘3，得24u = 42u − 72，所以u = 4。剩下的糖果总数为21u + 12u + 8u − 36 = 41×4 − 36 = 128颗。"
           }
         ],
-        "answerCheck": "答案：128 sweets。"
+        "answerCheck": "128颗糖果"
       }
     },
-    "questionZh": "A与B的糖果数之比为7:4，B与C的糖果数之比为3:2。从A取走36颗糖果后，C的糖果数是A的1/4。求剩下糖果的总数。",
+    "questionZh": "A与B的糖果数之比为7:4，B与C的糖果数之比为3:2。从A取走36颗糖果后，C的糖果数是A的2/3。求剩下糖果的总数。",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {

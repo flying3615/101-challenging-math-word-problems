@@ -35,6 +35,10 @@ for (const book of BOOKS) {
     !page.includes('plan.measures.length?plan.measures:plan.values.slice(0,2)'),
     `${label} must not fall back to bare numbers for the geometry visual. That drew counts of shapes, and once a price, as side lengths.`,
   );
+  if (book === 4) {
+    assert.match(page, /function answerVisualMarkup\(q\)/, 'Book 4 uses source-aligned SVG diagrams rather than the generic geometry outline.');
+    continue;
+  }
   // the caption used to be hardcoded English in the page; it now goes through
   // I18N so it is a reminder in whichever language the learner chose
   assert.ok(

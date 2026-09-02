@@ -83,6 +83,11 @@ for (const book of BOOKS) {
       `Book ${book} hardcodes "${phrase}" in the Story map. It must go through I18N.t so a Chinese learner sees Chinese.`,
     );
   }
+  if (book === 4) {
+    assert.match(page, /function answerVisualMarkup\(q\)/, 'Book 4 must provide language-specific answer-aligned SVG diagrams.');
+    assert.match(page, /q\.answerVisual\?\.\[I18N\.getLanguage\(\)\]/, 'Book 4 must select the SVG matching the learner language.');
+    continue;
+  }
   // and it must actually be calling the translator for them
   assert.ok(page.includes("I18N.t('sublineUnit')"), `Book ${book} must translate the unit-bar subline.`);
   assert.ok(page.includes("I18N.t('mapCaption')"), `Book ${book} must translate the Story map caption.`);

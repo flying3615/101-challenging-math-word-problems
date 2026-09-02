@@ -80,10 +80,15 @@ for (const book of BOOKS) {
       );
     }
     assert.ok(KNOWN_MODELS.has(q.model), `${label} q${q.id} uses an unknown model "${q.model}".`);
-    assert.ok(
-      page.includes(`'${q.model}'`) || page.includes(`"${q.model}"`),
-      `${label} q${q.id} uses model "${q.model}", but the practice page has no branch for it.`,
-    );
+    if (book === 4) {
+      assert.ok(q.answerVisual, `${label} q${q.id} needs its answer-aligned SVG instead of a generic model branch.`);
+      assert.match(page, /function answerVisualMarkup\(q\)/, `${label} must render answer-aligned SVG data.`);
+    } else {
+      assert.ok(
+        page.includes(`'${q.model}'`) || page.includes(`"${q.model}"`),
+        `${label} q${q.id} uses model "${q.model}", but the practice page has no branch for it.`,
+      );
+    }
   }
 
   // ---- 5. the browser copy must match the source of truth ----

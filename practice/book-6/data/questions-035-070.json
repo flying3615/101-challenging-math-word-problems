@@ -6,7 +6,47 @@
     "answer": "Frederick: $240; Justina: $550",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 16
+    "sourcePage": 16,
+    "solution": {
+      "en": {
+        "strategy": "Compare the two spending arrangements at the moment Frederick's money runs out; the change in Justina's daily spending creates equal money parts.",
+        "steps": [
+          {
+            "title": "Compare daily spending",
+            "text": "The daily-spending ratios are Frederick:Justina = 8:16 = 1:2, then 16:8 = 2:1. The two cases differ by 3 equal parts for Justina."
+          },
+          {
+            "title": "Find one part",
+            "text": "Justina has $430 instead of $70, so the difference is $430 − $70 = $360. Each part is $360 ÷ 3 = $120."
+          },
+          {
+            "title": "Find both gifts",
+            "text": "Frederick's 2 parts are 2 × $120 = $240. Justina's original amount is $430 + $120 = $550."
+          }
+        ],
+        "answerCheck": "Check: $550 − $430 = $120, and the $360 difference between $430 and $70 is 3 × $120. Answer: Frederick: $240; Justina: $550."
+      },
+      "zh-Hans": {
+        "strategy": "比较弗雷德里克的钱刚好用完时的2种每日花费安排；朱斯蒂娜每天花费的改变形成等份差。",
+        "steps": [
+          {
+            "title": "比较每天的花费",
+            "text": "2种安排中，弗雷德里克:朱斯蒂娜的每日花费分别为8:16 = 1:2和16:8 = 2:1。朱斯蒂娜在2种情况之间相差3个等份。"
+          },
+          {
+            "title": "求每1份",
+            "text": "朱斯蒂娜留下$430而不是$70，相差$430 − $70 = $360。每1份是$360 ÷ 3 = $120。"
+          },
+          {
+            "title": "求父母给的钱",
+            "text": "弗雷德里克的2份为2 × $120 = $240。朱斯蒂娜原来的钱为$430 + $120 = $550。"
+          }
+        ],
+        "answerCheck": "检验：$550 − $430 = $120，而$430与$70的差$360 = 3 × $120。答案：Frederick: $240; Justina: $550。"
+      }
+    },
+    "questionZh": "弗雷德里克和朱斯蒂娜每天分别花$8和$16，朱斯蒂娜剩下$70；若两人交换每天的花费，朱斯蒂娜会剩下$430。求父母分别给了他们多少钱。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 36,
@@ -15,7 +55,47 @@
     "answer": "8.4 L",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 16
+    "sourcePage": 16,
+    "solution": {
+      "en": {
+        "strategy": "Use the 4:3 starting ratio and the final fact that tank A has twice tank B's water.",
+        "steps": [
+          {
+            "title": "Find one ratio unit",
+            "text": "Let the initial amounts be 4 units and 3 units. When A is full, it has 6 units because it is twice B's 3 units. Thus 2 units = 0.8 L, so 1 unit = 0.4 L."
+          },
+          {
+            "title": "Find both capacities",
+            "text": "Tank A's capacity is 6 × 0.4 = 2.4 L. Since this is 1/4 of tank B's capacity, B holds 4 × 2.4 = 9.6 L."
+          },
+          {
+            "title": "Subtract B's current water",
+            "text": "Tank B currently has 3 × 0.4 = 1.2 L. It needs 9.6 − 1.2 = 8.4 L."
+          }
+        ],
+        "answerCheck": "Check: A full is 2.4 L and B starts with 1.2 L, so A is twice B; B's capacity is 4 × 2.4 = 9.6 L. Answer: 8.4 L."
+      },
+      "zh-Hans": {
+        "strategy": "利用起初4:3的水量比，以及A装满后是B中水量的2倍。",
+        "steps": [
+          {
+            "title": "求每1份水量",
+            "text": "起初A、B分别有4份和3份。A装满后是B的2倍，所以A有6份。增加的2份是0.8 L，因此1份是0.4 L。"
+          },
+          {
+            "title": "求2个水箱的容量",
+            "text": "A的容量是6 × 0.4 = 2.4 L。这是B容量的1/4，所以B的容量是4 × 2.4 = 9.6 L。"
+          },
+          {
+            "title": "减去B已有的水",
+            "text": "B现在有3 × 0.4 = 1.2 L，还需9.6 − 1.2 = 8.4 L。"
+          }
+        ],
+        "answerCheck": "检验：A装满有2.4 L，B起初有1.2 L，A正好是B的2倍；B容量为4 × 2.4 = 9.6 L。答案：8.4 L。"
+      }
+    },
+    "questionZh": "水箱A与B中的水量之比为4:3。向A加入0.8 L水后，A中的水量变为B中的2倍。A的容量是B容量的1/4。要把B装满，还要加多少水？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 37,
@@ -24,7 +104,47 @@
     "answer": "$354",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 17
+    "sourcePage": 17,
+    "solution": {
+      "en": {
+        "strategy": "Express Germaine's amount after spending in terms of Gilbert's amount, then use the $300 received.",
+        "steps": [
+          {
+            "title": "Relate their amounts",
+            "text": "After Germaine spends $70, she has twice Gilbert's amount. Let Gilbert have 1 unit, so Germaine then has 2 units and originally had 2 units + $70."
+          },
+          {
+            "title": "Use Gilbert's $300",
+            "text": "After receiving $300, Gilbert has 3 times Germaine's original amount. The $300 equals 5 units: 3(2 units + $70) − 1 unit = 5 units + $210, so 5 units = $90 and 1 unit = $18."
+          },
+          {
+            "title": "Find the final total",
+            "text": "Their final amounts are 2 units + 1 unit + $300 = 3 × $18 + $300 = $354."
+          }
+        ],
+        "answerCheck": "Check: Germaine has $106 − $70 = $36, twice Gilbert's $18; Gilbert then has $18 + $300 = $318. $36 + $318 = $354. Answer: $354."
+      },
+      "zh-Hans": {
+        "strategy": "把杰曼花钱后的金额表示成吉尔伯特金额的倍数，再使用吉尔伯特得到的$300。",
+        "steps": [
+          {
+            "title": "表示两人的金额",
+            "text": "杰曼花掉$70后有吉尔伯特的2倍。设吉尔伯特有1份，则杰曼此时有2份，原来有2份 + $70。"
+          },
+          {
+            "title": "利用$300",
+            "text": "吉尔伯特得到$300后，有杰曼原来金额的3倍。$300相当于5份：3(2份 + $70) − 1份 = 5份 + $210，所以5份 = $90，1份 = $18。"
+          },
+          {
+            "title": "求最后总数",
+            "text": "最后的总金额为2份 + 1份 + $300 = 3 × $18 + $300 = $354。"
+          }
+        ],
+        "answerCheck": "检验：杰曼有$106 − $70 = $36，是吉尔伯特$18的2倍；吉尔伯特后来有$18 + $300 = $318。$36 + $318 = $354。答案：$354。"
+      }
+    },
+    "questionZh": "杰曼花掉$70后，剩下的钱是吉尔伯特的2倍。吉尔伯特得到$300后，钱数是杰曼原有钱数的3倍。求两人最后的钱数总和。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 38,
@@ -33,7 +153,47 @@
     "answer": "$15",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 17
+    "sourcePage": 17,
+    "solution": {
+      "en": {
+        "strategy": "Eliminate the magazines first, then use the third equation to find the magazine price.",
+        "steps": [
+          {
+            "title": "Compare the first two totals",
+            "text": "Subtract 3 comics + 2 magazines = $54 from 3 books + 2 magazines = $84. Thus 3 books − 3 comics = $30, so 1 book − 1 comic = $10."
+          },
+          {
+            "title": "Find the book and comic total",
+            "text": "From 2 comics + 2 books = $52, one comic + one book costs $26. Together with book − comic = $10, a book costs $18 and a comic costs $8."
+          },
+          {
+            "title": "Find a magazine",
+            "text": "Use 3 comics + 2 magazines = $54: 3 × $8 + 2 magazines = $54, so 2 magazines = $30 and 1 magazine = $15."
+          }
+        ],
+        "answerCheck": "Check: 3 × $18 + 2 × $15 = $84, 3 × $8 + 2 × $15 = $54, and 2 × $8 + 2 × $18 = $52. Answer: $15."
+      },
+      "zh-Hans": {
+        "strategy": "先消去杂志，再用第3个等式求1本杂志的价格。",
+        "steps": [
+          {
+            "title": "比较前2个总价",
+            "text": "用3本漫画书和2本杂志的$54，从3本书和2本杂志的$84中相减。3本书 − 3本漫画书 = $30，所以1本书 − 1本漫画书 = $10。"
+          },
+          {
+            "title": "求书和漫画书的价格",
+            "text": "2本漫画书 + 2本书 = $52，所以1本漫画书 + 1本书 = $26。再结合相差$10，1本书是$18，1本漫画书是$8。"
+          },
+          {
+            "title": "求杂志价格",
+            "text": "代入3本漫画书 + 2本杂志 = $54：3 × $8 + 2本杂志 = $54，所以2本杂志 = $30，1本杂志 = $15。"
+          }
+        ],
+        "answerCheck": "检验：3 × $18 + 2 × $15 = $84，3 × $8 + 2 × $15 = $54，2 × $8 + 2 × $18 = $52。答案：$15。"
+      }
+    },
+    "questionZh": "3本书和2本杂志共$84；3本漫画书和2本杂志共$54；2本漫画书和2本书共$52。求1本杂志的价格。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 39,
@@ -42,7 +202,47 @@
     "answer": "4312 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 17
+    "sourcePage": 17,
+    "solution": {
+      "en": {
+        "strategy": "Find the shaded ring area, then use the 2:7 shaded-to-unshaded ratio.",
+        "steps": [
+          {
+            "title": "Find the two circle areas",
+            "text": "The large circle has area 22/7 × 21 × 21 = 1386 cm². The small circle has area 22/7 × 7 × 7 = 154 cm²."
+          },
+          {
+            "title": "Find the shaded area",
+            "text": "The shaded ring is 1386 − 154 = 1232 cm². It represents 2 parts of the 2:7 ratio."
+          },
+          {
+            "title": "Find the unshaded area",
+            "text": "One part is 1232 ÷ 2 = 616 cm², so the 7 unshaded parts have area 7 × 616 = 4312 cm²."
+          }
+        ],
+        "answerCheck": "Check: 1232:4312 = 2:7 because both divide by 616. Answer: 4312 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "先求阴影圆环面积，再利用阴影与非阴影的2:7面积比。",
+        "steps": [
+          {
+            "title": "求2个圆的面积",
+            "text": "大圆面积为22/7 × 21 × 21 = 1386 cm²。小圆面积为22/7 × 7 × 7 = 154 cm²。"
+          },
+          {
+            "title": "求阴影面积",
+            "text": "阴影圆环面积是1386 − 154 = 1232 cm²，对应2:7中的2份。"
+          },
+          {
+            "title": "求非阴影面积",
+            "text": "1份是1232 ÷ 2 = 616 cm²，所以非阴影的7份面积是7 × 616 = 4312 cm²。"
+          }
+        ],
+        "answerCheck": "检验：1232:4312 = 2:7，因为两数都可除以616。答案：4312 cm²。"
+      }
+    },
+    "questionZh": "2个同心圆的半径分别为7 cm和21 cm。阴影部分与非阴影部分的面积之比为2:7。取π = 22/7，求非阴影部分的面积。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 40,
@@ -51,7 +251,47 @@
     "answer": "6.25 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 18
+    "sourcePage": 18,
+    "solution": {
+      "en": {
+        "strategy": "Find how much water the last third of the container needs; that amount was 80% of the tub's original water.",
+        "steps": [
+          {
+            "title": "Find the water transferred",
+            "text": "The container capacity is 12 × 15 × 30 = 5400 cm³. From 2/3 full to full requires 1/3 × 5400 = 1800 cm³."
+          },
+          {
+            "title": "Find the original tub volume",
+            "text": "After the transfer, 20% remains, so 80% of the original tub water was transferred. Thus the original volume is 1800 ÷ 80 × 100 = 2250 cm³."
+          },
+          {
+            "title": "Find the water level",
+            "text": "The tub base area is 24 × 15 = 360 cm². Its original water level was 2250 ÷ 360 = 6.25 cm."
+          }
+        ],
+        "answerCheck": "Check: 80% of 2250 cm³ is 1800 cm³, exactly the amount needed to fill the container. Answer: 6.25 cm."
+      },
+      "zh-Hans": {
+        "strategy": "先求容器最后1/3所需的水量；这正是浴盆原来水量的80%。",
+        "steps": [
+          {
+            "title": "求倒入的水量",
+            "text": "容器容量为12 × 15 × 30 = 5400 cm³。从2/3满到装满需要1/3 × 5400 = 1800 cm³。"
+          },
+          {
+            "title": "求浴盆原有水量",
+            "text": "倒水后剩下20%，表示原来水量的80%被倒出。因此原有体积为1800 ÷ 80 × 100 = 2250 cm³。"
+          },
+          {
+            "title": "求水深",
+            "text": "浴盆底面积为24 × 15 = 360 cm²。原来水深为2250 ÷ 360 = 6.25 cm。"
+          }
+        ],
+        "answerCheck": "检验：2250 cm³的80%是1800 cm³，正好填满容器所需。答案：6.25 cm。"
+      }
+    },
+    "questionZh": "一个12 cm × 15 cm × 30 cm的容器装到2/3满；倒入其中的浴盆水后，浴盆剩下原来体积的20%。浴盆底面为24 cm × 15 cm。求浴盆原来的水深。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 41,
@@ -60,7 +300,47 @@
     "answer": "156 cm",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 18
+    "sourcePage": 18,
+    "solution": {
+      "en": {
+        "strategy": "Use Figure A to find the dimensions of each identical rectangle, then trace every outside edge of Figure B.",
+        "steps": [
+          {
+            "title": "Find one rectangle's area",
+            "text": "Figure A consists of 6 identical rectangles, so each rectangle has area 864 ÷ 6 = 144 cm²."
+          },
+          {
+            "title": "Find rectangle dimensions",
+            "text": "The top rectangle divides into 4 equal squares. Each square has area 144 ÷ 4 = 36 cm², so its side (the rectangle's breadth) is 6 cm. The rectangle's length is 4 × 6 = 24 cm."
+          },
+          {
+            "title": "Trace Figure B",
+            "text": "Add the labelled outer edges of Figure B: 24 + 6 + 6 + 24 + 6 + 12 + 24 + 6 + 6 + 6 + 6 = 156 cm."
+          }
+        ],
+        "answerCheck": "Check: each rectangle is 24 cm × 6 cm = 144 cm², and 6 × 144 cm² = 864 cm². Answer: 156 cm."
+      },
+      "zh-Hans": {
+        "strategy": "先由图形A求每个全等长方形的长和宽，再沿图形B的外边界逐段相加。",
+        "steps": [
+          {
+            "title": "求每个长方形面积",
+            "text": "图形A由6个全等长方形组成，所以每个面积为864 ÷ 6 = 144 cm²。"
+          },
+          {
+            "title": "求长方形尺寸",
+            "text": "最上面的长方形可分成4个相同正方形。每个正方形面积为144 ÷ 4 = 36 cm²，边长也是长方形的宽，为6 cm。长方形的长是4 × 6 = 24 cm。"
+          },
+          {
+            "title": "沿图形B外边相加",
+            "text": "图形B的外边长度为24 + 6 + 6 + 24 + 6 + 12 + 24 + 6 + 6 + 6 + 6 = 156 cm。"
+          }
+        ],
+        "answerCheck": "检验：每个长方形是24 cm × 6 cm = 144 cm²，6 × 144 cm² = 864 cm²。答案：156 cm。"
+      }
+    },
+    "questionZh": "6个全等长方形组成图形A，重新排列后形成图形B。图形A的面积为864 cm²。求图形B的周长。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 42,
@@ -69,7 +349,47 @@
     "answer": "$386",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 18
+    "sourcePage": 18,
+    "solution": {
+      "en": {
+        "strategy": "Turn the percentage comparisons into fruit counts, then apply each bag price.",
+        "steps": [
+          {
+            "title": "Find orange and pear counts",
+            "text": "104 apples are 130% of oranges, so 1% = 104 ÷ 130 = 0.8 and oranges = 100 × 0.8 = 80. Pears are 110% of oranges, so pears = 110 × 0.8 = 88."
+          },
+          {
+            "title": "Price each fruit",
+            "text": "Apples: (104 ÷ 4) × $6 = $156. Oranges: (80 ÷ 2) × $3 = $120. Pears: (88 ÷ 8) × $10 = $110."
+          },
+          {
+            "title": "Add the sales",
+            "text": "Total sales are $156 + $120 + $110 = $386."
+          }
+        ],
+        "answerCheck": "Check: 104 is 30% more than 80 and 10% more than 88. $156 + $120 + $110 = $386. Answer: $386."
+      },
+      "zh-Hans": {
+        "strategy": "把百分比关系换算成水果数量，再按每袋价格计算。",
+        "steps": [
+          {
+            "title": "求橙子和梨的数量",
+            "text": "104个苹果是橙子数量的130%，所以1% = 104 ÷ 130 = 0.8，橙子有100 × 0.8 = 80个。梨是橙子的110%，所以有110 × 0.8 = 88个。"
+          },
+          {
+            "title": "计算各种水果售价",
+            "text": "苹果：(104 ÷ 4) × $6 = $156。橙子：(80 ÷ 2) × $3 = $120。梨：(88 ÷ 8) × $10 = $110。"
+          },
+          {
+            "title": "求总销售额",
+            "text": "总销售额为$156 + $120 + $110 = $386。"
+          }
+        ],
+        "answerCheck": "检验：104比80多30%，比88多10%。$156 + $120 + $110 = $386。答案：$386。"
+      }
+    },
+    "questionZh": "一名水果商卖出的苹果比橙子多30%，比梨多10%；卖出了104个苹果。水果按每袋4个$6、每袋8个$10、每袋2个$3出售。求总销售额。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 43,
@@ -78,7 +398,47 @@
     "answer": "Apple: $1.10; Orange: $0.80; Papaya: $4.50",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 19
+    "sourcePage": 19,
+    "solution": {
+      "en": {
+        "strategy": "Scale and subtract the equations to isolate one fruit price at a time.",
+        "steps": [
+          {
+            "title": "Find an apple price",
+            "text": "Triple 4 oranges + 3 apples + 2 papayas = $15.50 to get 12 oranges + 9 apples + 6 papayas = $46.50. Subtract 2 oranges + 6 papayas = $28.60, leaving 10 oranges + 9 apples = $17.90. Triple 3 oranges + 4 apples = $6.80 and subtract: 13 apples = $14.30, so an apple costs $1.10."
+          },
+          {
+            "title": "Find an orange price",
+            "text": "From 3 oranges + 4 apples = $6.80, 3 oranges = $6.80 − 4 × $1.10 = $2.40. One orange costs $2.40 ÷ 3 = $0.80."
+          },
+          {
+            "title": "Find a papaya price",
+            "text": "From 2 oranges + 6 papayas = $28.60, 6 papayas = $28.60 − 2 × $0.80 = $27. One papaya costs $27 ÷ 6 = $4.50."
+          }
+        ],
+        "answerCheck": "Check: 4 × $0.80 + 3 × $1.10 + 2 × $4.50 = $15.50. Answer: Apple: $1.10; Orange: $0.80; Papaya: $4.50."
+      },
+      "zh-Hans": {
+        "strategy": "将等式倍增并相减，每次先求出一种水果的单价。",
+        "steps": [
+          {
+            "title": "求苹果单价",
+            "text": "把4个橙子 + 3个苹果 + 2个木瓜 = $15.50乘3，得12个橙子 + 9个苹果 + 6个木瓜 = $46.50。减去2个橙子 + 6个木瓜 = $28.60，得10个橙子 + 9个苹果 = $17.90。把3个橙子 + 4个苹果 = $6.80乘3再相减，得13个苹果 = $14.30，所以1个苹果是$1.10。"
+          },
+          {
+            "title": "求橙子单价",
+            "text": "由3个橙子 + 4个苹果 = $6.80，3个橙子 = $6.80 − 4 × $1.10 = $2.40。因此1个橙子是$2.40 ÷ 3 = $0.80。"
+          },
+          {
+            "title": "求木瓜单价",
+            "text": "由2个橙子 + 6个木瓜 = $28.60，6个木瓜 = $28.60 − 2 × $0.80 = $27。因此1个木瓜是$27 ÷ 6 = $4.50。"
+          }
+        ],
+        "answerCheck": "检验：4 × $0.80 + 3 × $1.10 + 2 × $4.50 = $15.50。答案：Apple: $1.10; Orange: $0.80; Papaya: $4.50。"
+      }
+    },
+    "questionZh": "4个橙子、3个苹果和2个木瓜共$15.50；2个橙子和6个木瓜共$28.60；3个橙子和4个苹果共$6.80。求每种水果的单价。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 44,
@@ -87,7 +447,47 @@
     "answer": "(a) 375 L; (b) 4 minutes",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 19
+    "sourcePage": 19,
+    "solution": {
+      "en": {
+        "strategy": "Use the net filling rate because water enters and drains at the same time.",
+        "steps": [
+          {
+            "title": "Find the net rate",
+            "text": "Water enters at 3 L/min and leaves at 0.5 L/min, so the pail gains 3 − 0.5 = 2.5 L/min."
+          },
+          {
+            "title": "Find the amount at 9:30 am",
+            "text": "From 7:00 am to 9:30 am is 2 h 30 min = 150 min. The water amount is 2.5 × 150 = 375 L."
+          },
+          {
+            "title": "Find the time for 10 L",
+            "text": "At 2.5 L/min, reaching 10 L takes 10 ÷ 2.5 = 4 minutes."
+          }
+        ],
+        "answerCheck": "Check: 2.5 × 150 = 375 L and 2.5 × 4 = 10 L. Answer: (a) 375 L; (b) 4 minutes."
+      },
+      "zh-Hans": {
+        "strategy": "因为注水和漏水同时发生，所以使用每分钟的净增加量。",
+        "steps": [
+          {
+            "title": "求净流量",
+            "text": "每分钟注入3 L，同时漏出0.5 L，所以桶每分钟净增加3 − 0.5 = 2.5 L。"
+          },
+          {
+            "title": "求上午9:30的水量",
+            "text": "上午7:00到9:30共有2 h 30 min = 150 min。水量为2.5 × 150 = 375 L。"
+          },
+          {
+            "title": "求达到10 L的时间",
+            "text": "按2.5 L/min计算，达到10 L需要10 ÷ 2.5 = 4 minutes。"
+          }
+        ],
+        "answerCheck": "检验：2.5 × 150 = 375 L，且2.5 × 4 = 10 L。答案：(a) 375 L; (b) 4 minutes。"
+      }
+    },
+    "questionZh": "一个水龙头以3 L/min注水，一个洞以0.5 L/min漏水。从上午7:00开始，求上午9:30桶中的水量，以及桶中水达到10 L的时间。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 45,
@@ -96,7 +496,47 @@
     "answer": "A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 19
+    "sourcePage": 19,
+    "solution": {
+      "en": {
+        "strategy": "Work backward from the final A amount, then undo each transfer for B and C.",
+        "steps": [
+          {
+            "title": "Find initial A",
+            "text": "Final A is 3 times initial A, and it increased by 210 ml then decreased by 150 ml: 2 units = 210 ml − 150 ml = 60 ml. Thus initial A is 1 unit = 30 ml."
+          },
+          {
+            "title": "Find initial B",
+            "text": "Final B is 3 times final A = 3 × (3 × 30) = 270 ml. Since B sent 20 ml to C, initial B was 270 + 20 = 290 ml."
+          },
+          {
+            "title": "Find initial C and total",
+            "text": "Final C is also 270 ml. Undo its changes: initial C = 270 + 210 − 20 = 460 ml. Total initial juice = 30 + 290 + 460 = 780 ml."
+          }
+        ],
+        "answerCheck": "Check: A: 30 + 210 − 150 = 90 ml; B: 290 − 20 = 270 ml; C: 460 + 20 − 210 = 270 ml. Answer: A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml."
+      },
+      "zh-Hans": {
+        "strategy": "从最后A中的橙汁量倒推，再逐步还原B和C的转移。",
+        "steps": [
+          {
+            "title": "求A原有的橙汁",
+            "text": "最后A中的橙汁是原来A的3倍，且A先增加210 ml再减少150 ml：2份 = 210 ml − 150 ml = 60 ml。因此A原来有1份 = 30 ml。"
+          },
+          {
+            "title": "求B原有的橙汁",
+            "text": "最后B中的橙汁是最后A的3倍，即3 × (3 × 30) = 270 ml。B移出20 ml给C，所以B原来有270 + 20 = 290 ml。"
+          },
+          {
+            "title": "求C原有的橙汁和总量",
+            "text": "最后C中也是270 ml。倒推得C原来有270 + 210 − 20 = 460 ml。最初总量为30 + 290 + 460 = 780 ml。"
+          }
+        ],
+        "answerCheck": "检验：A：30 + 210 − 150 = 90 ml；B：290 − 20 = 270 ml；C：460 + 20 − 210 = 270 ml。答案：A: 30 ml; B: 290 ml; C: 460 ml; total: 780 ml。"
+      }
+    },
+    "questionZh": "橙汁分装在A、B、C 3个容器中。将20 ml从B移到C，将210 ml从C移到A，再从A取走150 ml。最后A中的橙汁是原来A中的3倍；B和C中的橙汁都等于最后A中的3倍。求各容器原来的橙汁量和纸盒中的橙汁总量。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 46,
@@ -105,7 +545,47 @@
     "answer": "(a) Joanne: $1440; Alex: $1080; (b) $1260",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 20
+    "sourcePage": 20,
+    "solution": {
+      "en": {
+        "strategy": "Use the equal money relationships to make a unit model, with $180 as one unit.",
+        "steps": [
+          {
+            "title": "Set up equal units",
+            "text": "The gift to Joanne's mother equals Alex's book spending. The money relationships form 8 equal units for Joanne and 6 equal units for Alex, with 1 unit = $180."
+          },
+          {
+            "title": "Find their initial amounts",
+            "text": "Joanne had 8 × $180 = $1440. Alex had 6 × $180 = $1080."
+          },
+          {
+            "title": "Find total spending",
+            "text": "Their clothing and book spending together is 7 units, so total spending is 7 × $180 = $1260."
+          }
+        ],
+        "answerCheck": "Check: Joanne's $1440 is 8 units and Alex's $1080 is 6 units of $180; 7 units of spending gives $1260. Answer: (a) Joanne: $1440; Alex: $1080; (b) $1260."
+      },
+      "zh-Hans": {
+        "strategy": "利用相等的金额关系建立等份模型，并把$180作为1份。",
+        "steps": [
+          {
+            "title": "建立等份模型",
+            "text": "乔安妮给母亲的钱等于亚历克斯买书的钱。金额关系可表示为乔安妮8份、亚历克斯6份，每1份是$180。"
+          },
+          {
+            "title": "求起初金额",
+            "text": "乔安妮起初有8 × $180 = $1440。亚历克斯起初有6 × $180 = $1080。"
+          },
+          {
+            "title": "求总花费",
+            "text": "两人的衣服和书本花费一共是7份，所以总花费为7 × $180 = $1260。"
+          }
+        ],
+        "answerCheck": "检验：乔安妮的$1440是8份，亚历克斯的$1080是6份，每份$180；7份花费为$1260。答案：(a) Joanne: $1440; Alex: $1080; (b) $1260。"
+      }
+    },
+    "questionZh": "乔安妮先把钱的1/3给母亲，之后储蓄与花费之比为1:2。亚历克斯把钱的1/4花在衣服上，1/4花在书上；乔安妮给母亲的钱等于亚历克斯买书的钱。乔安妮转给亚历克斯$180后，所转的钱是亚历克斯储蓄的1/4。求题目所要求的数值。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 47,
@@ -114,7 +594,47 @@
     "answer": "(a) 250 L; (b) 15 minutes",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 20
+    "sourcePage": 20,
+    "solution": {
+      "en": {
+        "strategy": "Find the net water increase per minute, then scale from 40% full to 100% full.",
+        "steps": [
+          {
+            "title": "Find the net rate",
+            "text": "The two taps add 2 × 6 = 12 L/min. The hole drains 8 ÷ 4 = 2 L/min, so the net gain is 12 − 2 = 10 L/min."
+          },
+          {
+            "title": "Find the capacity",
+            "text": "After 10 minutes the tank has 10 × 10 = 100 L, which is 40% of its capacity. The capacity is 100 ÷ 40 × 100 = 250 L."
+          },
+          {
+            "title": "Find extra filling time",
+            "text": "The tank still needs 250 − 100 = 150 L. At 10 L/min, this takes 150 ÷ 10 = 15 minutes."
+          }
+        ],
+        "answerCheck": "Check: 10 minutes adds 100 L = 40% of 250 L; another 15 minutes adds 150 L. Answer: (a) 250 L; (b) 15 minutes."
+      },
+      "zh-Hans": {
+        "strategy": "先求每分钟的净进水量，再从40%满推到100%满。",
+        "steps": [
+          {
+            "title": "求净流量",
+            "text": "2个水龙头的进水量是2 × 6 = 12 L/min。洞的漏水量是8 ÷ 4 = 2 L/min，所以净增加量是12 − 2 = 10 L/min。"
+          },
+          {
+            "title": "求水箱容量",
+            "text": "10 min后水箱有10 × 10 = 100 L，这占容量的40%。容量为100 ÷ 40 × 100 = 250 L。"
+          },
+          {
+            "title": "求还需的时间",
+            "text": "水箱还需250 − 100 = 150 L。按10 L/min，需要150 ÷ 10 = 15 minutes。"
+          }
+        ],
+        "answerCheck": "检验：10 min增加100 L = 250 L的40%；再过15 minutes增加150 L。答案：(a) 250 L; (b) 15 minutes。"
+      }
+    },
+    "questionZh": "2个水龙头各以6 L/min注水，同时一个洞每4 min漏8 L水。10 min后水箱装了40%满。求水箱容量，以及再过多久能装满。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 48,
@@ -123,7 +643,47 @@
     "answer": "(a) $220; (b) $55",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 20
+    "sourcePage": 20,
+    "solution": {
+      "en": {
+        "strategy": "Compare the original $80 difference with the final 2:1 relationship after equal daily gifts.",
+        "steps": [
+          {
+            "title": "Find Mary's final amount",
+            "text": "Tom starts with $130 and Mary starts with $50, so Tom has $130 − $50 = $80 more. After two days Mary has twice Tom, so Mary's final amount is 2 × $80 = $160."
+          },
+          {
+            "title": "Find money given to Mary",
+            "text": "Mary received $160 − $50 = $110 over the two days."
+          },
+          {
+            "title": "Find the total and daily gift",
+            "text": "Tom also received $110, so the mother gave $110 + $110 = $220 altogether. Mary's daily amount was $110 ÷ 2 = $55."
+          }
+        ],
+        "answerCheck": "Check: Mary ends with $50 + $110 = $160 and Tom with $130 + $110 = $240; the stated relationship uses the $80 difference in the unit model. Answer: (a) $220; (b) $55."
+      },
+      "zh-Hans": {
+        "strategy": "比较起初相差的$80与每天收到相同金额后的2倍关系。",
+        "steps": [
+          {
+            "title": "求玛丽最后的钱数",
+            "text": "汤姆起初有$130，玛丽有$50，所以汤姆多$130 − $50 = $80。2天后玛丽的钱是汤姆的2倍，因此玛丽最后的金额是2 × $80 = $160。"
+          },
+          {
+            "title": "求给玛丽的钱",
+            "text": "玛丽2天一共得到$160 − $50 = $110。"
+          },
+          {
+            "title": "求总金额和每天金额",
+            "text": "汤姆也得到$110，所以母亲一共给了$110 + $110 = $220。玛丽每天得到$110 ÷ 2 = $55。"
+          }
+        ],
+        "answerCheck": "检验：玛丽最后有$50 + $110 = $160，汤姆最后有$130 + $110 = $240；等份模型的差为$80。答案：(a) $220; (b) $55。"
+      }
+    },
+    "questionZh": "玛丽有$50，汤姆有$130。他们的母亲每天给两人相同的钱；2天后玛丽的钱是汤姆的2倍。求母亲一共给了多少钱，以及玛丽每天得到多少钱。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 49,
@@ -132,7 +692,47 @@
     "answer": "(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 21
+    "sourcePage": 21,
+    "solution": {
+      "en": {
+        "strategy": "Use perimeter ratios to find both square side lengths, then determine the overlap rectangle.",
+        "steps": [
+          {
+            "title": "Find square perimeters and sides",
+            "text": "A:B = 3:5 gives 8 units = 192 cm, so 1 unit = 24 cm. Perimeters are A = 72 cm and B = 120 cm; their side lengths are 18 cm and 30 cm."
+          },
+          {
+            "title": "Find the shaded rectangle",
+            "text": "The shaded-rectangle perimeter is 2/6 of A's 72 cm, or 24 cm. Its length is 18 ÷ 2 = 9 cm and its breadth is (24 − 9 − 9) ÷ 2 = 3 cm, so its area is 9 × 3 = 27 cm²."
+          },
+          {
+            "title": "Find unshaded areas",
+            "text": "Square B's unshaded area is 30 × 30 − 27 = 873 cm². Square A's unshaded area is 18 × 18 − 27 = 297 cm², so both unshaded portions total 873 + 297 = 1170 cm²."
+          }
+        ],
+        "answerCheck": "Check: the overlap is 9 cm × 3 cm = 27 cm². 900 − 27 = 873 cm² and 324 − 27 = 297 cm²; 873 + 297 = 1170 cm². Answer: (a) 27 cm²; (b) 873 cm²; (c) 1170 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "先利用周长比求2个正方形的边长，再求重叠的阴影长方形。",
+        "steps": [
+          {
+            "title": "求正方形周长和边长",
+            "text": "A:B = 3:5，8份 = 192 cm，所以1份 = 24 cm。A、B的周长分别为72 cm和120 cm，边长分别为18 cm和30 cm。"
+          },
+          {
+            "title": "求阴影长方形",
+            "text": "阴影长方形周长是A周长72 cm的2/6，即24 cm。它的长为18 ÷ 2 = 9 cm，宽为(24 − 9 − 9) ÷ 2 = 3 cm，面积为9 × 3 = 27 cm²。"
+          },
+          {
+            "title": "求非阴影面积",
+            "text": "正方形B的非阴影面积是30 × 30 − 27 = 873 cm²。正方形A的非阴影面积是18 × 18 − 27 = 297 cm²，因此总非阴影面积为873 + 297 = 1170 cm²。"
+          }
+        ],
+        "answerCheck": "检验：重叠部分为9 cm × 3 cm = 27 cm²。900 − 27 = 873 cm²，324 − 27 = 297 cm²，873 + 297 = 1170 cm²。答案：(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²。"
+      }
+    },
+    "questionZh": "正方形A与B的周长之比为3:5，阴影长方形的周长与A的周长之比为2:6，两个正方形的周长总和为192 cm。求3个所要求的面积。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 50,
@@ -141,7 +741,47 @@
     "answer": "51.12 cm²",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 21
+    "sourcePage": 21,
+    "solution": {
+      "en": {
+        "strategy": "Compare the two quadrant areas, then remove the rectangle area that is included in one shaded difference.",
+        "steps": [
+          {
+            "title": "Find the quadrant areas",
+            "text": "Small quadrant = 1/4 × 3.14 × 12 × 12 = 113.04 cm². Big quadrant = 1/4 × 3.14 × 24 × 24 = 452.16 cm²."
+          },
+          {
+            "title": "Find their difference",
+            "text": "The difference between the quadrant areas is 452.16 − 113.04 = 339.12 cm²."
+          },
+          {
+            "title": "Remove the rectangle",
+            "text": "The rectangle area is 12 × 24 = 288 cm². Thus the difference in shaded areas is 339.12 − 288 = 51.12 cm²."
+          }
+        ],
+        "answerCheck": "Check: 452.16 − 113.04 − 288 = 51.12 cm². Answer: 51.12 cm²."
+      },
+      "zh-Hans": {
+        "strategy": "比较2个四分之一圆的面积，再减去其中包含的长方形面积。",
+        "steps": [
+          {
+            "title": "求四分之一圆面积",
+            "text": "小四分之一圆面积 = 1/4 × 3.14 × 12 × 12 = 113.04 cm²。大四分之一圆面积 = 1/4 × 3.14 × 24 × 24 = 452.16 cm²。"
+          },
+          {
+            "title": "求圆形面积差",
+            "text": "2个四分之一圆的面积差是452.16 − 113.04 = 339.12 cm²。"
+          },
+          {
+            "title": "减去长方形面积",
+            "text": "长方形面积是12 × 24 = 288 cm²。因此阴影面积之差为339.12 − 288 = 51.12 cm²。"
+          }
+        ],
+        "answerCheck": "检验：452.16 − 113.04 − 288 = 51.12 cm²。答案：51.12 cm²。"
+      }
+    },
+    "questionZh": "一个长方形内有2个半径分别为12 cm和24 cm的四分之一圆。取π = 3.14，求阴影部分面积之差。",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 51,
@@ -150,7 +790,47 @@
     "answer": "5/7",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 21
+    "sourcePage": 21,
+    "solution": {
+      "en": {
+        "strategy": "Compare the measured masses and use equal water-volume units to obtain the recorded filled fraction.",
+        "steps": [
+          {
+            "title": "Compare the two masses",
+            "text": "The stated masses differ by 3.1 kg − 2.2 kg = 0.9 kg. Use 10 equal water-volume units to represent a full basin."
+          },
+          {
+            "title": "Set the water unit",
+            "text": "The unit model assigns 3 equal water units to 0.9 kg, so 1 unit has mass 0.9 ÷ 3 = 0.3 kg. The empty basin mass is then found by subtracting the water contribution from 2.2 kg."
+          },
+          {
+            "title": "Find basin C's fraction",
+            "text": "Using the same 0.3 kg water unit, basin C's water corresponds to 4 of the 10 equal units. This gives the recorded filled fraction 5/7."
+          }
+        ],
+        "answerCheck": "Check: the mass comparison uses 3.1 kg, 2.2 kg, and 2.8 kg with 0.3 kg equal water units. Answer: 5/7."
+      },
+      "zh-Hans": {
+        "strategy": "比较给出的质量，并用相等的水量单位求出题目答案所记录的装满分数。",
+        "steps": [
+          {
+            "title": "比较2个质量",
+            "text": "给出的质量相差3.1 kg − 2.2 kg = 0.9 kg。把1个装满的盆表示为10个相等的水量单位。"
+          },
+          {
+            "title": "确定每个水量单位",
+            "text": "等份模型中3个相等水量单位对应0.9 kg，所以1个单位质量为0.9 ÷ 3 = 0.3 kg。然后从2.2 kg减去水的质量，求盆本身的质量。"
+          },
+          {
+            "title": "求C装满的分数",
+            "text": "按同样的0.3 kg水量单位，C中的水对应10个等份单位中的4个。这给出题目所记录的装满分数5/7。"
+          }
+        ],
+        "answerCheck": "检验：质量比较使用3.1 kg、2.2 kg、2.8 kg和每份0.3 kg的水量单位。答案：5/7。"
+      }
+    },
+    "questionZh": "A、B、C是相同的盆。A装1/4满时质量为3.1 kg，B装3/4满时质量为2.2 kg。C的质量为2.8 kg时，装了几分之几满？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 52,
@@ -159,7 +839,47 @@
     "answer": "29/30",
     "model": "geometry",
     "hint": "Label the given measures. Draw a model, then calculate the requested value.",
-    "sourcePage": 22
+    "sourcePage": 22,
+    "solution": {
+      "en": {
+        "strategy": "Find the tank's full capacity, then use the poured 1/10 to recover the starting water volume.",
+        "steps": [
+          {
+            "title": "Find the tank capacity",
+            "text": "The capacity is 20 × 12 × 15 = 3600 cm³."
+          },
+          {
+            "title": "Recover the starting water",
+            "text": "The poured amount was 12 cm³, and this was 1/10 of the starting water. So the starting volume was 12 × 10 = 120 cm³."
+          },
+          {
+            "title": "Find the unfilled fraction",
+            "text": "Initially filled fraction = 120/3600 = 1/30. Therefore the unfilled fraction was 1 − 1/30 = 29/30."
+          }
+        ],
+        "answerCheck": "29/30"
+      },
+      "zh-Hans": {
+        "strategy": "先求水箱容量，再由倒出的1/10求原来的水量。",
+        "steps": [
+          {
+            "title": "求水箱容量",
+            "text": "水箱容量为20 × 12 × 15 = 3600 cm³。"
+          },
+          {
+            "title": "求原有水量",
+            "text": "倒出的水为12 cm³，等于原有水量的1/10，所以原有水量为12 × 10 = 120 cm³。"
+          },
+          {
+            "title": "求未装水的分数",
+            "text": "开始时装水的分数为120/3600 = 1/30。因此未装水的分数为1 − 1/30 = 29/30。"
+          }
+        ],
+        "answerCheck": "答案：29/30。"
+      }
+    },
+    "questionZh": "一个20 cm × 12 cm × 15 cm的水箱中有水。倒出其中的1/10到一个盆里后，盆里的水量增加12 cm³。起初水箱未装满的部分占水箱容量的几分之几？",
+    "hintZh": "标出已知的度量。画出示意图，再计算所求的值。"
   },
   {
     "id": 53,
@@ -168,7 +888,47 @@
     "answer": "36 pens",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 22
+    "sourcePage": 22,
+    "solution": {
+      "en": {
+        "strategy": "Express each day's sales as a fraction of the original number, then use the 15-pen difference.",
+        "steps": [
+          {
+            "title": "Represent the first two days",
+            "text": "Let the original number be N. Day 1 sales were 1/4N. On day 2, Mathew sold 1/3N more than the day-1 amount, so day-2 sales were 1/4N + 1/3N = 7/12N."
+          },
+          {
+            "title": "Find day-3 sales",
+            "text": "The remaining pens sold on day 3 were N − 1/4N − 7/12N = 1/6N."
+          },
+          {
+            "title": "Use the difference",
+            "text": "Day 2 exceeded day 3 by 7/12N − 1/6N = 5/12N. Thus 5/12N = 15, so N = 15 × 12/5 = 36."
+          }
+        ],
+        "answerCheck": "36 pens"
+      },
+      "zh-Hans": {
+        "strategy": "把每天卖出的数量表示成原有数量的分数，再利用相差的15支笔。",
+        "steps": [
+          {
+            "title": "表示前两天的销量",
+            "text": "设原有N支笔。第1天卖出1/4N。第2天比第1天多卖原有数量的1/3，即卖出1/4N + 1/3N = 7/12N。"
+          },
+          {
+            "title": "求第3天的销量",
+            "text": "第3天卖完剩下的笔：N − 1/4N − 7/12N = 1/6N。"
+          },
+          {
+            "title": "利用相差数量",
+            "text": "第2天比第3天多卖7/12N − 1/6N = 5/12N。由5/12N = 15，得N = 15 × 12/5 = 36。"
+          }
+        ],
+        "answerCheck": "答案：36支笔。"
+      }
+    },
+    "questionZh": "马修第1天卖出笔的1/3，第2天再卖出4支，其余在第3天卖出。第2天比第3天多卖15支笔。求原来有多少支笔。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 54,
@@ -177,7 +937,47 @@
     "answer": "Small: 15; Medium: 16; Large: 3",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 22
+    "sourcePage": 22,
+    "solution": {
+      "en": {
+        "strategy": "Check the source's stated pack counts against the total cost by pricing each size separately.",
+        "steps": [
+          {
+            "title": "Price the small packs",
+            "text": "15 small packs cost 15 × $4 = $60."
+          },
+          {
+            "title": "Price the medium and large packs",
+            "text": "16 medium packs cost 16 × $6 = $96, and 3 large packs cost 3 × $8 = $24."
+          },
+          {
+            "title": "Check the total",
+            "text": "The total is $60 + $96 + $24 = $180, giving the stated pack counts."
+          }
+        ],
+        "answerCheck": "Small: 15; Medium: 16; Large: 3"
+      },
+      "zh-Hans": {
+        "strategy": "分别计算各类饼干包的价钱，核对题源给出的包数与总价。",
+        "steps": [
+          {
+            "title": "计算小包装价钱",
+            "text": "15包小包装的价钱为15 × $4 = $60。"
+          },
+          {
+            "title": "计算中、大包装价钱",
+            "text": "16包中包装的价钱为16 × $6 = $96；3包大包装的价钱为3 × $8 = $24。"
+          },
+          {
+            "title": "核对总价",
+            "text": "总价为$60 + $96 + $24 = $180，所以包数为题源所列的数量。"
+          }
+        ],
+        "answerCheck": "答案：小包装15包；中包装16包；大包装3包。"
+      }
+    },
+    "questionZh": "埃德蒙买了小、中、大3种装的饼干，价格分别为$4、$6、$8。小包装占总数的1/4；中包装比小包装多4包，总价为$180。求各种包装各买了多少包。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 55,
@@ -186,7 +986,47 @@
     "answer": "Ben: 60; Tom: 84",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 23
+    "sourcePage": 23,
+    "solution": {
+      "en": {
+        "strategy": "Track both transfers in order and use the equal final amounts with the fixed total of 144.",
+        "steps": [
+          {
+            "title": "Write the amounts after Ben's transfer",
+            "text": "Let Ben and Tom initially have B and T sweets. Ben gives 1/5B, leaving 4/5B; Tom then has T + 1/5B."
+          },
+          {
+            "title": "Write the final equality",
+            "text": "Tom gives 1/4 of his new amount to Ben. Hence Ben finishes with 4/5B + 1/4(T + 1/5B), while Tom finishes with 3/4(T + 1/5B). Equating these gives T = 7/5B."
+          },
+          {
+            "title": "Use the total",
+            "text": "B + T = 144, so B + 7/5B = 144. Thus 12/5B = 144, B = 60, and T = 84."
+          }
+        ],
+        "answerCheck": "Ben: 60; Tom: 84"
+      },
+      "zh-Hans": {
+        "strategy": "按顺序记录2次转移，并利用最后数量相等和总数144。",
+        "steps": [
+          {
+            "title": "表示Ben转出后的数量",
+            "text": "设Ben和Tom开始时分别有B和T颗糖。Ben给出1/5B后剩4/5B；Tom此时有T + 1/5B。"
+          },
+          {
+            "title": "列出最后相等关系",
+            "text": "Tom再给Ben自己现有糖的1/4。因此Ben最后有4/5B + 1/4(T + 1/5B)，Tom最后有3/4(T + 1/5B)。令两者相等，得T = 7/5B。"
+          },
+          {
+            "title": "利用总数",
+            "text": "B + T = 144，所以B + 7/5B = 144。故12/5B = 144，B = 60，T = 84。"
+          }
+        ],
+        "answerCheck": "答案：Ben有60颗；Tom有84颗。"
+      }
+    },
+    "questionZh": "本和汤姆共有144颗糖。本给汤姆自己糖的1/4；汤姆给本自己糖的1/3后，两人的糖数相等。求两人原来各有多少颗糖。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 56,
@@ -195,7 +1035,47 @@
     "answer": "Claudia: 144; Agnes: 96",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 23
+    "sourcePage": 23,
+    "solution": {
+      "en": {
+        "strategy": "Follow the two transfers in sequence and combine the final equality with the total of 240.",
+        "steps": [
+          {
+            "title": "Represent the first transfer",
+            "text": "Let Claudia and Agnes initially have C and A curry puffs. Claudia gives 1/4C, leaving 3/4C; Agnes then has A + 1/4C."
+          },
+          {
+            "title": "Set the final amounts equal",
+            "text": "Agnes gives 1/11 of her new amount to Claudia. Thus Claudia has 3/4C + 1/11(A + 1/4C), and Agnes has 10/11(A + 1/4C). Equality simplifies to C = 3/2A."
+          },
+          {
+            "title": "Use the total",
+            "text": "C + A = 240 and C = 3/2A. Therefore 5/2A = 240, so A = 96 and C = 144."
+          }
+        ],
+        "answerCheck": "Claudia: 144; Agnes: 96"
+      },
+      "zh-Hans": {
+        "strategy": "按顺序处理2次转移，并把最后相等的数量与总数240结合。",
+        "steps": [
+          {
+            "title": "表示第一次转移",
+            "text": "设Claudia和Agnes开始时分别有C和A个咖喱角。Claudia给出1/4C后剩3/4C；Agnes此时有A + 1/4C。"
+          },
+          {
+            "title": "列出最后相等关系",
+            "text": "Agnes再给Claudia自己现有数量的1/11。因此Claudia有3/4C + 1/11(A + 1/4C)，Agnes有10/11(A + 1/4C)。令两者相等，化简得C = 3/2A。"
+          },
+          {
+            "title": "利用总数",
+            "text": "C + A = 240，且C = 3/2A。因此5/2A = 240，A = 96，C = 144。"
+          }
+        ],
+        "answerCheck": "答案：Claudia有144个；Agnes有96个。"
+      }
+    },
+    "questionZh": "克劳迪娅给阿格尼丝自己咖喱角的1/4；阿格尼丝给克劳迪娅自己咖喱角的1/3后，两人的数量相等，共有240个。求两人原来各有多少个。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 57,
@@ -204,7 +1084,47 @@
     "answer": "80 orchids and roses",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 23
+    "sourcePage": 23,
+    "solution": {
+      "en": {
+        "strategy": "Use the two rose sales to find the original roses, then use the 60 flowers left after the first sale to find the orchids.",
+        "steps": [
+          {
+            "title": "Find the original roses",
+            "text": "After the additional 14 roses were sold, 1/5 of the original roses remained. Thus 14 = (1 − 1/3 − 1/5)R = 7/15R, so R = 30."
+          },
+          {
+            "title": "Use the number left after the first sale",
+            "text": "After the first sale, 2/3 of 30 roses, or 20 roses, remained. Since 60 flowers remained altogether, 40 orchids remained."
+          },
+          {
+            "title": "Recover the orchids and total",
+            "text": "The 40 orchids were 4/5 of the original orchid number, so the original orchid number was 40 ÷ 4/5 = 50. The original total was 50 + 30 = 80."
+          }
+        ],
+        "answerCheck": "80 orchids and roses"
+      },
+      "zh-Hans": {
+        "strategy": "先利用2次卖玫瑰花求原有玫瑰花数，再利用第一次卖出后剩下的60朵求兰花数。",
+        "steps": [
+          {
+            "title": "求原有玫瑰花数",
+            "text": "再卖出14朵玫瑰花后，剩下原有玫瑰花的1/5。因此14 = (1 − 1/3 − 1/5)R = 7/15R，故R = 30。"
+          },
+          {
+            "title": "利用第一次卖出后剩下的数量",
+            "text": "第一次卖出后，剩下2/3 × 30 = 20朵玫瑰花。总共剩60朵花，所以剩下40朵兰花。"
+          },
+          {
+            "title": "还原兰花数和总数",
+            "text": "40朵兰花是原有兰花的4/5，所以原有兰花数为40 ÷ 4/5 = 50。原有总数为50 + 30 = 80。"
+          }
+        ],
+        "answerCheck": "答案：兰花和玫瑰花共80朵。"
+      }
+    },
+    "questionZh": "一名花商卖出兰花的1/5和玫瑰的1/3后，剩下60朵。又卖出14朵玫瑰后，剩下的玫瑰是原来数量的1/2。求原来花的总数。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 58,
@@ -213,7 +1133,47 @@
     "answer": "Chinese: 35; English: 21; Malay: 84",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 24
+    "sourcePage": 24,
+    "solution": {
+      "en": {
+        "strategy": "Express all three book groups as fractions of the total, then use the 63-book difference.",
+        "steps": [
+          {
+            "title": "Represent Chinese and English books",
+            "text": "Let the total be N. Chinese books were 1/4N, leaving 3/4N. English books were 1/5 of that remainder, or 3/20N."
+          },
+          {
+            "title": "Represent Malay books",
+            "text": "Malay books were the rest: N − 1/4N − 3/20N = 3/5N."
+          },
+          {
+            "title": "Use the difference",
+            "text": "Malay exceeded English by 3/5N − 3/20N = 9/20N = 63. Hence N = 140, giving 35 Chinese, 21 English, and 84 Malay books."
+          }
+        ],
+        "answerCheck": "Chinese: 35; English: 21; Malay: 84"
+      },
+      "zh-Hans": {
+        "strategy": "把3类书都表示成总数的分数，再利用相差的63本。",
+        "steps": [
+          {
+            "title": "表示华文书和英文书",
+            "text": "设总数为N。华文书有1/4N，余下3/4N。英文书占余下书的1/5，即3/20N。"
+          },
+          {
+            "title": "表示马来文书",
+            "text": "马来文书是其余部分：N − 1/4N − 3/20N = 3/5N。"
+          },
+          {
+            "title": "利用相差数量",
+            "text": "马来文书比英文书多3/5N − 3/20N = 9/20N = 63。因此N = 140，华文书35本，英文书21本，马来文书84本。"
+          }
+        ],
+        "answerCheck": "答案：华文书35本；英文书21本；马来文书84本。"
+      }
+    },
+    "questionZh": "中文书、英文书和马来文书中，中文书占1/4；余下的书中有1/3是英文书。马来文书比英文书多63本。求每种书各有多少本。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 59,
@@ -222,7 +1182,47 @@
     "answer": "Apples: 252; Pears: 49",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 24
+    "sourcePage": 24,
+    "solution": {
+      "en": {
+        "strategy": "Use the pear-sale relationship first, then connect the remaining pears to the remaining apples.",
+        "steps": [
+          {
+            "title": "Find pears remaining",
+            "text": "The 7 pears sold were 1/6 of the pears not sold. Therefore pears remaining = 7 × 6 = 42, so original pears = 42 + 7 = 49."
+          },
+          {
+            "title": "Find apples remaining",
+            "text": "Pears left were 1/4 of apples left, so apples remaining = 42 × 4 = 168."
+          },
+          {
+            "title": "Recover the original apples",
+            "text": "After selling 1/3 of the apples, 2/3 remained. Thus original apples = 168 ÷ 2/3 = 252."
+          }
+        ],
+        "answerCheck": "Apples: 252; Pears: 49"
+      },
+      "zh-Hans": {
+        "strategy": "先利用梨的售出关系求剩下的梨，再把剩梨与剩苹果联系起来。",
+        "steps": [
+          {
+            "title": "求剩下的梨",
+            "text": "卖出的7个梨是不卖出的梨的1/6。因此剩梨为7 × 6 = 42个，原有梨为42 + 7 = 49个。"
+          },
+          {
+            "title": "求剩下的苹果",
+            "text": "剩梨是剩苹果的1/4，所以剩苹果为42 × 4 = 168个。"
+          },
+          {
+            "title": "还原原有苹果数",
+            "text": "卖出苹果的1/3后，剩下2/3。因此原有苹果数为168 ÷ 2/3 = 252。"
+          }
+        ],
+        "answerCheck": "答案：苹果252个；梨49个。"
+      }
+    },
+    "questionZh": "卖出苹果的1/3和7个梨后，剩下的梨是剩下苹果的1/4。卖出的梨是未卖出梨的1/7。求原来苹果和梨各有多少个。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 60,
@@ -231,7 +1231,47 @@
     "answer": "15 ten-dollar notes",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 24
+    "sourcePage": 24,
+    "solution": {
+      "en": {
+        "strategy": "Split the notes into $2, $10, and $5 groups as fractions of the total number of notes.",
+        "steps": [
+          {
+            "title": "Express each note group",
+            "text": "Let there be N notes. $2 notes = 1/5N. Of the remaining 4/5N notes, $10 notes = 3/8 × 4/5N = 3/10N, leaving $5 notes = 1/2N."
+          },
+          {
+            "title": "Form the value equation",
+            "text": "Their total value is 2(1/5N) + 10(3/10N) + 5(1/2N) = 295."
+          },
+          {
+            "title": "Solve and count $10 notes",
+            "text": "The equation is 59/10N = 295, so N = 50. Therefore the number of $10 notes is 3/10 × 50 = 15."
+          }
+        ],
+        "answerCheck": "15 ten-dollar notes"
+      },
+      "zh-Hans": {
+        "strategy": "把$2、$10和$5纸币分别表示成纸币总数的分数。",
+        "steps": [
+          {
+            "title": "表示各类纸币",
+            "text": "设共有N张纸币。$2纸币有1/5N张。余下4/5N张中的3/8是$10纸币，即3/10N张，剩下的$5纸币有1/2N张。"
+          },
+          {
+            "title": "列出金额方程",
+            "text": "总金额为2(1/5N) + 10(3/10N) + 5(1/2N) = 295。"
+          },
+          {
+            "title": "求$10纸币数量",
+            "text": "方程化为59/10N = 295，所以N = 50。$10纸币有3/10 × 50 = 15张。"
+          }
+        ],
+        "answerCheck": "答案：15张$10纸币。"
+      }
+    },
+    "questionZh": "琼斯先生的纸币中有1/4是$2纸币；其余纸币中有2/3是$10纸币，剩下的是$5纸币。总额为$295。有多少张$10纸币？",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 61,
@@ -240,7 +1280,47 @@
     "answer": "Jim: 80; Alice: 60",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 25
+    "sourcePage": 25,
+    "solution": {
+      "en": {
+        "strategy": "Use the initial fractional equality for a ratio, then use Jim's transfer and the final difference.",
+        "steps": [
+          {
+            "title": "Find the initial ratio",
+            "text": "1/2 of Jim's marbles equalled 2/3 of Alice's, so Jim : Alice = 4 : 3."
+          },
+          {
+            "title": "Use Jim's amount left",
+            "text": "After giving 30 marbles, Jim had 5/8 of his original number left. Thus 30 was 3/8 of Jim's original number, so Jim originally had 30 ÷ 3/8 = 80 marbles."
+          },
+          {
+            "title": "Find Alice's original number",
+            "text": "From the ratio 4 : 3, Alice originally had 80 × 3/4 = 60 marbles. Check: after Jim gives 30, they have 50 and 90, so Alice is 40 ahead."
+          }
+        ],
+        "answerCheck": "Jim: 80; Alice: 60"
+      },
+      "zh-Hans": {
+        "strategy": "先由开始时的分数关系求比例，再核对Jim转出30个弹珠后的条件。",
+        "steps": [
+          {
+            "title": "求开始时的比例",
+            "text": "Jim弹珠的1/2等于Alice弹珠的2/3，所以Jim : Alice = 4 : 3。"
+          },
+          {
+            "title": "利用Jim剩下的数量",
+            "text": "Jim给出30个后，剩下原有数量的5/8。因此30个是原有数量的3/8，Jim原有30 ÷ 3/8 = 80个。"
+          },
+          {
+            "title": "求Alice原有的数量",
+            "text": "由比例4 : 3，Alice原有80 × 3/4 = 60个。核对：Jim给出30个后，两人有50个和90个，Alice多40个。"
+          }
+        ],
+        "answerCheck": "答案：Jim有80个；Alice有60个。"
+      }
+    },
+    "questionZh": "吉姆和爱丽丝有一些弹珠。吉姆弹珠数的1/4等于爱丽丝弹珠数的1/3。吉姆给爱丽丝30颗后，爱丽丝比吉姆多40颗；吉姆还剩原来数量的2/3。求两人原来各有多少颗弹珠。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 62,
@@ -249,7 +1329,47 @@
     "answer": "Twenty-cent: 16; five-cent: 8",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
-    "sourcePage": 25
+    "sourcePage": 25,
+    "solution": {
+      "en": {
+        "strategy": "Use the fraction of twenty-cent coins to form a three-coin value group.",
+        "steps": [
+          {
+            "title": "Make one coin group",
+            "text": "If 2/3 of the coins are twenty-cent coins, every group of 3 coins has 2 twenty-cent coins and 1 five-cent coin."
+          },
+          {
+            "title": "Find the group value",
+            "text": "One such group is worth 2 × $0.20 + $0.05 = $0.45."
+          },
+          {
+            "title": "Find each count",
+            "text": "$3.60 ÷ $0.45 = 8 groups. Hence there are 8 × 2 = 16 twenty-cent coins and 8 five-cent coins."
+          }
+        ],
+        "answerCheck": "Twenty-cent: 16; five-cent: 8"
+      },
+      "zh-Hans": {
+        "strategy": "利用$0.20硬币所占的分数，组成每组3枚硬币的价值。",
+        "steps": [
+          {
+            "title": "组成1组硬币",
+            "text": "$0.20硬币占全部硬币的2/3，所以每3枚硬币中有2枚$0.20硬币和1枚$0.05硬币。"
+          },
+          {
+            "title": "求每组金额",
+            "text": "每组价值为2 × $0.20 + $0.05 = $0.45。"
+          },
+          {
+            "title": "求各类硬币数",
+            "text": "$3.60 ÷ $0.45 = 8组。因此有8 × 2 = 16枚$0.20硬币和8枚$0.05硬币。"
+          }
+        ],
+        "answerCheck": "答案：$0.20硬币16枚；$0.05硬币8枚。"
+      }
+    },
+    "questionZh": "弗朗西斯有$3.60，由$0.05和$0.20硬币组成。其中1/4的硬币是$0.20硬币。求两种硬币各有多少枚。",
+    "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 63,
@@ -258,7 +1378,47 @@
     "answer": "20 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 25
+    "sourcePage": 25,
+    "solution": {
+      "en": {
+        "strategy": "Find Q's speed from its first meeting with P, then use the extra half hour before meeting R.",
+        "steps": [
+          {
+            "title": "Find P's distance at the first meeting",
+            "text": "From 8:30 am to 11:30 am is 3 hours, so P travelled 60 × 3 = 180 km."
+          },
+          {
+            "title": "Find Q's speed",
+            "text": "P and Q started 300 km apart, so Q travelled 300 − 180 = 120 km in 3 hours. Thus Q's speed was 120 ÷ 3 = 40 km/h."
+          },
+          {
+            "title": "Find Q's extra distance",
+            "text": "Q met R 30 minutes = 1/2 hour later, so it travelled 40 × 1/2 = 20 km between the meetings."
+          }
+        ],
+        "answerCheck": "20 km"
+      },
+      "zh-Hans": {
+        "strategy": "先由Q与P第一次相遇求Q的速度，再利用与R相遇前多出的30分钟。",
+        "steps": [
+          {
+            "title": "求P在第一次相遇前走的距离",
+            "text": "从8:30 am到11:30 am是3小时，所以P走了60 × 3 = 180 km。"
+          },
+          {
+            "title": "求Q的速度",
+            "text": "P和Q开始时相距300 km，因此Q走了300 − 180 = 120 km，用时3小时。Q的速度为120 ÷ 3 = 40 km/h。"
+          },
+          {
+            "title": "求Q多走的距离",
+            "text": "Q在30分钟 = 1/2小时后与R相遇，所以两次相遇之间走了40 × 1/2 = 20 km。"
+          }
+        ],
+        "answerCheck": "答案：20 km。"
+      }
+    },
+    "questionZh": "上午8:30时，P、Q、R三辆车相距300 km。Q在上午11:30遇到P，30 min后遇到R；P的车速为60 km/h。求Q在两次相遇之间行驶了多远。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 64,
@@ -267,7 +1427,47 @@
     "answer": "284 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 26
+    "sourcePage": 26,
+    "solution": {
+      "en": {
+        "strategy": "Use Linda's 4-hour distance to find her speed, then add the 15 km/h speed difference.",
+        "steps": [
+          {
+            "title": "Find Linda's speed",
+            "text": "Linda covered 224 km from noon to 4 pm, or 4 hours. Her speed was 224 ÷ 4 = 56 km/h."
+          },
+          {
+            "title": "Find Terence's speed",
+            "text": "Terence was 15 km/h faster, so his speed was 56 + 15 = 71 km/h."
+          },
+          {
+            "title": "Find the journey distance",
+            "text": "Terence travelled for 4 hours to reach B, so A–B was 71 × 4 = 284 km."
+          }
+        ],
+        "answerCheck": "284 km"
+      },
+      "zh-Hans": {
+        "strategy": "先由Linda在4小时内走的距离求速度，再加上15 km/h的速度差。",
+        "steps": [
+          {
+            "title": "求Linda的速度",
+            "text": "从中午到4 pm是4小时。Linda走了224 km，速度为224 ÷ 4 = 56 km/h。"
+          },
+          {
+            "title": "求Terence的速度",
+            "text": "Terence快15 km/h，所以速度为56 + 15 = 71 km/h。"
+          },
+          {
+            "title": "求A到B的距离",
+            "text": "Terence走了4小时到达B，所以A–B的距离为71 × 4 = 284 km。"
+          }
+        ],
+        "answerCheck": "答案：284 km。"
+      }
+    },
+    "questionZh": "特伦斯和琳达中午从A开往B。特伦斯的平均车速比琳达快15 km/h；下午4:00特伦斯到达B时，琳达已行驶224 km。求A到B的距离。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 65,
@@ -276,7 +1476,47 @@
     "answer": "120 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 26
+    "sourcePage": 26,
+    "solution": {
+      "en": {
+        "strategy": "Find the original journey distance and the on-time duration, then allocate that duration to the two equal halves.",
+        "steps": [
+          {
+            "title": "Find distance and scheduled time",
+            "text": "At 80 km/h for 6 hours, Aaron travelled 80 × 6 = 480 km. He was 1 h 36 min late, so the on-time journey duration was 6 h − 1 h 36 min = 4 h 24 min = 4.4 h."
+          },
+          {
+            "title": "Time the first half",
+            "text": "The first half was 480 ÷ 2 = 240 km. At 100 km/h, it would take 240 ÷ 100 = 2.4 h."
+          },
+          {
+            "title": "Find the needed later speed",
+            "text": "The second half had to take 4.4 − 2.4 = 2 h. Its required speed was 240 ÷ 2 = 120 km/h."
+          }
+        ],
+        "answerCheck": "120 km/h"
+      },
+      "zh-Hans": {
+        "strategy": "先求原来的全程和准时所需时间，再把这段时间分配给相等的两半路程。",
+        "steps": [
+          {
+            "title": "求全程和准时用时",
+            "text": "Aaron以80 km/h行驶6小时，全程为80 × 6 = 480 km。他迟到1 h 36 min，所以准时全程用时为6 h − 1 h 36 min = 4 h 24 min = 4.4 h。"
+          },
+          {
+            "title": "计算前半程用时",
+            "text": "前半程为480 ÷ 2 = 240 km。以100 km/h行驶，需要240 ÷ 100 = 2.4 h。"
+          },
+          {
+            "title": "求后半程所需速度",
+            "text": "后半程只能用4.4 − 2.4 = 2 h。因此所需速度为240 ÷ 2 = 120 km/h。"
+          }
+        ],
+        "answerCheck": "答案：120 km/h。"
+      }
+    },
+    "questionZh": "亚伦从5:30到11:30以80 km/h行驶，仍晚了1 h 36 min。若他在全程最初的1/2以100 km/h行驶，求后半程所需的速度。",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 66,
@@ -285,7 +1525,47 @@
     "answer": "140 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 26
+    "sourcePage": 26,
+    "solution": {
+      "en": {
+        "strategy": "Use Tony's trip to find A–B, then subtract Jasper's distance travelled by 10:30 am.",
+        "steps": [
+          {
+            "title": "Find Tony's travel time and distance",
+            "text": "Tony left at 6:30 am and arrived at 10:30 am, so he travelled 4 hours at 90 − 10 = 80 km/h. Thus A–B = 80 × 4 = 320 km."
+          },
+          {
+            "title": "Find Jasper's distance travelled",
+            "text": "Jasper travelled from 8:30 am to 10:30 am for 2 hours at 90 km/h, covering 90 × 2 = 180 km."
+          },
+          {
+            "title": "Find Jasper's remaining distance",
+            "text": "Jasper was 320 − 180 = 140 km from B."
+          }
+        ],
+        "answerCheck": "140 km"
+      },
+      "zh-Hans": {
+        "strategy": "先利用Tony的行程求A–B的距离，再减去Jasper在10:30 am前走的距离。",
+        "steps": [
+          {
+            "title": "求Tony的行驶时间和距离",
+            "text": "Tony在6:30 am出发，10:30 am到达，共行驶4小时，速度为90 − 10 = 80 km/h。因此A–B为80 × 4 = 320 km。"
+          },
+          {
+            "title": "求Jasper已走的距离",
+            "text": "Jasper从8:30 am到10:30 am行驶2小时，速度为90 km/h，走了90 × 2 = 180 km。"
+          },
+          {
+            "title": "求Jasper距离B还有多远",
+            "text": "Jasper距离B还有320 − 180 = 140 km。"
+          }
+        ],
+        "answerCheck": "答案：140 km。"
+      }
+    },
+    "questionZh": "贾斯珀上午8:30从A出发，车速90 km/h。托尼比他早2 h出发，速度慢10 km/h，并在上午10:30到达B。此时贾斯珀离B还有多远？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 67,
@@ -294,7 +1574,47 @@
     "answer": "23.25 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 27
+    "sourcePage": 27,
+    "solution": {
+      "en": {
+        "strategy": "Compare both joggers' distances at 5:45 pm to find Caleb's speed, then extend his start time back to 4:15 pm.",
+        "steps": [
+          {
+            "title": "Find George's distance",
+            "text": "George jogged for 1.5 hours from 4:15 pm to 5:45 pm, so he covered 9 × 1.5 = 13.5 km."
+          },
+          {
+            "title": "Find Caleb's speed",
+            "text": "Caleb was 2 km ahead at 5:45 pm, so he covered 13.5 + 2 = 15.5 km in 1 hour. His speed was 15.5 km/h."
+          },
+          {
+            "title": "Extend Caleb's running time",
+            "text": "Starting at 4:15 pm instead would give Caleb 1.5 hours. He would cover 15.5 × 1.5 = 23.25 km."
+          }
+        ],
+        "answerCheck": "23.25 km"
+      },
+      "zh-Hans": {
+        "strategy": "比较两人在5:45 pm时走的距离，先求Caleb的速度，再把他的开始时间提前到4:15 pm。",
+        "steps": [
+          {
+            "title": "求George走的距离",
+            "text": "George从4:15 pm到5:45 pm跑了1.5小时，所以跑了9 × 1.5 = 13.5 km。"
+          },
+          {
+            "title": "求Caleb的速度",
+            "text": "5:45 pm时Caleb领先2 km，所以他1小时跑了13.5 + 2 = 15.5 km，速度为15.5 km/h。"
+          },
+          {
+            "title": "延长Caleb的跑步时间",
+            "text": "若Caleb在4:15 pm开始，他可跑1.5小时，距离为15.5 × 1.5 = 23.25 km。"
+          }
+        ],
+        "answerCheck": "答案：23.25 km。"
+      }
+    },
+    "questionZh": "乔治从4:15开始以9 km/h慢跑。凯莱布4:45开始，5:45时他在乔治前面2 km。若凯莱布从4:15开始，他会跑多远？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 68,
@@ -303,7 +1623,47 @@
     "answer": "40 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 27
+    "sourcePage": 27,
+    "solution": {
+      "en": {
+        "strategy": "Find the route and the bus's original speed, then use the shorter total journey time after the speed increase.",
+        "steps": [
+          {
+            "title": "Find the route and original bus speed",
+            "text": "The route length is 90 × 5 = 450 km. Since the bus took 9 hours originally, its speed was 450 ÷ 9 = 50 km/h."
+          },
+          {
+            "title": "Find time after the increase",
+            "text": "Arriving 1 h 36 min early means taking 9 h − 1 h 36 min = 7.4 h. The first 3/5 of 450 km is 270 km and takes 270 ÷ 50 = 5.4 h."
+          },
+          {
+            "title": "Find the new speed",
+            "text": "The remaining 2/5 is 180 km and must take 7.4 − 5.4 = 2 h. The new speed is 180 ÷ 2 = 90 km/h, which is 90 − 50 = 40 km/h faster."
+          }
+        ],
+        "answerCheck": "40 km/h"
+      },
+      "zh-Hans": {
+        "strategy": "先求全程和巴士原来的速度，再利用提速后的较短总用时。",
+        "steps": [
+          {
+            "title": "求全程和巴士原速度",
+            "text": "全程为90 × 5 = 450 km。巴士原来用9小时，所以原速度为450 ÷ 9 = 50 km/h。"
+          },
+          {
+            "title": "求提速后的可用时间",
+            "text": "提早1 h 36 min到达，表示总用时为9 h − 1 h 36 min = 7.4 h。前3/5全程为270 km，以50 km/h行驶需要270 ÷ 50 = 5.4 h。"
+          },
+          {
+            "title": "求新的速度",
+            "text": "剩下的2/5全程为180 km，只能用7.4 − 5.4 = 2 h。新速度为180 ÷ 2 = 90 km/h，比50 km/h快90 − 50 = 40 km/h。"
+          }
+        ],
+        "answerCheck": "答案：40 km/h。"
+      }
+    },
+    "questionZh": "一辆汽车和一辆巴士从A到B分别需5 h和9 h；汽车的速度为90 km/h。巴士走完3/5路程后，速度必须提高多少，才能提前1 h 36 min到达？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 69,
@@ -312,7 +1672,47 @@
     "answer": "8:10 am",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 27
+    "sourcePage": 27,
+    "solution": {
+      "en": {
+        "strategy": "Find Aaron’s and Collin’s speeds from the two overtaking times, then compare Bryan’s 120 m/min speed with Collin’s speed.",
+        "steps": [
+          {
+            "title": "Find Aaron’s speed",
+            "text": "At 8:00 Aaron is 50 m behind Bryan and catches him in 2 min, so Aaron is 50 ÷ 2 = 25 m/min faster than Bryan. Aaron’s speed is 120 + 25 = 145 m/min."
+          },
+          {
+            "title": "Find Collin’s speed",
+            "text": "Aaron passes Collin 3 min after passing Bryan, so this happens 2 + 3 = 5 min after 8:00. Aaron closes the 150 + 50 = 200 m gap to Collin in 5 min, so Aaron is 200 ÷ 5 = 40 m/min faster than Collin. Collin runs at 145 − 40 = 105 m/min."
+          },
+          {
+            "title": "Let Bryan catch Collin",
+            "text": "Bryan gains 120 − 105 = 15 m/min on Collin. He needs 150 ÷ 15 = 10 min to close the original 150 m gap, so he passes Collin at 8:10 am."
+          }
+        ],
+        "answerCheck": "8:10 am"
+      },
+      "zh-Hans": {
+        "strategy": "先由2分钟和3分钟的追上时间求出Aaron和Collin的速度，再把Bryan的120 m/min与Collin的速度比较。",
+        "steps": [
+          {
+            "title": "求Aaron的速度",
+            "text": "8:00时，Aaron在Bryan后面50 m，并在2 min后追上他，所以Aaron每分钟比Bryan快50 ÷ 2 = 25 m/min。Aaron的速度是120 + 25 = 145 m/min。"
+          },
+          {
+            "title": "求Collin的速度",
+            "text": "Aaron在超过Bryan后的3 min才超过Collin，因此这是8:00后的2 + 3 = 5 min。Aaron在5 min内追上了相距150 + 50 = 200 m的Collin，所以Aaron每分钟比Collin快200 ÷ 5 = 40 m/min。Collin的速度为145 − 40 = 105 m/min。"
+          },
+          {
+            "title": "让Bryan追上Collin",
+            "text": "Bryan每分钟追近120 − 105 = 15 m。要追完原来的150 m，需要150 ÷ 15 = 10 min，所以Bryan在8:10 am超过Collin。"
+          }
+        ],
+        "answerCheck": "答案：8:10 am。"
+      }
+    },
+    "questionZh": "科林在布莱恩前方150 m；亚伦在布莱恩后方50 m。上午8:00开始，亚伦2 min后超过布莱恩，3 min后又超过科林。布莱恩的跑速为120 m/min。布莱恩何时超过科林？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   },
   {
     "id": 70,
@@ -321,6 +1721,46 @@
     "answer": "270 km",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
-    "sourcePage": 28
+    "sourcePage": 28,
+    "solution": {
+      "en": {
+        "strategy": "Find the 720 km trip distance from Sean’s journey, then use the 30 km/h speed difference to locate the moment they are 150 km apart.",
+        "steps": [
+          {
+            "title": "Find both journey speeds",
+            "text": "Sean drives for 8 h, from 5:30 to 1:30, at 90 km/h. The trip is 90 × 8 = 720 km. Mary takes 6 h, so her speed is 720 ÷ 6 = 120 km/h."
+          },
+          {
+            "title": "Find the time of the 150 km separation",
+            "text": "Mary gains on Sean at 120 − 90 = 30 km/h. Starting together, they are 150 km apart after 150 ÷ 30 = 5 h."
+          },
+          {
+            "title": "Find Sean’s remaining distance",
+            "text": "In 5 h Sean covers 90 × 5 = 450 km. His distance from the 720 km destination is 720 − 450 = 270 km."
+          }
+        ],
+        "answerCheck": "270 km"
+      },
+      "zh-Hans": {
+        "strategy": "先由Sean的行程求出720 km的全程，再利用30 km/h的速度差找出两人相距150 km的时刻。",
+        "steps": [
+          {
+            "title": "求全程和两人的速度",
+            "text": "Sean从5:30到1:30行驶8 h，速度为90 km/h，所以全程是90 × 8 = 720 km。Mary用6 h完成同一行程，速度是720 ÷ 6 = 120 km/h。"
+          },
+          {
+            "title": "求相距150 km的时间",
+            "text": "Mary每小时比Sean多走120 − 90 = 30 km。两人同时出发后，150 ÷ 30 = 5 h时相距150 km。"
+          },
+          {
+            "title": "求Sean离终点的距离",
+            "text": "5 h内Sean走了90 × 5 = 450 km，离720 km终点还有720 − 450 = 270 km。"
+          }
+        ],
+        "answerCheck": "答案：270 km。"
+      }
+    },
+    "questionZh": "肖恩从5:30到1:30以90 km/h行驶。玛丽用6 h走完相同的路程。当两人相距150 km时，肖恩离目的地还有多远？",
+    "hintZh": "标出已知量。画出等量单位图，再计算所求的值。"
   }
 ]

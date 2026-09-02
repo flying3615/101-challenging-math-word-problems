@@ -26,6 +26,7 @@ for (const question of bank) {
 assert.match(page, /function\s+answerVisualMarkup\s*\(\s*q\s*\)/, 'Book 6 must render answer-aligned visual data.');
 assert.match(page, /q\.answerVisual\?\.?\[I18N\.getLanguage\(\)\]/, 'The visual must change with the selected language.');
 assert.match(page, /visual\.svg/, 'The renderer must draw the stored visual geometry.');
+assert.match(page, /return unsafeTag\.test\(value\)\|\|\/[\s\S]*?\.test\(value\)\?''\:value/, 'The SVG safety check must evaluate the unsafe-tag regex instead of treating the RegExp object as truthy.');
 assert.match(page, /<script src="question-bank\.js\?v=[^"]+"><\/script>/, 'Book 6 must cache-bust its generated bank so a reload receives the current visual models.');
 
 console.log('PASS: every Book 6 visual model is source-aligned, bilingual, safe, and answer-last.');

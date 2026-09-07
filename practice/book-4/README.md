@@ -23,3 +23,5 @@ Progress is stored locally in the browser on this device. No audio or voice feat
 ## Parent use
 
 The **Parent snapshot** button shows solved problems, attempted problems, and hints used during the current practice history.
+
+Enter the parent password (`parent123` by default — change it in `index.html`'s `PARENT_PASSWORD` constant) to turn on parent mode. While parent mode is on, every question shows its answer next to the answer box. Parent mode stays on across page reloads until you click "Exit parent mode." Because this is a static site, the password only deters casual browsing — it is not a security control.

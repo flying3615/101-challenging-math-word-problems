@@ -1,5 +1,7 @@
 # 101 Challenging Math Word Problems Website
 
+Interactive practice site for 101 Must-Know Challenging Maths Word Problems (Books 1–6): visual models, hints, answer checks, progress tracking, and a password-gated parent mode.
+
 Open `index.html` to choose a book.
 
 ## Deploying to Cloudflare Pages
@@ -29,4 +31,6 @@ Cloudflare applies the response headers in `_headers`; runtime secrets are not u
 
 ## Current practice coverage
 
-Every book (1 through 6) contains all 101 interactive questions with visual models, hints, answer checks, topic selection, and separate local progress tracking. Each library also has a password-gated "Parent snapshot" panel: entering the parent password shows the answer next to every question; without it, answers stay hidden.
+Every book (1 through 6) contains all 101 interactive questions with visual models, hints, answer checks, topic selection, and separate local progress tracking. Books 4–6 also include a guided, step-by-step worked solution per question.
+
+Each library has a password-gated "Parent snapshot" panel (default password `parent123`, set in each book's `index.html`). Entering the parent password shows the answer next to every question and unlocks the guided solution (Books 4–6); without it, both stay hidden. Because these are static sites, the password deters casual browsing — it is not a security control.

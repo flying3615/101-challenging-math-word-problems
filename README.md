@@ -6,9 +6,9 @@ Open `index.html` to choose a book.
 
 ## Deploying to Cloudflare Pages
 
-This repository is configured as a no-build Cloudflare Pages site. The deployment workflow stages the website in `.cloudflare-pages/`, excluding OCR reference images and moving source PDFs above Pages' 25 MiB file limit to the `math-word-problem-resources` R2 bucket. A Pages Function serves those R2 objects through their original `/resources/...` URLs.
+This repository is configured as a no-build Cloudflare Pages site. The deployment workflow stages the website in `.cloudflare-pages/`, excluding OCR reference images. Every file must stay under Pages' 25 MiB file limit, so the source PDFs in `resources/` are compressed to fit and are served as ordinary static files.
 
-1. In Cloudflare, create an API token with **Account > Cloudflare Pages > Edit** and **Account > Workers R2 Storage > Edit** permissions for the target account.
+1. In Cloudflare, create an API token with **Account > Cloudflare Pages > Edit** permission for the target account.
 2. Add these GitHub Actions repository secrets:
    - `CLOUDFLARE_API_TOKEN` — the Pages API token.
    - `CLOUDFLARE_ACCOUNT_ID` — the Cloudflare account ID.

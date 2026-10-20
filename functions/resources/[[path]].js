@@ -2,7 +2,14 @@ export async function onRequest(context) {
   const path = context.params.path;
   const resourcePath = Array.isArray(path) ? path.join("/") : path;
   const key = resourcePath.startsWith("resources/") ? resourcePath : `resources/${resourcePath}`;
-  const object = await context.env.BOOK_RESOURCES.get(key);
+  let object;
+
+  try {
+    object = await context.env.BOOK_RESOURCES.get(key);
+  } catch (error) {
+    console.error(`R2 lookup failed for ${key}`, error);
+    return context.next();
+  }
 
   if (object === null) {
     return context.next();

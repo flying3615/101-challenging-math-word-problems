@@ -98,7 +98,7 @@ const rows = [
 [95,'Mrs Wood saved 10% salary in month 1 and 50% more in month 2; month-2 saving exceeded month-1 by $496.50. Find 6-month salary.','$59580'],
 [96,'A square had area 625 cm². Each side increased 40%. Find percentage area increase.','96%'],
 [97,'80% of books were second-hand. 10% new and 60% second-hand were English. Adding 15 English gave English:Chinese 3:2. Find initial English and final total.','(a) 30 English books; (b) 75 books'],
-[98,'In January Joyce kept 80% salary, gave 1/4 of it to mother, saved rest; food/clothing was unchanged in February. Mother’s February amount rose $150 and equalled savings. Find requested values.','(a) 8%; (b) $125'],
+[98,'In January Joyce kept 80% salary, gave 1/4 of it to mother, saved rest; food/clothing was unchanged in February. Mother’s February amount rose $150 and equalled savings. Find requested values.','(a) 150%; (b) $125'],
 [99,'A theatre had 4500 seats: 10% first-class, 30% second-class, rest third-class. Add 200 first and 250 second. Find final first, second, and third percentage.','(a) 650; (b) 1600; (c) 54 6/11%'],
 [100,'Jeremy and Alicia had $360; Jeremy had $24 more. Alicia spent 3 times Jeremy’s spending and retained 1/2 Jeremy’s remainder. Find Jeremy initial and remainder.','(a) $192; (b) $163.20'],
 [101,'Crate A had 207 pears, 176 mangoes; B had 293 pears, 274 mangoes. Moving fruit B→A made pears 40% A and 70% B. Find fruit moved.','167 fruit']

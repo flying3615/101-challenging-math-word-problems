@@ -867,9 +867,9 @@
       "question": "The figure is made up of 3 overlapping squares with sides 12 cm, 18 cm and 32 cm. Each smaller square overlaps the largest so that a corner of the 32 cm square sits at the centre of that smaller square. Find the perimeter of the figure.",
       "answer": "188 cm",
       "model": "geometry",
-      "hint": "A corner at the centre hides a quarter of each smaller square, so only 2 of its sides stay on the outline. The 32 cm square keeps all 4 of its sides.",
+      "hint": "Add the perimeters of the 3 squares. Then subtract the perimeter of each overlap: a corner at the centre makes the overlap a square with a side of 1/2 the smaller square's side.",
       "questionZh": "下图由 3 个相互重叠的正方形组成，边长分别为 12 cm、18 cm 和 32 cm。每个较小的正方形都与最大的正方形重叠，且 32 cm 正方形的一个角正好落在该较小正方形的中心。求该图形的周长。",
-      "hintZh": "角落在中心，会遮住每个较小正方形的四分之一，所以它只有 2 条边留在外框上。32 cm 的正方形则 4 条边都保留。"
+      "hintZh": "先把 3 个正方形的周长加起来，再减去每个重叠部分的周长：角落在中心，所以重叠部分是边长为较小正方形一半的正方形。"
     },
     {
       "id": 88,

@@ -865,7 +865,7 @@
       "question": "3 T-shirts cost as much as 2 pairs of shorts. If a T-shirt costs $8, what is the cost of a pair of shorts?",
       "answer": "$12",
       "model": "money-units",
-      "hint": "Price the group of 3 T-shirts, because that whole group is worth the same as a pair of shorts twinned together — then divide the group price by 2.",
+      "hint": "Price the 3 T-shirts together. That total equals the cost of 2 pairs of shorts, so divide the total by 2.",
       "sourcePage": 31,
       "questionZh": "3 件 T 恤的价钱相当于 2 条短裤。如果一件 T 恤售价 $8，一条短裤售价多少？",
       "hintZh": "先算出 3 件 T 恤这一组的总价，因为它和 2 条短裤等值，再把这组价钱除以 2。"

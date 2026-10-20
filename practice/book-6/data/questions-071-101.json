@@ -1703,8 +1703,8 @@
   {
     "id": 98,
     "topic": "Percentage",
-    "question": "In January Joyce kept 80% salary, gave 1/4 of it to mother, saved rest; food/clothing was unchanged in February. Mother’s February amount rose $150 and equalled savings. Find requested values.",
-    "answer": "(a) 8%; (b) $125",
+    "question": "In January, Joyce kept 80% of her salary, of which she then gave 1/5 to her mother and saved the rest. The rest of her money was spent on food and clothing. In February, she gave her mother $150 more than the amount she had given her in January. The amount given to her mother was then equal to the amount she saved. She spent the same amount on food and clothing in January and February. (a) What was the percentage increase in the amount Joyce gave to her mother in February? (b) How much did Joyce spend on food and clothing in each month?",
+    "answer": "(a) 150%; (b) $125",
     "model": "money-units",
     "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
     "sourcePage": 37,
@@ -1722,10 +1722,10 @@
           },
           {
             "title": "Read the two requested changes",
-            "text": "In January, Joyce gave her mother 2 units = 2 × $50 = $100. In February she gave $150, an increase of $50; $50 ÷ $625 × 100% = 8%. Food and clothing are the unchanged 20%, so 20% of $625 = $125."
+            "text": "In January, Joyce gave her mother 2 units = 2 × $50 = $100. In February the mother's amount equals the savings, 5 units = 5 × $50 = $250, an increase of $250 − $100 = $150. $150 ÷ $100 × 100% = 150%. Food and clothing are the unchanged 20%, so 20% of $625 = $125."
           }
         ],
-        "answerCheck": "Answer: (a) 8%; (b) $125"
+        "answerCheck": "Answer: (a) 150%; (b) $125"
       },
       "zh-Hans": {
         "strategy": "使用按月份画出的 10 个单位支出格。2 月给母亲的 3 个单位确定 1 个单位的金额，从而确定工资的 80% 和两个所求量。",
@@ -1740,13 +1740,13 @@
           },
           {
             "title": "求两个所求量",
-            "text": "1 月给母亲的钱是 2 个单位 = 2 × $50 = $100；2 月是 $150，增加 $50。增加百分比 = $50 ÷ $625 × 100% = 8%。食物和衣服占不变的 20%，所以金额 = 20% × $625 = $125。"
+            "text": "1 月给母亲的钱是 2 个单位 = 2 × $50 = $100；2 月给母亲的钱等于储蓄，是 5 个单位 = 5 × $50 = $250，增加 $250 − $100 = $150。增加百分比 = $150 ÷ $100 × 100% = 150%。食物和衣服占不变的 20%，所以金额 = 20% × $625 = $125。"
           }
         ],
-        "answerCheck": "答案：(a) 8%；(b) $125"
+        "answerCheck": "答案：(a) 150%；(b) $125"
       }
     },
-    "questionZh": "1月，乔伊斯保留工资的80%，其中1/4给母亲，其余储蓄；2月的食物和衣服支出不变。给母亲的钱在2月增加$150，且等于储蓄额。求题目所要求的数值。",
+    "questionZh": "1月，乔伊斯保留了工资的80%，其中1/5给母亲，其余储蓄。工资的其余部分用于食物和衣服。2月，她给母亲的钱比1月多$150，这时给母亲的钱等于她储蓄的钱。1月和2月她在食物和衣服上花的钱相同。(a) 乔伊斯2月给母亲的钱增加了百分之几？(b) 乔伊斯每个月在食物和衣服上花了多少钱？",
     "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
     "answerVisual": {
       "sourcePdfPage": 87,

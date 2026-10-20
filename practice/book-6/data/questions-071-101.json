@@ -2,7 +2,7 @@
   {
     "id": 71,
     "topic": "Distance, Speed and Time",
-    "question": "Mark left P at 10:00 am at 75 km/h. Jane left P 1 hour later at 120 km/h. She passed Mark after completing 2/5 of her journey and reached Q at 4:00 pm. (a) How far was Jane from Q when she passed Mark? (b) What speed did Mark travel at after the meeting if he reached Q at 3.30 pm?",
+    "question": "Mark left town P for town Q at 10 am, travelling at a uniform speed of 75 km/h. Jane left town P for town Q an hour after Mark, travelling at 120 km/h. She passed Mark after travelling 2/5 of the journey. She reached town Q at 4 pm. (a) How far was Jane from town Q when she passed Mark? (b) How fast should Mark travel after meeting Jane if he wanted to reach town Q at 3.30 pm? (*Assume that Jane travelled at uniform speed throughout the whole journey.)",
     "answer": "(a) 360 km; (b) 144 km/h",
     "model": "fraction-of-remainder",
     "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -45,7 +45,7 @@
         "answerCheck": "答案：(a) 360 km；(b) 144 km/h。"
       }
     },
-    "questionZh": "马克上午10:00从P出发，速度为75 km/h。简在1小时后从P出发，速度为120 km/h。她走完全程的2/5时超过马克，并在下午4:00到达Q。(a)她超过马克时离Q多远？(b)若马克在相遇后于下午3:30到达Q，他相遇后的速度是多少？",
+    "questionZh": "马克上午10点从P镇出发前往Q镇，以75 km/h的匀速行驶。简在马克出发1小时后从P镇出发前往Q镇，以120 km/h行驶。她走完全程的2/5时超过了马克，并在下午4点到达Q镇。(a) 她超过马克时离Q镇多远？(b) 如果马克想在下午3:30到达Q镇，他与简相遇后应该以多快的速度行驶？（*假设简在整个行程中速度均匀。）",
     "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
     "answerVisual": {
       "sourcePdfPage": 77,

@@ -5,7 +5,7 @@ const bank = JSON.parse(await readFile(new URL('../practice/book-6/question-bank
 const byId = new Map(bank.map(question => [question.id, question]));
 
 assert.match(byId.get(3).question, /reduced by 1\/3/, 'Q3 must retain the printed 1/3 reduction.');
-assert.match(byId.get(71).question, /reached Q at 3\.30 pm/, 'Q71 must retain the printed 3.30 pm target time.');
+assert.match(byId.get(71).question, /reach town Q at 3\.30 pm/, 'Q71 must retain the printed 3.30 pm target time.');
 assert.match(byId.get(74).question, /first 5\/9/, 'Q74 must retain the printed first 5/9 journey fraction.');
 assert.match(byId.get(84).question, /C had 2\/3/, 'Q84 must retain the printed 2/3 relationship.');
 

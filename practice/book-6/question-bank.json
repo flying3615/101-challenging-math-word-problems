@@ -114,7 +114,7 @@
     {
       "id": 3,
       "topic": "The Four Operations of Whole Numbers",
-      "question": "40% of Angie’s beads were red. After she lost 50 blue beads, the number of blue beads was reduced by 1/3 of its original count. How many beads did Angie have in the end?",
+      "question": "Angie had some red and blue beads. 40% of her beads were red. When she lost 50 blue beads, the number of blue beads was reduced by 1/3 of its original number. How many beads did Angie have in the end?",
       "answer": "200 beads",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -149,7 +149,7 @@
           "answerCheck": "200颗珠子。"
         }
       },
-      "questionZh": "安琪的珠子中有40%是红色的。她丢失50颗蓝色珠子后，蓝色珠子的数量减少了原来的1/3。安琪最后有多少颗珠子？",
+      "questionZh": "安琪有一些红色和蓝色的珠子。她的珠子中有40%是红色的。她丢失50颗蓝色珠子后，蓝色珠子的数量减少了原来数量的1/3。安琪最后有多少颗珠子？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 50,
@@ -342,7 +342,7 @@
     {
       "id": 7,
       "topic": "The Four Operations of Whole Numbers",
-      "question": "Michael had 80% more money than Alvin; Vanessa had 40% less. Michael and Alvin gave Vanessa money in a 3:2 ratio. Vanessa then had 2 times her original amount; Michael ended $144 above Vanessa. Find original amounts.",
+      "question": "Michael had 80% more money than Alvin. Vanessa had 40% less than Alvin. Michael and Alvin gave Vanessa some money in the ratio 3 : 2 respectively. In the end, Vanessa had 2 times as much money as before. Given that Michael had $144 more than Vanessa in the end, how much money did each of them have at first?",
       "answer": "Michael: $1080; Alvin: $600; Vanessa: $360",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -385,7 +385,7 @@
           "answerCheck": "Michael：$1080；Alvin：$600；Vanessa：$360。"
         }
       },
-      "questionZh": "迈克尔的钱比阿尔文多80%；瓦妮莎的钱比阿尔文少40%。迈克尔和阿尔文按3:2的比例给瓦妮莎钱。之后瓦妮莎的钱变为原来的2倍；迈克尔最后比瓦妮莎多$144。求三人原来各有多少钱。",
+      "questionZh": "迈克尔的钱比阿尔文多80%。瓦妮莎的钱比阿尔文少40%。迈克尔和阿尔文分别按3:2的比例给了瓦妮莎一些钱。最后，瓦妮莎的钱是原来的2倍。已知迈克尔最后比瓦妮莎多$144，三人原来各有多少钱？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 52,
@@ -1011,7 +1011,7 @@
     {
       "id": 18,
       "topic": "The Four Operations of Whole Numbers",
-      "question": "4656 people attended a concert. After 1/4 of men and 1/3 of women left, 120 more women remained. How many more women than men were there at first?",
+      "question": "There were 4656 people at a concert. After 4/5 of the men and 3/4 of the women left the concert hall, there were 120 more women than men who remained behind. How many more women than men were there at first?",
       "answer": "16 more women",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -1054,7 +1054,7 @@
           "answerCheck": "验算：4 × 120 = 480，且 4 × 464 + 480 − 5 × 464 = 16。答案：女士多 16 人。"
         }
       },
-      "questionZh": "4656人参加了一场音乐会。1/4的男士和1/3的女士离开后，留下的女士比男士多120人。起初女士比男士多多少人？",
+      "questionZh": "一场音乐会有4656人。4/5的男士和3/4的女士离开音乐厅后，留下的女士比男士多120人。起初女士比男士多多少人？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 56,
@@ -1137,7 +1137,7 @@
     {
       "id": 20,
       "topic": "Measurement",
-      "question": "Mrs Crawford spent 1/3 of salary on education and 1/4 of the remainder on food. Savings:transport was 2:3; education exceeded transport by $265. Find 6 months of education spending.",
+      "question": "Mrs Crawford spent 1/4 of her salary on her children's education and 2/3 of the remainder on food every month. The rest of her money was saved and spent on transportation in the ratio 2 : 3. She spent $265 more on her children's education than on transportation. If she earned and spent the same amount every month, how much did she spend on her children's education in 6 months?",
       "answer": "$3975",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -1180,7 +1180,7 @@
           "answerCheck": "验算：6 × $662.50 = $3975。"
         }
       },
-      "questionZh": "克劳福德太太将工资的1/3用于教育，又将余下部分的1/4用于食物。储蓄与交通费之比为2:3；教育支出比交通费多$265。求6个月的教育支出。",
+      "questionZh": "克劳福德太太每个月把工资的1/4用于孩子的教育，余下部分的2/3用于食物。其余的钱按2:3的比例用于储蓄和交通。她在孩子教育上的花费比交通多$265。如果她每个月的收入和花费都相同，她6个月在孩子教育上花了多少钱？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 57,
@@ -1200,7 +1200,7 @@
     {
       "id": 21,
       "topic": "Measurement",
-      "question": "Tank A was 2/3 full. 1/2 of its water filled tank B from 1/4 full to full. Tank A measured 12 cm × 10 cm × 20 cm. Find total tank capacity in litres.",
+      "question": "There were 2 tanks, tank A and tank B. Tank A measured 12 cm by 10 cm by 20 cm. It was 2/3 filled with water. 1/2 of the water was poured into tank B, which was already 1/5 filled with water, filling it to the brim. What was the total capacity of the 2 tanks? (Express your answer in litres.)",
       "answer": "3.4 L",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -1243,7 +1243,7 @@
           "answerCheck": "验算：总容积为 3400 cm³，即 3.4 L。"
         }
       },
-      "questionZh": "水箱A装有2/3满的水。其中1/2的水把原本装有1/4水的水箱B加满。水箱A的尺寸为12 cm × 10 cm × 20 cm。求两个水箱的总容量（以升为单位）。",
+      "questionZh": "有2个水箱，水箱A和水箱B。水箱A的尺寸为12 cm × 10 cm × 20 cm，里面装有2/3满的水。其中1/2的水倒入水箱B，水箱B原本已装有1/5满的水，倒入后刚好装满。2个水箱的总容量是多少？（答案以升为单位。）",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 57,
@@ -1326,7 +1326,7 @@
     {
       "id": 23,
       "topic": "Measurement",
-      "question": "A 60 cm × 40 cm × 25 cm container was 4/5 full; its water level fell 5 cm. Remaining water filled a tank and basin, whose capacity was 1/4 of the tank. Find tank water height.",
+      "question": "A container with base measuring 60 cm by 40 cm and a height of 25 cm was 4/5 filled with water. Some of the water was removed, causing the water level to fall by 5 cm. The remaining water was then poured into a tank and a basin, filling them to their brims. The capacity of the basin was 1/3 that of the tank. If the tank was 18 cm long and 15 cm wide, what was the height of the water in the tank?",
       "answer": "100 cm",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -1369,7 +1369,7 @@
           "answerCheck": "验算：270 cm² × 100 cm = 27000 cm³，所以水箱水高是 100 cm。"
         }
       },
-      "questionZh": "一个60 cm × 40 cm × 25 cm的容器装有4/5满的水；水位下降了5 cm。剩下的水装满一个水箱和一个盆，盆的容量是水箱容量的1/4。求水箱中的水高。",
+      "questionZh": "一个容器的底面为60 cm × 40 cm，高25 cm，里面装有4/5满的水。倒出一些水后，水位下降了5 cm。剩下的水被倒入一个水箱和一个盆，把它们都装满。盆的容量是水箱容量的1/3。如果水箱长18 cm、宽15 cm，水箱中的水高是多少？",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 57,
@@ -1389,7 +1389,7 @@
     {
       "id": 24,
       "topic": "Measurement",
-      "question": "ABCD is a 320 cm-perimeter rectangle of length 96 cm. 2 squares of side 12 cm are placed inside. Find the shaded area, using π = 3.14.",
+      "question": "ABCD is a rectangle with a perimeter of 320 cm and a length of 96 cm. 2 similar squares with sides 12 cm are placed in it. In each square, 2 arcs of radius 12 cm, centred at opposite corners of the square, form a leaf shape. The shaded parts are the part of the rectangle outside the 2 squares and the 2 leaf shapes. Find the area of the shaded parts of the figure. (Take π = 3.14)",
       "answer": "6020.16 cm²",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -1432,7 +1432,7 @@
           "answerCheck": "验算：6144 − 288 + 164.16 = 6020.16 cm²。"
         }
       },
-      "questionZh": "ABCD是一个周长为320 cm、长为96 cm的长方形。里面放有2个边长为12 cm的正方形。取π = 3.14，求阴影部分的面积。",
+      "questionZh": "ABCD是一个周长为320 cm、长为96 cm的长方形。里面放有2个边长为12 cm的相似正方形。在每个正方形里，以正方形相对的2个顶点为圆心、半径为12 cm的2段圆弧围成一个叶形。阴影部分是长方形中2个正方形以外的部分和2个叶形。求图中阴影部分的面积。（取π = 3.14）",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 58,
@@ -1515,7 +1515,7 @@
     {
       "id": 26,
       "topic": "Measurement",
-      "question": "Frankie, Martin, and Jeremy earned $120. Jeremy earned 1/2 Frankie; Martin earned 3 times Jeremy and gave Frankie 1/4 of his money. Jeremy then earned 4 times his earlier amount. How much more did Jeremy have?",
+      "question": "Frankie, Martin and Jeremy earned a total of $120 by working at an exhibition. Jeremy earned 1/2 of what Frankie earned and Martin earned 3 times as much as Jeremy. Martin then gave Frankie 1/4 of his money. Jeremy continued working for another few hours and earned 4 times the amount he had earned previously. How much more did Jeremy have than Frankie in the end?",
       "answer": "$25",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -1558,7 +1558,7 @@
           "answerCheck": "验算：Jeremy 有 $80，Frankie 有 $55，所以 Jeremy 多 $25。"
         }
       },
-      "questionZh": "弗兰基、马丁和杰里米共赚了$120。杰里米赚的钱是弗兰基的1/2；马丁赚的钱是杰里米的3倍，并给了弗兰基自己钱的1/4。杰里米之后赚到的钱是先前的4倍。杰里米的钱增加了多少？",
+      "questionZh": "弗兰基、马丁和杰里米在一次展览会上工作，共赚了$120。杰里米赚的钱是弗兰基的1/2，马丁赚的钱是杰里米的3倍。马丁随后把自己钱的1/4给了弗兰基。杰里米又继续工作了几个小时，赚到的钱是之前所赚的4倍。最后杰里米比弗兰基多多少钱？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 58,
@@ -1641,7 +1641,7 @@
     {
       "id": 28,
       "topic": "Measurement",
-      "question": "PQRS is enlarged to VWRT; area increases 226 cm². PQRS length is 2 times breadth. Find PQRS perimeter.",
+      "question": "PQRS is a rectangle. When the length and breadth of the rectangle increase, the rectangle is enlarged to VWRT and the area of the rectangle is increased by 226 cm². The length and the breadth each increase by 4 cm, and R is a corner of both rectangles. If the length of rectangle PQRS is 2 times its breadth, find the perimeter of rectangle PQRS.",
       "answer": "105 cm",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -1684,7 +1684,7 @@
           "answerCheck": "验算：4 × 17.5 + 4 × 35 + 16 = 226，周长为 105 cm。"
         }
       },
-      "questionZh": "PQRS放大为VWRT后，面积增加226 cm²。PQRS的长是宽的2倍。求PQRS的周长。",
+      "questionZh": "PQRS是一个长方形。当长方形的长和宽增大时，长方形放大成VWRT，面积增加了226 cm²。长和宽各增加4 cm，R是这2个长方形的公共顶点。如果长方形PQRS的长是宽的2倍，求长方形PQRS的周长。",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 59,
@@ -1767,7 +1767,7 @@
     {
       "id": 30,
       "topic": "Measurement",
-      "question": "Patrick, Jemima, Angela had $482. Angela had 3/4 of Jemima; after Patrick used $125, he had 1/4 less than Jemima. Find initial Patrick-plus-Angela total.",
+      "question": "Patrick, Jemima and Angela had $482 altogether. Angela had 3/8 of what Jemima had. After Patrick used $125, he had 1/4 less than what Jemima had. Find the total sum of money that Patrick and Angela had at first.",
       "answer": "$314",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -1810,7 +1810,7 @@
           "answerCheck": "验算：9 × $21 + $125 = $314。"
         }
       },
-      "questionZh": "帕特里克、杰米玛和安吉拉共有$482。安吉拉的钱是杰米玛的3/4；帕特里克用了$125后，他的钱比杰米玛少1/4。求帕特里克和安吉拉起初的钱数总和。",
+      "questionZh": "帕特里克、杰米玛和安吉拉一共有$482。安吉拉的钱是杰米玛的3/8。帕特里克用了$125后，他的钱比杰米玛少1/4。求帕特里克和安吉拉起初的钱数总和。",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 60,
@@ -1893,7 +1893,7 @@
     {
       "id": 32,
       "topic": "Measurement",
-      "question": "A semicircle and small triangle lie in triangle PQR; PQ is the semicircle diameter. Using the given 36 cm figure and π = 3.14, find the unshaded area.",
+      "question": "The figure (not drawn to scale) shows a semicircle and a small triangle inside triangle PQR. PQ is the diameter of the semicircle. PQ is 12 cm and R is 36 cm below PQ. The small triangle has its apex at R and a base of 8 cm, and its base is 5 cm below the lowest point of the semicircle. Find the area of the unshaded portion. (Take π = 3.14)",
       "answer": "59.48 cm²",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -1936,7 +1936,7 @@
           "answerCheck": "验算：216 − 56.52 − 100 = 59.48 cm²。"
         }
       },
-      "questionZh": "三角形PQR内有一个半圆和一个小三角形；PQ是半圆的直径。根据图中给出的36 cm，取π = 3.14，求非阴影部分的面积。",
+      "questionZh": "下图（未按比例绘制）显示三角形PQR内有一个半圆和一个小三角形。PQ是半圆的直径。PQ长12 cm，R在PQ下方36 cm处。小三角形以R为顶点，底边长8 cm，底边在半圆最低点下方5 cm处。求非阴影部分的面积。（取π = 3.14）",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 61,
@@ -1956,7 +1956,7 @@
     {
       "id": 33,
       "topic": "Measurement",
-      "question": "A 70 cm × 45 cm × 50 cm tank filled from 2 taps at 7 L/min each for 10 min. 30% was poured into a tub to make it 3/10 full. Find water needed to fill both.",
+      "question": "A tank measuring 70 cm by 45 cm by 50 cm is filled with water from 2 taps. Water from each tap flows at a rate of 7 litres per minute. After 10 minutes, the taps are turned off and 30% of the water in the tank is poured into an empty tub. The tub is now 3/4 full. How much more water is needed to fill the tub and the tank completely?",
       "answer": "73500 cm³ or 73.5 L",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -1999,7 +1999,7 @@
           "answerCheck": "验算：59500 cm³ + 14000 cm³ = 73500 cm³，即 73.5 L。"
         }
       },
-      "questionZh": "一个70 cm × 45 cm × 50 cm的水箱由2个流量均为7 L/min的水龙头注水10 min。将其中30%的水倒入一个浴盆，使浴盆达到3/10满。求将水箱和浴盆都加满还需要多少水。",
+      "questionZh": "一个70 cm × 45 cm × 50 cm的水箱由2个水龙头注水。每个水龙头的流量为每分钟7升。10分钟后，关掉水龙头，把水箱中30%的水倒入一个空的浴盆，这时浴盆有3/4满。还需要多少水才能把浴盆和水箱都装满？",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 61,
@@ -2019,7 +2019,7 @@
     {
       "id": 34,
       "topic": "Measurement",
-      "question": "Clocks chime every 3 min, 4 min offset by 1 min, and 6 min. They chime together at 10:45 am. How many more joint chimes occur in the next hour?",
+      "question": "There are 3 clocks in Dominic's house. The first clock chimes every 3 minutes and the second clock chimes 1 minute after the first clock chimes. The third clock chimes every 6 minutes. If Dominic hears the 3 clocks chiming at the same time at 10.45 am, how many more times would the 3 clocks chime together again in the next 1 hour?",
       "answer": "5 times",
       "model": "unit-bar",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -2062,7 +2062,7 @@
           "answerCheck": "验算：时间线圈出 12、24、36、48、60 分钟，共 5 times。"
         }
       },
-      "questionZh": "3个时钟分别每3 min、每4 min（相差1 min）和每6 min报时。它们在上午10:45同时报时。接下来1 h内还会同时报时多少次？",
+      "questionZh": "多米尼克家里有3个时钟。第一个时钟每3分钟报时一次，第二个时钟在第一个时钟报时后1分钟报时。第3个时钟每6分钟报时一次。如果多米尼克在上午10:45听到3个时钟同时报时，在接下来的1小时内，3个时钟还会同时报时多少次？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 61,
@@ -2082,7 +2082,7 @@
     {
       "id": 35,
       "topic": "Measurement",
-      "question": "Frederick and Justina spend $8/$16 per day, leaving Justina $70; swapping spending gives Justina $430. Find their parent-given amounts.",
+      "question": "Frederick and Justina were each given a sum of money by their parents. If Frederick and Justina spent $8 and $16 respectively each day, Justina would still have $70. If Frederick and Justina spent $16 and $8 respectively each day instead, Justina would have $430 left. How much money did each of them receive from their parents?",
       "answer": "Frederick: $240; Justina: $550",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -2125,7 +2125,7 @@
           "answerCheck": "检验：3份是3 × $120 = $360 = $430 − $70。答案：Frederick: $240; Justina: $550。"
         }
       },
-      "questionZh": "弗雷德里克和朱斯蒂娜每天分别花$8和$16，朱斯蒂娜剩下$70；若两人交换每天的花费，朱斯蒂娜会剩下$430。求父母分别给了他们多少钱。",
+      "questionZh": "弗雷德里克和朱斯蒂娜的父母各给了他们一笔钱。如果弗雷德里克和朱斯蒂娜每天分别花$8和$16，朱斯蒂娜仍会剩下$70。如果两人改为每天分别花$16和$8，朱斯蒂娜会剩下$430。他们各从父母那里得到多少钱？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 62,
@@ -2334,7 +2334,7 @@
     {
       "id": 39,
       "topic": "Measurement",
-      "question": "2 concentric circles have radii 7 cm and 21 cm. Shaded:unshaded area is 2:7. Find unshaded area using π = 22/7.",
+      "question": "2 circles which share the same centre are drawn in a rectangle. The radius of the smaller circle is 7 cm and the radius of the larger circle is 21 cm. The shaded portion of the figure is the ring between the 2 circles. The ratio of the shaded portion of the figure to the unshaded portion of the figure is 2 : 7. Find the area of the unshaded portion of the figure. (Take π = 22/7)",
       "answer": "4312 cm²",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -2377,7 +2377,7 @@
           "answerCheck": "检验：1232:4312 同除以616后为2:7。答案：4312 cm²。"
         }
       },
-      "questionZh": "2个同心圆的半径分别为7 cm和21 cm。阴影部分与非阴影部分的面积之比为2:7。取π = 22/7，求非阴影部分的面积。",
+      "questionZh": "在一个长方形内画有2个同心圆。小圆的半径是7 cm，大圆的半径是21 cm。图中的阴影部分是2个圆之间的圆环。图中阴影部分与非阴影部分的面积之比为2:7。求图中非阴影部分的面积。（取π = 22/7）",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 63,
@@ -2460,7 +2460,7 @@
     {
       "id": 41,
       "topic": "Measurement",
-      "question": "6 similar rectangles form figure A and are rearranged to figure B. Figure A area is 864 cm². Find figure B perimeter.",
+      "question": "There are 6 similar rectangles in figure A. These rectangles are then rearranged to form figure B. In figure A, 1 rectangle lies flat at the top, 4 rectangles stand upright side by side in the middle, and 1 rectangle lies flat at the bottom, so the figure is a large rectangle. In figure B, 2 rectangles stand upright side by side on the left. 3 rectangles lie flat stacked on top of each other to their right, with their bottoms level with the bottoms of the 2 upright rectangles. The last rectangle stands upright against the right ends of the lower 2 flat rectangles, with its top level with the top of the middle flat rectangle, and it extends below the others. If the area of figure A is 864 cm², what is the perimeter of figure B?",
       "answer": "156 cm",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -2503,7 +2503,7 @@
           "answerCheck": "检验：每个模块长方形为24 cm × 6 cm = 144 cm²，6个共864 cm²。答案：156 cm。"
         }
       },
-      "questionZh": "6个全等长方形组成图形A，重新排列后形成图形B。图形A的面积为864 cm²。求图形B的周长。",
+      "questionZh": "图形A中有6个相似的长方形。这些长方形重新排列后组成图形B。在图形A中，1个长方形横放在最上面，4个长方形竖放并排在中间，1个长方形横放在最下面，合起来是一个大长方形。在图形B中，左边有2个长方形竖放并排。它们的右边有3个长方形横放，自上而下叠在一起，它们的底边与2个竖放长方形的底边对齐。最后1个长方形竖放，紧靠下面2个横放长方形的右端，它的顶端与中间横放长方形的顶端对齐，并且伸到其他长方形的下方。如果图形A的面积是864 cm²，图形B的周长是多少？",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 64,
@@ -2775,7 +2775,7 @@
     {
       "id": 46,
       "topic": "Measurement",
-      "question": "Joanne gave 1/3 to her mother then saved:spent 1:2. Alex spent 1/4 clothes and 1/4 books; Joanne’s gift equalled Alex’s books. Her $180 transfer leaves 1/4 of Alex’s savings. Find requested values.",
+      "question": "Joanne and Alex had some money. Joanne gave 1/4 of her money to her mother. She then saved and spent the rest of her money in the ratio 1 : 2. Alex spent 1/6 of his money on clothes and 1/3 of his money on books. He then saved the rest. The amount that Joanne gave her mother was equal to the amount that Alex spent on books. If Joanne then gave Alex $180 from her savings, she would only have 1/4 of Alex's savings. (a) How much did each of them have at first? (b) How much did they spend altogether?",
       "answer": "(a) Joanne: $1440; Alex: $1080; (b) $1260",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -2818,7 +2818,7 @@
           "answerCheck": "检验：8份为$1440，6份为$1080，7个花费格为$1260。答案：(a) Joanne: $1440; Alex: $1080; (b) $1260。"
         }
       },
-      "questionZh": "乔安妮先把钱的1/3给母亲，之后储蓄与花费之比为1:2。亚历克斯把钱的1/4花在衣服上，1/4花在书上；乔安妮给母亲的钱等于亚历克斯买书的钱。乔安妮转给亚历克斯$180后，所转的钱是亚历克斯储蓄的1/4。求题目所要求的数值。",
+      "questionZh": "乔安妮和亚历克斯有一些钱。乔安妮把自己钱的1/4给了母亲，然后把剩下的钱按1:2的比例储蓄和花费。亚历克斯把自己钱的1/6花在衣服上，1/3花在书上，然后把剩下的钱储蓄。乔安妮给母亲的钱等于亚历克斯买书花的钱。如果乔安妮再从自己的储蓄中拿出$180给亚历克斯，她的储蓄就只有亚历克斯储蓄的1/4。(a) 两人起初各有多少钱？(b) 两人一共花了多少钱？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 66,
@@ -2901,7 +2901,7 @@
     {
       "id": 48,
       "topic": "Measurement",
-      "question": "Mary had $50, Tom $130. Their mother gave equal daily amounts; after 2 days Mary had 2 times Tom. Find total given and Mary’s daily amount.",
+      "question": "Mary had $50 and Tom had $130. Their mother gave each of them an equal amount of money every day and after 2 days, Mary had 2/3 as much money as Tom. (a) How much money did their mother give them altogether in the 2 days? (b) How much did their mother give to Mary each day?",
       "answer": "(a) $220; (b) $55",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -2944,7 +2944,7 @@
           "answerCheck": "检验：Mary收到$110，Tom收到$110，共$220；$110分2天是每天$55。答案：(a) $220; (b) $55。"
         }
       },
-      "questionZh": "玛丽有$50，汤姆有$130。他们的母亲每天给两人相同的钱；2天后玛丽的钱是汤姆的2倍。求母亲一共给了多少钱，以及玛丽每天得到多少钱。",
+      "questionZh": "玛丽有$50，汤姆有$130。他们的母亲每天给两人相同数额的钱，2天后，玛丽的钱是汤姆的2/3。(a) 2天里母亲一共给了他们多少钱？(b) 母亲每天给玛丽多少钱？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 67,
@@ -2964,7 +2964,7 @@
     {
       "id": 49,
       "topic": "Measurement",
-      "question": "Square perimeters A:B were 3:5, shaded-rectangle perimeter:A was 2:6, and square perimeters totalled 192 cm. Find 3 requested areas.",
+      "question": "The ratio of the perimeter of square A to square B is 3 : 5. The ratio of the perimeter of the shaded rectangle to the perimeter of square A is 2 : 6. If the total perimeter of squares A and B is 192 cm, (a) what is the area of the shaded rectangle? (b) what is the area of the unshaded portion of square B? (c) what is the total area of the unshaded portions of square A and square B? In the figure, the squares overlap and the overlapping part is the shaded rectangle, which is at the bottom right corner of square A and the top left corner of square B. The left side of square B meets the bottom side of square A at its midpoint.",
       "answer": "(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -3007,7 +3007,7 @@
           "answerCheck": "检验：共同长方形为9 cm × 3 cm = 27 cm²。答案：(a) 27 cm²; (b) 873 cm²; (c) 1170 cm²。"
         }
       },
-      "questionZh": "正方形A与B的周长之比为3:5，阴影长方形的周长与A的周长之比为2:6，两个正方形的周长总和为192 cm。求3个所要求的面积。",
+      "questionZh": "正方形A与正方形B的周长之比是3:5。阴影长方形的周长与正方形A的周长之比是2:6。如果正方形A和B的周长总和是192 cm，(a) 阴影长方形的面积是多少？(b) 正方形B的非阴影部分的面积是多少？(c) 正方形A和正方形B的非阴影部分的总面积是多少？图中2个正方形重叠，重叠部分就是阴影长方形，它在正方形A的右下角，也在正方形B的左上角。正方形B的左边与正方形A的下边相交于下边的中点。",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 68,
@@ -3027,7 +3027,7 @@
     {
       "id": 50,
       "topic": "Measurement",
-      "question": "A rectangle contains 2 quadrants of radii 12 cm and 24 cm. Find the difference in shaded areas using π = 3.14.",
+      "question": "The figure below shows a rectangle and 2 quadrants. The radii of the 2 quadrants are 12 cm and 24 cm. Find the difference in area between the shaded portions, A and B. (Take π = 3.14) The rectangle is 12 cm wide and 24 cm tall. The quadrant of radius 24 cm has its centre at the bottom right corner of the rectangle. The quadrant of radius 12 cm has its centre at the bottom left corner of the rectangle. Shaded portion A is between the 2 arcs, to the left of the rectangle. Shaded portion B is the part of the rectangle above the large arc.",
       "answer": "51.12 cm²",
       "model": "geometry",
       "hint": "Label the given measures. Draw a model, then calculate the requested value.",
@@ -3070,7 +3070,7 @@
           "answerCheck": "检验：452.16 − 113.04 − 288 = 51.12 cm²。答案：51.12 cm²。"
         }
       },
-      "questionZh": "一个长方形内有2个半径分别为12 cm和24 cm的四分之一圆。取π = 3.14，求阴影部分面积之差。",
+      "questionZh": "下图显示一个长方形和2个四分之一圆。2个四分之一圆的半径分别是12 cm和24 cm。求阴影部分A和B的面积之差。（取π = 3.14）长方形宽12 cm、高24 cm。半径24 cm的四分之一圆以长方形的右下角为圆心。半径12 cm的四分之一圆以长方形的左下角为圆心。阴影部分A在2段圆弧之间，位于长方形的左边。阴影部分B是长方形中大圆弧以上的部分。",
       "hintZh": "标出已知的度量。画出示意图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 68,
@@ -3216,7 +3216,7 @@
     {
       "id": 53,
       "topic": "Fractions",
-      "question": "Mathew sold 1/3 of pens on day 1, 4 more on day 2, then the rest day 3. Day 2 exceeded day 3 by 15. Find original pens.",
+      "question": "Mathew had some pens. On the first day, he sold 1/4 of them. On the second day, he sold 1/3 more than the number of pens sold on the first day. He sold the remaining pens on the third day. If he sold 15 more pens on the second day than on the third day, how many pens did he have at first?",
       "answer": "36 pens",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3259,7 +3259,7 @@
           "answerCheck": "原来有36支笔。"
         }
       },
-      "questionZh": "马修第1天卖出笔的1/3，第2天再卖出4支，其余在第3天卖出。第2天比第3天多卖15支笔。求原来有多少支笔。",
+      "questionZh": "马修有一些笔。第一天他卖出了其中的1/4。第二天他比第一天多卖了1/3。剩下的笔在第三天卖出。如果他第二天比第三天多卖15支笔，他原来有多少支笔？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 69,
@@ -3279,7 +3279,7 @@
     {
       "id": 54,
       "topic": "Fractions",
-      "question": "Edmund bought small $4, medium $6, large $8 cookie packs. 1/4 were small, medium exceeded small by 4, total was $180. Find each pack count.",
+      "question": "Edmund bought some packs of cookies. A small pack of cookies cost $4, a medium-sized pack of cookies cost $6 and a large pack of cookies cost $8. 1/3 of the packs that Edmund bought were small. He bought 1/5 more medium-sized packs than small packs. The remaining packs were large. If Edmund spent $180 altogether, how many packs of each type did he buy?",
       "answer": "Small: 15; Medium: 16; Large: 3",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -3322,7 +3322,7 @@
           "answerCheck": "小包装15包；中包装16包；大包装3包。"
         }
       },
-      "questionZh": "埃德蒙买了小、中、大3种装的饼干，价格分别为$4、$6、$8。小包装占总数的1/4；中包装比小包装多4包，总价为$180。求各种包装各买了多少包。",
+      "questionZh": "埃德蒙买了一些饼干。一小包饼干$4，一中包饼干$6，一大包饼干$8。埃德蒙买的饼干中有1/3是小包装。他买的中包装比小包装多1/5。剩下的是大包装。如果埃德蒙一共花了$180，每种包装各买了多少包？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 70,
@@ -3342,7 +3342,7 @@
     {
       "id": 55,
       "topic": "Fractions",
-      "question": "Ben and Tom had 144 sweets. Ben gave Tom 1/4 of his; Tom gave Ben 1/3 of his; they then matched. Find original counts.",
+      "question": "Ben and Tom had a total of 144 sweets. Ben gave Tom 1/5 of what he had. Tom then gave 1/4 of what he had to Ben. If both of them had an equal number of sweets in the end, how many sweets did each of them have at first?",
       "answer": "Ben: 60; Tom: 84",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3385,7 +3385,7 @@
           "answerCheck": "Ben有60颗；Tom有84颗。"
         }
       },
-      "questionZh": "本和汤姆共有144颗糖。本给汤姆自己糖的1/4；汤姆给本自己糖的1/3后，两人的糖数相等。求两人原来各有多少颗糖。",
+      "questionZh": "本和汤姆一共有144颗糖。本把自己所有的糖的1/5给了汤姆。汤姆接着把自己所有的糖的1/4给了本。如果最后两人的糖数相等，两人原来各有多少颗糖？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 70,
@@ -3405,7 +3405,7 @@
     {
       "id": 56,
       "topic": "Fractions",
-      "question": "Claudia gave Agnes 1/4 of her curry puffs; Agnes gave Claudia 1/3 of hers. They then matched and had 240 total. Find original counts.",
+      "question": "Claudia and Agnes had some curry puffs. Claudia gave Agnes 1/4 of the number of curry puffs that she had. Agnes gave Claudia 1/11 of the number of curry puffs that she had. Both of them then had the same number of curry puffs. If there were 240 curry puffs altogether, how many curry puffs did each girl have at first?",
       "answer": "Claudia: 144; Agnes: 96",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3448,7 +3448,7 @@
           "answerCheck": "Claudia有144个；Agnes有96个。"
         }
       },
-      "questionZh": "克劳迪娅给阿格尼丝自己咖喱角的1/4；阿格尼丝给克劳迪娅自己咖喱角的1/3后，两人的数量相等，共有240个。求两人原来各有多少个。",
+      "questionZh": "克劳迪娅和阿格尼丝有一些咖喱角。克劳迪娅把自己咖喱角数量的1/4给了阿格尼丝。阿格尼丝把自己咖喱角数量的1/11给了克劳迪娅。之后两人的咖喱角数量相同。如果一共有240个咖喱角，两人原来各有多少个？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 71,
@@ -3468,7 +3468,7 @@
     {
       "id": 57,
       "topic": "Fractions",
-      "question": "A florist sold 1/5 of orchids and 1/3 of roses, leaving 60. After 14 more roses sold, 1/2 of original roses remained. Find original fruit total.",
+      "question": "A florist sold 1/5 of the orchids and 1/3 of the roses yesterday. She had 60 orchids and roses left. She then sold another 14 roses and had 1/5 the original number of roses left. How many orchids and roses did she have at first?",
       "answer": "80 orchids and roses",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3511,7 +3511,7 @@
           "answerCheck": "兰花和玫瑰原来共有80朵。"
         }
       },
-      "questionZh": "一名花商卖出兰花的1/5和玫瑰的1/3后，剩下60朵。又卖出14朵玫瑰后，剩下的玫瑰是原来数量的1/2。求原来花的总数。",
+      "questionZh": "一名花商昨天卖出了兰花的1/5和玫瑰的1/3。她还剩下60朵兰花和玫瑰。她接着又卖出14朵玫瑰，这时剩下的玫瑰是原来玫瑰数量的1/5。她原来一共有多少朵兰花和玫瑰？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 71,
@@ -3531,7 +3531,7 @@
     {
       "id": 58,
       "topic": "Fractions",
-      "question": "Of Chinese, English, Malay books, 1/4 were Chinese and 1/3 of the remainder English. Malay exceeded English by 63. Find each count.",
+      "question": "There are some Chinese, English and Malay books on a shelf. 1/4 of the books are Chinese books. 1/5 of the remaining are English books. There are 63 more Malay books than English books. How many books of each type are there?",
       "answer": "Chinese: 35; English: 21; Malay: 84",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3574,7 +3574,7 @@
           "answerCheck": "中文书35本；英文书21本；马来文书84本。"
         }
       },
-      "questionZh": "中文书、英文书和马来文书中，中文书占1/4；余下的书中有1/3是英文书。马来文书比英文书多63本。求每种书各有多少本。",
+      "questionZh": "书架上有一些中文书、英文书和马来文书。其中1/4是中文书，余下的书中有1/5是英文书。马来文书比英文书多63本。每种书各有多少本？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 72,
@@ -3594,7 +3594,7 @@
     {
       "id": 59,
       "topic": "Fractions",
-      "question": "After selling 1/3 of apples and 7 pears, pears left were 1/4 apples left. Pears sold were 1/7 pears not sold. Find original fruit counts.",
+      "question": "Sandy had some apples and pears. After selling 1/3 of the apples and 7 pears, the number of pears left was 1/4 of the number of apples left. If the number of pears sold was 1/6 the number of pears that were not sold, how many fruit of each type did Sandy have at first?",
       "answer": "Apples: 252; Pears: 49",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3637,7 +3637,7 @@
           "answerCheck": "苹果252个；梨49个。"
         }
       },
-      "questionZh": "卖出苹果的1/3和7个梨后，剩下的梨是剩下苹果的1/4。卖出的梨是未卖出梨的1/7。求原来苹果和梨各有多少个。",
+      "questionZh": "桑迪有一些苹果和梨。卖出苹果的1/3和7个梨后，剩下的梨的数量是剩下的苹果的1/4。如果卖出的梨是未卖出的梨的1/6，桑迪原来每种水果各有多少个？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 72,
@@ -3657,7 +3657,7 @@
     {
       "id": 60,
       "topic": "Fractions",
-      "question": "1/4 of Mr Jones’s notes were $2; 2/3 of the rest were $10; remaining were $5. Total was $295. How many $10 notes?",
+      "question": "Mr Jones has some notes. 1/5 of them are 2-dollar notes. 3/8 of the rest are 10-dollar notes. The remaining notes are 5-dollar notes. The total sum of money he has is $295. How many 10-dollar notes does he have?",
       "answer": "15 ten-dollar notes",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -3700,7 +3700,7 @@
           "answerCheck": "有15张$10纸币。"
         }
       },
-      "questionZh": "琼斯先生的纸币中有1/4是$2纸币；其余纸币中有2/3是$10纸币，剩下的是$5纸币。总额为$295。有多少张$10纸币？",
+      "questionZh": "琼斯先生有一些纸币。其中1/5是2元纸币，其余纸币中的3/8是10元纸币，剩下的是5元纸币。他的钱的总额是$295。他有多少张10元纸币？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 72,
@@ -3720,7 +3720,7 @@
     {
       "id": 61,
       "topic": "Fractions",
-      "question": "Jim and Alice had marbles. 1/4 of Jim’s count was 1/3 of Alice’s. Jim gave Alice 30; Alice was then 40 ahead; Jim had 2/3 left. Find original counts.",
+      "question": "Jim and Alice shared some marbles. 1/2 of Jim's marbles were 2/3 of Alice's marbles. He gave 30 marbles to Alice and Alice now had 40 marbles more than Jim. Jim had 5/8 of his marbles left. How many marbles did each of them have at first?",
       "answer": "Jim: 80; Alice: 60",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3763,7 +3763,7 @@
           "answerCheck": "Jim有80个；Alice有60个。"
         }
       },
-      "questionZh": "吉姆和爱丽丝有一些弹珠。吉姆弹珠数的1/4等于爱丽丝弹珠数的1/3。吉姆给爱丽丝30颗后，爱丽丝比吉姆多40颗；吉姆还剩原来数量的2/3。求两人原来各有多少颗弹珠。",
+      "questionZh": "吉姆和爱丽丝分享了一些弹珠。吉姆弹珠数的1/2是爱丽丝弹珠数的2/3。他给了爱丽丝30颗弹珠，这时爱丽丝比吉姆多40颗弹珠。吉姆还剩下他原来弹珠的5/8。两人原来各有多少颗弹珠？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 73,
@@ -3783,7 +3783,7 @@
     {
       "id": 62,
       "topic": "Fractions",
-      "question": "Francis had $3.60 in $0.05 and $0.20 coins. 1/4 of coins were $0.20 coins. Find each coin count.",
+      "question": "Francis had a total of $3.60 in 5-cent and 20-cent coins. 2/3 of his coins were 20-cent coins. How many coins of each type did he have?",
       "answer": "Twenty-cent: 16; five-cent: 8",
       "model": "money-units",
       "hint": "Label each money amount. Draw equal units, then calculate the requested value.",
@@ -3826,7 +3826,7 @@
           "answerCheck": "20¢硬币16枚；5¢硬币8枚。"
         }
       },
-      "questionZh": "弗朗西斯有$3.60，由$0.05和$0.20硬币组成。其中1/4的硬币是$0.20硬币。求两种硬币各有多少枚。",
+      "questionZh": "弗朗西斯有$3.60，全部是5分和20分的硬币。他的硬币中有2/3是20分硬币。每种硬币各有多少枚？",
       "hintZh": "标出各项金额。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 73,
@@ -3846,7 +3846,7 @@
     {
       "id": 63,
       "topic": "Distance, Speed and Time",
-      "question": "Cars P, Q, R were 300 km apart at 8:30 am. Q met P at 11:30 am and R 30 min later; P drove 60 km/h. How far did Q travel between meetings?",
+      "question": "3 cars P, Q and R were travelling at uniform speed. Cars P and R started from the same location, Point A, and were travelling towards car Q. Car Q was heading towards Point A. The 3 cars were 300 km apart at 8.30 am. Car Q passed car P at 11.30 am. Car Q then passed car R 30 minutes later. If the speed of car P was 60 km/h, how much further did car Q travel from the meeting with car P before meeting with car R?",
       "answer": "20 km",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -3889,7 +3889,7 @@
           "answerCheck": "两次相遇之间，Q行驶了20 km。"
         }
       },
-      "questionZh": "上午8:30时，P、Q、R三辆车相距300 km。Q在上午11:30遇到P，30 min后遇到R；P的车速为60 km/h。求Q在两次相遇之间行驶了多远。",
+      "questionZh": "P、Q、R3辆车都以匀速行驶。P车和R车从同一个地点A出发，朝Q车行驶。Q车朝着A点行驶。上午8:30时，3辆车相距300 km。Q车在上午11:30与P车相遇，30分钟后与R车相遇。如果P车的速度是60 km/h，Q车从与P车相遇处起，再行驶多远才与R车相遇？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 74,
@@ -4287,7 +4287,7 @@
     {
       "id": 70,
       "topic": "Distance, Speed and Time",
-      "question": "Sean drove 90 km/h from 5:30 to 1:30. Mary made the same trip in 6 h. How far was Sean from the destination when they were 150 km apart?",
+      "question": "Sean drove at a uniform speed of 90 km/h. He started driving at 5.30 am and reached his destination at 1.30 pm. Mary started driving at the same time as Sean and reached the same destination in 6 hours. How far was Sean from his destination when he was 150 km apart from Mary?",
       "answer": "270 km",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -4330,7 +4330,7 @@
           "answerCheck": "答案：270 km。"
         }
       },
-      "questionZh": "肖恩从5:30到1:30以90 km/h行驶。玛丽用6 h走完相同的路程。当两人相距150 km时，肖恩离目的地还有多远？",
+      "questionZh": "肖恩以90 km/h的匀速行驶。他上午5:30开始驾驶，下午1:30到达目的地。玛丽与肖恩同时开始驾驶，用了6小时到达同一个目的地。当肖恩与玛丽相距150 km时，肖恩离目的地还有多远？",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 77,
@@ -4350,7 +4350,7 @@
     {
       "id": 71,
       "topic": "Distance, Speed and Time",
-      "question": "Mark left P at 10:00 am at 75 km/h. Jane left P 1 hour later at 120 km/h. She passed Mark after completing 2/5 of her journey and reached Q at 4:00 pm. (a) How far was Jane from Q when she passed Mark? (b) What speed did Mark travel at after the meeting if he reached Q at 3.30 pm?",
+      "question": "Mark left town P for town Q at 10 am, travelling at a uniform speed of 75 km/h. Jane left town P for town Q an hour after Mark, travelling at 120 km/h. She passed Mark after travelling 2/5 of the journey. She reached town Q at 4 pm. (a) How far was Jane from town Q when she passed Mark? (b) How fast should Mark travel after meeting Jane if he wanted to reach town Q at 3.30 pm? (*Assume that Jane travelled at uniform speed throughout the whole journey.)",
       "answer": "(a) 360 km; (b) 144 km/h",
       "model": "fraction-of-remainder",
       "hint": "Underline the given values. Draw equal units, then calculate the requested value.",
@@ -4393,7 +4393,7 @@
           "answerCheck": "答案：(a) 360 km；(b) 144 km/h。"
         }
       },
-      "questionZh": "马克上午10:00从P出发，速度为75 km/h。简在1小时后从P出发，速度为120 km/h。她走完全程的2/5时超过马克，并在下午4:00到达Q。(a)她超过马克时离Q多远？(b)若马克在相遇后于下午3:30到达Q，他相遇后的速度是多少？",
+      "questionZh": "马克上午10点从P镇出发前往Q镇，以75 km/h的匀速行驶。简在马克出发1小时后从P镇出发前往Q镇，以120 km/h行驶。她走完全程的2/5时超过了马克，并在下午4点到达Q镇。(a) 她超过马克时离Q镇多远？(b) 如果马克想在下午3:30到达Q镇，他与简相遇后应该以多快的速度行驶？（*假设简在整个行程中速度均匀。）",
       "hintZh": "标出已知量。画出等量单位图，再计算所求的值。",
       "answerVisual": {
         "sourcePdfPage": 77,
